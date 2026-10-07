@@ -1,0 +1,13 @@
+{
+  "inspectedDateMoscow": "2026-10-06",
+  "fileKey": "ANXj1DxD2mm9ZcxNNoNLdE",
+  "screen": "129:10031",
+  "field": "129:10048",
+  "icon": "142:14622",
+  "asset": "header-search-clear.svg",
+  "sourceHash": "e0a7edf3618b25b1bb42c4878d0069c4d851e96d",
+  "originalDimensions": [16, 16],
+  "sourceFill": "#747474",
+  "figmaModified": false,
+  "verified": "Native dimensions, 12px right inset, fixed 231x36 field; pointer and keyboard clearing with focus retention"
+}

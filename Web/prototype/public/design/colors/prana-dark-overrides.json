@@ -1,0 +1,11 @@
+{
+  "source": "https://www.figma.com/design/ANXj1DxD2mm9ZcxNNoNLdE/Prana-Web?node-id=41-7245",
+  "reviewedOn": "2026-10-05",
+  "method": "Card fill retained from Figma. Page and control fills are exact HSL values selected by the user in browser DevTools on 2026-10-05. All unlisted primitives retain their previous values.",
+  "pageBackground": { "family": "background", "step": "200", "value": "hsl(0 0% 0%)", "changed": false },
+  "overrides": [
+    { "family": "background", "step": "100", "value": "#101010", "role": "Фон карточки / поверхности", "nodeId": "54:5361", "figmaToken": "prana-surface" },
+    { "family": "background", "step": "200", "value": "hsl(0 0% 0%)", "role": "Общий фон страницы", "origin": "Prana / user", "source": "User selection in browser DevTools, 2026-10-05" },
+    { "family": "gray", "step": "200", "value": "hsl(0 0% 15%)", "role": "Кнопки и теги внутри карточки", "origin": "Prana / user", "source": "User selection in browser DevTools, 2026-10-05" }
+  ]
+}

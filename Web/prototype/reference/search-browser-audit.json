@@ -1,0 +1,235 @@
+{
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "sourceNodes": [
+    "129:7648",
+    "129:9498",
+    "129:10031",
+    "129:11227"
+  ],
+  "checks": {
+    "idle": {
+      "cards": 87,
+      "headingY": 176,
+      "height": 1000,
+      "query": "",
+      "searchBackground": "rgb(38, 38, 38)",
+      "searchBounds": {
+        "bottom": 56,
+        "height": 36,
+        "left": 874.5,
+        "right": 1105.5,
+        "top": 20,
+        "width": 231,
+        "x": 874.5,
+        "y": 20
+      },
+      "width": 1440
+    },
+    "focus": {
+      "background": "rgb(53, 53, 53)",
+      "fadeDuration": "0.24s",
+      "highlightDuration": "0.15s, 0.15s",
+      "opacity": {
+        ".category-overflow": "0.2",
+        ".delivery-address": "0.2",
+        ".header-cart": "0.2",
+        ".header-logo": "1",
+        ".product-card": "1",
+        ".profile-avatar": "0.2",
+        ".search-field": "1"
+      },
+      "outline": "rgb(75, 75, 75) 0px 0px 0px 1px inset"
+    },
+    "hoverAfterEscape": {
+      "background": "rgb(53, 53, 53)",
+      "cards": 87,
+      "focused": "BODY",
+      "hover": true,
+      "navigationOpacity": "1",
+      "outline": "rgba(0, 0, 0, 0) 0px 0px 0px 1px inset"
+    },
+    "avocado": {
+      "cardWidths": [
+        268,
+        268,
+        268,
+        268
+      ],
+      "cards": 19,
+      "gridY": 237,
+      "heading": "19 results for “Avocado”",
+      "headingRect": {
+        "bottom": 205,
+        "height": 29,
+        "left": 152.5,
+        "right": 1272.5,
+        "top": 176,
+        "width": 1120,
+        "x": 152.5,
+        "y": 176
+      },
+      "ids": [
+        "5953310a-d6c6-4d8c-b3fc-1e88283ff884",
+        "ddae0e45-84a2-4dd7-bad2-a631f9c4cdb8",
+        "d9c358a9-315f-4a77-a380-9910ae3db226",
+        "8b0f30eb-d270-4d44-afef-1b9fe3a58fa7",
+        "cfa2335e-ef0c-422d-b7ab-f55cd0133596",
+        "03c7bbdd-2879-4020-9720-b1119f015601",
+        "3e1d8b1e-0f16-4864-8266-6600bc494143",
+        "e5c02e61-e73b-45d0-a5a1-51a7d407cc1b",
+        "6f762826-b838-4fa2-b82c-ef90d37ce818",
+        "78124d94-8fc8-4690-95a4-0cb822d3e103",
+        "5f51d248-82ef-4ea2-9b08-3471be14d2ee",
+        "9a7e2a7e-5c5b-48be-8325-aa67bf85f950",
+        "a5e16810-03fa-4c2e-868b-687c4a2e46e8",
+        "c9d19ac8-aa99-4eaf-bf42-3b0c0535c6a2",
+        "8316bcff-fc0b-402c-9f6b-163f27e6ac99",
+        "fff73bce-a5ff-4e09-b2f1-a6d17cded6db",
+        "da24f77b-cb2a-47a6-b128-0936301c4279",
+        "7c04a38d-0ebc-4196-a639-1bd5a5081e53",
+        "00e90599-2d08-46ce-a62d-37ca60a60857"
+      ],
+      "imagesComplete": false
+    },
+    "normalizedQuery": {
+      "cards": 1,
+      "focus": "Search menu",
+      "heading": "1 result for “AVOCADO   toast”",
+      "scrollY": 0
+    },
+    "keyboardPurchase": {
+      "active": "Increase quantity of Avocado toast (gluten-free sourdough, poached egg) (GF, LF)",
+      "navigationOpacity": "0.459919",
+      "path": "/",
+      "quantity": "1 item, $11.95",
+      "query": "  AVOCADO   toast  "
+    },
+    "rapidPurchase": {
+      "navOpacity": "1",
+      "path": "/",
+      "quantity": "4 items, $47.80"
+    },
+    "pdpQuantity": {
+      "path": "/dish/5953310a-d6c6-4d8c-b3fc-1e88283ff884",
+      "quantity": "4 items, $47.80"
+    },
+    "backToResults": {
+      "focus": "Avocado toast (gluten-free sourdough, poached egg) (GF, LF)",
+      "heading": "1 result for “AVOCADO   toast”",
+      "path": "/",
+      "quantity": "4 items, $47.80",
+      "query": "  AVOCADO   toast  "
+    },
+    "empty": {
+      "cards": 8,
+      "gridY": 266,
+      "heading": "No results for “asdasdasd”,\nyou might like these instead:",
+      "headingHeight": 58,
+      "headingY": 176,
+      "ids": [
+        "af61daf6-a49d-4eeb-bea1-5a7da211641e",
+        "d9c358a9-315f-4a77-a380-9910ae3db226",
+        "1a8a038d-c7d5-4ec5-8d95-6da49827a1bc",
+        "3690cb8c-0828-464a-b640-492b692b3383",
+        "360465bb-5565-47c6-b867-60b83bf1087f",
+        "c9d19ac8-aa99-4eaf-bf42-3b0c0535c6a2",
+        "c23c1f8c-b141-4910-8160-4b941950235e",
+        "89b9b5ee-dfd7-47c5-bc61-0ed9b011d754"
+      ],
+      "imagesLoaded": true
+    },
+    "recommendationsStable": [
+      "af61daf6-a49d-4eeb-bea1-5a7da211641e",
+      "d9c358a9-315f-4a77-a380-9910ae3db226",
+      "1a8a038d-c7d5-4ec5-8d95-6da49827a1bc",
+      "3690cb8c-0828-464a-b640-492b692b3383",
+      "360465bb-5565-47c6-b867-60b83bf1087f",
+      "c9d19ac8-aa99-4eaf-bf42-3b0c0535c6a2",
+      "c23c1f8c-b141-4910-8160-4b941950235e",
+      "89b9b5ee-dfd7-47c5-bc61-0ed9b011d754"
+    ],
+    "rapidQueries": {
+      "cards": 1,
+      "heading": "1 result for “avocado toast”",
+      "transform": "matrix(1, 0, 0, 1, 0, 1.14458)"
+    },
+    "categoryExit": {
+      "active": "Healthy Bowls",
+      "cards": 87,
+      "headingY": 176,
+      "navOpacity": "1",
+      "query": "",
+      "scrollY": 1641
+    },
+    "searchFromScrolled": {
+      "cards": 5,
+      "heading": "5 results for “Beef”",
+      "headingY": 176,
+      "scrollY": 0
+    },
+    "escape": {
+      "cards": 87,
+      "focusedElement": "BODY",
+      "navOpacity": "1",
+      "query": "",
+      "scrollY": 0
+    },
+    "motionSample": {
+      "card": {
+        "opacity": "0.0786773",
+        "transform": "matrix(1, 0, 0, 1, 0, 3.64454)"
+      },
+      "navOpacity": "0.930218"
+    },
+    "motionSettled": {
+      "navOpacity": "0.2",
+      "opacity": "1",
+      "transform": "none"
+    },
+    "searchFromPdp": {
+      "cards": 7,
+      "focus": "Search menu",
+      "heading": "7 results for “Healthy Bowls”",
+      "path": "/",
+      "scrollY": 0
+    },
+    "final": {
+      "cards": 19,
+      "fieldFocused": true,
+      "heading": "19 results for “Avocado”",
+      "horizontalOverflow": false,
+      "navOpacity": "0.2",
+      "visibleImagesLoaded": true
+    }
+  },
+  "checkedAt": "2026-10-05T17:48:00.457Z",
+  "timezone": "Europe/Moscow",
+  "status": {
+    "implemented": true,
+    "browserVerified": true,
+    "userVisualApproval": false,
+    "published": false
+  },
+  "verification": {
+    "build": "passed",
+    "motionControllerTests": "9 passed; covers scroll controllers, not React search",
+    "browserLogs": [],
+    "reducedMotion": "CSS and React branches inspected, browser OS preference not emulated"
+  },
+  "notes": [
+    "Figma opacity 25% intentionally overridden by user-requested 20%.",
+    "Actual catalogue data replaces Figma placeholder products and counts.",
+    "Offscreen result photos may remain unloaded due to native lazy loading; fallback eight photos loaded.",
+    "Motion samples are intermediate and settled readings, not a full frame trace.",
+    "Fast Refresh during implementation reset demo quantities before later query-only checks."
+  ],
+  "screenshots": [
+    "search-hover.png",
+    "search-focused.png",
+    "search-results.png",
+    "search-empty.png"
+  ]
+}

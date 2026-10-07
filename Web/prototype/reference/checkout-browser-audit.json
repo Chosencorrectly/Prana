@@ -1,0 +1,255 @@
+{
+  "date": "2026-10-06",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "figmaNode": "8:18195",
+  "initial": {
+    "assets": [
+      {
+        "height": 16,
+        "loaded": true,
+        "src": "/assets/cart-promo.svg",
+        "width": 16
+      },
+      {
+        "height": 20,
+        "loaded": true,
+        "src": "/assets/checkout-points-mark.svg",
+        "width": 20
+      },
+      {
+        "height": 14,
+        "loaded": true,
+        "src": "/assets/checkout-mastercard.svg",
+        "width": 22
+      },
+      {
+        "height": 14,
+        "loaded": true,
+        "src": "/assets/checkout-mastercard.svg",
+        "width": 22
+      },
+      {
+        "height": 14,
+        "loaded": true,
+        "src": "/assets/checkout-mastercard.svg",
+        "width": 22
+      }
+    ],
+    "focus": "checkout-title",
+    "geometry": {
+      ".cart-promo": {
+        "height": 65,
+        "width": 664,
+        "x": 152.5,
+        "y": 795
+      },
+      ".checkout-actions": {
+        "height": 54,
+        "width": 664,
+        "x": 152.5,
+        "y": 1297
+      },
+      ".checkout-bonuses": {
+        "height": 162,
+        "width": 664,
+        "x": 152.5,
+        "y": 912
+      },
+      ".checkout-contact-fields": {
+        "height": 337,
+        "width": 664,
+        "x": 152.5,
+        "y": 290
+      },
+      ".checkout-delivery-tabs": {
+        "height": 55,
+        "width": 304,
+        "x": 152.5,
+        "y": 195
+      },
+      ".checkout-layout": {
+        "height": 1222,
+        "width": 1120,
+        "x": 152.5,
+        "y": 129
+      },
+      ".checkout-page": {
+        "height": 1368,
+        "width": 1120,
+        "x": 152.5,
+        "y": 76
+      },
+      ".checkout-payment": {
+        "height": 131,
+        "width": 664,
+        "x": 152.5,
+        "y": 1106
+      },
+      ".checkout-summary": {
+        "height": 510,
+        "width": 391,
+        "x": 881.5,
+        "y": 129
+      },
+      ".checkout-time": {
+        "height": 79,
+        "width": 664,
+        "x": 152.5,
+        "y": 651
+      },
+      ".checkout-title": {
+        "height": 29,
+        "width": 664,
+        "x": 152.5,
+        "y": 150
+      },
+      ".site-footer": {
+        "height": 397,
+        "width": 1120,
+        "x": 152.5,
+        "y": 1444
+      }
+    },
+    "promo": "applied",
+    "readonly": [
+      {
+        "readOnly": true,
+        "value": "Alex"
+      },
+      {
+        "readOnly": true,
+        "value": "+625585854455"
+      },
+      {
+        "readOnly": true,
+        "value": "Jl. Raya Padonan No.41a, Tibubeneng..."
+      },
+      {
+        "readOnly": true,
+        "value": "Leave at the gate, call on arrival"
+      }
+    ],
+    "reduced": false,
+    "subtotal": "Subtotal · 6 items\n$81.70\nDelivery · free\n$0\nDiscount\n−$8.17\n−$8.17\nAccrual bonuses\n+$2",
+    "title": "Checkout — Prana",
+    "total": "Total\n$73.53\n$73.53",
+    "url": "/checkout"
+  },
+  "fieldFocus": {
+    "background": "rgb(46, 46, 46)",
+    "focus": true,
+    "shadow": "rgb(75, 75, 75) 0px 0px 0px 1px inset",
+    "transition": "0.15s, 0.15s"
+  },
+  "editReset": {
+    "status": "debouncing",
+    "total": "Total\n$81.70\n$73.53\n$81.70"
+  },
+  "loading": {
+    "animation": "promo-spin",
+    "duration": "0.7s",
+    "timing": "linear"
+  },
+  "invalid": {
+    "invalid": "true",
+    "message": "Promo code not found",
+    "total": "Total\n$81.70\n$81.70"
+  },
+  "staticActions": {
+    "delivery": [
+      "true",
+      "false"
+    ],
+    "focus": "Pickup",
+    "forms": 0,
+    "leave": "true",
+    "payment": [
+      "true",
+      "false",
+      "false",
+      null
+    ],
+    "placeOrder": "true",
+    "points": "476\nPrana points",
+    "url": "/checkout"
+  },
+  "backToCart": {
+    "focus": "cart-button cart-checkout",
+    "promo": "1111",
+    "scrollY": 0,
+    "status": "applied",
+    "total": "Total\n$73.53\n$73.53",
+    "url": "/cart"
+  },
+  "historyForward": {
+    "url": "http://127.0.0.1:5180/checkout",
+    "promo": "1111"
+  },
+  "headerReturn": {
+    "url": "http://127.0.0.1:5180/cart",
+    "focus": "cart-button cart-checkout"
+  },
+  "finalButton": {
+    "buttonText": "Place order\n$73.53\n$73.53",
+    "disabled": "true",
+    "focus": "cart-button cart-checkout checkout-place-order",
+    "url": "/checkout"
+  },
+  "direct": {
+    "url": "http://127.0.0.1:5180/checkout",
+    "empty": true
+  },
+  "reload": {
+    "items": 0,
+    "promo": "",
+    "status": "idle",
+    "total": "Total\n$0.00\n$0.00",
+    "url": "/checkout"
+  },
+  "directReturn": {
+    "url": "http://127.0.0.1:5180/cart",
+    "empty": true
+  },
+  "fieldSettled": {
+    "background": "rgb(46, 46, 46)",
+    "outline": "none",
+    "readOnlyValue": "Alex",
+    "shadow": "rgb(75, 75, 75) 0px 0px 0px 1px inset",
+    "transition": "0.15s, 0.15s"
+  },
+  "final": {
+    "fieldBackground": "rgb(38, 38, 38)",
+    "headerX": 152.5,
+    "mainX": 152.5,
+    "overflow": false,
+    "path": "/checkout",
+    "promo": "applied",
+    "surface": "rgb(16, 16, 16)",
+    "total": "$73.53"
+  },
+  "logs": [
+    {
+      "level": "error",
+      "message": "The final argument passed to %s changed size between renders. The order and size of this array must remain constant.\n\nPrevious: %s\nIncoming: %s useEffect [, false, true] [, false, true, false]",
+      "timestamp": "2026-10-06T12:39:06.235Z",
+      "url": "http://127.0.0.1:5180/node_modules/.vite/deps/react-dom_client.js?v=4dcf0a0a"
+    }
+  ],
+  "checks": {
+    "build": "passed",
+    "motionTests": "9/9",
+    "cartTests": "7/7"
+  },
+  "notes": [
+    "ARIA-disabled controls remain focusable for visual focus review but have no action handlers; native Enter on Pickup and Place order did not change state or route.",
+    "The automation press locator blocked on aria-disabled Pickup; keyboard Tab then native Return was used to inspect its real no-op behavior.",
+    "innerText samples include AnimatedValue aria-hidden sizing/animation copies; current screen-reader value and visual screenshot show one total.",
+    "Figma sample contacts, points, saved cards, time slots, free delivery and +$2 accrual are display-only; no customer or loyalty/payment data is loaded.",
+    "Reduced-motion CSS/shared React branches inspected; OS reduced motion not emulated. Desktop IAB only; no full accessibility/performance/cross-browser audit.",
+    "One development-only React warning occurred during Fast Refresh when the title effect gained isCheckout in its dependency list. A separate fresh page load logged no warnings or errors."
+  ],
+  "cleanLoadLogs": []
+}

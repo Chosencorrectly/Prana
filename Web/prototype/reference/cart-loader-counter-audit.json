@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-06",
+  "before": {
+    "duration": "0.7s",
+    "reduced": false,
+    "timing": "steps(8)",
+    "transform": "matrix(1, 0, 0, 1, 0, 0)"
+  },
+  "frames": [
+    {
+      "duration": "0.7s",
+      "timing": "linear",
+      "transform": "matrix(0.878035, 0.478596, -0.478596, 0.878035, 0, 0)"
+    },
+    {
+      "duration": "0.7s",
+      "timing": "linear",
+      "transform": "matrix(0.796901, 0.60411, -0.60411, 0.796901, 0, 0)"
+    },
+    {
+      "duration": "0.7s",
+      "timing": "linear",
+      "transform": "matrix(0.773941, 0.633258, -0.633258, 0.773941, 0, 0)"
+    },
+    {
+      "duration": "0.7s",
+      "timing": "linear",
+      "transform": "matrix(0.773941, 0.633258, -0.633258, 0.773941, 0, 0)"
+    },
+    {
+      "duration": "0.7s",
+      "timing": "linear",
+      "transform": "matrix(0.670919, 0.741531, -0.741531, 0.670919, 0, 0)"
+    },
+    {
+      "duration": "0.7s",
+      "timing": "linear",
+      "transform": "matrix(0.593587, 0.80477, -0.80477, 0.593587, 0, 0)"
+    },
+    {
+      "duration": "0.7s",
+      "timing": "linear",
+      "transform": "matrix(0.593587, 0.80477, -0.80477, 0.593587, 0, 0)"
+    },
+    {
+      "duration": "0.7s",
+      "timing": "linear",
+      "transform": "matrix(0.488825, 0.872382, -0.872382, 0.488825, 0, 0)"
+    },
+    {
+      "duration": "0.7s",
+      "timing": "linear",
+      "transform": "matrix(0.433892, 0.900965, -0.900965, 0.433892, 0, 0)"
+    },
+    {
+      "duration": "0.7s",
+      "timing": "linear",
+      "transform": "matrix(0.377295, 0.926093, -0.926093, 0.377295, 0, 0)"
+    },
+    {
+      "duration": "0.7s",
+      "timing": "linear",
+      "transform": "matrix(0.259117, 0.965846, -0.965846, 0.259117, 0, 0)"
+    },
+    {
+      "duration": "0.7s",
+      "timing": "linear",
+      "transform": "matrix(0.197959, 0.98021, -0.98021, 0.197959, 0, 0)"
+    },
+    {
+      "duration": "0.7s",
+      "timing": "linear",
+      "transform": "matrix(0.13691, 0.990583, -0.990583, 0.13691, 0, 0)"
+    },
+    {
+      "duration": "0.7s",
+      "timing": "linear",
+      "transform": "matrix(0.0744407, 0.997225, -0.997225, 0.0744407, 0, 0)"
+    },
+    {
+      "duration": "0.7s",
+      "timing": "linear",
+      "transform": "matrix(0.0744407, 0.997225, -0.997225, 0.0744407, 0, 0)"
+    },
+    {
+      "duration": "0.7s",
+      "timing": "linear",
+      "transform": "matrix(-0.0750135, 0.997183, -0.997183, -0.0750135, 0, 0)"
+    },
+    {
+      "duration": "0.7s",
+      "timing": "linear",
+      "transform": "matrix(-0.17413, 0.984723, -0.984723, -0.17413, 0, 0)"
+    },
+    {
+      "duration": "0.7s",
+      "timing": "linear",
+      "transform": "matrix(-0.17413, 0.984723, -0.984723, -0.17413, 0, 0)"
+    },
+    {
+      "duration": "0.7s",
+      "timing": "linear",
+      "transform": "matrix(-0.318945, 0.947773, -0.947773, -0.318945, 0, 0)"
+    },
+    {
+      "duration": "0.7s",
+      "timing": "linear",
+      "transform": "matrix(-0.542366, 0.840142, -0.840142, -0.542366, 0, 0)"
+    },
+    {
+      "duration": "0.7s",
+      "timing": "linear",
+      "transform": "matrix(-0.623483, 0.781837, -0.781837, -0.623483, 0, 0)"
+    },
+    {
+      "duration": "0.7s",
+      "timing": "linear",
+      "transform": "matrix(-0.623483, 0.781837, -0.781837, -0.623483, 0, 0)"
+    },
+    {
+      "duration": "0.7s",
+      "timing": "linear",
+      "transform": "matrix(-0.733042, 0.680184, -0.680184, -0.733042, 0, 0)"
+    },
+    {
+      "duration": "0.7s",
+      "timing": "linear",
+      "transform": "matrix(-0.797248, 0.603653, -0.603653, -0.797248, 0, 0)"
+    }
+  ],
+  "badge": {
+    "background": "rgb(255, 255, 255)",
+    "badgeRect": {
+      "bottom": 46,
+      "height": 16,
+      "left": 1180.375,
+      "right": 1196.375,
+      "top": 30,
+      "width": 16,
+      "x": 1180.375,
+      "y": 30
+    },
+    "basketLoaded": true,
+    "basketRect": {
+      "bottom": 46,
+      "height": 16,
+      "left": 1129.609375,
+      "right": 1145.609375,
+      "top": 30,
+      "width": 16,
+      "x": 1129.609375,
+      "y": 30
+    },
+    "cartRect": {
+      "bottom": 56,
+      "height": 36,
+      "left": 1109.5,
+      "right": 1216.5,
+      "top": 20,
+      "width": 107,
+      "x": 1109.5,
+      "y": 20
+    },
+    "color": "rgb(0, 0, 0)"
+  },
+  "result": {
+    "loaderPresent": false,
+    "promoStatus": "applied",
+    "total": "$73.53"
+  },
+  "verification": {
+    "build": "passed",
+    "motionTests": 9,
+    "osReducedMotionEmulated": false,
+    "scope": "Two CSS changes; reduced-motion rule retained; 24 DOM samples with 19 distinct continuous rotation transforms."
+  }
+}

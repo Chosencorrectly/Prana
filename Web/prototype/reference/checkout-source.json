@@ -1,0 +1,15 @@
+{
+  "inspectedDateMoscow": "2026-10-06",
+  "figmaFile": "ANXj1DxD2mm9ZcxNNoNLdE",
+  "nodeId": "8:18195",
+  "figmaModified": false,
+  "reference": "figma-checkout-current.png",
+  "context": "figma-checkout-context.txt",
+  "downloadedAssets": {
+    "checkout-mastercard.svg": { "sourceHash": "0609adc30ec66528e4e2f171d5f5f950178baf7a", "width": 22, "height": 14 },
+    "checkout-points-mark.svg": { "sourceHash": "935a356e613d7de5896e9b0d48cd6eea696388b4", "width": 20, "height": 20 }
+  },
+  "implementation": "/checkout",
+  "status": "implemented and locally checked; user approval pending; not published",
+  "adaptations": ["Existing Prana color roles and shared header/footer", "Actual cart items, quantities, subtotal, promo discount and total replace inconsistent Figma demo amounts", "Figma contact, delivery, time, loyalty and payment examples remain display-only"]
+}

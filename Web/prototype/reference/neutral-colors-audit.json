@@ -1,0 +1,134 @@
+{
+  "cards": 87,
+  "colors": {
+    "button": {
+      "background": "rgb(26, 26, 26)",
+      "color": "rgb(237, 237, 237)"
+    },
+    "card": {
+      "background": "rgb(10, 10, 10)",
+      "color": "rgb(237, 237, 237)"
+    },
+    "category": {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(161, 161, 161)"
+    },
+    "footer": {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(161, 161, 161)"
+    },
+    "from": {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(135, 135, 135)"
+    },
+    "header": {
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(237, 237, 237)"
+    },
+    "kcal": {
+      "background": "rgb(26, 26, 26)",
+      "color": "rgb(237, 237, 237)"
+    },
+    "navigation": {
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(237, 237, 237)"
+    },
+    "page": {
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(237, 237, 237)"
+    },
+    "primary": {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(237, 237, 237)"
+    },
+    "search": {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(237, 237, 237)"
+    },
+    "secondary": {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(161, 161, 161)"
+    },
+    "selected": {
+      "background": "rgb(237, 237, 237)",
+      "color": "rgb(0, 0, 0)"
+    },
+    "tag": {
+      "background": "rgb(26, 26, 26)",
+      "color": "rgb(237, 237, 237)"
+    },
+    "tertiary": {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(135, 135, 135)"
+    }
+  },
+  "geometry": {
+    "cardWidth": 268,
+    "columns": "268px 268px 268px 268px",
+    "container": 1120,
+    "documentOverflow": -15,
+    "gap": "16px",
+    "navTop": 79
+  },
+  "headerFade": "linear-gradient(90deg, rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+  "pairs": [
+    {
+      "background": "rgb(10, 10, 10)",
+      "foreground": "rgb(237, 237, 237)",
+      "ratio": 16.91088278219183,
+      "role": "Title"
+    },
+    {
+      "background": "rgb(10, 10, 10)",
+      "foreground": "rgb(161, 161, 161)",
+      "ratio": 7.662827876742547,
+      "role": "Description"
+    },
+    {
+      "background": "rgb(26, 26, 26)",
+      "foreground": "rgb(135, 135, 135)",
+      "ratio": 4.844720368598141,
+      "role": "Macro label"
+    },
+    {
+      "background": "rgb(26, 26, 26)",
+      "foreground": "rgb(135, 135, 135)",
+      "ratio": 4.844720368598141,
+      "role": "From"
+    },
+    {
+      "background": "rgb(26, 26, 26)",
+      "foreground": "rgb(237, 237, 237)",
+      "ratio": 14.866167120520462,
+      "role": "Price"
+    },
+    {
+      "background": "rgb(26, 26, 26)",
+      "foreground": "rgb(135, 135, 135)",
+      "ratio": 4.844720368598141,
+      "role": "Kcal label"
+    },
+    {
+      "background": "rgb(0, 0, 0)",
+      "foreground": "rgb(161, 161, 161)",
+      "ratio": 8.128002882918869,
+      "role": "Category"
+    },
+    {
+      "background": "rgb(237, 237, 237)",
+      "foreground": "rgb(0, 0, 0)",
+      "ratio": 17.937464630197162,
+      "role": "Selected category"
+    },
+    {
+      "background": "rgb(0, 0, 0)",
+      "foreground": "rgb(161, 161, 161)",
+      "ratio": 8.128002882918869,
+      "role": "Footer copy"
+    }
+  ],
+  "viewport": [
+    1440,
+    1000
+  ]
+}

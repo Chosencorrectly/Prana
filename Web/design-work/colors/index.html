@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ru" data-prana-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prana — цветовые шкалы</title>
+  <link rel="stylesheet" href="./tokens.css" />
+  <link rel="stylesheet" href="./preview.css" />
+</head>
+<body>
+  <main>
+    <header>
+      <div><p class="eyebrow">PRANA / FOUNDATIONS</p><h1>Цветовые шкалы</h1><p class="intro">Выбранные значения: фон <strong>hsl(0 0% 0%)</strong>, кнопки и теги <strong>hsl(0 0% 15%)</strong>. Карточка — <strong>#101010</strong>. Светлые уровни Geist сохранены. Основной Amber — <strong>#EA5C00</strong>.</p></div>
+      <div class="theme-switch" role="group" aria-label="Тема палитры"><button id="dark-theme" aria-pressed="true">Тёмная</button><button id="light-theme" aria-pressed="false">Светлая</button></div>
+    </header>
+    <div class="tools"><a href="https://vercel.com/geist/colors" target="_blank" rel="noreferrer">Основа: Geist Colors ↗</a><span>sRGB · 100–1000 · Нажми на образец, чтобы скопировать значение</span><a href="./geist-source.json" download>Исходник Geist ↓</a><a href="./tokens.css" download>CSS ↓</a><a href="./palette.json" download>JSON ↓</a></div>
+    <div id="scales"></div>
+    <section class="contrast-section"><h2>Текст на #EA5C00</h2><div id="contrast-examples"></div><p class="note">Расчёты — для конкретных пар, не аудит сайта. Третичный #878787 на новой заливке #262626 даёт около 4,2:1, ниже 4,5:1. Светлые уровни сохранены по текущему решению.</p></section>
+    <footer>100–300: фоны компонентов · 400–600: границы · 700–800: акцентные заливки · 900–1000: текст и иконки<br />Номера обозначают роли, поэтому шкала не обязана быть линейной по светлоте. Gray Alpha сохраняет исходную прозрачность.</footer>
+  </main>
+  <div id="copy-status" role="status" aria-live="polite"></div>
+  <script type="module" src="./preview.js"></script>
+</body>
+</html>

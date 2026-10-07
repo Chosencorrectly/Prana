@@ -1,0 +1,594 @@
+const imgIcPromocode = "http://localhost:3845/assets/7b6730944c50b88676bba4ef480f48ef408395c2.svg";
+const imgGroup = "http://localhost:3845/assets/0609adc30ec66528e4e2f171d5f5f950178baf7a.svg";
+const imgGroup1410094802 = "http://localhost:3845/assets/17b28350bbc6a4dd28648405549f5535364fafb3.svg";
+const imgGroup1410094951 = "http://localhost:3845/assets/4346774763d6d16a1afdabcb081f8ae4ed370ca7.svg";
+const imgMaskGroup = "http://localhost:3845/assets/01c00b0a1f22deb19441adbf9e0e24ebd0a83fec.svg";
+const imgMaskGroup1 = "http://localhost:3845/assets/3b2d0978f5e0ff276bdc11a731a898d6daea5f04.svg";
+const imgLine1 = "http://localhost:3845/assets/ab84096a66edc6209c7e350c3f8b8ce2bc4b3fe5.svg";
+const imgLine2 = "http://localhost:3845/assets/fbce4dce5a9907d640fe5bb529f809dd6e93c651.svg";
+const imgMapPin = "http://localhost:3845/assets/4d6bd91df362af1dac4cabfd009d11e71d021446.svg";
+const imgIcWhatsapp = "http://localhost:3845/assets/0e8f08d74f85bd19cf0bfe6b9a92438bb1ea187a.svg";
+const imgIcChevronRightSm = "http://localhost:3845/assets/0bc46e6f29c45307222e73641997d06bba75b99b.svg";
+const imgEllipse4946 = "http://localhost:3845/assets/056cf206f6283af02878fb87d599e62682303d32.svg";
+const imgMaskGroup2 = "http://localhost:3845/assets/935a356e613d7de5896e9b0d48cd6eea696388b4.svg";
+const imgLine15 = "http://localhost:3845/assets/6edbd7a921ec152a70c69656e2e165c5d4899b27.svg";
+const imgLine14 = "http://localhost:3845/assets/d47adea64c55a8a04409b947b082e9e51dfc20ad.svg";
+const imgLine13 = "http://localhost:3845/assets/a4a20e269dccf5d5dbb1772cef53e16c9fde0ef1.svg";
+const imgLine16 = "http://localhost:3845/assets/ce85ab80164d6c68adcc891b98d09f2b3a50a593.svg";
+const imgMapPinLocation = "http://localhost:3845/assets/3abb3f426387837ea12439f3e95a3ff358edde25.svg";
+const imgMaskGroup3 = "http://localhost:3845/assets/521affdbf4bc178da71506911b8a69d7b71538b9.svg";
+const imgMagnifyingGlassSearch = "http://localhost:3845/assets/c8b5a51dc78acb3a57c7acbc9cd8911ff1f0ada1.svg";
+const imgBasket1CartShopping = "http://localhost:3845/assets/824bcb7458e4df3f22ab32fb9e8eef866d429802.svg";
+const imgPeopleUserPersonAvatar = "http://localhost:3845/assets/7631da34c85f967e4240af5e65136bc0898948b3.svg";
+
+function IcPromocode({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="1:42" data-name="ic-promocode">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIcPromocode} />
+    </div>
+  );
+}
+
+function SmblMastercardX({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[32px]"} data-node-id="1:24" data-name="smbl-mastercard-x2">
+      <div className="absolute inset-[28.13%_15.63%]" data-node-id="1:25" data-name="group">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+      </div>
+    </div>
+  );
+}
+
+export default function Desktop() {
+  return (
+    <div className="bg-black relative size-full" data-node-id="8:18195" data-name="Desktop - 17">
+      <div className="absolute contents left-[160px] top-[1441px]" data-node-id="8:18215">
+        <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Regular'] leading-[normal] left-[calc(25%+306px)] not-italic text-[#727272] text-[12px] top-[1497px] w-[222px]" data-node-id="8:18216">
+          Heal Food Delivery Jalan Raya Padonan No. 41 A, Tibubeneng, Kuta Utara, Badung, Bali Bank name BCA Account number 7703037854
+        </p>
+        <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Regular'] leading-[normal] left-[calc(75%-62px)] not-italic text-[#727272] text-[12px] top-[1645px] w-[222px]" data-node-id="8:18217">
+          Download Now!
+        </p>
+        <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Regular'] leading-[normal] left-[160px] not-italic text-[#727272] text-[12px] top-[1731px] w-[222px]" data-node-id="8:18218">
+          PRANA 2026
+        </p>
+        <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Bold'] leading-[0] left-[calc(25%+306px)] not-italic text-[#727272] text-[0px] top-[1569px] w-[214px]" data-node-id="8:18219">
+          <span className="font-['SF_Pro_Display:Regular'] leading-[normal] text-[12px]">{`Runs on an reliable core `}</span>
+          <a className="[text-decoration-skip-ink:none] [text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid font-['SF_Pro_Display:Regular'] leading-[normal] text-[12px] underline" href="https://foodpicasso.com/en" target="_blank">
+            <span className="[text-decoration-skip-ink:none] [text-underline-position:from-font] decoration-from-font decoration-solid underline" href="https://foodpicasso.com/en" target="_blank">
+              Foodpicásso
+            </span>
+          </a>
+          <span className="font-['SF_Pro_Display:Regular'] leading-[normal] text-[12px]">{` ver. 2`}</span>
+        </p>
+        <div className="absolute contents left-[160px] top-[1506px]" data-node-id="8:18220">
+          <div className="absolute contents left-[187.39px] top-[1506.16px]" data-node-id="8:18221">
+            <div className="absolute contents left-[187.39px] top-[1506.16px]" data-node-id="8:18222">
+              <div className="absolute contents left-[187.39px] top-[1506.16px]" data-node-id="8:18223">
+                <div className="absolute contents left-[187.39px] top-[1506.16px]" data-node-id="8:18224">
+                  <div className="absolute contents left-[187.39px] top-[1506.16px]" data-node-id="8:18225">
+                    <div className="absolute contents left-[187.39px] top-[1506.16px]" data-node-id="8:18226">
+                      <div className="absolute h-[22.014px] left-[187.39px] top-[1506.16px] w-[97.61px]" data-node-id="8:18227">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1410094802} />
+                      </div>
+                      <div className="absolute h-[22.182px] left-[203.7px] top-[1506.16px] w-[16.673px]" data-node-id="8:18232">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1410094951} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="absolute inset-[82.25%_87.35%_16.54%_11.11%]" data-node-id="8:18235" data-name="Mask group">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMaskGroup} />
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[36px] left-[calc(87.5%-242px)] not-italic text-[34px] text-white top-[1492px] w-[262px]" data-node-id="8:18238">
+          Promos, discounts and cashback – all in our app!
+        </p>
+        <div className="absolute bg-white content-stretch flex gap-[10px] h-[46px] items-center justify-center left-[calc(75%-62px)] overflow-clip px-[13px] py-[9px] rounded-[10px] top-[1699px] w-[176px]" data-node-id="8:18239">
+          <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="8:18240">
+            <div className="col-1 ml-0 mt-0 relative row-1 size-[22px]" data-node-id="8:18241" data-name="Mask group">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMaskGroup1} />
+            </div>
+          </div>
+          <p className="[word-break:break-word] font-['SF_Pro_Display:Bold'] leading-[normal] not-italic relative shrink-0 text-[14px] text-black whitespace-nowrap" data-node-id="8:18244">
+            Download App
+          </p>
+        </div>
+        <div className="absolute h-0 left-[160px] top-[1441px] w-[1120px]" data-node-id="8:18245">
+          <div className="absolute inset-[-1px_0_0_0]">
+            <img alt="" className="block max-w-none size-full" src={imgLine1} />
+          </div>
+        </div>
+        <div className="absolute flex h-[248px] items-center justify-center left-[calc(50%+232px)] top-[1497px] w-0" data-node-id="8:18246">
+          <div className="flex-none rotate-90">
+            <div className="h-0 relative w-[248px]">
+              <div className="absolute inset-[-1px_0_0_0]">
+                <img alt="" className="block max-w-none size-full" src={imgLine2} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(50%-8px)] not-italic text-[12px] text-white top-[1668px] w-[123px]" data-node-id="8:18247">{`Contact to manager `}</p>
+        <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(50%-8px)] not-italic text-[12px] text-white top-[1711px] w-[138px]" data-node-id="8:18248">{`Delivery locations and zones Reviews `}</p>
+        <div className="absolute contents left-[calc(25%+306px)] top-[1709px]" data-node-id="8:18249">
+          <div className="absolute contents left-[calc(25%+306px)] top-[1709px]" data-node-id="8:18250">
+            <div className="absolute contents left-[calc(25%+306px)] top-[1709px]" data-node-id="8:18251">
+              <div className="absolute bg-[#19191b] left-[calc(25%+306px)] rounded-[20px] size-[36px] top-[1709px]" data-node-id="8:18252">
+                <div className="absolute left-[10px] size-[16px] top-[10px]" data-node-id="8:18253" data-name="Map pin">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMapPin} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute contents left-[calc(25%+306px)] top-[1658px]" data-node-id="8:18254">
+          <div className="absolute contents left-[calc(25%+306px)] top-[1658px]" data-node-id="8:18255">
+            <div className="absolute contents left-[calc(25%+306px)] top-[1658px]" data-node-id="8:18256">
+              <div className="absolute bg-[#19191b] left-[calc(25%+306px)] rounded-[20px] size-[36px] top-[1658px]" data-node-id="8:18257">
+                <div className="absolute left-[10px] size-[15px] top-[10px]" data-node-id="8:18258" data-name="ic-whatsapp">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIcWhatsapp} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute contents left-[151px] top-[96px]" data-node-id="8:18259">
+        <div className="absolute flex items-center justify-center left-[151px] size-[24px] top-[96px]" data-node-id="8:18260">
+          <div className="flex-none rotate-180">
+            <div className="relative size-[24px]" data-name="ic-chevron-right-sm">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIcChevronRightSm} />
+            </div>
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[175px] not-italic opacity-45 text-[14px] text-white top-[99.5px] whitespace-nowrap" data-node-id="8:18261">
+          Back to cart
+        </p>
+      </div>
+      <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Bold'] leading-[normal] left-[161px] not-italic text-[24px] text-white top-[150px] whitespace-nowrap" data-node-id="8:18262">
+        Delivery
+      </p>
+      <div className="absolute contents left-[160px] top-[195px]" data-node-id="8:18263">
+        <div className="absolute bg-[#242424] h-[55px] left-[160px] rounded-[14px] top-[195px] w-[304px]" data-node-id="8:18264" />
+        <div className="absolute bg-white h-[46.2px] left-[163.3px] overflow-clip rounded-[10px] top-[199.4px] w-[147.043px]" data-node-id="8:18265">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(50%+0.63px)] not-italic text-[14px] text-black text-center top-[calc(50%-8.1px)] whitespace-nowrap" data-node-id="8:18266">
+            Delivery
+          </p>
+        </div>
+        <div className="absolute bg-[#242424] h-[46.2px] left-[313.65px] overflow-clip rounded-[10px] top-[199.4px] w-[147.043px]" data-node-id="8:18267">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(50%+0.48px)] not-italic text-[#6c6c6c] text-[14px] text-center top-[calc(50%-8.1px)] whitespace-nowrap" data-node-id="8:18268">
+            Pickup
+          </p>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute bg-[#181818] border border-[#333] border-solid h-[107px] left-[calc(37.5%-48px)] overflow-clip rounded-[10px] top-[520px] w-[664px]" data-node-id="8:18269">
+        <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-[calc(50%-166px)] top-[calc(50%-23px)]" data-node-id="8:18271">
+          <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Regular'] leading-[normal] left-[calc(50%-316px)] not-italic text-[16px] text-white top-[calc(50%-32.5px)] w-[300px]" data-node-id="8:18272">
+            Leave at the gate, call on arrival
+          </p>
+        </div>
+      </div>
+      <div className="absolute contents left-[160px] top-[395px]" data-node-id="8:18273">
+        <div className="absolute bg-[#121212] h-[61px] left-[calc(25%+140px)] overflow-clip rounded-[10px] top-[415px] w-[325px]" data-node-id="8:18274">
+          <div className="absolute contents left-[368px] top-[19px]" data-node-id="8:18276">
+            <div className="absolute left-[368px] size-[18px] top-[19px]" data-node-id="8:18277" />
+          </div>
+          <div className="-translate-y-1/2 absolute contents left-[16px] top-[calc(50%+0.5px)]" data-node-id="8:18278">
+            <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Regular'] leading-[normal] left-[calc(50%-146.5px)] not-italic text-[16px] text-white top-[calc(50%-8.5px)] whitespace-nowrap" data-node-id="8:18279">
+              Leave at the door
+            </p>
+            <div className="absolute contents left-[260px] top-[17px]" data-node-id="8:18280">
+              <div className="absolute bg-[#ea5c00] h-[28px] left-[260px] rounded-[150px] top-[17px] w-[49px]" data-node-id="8:18281" />
+              <div className="absolute bg-white h-[24px] left-[277px] rounded-[150px] top-[19px] w-[30px]" data-node-id="8:18282" />
+            </div>
+          </div>
+        </div>
+        <div className="-translate-x-1/2 absolute bg-[#181818] border border-[#333] border-solid h-[61px] left-[calc(12.5%+142.5px)] overflow-clip rounded-[10px] top-[415px] w-[325px]" data-node-id="8:18283">
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-[calc(50%-16.5px)] top-1/2" data-node-id="8:18285">
+            <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Regular'] leading-[normal] left-[calc(50%-146.5px)] not-italic text-[16px] text-white top-[calc(50%-9.5px)] whitespace-nowrap" data-node-id="8:18286">
+              Jl. Raya Padonan No.41a, Tibubeneng...
+            </p>
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Regular'] font-normal leading-[normal] left-[calc(12.5%-20px)] text-[#827e7e] text-[12px] top-[calc(50%-520.5px)] whitespace-nowrap" data-node-id="8:18287" style={{ fontVariationSettings: '"CTGR" 0, "wdth" 100' }}>{`Address `}</p>
+      </div>
+      <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Regular'] leading-[normal] left-[calc(12.5%-20px)] not-italic text-[#827e7e] text-[12px] top-[calc(50%-415.5px)] whitespace-nowrap" data-node-id="8:18288">
+        Note for courier
+      </p>
+      <div className="-translate-x-1/2 absolute contents left-[calc(37.5%-47.5px)] top-[290px]" data-node-id="8:18289">
+        <div className="-translate-x-1/2 absolute bg-[#181818] border border-[#333] border-solid h-[61px] left-[calc(12.5%+142.5px)] overflow-clip rounded-[10px] top-[310px] w-[325px]" data-node-id="8:18290">
+          <div className="-translate-y-1/2 absolute contents left-[15px] top-1/2" data-node-id="8:18292">
+            <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Regular'] leading-[normal] left-[16px] not-italic text-[16px] text-white top-[calc(50%-9.5px)] whitespace-nowrap" data-node-id="8:18293">
+              Alex
+            </p>
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Regular'] leading-[normal] left-[calc(12.5%-20px)] not-italic text-[#827e7e] text-[12px] top-[calc(50%-625.5px)] whitespace-nowrap" data-node-id="8:18294">
+          Name
+        </p>
+        <div className="-translate-x-1/2 absolute bg-[#181818] border border-[#333] border-solid h-[61px] left-[calc(37.5%+122.5px)] overflow-clip rounded-[10px] top-[310px] w-[325px]" data-node-id="8:18295">
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-[calc(50%-84.5px)] top-1/2" data-node-id="8:18297">
+            <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Regular'] leading-[normal] left-[calc(50%-146.5px)] not-italic text-[16px] text-white top-[calc(50%-9.5px)] whitespace-nowrap" data-node-id="8:18298">
+              +625585854455
+            </p>
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Regular'] leading-[normal] left-[calc(37.5%-40px)] not-italic text-[#827e7e] text-[12px] top-[calc(50%-625.5px)] whitespace-nowrap" data-node-id="8:18299">
+          Phone
+        </p>
+      </div>
+      <div className="absolute contents left-[149px] top-[1308.5px]" data-node-id="8:18300">
+        <div className="absolute flex items-center justify-center left-[149px] size-[24px] top-[1308.5px]" data-node-id="8:18301">
+          <div className="flex-none rotate-180">
+            <div className="relative size-[24px]" data-name="ic-chevron-right-sm">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIcChevronRightSm} />
+            </div>
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[173px] not-italic opacity-45 text-[14px] text-white top-[1312px] whitespace-nowrap" data-node-id="8:18302">
+          Back to cart
+        </p>
+      </div>
+      <div className="-translate-x-1/2 absolute bg-[#ea5c00] content-stretch flex h-[54px] items-center justify-center left-[calc(37.5%+150.5px)] overflow-clip px-[13px] py-[9px] rounded-[10px] top-[1294px] w-[267px]" data-node-id="8:18303">
+        <p className="[word-break:break-word] font-['SF_Pro_Display:Medium'] leading-[normal] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap" data-node-id="8:18304">
+          Place order $447.54
+        </p>
+      </div>
+      <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Regular'] leading-[normal] left-[calc(12.5%-20px)] not-italic opacity-50 text-[12px] text-white top-[calc(50%+138.5px)] w-[47px]" data-node-id="8:18305">
+        Bonuses
+      </p>
+      <div className="absolute contents left-[160px] top-[651px]" data-node-id="8:18306">
+        <div className="absolute bg-[#1f1f1f] border border-[#ea5c00] border-solid h-[54px] left-[160px] overflow-clip rounded-[10px] top-[676px] w-[184px]" data-node-id="8:18307">
+          <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Regular'] leading-[normal] left-[calc(50%-64px)] not-italic text-[15px] text-white top-[calc(50%-9px)] whitespace-nowrap" data-node-id="8:18308">
+            As soon as possible
+          </p>
+        </div>
+        <div className="absolute bg-[#181818] h-[54px] left-[353px] overflow-clip rounded-[10px] top-[676px] w-[151px]" data-node-id="8:18310">
+          <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Regular'] leading-[normal] left-[calc(50%-53.5px)] not-italic text-[#ccc] text-[15px] top-[calc(50%-9px)] whitespace-nowrap" data-node-id="8:18311">
+            11:20 - 12:30 PM
+          </p>
+        </div>
+        <div className="absolute bg-[#181818] h-[54px] left-[calc(25%+154px)] overflow-clip rounded-[10px] top-[676px] w-[150px]" data-node-id="8:18313">
+          <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Regular'] leading-[normal] left-[calc(50%-54px)] not-italic text-[#ccc] text-[15px] top-[calc(50%-9px)] whitespace-nowrap" data-node-id="8:18314">
+            11:20 - 12:30 PM
+          </p>
+        </div>
+        <div className="absolute bg-[#181818] h-[54px] left-[calc(25%+313px)] overflow-clip rounded-[10px] top-[676px] w-[127px]" data-node-id="8:18316">
+          <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Regular'] font-normal leading-[normal] left-[calc(50%-41.5px)] text-[#ccc] text-[15px] top-[calc(50%-9px)] whitespace-nowrap" data-node-id="8:18317" style={{ fontVariationSettings: '"CTGR" 0, "wdth" 100' }}>{`Another time `}</p>
+        </div>
+        <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Regular'] leading-[normal] left-[calc(12.5%-20px)] not-italic opacity-50 text-[12px] text-white top-[calc(50%-264.5px)] w-[70px]" data-node-id="8:18319">
+          Delivery time
+        </p>
+      </div>
+      <div className="absolute contents left-[160px] top-[1103px]" data-node-id="8:18320">
+        <div className="absolute bg-[#1f1f1f] border border-[#bdbdbd] border-solid h-[106px] left-[160px] overflow-clip rounded-[10px] top-[1128px] w-[155px]" data-node-id="8:18321">
+          <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Regular'] leading-[normal] left-[calc(50%+26.5px)] not-italic text-[#ccc] text-[15px] top-[calc(50%+24px)] whitespace-nowrap" data-node-id="8:18322">
+            *4344
+          </p>
+          <SmblMastercardX className="absolute left-[9px] size-[32px] top-[6px]" />
+        </div>
+        <div className="absolute bg-[#181818] h-[106px] left-[329px] overflow-clip rounded-[10px] top-[1128px] w-[156px]" data-node-id="8:18325">
+          <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Regular'] leading-[normal] left-[calc(50%+26px)] not-italic text-[#ccc] text-[15px] top-[calc(50%+24px)] whitespace-nowrap" data-node-id="8:18326">
+            *4344
+          </p>
+          <SmblMastercardX className="absolute left-[10px] size-[32px] top-[7px]" />
+        </div>
+        <div className="absolute bg-[#181818] h-[106px] left-[calc(25%+140px)] overflow-clip rounded-[10px] top-[1128px] w-[156px]" data-node-id="8:18329">
+          <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Regular'] leading-[normal] left-[calc(50%+26px)] not-italic text-[#ccc] text-[15px] top-[calc(50%+24px)] whitespace-nowrap" data-node-id="8:18330">
+            *4344
+          </p>
+          <SmblMastercardX className="absolute left-[10px] size-[32px] top-[7px]" />
+        </div>
+        <div className="absolute border border-[#242424] border-solid h-[106px] left-[calc(25%+310px)] overflow-clip rounded-[10px] top-[1128px] w-[155px]" data-node-id="8:18333">
+          <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Regular'] leading-[normal] left-[calc(50%-34.5px)] not-italic text-[#ccc] text-[15px] top-[calc(50%-9px)] whitespace-nowrap" data-node-id="8:18334">
+            + Add card
+          </p>
+        </div>
+        <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Regular'] leading-[normal] left-[calc(12.5%-20px)] not-italic opacity-50 text-[12px] text-white top-[calc(50%+187.5px)] w-[93px]" data-node-id="8:18336">
+          Payment method
+        </p>
+      </div>
+      <div className="absolute contents left-[160px] top-[762px]" data-node-id="8:18337">
+        <div className="absolute contents left-[160px] top-[794px]" data-node-id="8:18338">
+          <div className="absolute bg-[#181818] h-[65px] left-[160px] overflow-clip rounded-[10px] top-[794px] w-[664px]" data-node-id="8:18339">
+            <div className="-translate-y-1/2 absolute contents left-[15px] top-1/2" data-node-id="8:18341">
+              <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Regular'] leading-[normal] left-[calc(50%-285px)] not-italic text-[16px] text-white top-[calc(50%-9.5px)] whitespace-nowrap" data-node-id="8:18342">{`Promo code `}</p>
+              <IcPromocode className="-translate-y-1/2 absolute left-[15px] size-[18px] top-[calc(50%-0.5px)]" />
+            </div>
+          </div>
+          <div className="absolute bg-[#181818] h-[160px] left-[160px] overflow-clip rounded-[10px] top-[911px] w-[664px]" data-node-id="8:18344">
+            <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(50%-314px)] not-italic text-[14px] text-white top-[106px] w-[166px]" data-node-id="8:18346">
+              Apply 300 Prana Points and save $20 on this order.
+            </p>
+            <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(50%+214px)] not-italic text-[#5c5c5c] text-[14px] top-[127px] whitespace-nowrap" data-node-id="8:18347">
+              Valid until June 7
+            </p>
+            <div className="absolute contents left-[18px] top-[15px]" data-node-id="8:18348">
+              <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Medium'] font-medium leading-[normal] left-[calc(50%-257px)] text-[32px] text-white top-[calc(50%-65px)] whitespace-nowrap" data-node-id="8:18349" style={{ fontVariationSettings: '"CTGR" 0, "wdth" 100' }}>{`476 `}</p>
+              <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(50%-257px)] not-italic text-[#5c5c5c] text-[14px] top-[53px] whitespace-nowrap" data-node-id="8:18350">
+                Prana points
+              </p>
+              <div className="absolute left-[18px] size-[50px] top-[18px]" data-node-id="8:18351">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse4946} />
+              </div>
+              <div className="absolute inset-[20.63%_92.02%_66.88%_4.97%]" data-node-id="8:18352" data-name="Mask group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMaskGroup2} />
+              </div>
+            </div>
+            <div className="absolute bg-white h-[50px] left-[535px] overflow-clip rounded-[10px] top-[18px] w-[113px]" data-node-id="8:18355">
+              <p className="-translate-x-1/2 [word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(50%+0.15px)] not-italic text-[14px] text-black text-center top-[calc(50%-8px)] whitespace-nowrap" data-node-id="8:18356">
+                Apply
+              </p>
+            </div>
+            <div className="-translate-x-1/2 absolute h-0 left-[calc(50%+1.5px)] top-[87px] w-[629px]" data-node-id="8:18357">
+              <div className="absolute inset-[-1px_0_0_0]">
+                <img alt="" className="block max-w-none size-full" src={imgLine15} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-x-1/2 absolute h-0 left-[calc(37.5%-48px)] top-[762px] w-[664px]" data-node-id="8:18358">
+          <div className="absolute inset-[-1px_0_0_0]">
+            <img alt="" className="block max-w-none size-full" src={imgLine14} />
+          </div>
+        </div>
+      </div>
+      <div className="absolute contents left-[calc(50%+169px)] top-[129px]" data-node-id="8:18359">
+        <div className="absolute bg-[#121212] h-[869px] left-[calc(50%+169px)] overflow-clip rounded-[20px] top-[129px] w-[391px]" data-node-id="8:18360">
+          <div className="-translate-x-1/2 absolute contents left-1/2 top-[21px]" data-node-id="8:18362">
+            <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Bold'] font-semibold leading-[normal] left-[calc(50%-175.5px)] text-[24px] text-white top-[calc(50%-413.5px)] whitespace-nowrap" data-node-id="8:18363" style={{ fontVariationSettings: '"CTGR" 0, "wdth" 100' }}>{`Order details `}</p>
+            <div className="absolute h-0 left-[20px] top-[68px] w-[351px]" data-node-id="8:18364">
+              <div className="absolute inset-[-1px_0_0_0]">
+                <img alt="" className="block max-w-none size-full" src={imgLine13} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute contents left-[calc(50%+189px)] top-[769px]" data-node-id="8:18365">
+          <div className="absolute contents left-[calc(50%+189px)] top-[769px]" data-node-id="8:18366">
+            <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Bold'] font-semibold leading-[normal] left-[calc(62.5%+9px)] text-[18px] text-white top-[calc(50%+36.5px)] w-[51.957px]" data-node-id="8:18367" style={{ fontVariationSettings: '"CTGR" 0, "wdth" 100' }}>{`Total `}</p>
+            <p className="-translate-x-full [word-break:break-word] absolute font-['SF_Pro_Display:Bold'] leading-[normal] left-[87.5%] not-italic text-[18px] text-right text-white top-[calc(50%+36.5px)] w-[84.286px]" data-node-id="8:18368">
+              $236.50
+            </p>
+            <div className="absolute h-0 left-[calc(50%+189px)] top-[769px] w-[351px]" data-node-id="8:18369">
+              <div className="absolute inset-[-1px_0_0_0]">
+                <img alt="" className="block max-w-none size-full" src={imgLine13} />
+              </div>
+            </div>
+            <div className="absolute h-0 left-[calc(50%+189px)] top-[930px] w-[351px]" data-node-id="8:18370">
+              <div className="absolute inset-[-1px_0_0_0]">
+                <img alt="" className="block max-w-none size-full" src={imgLine16} />
+              </div>
+            </div>
+            <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute contents font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(87.5%-175.78px)] not-italic text-[14px] top-[calc(50%-118px)]" data-node-id="8:18371">
+              <p className="absolute h-[17px] left-[calc(87.5%-351px)] text-[#5c5c5c] top-[calc(50%-126.5px)] w-[244.324px]" data-node-id="8:18372">
+                Subtotal · 4 items
+              </p>
+              <p className="-translate-x-full absolute left-[calc(87.5%-0.57px)] text-right text-white top-[calc(50%-126.5px)] w-[90.059px]" data-node-id="8:18373">
+                $158.50
+              </p>
+            </div>
+            <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute contents left-[calc(87.5%-175.73px)] text-[14px] top-[calc(50%-84px)]" data-node-id="8:18374">
+              <p className="absolute font-['SF_Pro_Display:Regular'] font-medium h-[17px] leading-[0] left-[calc(87.5%-351px)] text-white top-[calc(50%-92.5px)] w-[244.324px]" data-node-id="8:18375" style={{ fontVariationSettings: '"CTGR" 0, "wdth" 100' }}>
+                <span className="font-['SF_Pro_Display:Medium'] leading-[normal] text-[#5c5c5c]" style={{ fontVariationSettings: '"CTGR" 0, "wdth" 100' }}>
+                  Delivery ·
+                </span>
+                <span className="font-['SF_Pro_Display:Medium'] leading-[normal] text-[#38a64c]" style={{ fontVariationSettings: '"CTGR" 0, "wdth" 100' }}>{` free `}</span>
+              </p>
+              <p className="-translate-x-full absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(87.5%-0.46px)] not-italic text-[#5c5c5c] text-right top-[calc(50%-92.5px)] w-[101.605px]" data-node-id="8:18376">
+                $0
+              </p>
+            </div>
+            <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute contents font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(87.5%-175.79px)] not-italic text-[14px] top-[calc(50%-50px)]" data-node-id="8:18377">
+              <p className="absolute h-[17px] left-[calc(87.5%-351px)] text-[#5c5c5c] top-[calc(50%-58.5px)] w-[244.324px]" data-node-id="8:18378">
+                Discount
+              </p>
+              <p className="-translate-x-full absolute left-[calc(87.5%-0.59px)] text-right text-white top-[calc(50%-58.5px)] w-[81.977px]" data-node-id="8:18379">
+                -$28.50
+              </p>
+            </div>
+            <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute contents font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(87.5%-175.89px)] not-italic text-[14px] top-[calc(50%-16px)]" data-node-id="8:18380">
+              <p className="absolute h-[17px] left-[calc(87.5%-351px)] text-[#5c5c5c] top-[calc(50%-24.5px)] w-[244.324px]" data-node-id="8:18381">
+                Accrual bonuses
+              </p>
+              <p className="-translate-x-full absolute left-[calc(87.5%-0.78px)] text-right text-white top-[calc(50%-24.5px)] w-[53.112px]" data-node-id="8:18382">
+                +$2
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="absolute contents left-[calc(50%+189px)] top-[216px]" data-node-id="8:18383">
+          <div className="absolute contents left-[calc(50%+189px)] top-[216px]" data-node-id="8:18384">
+            <div className="[word-break:break-word] absolute contents leading-[normal] left-[calc(50%+189px)] not-italic top-[216px]" data-node-id="8:18385">
+              <p className="absolute font-['SF_Pro_Display:Bold'] left-[calc(50%+189px)] text-[14px] text-white top-[216px] w-[166px]" data-node-id="8:18386">
+                Healthy meal plan 2000 kcal (7 days)
+              </p>
+              <p className="absolute font-['SF_Pro_Display:Medium'] left-[calc(75%+164px)] text-[#696969] text-[12px] top-[216px] whitespace-nowrap" data-node-id="8:18387">
+                2 x
+              </p>
+              <p className="-translate-x-full absolute font-['SF_Pro_Display:Bold'] left-[calc(75%+180px)] text-[14px] text-right text-white top-[233px] whitespace-nowrap" data-node-id="8:18388">
+                $12.43
+              </p>
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(62.5%+9px)] not-italic text-[#5c5c5c] text-[14px] top-[calc(50%-660.5px)] whitespace-nowrap" data-node-id="8:18389">
+            Papaya Fresh Juice
+          </p>
+          <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(62.5%+9px)] not-italic text-[#5c5c5c] text-[14px] top-[calc(50%-616.5px)] whitespace-nowrap" data-node-id="8:18390">
+            Watermelon Fresh Juice
+          </p>
+          <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(62.5%+9px)] not-italic text-[#5c5c5c] text-[14px] top-[calc(50%-638.5px)] whitespace-nowrap" data-node-id="8:18391">
+            Papaya Fresh Juice
+          </p>
+        </div>
+        <div className="absolute contents left-[calc(50%+189px)] top-[342px]" data-node-id="8:18392">
+          <div className="absolute contents left-[calc(50%+189px)] top-[342px]" data-node-id="8:18393">
+            <div className="[word-break:break-word] absolute contents leading-[normal] left-[calc(50%+189px)] not-italic top-[342px]" data-node-id="8:18394">
+              <p className="absolute font-['SF_Pro_Display:Bold'] left-[calc(50%+189px)] text-[14px] text-white top-[342px] w-[166px]" data-node-id="8:18395">
+                Healthy meal plan 2000 kcal (7 days)
+              </p>
+              <p className="absolute font-['SF_Pro_Display:Medium'] left-[calc(75%+164px)] text-[#696969] text-[12px] top-[342px] whitespace-nowrap" data-node-id="8:18396">
+                1 x
+              </p>
+              <p className="-translate-x-full absolute font-['SF_Pro_Display:Bold'] left-[calc(75%+180px)] text-[14px] text-right text-white top-[359px] whitespace-nowrap" data-node-id="8:18397">
+                $12.43
+              </p>
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(62.5%+9px)] not-italic text-[#5c5c5c] text-[14px] top-[calc(50%-534.5px)] whitespace-nowrap" data-node-id="8:18398">
+            Papaya Fresh Juice
+          </p>
+        </div>
+        <div className="absolute contents left-[calc(50%+189px)] top-[506px]" data-node-id="8:18399">
+          <div className="absolute contents left-[calc(50%+189px)] top-[506px]" data-node-id="8:18400">
+            <div className="[word-break:break-word] absolute contents leading-[normal] left-[calc(50%+189px)] not-italic top-[506px]" data-node-id="8:18401">
+              <p className="absolute font-['SF_Pro_Display:Bold'] left-[calc(50%+189px)] text-[14px] text-white top-[506px] w-[166px]" data-node-id="8:18402">
+                Healthy meal plan 2000 kcal (7 days)
+              </p>
+              <p className="absolute font-['SF_Pro_Display:Medium'] left-[calc(75%+164px)] text-[#696969] text-[12px] top-[506px] whitespace-nowrap" data-node-id="8:18403">
+                1 x
+              </p>
+              <p className="-translate-x-full absolute font-['SF_Pro_Display:Bold'] left-[calc(75%+180px)] text-[14px] text-right text-white top-[523px] whitespace-nowrap" data-node-id="8:18404">
+                $12.43
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="absolute contents left-[calc(50%+189px)] top-[648px]" data-node-id="8:18405">
+          <div className="absolute contents left-[calc(50%+189px)] top-[648px]" data-node-id="8:18406">
+            <div className="[word-break:break-word] absolute contents leading-[normal] left-[calc(50%+189px)] not-italic top-[648px]" data-node-id="8:18407">
+              <p className="absolute font-['SF_Pro_Display:Bold'] left-[calc(50%+189px)] text-[14px] text-white top-[648px] w-[166px]" data-node-id="8:18408">
+                Healthy meal plan 2000 kcal (7 days)
+              </p>
+              <p className="absolute font-['SF_Pro_Display:Medium'] left-[calc(75%+164px)] text-[#696969] text-[12px] top-[648px] whitespace-nowrap" data-node-id="8:18409">
+                1 x
+              </p>
+              <p className="-translate-x-full absolute font-['SF_Pro_Display:Bold'] left-[calc(75%+180px)] text-[14px] text-right text-white top-[665px] whitespace-nowrap" data-node-id="8:18410">
+                $12.43
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="absolute contents left-[calc(50%+189px)] top-[424px]" data-node-id="8:18411">
+          <div className="absolute contents left-[calc(50%+189px)] top-[424px]" data-node-id="8:18412">
+            <div className="[word-break:break-word] absolute contents leading-[normal] left-[calc(50%+189px)] not-italic top-[424px]" data-node-id="8:18413">
+              <p className="absolute font-['SF_Pro_Display:Bold'] left-[calc(50%+189px)] text-[14px] text-white top-[424px] w-[166px]" data-node-id="8:18414">
+                Healthy meal plan 2000 kcal (7 days)
+              </p>
+              <p className="absolute font-['SF_Pro_Display:Medium'] left-[calc(75%+164px)] text-[#696969] text-[12px] top-[424px] whitespace-nowrap" data-node-id="8:18415">
+                1 x
+              </p>
+              <p className="-translate-x-full absolute font-['SF_Pro_Display:Bold'] left-[calc(75%+180px)] text-[14px] text-right text-white top-[441px] whitespace-nowrap" data-node-id="8:18416">
+                $12.43
+              </p>
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(62.5%+9px)] not-italic text-[#5c5c5c] text-[14px] top-[calc(50%-452.5px)] whitespace-nowrap" data-node-id="8:18417">
+            Papaya Fresh Juice
+          </p>
+        </div>
+        <div className="absolute contents left-[calc(50%+189px)] top-[708px]" data-node-id="8:18418">
+          <div className="absolute contents left-[calc(50%+189px)] top-[708px]" data-node-id="8:18419">
+            <div className="absolute contents left-[calc(50%+189px)] top-[708px]" data-node-id="8:18420">
+              <div className="[word-break:break-word] absolute contents leading-[normal] left-[calc(50%+189px)] not-italic top-[708px]" data-node-id="8:18421">
+                <p className="absolute font-['SF_Pro_Display:Bold'] left-[calc(50%+189px)] text-[14px] text-white top-[708px] w-[166px]" data-node-id="8:18422">
+                  Healthy meal
+                </p>
+                <p className="absolute font-['SF_Pro_Display:Medium'] left-[calc(75%+164px)] text-[#696969] text-[12px] top-[710px] whitespace-nowrap" data-node-id="8:18423">
+                  1 x
+                </p>
+                <p className="-translate-x-full absolute font-['SF_Pro_Display:Bold'] left-[calc(75%+180px)] text-[14px] text-right text-white top-[725px] whitespace-nowrap" data-node-id="8:18424">
+                  $12.43
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-[calc(62.5%+19.5px)] top-[calc(50%-177px)]" data-node-id="8:18425">
+            <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(62.5%+9px)] not-italic text-[#5c5c5c] text-[14px] top-[calc(50%-185.5px)] whitespace-nowrap" data-node-id="8:18426">
+              0.5
+            </p>
+          </div>
+        </div>
+        <div className="absolute contents left-[calc(50%+189px)] top-[566px]" data-node-id="8:18427">
+          <div className="absolute contents left-[calc(50%+189px)] top-[566px]" data-node-id="8:18428">
+            <div className="[word-break:break-word] absolute contents leading-[normal] left-[calc(50%+189px)] not-italic top-[566px]" data-node-id="8:18429">
+              <p className="absolute font-['SF_Pro_Display:Bold'] left-[calc(50%+189px)] text-[14px] text-white top-[566px] w-[166px]" data-node-id="8:18430">
+                Healthy meal plan 2000 kcal (7 days)
+              </p>
+              <p className="absolute font-['SF_Pro_Display:Medium'] left-[calc(75%+164px)] text-[#696969] text-[12px] top-[566px] whitespace-nowrap" data-node-id="8:18431">
+                1 x
+              </p>
+              <p className="-translate-x-full absolute font-['SF_Pro_Display:Bold'] left-[calc(75%+180px)] text-[14px] text-right text-white top-[583px] whitespace-nowrap" data-node-id="8:18432">
+                $12.43
+              </p>
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(62.5%+9px)] not-italic text-[#5c5c5c] text-[14px] top-[calc(50%-310.5px)] whitespace-nowrap" data-node-id="8:18433">
+            Papaya Fresh Juice
+          </p>
+        </div>
+      </div>
+      <div className="absolute bg-black border-[#1c1c1c] border-b border-solid h-[76px] left-0 overflow-clip top-0 w-[1440px]" data-node-id="140:7015">
+        <div className="absolute h-[36px] overflow-clip right-[160px] top-[20px] w-[1119px]" data-node-id="140:7016">
+          <div className="absolute h-[36px] left-0 overflow-clip top-0 w-[262px]" data-node-id="140:7017">
+            <div className="absolute content-stretch flex gap-[10px] items-center left-[64px] top-0" data-node-id="140:7018">
+              <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="140:7019">
+                <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-0 mt-0 place-items-start relative row-1" data-node-id="140:7020">
+                  <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-0 mt-0 place-items-start relative row-1" data-node-id="140:7021">
+                    <div className="bg-[#19191b] col-1 ml-0 mt-0 relative rounded-[20px] row-1 size-[36px]" data-node-id="140:7022">
+                      <div className="absolute left-[10px] size-[16px] top-[10px]" data-node-id="140:7023" data-name="map-pin, location">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMapPinLocation} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-col gap-[2px] items-start not-italic relative shrink-0 w-[141px]" data-node-id="140:7024">
+                <p className="font-['SF_Pro_Display:Medium'] leading-[14px] min-w-full relative shrink-0 text-[#696969] text-[12px] w-[min-content]" data-node-id="140:7025">
+                  Deliver to
+                </p>
+                <p className="font-['SF_Pro_Display:Semibold'] leading-[16px] relative shrink-0 text-[14px] text-white whitespace-nowrap" data-node-id="140:7026">
+                  Choose delivery address
+                </p>
+              </div>
+            </div>
+            <div className="absolute left-0 size-[36px] top-0" data-node-id="140:7027" data-name="Mask group">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMaskGroup3} />
+            </div>
+          </div>
+          <div className="absolute content-stretch flex gap-[20px] items-center right-0 top-0" data-node-id="140:7030">
+            <div className="bg-[#262626] content-stretch flex gap-[8px] h-[36px] items-center px-[12px] py-[8px] relative rounded-[20px] shrink-0 w-[231px]" data-node-id="140:7031">
+              <div className="relative shrink-0 size-[16px]" data-node-id="140:7032" data-name="magnifying-glass, search">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMagnifyingGlassSearch} />
+              </div>
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Medium'] leading-[16px] not-italic relative shrink-0 text-[14px] text-[color:var(--prana-secondary,#a3a3a3)] whitespace-nowrap" data-node-id="140:7033">
+                Search menu
+              </p>
+            </div>
+            <div className="bg-[#ea5c00] content-stretch flex gap-[4px] h-[36px] items-center justify-center overflow-clip px-[20px] py-[9px] relative rounded-[50px] shrink-0" data-node-id="140:7034">
+              <div className="relative shrink-0 size-[16px]" data-node-id="140:7035" data-name="basket-1, cart, shopping">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBasket1CartShopping} />
+              </div>
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold'] leading-[normal] not-italic relative shrink-0 text-[14px] text-white whitespace-nowrap" data-node-id="140:7036">
+                Cart
+              </p>
+              <div className="bg-white overflow-clip relative rounded-[999px] shrink-0 size-[16px]" data-node-id="140:7037">
+                <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Semibold'] leading-[normal] left-[calc(50%-4px)] not-italic text-[12px] text-black top-[calc(50%-7px)] whitespace-nowrap" data-node-id="140:7038">
+                  6
+                </p>
+              </div>
+            </div>
+            <div className="bg-[#262626] overflow-clip relative rounded-[20px] shrink-0 size-[36px]" data-node-id="140:7039">
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute left-1/2 size-[16px] top-1/2" data-node-id="140:7040" data-name="people, user, person, avatar">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPeopleUserPersonAvatar} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

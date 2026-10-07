@@ -1,0 +1,3528 @@
+{
+  "date": "2026-10-05",
+  "changes": {
+    "cardHoverBrightness": 1.5,
+    "cardHover": "#181818",
+    "pageEasing": [
+      0.3,
+      0,
+      0.7,
+      1
+    ],
+    "durationMs": [
+      400,
+      700
+    ]
+  },
+  "initialCard": {
+    "background": "rgb(16, 16, 16)",
+    "buttons": [
+      {
+        "background": "rgb(38, 38, 38)",
+        "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+        "opacity": "1",
+        "transform": "none"
+      }
+    ],
+    "filter": "none",
+    "height": 500,
+    "icon": [],
+    "photoFilter": "none",
+    "states": [
+      {
+        "opacity": "1",
+        "transform": "none"
+      }
+    ],
+    "values": [],
+    "width": 268
+  },
+  "cardHoverFrames": [
+    {
+      "t": 0,
+      "background": "oklab(0.176502 0.00000804777 0.00000352728)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 8,
+      "background": "oklab(0.176502 0.00000804777 0.00000352728)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 15,
+      "background": "oklab(0.183689 0.00000837508 0.00000367307)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 23,
+      "background": "oklab(0.185276 0.00000844731 0.00000370525)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 31,
+      "background": "oklab(0.185276 0.00000844731 0.00000370525)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 40,
+      "background": "oklab(0.191029 0.00000870932 0.00000382197)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 47,
+      "background": "oklab(0.194358 0.0000088609 0.00000388949)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 55,
+      "background": "oklab(0.194358 0.0000088609 0.00000388949)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 62,
+      "background": "oklab(0.198646 0.0000090562 0.00000397648)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 71,
+      "background": "oklab(0.19961 0.0000091001 0.00000399604)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 79,
+      "background": "oklab(0.19961 0.0000091001 0.00000399604)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 87,
+      "background": "oklab(0.202936 0.00000925155 0.0000040635)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 95,
+      "background": "oklab(0.204769 0.00000933505 0.0000041007)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 103,
+      "background": "oklab(0.204769 0.00000933505 0.0000041007)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 110,
+      "background": "oklab(0.206577 0.00000941737 0.00000413737)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 119,
+      "background": "oklab(0.207323 0.00000945133 0.0000041525)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 129,
+      "background": "oklab(0.207942 0.00000947955 0.00000416507)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 136,
+      "background": "oklab(0.208847 0.00000952074 0.00000418342)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 144,
+      "background": "color(srgb 0.0941176 0.0941176 0.0941176)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 153,
+      "background": "color(srgb 0.0941176 0.0941176 0.0941176)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 161,
+      "background": "color(srgb 0.0941176 0.0941176 0.0941176)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 168,
+      "background": "color(srgb 0.0941176 0.0941176 0.0941176)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 176,
+      "background": "color(srgb 0.0941176 0.0941176 0.0941176)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 183,
+      "background": "color(srgb 0.0941176 0.0941176 0.0941176)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 190,
+      "background": "color(srgb 0.0941176 0.0941176 0.0941176)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 198,
+      "background": "color(srgb 0.0941176 0.0941176 0.0941176)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 205,
+      "background": "color(srgb 0.0941176 0.0941176 0.0941176)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 212,
+      "background": "color(srgb 0.0941176 0.0941176 0.0941176)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 219,
+      "background": "color(srgb 0.0941176 0.0941176 0.0941176)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 226,
+      "background": "color(srgb 0.0941176 0.0941176 0.0941176)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 234,
+      "background": "color(srgb 0.0941176 0.0941176 0.0941176)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 241,
+      "background": "color(srgb 0.0941176 0.0941176 0.0941176)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 250,
+      "background": "color(srgb 0.0941176 0.0941176 0.0941176)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 258,
+      "background": "color(srgb 0.0941176 0.0941176 0.0941176)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 266,
+      "background": "color(srgb 0.0941176 0.0941176 0.0941176)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 273,
+      "background": "color(srgb 0.0941176 0.0941176 0.0941176)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 280,
+      "background": "color(srgb 0.0941176 0.0941176 0.0941176)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 287,
+      "background": "color(srgb 0.0941176 0.0941176 0.0941176)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 294,
+      "background": "color(srgb 0.0941176 0.0941176 0.0941176)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 301,
+      "background": "color(srgb 0.0941176 0.0941176 0.0941176)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 308,
+      "background": "color(srgb 0.0941176 0.0941176 0.0941176)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 314,
+      "background": "color(srgb 0.0941176 0.0941176 0.0941176)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 322,
+      "background": "color(srgb 0.0941176 0.0941176 0.0941176)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 329,
+      "background": "color(srgb 0.0941176 0.0941176 0.0941176)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    }
+  ],
+  "cardReturnFrames": [
+    {
+      "t": 0,
+      "background": "oklab(0.208826 0.00000951977 0.00000418299)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 8,
+      "background": "oklab(0.208826 0.00000951977 0.00000418299)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 15,
+      "background": "oklab(0.208826 0.00000951977 0.00000418299)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 21,
+      "background": "oklab(0.206743 0.00000942495 0.00000414075)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 28,
+      "background": "oklab(0.20442 0.00000931916 0.00000409362)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 35,
+      "background": "oklab(0.20442 0.00000931916 0.00000409362)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 43,
+      "background": "oklab(0.200286 0.00000913087 0.00000400975)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 50,
+      "background": "oklab(0.199207 0.00000908175 0.00000398787)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 58,
+      "background": "oklab(0.199207 0.00000908175 0.00000398787)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 65,
+      "background": "oklab(0.194885 0.00000888493 0.00000390019)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 73,
+      "background": "oklab(0.193821 0.00000883646 0.0000038786)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 80,
+      "background": "oklab(0.193821 0.00000883646 0.0000038786)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 88,
+      "background": "oklab(0.189859 0.00000865606 0.00000379824)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 95,
+      "background": "oklab(0.188942 0.00000861427 0.00000377963)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 105,
+      "background": "oklab(0.188942 0.00000861427 0.00000377963)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 112,
+      "background": "oklab(0.18553 0.00000845891 0.00000371042)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 119,
+      "background": "oklab(0.183511 0.00000836696 0.00000366946)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 126,
+      "background": "oklab(0.183511 0.00000836696 0.00000366946)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 133,
+      "background": "oklab(0.183511 0.00000836696 0.00000366946)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 140,
+      "background": "oklab(0.18087 0.00000824667 0.00000361588)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 148,
+      "background": "oklab(0.179335 0.00000817679 0.00000358475)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 156,
+      "background": "oklab(0.179335 0.00000817679 0.00000358475)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 164,
+      "background": "oklab(0.1774 0.00000808866 0.00000354549)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 172,
+      "background": "oklab(0.17699 0.00000806998 0.00000353717)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 180,
+      "background": "oklab(0.17699 0.00000806998 0.00000353717)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 188,
+      "background": "oklab(0.17552 0.00000800304 0.00000350735)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 196,
+      "background": "oklab(0.174735 0.00000796732 0.00000349144)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 203,
+      "background": "oklab(0.174311 0.00000794799 0.00000348283)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 211,
+      "background": "oklab(0.173941 0.00000793114 0.00000347532)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 220,
+      "background": "oklab(0.173623 0.00000791668 0.00000346888)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 228,
+      "background": "oklab(0.173144 0.00000789484 0.00000345915)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 236,
+      "background": "rgb(16, 16, 16)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 244,
+      "background": "rgb(16, 16, 16)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 252,
+      "background": "rgb(16, 16, 16)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 260,
+      "background": "rgb(16, 16, 16)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 267,
+      "background": "rgb(16, 16, 16)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 275,
+      "background": "rgb(16, 16, 16)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 281,
+      "background": "rgb(16, 16, 16)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 288,
+      "background": "rgb(16, 16, 16)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 295,
+      "background": "rgb(16, 16, 16)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 302,
+      "background": "rgb(16, 16, 16)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 309,
+      "background": "rgb(16, 16, 16)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 315,
+      "background": "rgb(16, 16, 16)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 322,
+      "background": "rgb(16, 16, 16)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 329,
+      "background": "rgb(16, 16, 16)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 335,
+      "background": "rgb(16, 16, 16)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 342,
+      "background": "rgb(16, 16, 16)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    },
+    {
+      "t": 349,
+      "background": "rgb(16, 16, 16)",
+      "buttons": [
+        {
+          "background": "rgb(38, 38, 38)",
+          "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "filter": "none",
+      "height": 500,
+      "icon": [],
+      "photoFilter": "none",
+      "states": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "values": [],
+      "width": 268
+    }
+  ],
+  "saucesTravel": [
+    {
+      "t": 0,
+      "active": "Sauces",
+      "heading": 9490,
+      "newBackground": "rgba(239, 239, 239, 0.92)",
+      "oldBackground": "rgba(237, 237, 237, 0.2)",
+      "scroll": 1729
+    },
+    {
+      "t": 22,
+      "active": "Sauces",
+      "heading": 9126,
+      "newBackground": "rgba(239, 239, 239, 0.95)",
+      "oldBackground": "rgba(237, 237, 237, 0.13)",
+      "scroll": 2093
+    },
+    {
+      "t": 42,
+      "active": "Sauces",
+      "heading": 8847,
+      "newBackground": "rgba(238, 238, 238, 0.965)",
+      "oldBackground": "rgba(237, 237, 237, 0.09)",
+      "scroll": 2372
+    },
+    {
+      "t": 56,
+      "active": "Sauces",
+      "heading": 8556,
+      "newBackground": "rgba(238, 238, 238, 0.976)",
+      "oldBackground": "rgba(237, 237, 237, 0.06)",
+      "scroll": 2663
+    },
+    {
+      "t": 69,
+      "active": "Sauces",
+      "heading": 8125,
+      "newBackground": "rgba(237, 237, 237, 0.99)",
+      "oldBackground": "rgba(237, 237, 237, 0.024)",
+      "scroll": 3094
+    },
+    {
+      "t": 88,
+      "active": "Sauces",
+      "heading": 7812,
+      "newBackground": "rgba(237, 237, 237, 0.996)",
+      "oldBackground": "rgba(237, 237, 237, 0.008)",
+      "scroll": 3407
+    },
+    {
+      "t": 102,
+      "active": "Sauces",
+      "heading": 7469,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 3750
+    },
+    {
+      "t": 119,
+      "active": "Sauces",
+      "heading": 7009,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 4210
+    },
+    {
+      "t": 136,
+      "active": "Sauces",
+      "heading": 6652,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 4567
+    },
+    {
+      "t": 152,
+      "active": "Sauces",
+      "heading": 6347,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 4872
+    },
+    {
+      "t": 166,
+      "active": "Sauces",
+      "heading": 6009,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 5210
+    },
+    {
+      "t": 182,
+      "active": "Sauces",
+      "heading": 5507,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 5712
+    },
+    {
+      "t": 199,
+      "active": "Sauces",
+      "heading": 5370,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 5849
+    },
+    {
+      "t": 209,
+      "active": "Sauces",
+      "heading": 5008,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 6211
+    },
+    {
+      "t": 226,
+      "active": "Sauces",
+      "heading": 4560,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 6659
+    },
+    {
+      "t": 242,
+      "active": "Sauces",
+      "heading": 4003,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 7216
+    },
+    {
+      "t": 265,
+      "active": "Sauces",
+      "heading": 3523,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 7696
+    },
+    {
+      "t": 301,
+      "active": "Sauces",
+      "heading": 2494,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 8725
+    },
+    {
+      "t": 333,
+      "active": "Sauces",
+      "heading": 2394,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 8825
+    },
+    {
+      "t": 344,
+      "active": "Sauces",
+      "heading": 1709,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 9510
+    },
+    {
+      "t": 373,
+      "active": "Sauces",
+      "heading": 1483,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 9736
+    },
+    {
+      "t": 390,
+      "active": "Sauces",
+      "heading": 1149,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 10070
+    },
+    {
+      "t": 408,
+      "active": "Sauces",
+      "heading": 836,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 10383
+    },
+    {
+      "t": 438,
+      "active": "Sauces",
+      "heading": 607,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 10612
+    },
+    {
+      "t": 449,
+      "active": "Sauces",
+      "heading": 467,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 10752
+    },
+    {
+      "t": 476,
+      "active": "Sauces",
+      "heading": 262,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 10957
+    },
+    {
+      "t": 488,
+      "active": "Sauces",
+      "heading": 203,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11016
+    },
+    {
+      "t": 513,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 523,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 531,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 539,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 547,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 556,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 564,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 571,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 580,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 590,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 600,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 610,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 620,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 633,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 642,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 652,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 661,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 672,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 681,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 691,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 700,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 708,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 717,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 726,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 735,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 744,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 753,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 762,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 771,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 780,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 789,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 798,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 807,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 816,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 826,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 834,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    },
+    {
+      "t": 843,
+      "active": "Sauces",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgba(0, 0, 0, 0)",
+      "scroll": 11043
+    }
+  ],
+  "homeTravel": [
+    {
+      "t": 0,
+      "active": "Breakfasts All Day",
+      "heading": -8486,
+      "newBackground": "rgba(237, 237, 237, 0.847)",
+      "oldBackground": "rgba(237, 237, 237, 0.847)",
+      "scroll": 8662
+    },
+    {
+      "t": 9,
+      "active": "Breakfasts All Day",
+      "heading": -8216,
+      "newBackground": "rgba(237, 237, 237, 0.89)",
+      "oldBackground": "rgba(237, 237, 237, 0.89)",
+      "scroll": 8392
+    },
+    {
+      "t": 21,
+      "active": "Breakfasts All Day",
+      "heading": -8080,
+      "newBackground": "rgba(237, 237, 237, 0.91)",
+      "oldBackground": "rgba(237, 237, 237, 0.91)",
+      "scroll": 8256
+    },
+    {
+      "t": 30,
+      "active": "Breakfasts All Day",
+      "heading": -7793,
+      "newBackground": "rgba(237, 237, 237, 0.94)",
+      "oldBackground": "rgba(237, 237, 237, 0.94)",
+      "scroll": 7969
+    },
+    {
+      "t": 43,
+      "active": "Breakfasts All Day",
+      "heading": -7503,
+      "newBackground": "rgba(237, 237, 237, 0.965)",
+      "oldBackground": "rgba(237, 237, 237, 0.965)",
+      "scroll": 7679
+    },
+    {
+      "t": 56,
+      "active": "Breakfasts All Day",
+      "heading": -7369,
+      "newBackground": "rgba(237, 237, 237, 0.976)",
+      "oldBackground": "rgba(237, 237, 237, 0.976)",
+      "scroll": 7545
+    },
+    {
+      "t": 66,
+      "active": "Breakfasts All Day",
+      "heading": -7068,
+      "newBackground": "rgba(237, 237, 237, 0.992)",
+      "oldBackground": "rgba(237, 237, 237, 0.992)",
+      "scroll": 7244
+    },
+    {
+      "t": 78,
+      "active": "Breakfasts All Day",
+      "heading": -6760,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 6936
+    },
+    {
+      "t": 91,
+      "active": "Breakfasts All Day",
+      "heading": -6446,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 6622
+    },
+    {
+      "t": 105,
+      "active": "Breakfasts All Day",
+      "heading": -6128,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 6304
+    },
+    {
+      "t": 119,
+      "active": "Breakfasts All Day",
+      "heading": -5968,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 6144
+    },
+    {
+      "t": 129,
+      "active": "Breakfasts All Day",
+      "heading": -5645,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 5821
+    },
+    {
+      "t": 142,
+      "active": "Breakfasts All Day",
+      "heading": -5320,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 5496
+    },
+    {
+      "t": 156,
+      "active": "Breakfasts All Day",
+      "heading": -4832,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 5008
+    },
+    {
+      "t": 176,
+      "active": "Breakfasts All Day",
+      "heading": -4530,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 4706
+    },
+    {
+      "t": 188,
+      "active": "Breakfasts All Day",
+      "heading": -4208,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 4384
+    },
+    {
+      "t": 203,
+      "active": "Breakfasts All Day",
+      "heading": -3888,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 4064
+    },
+    {
+      "t": 216,
+      "active": "Breakfasts All Day",
+      "heading": -3573,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 3749
+    },
+    {
+      "t": 232,
+      "active": "Breakfasts All Day",
+      "heading": -3263,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 3439
+    },
+    {
+      "t": 243,
+      "active": "Breakfasts All Day",
+      "heading": -3103,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 3279
+    },
+    {
+      "t": 252,
+      "active": "Breakfasts All Day",
+      "heading": -2803,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 2979
+    },
+    {
+      "t": 261,
+      "active": "Breakfasts All Day",
+      "heading": -2656,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 2832
+    },
+    {
+      "t": 271,
+      "active": "Breakfasts All Day",
+      "heading": -2504,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 2680
+    },
+    {
+      "t": 280,
+      "active": "Breakfasts All Day",
+      "heading": -2242,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 2418
+    },
+    {
+      "t": 290,
+      "active": "Breakfasts All Day",
+      "heading": -2097,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 2273
+    },
+    {
+      "t": 300,
+      "active": "Breakfasts All Day",
+      "heading": -1962,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 2138
+    },
+    {
+      "t": 309,
+      "active": "Breakfasts All Day",
+      "heading": -1694,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 1870
+    },
+    {
+      "t": 319,
+      "active": "Breakfasts All Day",
+      "heading": -1562,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 1738
+    },
+    {
+      "t": 327,
+      "active": "Breakfasts All Day",
+      "heading": -1434,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 1610
+    },
+    {
+      "t": 337,
+      "active": "Breakfasts All Day",
+      "heading": -1194,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 1370
+    },
+    {
+      "t": 346,
+      "active": "Breakfasts All Day",
+      "heading": -1077,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 1253
+    },
+    {
+      "t": 355,
+      "active": "Breakfasts All Day",
+      "heading": -964,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 1140
+    },
+    {
+      "t": 364,
+      "active": "Breakfasts All Day",
+      "heading": -747,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 923
+    },
+    {
+      "t": 372,
+      "active": "Breakfasts All Day",
+      "heading": -648,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 824
+    },
+    {
+      "t": 380,
+      "active": "Breakfasts All Day",
+      "heading": -553,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 729
+    },
+    {
+      "t": 388,
+      "active": "Breakfasts All Day",
+      "heading": -460,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 636
+    },
+    {
+      "t": 396,
+      "active": "Breakfasts All Day",
+      "heading": -376,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 552
+    },
+    {
+      "t": 404,
+      "active": "Breakfasts All Day",
+      "heading": -294,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 470
+    },
+    {
+      "t": 414,
+      "active": "Breakfasts All Day",
+      "heading": -157,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 333
+    },
+    {
+      "t": 423,
+      "active": "Breakfasts All Day",
+      "heading": -92,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 268
+    },
+    {
+      "t": 431,
+      "active": "Breakfasts All Day",
+      "heading": -34,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 210
+    },
+    {
+      "t": 439,
+      "active": "Breakfasts All Day",
+      "heading": 17,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 159
+    },
+    {
+      "t": 448,
+      "active": "Breakfasts All Day",
+      "heading": 101,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 75
+    },
+    {
+      "t": 456,
+      "active": "Breakfasts All Day",
+      "heading": 132,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 44
+    },
+    {
+      "t": 464,
+      "active": "Breakfasts All Day",
+      "heading": 155,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 21
+    },
+    {
+      "t": 472,
+      "active": "Breakfasts All Day",
+      "heading": 169,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 7
+    },
+    {
+      "t": 481,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 489,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 498,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 507,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 516,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 524,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 532,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 541,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 550,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 559,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 567,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 575,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 583,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 591,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 599,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 607,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 614,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 622,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 631,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 638,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 646,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 655,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 664,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 671,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 679,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 686,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 695,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 703,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 711,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 719,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 729,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 741,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 753,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 761,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 769,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 777,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 785,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 793,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 802,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 810,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 817,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 824,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 832,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 839,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    },
+    {
+      "t": 846,
+      "active": "Breakfasts All Day",
+      "heading": 176,
+      "newBackground": "rgb(237, 237, 237)",
+      "oldBackground": "rgb(237, 237, 237)",
+      "scroll": 0
+    }
+  ],
+  "finalHover": {
+    "background": "color(srgb 0.0941176 0.0941176 0.0941176)",
+    "buttons": [
+      {
+        "background": "rgb(38, 38, 38)",
+        "label": "Add Acai bowl (granola, banana, berries) (vegan) to cart for $15.95",
+        "opacity": "1",
+        "transform": "none"
+      }
+    ],
+    "filter": "none",
+    "height": 500,
+    "icon": [],
+    "photoFilter": "none",
+    "states": [
+      {
+        "opacity": "1",
+        "transform": "none"
+      }
+    ],
+    "values": [],
+    "width": 268
+  },
+  "verification": {
+    "motionTests": {
+      "passed": 9,
+      "failed": 0
+    },
+    "productionBuild": "passed",
+    "userApproval": "Prior add-to-cart and quantity animations explicitly praised; new hover/easing not yet assessed by user.",
+    "limits": "Browser samples start after click action returns; not a complete frame/performance trace. Purchase implementation unchanged; prior lively-catalog audit remains its evidence."
+  }
+}

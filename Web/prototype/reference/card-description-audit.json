@@ -1,0 +1,745 @@
+{
+  "date": "2026-10-05",
+  "products": 87,
+  "draftCount": 24,
+  "punctuationErrors": [],
+  "checks": [
+    "All 87 products reviewed again",
+    "Screenshot examples normalized",
+    "Non-copy fields unchanged",
+    "Source portions retained",
+    "All drafts are normalized and marked prototype-draft",
+    "New source descriptions take precedence",
+    "Draft application is idempotent"
+  ],
+  "records": [
+    {
+      "id": "af61daf6-a49d-4eeb-bea1-5a7da211641e",
+      "name": "Acai bowl (granola, banana, berries) (vegan)",
+      "sourceDescription": "Banana, Acai, Coconut Milk, Strawberry, Dragon Fruit, Blueberry, Honey, Chia Pudding, House Crunch Mix, Coconut Flakes, Mint",
+      "description": "Banana, acai, coconut milk, strawberry, dragon fruit, blueberry, honey, chia pudding, house crunch mix, coconut flakes, mint",
+      "isDemo": false
+    },
+    {
+      "id": "5953310a-d6c6-4d8c-b3fc-1e88283ff884",
+      "name": "Avocado toast (gluten-free sourdough, poached egg) (GF, LF)",
+      "sourceDescription": "Avocado Smash, Gluten-Free Sourdough, Eggs, Roasted Beets, Red Onion, Arugula, Cilantro, House Crunch Mix",
+      "description": "Avocado smash, gluten-free sourdough, eggs, roasted beets, red onion, arugula, cilantro, house crunch mix",
+      "isDemo": false
+    },
+    {
+      "id": "884bb3d4-573a-44dd-b370-25277a9b8580",
+      "name": "Chia pudding (coconut milk, berries, banana) (vegan, GF)",
+      "sourceDescription": "Chia Pudding, Mixed Berries, Banana, Mango, Coconut Flakes, Mint, cinnamon, vanilla .",
+      "description": "Chia pudding, mixed berries, banana, mango, coconut flakes, mint, cinnamon, vanilla.",
+      "isDemo": false
+    },
+    {
+      "id": "ddae0e45-84a2-4dd7-bad2-a631f9c4cdb8",
+      "name": "Chicken omelet & protein waffle · high protein (GF, LF, nut free)",
+      "sourceDescription": "Sous Vide Chicken, Lime & Ghee Quinoa, Eggs, Avocado, Tomato, Cocoa-Banana Protein Waffle, Golden Tahini Sauce, Cucumber, Microgreens, House Crunch Mix",
+      "description": "Sous vide chicken, lime & ghee quinoa, eggs, avocado, tomato, cocoa-banana protein waffle, golden tahini sauce, cucumber, microgreens, house crunch mix",
+      "isDemo": false
+    },
+    {
+      "id": "ec99d08c-2bbf-4289-97a9-eef9592ee630",
+      "name": "Eggs your way (create your breakfast)",
+      "sourceDescription": "Build a Breakfast Your Way.",
+      "description": "Make eggs the starting point for your breakfast. A simple morning favourite to enjoy on its own or alongside your usual sides.",
+      "isDemo": true
+    },
+    {
+      "id": "8bdf223c-a6dc-46fe-9022-def1ba1bf18b",
+      "name": "Fresh fruit bowl (mango, pineapple, berries) (vegan, GF)",
+      "sourceDescription": "Mango, Pineapple, Strawberry, Banana, Dragon Fruit, Blueberry, Lime zest, honey, Coconut Flakes, Mint, mango lime sauce .",
+      "description": "Mango, pineapple, strawberry, banana, dragon fruit, blueberry, lime zest, honey, coconut flakes, mint, mango lime sauce.",
+      "isDemo": false
+    },
+    {
+      "id": "a665b9c8-5261-43c3-90d7-f791b7417fc3",
+      "name": "Prana oats (oat milk, granola, berries) (GF, LF, VG, high omega-3, high fiber)",
+      "sourceDescription": "Oatmeal,  Creamy Oat Milk, Vanilla Extract, Honey,goji, Flaxseeds, Crunch Mix, Granola(Side), Berries(Side)",
+      "description": "Oatmeal, creamy oat milk, vanilla extract, honey, goji, flaxseeds, crunch mix, granola (side), berries (side)",
+      "isDemo": false
+    },
+    {
+      "id": "18ee21f7-d53b-4f28-a5c2-b0d6915c9d7e",
+      "name": "Protein tropical waffle (cocoa banana) (GF, LF, VG, high protein)",
+      "sourceDescription": "Cocoa-Banana Protein Waffle, Mango, Dragon Fruit, banana, Pineapple, Mango Lime Vinaigrette, Blueberry, Coconut Flakes, crunch mix ,mint , honey",
+      "description": "Cocoa-banana protein waffle, mango, dragon fruit, banana, pineapple, mango lime vinaigrette, blueberry, coconut flakes, crunch mix, mint, honey",
+      "isDemo": false
+    },
+    {
+      "id": "54fa3435-243e-4d2a-af4f-e2d6da6ed0aa",
+      "name": "Shakshuka (baked eggs, tomato & pepper, GF sourdough) (LF, GF, VG)",
+      "sourceDescription": "Shakshuka Base (Tomato, Bell Pepper, Onion), Eggs, Gluten Free baguette, Golden Tahini Sauce, Cilantro,crispy garlic Microgreens, Spices",
+      "description": "Shakshuka base (tomato, bell pepper, onion), eggs, gluten free baguette, golden tahini sauce, cilantro, crispy garlic, microgreens, spices",
+      "isDemo": false
+    },
+    {
+      "id": "d9c358a9-315f-4a77-a380-9910ae3db226",
+      "name": "Buddha bowl (tempeh, coconut black rice, avocado) (vegan, GF, LF, high fiber)",
+      "sourceDescription": "Coconut Black Rice, Tempeh, Roasted Beets, Avocado, Tomato, Cucumber, Miso Ginger Sauce, Golden Tahini Sauce, House, Crunch Mix",
+      "description": "Coconut black rice, tempeh, roasted beets, avocado, tomato, cucumber, miso ginger sauce, golden tahini sauce, house crunch mix",
+      "isDemo": false
+    },
+    {
+      "id": "c94532b5-f59b-4bec-bff7-e7ab3a1f5e7e",
+      "name": "Build your own bowl",
+      "sourceDescription": "Build a Bowl Your Way",
+      "description": "A bowl built around your appetite. Bring together the flavours you enjoy for an everyday lunch that feels just right for you.",
+      "isDemo": true
+    },
+    {
+      "id": "8b0f30eb-d270-4d44-afef-1b9fe3a58fa7",
+      "name": "Citrus shrimp bowl (poke style, coconut black rice, avocado, mango) (GF, LF, nut free, high fiber)",
+      "sourceDescription": "Coconut Black Rice, Citrus Sous Vide Shrimp, Avocado, Tomato, Mango, Edamame, Cucumber, Miso Ginger Sauce, Arugula, House Crunch Mix , microgreen Mango-lime  sauce to go.",
+      "description": "Coconut black rice, citrus sous vide shrimp, avocado, tomato, mango, edamame, cucumber, miso ginger sauce, arugula, house crunch mix, microgreen, mango-lime sauce to go.",
+      "isDemo": false
+    },
+    {
+      "id": "cfa2335e-ef0c-422d-b7ab-f55cd0133596",
+      "name": "Golden chicken bowl (coconut black rice, avocado) (high protein, GF, LF)",
+      "sourceDescription": "Sous Vide Chicken, Coconut Black Rice, Broccoli, Avocado, Tomato, Arugula, Miso Ginger dressing , House Crunch Mix,edamame , Golden tahini sauce on the side.",
+      "description": "Sous vide chicken, coconut black rice, broccoli, avocado, tomato, arugula, miso ginger dressing, house crunch mix, edamame, golden tahini sauce on the side.",
+      "isDemo": false
+    },
+    {
+      "id": "03c7bbdd-2879-4020-9720-b1119f015601",
+      "name": "Miami smoked salmon bowl (poke style, coconut black rice, avocado) (omega-3, high fiber, GF, LF)",
+      "sourceDescription": "Coconut Black Rice, Smoked Salmon, Avocado, arugula, Mango, cucumber, edamame, Arugula, Tomato, Miso Ginger dressing, Lime, House Crunch Mix",
+      "description": "Coconut black rice, smoked salmon, avocado, arugula, mango, cucumber, edamame, arugula, tomato, miso ginger dressing, lime, house crunch mix",
+      "isDemo": false
+    },
+    {
+      "id": "28a91393-7b37-4461-846e-30e82ac1a93c",
+      "name": "Roast beef bowl (basmati rice, broccolini) (high protein, LF, GF)",
+      "sourceDescription": "Roast Beef, Basmati Rice, Broccoli, Tomato, Arugula, House Crunch Mix. miso ginger dress., Spices, crispy garlic,microgreens",
+      "description": "Roast beef, basmati rice, broccoli, tomato, arugula, house crunch mix, miso ginger dressing, spices, crispy garlic, microgreens",
+      "isDemo": false
+    },
+    {
+      "id": "3e1d8b1e-0f16-4864-8266-6600bc494143",
+      "name": "Tuna poke bowl (coconut black rice, avocado, mango) (GF, LF, high protein, nut free, high omega-3, high fiber)",
+      "sourceDescription": "Tuna, Black Coconut Rice, Avocado, Mango, Cucumber, Edamame, Arugula,tomato, scallion Crunch Seeds, Lime, Tahini Sauce, Miso Ginger Sauce to go",
+      "description": "Tuna, black coconut rice, avocado, mango, cucumber, edamame, arugula, tomato, scallion, crunch seeds, lime, tahini sauce, miso ginger sauce to go",
+      "isDemo": false
+    },
+    {
+      "id": "1a8a038d-c7d5-4ec5-8d95-6da49827a1bc",
+      "name": "Beef bone broth (slow-simmered) (high collagen, keto)",
+      "sourceDescription": "Beef Bone Broth, Scallion, Sprout Beans",
+      "description": "Beef bone broth, scallion, sprout beans",
+      "isDemo": false
+    },
+    {
+      "id": "474a7cf7-9b98-406e-a058-f5bce7145eee",
+      "name": "Cauliflower soup (creamy, tahini) (vegan, GF, LF)",
+      "sourceDescription": "Cauliflower Purée, Vegetable Broth, House Crunch Mix, Garden Vegetables",
+      "description": "Cauliflower purée, vegetable broth, house crunch mix, garden vegetables",
+      "isDemo": false
+    },
+    {
+      "id": "f84d5296-e32b-4c6d-880f-39681f60ba21",
+      "name": "Coconut seafood soup (salmon or shrimp) (LF, GF, nut free, high omega-3)",
+      "sourceDescription": "Carrot-Sweet Potato Puree, Coconut Milk, Citrus Sous Vide Shrimp or Salmon, rice basmati",
+      "description": "Carrot-sweet potato puree, coconut milk, citrus sous vide shrimp or salmon, rice basmati",
+      "isDemo": false
+    },
+    {
+      "id": "334f58b1-7cf0-4271-9adc-54b02cfc46c1",
+      "name": "Tomato minestrone soup (tomato, roasted vegetables) (vegan, low calorie)",
+      "sourceDescription": "Tomato, Bell Pepper, Onion, Vegetable Broth, Roasted Vegetables, Microgreens",
+      "description": "Tomato, bell pepper, onion, vegetable broth, roasted vegetables, microgreens",
+      "isDemo": false
+    },
+    {
+      "id": "3690cb8c-0828-464a-b640-492b692b3383",
+      "name": "Beet & arugula salad with goat cheese (dragon fruit) (vegetarian, GF)",
+      "sourceDescription": "Spinach, Arugula, Beet, Yellow Beet, Dragon Fruit, Tomatoes, Goat Cheese, Mango Sauce, Crunch Mix",
+      "description": "Spinach, arugula, beet, yellow beet, dragon fruit, tomatoes, goat cheese, mango sauce, crunch mix",
+      "isDemo": false
+    },
+    {
+      "id": "e5c02e61-e73b-45d0-a5a1-51a7d407cc1b",
+      "name": "Green salad (broccoli, edamame, avocado, celery) (vegan, GF)",
+      "sourceDescription": "Arugula, Spinach, Cucumber, Avocado, Edamame, Broccoli, Celery, Scallion, Microgreens, Crunch Mix, avocado oil, lime juice\nWith no dressing",
+      "description": "Arugula, spinach, cucumber, avocado, edamame, broccoli, celery, scallion, microgreens, crunch mix, avocado oil, lime juice · with no dressing",
+      "isDemo": false
+    },
+    {
+      "id": "6f762826-b838-4fa2-b82c-ef90d37ce818",
+      "name": "House salad (arugula, tomato, radish) choice of dressing",
+      "sourceDescription": "Tomato, Cucumber, Red Cabbage, Arugula, Radish, scallion, avocado oil, lime juice, Microgreens, Mint",
+      "description": "Tomato, cucumber, red cabbage, arugula, radish, scallion, avocado oil, lime juice, microgreens, mint",
+      "isDemo": false
+    },
+    {
+      "id": "e33b7032-099f-45ba-9160-d8203e4cc96b",
+      "name": "Hummus & tabbouleh (crispy garlic, GF sourdough) (vegan, LF, GF, nut free, high fiber)",
+      "sourceDescription": "Hummus, Tomato, Gluten-Free Sourdough,\nParsley, Cucumber, Red Onion, Scallions, Lemon, Cilantro, Crispy Garlic, Mint",
+      "description": "Hummus, tomato, gluten-free sourdough, parsley, cucumber, red onion, scallions, lemon, cilantro, crispy garlic, mint",
+      "isDemo": false
+    },
+    {
+      "id": "414657da-6cb0-408a-8271-b312013ad187",
+      "name": "Liver pate chicken (served with macadamia, pistachio & red corn chips) (high iron, keto)",
+      "sourceDescription": "Chicken Liver Pate, Macadamia, Crunch Mix, Pistachio, Mango Sauce, Organic Red Corn Chips, Microgreens",
+      "description": "Chicken liver pate, macadamia, crunch mix, pistachio, mango sauce, organic red corn chips, microgreens",
+      "isDemo": false
+    },
+    {
+      "id": "78124d94-8fc8-4690-95a4-0cb822d3e103",
+      "name": "Shrimp & mango spring rolls (rice paper, avocado) (GF)",
+      "sourceDescription": "Citrus Sous Vide Shrimp, Avocado , Iceberg Lettuce, Rice Paper, Mango, Cucumber, Bell Pepper, Cabbage, Carrot, Arugula, Cilantro,mint, miso ginger dressing ,crunch mix",
+      "description": "Citrus sous vide shrimp, avocado, iceberg lettuce, rice paper, mango, cucumber, bell pepper, cabbage, carrot, arugula, cilantro, mint, miso ginger dressing, crunch mix",
+      "isDemo": false
+    },
+    {
+      "id": "5f51d248-82ef-4ea2-9b08-3471be14d2ee",
+      "name": "Shrimp & salmon salad (strawberry, grapefruit, avocado) (high protein, omega-3)",
+      "sourceDescription": "Shrimps/Salmon, Arugula, Spinach, Strawberry, Orange, Avocado, Edamame, Crunch Mix, Mango Sauce, Lime",
+      "description": "Shrimps/salmon, arugula, spinach, strawberry, orange, avocado, edamame, crunch mix, mango sauce, lime",
+      "isDemo": false
+    },
+    {
+      "id": "9a7e2a7e-5c5b-48be-8325-aa67bf85f950",
+      "name": "Smashed avocado & tabbouleh (cassava chips) (vegan, GF)",
+      "sourceDescription": "Avocado Smash, Parsley, Tomato, Cucumber, Cassava Chips, Red Onion, Lime, Cilantro, Mint",
+      "description": "Avocado smash, parsley, tomato, cucumber, cassava chips, red onion, lime, cilantro, mint",
+      "isDemo": false
+    },
+    {
+      "id": "a5e16810-03fa-4c2e-868b-687c4a2e46e8",
+      "name": "Veggie spring rolls (rice paper, veggies, avocado) (vegan, GF)",
+      "sourceDescription": "Avocado, Miso ginger sauce, romaine Lettuce, Rice Paper, Cucumber, Bell Pepper, Cabbage, Carrot, Arugula, Cilantro, Crunch Mix, Microgreens,mint, miso ginger dressing",
+      "description": "Avocado, miso ginger sauce, romaine lettuce, rice paper, cucumber, bell pepper, cabbage, carrot, arugula, cilantro, crunch mix, microgreens, mint, miso ginger dressing",
+      "isDemo": false
+    },
+    {
+      "id": "360465bb-5565-47c6-b867-60b83bf1087f",
+      "name": "Beef soba noodles (ponzu sesame, bean sprouts) (gluten free)",
+      "sourceDescription": "Ponzu Sesame Sauce, Roast Beef, Gluten-Free Soba Noodles, Bell Pepper, Carrot, Bean Sprouts, Red Cabbage, Lime, Cilantro, House Crunch Mix, Scallions",
+      "description": "Ponzu sesame sauce, roast beef, gluten-free soba noodles, bell pepper, carrot, bean sprouts, red cabbage, lime, cilantro, house crunch mix, scallions",
+      "isDemo": false
+    },
+    {
+      "id": "635addde-1d4e-4a23-b2df-2cc9a12e7bf5",
+      "name": "Chicken liver plate (cauliflower puree/carrot-sweet potato puree, roasted beets) · high iron, GF",
+      "sourceDescription": "Cauliflower Purée/Carrot-Sweet potato puree, Chicken Liver, baked Beets, golden Beet,tomato, Cilantro, ,crispy garlic,tomato House Crunch Mix",
+      "description": "Cauliflower purée/carrot-sweet potato puree, chicken liver, baked beets, golden beet, tomato, cilantro, crispy garlic, tomato, house crunch mix",
+      "isDemo": false
+    },
+    {
+      "id": "e1f366fc-fee0-4b78-915c-d10b4c399516",
+      "name": "Chicken soba noodles (ponzu sesame, bean sprouts) (gluten free, high protein)",
+      "sourceDescription": "Ponzu Sesame Sauce, Sous Vide Chicken, Gluten-Free Soba Noodles, Bell Pepper, Carrot, Bean Sprouts, Red Cabbage, Lime, Cilantro, House Crunch Mix, Scallions",
+      "description": "Ponzu sesame sauce, sous vide chicken, gluten-free soba noodles, bell pepper, carrot, bean sprouts, red cabbage, lime, cilantro, house crunch mix, scallions",
+      "isDemo": false
+    },
+    {
+      "id": "f3693320-0938-4dc9-9de6-57808da68a75",
+      "name": "Roasted chicken plate (potato confit, tahini) (high protein, GF)",
+      "sourceDescription": "Sous Vide Chicken, Potato Confit, Cabbage, Tomato, Golden Tahini Sauce, Microgreens",
+      "description": "Sous vide chicken, potato confit, cabbage, tomato, golden tahini sauce, microgreens",
+      "isDemo": false
+    },
+    {
+      "id": "2007941d-0ed4-4746-80e2-0877bbe1f9fd",
+      "name": "Salmon steak plate (basmati rice, broccoli) (omega-3, GF)",
+      "sourceDescription": "Salmon 6 oz , Basmati Rice, tomato, Broccoli, Edamame, Miso Ginger sauce",
+      "description": "Salmon 6 oz, basmati rice, tomato, broccoli, edamame, miso ginger sauce",
+      "isDemo": false
+    },
+    {
+      "id": "035d9878-fe68-4a3b-9393-7b5b19201403",
+      "name": "Shrimp soba noodles (ponzu sesame, bean sprouts) (gluten free)",
+      "sourceDescription": "Ponzu Sesame Sauce, Citrus Sous Vide Shrimp, Gluten-Free Soba Noodles, Bell Pepper, Carrot, Bean Sprouts, Red Cabbage, Lime, Cilantro, House Crunch Mix, Scallions",
+      "description": "Ponzu sesame sauce, citrus sous vide shrimp, gluten-free soba noodles, bell pepper, carrot, bean sprouts, red cabbage, lime, cilantro, house crunch mix, scallions",
+      "isDemo": false
+    },
+    {
+      "id": "8bd79150-4bb5-4172-adb9-d3d578d2d93c",
+      "name": "Slow-roasted beef plate (potato confit, grilled peppers) (high protein)",
+      "sourceDescription": "Roast Beef, Potato Confit, Grilled Peppers,\nRed Cabbage, Scallions, Microgreens",
+      "description": "Roast beef, potato confit, grilled peppers, red cabbage, scallions, microgreens",
+      "isDemo": false
+    },
+    {
+      "id": "8ddf05b6-aadf-47c4-866a-ae5ab4d100e8",
+      "name": "Turkey meatballs plate (sweet potato purée, broccolini) (high protein, lactose free)",
+      "sourceDescription": "Sweet Potato & Carrot Purée, Turkey Meatballs, Broccoli, tomatoes, Edamame, House Crunch Mix, Parsley",
+      "description": "Sweet potato & carrot purée, turkey meatballs, broccoli, tomatoes, edamame, house crunch mix, parsley",
+      "isDemo": false
+    },
+    {
+      "id": "9fac5bbe-6b14-4448-b0c1-8b0c3ed23387",
+      "name": "Veggie soba noodles (ponzu sesame, bean sprouts) (vegan, gluten free)",
+      "sourceDescription": "Ponzu Sesame Sauce, Gluten-Free Soba Noodles, Bell Pepper, Carrot, Bean Sprouts, Red Cabbage, Lime, Cilantro, House Crunch Mix, Scallions",
+      "description": "Ponzu sesame sauce, gluten-free soba noodles, bell pepper, carrot, bean sprouts, red cabbage, lime, cilantro, house crunch mix, scallions",
+      "isDemo": false
+    },
+    {
+      "id": "c9d19ac8-aa99-4eaf-bf42-3b0c0535c6a2",
+      "name": "Chicken aji verde wrap (gluten-free tortilla, avocado, ají verde) (GF, high protein)",
+      "sourceDescription": "Sous Vide Chicken, Gluten-Free Tortilla (Corn-free/Chickpea flour, Rice flour, Tapioca Cornstarch), Avocado, Ají Verde (Green Herb Sauce), Arugula, Cabbage, tomato,pickles ,onion",
+      "description": "Sous vide chicken, gluten-free tortilla (corn-free/chickpea flour, rice flour, tapioca cornstarch), avocado, ají verde (green herb sauce), arugula, cabbage, tomato, pickles, onion",
+      "isDemo": false
+    },
+    {
+      "id": "8316bcff-fc0b-402c-9f6b-163f27e6ac99",
+      "name": "Steak honey mustard wrap (gluten-free tortilla, avocado) (high protein)",
+      "sourceDescription": "Grilled Fillet Steak, Gluten-Free Tortilla (Corn-free/Chickpea flour, Rice flour, Tapioca Cornstarch),  Honey mustard Sauce, Avocado , Arugula, Cabbage, Tomato, Pickles, Onion\n481 kcal • Protein 33 g • Fat 23 g • Carbs 38 g",
+      "description": "Grilled fillet steak, gluten-free tortilla (corn-free/chickpea flour, rice flour, tapioca cornstarch), honey mustard sauce, avocado, arugula, cabbage, tomato, pickles, onion · 481 kcal · protein 33 g · fat 23 g · carbs 38 g",
+      "isDemo": false
+    },
+    {
+      "id": "c23c1f8c-b141-4910-8160-4b941950235e",
+      "name": "Chicken coconut curry (rice basmati) (GF)",
+      "sourceDescription": "Rice , Carrot, Sweet Potato & Pepper Purée, Coconut Milk, Sous Vide Chicken, Lemon, Cilantro, Spices, chili flkes,coconut flakes",
+      "description": "Rice, carrot, sweet potato & pepper purée, coconut milk, sous vide chicken, lemon, cilantro, spices, chili flakes, coconut flakes",
+      "isDemo": false
+    },
+    {
+      "id": "2e064019-f369-4857-866c-4a88551c323e",
+      "name": "Shrimp & mango coconut curry (coconut black rice) (GF)",
+      "sourceDescription": "Coconut Black Rice, Sweet Potato & Carrot Purée, Coconut Milk, Citrus Sous Vide Shrimp, Mango, scallion, сhili pepper , Lime, Cilantro, Microgreens",
+      "description": "Coconut black rice, sweet potato & carrot purée, coconut milk, citrus sous vide shrimp, mango, scallion, chili pepper, lime, cilantro, microgreens",
+      "isDemo": false
+    },
+    {
+      "id": "e7e2ca55-c376-47ff-82e6-d6279e1e97aa",
+      "name": "Turkey meatball coconut curry (rice basmati) (GF, LF)",
+      "sourceDescription": "Rice Basmati , Sweet Potato & carrot Purée, Coconut Milk, Turkey Meatballs, Tomato , Lime , Cilantro, Spices,crunch mix.",
+      "description": "Rice basmati, sweet potato & carrot purée, coconut milk, turkey meatballs, tomato, lime, cilantro, spices, crunch mix.",
+      "isDemo": false
+    },
+    {
+      "id": "89b9b5ee-dfd7-47c5-bc61-0ed9b011d754",
+      "name": "Citrus shrimp (18 g protein)",
+      "sourceDescription": "100 gr",
+      "description": "Tender shrimp with a bright citrus character. An easy addition to a bowl or salad when you feel like a little something extra · 100 g",
+      "isDemo": true
+    },
+    {
+      "id": "b067676a-d2a5-4669-b44f-1ef302c060fe",
+      "name": "Hard-boiled egg (7 g protein)",
+      "sourceDescription": "50 gr",
+      "description": "A hard-boiled egg with a firm white and rich yolk. A familiar extra for breakfast, a bowl or a simple bite alongside your meal · 50 g",
+      "isDemo": true
+    },
+    {
+      "id": "08555176-0409-4001-b469-c46c7ec95259",
+      "name": "Pork ribs (34 g protein)",
+      "sourceDescription": "200 gr",
+      "description": "Pork ribs with a rich, savoury character. Enjoy them as an extra alongside your meal or pair with a side for a satisfying plate · 200 g",
+      "isDemo": true
+    },
+    {
+      "id": "ef552967-180f-4f93-a52a-f86724f6fee9",
+      "name": "Roast beef (38 g protein)",
+      "sourceDescription": "150 gr",
+      "description": "Roast beef with a full, savoury flavour. Add it to your favourite bowl or enjoy alongside vegetables for a more substantial meal · 150 g",
+      "isDemo": true
+    },
+    {
+      "id": "2c29f76d-9359-4281-9bf2-401340b12b2e",
+      "name": "Smoked salmon (23 g protein) (omega-3)",
+      "sourceDescription": "100 gr",
+      "description": "Smoked salmon with a delicate texture and smoky finish. A flavourful extra for breakfast, a fresh salad or your favourite bowl · 100 g",
+      "isDemo": true
+    },
+    {
+      "id": "8c1dbe37-23c7-46d4-95bb-83bdb4e5889f",
+      "name": "Sous vide chicken (27 g protein)",
+      "sourceDescription": "100 gr",
+      "description": "Sous vide chicken with a tender, delicate bite. A versatile addition to a bowl or plate, ready to pair with your favourite sides · 100 g",
+      "isDemo": true
+    },
+    {
+      "id": "f00555f9-cf94-45f1-a447-03a63f7ffc74",
+      "name": "Tempeh (19 g protein)",
+      "sourceDescription": "100 gr",
+      "description": "Tempeh with a firm bite and gently nutty character. Add texture to your favourite bowl or enjoy it alongside a vegetable side · 100 g",
+      "isDemo": true
+    },
+    {
+      "id": "378d8721-64c3-44bd-93c7-0d3430de7914",
+      "name": "Tuna (25 g protein)",
+      "sourceDescription": "90-100 gr",
+      "description": "Tuna with a delicate flavour and satisfying bite. Enjoy it with your favourite bowl or as an extra alongside a fresh salad · 90–100 g",
+      "isDemo": true
+    },
+    {
+      "id": "da1bef85-6a9d-43ce-8ed6-55e7c9efdab8",
+      "name": "Turkey bacon (10 g protein)",
+      "sourceDescription": "50 gr",
+      "description": "Turkey bacon brings a savoury accent to your plate. Pair it with breakfast or add a little extra flavour to your favourite meal · 50 g",
+      "isDemo": true
+    },
+    {
+      "id": "b3e552c7-7033-4014-9e27-ddb8e49e1ef3",
+      "name": "Turkey meatballs (29 g protein)",
+      "sourceDescription": "100 gr",
+      "description": "Turkey meatballs with a tender bite and savoury flavour. Enjoy them with a side or add a satisfying extra to your usual bowl · 100 g",
+      "isDemo": true
+    },
+    {
+      "id": "7d9a08a8-3606-4553-a3b3-807fac723d6d",
+      "name": "Basmati rice — side",
+      "sourceDescription": "200 gr",
+      "description": "Basmati rice with a delicate aroma and light texture. A simple side to pair with a curry, vegetables or your favourite main · 200 g",
+      "isDemo": true
+    },
+    {
+      "id": "7fa08430-b0d5-4fc8-ac0d-d3aa7c85ec3d",
+      "name": "Black beans — side",
+      "sourceDescription": "150 gr",
+      "description": "Black beans with a soft texture and earthy flavour. A satisfying side to round out your bowl or enjoy alongside a main dish · 150 g",
+      "isDemo": true
+    },
+    {
+      "id": "68be792f-fbf5-4dc8-bda8-a680430f5cd0",
+      "name": "Coconut black rice — side",
+      "sourceDescription": "150 gr",
+      "description": "Black rice with a gentle coconut note and a satisfying bite. A flavourful side for your favourite main or a little extra in a bowl · 150 g",
+      "isDemo": true
+    },
+    {
+      "id": "2944973a-1652-4f15-baae-112bbc31a32d",
+      "name": "Garden vegetables — side (vegan, GF)",
+      "sourceDescription": "200 gr\ntomato 100 ,cucumber 50 , pepper 50",
+      "description": "200 g · tomato 100, cucumber 50, pepper 50",
+      "isDemo": false
+    },
+    {
+      "id": "851348be-ef25-4184-a336-848e5f637c46",
+      "name": "Grilled bell peppers — side (vegan, GF)",
+      "sourceDescription": "100 gr",
+      "description": "Grilled bell peppers with a soft bite and mellow sweetness. A colourful side to enjoy with your favourite bowl or main dish · 100 g",
+      "isDemo": true
+    },
+    {
+      "id": "0393aef2-b9f9-4998-ab88-530eb7805c33",
+      "name": "Lime & ghee quinoa — side",
+      "sourceDescription": "150 gr",
+      "description": "Quinoa with bright lime and the rounded flavour of ghee. A gently textured side that pairs easily with a bowl or main dish · 150 g",
+      "isDemo": true
+    },
+    {
+      "id": "1610a82e-2250-4ef2-bb1b-3f6456febd2c",
+      "name": "Potato baby — side",
+      "sourceDescription": "200 gr",
+      "description": "Baby potatoes with a mild flavour and comforting texture. A familiar side to enjoy with vegetables or alongside your main · 200 g",
+      "isDemo": true
+    },
+    {
+      "id": "6598cb92-31b1-4d75-8144-cb0e0007ee20",
+      "name": "Rice & peas — side (vegan)",
+      "sourceDescription": "200 gr",
+      "description": "Rice and peas make a simple, comforting pairing. Enjoy this easy side with your favourite main or as an addition to a bowl · 200 g",
+      "isDemo": true
+    },
+    {
+      "id": "012b4103-2eca-48fd-a169-f99daa415495",
+      "name": "Sweet potato & carrot puree — side",
+      "sourceDescription": "200 gr",
+      "description": "Sweet potato and carrot in a smooth purée with mellow sweetness. A comforting side that brings a softer texture to your plate · 200 g",
+      "isDemo": true
+    },
+    {
+      "id": "fff73bce-a5ff-4e09-b2f1-a6d17cded6db",
+      "name": "Ahi verde yogurt",
+      "sourceDescription": "Cilantro, Aji Amarillo Paste, lactose free  Greek Yogurt, Lime Juice, Garlic powder, Avocado Oil, protein isolate,maple syrop",
+      "description": "Cilantro, aji amarillo paste, lactose free Greek yogurt, lime juice, garlic powder, avocado oil, protein isolate, maple syrup",
+      "isDemo": false
+    },
+    {
+      "id": "1df378e3-02b9-4584-a3e7-12ae6d8c5b86",
+      "name": "Golden tahini citrus",
+      "sourceDescription": "Tahini, Lemon Juice, Turmeric, Kosher Salt, Orange Juice, Lime Zest, Orange Zest",
+      "description": "Tahini, lemon juice, turmeric, kosher salt, orange juice, lime zest, orange zest",
+      "isDemo": false
+    },
+    {
+      "id": "da24f77b-cb2a-47a6-b128-0936301c4279",
+      "name": "Mango lime vinaigrette",
+      "sourceDescription": "Mango Cubes, Lime Juice, Avocado Oil, Maple Syrup, Kosher Salt, Ginger, Jalapeno, Mint",
+      "description": "Mango cubes, lime juice, avocado oil, maple syrup, kosher salt, ginger, jalapeno, mint",
+      "isDemo": false
+    },
+    {
+      "id": "7c04a38d-0ebc-4196-a639-1bd5a5081e53",
+      "name": "Miso ginger dressing",
+      "sourceDescription": "Rice Miso, Ginger Juice, Vegetable Broth, Tamari, Maple Syrup, Avocado Oil, Garlic Powder",
+      "description": "Rice miso, ginger juice, vegetable broth, tamari, maple syrup, avocado oil, garlic powder",
+      "isDemo": false
+    },
+    {
+      "id": "84be0768-8b77-494c-a9a1-b749514d03dc",
+      "name": "Soba teriyaki GF",
+      "sourceDescription": "Mirin, Hoisin , Sesame Oil, Tamari, Garlic Powder, Lime Pepper",
+      "description": "Mirin, hoisin, sesame oil, tamari, garlic powder, lime pepper",
+      "isDemo": false
+    },
+    {
+      "id": "f32c3709-0254-4c1b-8e9f-1567056fbfb2",
+      "name": "Aloe refresher",
+      "sourceDescription": "Aloe OKF, Mint, Lemon Juice, Sparkling Water, Ice\n420 Ml",
+      "description": "Aloe OKF, mint, lemon juice, sparkling water, ice · 420 ml",
+      "isDemo": false
+    },
+    {
+      "id": "4441c329-f7e2-4c02-93d4-fad080a4f942",
+      "name": "Coco island refresher",
+      "sourceDescription": "Coconut Water, Pineapple Juice, Lemon Juice, Ice, Coco Flakes, Lime Zest, Mint\n520 Ml",
+      "description": "Coconut water, pineapple juice, lemon juice, ice, coco flakes, lime zest, mint · 520 ml",
+      "isDemo": false
+    },
+    {
+      "id": "00e90599-2d08-46ce-a62d-37ca60a60857",
+      "name": "Green smoothie",
+      "sourceDescription": "Avocado, Spinach, Banana, Coconut Water, Lime Juice, Ginger, Mango Cubes\n420 Ml\nLF • GF • VG • Vegan • Nut Free • High Fiber",
+      "description": "Avocado, spinach, banana, coconut water, lime juice, ginger, mango cubes · 420 ml · LF · GF · VG · vegan · nut free · high fiber",
+      "isDemo": false
+    },
+    {
+      "id": "2fb28eb5-186a-46fe-9fed-3137b99158f6",
+      "name": "Tropical smoothie",
+      "sourceDescription": "Mango Cubes, Banana, Pineapple, Coconut Water, Dragon Fruit, Lime Juice, Mint, Ice\n500 Ml\nLF • GF • VG • Vegan • Nut Free",
+      "description": "Mango cubes, banana, pineapple, coconut water, dragon fruit, lime juice, mint, ice · 500 ml · LF · GF · VG · vegan · nut free",
+      "isDemo": false
+    },
+    {
+      "id": "7561d6f0-ef00-4bf5-8a32-da527d1b3cfa",
+      "name": "Americano",
+      "sourceDescription": "Single Shot",
+      "description": "A single-shot americano with a clear coffee character and a lingering finish. An easy companion to breakfast or a quiet coffee break.",
+      "isDemo": true
+    },
+    {
+      "id": "b5847317-ef99-41ab-a419-01292480d17b",
+      "name": "Cappuccino",
+      "sourceDescription": "Single shot, LF Milk\n12 Oz",
+      "description": "Single shot, LF milk · 12 oz",
+      "isDemo": false
+    },
+    {
+      "id": "8420229d-247f-41ba-a29e-a00f6d4a35cb",
+      "name": "Cocoa",
+      "sourceDescription": "Cocoa Powder, Hot Water, LF Milk, Monk Fruit\n12 Oz",
+      "description": "Cocoa powder, hot water, LF milk, monk fruit · 12 oz",
+      "isDemo": false
+    },
+    {
+      "id": "2a8ba93b-8da5-41ca-882f-fa93f6f620d5",
+      "name": "Decaf americano",
+      "sourceDescription": "Single Shot",
+      "description": "A single-shot decaf americano with a familiar coffee character. A relaxed choice alongside breakfast or for a pause later in the day.",
+      "isDemo": true
+    },
+    {
+      "id": "d55b363f-1af5-4f0a-9f97-37e9977a2f94",
+      "name": "Espresso",
+      "sourceDescription": "Single shot",
+      "description": "A single shot of espresso with a concentrated coffee character and a lingering finish. A small, satisfying pause to enjoy at your own pace.",
+      "isDemo": true
+    },
+    {
+      "id": "36d167f5-e9ed-49a8-875c-1a465b0d7cd2",
+      "name": "Latte",
+      "sourceDescription": "Single Shot, LF Milk\n12 Oz",
+      "description": "Single shot, LF milk · 12 oz",
+      "isDemo": false
+    },
+    {
+      "id": "d999435c-6d20-4cc3-8dd7-029973b4af4d",
+      "name": "Cold brew",
+      "sourceDescription": "16 Oz",
+      "description": "Cold brew with a smooth coffee character and a refreshing finish. An easy companion to a leisurely breakfast or an afternoon pause · 16 oz",
+      "isDemo": true
+    },
+    {
+      "id": "e5528983-4d48-4adb-9f50-9213af750a4a",
+      "name": "Iced latte",
+      "sourceDescription": "Single Shot, LF Milk, Ice\n16 Oz",
+      "description": "Single shot, LF milk, ice · 16 oz",
+      "isDemo": false
+    },
+    {
+      "id": "09c30e6a-7c09-41bc-a654-8ca69bf9831d",
+      "name": "Iced mango latte",
+      "sourceDescription": "Mango, Espresso, Coconut Milk, Honey/Maple Syrup, Vanilla Extract, Ice\n16 Oz",
+      "description": "Mango, espresso, coconut milk, honey/maple syrup, vanilla extract, ice · 16 oz",
+      "isDemo": false
+    },
+    {
+      "id": "009d435c-6d8f-4cb8-aaf2-1f4dc8dc4fdb",
+      "name": "Iced matcha latte",
+      "sourceDescription": "Matcha Tea, Water, LF Milk, Maple Syrup, Ice\n16 Oz",
+      "description": "Matcha tea, water, LF milk, maple syrup, ice · 16 oz",
+      "isDemo": false
+    },
+    {
+      "id": "4bf7b217-37ea-4cc9-976c-7d51f5c61eba",
+      "name": "Apple-celery juice",
+      "sourceDescription": "Green Apple, Celery\n350 mL",
+      "description": "Green apple, celery · 350 ml",
+      "isDemo": false
+    },
+    {
+      "id": "07c28c57-e845-495a-acb7-a6a248f152ab",
+      "name": "Carrot-orange juice",
+      "sourceDescription": "Fresh Oranges, Carrot\n350 mL",
+      "description": "Fresh oranges, carrot · 350 ml",
+      "isDemo": false
+    },
+    {
+      "id": "ab776bba-c585-4169-9b94-729d2d466f82",
+      "name": "Fresh carrot juice",
+      "sourceDescription": "Fresh Carrots\n350mL",
+      "description": "Fresh carrots · 350 ml",
+      "isDemo": false
+    },
+    {
+      "id": "3cd1fd61-f4b8-44d5-bc9f-e1273820cbd3",
+      "name": "Ginger shot",
+      "sourceDescription": "Orange Juice, Lemon Juice, Water, Ginger Juice, Turmeric, Date Syrup\n100 Ml",
+      "description": "Orange juice, lemon juice, water, ginger juice, turmeric, date syrup · 100 ml",
+      "isDemo": false
+    },
+    {
+      "id": "0c6c24d4-7465-4870-a7bc-058e91a54e19",
+      "name": "Green goddess juice",
+      "sourceDescription": "Cucumber, Green Apple, Spinach, Ginger, Celery, Lime Juice\n350 mL",
+      "description": "Cucumber, green apple, spinach, ginger, celery, lime juice · 350 ml",
+      "isDemo": false
+    },
+    {
+      "id": "e2a272c7-b7e6-482b-a9ed-5cdedcc954f7",
+      "name": "Orange juice",
+      "sourceDescription": "Fresh Oranges\n350 mL",
+      "description": "Fresh oranges · 350 ml",
+      "isDemo": false
+    }
+  ],
+  "browser": {
+    "viewport": [
+      1440,
+      1000
+    ],
+    "matchedCards": 87,
+    "mismatches": [],
+    "draftLineCounts": [
+      {
+        "id": "ec99d08c-2bbf-4289-97a9-eef9592ee630",
+        "lines": 4
+      },
+      {
+        "id": "c94532b5-f59b-4bec-bff7-e7ab3a1f5e7e",
+        "lines": 4
+      },
+      {
+        "id": "89b9b5ee-dfd7-47c5-bc61-0ed9b011d754",
+        "lines": 4
+      },
+      {
+        "id": "b067676a-d2a5-4669-b44f-1ef302c060fe",
+        "lines": 4
+      },
+      {
+        "id": "08555176-0409-4001-b469-c46c7ec95259",
+        "lines": 4
+      },
+      {
+        "id": "ef552967-180f-4f93-a52a-f86724f6fee9",
+        "lines": 4
+      },
+      {
+        "id": "2c29f76d-9359-4281-9bf2-401340b12b2e",
+        "lines": 4
+      },
+      {
+        "id": "8c1dbe37-23c7-46d4-95bb-83bdb4e5889f",
+        "lines": 4
+      },
+      {
+        "id": "f00555f9-cf94-45f1-a447-03a63f7ffc74",
+        "lines": 4
+      },
+      {
+        "id": "378d8721-64c3-44bd-93c7-0d3430de7914",
+        "lines": 4
+      },
+      {
+        "id": "da1bef85-6a9d-43ce-8ed6-55e7c9efdab8",
+        "lines": 4
+      },
+      {
+        "id": "b3e552c7-7033-4014-9e27-ddb8e49e1ef3",
+        "lines": 4
+      },
+      {
+        "id": "7d9a08a8-3606-4553-a3b3-807fac723d6d",
+        "lines": 4
+      },
+      {
+        "id": "7fa08430-b0d5-4fc8-ac0d-d3aa7c85ec3d",
+        "lines": 4
+      },
+      {
+        "id": "68be792f-fbf5-4dc8-bda8-a680430f5cd0",
+        "lines": 4
+      },
+      {
+        "id": "851348be-ef25-4184-a336-848e5f637c46",
+        "lines": 4
+      },
+      {
+        "id": "0393aef2-b9f9-4998-ab88-530eb7805c33",
+        "lines": 4
+      },
+      {
+        "id": "1610a82e-2250-4ef2-bb1b-3f6456febd2c",
+        "lines": 4
+      },
+      {
+        "id": "6598cb92-31b1-4d75-8144-cb0e0007ee20",
+        "lines": 4
+      },
+      {
+        "id": "012b4103-2eca-48fd-a169-f99daa415495",
+        "lines": 4
+      },
+      {
+        "id": "7561d6f0-ef00-4bf5-8a32-da527d1b3cfa",
+        "lines": 4
+      },
+      {
+        "id": "2a8ba93b-8da5-41ca-882f-fa93f6f620d5",
+        "lines": 4
+      },
+      {
+        "id": "d55b363f-1af5-4f0a-9f97-37e9977a2f94",
+        "lines": 4
+      },
+      {
+        "id": "d999435c-6d20-4cc3-8dd7-029973b4af4d",
+        "lines": 4
+      }
+    ],
+    "cardWidths": [
+      268
+    ],
+    "overlaps": 0,
+    "search": {
+      "query": "gently nutty character",
+      "results": [
+        "Tempeh (19 g protein)"
+      ]
+    },
+    "screenshot": "card-descriptions-protein.jpg",
+    "otherLocalTabUpdated": true
+  },
+  "build": "npm run build passed after final copy edits"
+}

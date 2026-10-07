@@ -1,0 +1,25 @@
+const page=await figma.getNodeByIdAsync('8:10648');await figma.setCurrentPageAsync(page);
+const created=[],mutated=[],track=n=>{created.push(n.id);return n;};
+for(const style of ['Regular','Medium','Semibold','Bold'])await figma.loadFontAsync({family:'SF Pro',style});
+const variableIds={"background":"VariableID:51:5381","surface":"VariableID:51:5382","control":"VariableID:51:5383","border":"VariableID:51:5384","primary":"VariableID:51:5385","secondary":"VariableID:51:5386","muted":"VariableID:51:5387","inverse":"VariableID:51:5388","s4":"VariableID:51:5389","s8":"VariableID:51:5390","s12":"VariableID:51:5391","s16":"VariableID:51:5392","s24":"VariableID:51:5393","s32":"VariableID:51:5394","s48":"VariableID:51:5395","s64":"VariableID:51:5396","r10":"VariableID:51:5397","r20":"VariableID:51:5398","r100":"VariableID:51:5399"},styleIds={"title":"S:206df98ce02e4cf2fd07fa60f2f1cd5868267db2,","section":"S:d2b6d469929bb3071458f957b45463658eccb963,","body":"S:5417b57494517a212b3f696e3e390fd009a1c9a3,","card":"S:62013fb6da493647081042d4415fe4de0f5bb24b,","label":"S:82f38440744cc80733e05ebc99994ffa51e98b38,","caption":"S:16e5267b515d24466990a788a20171bebfa1c8d9,","metric":"S:494b73e11f53d41fde911aa6f4801348327f92a0,"};
+const variables={};for(const[k,id]of Object.entries(variableIds))variables[k]=await figma.variables.getVariableByIdAsync(id);
+const colors={background:'0A0A0A',surface:'101010',control:'262626',border:'3B3B3B',primary:'FFFFFF',secondary:'A3A3A3',muted:'747474',inverse:'101010',field:'181818',success:'38A64C',error:'D76A6A'};
+const rgb=h=>({r:parseInt(h.slice(0,2),16)/255,g:parseInt(h.slice(2,4),16)/255,b:parseInt(h.slice(4,6),16)/255});
+const defs={title:[36,42,'Bold'],section:[24,30,'Bold'],body:[16,24,'Regular'],card:[16,19,'Bold'],label:[14,18,'Medium'],caption:[12,16,'Medium'],metric:[24,29,'Semibold']};
+function paint(k){const p={type:'SOLID',color:rgb(colors[k])};return variables[k]?figma.variables.setBoundVariableForPaint(p,'color',variables[k]):p;}
+function radius(n,v){n.cornerRadius=v;if(variables['r'+v])for(const k of ['topLeftRadius','topRightRadius','bottomLeftRadius','bottomRightRadius'])n.setBoundVariable(k,variables['r'+v]);}
+function pad(n,t,r=t,b=t,l=r){n.paddingTop=t;n.paddingRight=r;n.paddingBottom=b;n.paddingLeft=l;for(const[k,v]of [['paddingTop',t],['paddingRight',r],['paddingBottom',b],['paddingLeft',l]])if(variables['s'+v])n.setBoundVariable(k,variables['s'+v]);}
+function auto(parent,name,dir='VERTICAL',gap=8,w){const n=track(figma.createAutoLayout(dir));parent.appendChild(n);n.name=name;n.fills=[];n.itemSpacing=gap;if(variables['s'+gap])n.setBoundVariable('itemSpacing',variables['s'+gap]);if(w){n.resize(w,1);n.primaryAxisSizingMode=dir==='VERTICAL'?'AUTO':'FIXED';n.counterAxisSizingMode=dir==='VERTICAL'?'FIXED':'AUTO';}return n;}
+function fixed(n,w,h){n.resize(w,h);if('primaryAxisSizingMode'in n){n.primaryAxisSizingMode='FIXED';n.counterAxisSizingMode='FIXED';}return n;}
+function txt(parent,content,style='label',color='primary',width){const n=track(figma.createText());parent.appendChild(n);n.name=content;n.fontName={family:'SF Pro',style:defs[style][2]};n.textStyleId=styleIds[style];n.characters=content;n.fills=[paint(color)];if(width){n.textAutoResize='HEIGHT';n.resize(width,n.height);}return n;}
+function rule(parent,w){const n=track(figma.createRectangle());parent.appendChild(n);n.name='Divider';n.resize(w,1);n.fills=[paint('control')];return n;}
+function comp(parent,name,w,h,dir='HORIZONTAL'){const n=track(figma.createComponent());parent.appendChild(n);n.name=name;n.layoutMode=dir;n.resize(w,h);n.primaryAxisSizingMode='FIXED';n.counterAxisSizingMode='FIXED';n.fills=[];return n;}
+function inst(parent,master){const n=track(master.createInstance());parent.appendChild(n);return n;}
+function recolor(n,key){for(const c of n.findAll(x=>'fills'in x||'strokes'in x)){if('fills'in c&&Array.isArray(c.fills)&&c.fills.length)c.fills=c.fills.map(p=>p.type==='SOLID'?paint(key):p);if('strokes'in c&&Array.isArray(c.strokes)&&c.strokes.length)c.strokes=c.strokes.map(p=>p.type==='SOLID'?paint(key):p);mutated.push(c.id);}}
+const masters={};for(const[name,id]of Object.entries({pin:'1:11',cart:'1:13',trash:'1:29',close:'1:38',promo:'1:42',loader:'66:15153'}))masters[name]=await figma.getNodeByIdAsync(id);
+function icon(parent,name,size=16,color='primary'){const n=inst(parent,masters[name]);n.resize(size,size);n.name=name+' icon';recolor(n,color);return n;}
+function button(parent,label,w=160,theme='primary'){const n=auto(parent,label,'HORIZONTAL',8);fixed(n,w,44);n.primaryAxisAlignItems='CENTER';n.counterAxisAlignItems='CENTER';n.fills=[paint(theme)];radius(n,10);txt(n,label,'label',theme==='primary'?'inverse':'primary');return n;}
+async function click(n,actions){await n.setReactionsAsync([{trigger:{type:'ON_CLICK'},actions}]);mutated.push(n.id);}
+const navigate=id=>({type:'NODE',destinationId:id,navigation:'NAVIGATE',transition:null,resetScrollPosition:true});
+const change=id=>({type:'NODE',destinationId:id,navigation:'CHANGE_TO',transition:null});
+

@@ -1,0 +1,90 @@
+{
+  "colors": {
+    "button": {
+      "background": "rgb(31, 31, 31)",
+      "foreground": "rgb(237, 237, 237)"
+    },
+    "card": {
+      "background": "rgb(26, 26, 26)",
+      "foreground": "rgb(237, 237, 237)"
+    },
+    "description": {
+      "background": "rgba(0, 0, 0, 0)",
+      "foreground": "rgb(161, 161, 161)"
+    },
+    "header": {
+      "background": "rgb(0, 0, 0)",
+      "foreground": "rgb(237, 237, 237)"
+    },
+    "kcal": {
+      "background": "rgb(31, 31, 31)",
+      "foreground": "rgb(237, 237, 237)"
+    },
+    "macroLabel": {
+      "background": "rgba(0, 0, 0, 0)",
+      "foreground": "rgb(135, 135, 135)"
+    },
+    "page": {
+      "background": "rgb(0, 0, 0)",
+      "foreground": "rgb(237, 237, 237)"
+    },
+    "search": {
+      "background": "rgb(26, 26, 26)",
+      "foreground": "rgb(237, 237, 237)"
+    },
+    "tag": {
+      "background": "rgb(31, 31, 31)",
+      "foreground": "rgb(237, 237, 237)"
+    },
+    "tertiary": {
+      "background": "rgba(0, 0, 0, 0)",
+      "foreground": "rgb(135, 135, 135)"
+    },
+    "title": {
+      "background": "rgba(0, 0, 0, 0)",
+      "foreground": "rgb(237, 237, 237)"
+    }
+  },
+  "geometry": {
+    "cards": 87,
+    "columns": "268px 268px 268px 268px",
+    "container": 1120,
+    "navTop": 79
+  },
+  "textPairs": [
+    {
+      "background": "rgb(26, 26, 26)",
+      "foreground": "rgb(237, 237, 237)",
+      "ratio": 14.866167120520462,
+      "role": "Title"
+    },
+    {
+      "background": "rgb(26, 26, 26)",
+      "foreground": "rgb(161, 161, 161)",
+      "ratio": 6.736305921971084,
+      "role": "Description"
+    },
+    {
+      "background": "rgb(31, 31, 31)",
+      "foreground": "rgb(135, 135, 135)",
+      "ratio": 4.588250626727196,
+      "role": "From"
+    },
+    {
+      "background": "rgb(31, 31, 31)",
+      "foreground": "rgb(135, 135, 135)",
+      "ratio": 4.588250626727196,
+      "role": "Macros"
+    },
+    {
+      "background": "rgb(31, 31, 31)",
+      "foreground": "rgb(237, 237, 237)",
+      "ratio": 14.079182164954604,
+      "role": "Price"
+    }
+  ],
+  "viewport": [
+    1440,
+    1000
+  ]
+}

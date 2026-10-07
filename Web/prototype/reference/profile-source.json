@@ -1,0 +1,24 @@
+{
+  "inspectedAt": "2026-10-06",
+  "timezone": "Europe/Moscow",
+  "figmaFile": "ANXj1DxD2mm9ZcxNNoNLdE",
+  "node": "106:6035",
+  "figmaChanged": false,
+  "context": "figma-profile-context.txt",
+  "screenshot": "figma-profile-current.png",
+  "originalAssets": ["profile-appstore.svg", "profile-google-play.svg", "profile-home.svg", "profile-address-home.svg", "profile-edit.svg", "profile-logout.svg", "profile-points.svg"],
+  "reusedAssets": ["checkout-mastercard.svg", "header-user.svg", "trash.svg"],
+  "adaptations": [
+    "Current Prana dark semantic colors and shared header/footer",
+    "IconTrash Code Connect points to an unavailable icons module; reused existing Prana original trash.svg as a 16px Amber mask",
+    "User-requested date picker is new frontend UI, not a Figma node",
+    "User-requested generated demo orders use actual catalogue photos/products/prices",
+    "User-requested marketing toggle uses checkout on appearance"
+  ],
+  "libraries": {
+    "react-day-picker": "9.14.0",
+    "@radix-ui/react-popover": "1.2.0"
+  },
+  "libraryReferences": ["https://ui.shadcn.com/docs/components/radix/date-picker", "https://daypicker.dev/v9/docs/styling", "https://www.radix-ui.com/primitives/docs/components/popover"],
+  "status": { "implemented": true, "userApproved": false, "published": false }
+}

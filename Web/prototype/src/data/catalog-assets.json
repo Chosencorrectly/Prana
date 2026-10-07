@@ -1,0 +1,527 @@
+{
+  "source": "local catalogue snapshot, 2026-10-05",
+  "assets": [
+    {
+      "file": "menu/af61daf6-a49d-4eeb-bea1-5a7da211641e.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/restaurants/restaurant-351123000000000000/menu/items/5/item-1800000000412505595_1787806466.jpg",
+      "bytes": 672360,
+      "sha256": "7a5d8c362d0972bbd6dbee05c31c268e279bbbe1e8a428b41767aa162d30ddee"
+    },
+    {
+      "file": "menu/5953310a-d6c6-4d8c-b3fc-1e88283ff884.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/2ac50e9a-bfd4-437d-8597-98ac3dd3f4b3.jpg",
+      "bytes": 170335,
+      "sha256": "f43b8011b5791235e8cfa17330e917ac4c5b7070871462d67cf18f2e2745ea8c"
+    },
+    {
+      "file": "menu/884bb3d4-573a-44dd-b370-25277a9b8580.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/dea5ded0-03ef-498f-ac69-def38bab94ca.jpg",
+      "bytes": 216598,
+      "sha256": "7da1c85ef234fcb704f25a9e4cf99577fb5291203112a544d73c60587c383e8b"
+    },
+    {
+      "file": "menu/ddae0e45-84a2-4dd7-bad2-a631f9c4cdb8.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/289adc10-fb61-4d22-903b-67a15cba5273.jpg",
+      "bytes": 318141,
+      "sha256": "e372e30bbf29f98eec3d85fda7d0f7a048ef32c9c095fe9cdf6518c1ce6c8afb"
+    },
+    {
+      "file": "menu/ec99d08c-2bbf-4289-97a9-eef9592ee630.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/c875a9e0-030c-486c-a28a-902e5d942374.png",
+      "bytes": 3015219,
+      "sha256": "1df80074a7711d991321a7c5113e88f70a81dfca310eacd7205873cc9c075a24"
+    },
+    {
+      "file": "menu/8bdf223c-a6dc-46fe-9022-def1ba1bf18b.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/b8cf77df-582c-498a-aa1a-796823359c17.jpg",
+      "bytes": 314174,
+      "sha256": "5f924a6396236a8de3507ce2b6a25c074413edfe8d7b2e93ab40ddc77ffd7872"
+    },
+    {
+      "file": "menu/a665b9c8-5261-43c3-90d7-f791b7417fc3.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/3d90c0db-ff4e-45ad-800e-68bb3262fd08.jpg",
+      "bytes": 121391,
+      "sha256": "e18cf2fef816624f29fb8acd237b93c0ee59d3767c13bdd5e27b8d73bd8806ae"
+    },
+    {
+      "file": "menu/18ee21f7-d53b-4f28-a5c2-b0d6915c9d7e.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/9aa41073-87d9-44a9-9636-b9883f85e1e4.jpg",
+      "bytes": 290605,
+      "sha256": "e1cfd9a7fd8d75d94c0bae7a9607b87fdb99a7d60ccc3815374052250649ee79"
+    },
+    {
+      "file": "menu/54fa3435-243e-4d2a-af4f-e2d6da6ed0aa.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/5f7fe8ec-cb56-43b7-9841-521df74c82f1.jpg",
+      "bytes": 284422,
+      "sha256": "137b2a55f9f991cf3498b69e1a188a6f9b45534c7905d90a109c25275c4b6376"
+    },
+    {
+      "file": "menu/d9c358a9-315f-4a77-a380-9910ae3db226.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/812083df-ff0a-4026-b117-46dcbeb9f9d7.jpg",
+      "bytes": 341232,
+      "sha256": "74fc6619aef123942fe63bfda372f21a9073b947729d3b056a99db22a9482826"
+    },
+    {
+      "file": "menu/c94532b5-f59b-4bec-bff7-e7ab3a1f5e7e.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/e7fe0b31-2a8d-4429-9c5b-905aaa3ff52e.png",
+      "bytes": 3040547,
+      "sha256": "fd2adc4cc36e3f1cf23749edce8108535fe69310a87bd65e6dcc6f0171670fda"
+    },
+    {
+      "file": "menu/8b0f30eb-d270-4d44-afef-1b9fe3a58fa7.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/80695e9e-b2e4-48b6-a477-70dafb5f85f4.jpg",
+      "bytes": 317294,
+      "sha256": "44a24bbc901c5b9a6eea770f61cc1c0b1d1eea13acbd7e2485f78f41c4e7f6a5"
+    },
+    {
+      "file": "menu/cfa2335e-ef0c-422d-b7ab-f55cd0133596.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/faa8b46d-fbfe-4838-b1b9-5c1fb838ee2e.jpg",
+      "bytes": 318920,
+      "sha256": "69ed847f04559c153f8e8ad9c339dd07ddda42a6681171799af356ae9cfc877a"
+    },
+    {
+      "file": "menu/03c7bbdd-2879-4020-9720-b1119f015601.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/f0e559ab-3c58-4ac5-95c2-b2bcb00880ef.jpg",
+      "bytes": 309490,
+      "sha256": "621c29d713d901e9f0a3cd76e32199c67cc822259ceb6e4358ab13153ef1250c"
+    },
+    {
+      "file": "menu/28a91393-7b37-4461-846e-30e82ac1a93c.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/e9b62752-7566-42c3-beaf-be64859b6e70.jpg",
+      "bytes": 295081,
+      "sha256": "7c25bbba3b682115b25fb12697d2620af33f1451ab40c34f44fa58478b21d8b7"
+    },
+    {
+      "file": "menu/3e1d8b1e-0f16-4864-8266-6600bc494143.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/1b3f503b-1467-4c05-895c-6364fbe751d7.jpg",
+      "bytes": 263066,
+      "sha256": "4d735dc02bc62eec6287bdbb377fea25ca42e3b3304e99ca064994dd1d319d89"
+    },
+    {
+      "file": "menu/1a8a038d-c7d5-4ec5-8d95-6da49827a1bc.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/dbd452e2-1ab2-4741-a753-913a0d769e9b.png",
+      "bytes": 1970011,
+      "sha256": "8e0a99afdfe1f78db6836bbea6852e850f7bceaba64270e0d26efb8ffe8c111e"
+    },
+    {
+      "file": "menu/474a7cf7-9b98-406e-a058-f5bce7145eee.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/dff29ebb-5342-4ed1-a576-46773193dcad.png",
+      "bytes": 2277876,
+      "sha256": "2cf07242ecf7503318c034028cfd3b4a043741c0c76541e1c2796f81a86505ec"
+    },
+    {
+      "file": "menu/f84d5296-e32b-4c6d-880f-39681f60ba21.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/40d71534-edcf-4562-9957-974c2d5706c3.jpg",
+      "bytes": 85107,
+      "sha256": "ca09318f001b713e093f53ab9b33709be1a8a12091eceb614ab801a088501493"
+    },
+    {
+      "file": "menu/334f58b1-7cf0-4271-9adc-54b02cfc46c1.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/dfff35ca-c86c-436f-897d-e14985ebe7be.png",
+      "bytes": 2151881,
+      "sha256": "fa4d6730a8d3f65d82ece392a3a90c42516a7be7ea0f817d4df1203f83836a9a"
+    },
+    {
+      "file": "menu/3690cb8c-0828-464a-b640-492b692b3383.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/a2352eca-9bdd-4938-b3b4-bf90b109ba36.jpg",
+      "bytes": 263967,
+      "sha256": "7375c15ea5f42d36d100b01c3733452c651cb8dc38d705d6ca411c723e24c5df"
+    },
+    {
+      "file": "menu/e5c02e61-e73b-45d0-a5a1-51a7d407cc1b.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/5eee25cb-46a2-4111-911e-a15c96e5f108.png",
+      "bytes": 2812641,
+      "sha256": "3eebad973ed867a2d35fb61e74bbd8e51de3297fc566225841bbed1efe9e56a3"
+    },
+    {
+      "file": "menu/6f762826-b838-4fa2-b82c-ef90d37ce818.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/dc76fd33-d1dd-41d0-ab0f-865e0abc3645.jpg",
+      "bytes": 251046,
+      "sha256": "6bcf8265249d953a2d1d134748fec3ea4c9be61e37ec37348596c94a0344b610"
+    },
+    {
+      "file": "menu/e33b7032-099f-45ba-9160-d8203e4cc96b.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/56f0f3c9-d17b-4e0e-963c-b3749ee9e223.jpg",
+      "bytes": 288514,
+      "sha256": "6d472d64c81e41a425e6674f51e67da33ac5877f155c326b01bdfe5618d7234f"
+    },
+    {
+      "file": "menu/414657da-6cb0-408a-8271-b312013ad187.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/6f197e29-e06d-4d42-847b-68e492d940ac.png",
+      "bytes": 4319960,
+      "sha256": "c64c8d8073a30dc37e1c630e754d4af62119bfc6101cb46ffc189aa5cb23d9a2"
+    },
+    {
+      "file": "menu/78124d94-8fc8-4690-95a4-0cb822d3e103.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/44575708-197a-46bb-b402-5c31888b689c.jpg",
+      "bytes": 263204,
+      "sha256": "94c9ada935989d75dc9790a3676dc548a7970b7285af1bd7b5350e751e2ebbe0"
+    },
+    {
+      "file": "menu/5f51d248-82ef-4ea2-9b08-3471be14d2ee.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/9a9536fb-f2e2-459a-b560-815d5f567aa5.jpg",
+      "bytes": 277940,
+      "sha256": "17fe4990a22017e5eed7702961f407b8b6cd4e26d5bbdae46085f26317762a66"
+    },
+    {
+      "file": "menu/9a7e2a7e-5c5b-48be-8325-aa67bf85f950.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/38deb350-9221-4084-810f-de635de9c09a.jpg",
+      "bytes": 315586,
+      "sha256": "613258043ecabc83e61d761ba5321b5bff48a3e86354d33e2c45ec463b039c17"
+    },
+    {
+      "file": "menu/a5e16810-03fa-4c2e-868b-687c4a2e46e8.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/ddcc834e-43f3-4271-be59-1e97bf1fa44b.jpg",
+      "bytes": 265230,
+      "sha256": "06ede5f5ba623f6825eecd044bf8d98df9b0db782f4a9629da711b873ae2f517"
+    },
+    {
+      "file": "menu/360465bb-5565-47c6-b867-60b83bf1087f.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/e5682afb-e4d8-4ae3-b6c3-ccb72297f0f4.jpg",
+      "bytes": 243240,
+      "sha256": "4f5050b40887e2b48b5a7ec5df109a1386aa14d3aed88a3b7fdcef35f9292e0b"
+    },
+    {
+      "file": "menu/635addde-1d4e-4a23-b2df-2cc9a12e7bf5.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/f3cbbb49-9773-49ef-96b6-5fe5cdd57d60.jpg",
+      "bytes": 227398,
+      "sha256": "18f656f58eb63b76a45878c5b4d9ef3ba02127ff1a9af301abac651436ceae0e"
+    },
+    {
+      "file": "menu/e1f366fc-fee0-4b78-915c-d10b4c399516.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/b64dd1ca-a841-4b96-ad64-538f6134eaf0.jpg",
+      "bytes": 226110,
+      "sha256": "ba1b7f4d200cd665a47e68d6b2bb3ec87ed672855c7fff9367465d0c3f2c3dd1"
+    },
+    {
+      "file": "menu/f3693320-0938-4dc9-9de6-57808da68a75.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/b839bdf2-1d72-4583-859a-2485bbb9eb45.jpg",
+      "bytes": 300905,
+      "sha256": "9c07f65d656aa71c210cd60bcd3931110dec14ac2a0d20f622dcb8a758232a7e"
+    },
+    {
+      "file": "menu/2007941d-0ed4-4746-80e2-0877bbe1f9fd.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/b4fea2f1-55f0-4bd2-a2c7-8a8b7518c22c.jpg",
+      "bytes": 348844,
+      "sha256": "675b10129482160659fbeaa20577670fdd618968563e17b1aa2d7da23136855c"
+    },
+    {
+      "file": "menu/035d9878-fe68-4a3b-9393-7b5b19201403.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/7ae5425e-4d30-45ce-ab7f-81bbe93af02d.png",
+      "bytes": 3556071,
+      "sha256": "b6fcce505d5791c2f667649a9f978f977d7a8762c2b115a7ab325dc78c51fd73"
+    },
+    {
+      "file": "menu/8bd79150-4bb5-4172-adb9-d3d578d2d93c.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/3d335f09-fe1e-4a9b-9a41-d11b60a7c13f.jpg",
+      "bytes": 272974,
+      "sha256": "643332977502bcdb99649abcc036c86a7e7284aa48026c52659ac9caa98742b6"
+    },
+    {
+      "file": "menu/8ddf05b6-aadf-47c4-866a-ae5ab4d100e8.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/1ee181c9-acc7-41e4-bf77-20d70efc143f.jpg",
+      "bytes": 426912,
+      "sha256": "6d5e6081099224c9da21380a7c914542b696beb7c103c53d76dbae199c59555e"
+    },
+    {
+      "file": "menu/9fac5bbe-6b14-4448-b0c1-8b0c3ed23387.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/f1c519ad-7b68-427e-a1bd-92a1d659c9d1.jpg",
+      "bytes": 363928,
+      "sha256": "6eb08ccbde8353947fb479557e179ddbcf79d783e9a6af46d6fe1d176af3d0d4"
+    },
+    {
+      "file": "menu/c9d19ac8-aa99-4eaf-bf42-3b0c0535c6a2.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/8d108e10-1e43-4f89-be15-a654b5abe547.jpg",
+      "bytes": 162239,
+      "sha256": "96a44a0ab83b6bb3d304af2d0fcc2d04ef6a85414883ee6b4a50c15474bd7fc8"
+    },
+    {
+      "file": "menu/8316bcff-fc0b-402c-9f6b-163f27e6ac99.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/d502b65e-8f22-46f2-a86c-bbddebf215d0.jpg",
+      "bytes": 346459,
+      "sha256": "bae71ad613727faa6eae0073c4da5ed99ac38270f9583b0dc6c41226fb529416"
+    },
+    {
+      "file": "menu/c23c1f8c-b141-4910-8160-4b941950235e.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/0c944c31-6572-40db-912c-7a0f52d125b2.jpg",
+      "bytes": 266327,
+      "sha256": "f1b796b5a4af0bb9b1582645232587f1c79b0d155f310fe02b8035ebf832b5ef"
+    },
+    {
+      "file": "menu/2e064019-f369-4857-866c-4a88551c323e.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/a2eba202-d1bd-41d5-a05e-80a6d8d4c820.jpg",
+      "bytes": 301064,
+      "sha256": "3cf76fe40eb9fef6e16213a2bb36369a4d34675305385a1c4284511844040e8b"
+    },
+    {
+      "file": "menu/e7e2ca55-c376-47ff-82e6-d6279e1e97aa.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/ffca807a-9fe2-48da-8ba3-a9368b639cda.jpg",
+      "bytes": 281401,
+      "sha256": "340bb57beecb4ff02cf90771aa890b68b35cf2c43888c55ee83e6ea4d8ad217c"
+    },
+    {
+      "file": "menu/89b9b5ee-dfd7-47c5-bc61-0ed9b011d754.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/b0355f36-5448-47bf-8e95-a3b98792a9a6.png",
+      "bytes": 2667187,
+      "sha256": "7af3bc605b82882be240817a6a4d4fbe2e51ccf06eaf42d561ad46b4e9dd0f62"
+    },
+    {
+      "file": "menu/b067676a-d2a5-4669-b44f-1ef302c060fe.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/e1c83ae0-32e4-4936-a341-f14f896f1b69.png",
+      "bytes": 2595416,
+      "sha256": "c2a7a3ca79356d8ce91562270c6206b0ec163f7c9ca480b0cb069c7b563c5935"
+    },
+    {
+      "file": "menu/08555176-0409-4001-b469-c46c7ec95259.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/d8cb609d-8f5b-4829-ae93-e25702ed2740.png",
+      "bytes": 2580537,
+      "sha256": "2b6a808367892fa139f4966f3a7bb1d410a3b8fb994960d54b3615283ec4da9c"
+    },
+    {
+      "file": "menu/ef552967-180f-4f93-a52a-f86724f6fee9.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/26c0bf2b-56c2-47c5-b9be-8454a378949b.png",
+      "bytes": 2679078,
+      "sha256": "82bca1f4442e3f174a48d2734e78e6f4706d4e16e4628e79a0a7dab460e6fc9f"
+    },
+    {
+      "file": "menu/2c29f76d-9359-4281-9bf2-401340b12b2e.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/f4a90e71-c0d8-4fd6-bdaf-b4c673549790.png",
+      "bytes": 2903765,
+      "sha256": "134420e2fe6c7d7aa22c84b2ebad83ab0f0b2e6ae43edf2185cdbe64f479c2e9"
+    },
+    {
+      "file": "menu/8c1dbe37-23c7-46d4-95bb-83bdb4e5889f.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/c63a6e66-928c-4b61-be2a-62d546434178.png",
+      "bytes": 2842615,
+      "sha256": "f334f0d6664fd628f1c3d6320f30f2c616c902fbc63fcf7582224488cfcc53ed"
+    },
+    {
+      "file": "menu/f00555f9-cf94-45f1-a447-03a63f7ffc74.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/0a8c8e90-6efe-4ddf-b553-de5efa52d605.png",
+      "bytes": 2857101,
+      "sha256": "638b8d442a797e3923d59c171494ce6201054ffee5701b5d9a33ad66259c3784"
+    },
+    {
+      "file": "menu/378d8721-64c3-44bd-93c7-0d3430de7914.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/352c1116-921b-4d2a-97ea-e8998364aaef.png",
+      "bytes": 2691611,
+      "sha256": "8177b95c976418695b89f22d10f11ed19db10aaaedefdb46680bac9e3e9f00c1"
+    },
+    {
+      "file": "menu/da1bef85-6a9d-43ce-8ed6-55e7c9efdab8.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/150e1f3d-1e80-4854-a2c6-310d9174e2f5.png",
+      "bytes": 2584859,
+      "sha256": "8a1846c371cc9c648331859d9f0996b99fd29f254edcb8f3fa16a3d73f1e66c0"
+    },
+    {
+      "file": "menu/b3e552c7-7033-4014-9e27-ddb8e49e1ef3.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/c765f1c4-f7f6-4e67-ae76-683600254108.png",
+      "bytes": 2771561,
+      "sha256": "5cd800a4ecb5ed060af59ea0522df948ed3afa4d0733213e941b8e7fe66f581a"
+    },
+    {
+      "file": "menu/7d9a08a8-3606-4553-a3b3-807fac723d6d.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/a46991a2-8a63-4eef-b9c3-d844f2e00021.png",
+      "bytes": 2264428,
+      "sha256": "7020cdcd49a84d676a1914643bc34a6ab1167d0733fdddd2c67dcd932cd92924"
+    },
+    {
+      "file": "menu/7fa08430-b0d5-4fc8-ac0d-d3aa7c85ec3d.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/734d77a3-457d-460e-b127-b8eb162dac57.png",
+      "bytes": 2242653,
+      "sha256": "1567593d0d8f9c7902a4655713f8b3830cf70ca6f80298a7fcdecab6bf507ea5"
+    },
+    {
+      "file": "menu/68be792f-fbf5-4dc8-bda8-a680430f5cd0.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/fee61654-bf0f-4a33-a60d-020cc2452f57.png",
+      "bytes": 2282525,
+      "sha256": "844aba5d1df1fe94def0f5fee88c3382beed7c137e277874f353f3042945d20f"
+    },
+    {
+      "file": "menu/2944973a-1652-4f15-baae-112bbc31a32d.jpg",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/2e943f01-7d98-404d-bcd1-c896bc9c1326.jpg",
+      "bytes": 122374,
+      "sha256": "68a105e0fe88ba6773d94cdc4d038860b4dabddbbcfcd435d675dac6f1733084"
+    },
+    {
+      "file": "menu/851348be-ef25-4184-a336-848e5f637c46.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/7e9760c8-4747-4290-82d7-593c9d3ef5cf.png",
+      "bytes": 2405895,
+      "sha256": "7e60c2a02d962b018792af9031ffc293acdbaf7fe550d6b654b1771d313f24e7"
+    },
+    {
+      "file": "menu/0393aef2-b9f9-4998-ab88-530eb7805c33.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/ef9cdc59-68cf-4fee-a711-c19ed120cf3d.png",
+      "bytes": 2357432,
+      "sha256": "7cd7511f561103a2593eecf57b01b3670131cc117720f0dcf19ce39e40e5a805"
+    },
+    {
+      "file": "menu/1610a82e-2250-4ef2-bb1b-3f6456febd2c.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/a21ff239-6ac8-4bb3-b102-eac4615df604.png",
+      "bytes": 2464255,
+      "sha256": "8fcd6150312ce9c31d069f0c274f8092fcfeaed22357c837b7409bd983a82fd2"
+    },
+    {
+      "file": "menu/6598cb92-31b1-4d75-8144-cb0e0007ee20.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/6a3bd6b0-f518-41b7-9ecc-7fb9ac9af0a6.png",
+      "bytes": 2331280,
+      "sha256": "2ed9c784ec070bf2330b10287cc4fff73804734fac5de0d3bef5513320b1085d"
+    },
+    {
+      "file": "menu/012b4103-2eca-48fd-a169-f99daa415495.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/d5193c01-7957-4b56-9e7b-ff5f08f061f8.png",
+      "bytes": 2292218,
+      "sha256": "63fa377ed6d8eee51ca300a78c0b8c98ab54d3d656e7d9785aaab4855e8697d2"
+    },
+    {
+      "file": "menu/fff73bce-a5ff-4e09-b2f1-a6d17cded6db.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/df385bfb-0210-41df-9d77-2f89aedb27eb.png",
+      "bytes": 2773243,
+      "sha256": "d4685a70eaa531b5bd80ead0921ca92da56b71ef941d0adc9aa03628beca4fdf"
+    },
+    {
+      "file": "menu/1df378e3-02b9-4584-a3e7-12ae6d8c5b86.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/55da8dac-b4c1-457a-a3c6-12410d911912.png",
+      "bytes": 2762267,
+      "sha256": "029e7e4ed93eaea363f321563528ae3a3febc43faa1000a1ea552bf1ec148320"
+    },
+    {
+      "file": "menu/da24f77b-cb2a-47a6-b128-0936301c4279.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/f2b5bfff-f462-46c5-9bd5-7d718f5009ec.png",
+      "bytes": 2603743,
+      "sha256": "aa26c5fd75d7cc84c6cf504e7df4b9468406c70f27cc5754cb9e98d56c023027"
+    },
+    {
+      "file": "menu/7c04a38d-0ebc-4196-a639-1bd5a5081e53.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/c6f6a3fb-9f61-4736-87d2-6e353b469ba3.png",
+      "bytes": 3094040,
+      "sha256": "86a098d5017461315eaaf1652239cb94d803f76a232689c0a7e5af99a6f5ecbe"
+    },
+    {
+      "file": "menu/84be0768-8b77-494c-a9a1-b749514d03dc.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/7f56e838-0094-47f4-b8e9-767748cc079c.png",
+      "bytes": 2986134,
+      "sha256": "16522f62ff618a0abd78fa7b40ecead98b6d47ff0c1c64b02de671845f12ed11"
+    },
+    {
+      "file": "menu/f32c3709-0254-4c1b-8e9f-1567056fbfb2.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/f6cda014-2a39-4bc9-b05c-e44da7a1b25d.png",
+      "bytes": 2995873,
+      "sha256": "b193104d7c199a8f622c58c9efcd259211bfab61dd8c94a5d9d4e1a709693642"
+    },
+    {
+      "file": "menu/4441c329-f7e2-4c02-93d4-fad080a4f942.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/6b9a7ef6-253c-42ac-90ef-eff9a33a5f5b.png",
+      "bytes": 2620496,
+      "sha256": "ab18ae1840c0ee626026210ba074509030e330d1befb15c713c174c15d5ba85b"
+    },
+    {
+      "file": "menu/00e90599-2d08-46ce-a62d-37ca60a60857.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/8342dc40-3e89-4ae9-9826-a1a17cfbeb48.png",
+      "bytes": 2408957,
+      "sha256": "ae846b662c6bdc86ca3360856049301aea71240e61097e516c9026748792b137"
+    },
+    {
+      "file": "menu/2fb28eb5-186a-46fe-9fed-3137b99158f6.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/18219f8f-13be-4c89-9766-f9208b0f9c14.png",
+      "bytes": 2278694,
+      "sha256": "d0b239456caea7d58702cbbe834e06c91e9bac15df6b5d00fe91f5db500ce581"
+    },
+    {
+      "file": "menu/7561d6f0-ef00-4bf5-8a32-da527d1b3cfa.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/d1a08727-0ad1-41b1-a9be-598ff07043f3.png",
+      "bytes": 1493082,
+      "sha256": "2d2246449f5e7f87212477e13c89b6c4c63486fa313dba2cb8726e676182e891"
+    },
+    {
+      "file": "menu/b5847317-ef99-41ab-a419-01292480d17b.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/2790469c-aec0-4c7b-bd7d-48d47cd749b2.png",
+      "bytes": 1509894,
+      "sha256": "bce4d28b3988698d4d308b0f31b844673054feda5417fa3bb2f4bbc3e7246a8a"
+    },
+    {
+      "file": "menu/8420229d-247f-41ba-a29e-a00f6d4a35cb.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/e38dfe78-8c07-4cf6-a721-3d81cf1a2cdc.png",
+      "bytes": 1614916,
+      "sha256": "9f2ba9139e336f2bd2a7992184d63b061652de6c811c7a7120dedf2403924b5e"
+    },
+    {
+      "file": "menu/2a8ba93b-8da5-41ca-882f-fa93f6f620d5.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/89d0a6be-238f-4961-9b2a-a09b46659251.png",
+      "bytes": 1493082,
+      "sha256": "2d2246449f5e7f87212477e13c89b6c4c63486fa313dba2cb8726e676182e891"
+    },
+    {
+      "file": "menu/d55b363f-1af5-4f0a-9f97-37e9977a2f94.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/e48806c6-c6fa-44b4-b2bc-6c797a71336f.png",
+      "bytes": 1428493,
+      "sha256": "b60be66471a196237524bb107c1f98c12f6cfe1abf2645d8766bbfa7bc23d58c"
+    },
+    {
+      "file": "menu/36d167f5-e9ed-49a8-875c-1a465b0d7cd2.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/c7e1ff72-b657-4be4-8b8a-41cd0a605b8a.png",
+      "bytes": 1543087,
+      "sha256": "7c686868be83ae4b794652b4c7cd35bb03072e2f9749819670bdf78466d10c4b"
+    },
+    {
+      "file": "menu/d999435c-6d20-4cc3-8dd7-029973b4af4d.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/060a478f-b7b7-48ed-abf3-93ae7187b055.png",
+      "bytes": 2614936,
+      "sha256": "1346f9283306f55a4eafcbbb261bb93062b3557276bd7ccde23e3235a95646a5"
+    },
+    {
+      "file": "menu/e5528983-4d48-4adb-9f50-9213af750a4a.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/58c94550-c477-4b56-88ec-067c4bc85c44.png",
+      "bytes": 2553006,
+      "sha256": "b2146385d95f4c857a00dc5427a044414547a67b91e21f9b247686508ef6ba08"
+    },
+    {
+      "file": "menu/09c30e6a-7c09-41bc-a654-8ca69bf9831d.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/e69ca702-8385-4782-87a3-593e814364eb.png",
+      "bytes": 2404462,
+      "sha256": "ba086f337774bbe99a85033f34c52bcbbade87ead573e630cc77985bd42e64dd"
+    },
+    {
+      "file": "menu/009d435c-6d8f-4cb8-aaf2-1f4dc8dc4fdb.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/8288a7cc-c2b4-4d3a-b7d2-3469e2b8e39f.png",
+      "bytes": 2693663,
+      "sha256": "44375e1e09d5e3ab1fb64e6f33d56a3af6a0bcc519df49a0a679e33251e2d0d2"
+    },
+    {
+      "file": "menu/4bf7b217-37ea-4cc9-976c-7d51f5c61eba.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/97c671de-73d3-475f-b572-cb22170988c7.png",
+      "bytes": 2028784,
+      "sha256": "d714d12e0bbfe8e5178eaef12129b209b24f018d7d9ec38755d809d41a13eff9"
+    },
+    {
+      "file": "menu/07c28c57-e845-495a-acb7-a6a248f152ab.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/3a8e1a7e-567c-4f8b-b228-4402404ab859.png",
+      "bytes": 2015699,
+      "sha256": "94c2dfd9adbdcb6d8b2f55e82a93a3d7071717a8edee794fe5469fa93c877cd1"
+    },
+    {
+      "file": "menu/ab776bba-c585-4169-9b94-729d2d466f82.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/0b49fcf3-b402-44f8-881b-1469718270e2.png",
+      "bytes": 2015699,
+      "sha256": "94c2dfd9adbdcb6d8b2f55e82a93a3d7071717a8edee794fe5469fa93c877cd1"
+    },
+    {
+      "file": "menu/3cd1fd61-f4b8-44d5-bc9f-e1273820cbd3.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/06c5cc45-a4e2-4935-9b5b-e7336e0e0ea8.png",
+      "bytes": 2226870,
+      "sha256": "18499fdda55ab76c86ff44adce46147aa914d31833973ba04fe8b684fab88fc1"
+    },
+    {
+      "file": "menu/0c6c24d4-7465-4870-a7bc-058e91a54e19.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/ee6d96d1-721d-4e02-9892-11bb3cbb7eb8.png",
+      "bytes": 2028784,
+      "sha256": "d714d12e0bbfe8e5178eaef12129b209b24f018d7d9ec38755d809d41a13eff9"
+    },
+    {
+      "file": "menu/e2a272c7-b7e6-482b-a9ed-5cdedcc954f7.png",
+      "url": "https://s3.amazonaws.com/toasttab/menu_service/restaurants/317f7ab2-e8a3-4132-ab01-565f9e7d1ec2/MenuItem/8c945f53-86f4-44e3-882e-23fb222119f1.png",
+      "bytes": 1917566,
+      "sha256": "23f7f722e04a2c3a3fcad46fd71abf887af78b17131f241e8cc3f58dd8cb82b6"
+    }
+  ]
+}

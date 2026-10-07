@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-06",
+  "figma": "129:10031 / 129:10048 / 142:14622",
+  "before": {
+    "height": 36,
+    "width": 231,
+    "x": 858.5
+  },
+  "rest": {
+    "duration": "0.15s",
+    "filter": "brightness(1)",
+    "height": 16,
+    "loaded": true,
+    "width": 16
+  },
+  "pointerClear": {
+    "button": false,
+    "cards": 87,
+    "fieldWidth": 231,
+    "fieldX": 858.5,
+    "focus": "Search menu",
+    "query": ""
+  },
+  "hover": {
+    "filter": "brightness(1.4761)",
+    "hover": true
+  },
+  "return": {
+    "filter": "brightness(1)",
+    "hover": false
+  },
+  "keyboardFocus": {
+    "dim": "0.2",
+    "filter": "brightness(1.37052)",
+    "focus": "Clear search",
+    "focused": "true"
+  },
+  "keyboardClear": {
+    "cards": 87,
+    "focus": "Search menu",
+    "hasClear": false,
+    "query": ""
+  },
+  "escape": {
+    "focused": "false",
+    "hasClear": false,
+    "query": ""
+  },
+  "hoverSettled": {
+    "filter": "brightness(2)",
+    "height": 16,
+    "hover": true,
+    "rightInset": 12,
+    "top": 30,
+    "width": 16
+  },
+  "final": {
+    "height": 36,
+    "width": 231,
+    "x": 858.5
+  },
+  "recentLogs": [],
+  "checks": {
+    "build": "passed",
+    "motionTests": "9/9"
+  },
+  "limitations": [
+    "Desktop IAB only; reduced motion branch inspected, OS preference not emulated.",
+    "The earlier warning from checkout Fast Refresh is unrelated; no new warnings/errors in this scoped check.",
+    "Hover brightness(1) → brightness(2), original SVG fill #747474, 150ms; keyboard focus uses the same bright state."
+  ]
+}

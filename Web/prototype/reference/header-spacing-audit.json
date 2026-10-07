@@ -1,0 +1,1343 @@
+{
+  "date": "2026-10-05",
+  "source": {
+    "url": "https://www.figma.com/design/ANXj1DxD2mm9ZcxNNoNLdE/Prana-Web?node-id=41-7245",
+    "frame": "41:7245",
+    "header": "123:6083",
+    "categories": "97:17567",
+    "sections": [
+      "41:7275",
+      "123:6092"
+    ]
+  },
+  "home": {
+    "avatar": {
+      "bottom": 56,
+      "height": 36,
+      "right": 1272.5,
+      "width": 36,
+      "x": 1236.5,
+      "y": 20
+    },
+    "bodyOverflow": 0,
+    "card": {
+      "bottom": 737,
+      "height": 500,
+      "right": 420.5,
+      "width": 268,
+      "x": 152.5,
+      "y": 237
+    },
+    "cards": 87,
+    "cart": {
+      "bottom": 56,
+      "height": 36,
+      "right": 1216.5,
+      "width": 91,
+      "x": 1125.5,
+      "y": 20
+    },
+    "content": {
+      "bottom": 15562,
+      "height": 15486,
+      "right": 1272.5,
+      "width": 1120,
+      "x": 152.5,
+      "y": 76
+    },
+    "delivery": {
+      "bottom": 56,
+      "height": 36,
+      "right": 339.5,
+      "width": 187,
+      "x": 152.5,
+      "y": 20
+    },
+    "header": {
+      "bottom": 76,
+      "height": 76,
+      "right": 1425,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "headerInner": {
+      "bottom": 76,
+      "height": 76,
+      "right": 1272.5,
+      "width": 1120,
+      "x": 152.5,
+      "y": 0
+    },
+    "heading": {
+      "bottom": 205,
+      "height": 29,
+      "right": 1272.5,
+      "width": 1120,
+      "x": 152.5,
+      "y": 176
+    },
+    "nav": {
+      "bottom": 148,
+      "height": 72,
+      "right": 1272.5,
+      "width": 1120,
+      "x": 152.5,
+      "y": 76
+    },
+    "navPadding": [
+      "20px",
+      "20px"
+    ],
+    "scrollY": 0,
+    "search": {
+      "bottom": 56,
+      "height": 36,
+      "right": 1105.5,
+      "width": 231,
+      "x": 874.5,
+      "y": 20
+    },
+    "sections": [
+      {
+        "anchor": "176px",
+        "headingToCards": 32,
+        "name": "Breakfasts All Day",
+        "previousGap": null
+      },
+      {
+        "anchor": "176px",
+        "headingToCards": 32,
+        "name": "Healthy Bowls",
+        "previousGap": 48
+      },
+      {
+        "anchor": "176px",
+        "headingToCards": 32,
+        "name": "Broths & Soups",
+        "previousGap": 48
+      },
+      {
+        "anchor": "176px",
+        "headingToCards": 32,
+        "name": "Fresh & Light",
+        "previousGap": 48
+      },
+      {
+        "anchor": "176px",
+        "headingToCards": 32,
+        "name": "Main dishes",
+        "previousGap": 48
+      },
+      {
+        "anchor": "176px",
+        "headingToCards": 32,
+        "name": "Wraps",
+        "previousGap": 48
+      },
+      {
+        "anchor": "176px",
+        "headingToCards": 32,
+        "name": "Balanced Curries",
+        "previousGap": 48
+      },
+      {
+        "anchor": "176px",
+        "headingToCards": 32,
+        "name": "Extra Protein",
+        "previousGap": 48
+      },
+      {
+        "anchor": "176px",
+        "headingToCards": 32,
+        "name": "Extra Carbs / Veggies",
+        "previousGap": 48
+      },
+      {
+        "anchor": "176px",
+        "headingToCards": 32,
+        "name": "Sauces",
+        "previousGap": 48
+      },
+      {
+        "anchor": "176px",
+        "headingToCards": 32,
+        "name": "Refresh & Rehydrate",
+        "previousGap": 48
+      },
+      {
+        "anchor": "176px",
+        "headingToCards": 32,
+        "name": "Hot Liquids",
+        "previousGap": 48
+      },
+      {
+        "anchor": "176px",
+        "headingToCards": 32,
+        "name": "Cold Liquids",
+        "previousGap": 48
+      },
+      {
+        "anchor": "176px",
+        "headingToCards": 32,
+        "name": "Energizers",
+        "previousGap": 48
+      }
+    ],
+    "strip": {
+      "bottom": 128,
+      "height": 32,
+      "right": 1272.5,
+      "width": 1120,
+      "x": 152.5,
+      "y": 96
+    }
+  },
+  "hoverSamples": [
+    {
+      "t": 0,
+      "leftFade": "0.01377054271870293px",
+      "max": 379,
+      "offset": "-0.01377054271870293px",
+      "rightFade": "127px",
+      "scroll": 0
+    },
+    {
+      "t": 9,
+      "leftFade": "0.4203973758558277px",
+      "max": 379,
+      "offset": "-0.4203973758558277px",
+      "rightFade": "127px",
+      "scroll": 0
+    },
+    {
+      "t": 20,
+      "leftFade": "0.7974272013350856px",
+      "max": 379,
+      "offset": "-0.7974272013350856px",
+      "rightFade": "127px",
+      "scroll": 0
+    },
+    {
+      "t": 31,
+      "leftFade": "1.8008790926251095px",
+      "max": 379,
+      "offset": "-0.8008790926251095px",
+      "rightFade": "127px",
+      "scroll": 1
+    },
+    {
+      "t": 41,
+      "leftFade": "2.372687055001734px",
+      "max": 379,
+      "offset": "-0.3726870550017338px",
+      "rightFade": "127px",
+      "scroll": 2
+    },
+    {
+      "t": 50,
+      "leftFade": "2.9742145580530632px",
+      "max": 379,
+      "offset": "-0.9742145580530632px",
+      "rightFade": "127px",
+      "scroll": 2
+    },
+    {
+      "t": 57,
+      "leftFade": "3.5843235385080336px",
+      "max": 379,
+      "offset": "-0.5843235385080336px",
+      "rightFade": "127px",
+      "scroll": 3
+    },
+    {
+      "t": 65,
+      "leftFade": "4.791423019050854px",
+      "max": 379,
+      "offset": "-0.7914230190508542px",
+      "rightFade": "127px",
+      "scroll": 4
+    },
+    {
+      "t": 75,
+      "leftFade": "5.287487360910746px",
+      "max": 379,
+      "offset": "-0.2874873609107462px",
+      "rightFade": "127px",
+      "scroll": 5
+    },
+    {
+      "t": 85,
+      "leftFade": "5.855216998636024px",
+      "max": 379,
+      "offset": "-0.8552169986360241px",
+      "rightFade": "127px",
+      "scroll": 5
+    },
+    {
+      "t": 93,
+      "leftFade": "6.899651565210661px",
+      "max": 379,
+      "offset": "-0.8996515652106609px",
+      "rightFade": "127px",
+      "scroll": 6
+    },
+    {
+      "t": 104,
+      "leftFade": "7.386493963870453px",
+      "max": 379,
+      "offset": "-0.3864939638704534px",
+      "rightFade": "127px",
+      "scroll": 7
+    },
+    {
+      "t": 112,
+      "leftFade": "7.849314890376991px",
+      "max": 379,
+      "offset": "-0.8493148903769914px",
+      "rightFade": "127px",
+      "scroll": 7
+    },
+    {
+      "t": 120,
+      "leftFade": "8.27854124546866px",
+      "max": 379,
+      "offset": "-0.2785412454686593px",
+      "rightFade": "127px",
+      "scroll": 8
+    },
+    {
+      "t": 128,
+      "leftFade": "9.056735824415227px",
+      "max": 379,
+      "offset": "-0.0567358244152274px",
+      "rightFade": "127px",
+      "scroll": 9
+    },
+    {
+      "t": 138,
+      "leftFade": "9.404720936523518px",
+      "max": 379,
+      "offset": "-0.4047209365235176px",
+      "rightFade": "127px",
+      "scroll": 9
+    },
+    {
+      "t": 150,
+      "leftFade": "10.031689125898993px",
+      "max": 379,
+      "offset": "-0.03168912589899264px",
+      "rightFade": "127px",
+      "scroll": 10
+    },
+    {
+      "t": 159,
+      "leftFade": "10.310343236936024px",
+      "max": 379,
+      "offset": "-0.31034323693602417px",
+      "rightFade": "127px",
+      "scroll": 10
+    },
+    {
+      "t": 168,
+      "leftFade": "10.562007691775216px",
+      "max": 379,
+      "offset": "-0.5620076917752161px",
+      "rightFade": "127px",
+      "scroll": 10
+    },
+    {
+      "t": 177,
+      "leftFade": "11.003900449007052px",
+      "max": 379,
+      "offset": "-0.003900449007051776px",
+      "rightFade": "127px",
+      "scroll": 11
+    },
+    {
+      "t": 187,
+      "leftFade": "11.194448223867221px",
+      "max": 379,
+      "offset": "-0.19444822386722116px",
+      "rightFade": "127px",
+      "scroll": 11
+    },
+    {
+      "t": 196,
+      "leftFade": "11.492852613591822px",
+      "max": 379,
+      "offset": "-0.49285261359182186px",
+      "rightFade": "127px",
+      "scroll": 11
+    },
+    {
+      "t": 207,
+      "leftFade": "11.627609301946359px",
+      "max": 379,
+      "offset": "-0.6276093019463591px",
+      "rightFade": "127px",
+      "scroll": 11
+    },
+    {
+      "t": 217,
+      "leftFade": "11.744035311805783px",
+      "max": 379,
+      "offset": "-0.7440353118057832px",
+      "rightFade": "127px",
+      "scroll": 11
+    },
+    {
+      "t": 225,
+      "leftFade": "11.92455131621682px",
+      "max": 379,
+      "offset": "-0.9245513162168209px",
+      "rightFade": "127px",
+      "scroll": 11
+    },
+    {
+      "t": 235,
+      "leftFade": "11.99195101444493px",
+      "max": 379,
+      "offset": "-0.9919510144449308px",
+      "rightFade": "127px",
+      "scroll": 11
+    },
+    {
+      "t": 244,
+      "leftFade": "12px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "127px",
+      "scroll": 12
+    },
+    {
+      "t": 254,
+      "leftFade": "12px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "127px",
+      "scroll": 12
+    },
+    {
+      "t": 262,
+      "leftFade": "12px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "127px",
+      "scroll": 12
+    },
+    {
+      "t": 270,
+      "leftFade": "12px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "127px",
+      "scroll": 12
+    },
+    {
+      "t": 278,
+      "leftFade": "12px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "127px",
+      "scroll": 12
+    },
+    {
+      "t": 286,
+      "leftFade": "12px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "127px",
+      "scroll": 12
+    },
+    {
+      "t": 294,
+      "leftFade": "12px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "127px",
+      "scroll": 12
+    },
+    {
+      "t": 303,
+      "leftFade": "12px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "127px",
+      "scroll": 12
+    },
+    {
+      "t": 311,
+      "leftFade": "12px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "127px",
+      "scroll": 12
+    },
+    {
+      "t": 319,
+      "leftFade": "12px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "127px",
+      "scroll": 12
+    },
+    {
+      "t": 326,
+      "leftFade": "12px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "127px",
+      "scroll": 12
+    },
+    {
+      "t": 335,
+      "leftFade": "12px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "127px",
+      "scroll": 12
+    },
+    {
+      "t": 343,
+      "leftFade": "12px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "127px",
+      "scroll": 12
+    }
+  ],
+  "safePaddingReturnSamples": [
+    {
+      "t": 0,
+      "leftFade": "11.945014416851336px",
+      "max": 379,
+      "offset": "-0.9450144168513361px",
+      "rightFade": "127px",
+      "scroll": 11
+    },
+    {
+      "t": 9,
+      "leftFade": "11.711409386788727px",
+      "max": 379,
+      "offset": "-0.711409386788727px",
+      "rightFade": "127px",
+      "scroll": 11
+    },
+    {
+      "t": 19,
+      "leftFade": "11.012436113756848px",
+      "max": 379,
+      "offset": "-0.0124361137568485px",
+      "rightFade": "127px",
+      "scroll": 11
+    },
+    {
+      "t": 30,
+      "leftFade": "10.514484558388357px",
+      "max": 379,
+      "offset": "-0.5144845583883573px",
+      "rightFade": "127px",
+      "scroll": 10
+    },
+    {
+      "t": 39,
+      "leftFade": "9.959171687864px",
+      "max": 379,
+      "offset": "-0.959171687864px",
+      "rightFade": "127px",
+      "scroll": 9
+    },
+    {
+      "t": 48,
+      "leftFade": "8.76611626081285px",
+      "max": 379,
+      "offset": "-0.7661162608128507px",
+      "rightFade": "127px",
+      "scroll": 8
+    },
+    {
+      "t": 58,
+      "leftFade": "8.150711529218825px",
+      "max": 379,
+      "offset": "-0.15071152921882458px",
+      "rightFade": "127px",
+      "scroll": 8
+    },
+    {
+      "t": 67,
+      "leftFade": "7.551373907685047px",
+      "max": 379,
+      "offset": "-0.551373907685047px",
+      "rightFade": "127px",
+      "scroll": 7
+    },
+    {
+      "t": 75,
+      "leftFade": "6.387354791705729px",
+      "max": 379,
+      "offset": "-0.38735479170572873px",
+      "rightFade": "127px",
+      "scroll": 6
+    },
+    {
+      "t": 85,
+      "leftFade": "5.834928296419092px",
+      "max": 379,
+      "offset": "-0.8349282964190916px",
+      "rightFade": "127px",
+      "scroll": 5
+    },
+    {
+      "t": 94,
+      "leftFade": "5.3166568061162245px",
+      "max": 379,
+      "offset": "-0.3166568061162245px",
+      "rightFade": "127px",
+      "scroll": 5
+    },
+    {
+      "t": 103,
+      "leftFade": "4.344483472552383px",
+      "max": 379,
+      "offset": "-0.3444834725523833px",
+      "rightFade": "127px",
+      "scroll": 4
+    },
+    {
+      "t": 115,
+      "leftFade": "3.4877263325324748px",
+      "max": 379,
+      "offset": "-0.48772633253247477px",
+      "rightFade": "127px",
+      "scroll": 3
+    },
+    {
+      "t": 127,
+      "leftFade": "3.1520157013612327px",
+      "max": 379,
+      "offset": "-0.15201570136123266px",
+      "rightFade": "127px",
+      "scroll": 3
+    },
+    {
+      "t": 136,
+      "leftFade": "2.789419915055623px",
+      "max": 379,
+      "offset": "-0.7894199150556229px",
+      "rightFade": "127px",
+      "scroll": 2
+    },
+    {
+      "t": 143,
+      "leftFade": "2.4055141801654827px",
+      "max": 379,
+      "offset": "-0.4055141801654827px",
+      "rightFade": "127px",
+      "scroll": 2
+    },
+    {
+      "t": 151,
+      "leftFade": "1.846174907422391px",
+      "max": 379,
+      "offset": "-0.846174907422391px",
+      "rightFade": "127px",
+      "scroll": 1
+    },
+    {
+      "t": 162,
+      "leftFade": "1.5800238427065771px",
+      "max": 379,
+      "offset": "-0.5800238427065771px",
+      "rightFade": "127px",
+      "scroll": 1
+    },
+    {
+      "t": 170,
+      "leftFade": "1.3346856510790523px",
+      "max": 379,
+      "offset": "-0.33468565107905235px",
+      "rightFade": "127px",
+      "scroll": 1
+    },
+    {
+      "t": 178,
+      "leftFade": "1.1154393534699913px",
+      "max": 379,
+      "offset": "-0.11543935346999135px",
+      "rightFade": "127px",
+      "scroll": 1
+    },
+    {
+      "t": 187,
+      "leftFade": "0.7318398103408992px",
+      "max": 379,
+      "offset": "-0.7318398103408992px",
+      "rightFade": "127px",
+      "scroll": 0
+    },
+    {
+      "t": 196,
+      "leftFade": "0.5717513482260976px",
+      "max": 379,
+      "offset": "-0.5717513482260976px",
+      "rightFade": "127px",
+      "scroll": 0
+    },
+    {
+      "t": 206,
+      "leftFade": "0.42672761069261433px",
+      "max": 379,
+      "offset": "-0.42672761069261433px",
+      "rightFade": "127px",
+      "scroll": 0
+    },
+    {
+      "t": 215,
+      "leftFade": "0.19900411399430595px",
+      "max": 379,
+      "offset": "-0.19900411399430595px",
+      "rightFade": "127px",
+      "scroll": 0
+    },
+    {
+      "t": 224,
+      "leftFade": "0.10841451330925267px",
+      "max": 379,
+      "offset": "-0.10841451330925267px",
+      "rightFade": "127px",
+      "scroll": 0
+    },
+    {
+      "t": 233,
+      "leftFade": "0.03485453869798327px",
+      "max": 379,
+      "offset": "-0.03485453869798327px",
+      "rightFade": "127px",
+      "scroll": 0
+    },
+    {
+      "t": 241,
+      "leftFade": "0px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "127px",
+      "scroll": 0
+    },
+    {
+      "t": 251,
+      "leftFade": "0px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "127px",
+      "scroll": 0
+    },
+    {
+      "t": 258,
+      "leftFade": "0px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "127px",
+      "scroll": 0
+    },
+    {
+      "t": 264,
+      "leftFade": "0px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "127px",
+      "scroll": 0
+    },
+    {
+      "t": 271,
+      "leftFade": "0px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "127px",
+      "scroll": 0
+    },
+    {
+      "t": 278,
+      "leftFade": "0px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "127px",
+      "scroll": 0
+    },
+    {
+      "t": 285,
+      "leftFade": "0px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "127px",
+      "scroll": 0
+    },
+    {
+      "t": 291,
+      "leftFade": "0px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "127px",
+      "scroll": 0
+    },
+    {
+      "t": 298,
+      "leftFade": "0px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "127px",
+      "scroll": 0
+    },
+    {
+      "t": 304,
+      "leftFade": "0px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "127px",
+      "scroll": 0
+    },
+    {
+      "t": 311,
+      "leftFade": "0px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "127px",
+      "scroll": 0
+    },
+    {
+      "t": 317,
+      "leftFade": "0px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "127px",
+      "scroll": 0
+    },
+    {
+      "t": 324,
+      "leftFade": "0px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "127px",
+      "scroll": 0
+    },
+    {
+      "t": 330,
+      "leftFade": "0px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "127px",
+      "scroll": 0
+    },
+    {
+      "t": 337,
+      "leftFade": "0px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "127px",
+      "scroll": 0
+    },
+    {
+      "t": 344,
+      "leftFade": "0px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "127px",
+      "scroll": 0
+    }
+  ],
+  "saucesMotion": [
+    {
+      "t": 0,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "-0.8290228207582686px",
+      "rightFade": "127px",
+      "scroll": 182
+    },
+    {
+      "t": 11,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "-0.16393440492620925px",
+      "rightFade": "127px",
+      "scroll": 193
+    },
+    {
+      "t": 20,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "-0.9882302730360948px",
+      "rightFade": "127px",
+      "scroll": 202
+    },
+    {
+      "t": 27,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "-0.7939354516685455px",
+      "rightFade": "127px",
+      "scroll": 212
+    },
+    {
+      "t": 35,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "-0.2362387033425648px",
+      "rightFade": "127px",
+      "scroll": 231
+    },
+    {
+      "t": 44,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "-0.8447429137916345px",
+      "rightFade": "127px",
+      "scroll": 239
+    },
+    {
+      "t": 52,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "-0.36513167095000654px",
+      "rightFade": "127px",
+      "scroll": 248
+    },
+    {
+      "t": 60,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "-0.5342810838734522px",
+      "rightFade": "122.46571891612655px",
+      "scroll": 256
+    },
+    {
+      "t": 69,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "-0.03527717497803451px",
+      "rightFade": "106.96472282502197px",
+      "scroll": 272
+    },
+    {
+      "t": 80,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "-0.3535959364207315px",
+      "rightFade": "99.64640406357927px",
+      "scroll": 279
+    },
+    {
+      "t": 88,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "-0.30101780664409716px",
+      "rightFade": "92.6989821933559px",
+      "scroll": 286
+    },
+    {
+      "t": 97,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "-0.8795131570296917px",
+      "rightFade": "86.12048684297031px",
+      "scroll": 292
+    },
+    {
+      "t": 105,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "-0.31213781750648195px",
+      "rightFade": "79.68786218249352px",
+      "scroll": 299
+    },
+    {
+      "t": 112,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "-0.3744716040612275px",
+      "rightFade": "73.62552839593877px",
+      "scroll": 305
+    },
+    {
+      "t": 119,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "-0.8204563536389742px",
+      "rightFade": "62.179543646361026px",
+      "scroll": 316
+    },
+    {
+      "t": 128,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "-0.0012380114087022775px",
+      "rightFade": "56.9987619885913px",
+      "scroll": 322
+    },
+    {
+      "t": 137,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "-0.023727837267642826px",
+      "rightFade": "51.97627216273236px",
+      "scroll": 327
+    },
+    {
+      "t": 145,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "-0.1441610412213663px",
+      "rightFade": "47.855838958778634px",
+      "scroll": 331
+    },
+    {
+      "t": 153,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "-0.6762382841551471px",
+      "rightFade": "43.32376171584485px",
+      "scroll": 335
+    },
+    {
+      "t": 160,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "-0.5542627287064192px",
+      "rightFade": "38.44573727129358px",
+      "scroll": 340
+    },
+    {
+      "t": 168,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "-0.9322620333002192px",
+      "rightFade": "31.06773796669978px",
+      "scroll": 347
+    },
+    {
+      "t": 177,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "-0.4724218174814041px",
+      "rightFade": "27.527578182518596px",
+      "scroll": 351
+    },
+    {
+      "t": 186,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "-0.849380985650896px",
+      "rightFade": "24.150619014349104px",
+      "scroll": 354
+    },
+    {
+      "t": 195,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "-0.0577869025814266px",
+      "rightFade": "20.942213097418573px",
+      "scroll": 358
+    },
+    {
+      "t": 203,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "-0.7064981928937755px",
+      "rightFade": "15.293501807106225px",
+      "scroll": 363
+    },
+    {
+      "t": 212,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "-0.280474316232187px",
+      "rightFade": "12.719525683767813px",
+      "scroll": 366
+    },
+    {
+      "t": 222,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "-0.7096306296874673px",
+      "rightFade": "8.290369370312533px",
+      "scroll": 370
+    },
+    {
+      "t": 237,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "-0.3933789186663148px",
+      "rightFade": "4.606621081333685px",
+      "scroll": 374
+    },
+    {
+      "t": 247,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "-0.9516883196846493px",
+      "rightFade": "3.0483116803153507px",
+      "scroll": 375
+    },
+    {
+      "t": 255,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "-0.34876057951424855px",
+      "rightFade": "1.6512394204857515px",
+      "scroll": 377
+    },
+    {
+      "t": 262,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "-0.5234277702387544px",
+      "rightFade": "0.4765722297612456px",
+      "scroll": 378
+    },
+    {
+      "t": 270,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "0px",
+      "scroll": 379
+    },
+    {
+      "t": 279,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "0px",
+      "scroll": 379
+    },
+    {
+      "t": 287,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "0px",
+      "scroll": 379
+    },
+    {
+      "t": 295,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "0px",
+      "scroll": 379
+    },
+    {
+      "t": 302,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "0px",
+      "scroll": 379
+    },
+    {
+      "t": 310,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "0px",
+      "scroll": 379
+    },
+    {
+      "t": 316,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "0px",
+      "scroll": 379
+    },
+    {
+      "t": 323,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "0px",
+      "scroll": 379
+    },
+    {
+      "t": 330,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "0px",
+      "scroll": 379
+    },
+    {
+      "t": 338,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "0px",
+      "scroll": 379
+    },
+    {
+      "t": 346,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "0px",
+      "scroll": 379
+    },
+    {
+      "t": 355,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "0px",
+      "scroll": 379
+    },
+    {
+      "t": 362,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "0px",
+      "scroll": 379
+    },
+    {
+      "t": 370,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "0px",
+      "scroll": 379
+    },
+    {
+      "t": 377,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "0px",
+      "scroll": 379
+    },
+    {
+      "t": 385,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "0px",
+      "scroll": 379
+    },
+    {
+      "t": 393,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "0px",
+      "scroll": 379
+    },
+    {
+      "t": 401,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "0px",
+      "scroll": 379
+    },
+    {
+      "t": 408,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "0px",
+      "scroll": 379
+    },
+    {
+      "t": 415,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "0px",
+      "scroll": 379
+    },
+    {
+      "t": 422,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "0px",
+      "scroll": 379
+    },
+    {
+      "t": 428,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "0px",
+      "scroll": 379
+    },
+    {
+      "t": 436,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "0px",
+      "scroll": 379
+    },
+    {
+      "t": 443,
+      "leftFade": "127px",
+      "max": 379,
+      "offset": "0px",
+      "rightFade": "0px",
+      "scroll": 379
+    }
+  ],
+  "sauces": {
+    "active": "Sauces",
+    "headerBottom": 76,
+    "headingTop": 176,
+    "navTop": 76,
+    "scrollY": 11043,
+    "stripTop": 96
+  },
+  "manualScroll": {
+    "active": "Extra Carbs / Veggies",
+    "headerBottom": 76,
+    "navTop": 76,
+    "scrollY": 10643,
+    "stripTop": 96
+  },
+  "healthy": {
+    "active": "Healthy Bowls",
+    "headingTop": 176,
+    "stripTop": 96
+  },
+  "search": {
+    "cards": 1,
+    "headingTop": -132,
+    "navTop": 76
+  },
+  "searchReset": {
+    "cards": 87,
+    "headingTop": 176,
+    "scrollY": 0,
+    "search": ""
+  },
+  "target": {
+    "headerHeight": 76,
+    "headerControlTop": 20,
+    "headerControlHeight": 36,
+    "headerActionGap": 20,
+    "categoryTop": 96,
+    "categoryHeight": 32,
+    "categorySafePadding": 20,
+    "categoryBandHeight": 72,
+    "headingTop": 176,
+    "headingToCards": 32,
+    "firstCardTop": 237,
+    "sectionGap": 48,
+    "containerWidth": 1120
+  },
+  "checks": {
+    "productionBuild": "passed",
+    "motionControllerTests": "4 passed",
+    "published": false,
+    "visualAcceptance": "pending",
+    "geometryAssertions": "passed"
+  }
+}

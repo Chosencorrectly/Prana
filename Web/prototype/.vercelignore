@@ -1,0 +1,15 @@
+node_modules
+dist
+reference
+tests
+AGENTS.md
+README.md
+MOTION.md
+design-qa.md
+*.log
+.env*
+public/assets/menu
+# Exclude legacy rasters, but keep the empty-cart illustration used by CartPage.
+public/assets/*.png
+public/assets/*.jpg
+!public/assets/cart-empty-bag.png

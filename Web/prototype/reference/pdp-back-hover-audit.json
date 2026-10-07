@@ -1,0 +1,83 @@
+{
+  "checks": {
+    "idle": {
+      "arrow": "rgb(161, 161, 161)",
+      "color": "rgb(161, 161, 161)",
+      "iconRect": {
+        "bottom": 112,
+        "height": 16,
+        "left": 152.5,
+        "right": 168.5,
+        "top": 96,
+        "width": 16,
+        "x": 152.5,
+        "y": 96
+      },
+      "mask": "url(\"http://127.0.0.1:5180/assets/pdp-arrow-left.svg\")",
+      "rect": {
+        "bottom": 112,
+        "height": 16,
+        "left": 152.5,
+        "right": 258.515625,
+        "top": 96,
+        "width": 106.015625,
+        "x": 152.5,
+        "y": 96
+      },
+      "transition": "color 0.15s cubic-bezier(0, 0, 0.38, 0.9)"
+    },
+    "hover": {
+      "arrow": "rgb(237, 237, 237)",
+      "color": "rgb(237, 237, 237)",
+      "focusVisible": true,
+      "hover": true,
+      "path": "/dish/5953310a-d6c6-4d8c-b3fc-1e88283ff884",
+      "rect": {
+        "bottom": 112,
+        "height": 16,
+        "left": 152.5,
+        "right": 258.515625,
+        "top": 96,
+        "width": 106.015625,
+        "x": 152.5,
+        "y": 96
+      }
+    },
+    "pointerOnly": {
+      "arrow": "rgb(237, 237, 237)",
+      "color": "rgb(237, 237, 237)",
+      "focusVisible": false,
+      "hover": true
+    },
+    "restored": {
+      "arrow": "rgb(161, 161, 161)",
+      "color": "rgb(161, 161, 161)",
+      "focusVisible": false,
+      "hover": false
+    },
+    "keyboard": {
+      "arrow": "rgb(237, 237, 237)",
+      "color": "rgb(237, 237, 237)",
+      "focusVisible": true,
+      "hover": false
+    }
+  },
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "checkedAt": "2026-10-05T17:50:31.516Z",
+  "timezone": "Europe/Moscow",
+  "verification": {
+    "build": "passed",
+    "motionControllerTests": "9 passed",
+    "reducedMotion": "CSS transition disabled; system preference not browser-emulated",
+    "browserLogs": []
+  },
+  "status": {
+    "implemented": true,
+    "verified": true,
+    "userVisualApproval": false,
+    "published": false
+  }
+}

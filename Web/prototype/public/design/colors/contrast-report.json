@@ -1,0 +1,263 @@
+{
+  "method": "WCAG 2 relative luminance, actual emitted sRGB values. Normal text AA threshold: 4.5:1. This is pair-level checking, not a site accessibility audit.",
+  "brandText": {
+    "white": 3.482966267462796,
+    "black": 6.029343492694138,
+    "gray1000Dark": 2.97905819624671
+  },
+  "pairs": [
+    {
+      "theme": "light",
+      "foreground": "gray-900",
+      "background": "background-100",
+      "ratio": 8.520033235562218,
+      "normalTextAA": true
+    },
+    {
+      "theme": "light",
+      "foreground": "gray-900",
+      "background": "background-200",
+      "ratio": 8.155737705417371,
+      "normalTextAA": true
+    },
+    {
+      "theme": "light",
+      "foreground": "gray-1000",
+      "background": "background-100",
+      "ratio": 17.936336629799097,
+      "normalTextAA": true
+    },
+    {
+      "theme": "light",
+      "foreground": "gray-1000",
+      "background": "background-200",
+      "ratio": 17.169423276206064,
+      "normalTextAA": true
+    },
+    {
+      "theme": "light",
+      "foreground": "amber-900",
+      "background": "background-100",
+      "ratio": 8.974238281131944,
+      "normalTextAA": true
+    },
+    {
+      "theme": "light",
+      "foreground": "amber-900",
+      "background": "background-200",
+      "ratio": 8.590522067605294,
+      "normalTextAA": true
+    },
+    {
+      "theme": "light",
+      "foreground": "amber-900",
+      "background": "amber-100",
+      "ratio": 7.796708209020124,
+      "normalTextAA": true
+    },
+    {
+      "theme": "light",
+      "foreground": "amber-900",
+      "background": "amber-200",
+      "ratio": 7.466615694511114,
+      "normalTextAA": true
+    },
+    {
+      "theme": "light",
+      "foreground": "amber-900",
+      "background": "amber-300",
+      "ratio": 6.9959894313950945,
+      "normalTextAA": true
+    },
+    {
+      "theme": "light",
+      "foreground": "amber-1000",
+      "background": "background-100",
+      "ratio": 16.585832240877092,
+      "normalTextAA": true
+    },
+    {
+      "theme": "light",
+      "foreground": "amber-1000",
+      "background": "background-200",
+      "ratio": 15.876663111833768,
+      "normalTextAA": true
+    },
+    {
+      "theme": "light",
+      "foreground": "amber-1000",
+      "background": "amber-100",
+      "ratio": 14.409567735431938,
+      "normalTextAA": true
+    },
+    {
+      "theme": "light",
+      "foreground": "amber-1000",
+      "background": "amber-200",
+      "ratio": 13.799503805981075,
+      "normalTextAA": true
+    },
+    {
+      "theme": "light",
+      "foreground": "amber-1000",
+      "background": "amber-300",
+      "ratio": 12.929710960764954,
+      "normalTextAA": true
+    },
+    {
+      "theme": "dark",
+      "foreground": "gray-900",
+      "background": "background-100",
+      "ratio": 7.333833603687375,
+      "normalTextAA": true
+    },
+    {
+      "theme": "dark",
+      "foreground": "gray-900",
+      "background": "background-200",
+      "ratio": 8.093841229880908,
+      "normalTextAA": true
+    },
+    {
+      "theme": "dark",
+      "foreground": "gray-1000",
+      "background": "background-100",
+      "ratio": 16.275164423974672,
+      "normalTextAA": true
+    },
+    {
+      "theme": "dark",
+      "foreground": "gray-1000",
+      "background": "background-200",
+      "ratio": 17.96176514989724,
+      "normalTextAA": true
+    },
+    {
+      "theme": "dark",
+      "foreground": "amber-900",
+      "background": "background-100",
+      "ratio": 5.389532934537075,
+      "normalTextAA": true
+    },
+    {
+      "theme": "dark",
+      "foreground": "amber-900",
+      "background": "background-200",
+      "ratio": 5.948052032899209,
+      "normalTextAA": true
+    },
+    {
+      "theme": "dark",
+      "foreground": "amber-900",
+      "background": "amber-100",
+      "ratio": 5.380879657679652,
+      "normalTextAA": true
+    },
+    {
+      "theme": "dark",
+      "foreground": "amber-900",
+      "background": "amber-200",
+      "ratio": 5.209069417389675,
+      "normalTextAA": true
+    },
+    {
+      "theme": "dark",
+      "foreground": "amber-900",
+      "background": "amber-300",
+      "ratio": 4.5365267721970355,
+      "normalTextAA": true
+    },
+    {
+      "theme": "dark",
+      "foreground": "amber-1000",
+      "background": "background-100",
+      "ratio": 15.613205862330656,
+      "normalTextAA": true
+    },
+    {
+      "theme": "dark",
+      "foreground": "amber-1000",
+      "background": "background-200",
+      "ratio": 17.231207601384934,
+      "normalTextAA": true
+    },
+    {
+      "theme": "dark",
+      "foreground": "amber-1000",
+      "background": "amber-100",
+      "ratio": 15.588137754463105,
+      "normalTextAA": true
+    },
+    {
+      "theme": "dark",
+      "foreground": "amber-1000",
+      "background": "amber-200",
+      "ratio": 15.090412128980066,
+      "normalTextAA": true
+    },
+    {
+      "theme": "dark",
+      "foreground": "amber-1000",
+      "background": "amber-300",
+      "ratio": 13.142089909201106,
+      "normalTextAA": true
+    }
+  ],
+  "cataloguePairs": [
+    {
+      "foreground": "gray-1000",
+      "background": "card",
+      "ratio": 16.253145710869013,
+      "normalTextAA": true
+    },
+    {
+      "foreground": "gray-1000",
+      "background": "control",
+      "ratio": 12.926530881048134,
+      "normalTextAA": true
+    },
+    {
+      "foreground": "gray-1000",
+      "background": "pressed",
+      "ratio": 12.426561686091063,
+      "normalTextAA": true
+    },
+    {
+      "foreground": "gray-900",
+      "background": "card",
+      "ratio": 7.364787494663439,
+      "normalTextAA": true
+    },
+    {
+      "foreground": "gray-900",
+      "background": "control",
+      "ratio": 5.857398603056878,
+      "normalTextAA": true
+    },
+    {
+      "foreground": "gray-900",
+      "background": "pressed",
+      "ratio": 5.630847574705831,
+      "normalTextAA": true
+    },
+    {
+      "foreground": "gray-600",
+      "background": "card",
+      "ratio": 5.296721437400596,
+      "normalTextAA": true
+    },
+    {
+      "foreground": "gray-600",
+      "background": "control",
+      "ratio": 4.212614249996018,
+      "normalTextAA": false
+    },
+    {
+      "foreground": "gray-600",
+      "background": "pressed",
+      "ratio": 4.049679787949197,
+      "normalTextAA": false
+    }
+  ],
+  "catalogueNote": "Light text levels are intentionally preserved as requested. Gray 600 on the user-selected control fill is below 4.5:1; reported, not silently adjusted. Pressed From uses Gray 900. Catalogue ratios use rounded 8-bit colors; canonical CSS values retain exact HSL."
+}

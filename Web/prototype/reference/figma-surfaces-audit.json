@@ -1,0 +1,30 @@
+{
+  "colors": {
+    "button": "rgb(38, 38, 38)",
+    "card": "rgb(16, 16, 16)",
+    "kcal": "rgb(38, 38, 38)",
+    "page": "rgb(0, 0, 0)",
+    "primary": "rgb(237, 237, 237)",
+    "secondary": "rgb(161, 161, 161)",
+    "tag": "rgb(38, 38, 38)",
+    "tertiary": "rgb(135, 135, 135)"
+  },
+  "contrast": {
+    "cardOnPage": 1.1036303340467677,
+    "controlOnCard": 1.2573478422349265,
+    "description": 7.364787494663439,
+    "tertiaryOnControl": 4.212614249996018,
+    "title": 16.253145710869013
+  },
+  "geometry": {
+    "cards": 87,
+    "columns": "268px 268px 268px 268px",
+    "navTop": 79,
+    "width": 1120
+  },
+  "source": "Figma 41:7245",
+  "viewport": [
+    1440,
+    1000
+  ]
+}

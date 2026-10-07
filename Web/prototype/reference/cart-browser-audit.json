@@ -1,0 +1,308 @@
+{
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "checks": {
+    "filled": {
+      "images": [
+        {
+          "height": 36,
+          "loaded": true,
+          "src": "/assets/header-logo.svg",
+          "width": 36
+        },
+        {
+          "height": 16,
+          "loaded": true,
+          "src": "/assets/header-location.svg",
+          "width": 16
+        },
+        {
+          "height": 16,
+          "loaded": true,
+          "src": "/assets/header-search.svg",
+          "width": 16
+        },
+        {
+          "height": 16,
+          "loaded": true,
+          "src": "/assets/header-basket.svg",
+          "width": 16
+        },
+        {
+          "height": 16,
+          "loaded": true,
+          "src": "/assets/header-user.svg",
+          "width": 16
+        },
+        {
+          "height": 16,
+          "loaded": true,
+          "src": "/assets/cart-trash.svg",
+          "width": 16
+        },
+        {
+          "height": 104,
+          "loaded": true,
+          "src": "/assets/menu/5953310a-d6c6-4d8c-b3fc-1e88283ff884.jpg",
+          "width": 104
+        },
+        {
+          "height": 16,
+          "loaded": true,
+          "src": "/assets/minus.svg",
+          "width": 16
+        },
+        {
+          "height": 16,
+          "loaded": true,
+          "src": "/assets/plus.svg",
+          "width": 16
+        },
+        {
+          "height": 104,
+          "loaded": true,
+          "src": "/assets/menu/d9c358a9-315f-4a77-a380-9910ae3db226.jpg",
+          "width": 104
+        },
+        {
+          "height": 16,
+          "loaded": true,
+          "src": "/assets/minus.svg",
+          "width": 16
+        },
+        {
+          "height": 16,
+          "loaded": true,
+          "src": "/assets/plus.svg",
+          "width": 16
+        },
+        {
+          "height": 104,
+          "loaded": true,
+          "src": "/assets/menu/8b0f30eb-d270-4d44-afef-1b9fe3a58fa7.jpg",
+          "width": 104
+        },
+        {
+          "height": 16,
+          "loaded": true,
+          "src": "/assets/minus.svg",
+          "width": 16
+        },
+        {
+          "height": 16,
+          "loaded": true,
+          "src": "/assets/plus.svg",
+          "width": 16
+        },
+        {
+          "height": 16,
+          "loaded": true,
+          "src": "/assets/cart-promo.svg",
+          "width": 16
+        }
+      ],
+      "pageOverflow": false,
+      "path": "/cart",
+      "positions": {
+        ".cart-heading": {
+          "bottom": 198,
+          "height": 42,
+          "left": 152.5,
+          "right": 872.5,
+          "top": 156,
+          "width": 720,
+          "x": 152.5,
+          "y": 156
+        },
+        ".cart-items": {
+          "bottom": 682,
+          "height": 460,
+          "left": 152.5,
+          "right": 872.5,
+          "top": 222,
+          "width": 720,
+          "x": 152.5,
+          "y": 222
+        },
+        ".cart-layout": {
+          "bottom": 682,
+          "height": 460,
+          "left": 152.5,
+          "right": 1272.5,
+          "top": 222,
+          "width": 1120,
+          "x": 152.5,
+          "y": 222
+        },
+        ".cart-page": {
+          "bottom": 1000,
+          "height": 924,
+          "left": 152.5,
+          "right": 1272.5,
+          "top": 76,
+          "width": 1120,
+          "x": 152.5,
+          "y": 76
+        },
+        ".cart-summary": {
+          "bottom": 616,
+          "height": 394,
+          "left": 920.5,
+          "right": 1272.5,
+          "top": 222,
+          "width": 352,
+          "x": 920.5,
+          "y": 222
+        },
+        ".header-inner": {
+          "bottom": 76,
+          "height": 76,
+          "left": 152.5,
+          "right": 1272.5,
+          "top": 0,
+          "width": 1120,
+          "x": 152.5,
+          "y": 0
+        }
+      },
+      "rowHeights": [
+        153,
+        153,
+        153
+      ],
+      "rows": 3,
+      "title": "Cart — Prana",
+      "total": "Total$103.70"
+    },
+    "dialog": {
+      "backdrop": "rgba(0, 0, 0, 0.75)",
+      "backdropOpacity": "1",
+      "background": "rgb(16, 16, 16)",
+      "buttonWidths": [
+        162,
+        162
+      ],
+      "focus": "Cancel",
+      "headerX": 152.5,
+      "modal": true,
+      "open": true,
+      "rect": {
+        "bottom": 597,
+        "height": 194,
+        "left": 520.5,
+        "right": 904.5,
+        "top": 403,
+        "width": 384,
+        "x": 520.5,
+        "y": 403
+      },
+      "rootOverflow": "hidden"
+    },
+    "focusTrapBack": {
+      "tag": "BUTTON",
+      "text": "Clear cart"
+    },
+    "focusTrapForward": {
+      "tag": "BUTTON",
+      "text": "Cancel"
+    },
+    "escape": {
+      "dialogPresent": false,
+      "focus": "Clear cart",
+      "headerX": 152.5,
+      "rootOverflow": "visible",
+      "rows": 3
+    },
+    "cancel": {
+      "dialogPresent": false,
+      "focus": "Clear cart",
+      "rows": 3
+    },
+    "empty": {
+      "bag": {
+        "loaded": true,
+        "rect": {
+          "bottom": 414,
+          "height": 80,
+          "left": 672.5,
+          "right": 752.5,
+          "top": 334,
+          "width": 80,
+          "x": 672.5,
+          "y": 334
+        }
+      },
+      "browseRect": {
+        "bottom": 536,
+        "height": 44,
+        "left": 620.5,
+        "right": 804.5,
+        "top": 492,
+        "width": 184,
+        "x": 620.5,
+        "y": 492
+      },
+      "clearPresent": false,
+      "focus": "It's empty for now",
+      "headerX": 152.5,
+      "rootOverflow": "visible",
+      "rows": 0,
+      "summaryPresent": false,
+      "titleY": 438
+    },
+    "browse": {
+      "cards": 87,
+      "path": "/",
+      "scrollY": 0
+    },
+    "emptyReentry": {
+      "empty": true,
+      "path": "/cart",
+      "rows": 0
+    },
+    "reload": {
+      "empty": false,
+      "path": "/cart",
+      "rows": 3,
+      "total": "Total$103.70"
+    },
+    "backdropCancel": {
+      "dialog": false,
+      "focus": "Clear cart",
+      "headerX": 152.5,
+      "rows": 3
+    },
+    "fromPdp": {
+      "path": "/cart",
+      "rows": 3
+    },
+    "chainReturn": {
+      "avocadoQuantity": "1 item, $11.951 item$11.95",
+      "focus": "Avocado toast (gluten-free sourdough, poached egg) (GF, LF)",
+      "path": "/"
+    },
+    "logs": [],
+    "build": "passed",
+    "motionControllerTests": {
+      "passed": 9,
+      "total": 9
+    }
+  },
+  "verifiedAt": "2026-10-05",
+  "timezone": "Europe/Moscow",
+  "sources": {
+    "fileKey": "ANXj1DxD2mm9ZcxNNoNLdE",
+    "filled": "74:5999",
+    "empty": "74:6015",
+    "confirmation": "80:5921"
+  },
+  "limitations": [
+    "Desktop IAB only; no mobile or full cross-browser/accessibility audit.",
+    "Reduced-motion code inspected; OS preference not emulated.",
+    "Three-item layout fixture is separate from catalogue quantities. Edit/quantity/promo/checkout remain disabled.",
+    "Delivery Free is a Figma display placeholder; no pricing policy implemented.",
+    "Local only; user visual approval and publication pending."
+  ]
+}

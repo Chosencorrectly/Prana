@@ -1,0 +1,41 @@
+* { box-sizing: border-box; }
+:root { font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: var(--prana-gray-1000); background: var(--prana-background-100); }
+body { margin: 0; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button { font: inherit; cursor: pointer; }
+button:focus-visible, a:focus-visible { outline: 2px solid var(--prana-gray-1000); outline-offset: 4px; }
+main { max-width: 1328px; padding: 36px 40px 28px; margin: auto; }
+header { display: flex; align-items: center; justify-content: space-between; gap: 32px; }
+h1 { margin: 5px 0 8px; font-size: 32px; line-height: 1.2; letter-spacing: -.03em; font-weight: 600; }
+h2 { margin: 0; font-size: 17px; font-weight: 600; }
+p { margin: 0; }
+.eyebrow { font-size: 11px; letter-spacing: .13em; color: var(--prana-gray-900); }
+.intro, .note { color: var(--prana-gray-900); font-size: 13px; }
+.intro strong { font-weight: 500; color: var(--prana-gray-1000); }
+.theme-switch { display: flex; padding: 3px; border: 1px solid var(--prana-gray-400); border-radius: 8px; }
+.theme-switch button { border: 0; border-radius: 5px; padding: 7px 13px; background: transparent; color: var(--prana-gray-900); white-space: nowrap; }
+.theme-switch button[aria-pressed="true"] { background: var(--prana-gray-200); color: var(--prana-gray-1000); }
+.tools { display: flex; align-items: center; gap: 18px; border-top: 1px solid var(--prana-gray-400); border-bottom: 1px solid var(--prana-gray-400); margin: 26px 0; padding: 12px 0; color: var(--prana-gray-900); font-size: 12px; }
+.tools span { flex: 1; }
+a { color: inherit; text-underline-offset: 3px; }
+.scale { margin-top: 22px; }
+.scale-heading { display: flex; align-items: baseline; gap: 14px; margin-bottom: 10px; }
+.scale-heading p { color: var(--prana-gray-900); font-size: 12px; }
+.swatches { display: grid; grid-template-columns: repeat(10, minmax(0,1fr)); gap: 8px; }
+.swatch { padding: 0; border: 0; background: transparent; color: inherit; text-align: left; min-width: 0; }
+.sample { display: block; height: 56px; border-radius: 6px; background: var(--prana-background-100); box-shadow: inset 0 0 0 1px var(--prana-gray-alpha-100); position: relative; overflow: hidden; }
+.sample-fill { display: block; height: 100%; background: var(--sample); }
+.alpha .sample { background-color: var(--prana-background-100); background-image: conic-gradient(var(--prana-gray-100) 25%,transparent 0 50%,var(--prana-gray-100) 0 75%,transparent 0); background-size: 14px 14px; }
+.sample.brand { outline: 2px solid var(--prana-gray-1000); outline-offset: 2px; }
+.sample.brand::after { content: 'BASE'; position: absolute; top: 6px; left: 7px; color: #000; font-size: 10px; font-weight: 700; letter-spacing: .04em; }
+.swatch-label { display: flex; justify-content: space-between; gap: 4px; font-size: 11px; padding: 6px 1px 0; }
+.value { font: 10px/1.5 ui-monospace, Consolas, monospace; color: var(--prana-gray-900); }
+.origin-note { display: block; font-size: 10px; color: var(--prana-gray-900); margin-top: 3px; }
+.contrast-section { margin-top: 28px; border-top: 1px solid var(--prana-gray-400); padding-top: 20px; }
+#contrast-examples { display: flex; gap: 12px; margin: 12px 0 10px; }
+.contrast-example { background: #EA5C00; padding: 14px 18px; border-radius: 8px; min-width: 230px; }
+.contrast-example strong { display: block; font-size: 16px; }
+.contrast-example span { font-size: 12px; }
+footer { border-top: 1px solid var(--prana-gray-400); margin-top: 24px; padding-top: 16px; font-size: 11px; color: var(--prana-gray-900); line-height: 1.8; }
+#copy-status:not(:empty) { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); border: 1px solid var(--prana-gray-500); background: var(--prana-background-100); padding: 10px 18px; border-radius: 8px; }
+@media (max-width: 900px) { main { padding: 24px; } header { align-items: flex-start; } .tools { flex-wrap: wrap; } .tools span { flex-basis: 100%; order: 2; } .swatches { grid-template-columns: repeat(5,minmax(0,1fr)); row-gap: 16px; } .swatch-label { flex-wrap: wrap; } }

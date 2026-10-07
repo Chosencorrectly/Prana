@@ -1,0 +1,240 @@
+{
+  "date": "2026-10-05",
+  "source": "Figma 47:5351",
+  "scenarios": [
+    {
+      "focus": "Increase quantity of Avocado toast (gluten-free sourdough, poached egg) (GF, LF)",
+      "path": "/dish/5953310a-d6c6-4d8c-b3fc-1e88283ff884",
+      "summary": "3 items, $35.853 items$35.85",
+      "test": "PDP rapid 0→1→2→3"
+    },
+    {
+      "cursor": "pointer",
+      "focus": "5953310a-d6c6-4d8c-b3fc-1e88283ff884",
+      "linkCursor": "pointer",
+      "path": "/",
+      "quantity": "3 items, $35.853 items$35.85",
+      "scrollY": 205,
+      "test": "Back menu shared quantity"
+    },
+    {
+      "focus": "Add Avocado toast (gluten-free sourdough, poached egg) (GF, LF) to cart for $11.95",
+      "path": "/",
+      "test": "Preview 3→2→1→0 remains menu and restores Add focus"
+    },
+    {
+      "focus": "dish-title",
+      "heading": "Buddha bowl",
+      "path": "/dish/d9c358a9-315f-4a77-a380-9910ae3db226",
+      "scrollY": 0,
+      "test": "Keyboard opens dish at top"
+    },
+    {
+      "test": "Browser back restores menu position/category/focus",
+      "before": {
+        "category": "Healthy Bowls",
+        "scrollY": 1641
+      },
+      "after": {
+        "category": "Healthy Bowls",
+        "focus": "d9c358a9-315f-4a77-a380-9910ae3db226",
+        "scrollY": 1675
+      }
+    },
+    {
+      "description": "A bowl built around your appetite. Bring together the flavours you enjoy for an everyday lunch that feels just right for you.",
+      "heading": "Build your own bowl",
+      "ingredientsBlocks": 0,
+      "nutritionBlocks": 0,
+      "path": "/dish/c94532b5-f59b-4bec-bff7-e7ab3a1f5e7e",
+      "related": 6,
+      "test": "Missing nutrition/draft"
+    },
+    {
+      "test": "Exact menu restoration after settled category navigation",
+      "before": {
+        "active": "Healthy Bowls",
+        "scrollY": 1675
+      },
+      "after": {
+        "active": "Healthy Bowls",
+        "scrollY": 1675
+      }
+    },
+    {
+      "cards": 1,
+      "path": "/",
+      "query": "avocado toast",
+      "test": "Return preserves existing search"
+    },
+    {
+      "heading": "Basmati rice — side",
+      "ingredients": null,
+      "nutrition": "Nutrition per servingkcal195Protein4 gFat0 gCarbs42 g",
+      "test": "Direct URL, explicit zero is preserved"
+    },
+    {
+      "back": "Back to menu",
+      "heading": "Dish not found",
+      "test": "Unknown dish"
+    },
+    {
+      "addButton": "Add to cart$11.95",
+      "heading": "Avocado toast",
+      "path": "/dish/5953310a-d6c6-4d8c-b3fc-1e88283ff884",
+      "scrollY": 0,
+      "test": "Reload preserves detail route and resets local quantity"
+    },
+    {
+      "path": "/dish/5953310a-d6c6-4d8c-b3fc-1e88283ff884",
+      "summary": "1 item, $15.95",
+      "test": "Related product purchase stays on original PDP"
+    },
+    {
+      "path": "/dish/af61daf6-a49d-4eeb-bea1-5a7da211641e",
+      "summary": "1 item, $15.95",
+      "test": "Related product opens its PDP with same quantity"
+    },
+    {
+      "path": "/",
+      "products": 87,
+      "query": "",
+      "test": "Logo returns to menu"
+    },
+    {
+      "cursor": "pointer",
+      "href": "/dish/5953310a-d6c6-4d8c-b3fc-1e88283ff884",
+      "tag": "A",
+      "test": "Photo hit target is native dish link"
+    },
+    {
+      "path": "/dish/5953310a-d6c6-4d8c-b3fc-1e88283ff884",
+      "photosLoaded": true,
+      "scrollY": 0,
+      "test": "Final PDP visible"
+    }
+  ],
+  "geometry": {
+    "assets": [
+      {
+        "height": 36,
+        "loaded": true,
+        "src": "/assets/header-logo.svg",
+        "width": 36
+      },
+      {
+        "height": 16,
+        "loaded": true,
+        "src": "/assets/header-location.svg",
+        "width": 16
+      },
+      {
+        "height": 16,
+        "loaded": true,
+        "src": "/assets/header-search.svg",
+        "width": 16
+      },
+      {
+        "height": 16,
+        "loaded": true,
+        "src": "/assets/header-basket.svg",
+        "width": 16
+      },
+      {
+        "height": 16,
+        "loaded": true,
+        "src": "/assets/header-user.svg",
+        "width": 16
+      },
+      {
+        "height": 16,
+        "loaded": true,
+        "src": "/assets/pdp-arrow-left.svg",
+        "width": 16
+      },
+      {
+        "height": 564,
+        "loaded": true,
+        "src": "/assets/menu/5953310a-d6c6-4d8c-b3fc-1e88283ff884.jpg",
+        "width": 600
+      },
+      {
+        "height": 16,
+        "loaded": true,
+        "src": "/assets/header-basket.svg",
+        "width": 16
+      }
+    ],
+    "back": {
+      "height": 16,
+      "width": 106.015625,
+      "x": 152.5,
+      "y": 96
+    },
+    "header": {
+      "height": 76,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "hero": {
+      "height": 564,
+      "width": 1120,
+      "x": 152.5,
+      "y": 160
+    },
+    "info": {
+      "height": 468,
+      "width": 472,
+      "x": 800.5,
+      "y": 160
+    },
+    "nutrition": [
+      {
+        "background": "rgb(16, 16, 16)",
+        "height": 73,
+        "width": 112
+      },
+      {
+        "background": "rgb(16, 16, 16)",
+        "height": 73,
+        "width": 112
+      },
+      {
+        "background": "rgb(16, 16, 16)",
+        "height": 73,
+        "width": 112
+      },
+      {
+        "background": "rgb(16, 16, 16)",
+        "height": 73,
+        "width": 112
+      }
+    ],
+    "overflow": false,
+    "photo": {
+      "height": 564,
+      "width": 600,
+      "x": 152.5,
+      "y": 160
+    },
+    "related": {
+      "height": 1077,
+      "width": 1120,
+      "x": 152.5,
+      "y": 804
+    },
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  "console": [],
+  "notes": [
+    "The first keyboard test captured the menu before the focus scroll; the separate settled-navigation test restored exactly 1675px.",
+    "PDP uses real catalogue price and title qualifier; no new long marketing copy is invented.",
+    "Related assortment is six distinct local products, same category first, with no recommendation backend.",
+    "Header logo source differs only in generated mask/filter identifiers; remaining four header SVGs and purchase basket match SHA-256.",
+    "No full accessibility audit, no OS reduced-motion emulation, no publication."
+  ]
+}

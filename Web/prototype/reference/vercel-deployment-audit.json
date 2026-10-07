@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-06",
+  "timezone": "Europe/Moscow",
+  "url": "https://prana-01.vercel.app",
+  "project": "prana-01",
+  "team": "MSGD",
+  "projectId": "prj_KGSSrf2RyccAo8dFmXYzEZvXb3Os",
+  "deployment": {
+    "id": "dpl_3dugDydbgTYZkgbcsEoxRipvoJWo",
+    "name": "prana-01",
+    "url": "prana-01-bk82hreoy-msgd.vercel.app",
+    "type": "LAMBDAS",
+    "state": "READY",
+    "createdAt": 1791294109396,
+    "creator": {
+      "uid": "Seo2MIgI4yKcaKRN36Qv6vKM",
+      "username": "praytomysunrise-5336"
+    },
+    "project": {
+      "id": "prj_KGSSrf2RyccAo8dFmXYzEZvXb3Os",
+      "name": "prana-01",
+      "framework": "vite"
+    },
+    "meta": {},
+    "alias": [
+      "prana-01.vercel.app",
+      "prana-01-msgd.vercel.app"
+    ],
+    "target": "production",
+    "regions": [
+      "iad1"
+    ],
+    "buildingAt": 1791294111479,
+    "ready": 1791294132742,
+    "readyState": "READY",
+    "aliasError": null
+  },
+  "build": {
+    "local": "npm run build:vercel: passed",
+    "remote": "READY; Build Completed in /vercel/output [17s]",
+    "framework": "vite",
+    "node": "24.x",
+    "output": "dist/client",
+    "sourceFiles": 91,
+    "photosVerified": 87,
+    "photosRestoredOnVercel": 87,
+    "checksum": "sha256 and byte count",
+    "unitTests": "Not rerun in this deployment iteration; previous profile iteration passed 6 profile + 9 motion + 7 cart tests."
+  },
+  "unauthenticatedHttp": {
+    "cookiesSent": false,
+    "authorizationSent": false,
+    "paths": [
+      {
+        "path": "/",
+        "status": 200,
+        "redirect": false,
+        "contentType": "text/html; charset=utf-8",
+        "appScript": "/assets/index-BO3SJC6q.js"
+      },
+      {
+        "path": "/cart",
+        "status": 200,
+        "redirect": false,
+        "contentType": "text/html; charset=utf-8",
+        "appScript": "/assets/index-BO3SJC6q.js"
+      },
+      {
+        "path": "/checkout",
+        "status": 200,
+        "redirect": false,
+        "contentType": "text/html; charset=utf-8",
+        "appScript": "/assets/index-BO3SJC6q.js"
+      },
+      {
+        "path": "/profile",
+        "status": 200,
+        "redirect": false,
+        "contentType": "text/html; charset=utf-8",
+        "appScript": "/assets/index-BO3SJC6q.js"
+      },
+      {
+        "path": "/dish/af61daf6-a49d-4eeb-bea1-5a7da211641e",
+        "status": 200,
+        "redirect": false,
+        "contentType": "text/html; charset=utf-8",
+        "appScript": "/assets/index-BO3SJC6q.js"
+      }
+    ]
+  },
+  "browser": {
+    "environment": "Codex IAB",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "checks": [
+      "Home displays 87 product cards.",
+      "Acai add -> Cart: 1 item, $15.95.",
+      "Promo 1111 -> Applied: -10%, discount $1.60, total $14.35.",
+      "Proceed to checkout -> shared item/promo/total $14.35; Place order remains disabled.",
+      "Header Profile -> editable Account; Name Alex demo -> Save changes -> Saved / Personal details saved.",
+      "Date of birth lazy module loads; calendar June 1985 appears; Escape closes it.",
+      "Profile reload succeeds; name resets to Alex and cart resets to 0.",
+      "Direct Acai dish URL renders Acai bowl with nutrition and ingredients.",
+      "Home final image check: 116 images loaded, 0 complete/broken images.",
+      "Warning/error log empty in tested session."
+    ],
+    "screenshots": [
+      "vercel-home.png",
+      "vercel-profile-calendar.png"
+    ]
+  },
+  "limitations": [
+    "Desktop only; no mobile/cross-browser/performance/full accessibility audit.",
+    "Local in-memory cart/promo/profile demo, no real orders/payments/authentication/backend.",
+    "SF Pro uses local font faces; other visitors may use system/Arial fallback; font binaries not bundled.",
+    "Manual deployment, no Git auto-deploy configured. Future code/Figma edits are not auto-published.",
+    "Image restoration depends on existing versioned public source URLs; changed/missing bytes fail build instead of altering snapshot."
+  ],
+  "status": {
+    "implemented": true,
+    "verified": true,
+    "publicationAuthorized": true,
+    "published": true,
+    "visualApproval": "Existing per-feature approvals unchanged; deployment request does not imply new visual approval."
+  }
+}

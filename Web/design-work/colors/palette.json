@@ -1,0 +1,793 @@
+{
+  "source": "https://vercel.com/geist/colors",
+  "capturedAt": "2026-10-05T13:15:07.849Z",
+  "colorSpace": "sRGB",
+  "darkOverrides": {
+    "source": "https://www.figma.com/design/ANXj1DxD2mm9ZcxNNoNLdE/Prana-Web?node-id=41-7245",
+    "reviewedOn": "2026-10-05",
+    "method": "Card fill retained from Figma. Page and control fills are exact HSL values selected by the user in browser DevTools on 2026-10-05. All unlisted primitives retain their previous values.",
+    "pageBackground": {
+      "family": "background",
+      "step": "200",
+      "value": "hsl(0 0% 0%)",
+      "changed": false
+    },
+    "overrides": [
+      {
+        "family": "background",
+        "step": "100",
+        "value": "#101010",
+        "role": "Фон карточки / поверхности",
+        "nodeId": "54:5361",
+        "figmaToken": "prana-surface"
+      },
+      {
+        "family": "background",
+        "step": "200",
+        "value": "hsl(0 0% 0%)",
+        "role": "Общий фон страницы",
+        "origin": "Prana / user",
+        "source": "User selection in browser DevTools, 2026-10-05"
+      },
+      {
+        "family": "gray",
+        "step": "200",
+        "value": "hsl(0 0% 15%)",
+        "role": "Кнопки и теги внутри карточки",
+        "origin": "Prana / user",
+        "source": "User selection in browser DevTools, 2026-10-05"
+      }
+    ]
+  },
+  "brand": {
+    "hex": "#EA5C00",
+    "step": 700,
+    "oklch": [
+      0.650788,
+      0.192141,
+      43.175581
+    ]
+  },
+  "status": "Prana page and control surfaces use exact user-selected HSL values; card fill is retained from Figma. Unlisted Geist neutrals, light text levels, alpha values and the light theme are preserved. Amber remains an unassigned custom draft.",
+  "roles": {
+    "100": "Фон компонента",
+    "200": "Фон при наведении",
+    "300": "Активный фон",
+    "400": "Граница",
+    "500": "Граница при наведении",
+    "600": "Активная граница",
+    "700": "Акцентная заливка",
+    "800": "Акцент при наведении",
+    "900": "Вторичный текст / иконки",
+    "1000": "Основной текст / иконки"
+  },
+  "themes": {
+    "light": {
+      "background": {
+        "100": {
+          "value": "hsla(0, 0%, 100%, 1)",
+          "hex": "#FFFFFF",
+          "sourceToken": "--ds-background-100",
+          "origin": "Geist",
+          "role": "Основной фон"
+        },
+        "200": {
+          "value": "hsla(0, 0%, 98%, 1)",
+          "hex": "#FAFAFA",
+          "sourceToken": "--ds-background-200",
+          "origin": "Geist",
+          "role": "Второй фон"
+        }
+      },
+      "gray": {
+        "100": {
+          "value": "hsla(0, 0%, 95%, 1)",
+          "hex": "#F2F2F2",
+          "sourceToken": "--ds-gray-100",
+          "origin": "Geist",
+          "role": "Фон компонента"
+        },
+        "200": {
+          "value": "hsla(0, 0%, 92%, 1)",
+          "hex": "#EBEBEB",
+          "sourceToken": "--ds-gray-200",
+          "origin": "Geist",
+          "role": "Фон при наведении"
+        },
+        "300": {
+          "value": "hsla(0, 0%, 90%, 1)",
+          "hex": "#E6E6E6",
+          "sourceToken": "--ds-gray-300",
+          "origin": "Geist",
+          "role": "Активный фон"
+        },
+        "400": {
+          "value": "hsla(0, 0%, 92%, 1)",
+          "hex": "#EBEBEB",
+          "sourceToken": "--ds-gray-400",
+          "origin": "Geist",
+          "role": "Граница"
+        },
+        "500": {
+          "value": "hsla(0, 0%, 79%, 1)",
+          "hex": "#C9C9C9",
+          "sourceToken": "--ds-gray-500",
+          "origin": "Geist",
+          "role": "Граница при наведении"
+        },
+        "600": {
+          "value": "hsla(0, 0%, 66%, 1)",
+          "hex": "#A8A8A8",
+          "sourceToken": "--ds-gray-600",
+          "origin": "Geist",
+          "role": "Активная граница"
+        },
+        "700": {
+          "value": "hsla(0, 0%, 56%, 1)",
+          "hex": "#8F8F8F",
+          "sourceToken": "--ds-gray-700",
+          "origin": "Geist",
+          "role": "Акцентная заливка"
+        },
+        "800": {
+          "value": "hsla(0, 0%, 49%, 1)",
+          "hex": "#7D7D7D",
+          "sourceToken": "--ds-gray-800",
+          "origin": "Geist",
+          "role": "Акцент при наведении"
+        },
+        "900": {
+          "value": "hsla(0, 0%, 30%, 1)",
+          "hex": "#4D4D4D",
+          "sourceToken": "--ds-gray-900",
+          "origin": "Geist",
+          "role": "Вторичный текст / иконки"
+        },
+        "1000": {
+          "value": "hsla(0, 0%, 9%, 1)",
+          "hex": "#171717",
+          "sourceToken": "--ds-gray-1000",
+          "origin": "Geist",
+          "role": "Основной текст / иконки"
+        }
+      },
+      "grayAlpha": {
+        "100": {
+          "value": "#0000000d",
+          "hex": "#0000000D",
+          "sourceToken": "--ds-gray-alpha-100",
+          "origin": "Geist",
+          "role": "Фон компонента"
+        },
+        "200": {
+          "value": "#00000014",
+          "hex": "#00000014",
+          "sourceToken": "--ds-gray-alpha-200",
+          "origin": "Geist",
+          "role": "Фон при наведении"
+        },
+        "300": {
+          "value": "#0000001a",
+          "hex": "#0000001A",
+          "sourceToken": "--ds-gray-alpha-300",
+          "origin": "Geist",
+          "role": "Активный фон"
+        },
+        "400": {
+          "value": "#00000014",
+          "hex": "#00000014",
+          "sourceToken": "--ds-gray-alpha-400",
+          "origin": "Geist",
+          "role": "Граница"
+        },
+        "500": {
+          "value": "#00000036",
+          "hex": "#00000036",
+          "sourceToken": "--ds-gray-alpha-500",
+          "origin": "Geist",
+          "role": "Граница при наведении"
+        },
+        "600": {
+          "value": "#00000057",
+          "hex": "#00000057",
+          "sourceToken": "--ds-gray-alpha-600",
+          "origin": "Geist",
+          "role": "Активная граница"
+        },
+        "700": {
+          "value": "#00000070",
+          "hex": "#00000070",
+          "sourceToken": "--ds-gray-alpha-700",
+          "origin": "Geist",
+          "role": "Акцентная заливка"
+        },
+        "800": {
+          "value": "#00000082",
+          "hex": "#00000082",
+          "sourceToken": "--ds-gray-alpha-800",
+          "origin": "Geist",
+          "role": "Акцент при наведении"
+        },
+        "900": {
+          "value": "#000000b3",
+          "hex": "#000000B3",
+          "sourceToken": "--ds-gray-alpha-900",
+          "origin": "Geist",
+          "role": "Вторичный текст / иконки"
+        },
+        "1000": {
+          "value": "#000000e8",
+          "hex": "#000000E8",
+          "sourceToken": "--ds-gray-alpha-1000",
+          "origin": "Geist",
+          "role": "Основной текст / иконки"
+        }
+      },
+      "amber": {
+        "100": {
+          "value": "#FFEBE3",
+          "hex": "#FFEBE3",
+          "sourceToken": "--ds-amber-100",
+          "origin": "Prana custom",
+          "role": "Фон компонента",
+          "oklch": [
+            0.953876,
+            0.024387,
+            43.175962
+          ]
+        },
+        "200": {
+          "value": "#FFE5DA",
+          "hex": "#FFE5DA",
+          "sourceToken": "--ds-amber-200",
+          "origin": "Prana custom",
+          "role": "Фон при наведении",
+          "oklch": [
+            0.940079,
+            0.032292,
+            44.369797
+          ]
+        },
+        "300": {
+          "value": "#FFDCCD",
+          "hex": "#FFDCCD",
+          "sourceToken": "--ds-amber-300",
+          "origin": "Prana custom",
+          "role": "Активный фон",
+          "oklch": [
+            0.91972,
+            0.044044,
+            44.561407
+          ]
+        },
+        "400": {
+          "value": "#FFB191",
+          "hex": "#FFB191",
+          "sourceToken": "--ds-amber-400",
+          "origin": "Prana custom",
+          "role": "Граница",
+          "oklch": [
+            0.827392,
+            0.101671,
+            43.151023
+          ]
+        },
+        "500": {
+          "value": "#F88959",
+          "hex": "#F88959",
+          "sourceToken": "--ds-amber-500",
+          "origin": "Prana custom",
+          "role": "Граница при наведении",
+          "oklch": [
+            0.742258,
+            0.149193,
+            43.354106
+          ]
+        },
+        "600": {
+          "value": "#DC6328",
+          "hex": "#DC6328",
+          "sourceToken": "--ds-amber-600",
+          "origin": "Prana custom",
+          "role": "Активная граница",
+          "oklch": [
+            0.640586,
+            0.166862,
+            43.419523
+          ]
+        },
+        "700": {
+          "value": "#EA5C00",
+          "hex": "#EA5C00",
+          "sourceToken": "--ds-amber-700",
+          "origin": "Prana custom",
+          "role": "Акцентная заливка",
+          "oklch": [
+            0.650788,
+            0.192141,
+            43.175581
+          ]
+        },
+        "800": {
+          "value": "#D95500",
+          "hex": "#D95500",
+          "sourceToken": "--ds-amber-800",
+          "origin": "Prana custom",
+          "role": "Акцент при наведении",
+          "oklch": [
+            0.615196,
+            0.181318,
+            43.271036
+          ]
+        },
+        "900": {
+          "value": "#812F00",
+          "hex": "#812F00",
+          "sourceToken": "--ds-amber-900",
+          "origin": "Prana custom",
+          "role": "Вторичный текст / иконки",
+          "oklch": [
+            0.418797,
+            0.123796,
+            43.109488
+          ]
+        },
+        "1000": {
+          "value": "#3B1100",
+          "hex": "#3B1100",
+          "sourceToken": "--ds-amber-1000",
+          "origin": "Prana custom",
+          "role": "Основной текст / иконки",
+          "oklch": [
+            0.244382,
+            0.072436,
+            42.960553
+          ]
+        }
+      },
+      "geistAmber": {
+        "100": {
+          "value": "hsla(39, 100%, 95%, 1)",
+          "hex": "#FFF6E5",
+          "sourceToken": "--ds-amber-100",
+          "origin": "Geist",
+          "role": "Фон компонента"
+        },
+        "200": {
+          "value": "hsla(44, 100%, 92%, 1)",
+          "hex": "#FFF4D6",
+          "sourceToken": "--ds-amber-200",
+          "origin": "Geist",
+          "role": "Фон при наведении"
+        },
+        "300": {
+          "value": "hsla(43, 96%, 90%, 1)",
+          "hex": "#FEF0CD",
+          "sourceToken": "--ds-amber-300",
+          "origin": "Geist",
+          "role": "Активный фон"
+        },
+        "400": {
+          "value": "hsla(42, 100%, 78%, 1)",
+          "hex": "#FFDD8F",
+          "sourceToken": "--ds-amber-400",
+          "origin": "Geist",
+          "role": "Граница"
+        },
+        "500": {
+          "value": "hsla(38, 100%, 71%, 1)",
+          "hex": "#FFC96B",
+          "sourceToken": "--ds-amber-500",
+          "origin": "Geist",
+          "role": "Граница при наведении"
+        },
+        "600": {
+          "value": "hsla(36, 90%, 62%, 1)",
+          "hex": "#F5B047",
+          "sourceToken": "--ds-amber-600",
+          "origin": "Geist",
+          "role": "Активная граница"
+        },
+        "700": {
+          "value": "hsla(39, 100%, 57%, 1)",
+          "hex": "#FFB224",
+          "sourceToken": "--ds-amber-700",
+          "origin": "Geist",
+          "role": "Акцентная заливка"
+        },
+        "800": {
+          "value": "hsla(35, 100%, 52%, 1)",
+          "hex": "#FF990A",
+          "sourceToken": "--ds-amber-800",
+          "origin": "Geist",
+          "role": "Акцент при наведении"
+        },
+        "900": {
+          "value": "hsla(30, 100%, 32%, 1)",
+          "hex": "#A35200",
+          "sourceToken": "--ds-amber-900",
+          "origin": "Geist",
+          "role": "Вторичный текст / иконки"
+        },
+        "1000": {
+          "value": "hsla(20, 79%, 17%, 1)",
+          "hex": "#4E2009",
+          "sourceToken": "--ds-amber-1000",
+          "origin": "Geist",
+          "role": "Основной текст / иконки"
+        }
+      }
+    },
+    "dark": {
+      "background": {
+        "100": {
+          "value": "#101010",
+          "hex": "#101010",
+          "sourceToken": "--ds-background-100",
+          "origin": "Prana / Figma",
+          "role": "Фон карточки / поверхности",
+          "originalValue": "hsla(0, 0%, 4%, 1)",
+          "originalHex": "#0A0A0A",
+          "designSource": "https://www.figma.com/design/ANXj1DxD2mm9ZcxNNoNLdE/Prana-Web?node-id=41-7245",
+          "designNodeId": "54:5361"
+        },
+        "200": {
+          "value": "hsl(0 0% 0%)",
+          "hex": "#000000",
+          "sourceToken": "--ds-background-200",
+          "origin": "Prana / user",
+          "role": "Общий фон страницы",
+          "originalValue": "hsla(0, 0%, 0%, 1)",
+          "originalHex": "#000000",
+          "designSource": "User selection in browser DevTools, 2026-10-05"
+        }
+      },
+      "gray": {
+        "100": {
+          "value": "hsla(0, 0%, 10%, 1)",
+          "hex": "#1A1A1A",
+          "sourceToken": "--ds-gray-100",
+          "origin": "Geist",
+          "role": "Фон компонента"
+        },
+        "200": {
+          "value": "hsl(0 0% 15%)",
+          "hex": "#262626",
+          "sourceToken": "--ds-gray-200",
+          "origin": "Prana / user",
+          "role": "Кнопки и теги внутри карточки",
+          "originalValue": "hsla(0, 0%, 12%, 1)",
+          "originalHex": "#1F1F1F",
+          "designSource": "User selection in browser DevTools, 2026-10-05"
+        },
+        "300": {
+          "value": "hsla(0, 0%, 16%, 1)",
+          "hex": "#292929",
+          "sourceToken": "--ds-gray-300",
+          "origin": "Geist",
+          "role": "Активный фон"
+        },
+        "400": {
+          "value": "hsla(0, 0%, 18%, 1)",
+          "hex": "#2E2E2E",
+          "sourceToken": "--ds-gray-400",
+          "origin": "Geist",
+          "role": "Граница"
+        },
+        "500": {
+          "value": "hsla(0, 0%, 27%, 1)",
+          "hex": "#454545",
+          "sourceToken": "--ds-gray-500",
+          "origin": "Geist",
+          "role": "Граница при наведении"
+        },
+        "600": {
+          "value": "hsla(0, 0%, 53%, 1)",
+          "hex": "#878787",
+          "sourceToken": "--ds-gray-600",
+          "origin": "Geist",
+          "role": "Активная граница"
+        },
+        "700": {
+          "value": "hsla(0, 0%, 56%, 1)",
+          "hex": "#8F8F8F",
+          "sourceToken": "--ds-gray-700",
+          "origin": "Geist",
+          "role": "Акцентная заливка"
+        },
+        "800": {
+          "value": "hsla(0, 0%, 49%, 1)",
+          "hex": "#7D7D7D",
+          "sourceToken": "--ds-gray-800",
+          "origin": "Geist",
+          "role": "Акцент при наведении"
+        },
+        "900": {
+          "value": "hsla(0, 0%, 63%, 1)",
+          "hex": "#A1A1A1",
+          "sourceToken": "--ds-gray-900",
+          "origin": "Geist",
+          "role": "Вторичный текст / иконки"
+        },
+        "1000": {
+          "value": "hsla(0, 0%, 93%, 1)",
+          "hex": "#EDEDED",
+          "sourceToken": "--ds-gray-1000",
+          "origin": "Geist",
+          "role": "Основной текст / иконки"
+        }
+      },
+      "grayAlpha": {
+        "100": {
+          "value": "#ffffff0f",
+          "hex": "#FFFFFF0F",
+          "sourceToken": "--ds-gray-alpha-100",
+          "origin": "Geist",
+          "role": "Фон компонента"
+        },
+        "200": {
+          "value": "#ffffff17",
+          "hex": "#FFFFFF17",
+          "sourceToken": "--ds-gray-alpha-200",
+          "origin": "Geist",
+          "role": "Фон при наведении"
+        },
+        "300": {
+          "value": "#ffffff21",
+          "hex": "#FFFFFF21",
+          "sourceToken": "--ds-gray-alpha-300",
+          "origin": "Geist",
+          "role": "Активный фон"
+        },
+        "400": {
+          "value": "#ffffff24",
+          "hex": "#FFFFFF24",
+          "sourceToken": "--ds-gray-alpha-400",
+          "origin": "Geist",
+          "role": "Граница"
+        },
+        "500": {
+          "value": "#ffffff3d",
+          "hex": "#FFFFFF3D",
+          "sourceToken": "--ds-gray-alpha-500",
+          "origin": "Geist",
+          "role": "Граница при наведении"
+        },
+        "600": {
+          "value": "#ffffff82",
+          "hex": "#FFFFFF82",
+          "sourceToken": "--ds-gray-alpha-600",
+          "origin": "Geist",
+          "role": "Активная граница"
+        },
+        "700": {
+          "value": "#ffffff8a",
+          "hex": "#FFFFFF8A",
+          "sourceToken": "--ds-gray-alpha-700",
+          "origin": "Geist",
+          "role": "Акцентная заливка"
+        },
+        "800": {
+          "value": "#ffffff78",
+          "hex": "#FFFFFF78",
+          "sourceToken": "--ds-gray-alpha-800",
+          "origin": "Geist",
+          "role": "Акцент при наведении"
+        },
+        "900": {
+          "value": "#ffffff9c",
+          "hex": "#FFFFFF9C",
+          "sourceToken": "--ds-gray-alpha-900",
+          "origin": "Geist",
+          "role": "Вторичный текст / иконки"
+        },
+        "1000": {
+          "value": "#ffffffeb",
+          "hex": "#FFFFFFEB",
+          "sourceToken": "--ds-gray-alpha-1000",
+          "origin": "Geist",
+          "role": "Основной текст / иконки"
+        }
+      },
+      "amber": {
+        "100": {
+          "value": "#240700",
+          "hex": "#240700",
+          "sourceToken": "--ds-amber-100",
+          "origin": "Prana custom",
+          "role": "Фон компонента",
+          "oklch": [
+            0.179632,
+            0.054113,
+            42.090875
+          ]
+        },
+        "200": {
+          "value": "#2A0A00",
+          "hex": "#2A0A00",
+          "sourceToken": "--ds-amber-200",
+          "origin": "Prana custom",
+          "role": "Фон при наведении",
+          "oklch": [
+            0.198081,
+            0.05836,
+            43.290684
+          ]
+        },
+        "300": {
+          "value": "#401300",
+          "hex": "#401300",
+          "sourceToken": "--ds-amber-300",
+          "origin": "Prana custom",
+          "role": "Активный фон",
+          "oklch": [
+            0.257481,
+            0.076501,
+            42.830973
+          ]
+        },
+        "400": {
+          "value": "#4A1800",
+          "hex": "#4A1800",
+          "sourceToken": "--ds-amber-400",
+          "origin": "Prana custom",
+          "role": "Граница",
+          "oklch": [
+            0.28476,
+            0.083507,
+            43.549578
+          ]
+        },
+        "500": {
+          "value": "#5C1F00",
+          "hex": "#5C1F00",
+          "sourceToken": "--ds-amber-500",
+          "origin": "Prana custom",
+          "role": "Граница при наведении",
+          "oklch": [
+            0.32929,
+            0.097631,
+            42.945014
+          ]
+        },
+        "600": {
+          "value": "#D15100",
+          "hex": "#D15100",
+          "sourceToken": "--ds-amber-600",
+          "origin": "Prana custom",
+          "role": "Активная граница",
+          "oklch": [
+            0.597352,
+            0.176735,
+            43.060227
+          ]
+        },
+        "700": {
+          "value": "#EA5C00",
+          "hex": "#EA5C00",
+          "sourceToken": "--ds-amber-700",
+          "origin": "Prana custom",
+          "role": "Акцентная заливка",
+          "oklch": [
+            0.650788,
+            0.192141,
+            43.175581
+          ]
+        },
+        "800": {
+          "value": "#D95500",
+          "hex": "#D95500",
+          "sourceToken": "--ds-amber-800",
+          "origin": "Prana custom",
+          "role": "Акцент при наведении",
+          "oklch": [
+            0.615196,
+            0.181318,
+            43.271036
+          ]
+        },
+        "900": {
+          "value": "#E45F17",
+          "hex": "#E45F17",
+          "sourceToken": "--ds-amber-900",
+          "origin": "Prana custom",
+          "role": "Вторичный текст / иконки",
+          "oklch": [
+            0.646108,
+            0.181556,
+            43.300244
+          ],
+          "contrastAdjustment": {
+            "from": "#D95500",
+            "to": "#E45F17",
+            "reason": "Minimum 4.5:1 against both page backgrounds and Amber 100–300."
+          }
+        },
+        "1000": {
+          "value": "#FFE3D8",
+          "hex": "#FFE3D8",
+          "sourceToken": "--ds-amber-1000",
+          "origin": "Prana custom",
+          "role": "Основной текст / иконки",
+          "oklch": [
+            0.93576,
+            0.034361,
+            42.703901
+          ]
+        }
+      },
+      "geistAmber": {
+        "100": {
+          "value": "hsla(35, 100%, 8%, 1)",
+          "hex": "#291800",
+          "sourceToken": "--ds-amber-100",
+          "origin": "Geist",
+          "role": "Фон компонента"
+        },
+        "200": {
+          "value": "hsla(32, 100%, 10%, 1)",
+          "hex": "#331B00",
+          "sourceToken": "--ds-amber-200",
+          "origin": "Geist",
+          "role": "Фон при наведении"
+        },
+        "300": {
+          "value": "hsla(33, 100%, 15%, 1)",
+          "hex": "#4D2A00",
+          "sourceToken": "--ds-amber-300",
+          "origin": "Geist",
+          "role": "Активный фон"
+        },
+        "400": {
+          "value": "hsla(35, 100%, 17%, 1)",
+          "hex": "#573300",
+          "sourceToken": "--ds-amber-400",
+          "origin": "Geist",
+          "role": "Граница"
+        },
+        "500": {
+          "value": "hsla(35, 91%, 22%, 1)",
+          "hex": "#6B4105",
+          "sourceToken": "--ds-amber-500",
+          "origin": "Geist",
+          "role": "Граница при наведении"
+        },
+        "600": {
+          "value": "hsla(39, 85%, 49%, 1)",
+          "hex": "#E79D13",
+          "sourceToken": "--ds-amber-600",
+          "origin": "Geist",
+          "role": "Активная граница"
+        },
+        "700": {
+          "value": "hsla(39, 100%, 57%, 1)",
+          "hex": "#FFB224",
+          "sourceToken": "--ds-amber-700",
+          "origin": "Geist",
+          "role": "Акцентная заливка"
+        },
+        "800": {
+          "value": "hsla(35, 100%, 52%, 1)",
+          "hex": "#FF990A",
+          "sourceToken": "--ds-amber-800",
+          "origin": "Geist",
+          "role": "Акцент при наведении"
+        },
+        "900": {
+          "value": "hsla(39, 90%, 50%, 1)",
+          "hex": "#F2A20D",
+          "sourceToken": "--ds-amber-900",
+          "origin": "Geist",
+          "role": "Вторичный текст / иконки"
+        },
+        "1000": {
+          "value": "hsla(40, 94%, 93%, 1)",
+          "hex": "#FEF3DC",
+          "sourceToken": "--ds-amber-1000",
+          "origin": "Geist",
+          "role": "Основной текст / иконки"
+        }
+      }
+    }
+  }
+}

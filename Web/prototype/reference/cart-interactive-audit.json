@@ -1,0 +1,314 @@
+{
+  "date": "2026-10-06",
+  "timezone": "Europe/Moscow",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "checks": {
+    "headerHover": {
+      "background": "color(srgb 0.925882 0.424706 0.1)",
+      "badge": {
+        "bottom": 46,
+        "height": 16,
+        "left": 1178.375,
+        "right": 1194.375,
+        "top": 30,
+        "width": 16,
+        "x": 1178.375,
+        "y": 30
+      },
+      "hover": true,
+      "icon": "/assets/header-basket-filled.svg",
+      "transition": "opacity 0.24s cubic-bezier(0.2, 0, 0.38, 0.9), background-color 0.15s cubic-bezier(0, 0, 0.38, 0.9), color 0.15s cubic-bezier(0, 0, 0.38, 0.9), width 0.24s cubic-bezier(0, 0, 0.38, 0.9)",
+      "width": 111
+    },
+    "rapidIncrease": {
+      "badge": {
+        "bottom": 46,
+        "height": 16,
+        "left": 1171.296875,
+        "right": 1194.453125,
+        "top": 30,
+        "width": 23.15625,
+        "x": 1171.296875,
+        "y": 30
+      },
+      "cartLink": "Cart, 10 items",
+      "headerBackground": "rgb(234, 92, 0)",
+      "quantity": "10",
+      "total": "$119.50"
+    },
+    "promoDebounce": {
+      "feedback": "",
+      "status": "debouncing",
+      "total": "$23.90"
+    },
+    "promoLoading": {
+      "busy": "true",
+      "loader": {
+        "bottom": 336,
+        "height": 24,
+        "left": 1208.5,
+        "right": 1232.5,
+        "top": 312,
+        "width": 24,
+        "x": 1208.5,
+        "y": 312
+      },
+      "status": "validating"
+    },
+    "promoApplied": {
+      "discount": "−$2.39",
+      "feedback": "Applied: -10%",
+      "fieldRect": {
+        "bottom": 348,
+        "height": 48,
+        "left": 944.5,
+        "right": 1248.5,
+        "top": 300,
+        "width": 304,
+        "x": 944.5,
+        "y": 300
+      },
+      "inputRect": {
+        "bottom": 332,
+        "height": 16,
+        "left": 988.5,
+        "right": 1142.578125,
+        "top": 316,
+        "width": 154.078125,
+        "x": 988.5,
+        "y": 316
+      },
+      "status": "applied",
+      "subtotal": "$23.90",
+      "total": "$21.51",
+      "value": "1111"
+    },
+    "promoEditReset": {
+      "message": "",
+      "status": "debouncing",
+      "total": "$23.90"
+    },
+    "promoInvalid": {
+      "feedback": "Promo code not found",
+      "feedbackWidth": 128.171875,
+      "inputWidth": 107.828125,
+      "invalid": "true",
+      "status": "invalid",
+      "total": "$23.90"
+    },
+    "promoRace": {
+      "status": "invalid",
+      "total": "$23.90",
+      "value": "bad"
+    },
+    "promoCleared": {
+      "message": "",
+      "status": "idle",
+      "total": "$23.90"
+    },
+    "pdpFromCart": {
+      "path": "/dish/5953310a-d6c6-4d8c-b3fc-1e88283ff884",
+      "quantity": "2 items, $23.90"
+    },
+    "cartFromPdp": {
+      "discount": "−$3.59",
+      "promoStatus": "applied",
+      "promoValue": "1111",
+      "quantity": "3",
+      "rows": 1,
+      "total": "$32.26"
+    },
+    "removalInFlight": {
+      "count": "Cart, 4 items",
+      "focus": "Decrease quantity of Avocado toast",
+      "outgoing": "true"
+    },
+    "rowRemoval": {
+      "focus": "Decrease quantity of Avocado toast",
+      "rows": [
+        "Avocado toast",
+        "Chia pudding"
+      ],
+      "total": "$43.92"
+    },
+    "clearCancel": {
+      "count": "Cart, 4 items",
+      "focus": "Clear cart",
+      "promo": "applied"
+    },
+    "clearConfirmed": {
+      "filled": "false",
+      "focus": "It's empty for now",
+      "header": "Cart",
+      "rows": 0
+    },
+    "menuAfterClear": {
+      "addButtons": 87,
+      "header": "Cart",
+      "quantityControls": 0
+    },
+    "promoAfterClear": {
+      "status": "idle",
+      "value": ""
+    },
+    "lastItemRemoval": {
+      "empty": true,
+      "focus": "It's empty for now",
+      "header": "Cart"
+    },
+    "promoAfterLastRemoval": {
+      "status": "idle",
+      "value": ""
+    },
+    "reload": {
+      "cartLabel": "Cart",
+      "empty": true,
+      "path": "/cart"
+    },
+    "headerFinalHover": {
+      "background": "color(srgb 0.925882 0.424706 0.1)",
+      "height": 36,
+      "hover": true,
+      "transition": "opacity 0.24s cubic-bezier(0.2, 0, 0.38, 0.9), background-color 0.15s cubic-bezier(0, 0, 0.38, 0.9), color 0.15s cubic-bezier(0, 0, 0.38, 0.9), width 0.24s cubic-bezier(0, 0, 0.38, 0.9)",
+      "width": 107
+    },
+    "final": {
+      "discount": "−$8.17",
+      "headerBackground": "color(srgb 0.925882 0.424706 0.1)",
+      "headerLabel": "Cart, 6 items",
+      "headerWidth": 107,
+      "horizontalOverflow": false,
+      "images": [
+        {
+          "height": 36,
+          "loaded": true,
+          "src": "/assets/header-logo.svg",
+          "width": 36
+        },
+        {
+          "height": 16,
+          "loaded": true,
+          "src": "/assets/header-location.svg",
+          "width": 16
+        },
+        {
+          "height": 16,
+          "loaded": true,
+          "src": "/assets/header-search.svg",
+          "width": 16
+        },
+        {
+          "height": 16,
+          "loaded": true,
+          "src": "/assets/header-basket-filled.svg",
+          "width": 16
+        },
+        {
+          "height": 16,
+          "loaded": true,
+          "src": "/assets/header-user.svg",
+          "width": 16
+        },
+        {
+          "height": 16,
+          "loaded": true,
+          "src": "/assets/cart-trash.svg",
+          "width": 16
+        },
+        {
+          "height": 104,
+          "loaded": true,
+          "src": "/assets/menu/af61daf6-a49d-4eeb-bea1-5a7da211641e.jpg",
+          "width": 104
+        },
+        {
+          "height": 16,
+          "loaded": true,
+          "src": "/assets/minus.svg",
+          "width": 16
+        },
+        {
+          "height": 16,
+          "loaded": true,
+          "src": "/assets/plus.svg",
+          "width": 16
+        },
+        {
+          "height": 104,
+          "loaded": true,
+          "src": "/assets/menu/5953310a-d6c6-4d8c-b3fc-1e88283ff884.jpg",
+          "width": 104
+        },
+        {
+          "height": 16,
+          "loaded": true,
+          "src": "/assets/minus.svg",
+          "width": 16
+        },
+        {
+          "height": 16,
+          "loaded": true,
+          "src": "/assets/plus.svg",
+          "width": 16
+        },
+        {
+          "height": 104,
+          "loaded": true,
+          "src": "/assets/menu/884bb3d4-573a-44dd-b370-25277a9b8580.jpg",
+          "width": 104
+        },
+        {
+          "height": 16,
+          "loaded": true,
+          "src": "/assets/minus.svg",
+          "width": 16
+        },
+        {
+          "height": 16,
+          "loaded": true,
+          "src": "/assets/plus.svg",
+          "width": 16
+        },
+        {
+          "height": 16,
+          "loaded": true,
+          "src": "/assets/cart-promo.svg",
+          "width": 16
+        }
+      ],
+      "rows": 3,
+      "subtotal": "$81.70",
+      "summaryRect": {
+        "bottom": 648,
+        "height": 426,
+        "left": 920.5,
+        "right": 1272.5,
+        "top": 222,
+        "width": 352,
+        "x": 920.5,
+        "y": 222
+      },
+      "total": "$73.53"
+    },
+    "logs": []
+  },
+  "tests": {
+    "cart": 7,
+    "motion": 9,
+    "build": "passed"
+  },
+  "sources": {
+    "cart": "74:5999",
+    "cartButton": "140:736",
+    "promo": "65:10268",
+    "file": "ANXj1DxD2mm9ZcxNNoNLdE"
+  },
+  "limitations": [
+    "Local state only, reload clears cart and promo.",
+    "Edit and checkout still disabled; delivery Free remains a visual placeholder.",
+    "OS reduced motion was not emulated; branches inspected. Desktop IAB only, no full accessibility or cross-browser audit."
+  ]
+}

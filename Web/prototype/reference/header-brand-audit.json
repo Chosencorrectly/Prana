@@ -1,0 +1,256 @@
+{
+  "date": "2026-10-05",
+  "source": {
+    "file": "ANXj1DxD2mm9ZcxNNoNLdE",
+    "frame": "41:7245",
+    "header": "123:6083",
+    "logo": "124:6326",
+    "location": "124:6465",
+    "basket": "124:6400",
+    "user": "124:6395",
+    "search": "97:17336"
+  },
+  "home": {
+    "address": {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "filter": "none",
+      "font": "\"Prana Display\", -apple-system, BlinkMacSystemFont, Arial, sans-serif",
+      "height": 16,
+      "lineHeight": "16px",
+      "weight": "600",
+      "width": 152,
+      "x": 263.5,
+      "y": 38
+    },
+    "assets": [
+      {
+        "complete": true,
+        "height": 36,
+        "naturalHeight": 36,
+        "naturalWidth": 36,
+        "src": "/assets/header-logo.svg",
+        "width": 36,
+        "x": 153.5,
+        "y": 20
+      },
+      {
+        "complete": true,
+        "height": 16,
+        "naturalHeight": 16,
+        "naturalWidth": 16,
+        "src": "/assets/header-location.svg",
+        "width": 16,
+        "x": 227.5,
+        "y": 30
+      },
+      {
+        "complete": true,
+        "height": 13.578125,
+        "naturalHeight": 14,
+        "naturalWidth": 14,
+        "src": "/assets/header-search.svg",
+        "width": 13.578125,
+        "x": 887.703125,
+        "y": 31.203125
+      },
+      {
+        "complete": true,
+        "height": 16,
+        "naturalHeight": 16,
+        "naturalWidth": 16,
+        "src": "/assets/header-basket.svg",
+        "width": 16,
+        "x": 1147.609375,
+        "y": 30
+      },
+      {
+        "complete": true,
+        "height": 16,
+        "naturalHeight": 16,
+        "naturalWidth": 16,
+        "src": "/assets/header-user.svg",
+        "width": 16,
+        "x": 1246.5,
+        "y": 30
+      }
+    ],
+    "cards": 87,
+    "cart": {
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "filter": "none",
+      "font": "\"Prana Display\", -apple-system, BlinkMacSystemFont, Arial, sans-serif",
+      "height": 36,
+      "lineHeight": "17px",
+      "weight": "600",
+      "width": 91,
+      "x": 1125.5,
+      "y": 20
+    },
+    "cartText": {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "filter": "none",
+      "font": "\"Prana Display\", -apple-system, BlinkMacSystemFont, Arial, sans-serif",
+      "height": 17,
+      "lineHeight": "17px",
+      "weight": "600",
+      "width": 26.765625,
+      "x": 1167.609375,
+      "y": 29.5
+    },
+    "header": {
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(237, 237, 237)",
+      "filter": "none",
+      "font": "\"Prana Display\", -apple-system, BlinkMacSystemFont, Arial, sans-serif",
+      "height": 76,
+      "lineHeight": "normal",
+      "weight": "500",
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "headingTop": 176,
+    "identity": {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(237, 237, 237)",
+      "filter": "none",
+      "font": "\"Prana Display\", -apple-system, BlinkMacSystemFont, Arial, sans-serif",
+      "height": 36,
+      "lineHeight": "normal",
+      "weight": "500",
+      "width": 262,
+      "x": 153.5,
+      "y": 20
+    },
+    "input": {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "filter": "none",
+      "font": "\"Prana Display\", -apple-system, BlinkMacSystemFont, Arial, sans-serif",
+      "height": 16,
+      "lineHeight": "16px",
+      "weight": "500",
+      "width": 183,
+      "x": 910.5,
+      "y": 30
+    },
+    "label": {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(105, 105, 105)",
+      "filter": "none",
+      "font": "\"Prana Display\", -apple-system, BlinkMacSystemFont, Arial, sans-serif",
+      "height": 14,
+      "lineHeight": "14px",
+      "weight": "500",
+      "width": 152,
+      "x": 263.5,
+      "y": 22
+    },
+    "location": {
+      "background": "rgb(25, 25, 27)",
+      "color": "rgb(237, 237, 237)",
+      "filter": "none",
+      "font": "\"Prana Display\", -apple-system, BlinkMacSystemFont, Arial, sans-serif",
+      "height": 36,
+      "lineHeight": "normal",
+      "weight": "500",
+      "width": 36,
+      "x": 217.5,
+      "y": 20
+    },
+    "logo": {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(158, 158, 255)",
+      "filter": "none",
+      "font": "\"Prana Display\", -apple-system, BlinkMacSystemFont, Arial, sans-serif",
+      "height": 36,
+      "lineHeight": "normal",
+      "weight": "500",
+      "width": 36,
+      "x": 153.5,
+      "y": 20
+    },
+    "navTop": 96,
+    "overflow": 0,
+    "placeholder": "rgb(163, 163, 163)",
+    "profile": {
+      "background": "rgb(38, 38, 38)",
+      "color": "rgb(237, 237, 237)",
+      "filter": "none",
+      "font": "\"Prana Display\", -apple-system, BlinkMacSystemFont, Arial, sans-serif",
+      "height": 36,
+      "lineHeight": "normal",
+      "weight": "500",
+      "width": 36,
+      "x": 1236.5,
+      "y": 20
+    },
+    "search": {
+      "background": "rgb(38, 38, 38)",
+      "color": "rgb(237, 237, 237)",
+      "filter": "none",
+      "font": "\"Prana Display\", -apple-system, BlinkMacSystemFont, Arial, sans-serif",
+      "height": 36,
+      "lineHeight": "normal",
+      "weight": "500",
+      "width": 231,
+      "x": 874.5,
+      "y": 20
+    }
+  },
+  "sticky": {
+    "headerBottom": 76,
+    "headerTop": 0,
+    "navTop": 96,
+    "sectionTop": 176,
+    "selected": "Sauces"
+  },
+  "search": {
+    "count": 1,
+    "title": "Avocado toast (gluten-free sourdough, poached egg) (GF, LF)"
+  },
+  "homeReturn": {
+    "buttons": [
+      "Remove Acai bowl (granola, banana, berries) (vegan) from cart",
+      "Increase quantity of Acai bowl (granola, banana, berries) (vegan)"
+    ],
+    "count": 87,
+    "headingTop": 176,
+    "quantity": "1 item$15.95",
+    "query": "",
+    "scrollY": 0
+  },
+  "assets": [
+    {
+      "file": "public/assets/header-logo.svg",
+      "bytes": 2949
+    },
+    {
+      "file": "public/assets/header-location.svg",
+      "bytes": 688
+    },
+    {
+      "file": "public/assets/header-basket.svg",
+      "bytes": 2086
+    },
+    {
+      "file": "public/assets/header-user.svg",
+      "bytes": 1134
+    },
+    {
+      "file": "public/assets/header-search.svg",
+      "bytes": 530
+    }
+  ],
+  "checks": {
+    "assets": "all five non-empty files loaded at native dimensions",
+    "productionBuild": "passed",
+    "searchAndHomeReturn": "passed; quantity preserved then test quantity removed",
+    "published": false,
+    "visualAcceptance": "pending"
+  },
+  "intentionalAdaptation": "152px delivery text container accounts for Figma text overflow beyond its 141px box; no visible truncation. Native browser scrollbar causes 7.5px horizontal centering difference."
+}

@@ -1,0 +1,812 @@
+{
+  "viewport": [
+    1440,
+    1000
+  ],
+  "rule": "Each fade width = min(hidden content at that edge, 127px); updated on scroll events.",
+  "start": {
+    "active": "Breakfasts All Day",
+    "fadeLeft": "0px",
+    "fadeRight": "127px",
+    "links": [
+      {
+        "name": "Breakfasts All Day",
+        "width": 132.890625,
+        "x": 152.5,
+        "y": 79
+      },
+      {
+        "name": "Healthy Bowls",
+        "width": 110.25,
+        "x": 285.390625,
+        "y": 79
+      },
+      {
+        "name": "Broths & Soups",
+        "width": 117.234375,
+        "x": 395.640625,
+        "y": 79
+      },
+      {
+        "name": "Fresh & Light",
+        "width": 103.578125,
+        "x": 512.875,
+        "y": 79
+      },
+      {
+        "name": "Main dishes",
+        "width": 96.09375,
+        "x": 616.453125,
+        "y": 79
+      },
+      {
+        "name": "Wraps",
+        "width": 63.28125,
+        "x": 712.546875,
+        "y": 79
+      },
+      {
+        "name": "Balanced Curries",
+        "width": 127,
+        "x": 775.828125,
+        "y": 79
+      },
+      {
+        "name": "Extra Protein",
+        "width": 100.328125,
+        "x": 902.828125,
+        "y": 79
+      },
+      {
+        "name": "Extra Carbs / Veggies",
+        "width": 152.25,
+        "x": 1003.15625,
+        "y": 79
+      },
+      {
+        "name": "Sauces",
+        "width": 68.765625,
+        "x": 1155.40625,
+        "y": 79
+      },
+      {
+        "name": "Refresh & Rehydrate",
+        "width": 147.78125,
+        "x": 1224.171875,
+        "y": 79
+      },
+      {
+        "name": "Hot Liquids",
+        "width": 92.734375,
+        "x": 1371.953125,
+        "y": 79
+      },
+      {
+        "name": "Cold Liquids",
+        "width": 99.046875,
+        "x": 1464.6875,
+        "y": 79
+      },
+      {
+        "name": "Energizers",
+        "width": 87.375,
+        "x": 1563.734375,
+        "y": 79
+      }
+    ],
+    "maximum": 379,
+    "navTop": 79,
+    "pageY": 0,
+    "scroll": 0,
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  "rightHover": {
+    "active": "Breakfasts All Day",
+    "fadeLeft": "12px",
+    "fadeRight": "127px",
+    "links": [
+      {
+        "name": "Breakfasts All Day",
+        "width": 132.890625,
+        "x": 140.5,
+        "y": 79
+      },
+      {
+        "name": "Healthy Bowls",
+        "width": 110.25,
+        "x": 273.390625,
+        "y": 79
+      },
+      {
+        "name": "Broths & Soups",
+        "width": 117.234375,
+        "x": 383.640625,
+        "y": 79
+      },
+      {
+        "name": "Fresh & Light",
+        "width": 103.578125,
+        "x": 500.875,
+        "y": 79
+      },
+      {
+        "name": "Main dishes",
+        "width": 96.09375,
+        "x": 604.453125,
+        "y": 79
+      },
+      {
+        "name": "Wraps",
+        "width": 63.28125,
+        "x": 700.546875,
+        "y": 79
+      },
+      {
+        "name": "Balanced Curries",
+        "width": 127,
+        "x": 763.828125,
+        "y": 79
+      },
+      {
+        "name": "Extra Protein",
+        "width": 100.328125,
+        "x": 890.828125,
+        "y": 79
+      },
+      {
+        "name": "Extra Carbs / Veggies",
+        "width": 152.25,
+        "x": 991.15625,
+        "y": 79
+      },
+      {
+        "name": "Sauces",
+        "width": 68.765625,
+        "x": 1143.40625,
+        "y": 79
+      },
+      {
+        "name": "Refresh & Rehydrate",
+        "width": 147.78125,
+        "x": 1212.171875,
+        "y": 79
+      },
+      {
+        "name": "Hot Liquids",
+        "width": 92.734375,
+        "x": 1359.953125,
+        "y": 79
+      },
+      {
+        "name": "Cold Liquids",
+        "width": 99.046875,
+        "x": 1452.6875,
+        "y": 79
+      },
+      {
+        "name": "Energizers",
+        "width": 87.375,
+        "x": 1551.734375,
+        "y": 79
+      }
+    ],
+    "maximum": 379,
+    "navTop": 79,
+    "pageY": 0,
+    "scroll": 12,
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  "hoverSamples": [
+    {
+      "scroll": 4,
+      "left": "4px",
+      "right": "127px"
+    },
+    {
+      "scroll": 8,
+      "left": "8px",
+      "right": "127px"
+    },
+    {
+      "scroll": 10,
+      "left": "10px",
+      "right": "127px"
+    },
+    {
+      "scroll": 12,
+      "left": "12px",
+      "right": "127px"
+    },
+    {
+      "scroll": 12,
+      "left": "12px",
+      "right": "127px"
+    },
+    {
+      "scroll": 12,
+      "left": "12px",
+      "right": "127px"
+    },
+    {
+      "scroll": 12,
+      "left": "12px",
+      "right": "127px"
+    },
+    {
+      "scroll": 12,
+      "left": "12px",
+      "right": "127px"
+    },
+    {
+      "scroll": 12,
+      "left": "12px",
+      "right": "127px"
+    },
+    {
+      "scroll": 12,
+      "left": "12px",
+      "right": "127px"
+    },
+    {
+      "scroll": 12,
+      "left": "12px",
+      "right": "127px"
+    },
+    {
+      "scroll": 12,
+      "left": "12px",
+      "right": "127px"
+    }
+  ],
+  "returnSamples": [
+    {
+      "scroll": 12,
+      "left": "12px",
+      "right": "127px"
+    },
+    {
+      "scroll": 8,
+      "left": "8px",
+      "right": "127px"
+    },
+    {
+      "scroll": 2,
+      "left": "2px",
+      "right": "127px"
+    },
+    {
+      "scroll": 0,
+      "left": "0px",
+      "right": "127px"
+    },
+    {
+      "scroll": 0,
+      "left": "0px",
+      "right": "127px"
+    },
+    {
+      "scroll": 0,
+      "left": "0px",
+      "right": "127px"
+    },
+    {
+      "scroll": 0,
+      "left": "0px",
+      "right": "127px"
+    },
+    {
+      "scroll": 0,
+      "left": "0px",
+      "right": "127px"
+    },
+    {
+      "scroll": 0,
+      "left": "0px",
+      "right": "127px"
+    },
+    {
+      "scroll": 0,
+      "left": "0px",
+      "right": "127px"
+    }
+  ],
+  "rightEndpoint": {
+    "active": "Sauces",
+    "fadeLeft": "127px",
+    "fadeRight": "0px",
+    "links": [
+      {
+        "name": "Breakfasts All Day",
+        "width": 132.890625,
+        "x": -226.5,
+        "y": 79
+      },
+      {
+        "name": "Healthy Bowls",
+        "width": 110.25,
+        "x": -93.609375,
+        "y": 79
+      },
+      {
+        "name": "Broths & Soups",
+        "width": 117.234375,
+        "x": 16.640625,
+        "y": 79
+      },
+      {
+        "name": "Fresh & Light",
+        "width": 103.578125,
+        "x": 133.875,
+        "y": 79
+      },
+      {
+        "name": "Main dishes",
+        "width": 96.09375,
+        "x": 237.453125,
+        "y": 79
+      },
+      {
+        "name": "Wraps",
+        "width": 63.28125,
+        "x": 333.546875,
+        "y": 79
+      },
+      {
+        "name": "Balanced Curries",
+        "width": 127,
+        "x": 396.828125,
+        "y": 79
+      },
+      {
+        "name": "Extra Protein",
+        "width": 100.328125,
+        "x": 523.828125,
+        "y": 79
+      },
+      {
+        "name": "Extra Carbs / Veggies",
+        "width": 152.25,
+        "x": 624.15625,
+        "y": 79
+      },
+      {
+        "name": "Sauces",
+        "width": 68.765625,
+        "x": 776.40625,
+        "y": 79
+      },
+      {
+        "name": "Refresh & Rehydrate",
+        "width": 147.78125,
+        "x": 845.171875,
+        "y": 79
+      },
+      {
+        "name": "Hot Liquids",
+        "width": 92.734375,
+        "x": 992.953125,
+        "y": 79
+      },
+      {
+        "name": "Cold Liquids",
+        "width": 99.046875,
+        "x": 1085.6875,
+        "y": 79
+      },
+      {
+        "name": "Energizers",
+        "width": 87.375,
+        "x": 1184.734375,
+        "y": 79
+      }
+    ],
+    "maximum": 379,
+    "navTop": 79,
+    "pageY": 10955,
+    "scroll": 379,
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  "leftHover": {
+    "active": "Sauces",
+    "fadeLeft": "127px",
+    "fadeRight": "12px",
+    "links": [
+      {
+        "name": "Breakfasts All Day",
+        "width": 132.890625,
+        "x": -214.5,
+        "y": 79
+      },
+      {
+        "name": "Healthy Bowls",
+        "width": 110.25,
+        "x": -81.609375,
+        "y": 79
+      },
+      {
+        "name": "Broths & Soups",
+        "width": 117.234375,
+        "x": 28.640625,
+        "y": 79
+      },
+      {
+        "name": "Fresh & Light",
+        "width": 103.578125,
+        "x": 145.875,
+        "y": 79
+      },
+      {
+        "name": "Main dishes",
+        "width": 96.09375,
+        "x": 249.453125,
+        "y": 79
+      },
+      {
+        "name": "Wraps",
+        "width": 63.28125,
+        "x": 345.546875,
+        "y": 79
+      },
+      {
+        "name": "Balanced Curries",
+        "width": 127,
+        "x": 408.828125,
+        "y": 79
+      },
+      {
+        "name": "Extra Protein",
+        "width": 100.328125,
+        "x": 535.828125,
+        "y": 79
+      },
+      {
+        "name": "Extra Carbs / Veggies",
+        "width": 152.25,
+        "x": 636.15625,
+        "y": 79
+      },
+      {
+        "name": "Sauces",
+        "width": 68.765625,
+        "x": 788.40625,
+        "y": 79
+      },
+      {
+        "name": "Refresh & Rehydrate",
+        "width": 147.78125,
+        "x": 857.171875,
+        "y": 79
+      },
+      {
+        "name": "Hot Liquids",
+        "width": 92.734375,
+        "x": 1004.953125,
+        "y": 79
+      },
+      {
+        "name": "Cold Liquids",
+        "width": 99.046875,
+        "x": 1097.6875,
+        "y": 79
+      },
+      {
+        "name": "Energizers",
+        "width": 87.375,
+        "x": 1196.734375,
+        "y": 79
+      }
+    ],
+    "maximum": 379,
+    "navTop": 79,
+    "pageY": 10955,
+    "scroll": 367,
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  "leftHoverSamples": [
+    {
+      "scroll": 379,
+      "left": "127px",
+      "right": "0px"
+    },
+    {
+      "scroll": 375,
+      "left": "127px",
+      "right": "0px"
+    },
+    {
+      "scroll": 371,
+      "left": "127px",
+      "right": "4px"
+    },
+    {
+      "scroll": 368,
+      "left": "127px",
+      "right": "10px"
+    },
+    {
+      "scroll": 367,
+      "left": "127px",
+      "right": "12px"
+    },
+    {
+      "scroll": 367,
+      "left": "127px",
+      "right": "12px"
+    },
+    {
+      "scroll": 367,
+      "left": "127px",
+      "right": "12px"
+    },
+    {
+      "scroll": 367,
+      "left": "127px",
+      "right": "12px"
+    },
+    {
+      "scroll": 367,
+      "left": "127px",
+      "right": "12px"
+    },
+    {
+      "scroll": 367,
+      "left": "127px",
+      "right": "12px"
+    }
+  ],
+  "leftReturnSamples": [
+    {
+      "scroll": 368,
+      "left": "127px",
+      "right": "12px"
+    },
+    {
+      "scroll": 371,
+      "left": "127px",
+      "right": "11px"
+    },
+    {
+      "scroll": 377,
+      "left": "127px",
+      "right": "4px"
+    },
+    {
+      "scroll": 378,
+      "left": "127px",
+      "right": "2px"
+    },
+    {
+      "scroll": 379,
+      "left": "127px",
+      "right": "0px"
+    },
+    {
+      "scroll": 379,
+      "left": "127px",
+      "right": "0px"
+    },
+    {
+      "scroll": 379,
+      "left": "127px",
+      "right": "0px"
+    },
+    {
+      "scroll": 379,
+      "left": "127px",
+      "right": "0px"
+    },
+    {
+      "scroll": 379,
+      "left": "127px",
+      "right": "0px"
+    },
+    {
+      "scroll": 379,
+      "left": "127px",
+      "right": "0px"
+    }
+  ],
+  "navigationSamples": [
+    {
+      "scroll": 64,
+      "left": "73px",
+      "right": "127px"
+    },
+    {
+      "scroll": 51,
+      "left": "57px",
+      "right": "127px"
+    },
+    {
+      "scroll": 40,
+      "left": "45px",
+      "right": "127px"
+    },
+    {
+      "scroll": 31,
+      "left": "35px",
+      "right": "127px"
+    },
+    {
+      "scroll": 27,
+      "left": "31px",
+      "right": "127px"
+    },
+    {
+      "scroll": 20,
+      "left": "23px",
+      "right": "127px"
+    },
+    {
+      "scroll": 17,
+      "left": "20px",
+      "right": "127px"
+    },
+    {
+      "scroll": 12,
+      "left": "15px",
+      "right": "127px"
+    },
+    {
+      "scroll": 10,
+      "left": "12px",
+      "right": "127px"
+    },
+    {
+      "scroll": 8,
+      "left": "10px",
+      "right": "127px"
+    },
+    {
+      "scroll": 5,
+      "left": "7px",
+      "right": "127px"
+    },
+    {
+      "scroll": 4,
+      "left": "5px",
+      "right": "127px"
+    },
+    {
+      "scroll": 3,
+      "left": "4px",
+      "right": "127px"
+    },
+    {
+      "scroll": 2,
+      "left": "2px",
+      "right": "127px"
+    },
+    {
+      "scroll": 1,
+      "left": "2px",
+      "right": "127px"
+    },
+    {
+      "scroll": 0,
+      "left": "1px",
+      "right": "127px"
+    },
+    {
+      "scroll": 0,
+      "left": "0px",
+      "right": "127px"
+    },
+    {
+      "scroll": 0,
+      "left": "0px",
+      "right": "127px"
+    }
+  ],
+  "finish": {
+    "active": "Main dishes",
+    "fadeLeft": "0px",
+    "fadeRight": "127px",
+    "links": [
+      {
+        "name": "Breakfasts All Day",
+        "width": 132.890625,
+        "x": 152.5,
+        "y": 79
+      },
+      {
+        "name": "Healthy Bowls",
+        "width": 110.25,
+        "x": 285.390625,
+        "y": 79
+      },
+      {
+        "name": "Broths & Soups",
+        "width": 117.234375,
+        "x": 395.640625,
+        "y": 79
+      },
+      {
+        "name": "Fresh & Light",
+        "width": 103.578125,
+        "x": 512.875,
+        "y": 79
+      },
+      {
+        "name": "Main dishes",
+        "width": 96.09375,
+        "x": 616.453125,
+        "y": 79
+      },
+      {
+        "name": "Wraps",
+        "width": 63.28125,
+        "x": 712.546875,
+        "y": 79
+      },
+      {
+        "name": "Balanced Curries",
+        "width": 127,
+        "x": 775.828125,
+        "y": 79
+      },
+      {
+        "name": "Extra Protein",
+        "width": 100.328125,
+        "x": 902.828125,
+        "y": 79
+      },
+      {
+        "name": "Extra Carbs / Veggies",
+        "width": 152.25,
+        "x": 1003.15625,
+        "y": 79
+      },
+      {
+        "name": "Sauces",
+        "width": 68.765625,
+        "x": 1155.40625,
+        "y": 79
+      },
+      {
+        "name": "Refresh & Rehydrate",
+        "width": 147.78125,
+        "x": 1224.171875,
+        "y": 79
+      },
+      {
+        "name": "Hot Liquids",
+        "width": 92.734375,
+        "x": 1371.953125,
+        "y": 79
+      },
+      {
+        "name": "Cold Liquids",
+        "width": 99.046875,
+        "x": 1464.6875,
+        "y": 79
+      },
+      {
+        "name": "Energizers",
+        "width": 87.375,
+        "x": 1563.734375,
+        "y": 79
+      }
+    ],
+    "maximum": 379,
+    "navTop": 79,
+    "pageY": 5017,
+    "scroll": 0,
+    "viewport": [
+      1440,
+      1000
+    ]
+  }
+}

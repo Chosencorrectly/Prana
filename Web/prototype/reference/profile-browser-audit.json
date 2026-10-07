@@ -1,0 +1,318 @@
+{
+  "date": "2026-10-06",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "checks": {
+    "initialDisabled": true,
+    "dirtyEnabled": true,
+    "revertedDisabled": true,
+    "savedDisabled": true,
+    "ordersStableAfterEdit": true,
+    "leapDaySelected": true,
+    "calendarSelectReturnsFocus": true,
+    "saveRetainsFocus": true,
+    "escapeReturnsFocus": true,
+    "futureDisabled": true,
+    "todayEnabled": true,
+    "outsideCloses": true,
+    "demoActionsNoNavigation": true,
+    "demoCardsUnchanged": true,
+    "demoAddressesUnchanged": true,
+    "detailsRetainedAcrossRoutes": true,
+    "ordersRetainedAcrossRoutes": true,
+    "invalidEmailBlocked": true,
+    "phoneAndEmailSaved": true,
+    "browserBackFocus": true,
+    "browserForwardRetainsProfile": true,
+    "cartRetainedAcrossProfile": true,
+    "reloadResetsDetails": true,
+    "reloadRegeneratesOrders": true,
+    "finalRevertDisabled": true,
+    "searchFromProfile": true,
+    "clearRestoresCatalog": true
+  },
+  "geometry": {
+    "#addresses-title": {
+      "height": 29,
+      "width": 664,
+      "x": 152.5,
+      "y": 1650
+    },
+    "#marketing-title": {
+      "height": 29,
+      "width": 664,
+      "x": 152.5,
+      "y": 2335
+    },
+    "#orders-title": {
+      "height": 29,
+      "width": 664,
+      "x": 152.5,
+      "y": 627
+    },
+    "#payment-title": {
+      "height": 29,
+      "width": 664,
+      "x": 152.5,
+      "y": 2076
+    },
+    ".profile-app": {
+      "height": 384,
+      "width": 400,
+      "x": 872.5,
+      "y": 125
+    },
+    ".profile-order": {
+      "height": 374,
+      "width": 664,
+      "x": 152.5,
+      "y": 684
+    },
+    ".profile-page": {
+      "height": 2600,
+      "width": 1120,
+      "x": 152.5,
+      "y": 76
+    },
+    ".profile-personal h2": {
+      "height": 29,
+      "width": 664,
+      "x": 152.5,
+      "y": 199
+    },
+    ".profile-points": {
+      "height": 93,
+      "width": 400,
+      "x": 872.5,
+      "y": 533
+    },
+    ".profile-save": {
+      "height": 54,
+      "width": 664,
+      "x": 152.5,
+      "y": 477
+    },
+    ".profile-title": {
+      "height": 42,
+      "width": 664,
+      "x": 152.5,
+      "y": 125
+    },
+    ".site-footer": {
+      "height": 397,
+      "width": 1120,
+      "x": 152.5,
+      "y": 2676
+    }
+  },
+  "ordersInitial": "Delivered Sep 22, 2026 · 15:09\n\nHome\nJl. Raya Padonan No.41a, Tibubeneng\n\n3 items\nTotal: $44.85\n\nAvocado toast\n\n1 × $11.95\n\nBeef soba noodles\n\n1 × $20.95\n\nTropical smoothie\n\n1 × $11.95\n\nReorder\n\nDelivered Sep 12, 2026 · 13:24\n\nHome\nJl. Raya Padonan No.41a, Tibubeneng\n\n3 items\nTotal: $54.85\n\nSteak honey mustard wrap\n\n1 × $23.95\n\nChicken liver plate · high iron, GF\n\n1 × $18.95\n\nGreen smoothie\n\n1 × $11.95\n\nReorder",
+  "calendarInitial": {
+    "active": "Wednesday, June 12th, 1985, selected",
+    "header": {
+      "bottom": 76,
+      "height": 76,
+      "left": 152.5,
+      "right": 1272.5,
+      "top": 0,
+      "width": 1120,
+      "x": 152.5,
+      "y": 0
+    },
+    "month": {
+      "bottom": 682,
+      "height": 318,
+      "left": 510,
+      "right": 790,
+      "top": 364,
+      "width": 280,
+      "x": 510,
+      "y": 364
+    },
+    "pop": {
+      "bottom": 699,
+      "height": 352,
+      "left": 493,
+      "right": 807,
+      "top": 347,
+      "width": 314,
+      "x": 493,
+      "y": 347
+    }
+  },
+  "keyboardArrow": "Wednesday, March 1st, 2000",
+  "toggleOff": {
+    "background": "rgb(46, 46, 46)",
+    "checked": "false",
+    "thumb": "matrix(1, 0, 0, 1, 0, 0)"
+  },
+  "toggleOffSettled": {
+    "checked": "false",
+    "thumb": "matrix(1, 0, 0, 1, 0, 0)"
+  },
+  "toggleOnStart": {
+    "checked": "true",
+    "duration": "0.24s",
+    "thumb": "matrix(1, 0, 0, 1, 2.47278, 0)"
+  },
+  "toggleOnSettled": {
+    "checked": "true",
+    "thumb": "matrix(1, 0, 0, 1, 15, 0)"
+  },
+  "checkoutSharedSwitch": {
+    "background": "rgb(234, 92, 0)",
+    "height": 28,
+    "thumbHeight": 24,
+    "thumbTransform": "matrix(1, 0, 0, 1, 15, 0)",
+    "thumbWidth": 30,
+    "width": 49
+  },
+  "assets": [
+    {
+      "height": 16,
+      "loaded": true,
+      "src": "/assets/profile-home.svg",
+      "width": 16
+    },
+    {
+      "height": 70,
+      "loaded": true,
+      "src": "/assets/menu/5953310a-d6c6-4d8c-b3fc-1e88283ff884.jpg",
+      "width": 70
+    },
+    {
+      "height": 70,
+      "loaded": true,
+      "src": "/assets/menu/360465bb-5565-47c6-b867-60b83bf1087f.jpg",
+      "width": 70
+    },
+    {
+      "height": 70,
+      "loaded": true,
+      "src": "/assets/menu/2fb28eb5-186a-46fe-9fed-3137b99158f6.png",
+      "width": 70
+    },
+    {
+      "height": 16,
+      "loaded": true,
+      "src": "/assets/profile-home.svg",
+      "width": 16
+    },
+    {
+      "height": 70,
+      "loaded": true,
+      "src": "/assets/menu/8316bcff-fc0b-402c-9f6b-163f27e6ac99.jpg",
+      "width": 70
+    },
+    {
+      "height": 70,
+      "loaded": true,
+      "src": "/assets/menu/635addde-1d4e-4a23-b2df-2cc9a12e7bf5.jpg",
+      "width": 70
+    },
+    {
+      "height": 70,
+      "loaded": true,
+      "src": "/assets/menu/00e90599-2d08-46ce-a62d-37ca60a60857.png",
+      "width": 70
+    },
+    {
+      "height": 13,
+      "loaded": true,
+      "src": "/assets/profile-address-home.svg",
+      "width": 13
+    },
+    {
+      "height": 24,
+      "loaded": true,
+      "src": "/assets/profile-edit.svg",
+      "width": 24
+    },
+    {
+      "height": 13,
+      "loaded": true,
+      "src": "/assets/profile-address-home.svg",
+      "width": 13
+    },
+    {
+      "height": 24,
+      "loaded": true,
+      "src": "/assets/profile-edit.svg",
+      "width": 24
+    },
+    {
+      "height": 14,
+      "loaded": true,
+      "src": "/assets/checkout-mastercard.svg",
+      "width": 22
+    },
+    {
+      "height": 14,
+      "loaded": true,
+      "src": "/assets/checkout-mastercard.svg",
+      "width": 22
+    },
+    {
+      "height": 14,
+      "loaded": true,
+      "src": "/assets/checkout-mastercard.svg",
+      "width": 22
+    },
+    {
+      "height": 16,
+      "loaded": true,
+      "src": "/assets/profile-logout.svg",
+      "width": 16
+    },
+    {
+      "height": 24,
+      "loaded": true,
+      "src": "/assets/profile-appstore.svg",
+      "width": 24
+    },
+    {
+      "height": 24,
+      "loaded": true,
+      "src": "/assets/profile-google-play.svg",
+      "width": 24
+    },
+    {
+      "height": 20,
+      "loaded": true,
+      "src": "/assets/profile-points.svg",
+      "width": 20
+    }
+  ],
+  "styles": {
+    "fieldHoverDuration": "0.15s, 0.15s",
+    "horizontalOverflow": false,
+    "orderBackground": "rgb(16, 16, 16)",
+    "orderCursor": "pointer",
+    "profileHoverDuration": "0.24s, 0.15s",
+    "reducedMotion": false
+  },
+  "freshConsole": [],
+  "finalTokens": {
+    "calendar": "240ms",
+    "toggle": "240ms"
+  },
+  "validation": {
+    "build": "passed",
+    "profileTests": "6/6",
+    "motionTests": "9/9",
+    "cartTests": "7/7",
+    "mainJsKB": 461.98,
+    "calendarJsKB": 140.84
+  },
+  "limitations": [
+    "Desktop IAB only; no cross-browser/mobile/full accessibility or performance audit",
+    "Reduced-motion CSS/React reviewed, OS preference not emulated",
+    "Local in-memory state only; no authentication, profile API, order actions, address/card editing, subscription or deployment"
+  ],
+  "screenshots": [
+    "profile-desktop.png",
+    "profile-full-page.png",
+    "profile-calendar.png"
+  ]
+}
