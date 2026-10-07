@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-07",
+  "timezone": "Europe/Moscow",
+  "repository": "https://github.com/Chosencorrectly/Prana",
+  "owner": "Chosencorrectly",
+  "visibility": "public",
+  "branch": "main",
+  "projectDirectory": "Web",
+  "appDirectory": "Web/prototype",
+  "verifiedCodeCommit": "08293c7934381048ecfc1b7674bbc9d9629bc2ee",
+  "verification": {
+    "publicApiWithoutAuthorization": true,
+    "anonymousShallowClone": true,
+    "topLevel": [
+      "README.md",
+      "Web"
+    ],
+    "initialFiles": 325,
+    "forbiddenTrackedPaths": [],
+    "cataloguePhotos": 87,
+    "photoChecksums": "87/87 match local snapshot manifest",
+    "emptyCartPngIncluded": true,
+    "install": "npm ci: passed, 108 packages",
+    "build": "npm run build:vercel: passed (includes npm run build)",
+    "tests": {
+      "command": "node --test tests/menu-scroll.test.mjs tests/page-scroll.test.mjs tests/cart.test.mjs tests/profile.test.mjs",
+      "passed": 22,
+      "failed": 0,
+      "motion": 9,
+      "cart": 7,
+      "profile": 6
+    }
+  },
+  "scope": {
+    "included": "Application source, original images, design-work, historical plugin, docs, QA evidence, tests, lockfile and build configuration under Web.",
+    "excluded": "node_modules, dist, .git from original workspace, .vercel, local environment files/keys/logs",
+    "sourceWorkspaceLayoutUnchanged": true,
+    "vercelRedeployed": false,
+    "vercelAutoDeployConfigured": false,
+    "uiOrMotionChanged": false
+  },
+  "notes": [
+    "New repository is in the user account Chosencorrectly, not ProductHow.",
+    "Existing demo limitations and per-feature approval status remain unchanged.",
+    "Final follow-up commit contains only handoff documentation/evidence; application code is the verified code commit."
+  ]
+}

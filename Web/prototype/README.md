@@ -10,6 +10,10 @@ Motion foundation: [MOTION.md](MOTION.md). Shared Carbon-based tokens, Motion 14
 
 Color-library preview: [Prana colors](http://127.0.0.1:5180/design/colors/index.html). [Source, exports and method](../design-work/colors/README.md): Geist-based scales with explicit Prana overrides. User-selected page `hsl(0 0% 0%)` and in-card buttons/tags `hsl(0 0% 15%)` are preserved verbatim in CSS/JSON. Card #101010 is retained from Figma. Primary / secondary / tertiary text #EDEDED / #A1A1A1 / #878787 is confirmed by the user. Original values and provenance are retained. The documented tertiary/control contrast limitation remains; Amber 700 = #EA5C00 is assigned to filled header Cart and checkout actions through scoped semantic roles.
 
+## GitHub handoff
+
+Source: **[Chosencorrectly/Prana — Web](https://github.com/Chosencorrectly/Prana/tree/main/Web)**, public, main, created 2026-10-07. Run from `Web/prototype` after clone; Node 24.x and `npm ci`. See [project quick start](../README.md). All 87 catalogue photos and cart-empty-bag.png are included. Clean anonymous clone/install/build and 22 motion/cart/profile tests passed; [handoff audit](reference/github-handoff-audit.json). GitHub is not connected to Vercel auto-deploy.
+
 ## Published prototype
 
 Empty-cart asset fix published 2026-10-06: the original `public/assets/cart-empty-bag.png` must be included in source deployments. `.vercelignore` explicitly keeps it; build:vercel checks its presence. API uploads must include its binary/base64 contents. A successful HTML 200 response is not an image check: verify image/png and browser decoding. [Fix audit](reference/vercel-empty-cart-fix-audit.json), [screenshot](reference/vercel-empty-cart-fixed.png).

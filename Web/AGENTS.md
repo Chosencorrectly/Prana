@@ -14,3 +14,7 @@ The user requested an ongoing record suitable for lead updates and developer han
 - `prototype/design-qa.md`, `prototype/README.md` and the Figma ledgers provide supporting detail; update them when their subject changes, without making them competing project status reports.
 
 Use the more specific instructions in `prototype/AGENTS.md` for implementation work.
+
+## GitHub handoff
+
+The public repository is `Chosencorrectly/Prana`, explicitly requested by the user on 2026-10-07; do not use ProductHow. The exported project lives under `Web/`, and the app under `Web/prototype/`. The original local workspace retains its current layout. Preserve all required source images (including cart-empty-bag.png), docs and tests. Exclude dependencies, build output, `.vercel`, local credentials and env files. GitHub and Vercel are separate publications; no automatic deployment or synchronization is configured.
