@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
+    "build:vercel": "node scripts/restore-vercel-assets.mjs && npm run build",
     "test:auth": "node --test tests/auth.test.mjs",
     "test:motion": "node --test tests/motion.test.mjs",
     "test:catalog": "node --test tests/catalog.test.mjs",
