@@ -1,0 +1,266 @@
+{
+  "date": "2026-10-13",
+  "timezone": "Europe/Moscow",
+  "applied": {
+    "dockTop": 454.0100278082338,
+    "promoBottom": 320.82528465948786,
+    "promoY": 255.83411776013477,
+    "scroll": 392.0792236328125,
+    "status": "applied",
+    "total": "Total$28.71$28.71$28.71"
+  },
+  "editResets": {
+    "status": "debouncing",
+    "total": "Total$31.90$31.90$28.71$31.90"
+  },
+  "invalid": {
+    "message": "Promo code not found",
+    "status": "invalid",
+    "total": "Total$31.90$31.90$31.90"
+  },
+  "clear": {
+    "message": "",
+    "status": "idle"
+  },
+  "assets": [
+    {
+      "h": 11.664691473482671,
+      "loaded": true,
+      "src": "/assets/checkout/close.svg",
+      "w": 11.664691473482671
+    },
+    {
+      "h": 15.996400981181894,
+      "loaded": true,
+      "src": "/assets/checkout/house.svg",
+      "w": 15.996394906924293
+    },
+    {
+      "h": 17.992083130481383,
+      "loaded": true,
+      "src": "/assets/checkout/chevron.svg",
+      "w": 17.99202390646977
+    },
+    {
+      "h": 0.990107026158748,
+      "loaded": true,
+      "src": "/assets/checkout/address-divider.svg",
+      "w": 372.0013848177237
+    },
+    {
+      "h": 0.9900919354250196,
+      "loaded": true,
+      "src": "/assets/checkout/section-divider.svg",
+      "w": 400.0028376671325
+    },
+    {
+      "h": 17.99594483975148,
+      "loaded": true,
+      "src": "/assets/checkout/promo.svg",
+      "w": 17.995969136781884
+    },
+    {
+      "h": 0.9901160426348752,
+      "loaded": true,
+      "src": "/assets/checkout/summary-divider.svg",
+      "w": 367.9946344246203
+    },
+    {
+      "h": 0.9901160426348752,
+      "loaded": true,
+      "src": "/assets/checkout/summary-divider.svg",
+      "w": 367.9946344246203
+    },
+    {
+      "h": 0.9901160426348752,
+      "loaded": true,
+      "src": "/assets/checkout/summary-divider.svg",
+      "w": 367.9946344246203
+    },
+    {
+      "h": 50.000403302452376,
+      "loaded": true,
+      "src": "/assets/checkout/points-circle.svg",
+      "w": 50.00030611433075
+    },
+    {
+      "h": 19.987747057008065,
+      "loaded": true,
+      "src": "/assets/checkout/points-mark.svg",
+      "w": 19.987747057008065
+    },
+    {
+      "h": 0.9900679231254388,
+      "loaded": true,
+      "src": "/assets/checkout/points-divider.svg",
+      "w": 359.9964407675692
+    },
+    {
+      "h": 13.985177843809195,
+      "loaded": true,
+      "src": "/assets/checkout/mastercard.svg",
+      "w": 21.99886845056594
+    },
+    {
+      "h": 13.985177843809195,
+      "loaded": true,
+      "src": "/assets/checkout/mastercard.svg",
+      "w": 21.99896412012316
+    },
+    {
+      "h": 0.9901641621443112,
+      "loaded": true,
+      "src": "/assets/checkout/payment-divider.svg",
+      "w": 400.0028376671325
+    }
+  ],
+  "enter": {
+    "active": "true",
+    "focus": "Back to cart",
+    "keyboard": "false"
+  },
+  "lower": {
+    "overflow": false,
+    "scroll": 711.8811645507812,
+    "total": "$28.71"
+  },
+  "payment": "true",
+  "leave": "false",
+  "scrollBeforeBack": 0,
+  "back": {
+    "active": "false",
+    "cartInert": false,
+    "focus": "Proceed to Checkout"
+  },
+  "returnWithQuantity": {
+    "leave": "false",
+    "promo": "applied",
+    "scroll": 0,
+    "total": "$43.06",
+    "value": "1111"
+  },
+  "escape": {
+    "active": "false",
+    "cart": true,
+    "focus": "Proceed to Checkout"
+  },
+  "emptyReset": {
+    "empty": "It's empty for now",
+    "status": "idle",
+    "value": ""
+  },
+  "fadeAudit": [
+    {
+      "class": "prana-bottom-fade catalog-tools-fade",
+      "filters": [
+        "blur(4px)",
+        "blur(12px)",
+        "blur(34px)",
+        "none"
+      ],
+      "opacity": "1"
+    },
+    {
+      "class": "prana-bottom-fade cart-footer-fade",
+      "filters": [
+        "blur(4px)",
+        "blur(12px)",
+        "blur(34px)",
+        "none"
+      ],
+      "opacity": "1"
+    }
+  ],
+  "geometry": {
+    "address": {
+      "h": 129.99782315558983,
+      "w": 400.0183148755009,
+      "x": 14.990830413734354,
+      "y": 263.9870106097786
+    },
+    "bonuses": {
+      "h": 159.99493689439652,
+      "w": 400.0183148755009,
+      "x": 14.990830413734354,
+      "y": 1053.890588127137
+    },
+    "calculation": {
+      "h": 220.99483060901468,
+      "w": 400.0183148755009,
+      "x": 14.990830413734354,
+      "y": 791.8992080354687
+    },
+    "cta": {
+      "h": 53.99175545253615,
+      "w": 399.01275797513296,
+      "x": 15.996387314102291,
+      "y": 842.0078485341206
+    },
+    "leave": {
+      "h": 72.98938485343466,
+      "w": 400.0183148755009,
+      "x": 14.990830413734354,
+      "y": 399.97192577019894
+    },
+    "overflow": false,
+    "payment": {
+      "h": 105.9877892730984,
+      "w": 511.94669163723336,
+      "x": 0,
+      "y": 1270.8784253727447
+    },
+    "promo": {
+      "h": 64.99114260232271,
+      "w": 400.0183148755009,
+      "x": 14.990830413734354,
+      "y": 647.9161235150276
+    },
+    "tabs": {
+      "h": 58.98866450298786,
+      "w": 400.0183148755009,
+      "x": 14.990830413734354,
+      "y": 126.00645885699085
+    },
+    "time": {
+      "h": 53.99175545253615,
+      "w": 450.9779102700496,
+      "x": 14.990830413734354,
+      "y": 529.9542352718747
+    },
+    "title": {
+      "h": 31.00269797333384,
+      "w": 400.0183148755009,
+      "x": 14.990830413734354,
+      "y": 216.98792835947128
+    },
+    "total": {
+      "h": 18.997583843966503,
+      "w": 400.0183148755009,
+      "x": 14.990830413734354,
+      "y": 808.0039601051801
+    }
+  },
+  "console": [],
+  "scrollSaved": 711.8811645507812,
+  "scrollRestored": 711.8811645507812,
+  "scope": {
+    "functional": [
+      "Cart → Delivery and back via existing FlowStack/authStep",
+      "Promo 1111 / -10%, automatic debounce/loader/error/reset",
+      "Local leave-at-door, time and saved-card selection",
+      "Common catalogue/cart/checkout bottom blur"
+    ],
+    "deferred": [
+      "Pickup",
+      "Address/phone/courier-note editing",
+      "Points redemption",
+      "Adding payment cards",
+      "Order submission and active-order tracking"
+    ]
+  },
+  "limitations": [
+    "Motion samples include tool latency; no FPS profile.",
+    "Physical touch, Pixel, system reduced-motion and screen-reader not tested.",
+    "Figma address, repeated time slots, 476 points, June 7, card *4344, free delivery and +$2 accrual are visual fixtures, not commercial rules."
+  ]
+}

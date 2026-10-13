@@ -1,0 +1,118 @@
+{
+  "inspectedDate": "2026-10-12",
+  "timezone": "Europe/Moscow",
+  "fileKey": "sVUfk3wL7MabAwk1PIV1fv",
+  "nodeId": "1194:5225",
+  "sourceUrl": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1194-5225",
+  "frame": {
+    "reference": "reference/catalog/figma-catalog.png",
+    "pixels": [
+      430,
+      1566
+    ]
+  },
+  "geometry": {
+    "viewport": [
+      430,
+      932
+    ],
+    "sidePadding": 16,
+    "delivery": [
+      16,
+      63,
+      398,
+      36
+    ],
+    "menu": [
+      16,
+      131,
+      398,
+      32
+    ],
+    "headingY": 195,
+    "largeCard": [
+      16,
+      248,
+      398,
+      457
+    ],
+    "smallPhoto": [
+      189,
+      189
+    ],
+    "gridGap": 20,
+    "sectionGap": 48,
+    "cardRadius": 20
+  },
+  "assets": [
+    {
+      "file": "map-pin.svg",
+      "source": "Prana-App 1291:800; original SVG",
+      "nativeSize": [
+        13.5,
+        16.1667
+      ],
+      "path": "public/assets/catalog/map-pin.svg",
+      "sha256": "6cddbee318eb0fe33d019943a9fd3be6fd7efda36caa94bfbadccee9f1ebcbe5"
+    },
+    {
+      "file": "basket.svg",
+      "source": "Prana-App 1194:5225; purchase icon, be4f9.svg",
+      "nativeSize": [
+        16,
+        16
+      ],
+      "path": "public/assets/catalog/basket.svg",
+      "sha256": "7e424f1c6a682477e289dd895b6ee29100bf98db25e3d884f51116ddfa02e3dc"
+    },
+    {
+      "file": "basket-dark.svg",
+      "source": "Prana-App 1194:5225; large purchase icon, d268c.svg",
+      "nativeSize": [
+        16,
+        16
+      ],
+      "path": "public/assets/catalog/basket-dark.svg",
+      "sha256": "2c35144a60037ae6187fa6ddfe58370fa0b6d9796cd6c215c563bc20bb5c0fd0"
+    },
+    {
+      "file": "plus.svg",
+      "source": "prototype/public/assets/plus.svg",
+      "nativeSize": [
+        16,
+        16
+      ],
+      "path": "public/assets/catalog/plus.svg",
+      "sha256": "2eb5e99b2f4cddf391ccf60ee152291932fada1708f33bc980c6ed7e257c1d5b"
+    },
+    {
+      "file": "minus.svg",
+      "source": "prototype/public/assets/minus.svg",
+      "nativeSize": [
+        16,
+        16
+      ],
+      "path": "public/assets/catalog/minus.svg",
+      "sha256": "b950077166e81a07bc180b3b6009945ef1fd97b766ae431b151f013cfa73c835"
+    },
+    {
+      "file": "trash.svg",
+      "source": "prototype/public/assets/trash.svg",
+      "nativeSize": [
+        16,
+        16
+      ],
+      "path": "public/assets/catalog/trash.svg",
+      "sha256": "98dd2b389b069932074e8437f42a371f32287dd227c9f4ceec67a23b452967b0"
+    }
+  ],
+  "adaptations": [
+    "Runtime status bar/frame/home indicator preserved.",
+    "87 real desktop products replace Figma sample content; data provenance in web-source.json.",
+    "Long product names wrap; descriptions clamp to 3 lines on large cards and 2 on small.",
+    "Large purchase width140 instead of source114 accommodates real two-digit dollar prices; height48 retained.",
+    "Categories follow desktop data; dynamic fades added on both sides.",
+    "Address and AG are static source fixtures; profile/address/PDP/cart/checkout flows deferred."
+  ],
+  "figmaEdited": false
+}

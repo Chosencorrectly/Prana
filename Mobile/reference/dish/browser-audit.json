@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-12",
+  "timezone": "Europe/Moscow",
+  "initial": {
+    "about": {
+      "bottom": -125.95997863782485,
+      "color": "rgb(255, 255, 255)",
+      "fontWeight": "500",
+      "height": 125.97553481154206,
+      "width": 430,
+      "x": 0,
+      "y": 931.9837368392028
+    },
+    "close": {
+      "bottom": 756.0234126043727,
+      "color": "rgb(0, 0, 0)",
+      "fontWeight": "500",
+      "height": 44.98794718966985,
+      "width": 44.98790163273784,
+      "x": 15.996387314102291,
+      "y": 130.98793321887737
+    },
+    "description": {
+      "bottom": 173.00571726076862,
+      "color": "rgba(255, 255, 255, 0.75)",
+      "fontWeight": "500",
+      "height": 56.99294287101396,
+      "width": 204.99841899788197,
+      "x": 112.4930154513292,
+      "y": 702.0006328811373
+    },
+    "dock": {
+      "bottom": 47.989234833398086,
+      "color": "rgb(255, 255, 255)",
+      "fontWeight": "500",
+      "height": 63.98567681581879,
+      "width": 251.9974526541285,
+      "x": 88.99351077172115,
+      "y": 820.024381363703
+    },
+    "fade": {
+      "bottom": 0.015556173717212851,
+      "color": "rgb(255, 255, 255)",
+      "fontWeight": "500",
+      "height": 317.99423719642556,
+      "width": 430,
+      "x": 0,
+      "y": 613.9894996427771
+    },
+    "hero": {
+      "bottom": 0.015556173717212851,
+      "color": "rgb(255, 255, 255)",
+      "fontWeight": "500",
+      "height": 816.9922152314581,
+      "width": 430,
+      "x": 0,
+      "y": 114.99152160774467
+    },
+    "nutrition": {
+      "bottom": -125.95993611802164,
+      "color": "rgb(255, 255, 255)",
+      "fontWeight": "500",
+      "height": 68.99798410929007,
+      "width": 398.0071038866434,
+      "x": 15.996387314102291,
+      "y": 988.9612450216516
+    },
+    "panel": {
+      "bottom": 0.00010326237922398224,
+      "color": "rgb(255, 255, 255)",
+      "fontWeight": "500",
+      "height": 817.007668142796,
+      "width": 430,
+      "x": 0,
+      "y": 114.99152160774467
+    },
+    "phase": "open",
+    "quantity": "0",
+    "screen": [
+      430,
+      931.99929301292
+    ],
+    "title": {
+      "bottom": 237.99681734328811,
+      "color": "rgb(255, 255, 255)",
+      "fontWeight": "600",
+      "height": 29.006997601261546,
+      "width": 141.32211019596065,
+      "x": 144.33116377803228,
+      "y": 664.9954780683703
+    }
+  },
+  "scrolled": {
+    "dockBottom": 47.989131571018866,
+    "quantity": "1",
+    "scroll": 278.21783447265625,
+    "transform": "none"
+  },
+  "smallCard": {
+    "flight": "visibility: hidden; width: 430px; height: 817px; border-radius: 32px 32px 0px 0px; transform: none; opacity: 1;",
+    "phase": "open",
+    "scroll": 359.40594482421875,
+    "title": "Avocado toast"
+  },
+  "afterScrollClose": {
+    "dialog": false,
+    "focus": "View Avocado toast (gluten-free sourdough, poached egg) (GF, LF)",
+    "quantity": "1",
+    "scroll": 359.40594482421875
+  },
+  "swipeReturn": {
+    "dialog": false,
+    "focus": "View Chia pudding (coconut milk, berries, banana) (vegan, GF)",
+    "quantity": "1",
+    "scroll": 0
+  },
+  "checks": [
+    "large and small photo expansion",
+    "close from initial and scrolled states",
+    "quick open-close",
+    "Tab Close→Add→Close; Escape; focus restored",
+    "short swipe returns; interrupted by vertical scroll without side offset",
+    "left drag does not dismiss",
+    "right swipe dismisses and keeps quantity",
+    "new Add tap after short swipe succeeds",
+    "catalogue remove button remains clickable and does not open dish",
+    "shared quantity0→1→2 and removal→0"
+  ],
+  "console": [],
+  "limitations": [
+    "mouse input, not physical touch",
+    "system reduced motion branch inspected, not emulated",
+    "no production publication"
+  ]
+}

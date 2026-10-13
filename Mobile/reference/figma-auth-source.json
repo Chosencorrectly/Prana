@@ -1,0 +1,148 @@
+{
+  "inspected_date": "2026-10-12",
+  "timezone": "Europe/Moscow",
+  "file_key": "sVUfk3wL7MabAwk1PIV1fv",
+  "page_node": "1028:27187",
+  "source_url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1028-27187",
+  "frames": [
+    {
+      "name": "splash",
+      "node_id": "1028:27630",
+      "reference": "reference/figma-splash.png",
+      "pixels": [
+        430,
+        932
+      ]
+    },
+    {
+      "name": "sign-in",
+      "node_id": "1028:27419",
+      "reference": "reference/figma-sign-in.png",
+      "pixels": [
+        430,
+        932
+      ]
+    },
+    {
+      "name": "phone",
+      "node_id": "1028:27649",
+      "reference": "reference/figma-phone.png",
+      "pixels": [
+        430,
+        932
+      ]
+    },
+    {
+      "name": "code-empty",
+      "node_id": "1028:27847",
+      "reference": "reference/figma-code-empty.png",
+      "pixels": [
+        430,
+        932
+      ]
+    },
+    {
+      "name": "code-filled",
+      "node_id": "1028:28051",
+      "reference": "reference/figma-code-filled.png",
+      "pixels": [
+        430,
+        932
+      ]
+    },
+    {
+      "name": "code-error",
+      "node_id": "1028:28255",
+      "reference": "reference/figma-code-error.png",
+      "pixels": [
+        430,
+        932
+      ]
+    }
+  ],
+  "excluded": {
+    "node_id": "1028:27216",
+    "name": "Plan your whole week",
+    "reason": "Archived, user explicitly excluded"
+  },
+  "keyboard": {
+    "node_id": "1028:27846",
+    "parent_node_id": "1028:27649",
+    "asset": "public/assets/auth/keyboard.png",
+    "pixels": [
+      430,
+      301
+    ],
+    "y": 631,
+    "functional_keys": false,
+    "input": "Physical computer keyboard",
+    "source_home_indicator_clip_bottom_px": 17
+  },
+  "assets": [
+    {
+      "path": "public/assets/auth/apple.svg",
+      "bytes": 1370,
+      "sha256": "1483427441b90522567c6762667746a7bd0bbc91dcc8baa61c9b9d164d3ff65e"
+    },
+    {
+      "path": "public/assets/auth/auth-bag.png",
+      "bytes": 1540951,
+      "sha256": "716287bae68b55cc6edfe75b12e6a8766e3231a017cc427e2cb7cc141f61cbaa",
+      "pixels": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "path": "public/assets/auth/back.svg",
+      "bytes": 342,
+      "sha256": "6834fa478ee4e71d05c7cb459561da284ced5e426359ff915e69437e6181b98d"
+    },
+    {
+      "path": "public/assets/auth/brand-mark.svg",
+      "bytes": 2966,
+      "sha256": "feb8b9b920bb4f2038d60dc100017b180908f9363cd6ca47a968dd9df955a892"
+    },
+    {
+      "path": "public/assets/auth/brand-word-detail.svg",
+      "bytes": 1092,
+      "sha256": "2d41461e9c285226db01cb4f965c17b8e9511c341c805e08bc42b749c11a75a2"
+    },
+    {
+      "path": "public/assets/auth/brand-word.svg",
+      "bytes": 3237,
+      "sha256": "e32de810ad76617feb29bae20f93c2fac63bb83b290b8f86c14e3b49683c27f1"
+    },
+    {
+      "path": "public/assets/auth/divider.svg",
+      "bytes": 235,
+      "sha256": "ab30edcd76bbe615076ffb29db2ae51d0ce05ff8c5fe7f29eff9b90f9d15d26d"
+    },
+    {
+      "path": "public/assets/auth/google.svg",
+      "bytes": 1754,
+      "sha256": "500aa8cac8b944b97c9a5e5469eaae58db3efd7ea0baa5574699db66fd7759b4"
+    },
+    {
+      "path": "public/assets/auth/keyboard.png",
+      "bytes": 9141,
+      "sha256": "365f0d140d77ad1a65d331952979113984fd0320d0a7b3dc065ee61b2ceea626",
+      "pixels": [
+        430,
+        301
+      ]
+    }
+  ],
+  "implementation_changes": [
+    "Telegram replaced by SMS per user request",
+    "Phone copy typos corrected",
+    "Error subtitle normalized to English",
+    "Live status bar, original template iPhone bezel and Home Indicator",
+    "Accessible focus styles, dynamic resend and local success/info sheets"
+  ],
+  "publications": {
+    "figma_modified": false,
+    "github_pushed": false,
+    "deployed": false
+  }
+}

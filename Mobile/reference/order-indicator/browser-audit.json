@@ -1,0 +1,59 @@
+{
+  "phone": [
+    {
+      "background": "rgb(117, 117, 117)",
+      "color": "rgb(69, 69, 69)",
+      "disabled": true,
+      "transition": "opacity 0.15s, background-color 0.18s, color 0.18s, border-color 0.18s"
+    },
+    {
+      "background": "rgb(234, 92, 0)",
+      "color": "rgb(255, 255, 255)",
+      "disabled": false,
+      "transition": "opacity 0.15s, background-color 0.18s, color 0.18s, border-color 0.18s"
+    },
+    {
+      "background": "rgb(117, 117, 117)",
+      "color": "rgb(69, 69, 69)",
+      "disabled": true,
+      "transition": "opacity 0.15s, background-color 0.18s, color 0.18s, border-color 0.18s"
+    }
+  ],
+  "code": {
+    "background": "rgb(234, 92, 0)",
+    "disabled": false,
+    "transition": "opacity 0.15s, background-color 0.18s, color 0.18s, border-color 0.18s"
+  },
+  "indicator": {
+    "background": "rgb(25, 25, 25)",
+    "body": {
+      "height": 651.0102106292615,
+      "width": 430,
+      "x": 0,
+      "y": 280.98900341830966
+    },
+    "button": {
+      "height": 69.98812454386564,
+      "width": 399.98743334985534,
+      "x": 14.990830413734354,
+      "y": 128.9612936157123
+    },
+    "image": {
+      "height": 51.996052043335055,
+      "width": 51.99602774630465,
+      "x": 343.9845276510377,
+      "y": 137.94961555882378
+    },
+    "imageLoaded": true,
+    "imageSource": "/assets/active-order/courier-banner.png",
+    "oldProgressCount": 0,
+    "radius": "50px",
+    "text": "Looking for courierFree delivery • 12:20–12:35 PM"
+  },
+  "reopen": {
+    "verified": true,
+    "screen": "Active order",
+    "sameStatus": "Looking for courier"
+  },
+  "console": []
+}

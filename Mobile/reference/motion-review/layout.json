@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-12",
+  "before": {
+    "headerHeight": "0px",
+    "sceneTop": "0px",
+    "screen": {
+      "bottom": 1110.984375,
+      "height": 932,
+      "left": 315.984375,
+      "right": 745.984375,
+      "top": 178.984375,
+      "width": 430,
+      "x": 315.984375,
+      "y": 178.984375
+    }
+  },
+  "after": {
+    "footerBottom": "301px",
+    "keyboardHeight": 301,
+    "keyboardVisible": "true",
+    "sceneTop": "122px"
+  }
+}

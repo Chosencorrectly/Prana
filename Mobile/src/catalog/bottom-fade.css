@@ -1,0 +1,6 @@
+.prana-bottom-fade { position: absolute; inset: 0; pointer-events: none; }
+.prana-bottom-fade > span { position: absolute; inset: 0; pointer-events: none; }
+.prana-fade-soft { backdrop-filter: blur(4px); mask-image: linear-gradient(to bottom, transparent, rgb(0 0 0 / var(--dock-fade-opacity, 1)) 65%); }
+.prana-fade-medium { backdrop-filter: blur(12px); mask-image: linear-gradient(to bottom, transparent 20%, rgb(0 0 0 / var(--dock-fade-opacity, 1)) 85%); }
+.prana-fade-deep { backdrop-filter: blur(34px); mask-image: linear-gradient(to bottom, transparent 45%, rgb(0 0 0 / var(--dock-fade-opacity, 1))); }
+.prana-fade-shade { background: linear-gradient(to bottom, rgb(18 18 18 / 0), rgb(0 0 0 / var(--dock-fade-opacity, 1))); }

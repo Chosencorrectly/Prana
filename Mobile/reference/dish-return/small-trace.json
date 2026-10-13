@@ -1,0 +1,82 @@
+[
+  {
+    "ms": 287,
+    "kcalOpacity": "0",
+    "opacity": "0",
+    "phase": "closing",
+    "quantity": "1",
+    "returning": "true"
+  },
+  {
+    "ms": 375,
+    "kcalOpacity": "0",
+    "opacity": "0",
+    "phase": "closing",
+    "quantity": "1",
+    "returning": "true"
+  },
+  {
+    "ms": 450,
+    "kcalOpacity": "0.62318",
+    "opacity": "0.62318",
+    "phase": "catalog",
+    "quantity": "1",
+    "returning": null
+  },
+  {
+    "ms": 510,
+    "kcalOpacity": "0.941474",
+    "opacity": "0.941474",
+    "phase": "catalog",
+    "quantity": "1",
+    "returning": null
+  },
+  {
+    "ms": 575,
+    "kcalOpacity": "0.994581",
+    "opacity": "0.994581",
+    "phase": "catalog",
+    "quantity": "1",
+    "returning": null
+  },
+  {
+    "ms": 619,
+    "kcalOpacity": "1",
+    "opacity": "1",
+    "phase": "catalog",
+    "quantity": "1",
+    "returning": null
+  },
+  {
+    "ms": 673,
+    "kcalOpacity": "1",
+    "opacity": "1",
+    "phase": "catalog",
+    "quantity": "1",
+    "returning": null
+  },
+  {
+    "ms": 738,
+    "kcalOpacity": "1",
+    "opacity": "1",
+    "phase": "catalog",
+    "quantity": "1",
+    "returning": null
+  },
+  {
+    "ms": 795,
+    "kcalOpacity": "1",
+    "opacity": "1",
+    "phase": "catalog",
+    "quantity": "1",
+    "returning": null
+  },
+  {
+    "ms": 851,
+    "kcalOpacity": "1",
+    "opacity": "1",
+    "phase": "catalog",
+    "quantity": "1",
+    "returning": null
+  }
+]

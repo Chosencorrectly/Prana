@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-12 Europe/Moscow",
+  "control": "Continue with Phone",
+  "before": {
+    "hovered": false,
+    "background": "rgb(255, 255, 255)",
+    "color": "rgb(0, 0, 0)",
+    "opacity": "1"
+  },
+  "after": {
+    "background": "rgb(255, 255, 255)",
+    "color": "rgb(0, 0, 0)",
+    "hovered": true,
+    "opacity": "1",
+    "transition": "opacity"
+  }
+}

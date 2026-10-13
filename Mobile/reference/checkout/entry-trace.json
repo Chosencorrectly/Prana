@@ -1,0 +1,83 @@
+[
+  {
+    "elapsed": 0,
+    "active": "false",
+    "ancestorOpacity": null,
+    "dockOpacity": null,
+    "fade": null,
+    "sceneOpacity": null,
+    "sceneTransform": null
+  },
+  {
+    "elapsed": 90,
+    "active": "false",
+    "ancestorOpacity": null,
+    "dockOpacity": null,
+    "fade": null,
+    "sceneOpacity": null,
+    "sceneTransform": null
+  },
+  {
+    "elapsed": 182,
+    "active": "true",
+    "ancestorOpacity": "1",
+    "dockOpacity": "1",
+    "fade": "0.6022135683277157",
+    "sceneOpacity": "0",
+    "sceneTransform": "matrix(1, 0, 0, 1, 24, 0)"
+  },
+  {
+    "elapsed": 420,
+    "active": "true",
+    "ancestorOpacity": "1",
+    "dockOpacity": "1",
+    "fade": "0.939437500812346",
+    "sceneOpacity": "0.1725",
+    "sceneTransform": "matrix(1, 0, 0, 1, 15.7147, 0)"
+  },
+  {
+    "elapsed": 506,
+    "active": "true",
+    "ancestorOpacity": "1",
+    "dockOpacity": "1",
+    "fade": "0.9978047215670813",
+    "sceneOpacity": "0.5775",
+    "sceneTransform": "matrix(1, 0, 0, 1, 4.34642, 0)"
+  },
+  {
+    "elapsed": 573,
+    "active": "true",
+    "ancestorOpacity": "1",
+    "dockOpacity": "1",
+    "fade": "1",
+    "sceneOpacity": "0.867083",
+    "sceneTransform": "matrix(1, 0, 0, 1, 0.4154, 0)"
+  },
+  {
+    "elapsed": 662,
+    "active": "true",
+    "ancestorOpacity": "1",
+    "dockOpacity": "1",
+    "fade": "1",
+    "sceneOpacity": "1",
+    "sceneTransform": "none"
+  },
+  {
+    "elapsed": 745,
+    "active": "true",
+    "ancestorOpacity": "1",
+    "dockOpacity": "1",
+    "fade": "1",
+    "sceneOpacity": "1",
+    "sceneTransform": "none"
+  },
+  {
+    "elapsed": 814,
+    "active": "true",
+    "ancestorOpacity": "1",
+    "dockOpacity": "1",
+    "fade": "1",
+    "sceneOpacity": "1",
+    "sceneTransform": "none"
+  }
+]

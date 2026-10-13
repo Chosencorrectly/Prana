@@ -1,0 +1,418 @@
+[
+  {
+    "elapsed": 270,
+    "layout": {
+      "items": [
+        {
+          "class": "flow-step-surface",
+          "opacity": "1",
+          "step": null,
+          "top": 61.99999899351679,
+          "transform": "none"
+        },
+        {
+          "class": "flow-screen flow-step-scene",
+          "opacity": "0",
+          "step": "splash",
+          "top": 0,
+          "transform": "matrix(1, 0, 0, 1, -24, 0)"
+        },
+        {
+          "class": "flow-screen flow-step-scene",
+          "opacity": "0",
+          "step": "sign-in",
+          "top": 0,
+          "transform": "matrix(1, 0, 0, 1, -24, 0)"
+        },
+        {
+          "class": "flow-screen flow-step-scene",
+          "opacity": "0.783333",
+          "step": "phone",
+          "top": 0,
+          "transform": "matrix(1, 0, 0, 1, 1.62049, 0)"
+        },
+        {
+          "class": "flow-fixed-footer",
+          "opacity": "1",
+          "step": null,
+          "top": 551.9999894878421,
+          "transform": "none"
+        },
+        {
+          "class": "keyboard-dock",
+          "opacity": "1",
+          "step": null,
+          "top": 681.6980713656981,
+          "transform": "matrix(1, 0, 0, 1, 0, 50.6981)"
+        }
+      ],
+      "sceneTop": "0px",
+      "screenScrollTop": 0,
+      "state": "transitioning"
+    }
+  },
+  {
+    "elapsed": 310,
+    "layout": {
+      "items": [
+        {
+          "class": "flow-step-surface",
+          "opacity": "1",
+          "step": null,
+          "top": 61.99999899351679,
+          "transform": "none"
+        },
+        {
+          "class": "flow-screen flow-step-scene",
+          "opacity": "0",
+          "step": "splash",
+          "top": 0,
+          "transform": "matrix(1, 0, 0, 1, -24, 0)"
+        },
+        {
+          "class": "flow-screen flow-step-scene",
+          "opacity": "0",
+          "step": "sign-in",
+          "top": 0,
+          "transform": "matrix(1, 0, 0, 1, -24, 0)"
+        },
+        {
+          "class": "flow-screen flow-step-scene",
+          "opacity": "0.927917",
+          "step": "phone",
+          "top": 0,
+          "transform": "matrix(1, 0, 0, 1, 0.363901, 0)"
+        },
+        {
+          "class": "flow-fixed-footer",
+          "opacity": "1",
+          "step": null,
+          "top": 551.9999894878421,
+          "transform": "none"
+        },
+        {
+          "class": "keyboard-dock",
+          "opacity": "1",
+          "step": null,
+          "top": 654.2774071248051,
+          "transform": "matrix(1, 0, 0, 1, 0, 23.2774)"
+        }
+      ],
+      "sceneTop": "0px",
+      "screenScrollTop": 0,
+      "state": "transitioning"
+    }
+  },
+  {
+    "elapsed": 340,
+    "layout": {
+      "items": [
+        {
+          "class": "flow-step-surface",
+          "opacity": "1",
+          "step": null,
+          "top": 61.99999899351679,
+          "transform": "none"
+        },
+        {
+          "class": "flow-screen flow-step-scene",
+          "opacity": "0",
+          "step": "splash",
+          "top": 0,
+          "transform": "matrix(1, 0, 0, 1, -24, 0)"
+        },
+        {
+          "class": "flow-screen flow-step-scene",
+          "opacity": "0",
+          "step": "sign-in",
+          "top": 0,
+          "transform": "matrix(1, 0, 0, 1, -24, 0)"
+        },
+        {
+          "class": "flow-screen flow-step-scene",
+          "opacity": "1",
+          "step": "phone",
+          "top": 0,
+          "transform": "none"
+        },
+        {
+          "class": "flow-fixed-footer",
+          "opacity": "1",
+          "step": null,
+          "top": 551.9999894878421,
+          "transform": "none"
+        },
+        {
+          "class": "keyboard-dock",
+          "opacity": "1",
+          "step": null,
+          "top": 641.3064688800424,
+          "transform": "matrix(1, 0, 0, 1, 0, 10.3064)"
+        }
+      ],
+      "sceneTop": "0px",
+      "screenScrollTop": 0,
+      "state": "transitioning"
+    }
+  },
+  {
+    "elapsed": 376,
+    "layout": {
+      "items": [
+        {
+          "class": "flow-step-surface",
+          "opacity": "1",
+          "step": null,
+          "top": 61.99999899351679,
+          "transform": "none"
+        },
+        {
+          "class": "flow-screen flow-step-scene",
+          "opacity": "0",
+          "step": "splash",
+          "top": 0,
+          "transform": "matrix(1, 0, 0, 1, -24, 0)"
+        },
+        {
+          "class": "flow-screen flow-step-scene",
+          "opacity": "0",
+          "step": "sign-in",
+          "top": 0,
+          "transform": "matrix(1, 0, 0, 1, -24, 0)"
+        },
+        {
+          "class": "flow-screen flow-step-scene",
+          "opacity": "1",
+          "step": "phone",
+          "top": 0,
+          "transform": "none"
+        },
+        {
+          "class": "flow-fixed-footer",
+          "opacity": "1",
+          "step": null,
+          "top": 551.9999894878421,
+          "transform": "none"
+        },
+        {
+          "class": "keyboard-dock",
+          "opacity": "1",
+          "step": null,
+          "top": 634.8921693034475,
+          "transform": "matrix(1, 0, 0, 1, 0, 3.89213)"
+        }
+      ],
+      "sceneTop": "0px",
+      "screenScrollTop": 0,
+      "state": "transitioning"
+    }
+  },
+  {
+    "elapsed": 411,
+    "layout": {
+      "items": [
+        {
+          "class": "flow-step-surface",
+          "opacity": "1",
+          "step": null,
+          "top": 61.99999899351679,
+          "transform": "none"
+        },
+        {
+          "class": "flow-screen flow-step-scene",
+          "opacity": "0",
+          "step": "splash",
+          "top": 0,
+          "transform": "matrix(1, 0, 0, 1, -24, 0)"
+        },
+        {
+          "class": "flow-screen flow-step-scene",
+          "opacity": "0",
+          "step": "sign-in",
+          "top": 0,
+          "transform": "matrix(1, 0, 0, 1, -24, 0)"
+        },
+        {
+          "class": "flow-screen flow-step-scene",
+          "opacity": "1",
+          "step": "phone",
+          "top": 0,
+          "transform": "none"
+        },
+        {
+          "class": "flow-fixed-footer",
+          "opacity": "1",
+          "step": null,
+          "top": 551.9999894878421,
+          "transform": "none"
+        },
+        {
+          "class": "keyboard-dock",
+          "opacity": "1",
+          "step": null,
+          "top": 631.995424527347,
+          "transform": "matrix(1, 0, 0, 1, 0, 0.995435)"
+        }
+      ],
+      "sceneTop": "0px",
+      "screenScrollTop": 0,
+      "state": "transitioning"
+    }
+  },
+  {
+    "elapsed": 446,
+    "layout": {
+      "items": [
+        {
+          "class": "flow-step-surface",
+          "opacity": "1",
+          "step": null,
+          "top": 61.99999899351679,
+          "transform": "none"
+        },
+        {
+          "class": "flow-screen flow-step-scene",
+          "opacity": "0",
+          "step": "splash",
+          "top": 0,
+          "transform": "matrix(1, 0, 0, 1, -24, 0)"
+        },
+        {
+          "class": "flow-screen flow-step-scene",
+          "opacity": "0",
+          "step": "sign-in",
+          "top": 0,
+          "transform": "matrix(1, 0, 0, 1, -24, 0)"
+        },
+        {
+          "class": "flow-screen flow-step-scene",
+          "opacity": "1",
+          "step": "phone",
+          "top": 0,
+          "transform": "none"
+        },
+        {
+          "class": "flow-fixed-footer",
+          "opacity": "1",
+          "step": null,
+          "top": 551.9999894878421,
+          "transform": "none"
+        },
+        {
+          "class": "keyboard-dock",
+          "opacity": "1",
+          "step": null,
+          "top": 631.0240083148932,
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0239609)"
+        }
+      ],
+      "sceneTop": "0px",
+      "screenScrollTop": 0,
+      "state": "idle"
+    }
+  },
+  {
+    "elapsed": 481,
+    "layout": {
+      "items": [
+        {
+          "class": "flow-step-surface",
+          "opacity": "1",
+          "step": null,
+          "top": 61.99999899351679,
+          "transform": "none"
+        },
+        {
+          "class": "flow-screen flow-step-scene",
+          "opacity": "0",
+          "step": "splash",
+          "top": 0,
+          "transform": "matrix(1, 0, 0, 1, -24, 0)"
+        },
+        {
+          "class": "flow-screen flow-step-scene",
+          "opacity": "0",
+          "step": "sign-in",
+          "top": 0,
+          "transform": "matrix(1, 0, 0, 1, -24, 0)"
+        },
+        {
+          "class": "flow-screen flow-step-scene",
+          "opacity": "1",
+          "step": "phone",
+          "top": 0,
+          "transform": "none"
+        },
+        {
+          "class": "flow-fixed-footer",
+          "opacity": "1",
+          "step": null,
+          "top": 551.9999894878421,
+          "transform": "none"
+        },
+        {
+          "class": "keyboard-dock",
+          "opacity": "1",
+          "step": null,
+          "top": 631.0000126369557,
+          "transform": "none"
+        }
+      ],
+      "sceneTop": "0px",
+      "screenScrollTop": 0,
+      "state": "idle"
+    }
+  },
+  {
+    "elapsed": 514,
+    "layout": {
+      "items": [
+        {
+          "class": "flow-step-surface",
+          "opacity": "1",
+          "step": null,
+          "top": 61.99999899351679,
+          "transform": "none"
+        },
+        {
+          "class": "flow-screen flow-step-scene",
+          "opacity": "0",
+          "step": "splash",
+          "top": 0,
+          "transform": "matrix(1, 0, 0, 1, -24, 0)"
+        },
+        {
+          "class": "flow-screen flow-step-scene",
+          "opacity": "0",
+          "step": "sign-in",
+          "top": 0,
+          "transform": "matrix(1, 0, 0, 1, -24, 0)"
+        },
+        {
+          "class": "flow-screen flow-step-scene",
+          "opacity": "1",
+          "step": "phone",
+          "top": 0,
+          "transform": "none"
+        },
+        {
+          "class": "flow-fixed-footer",
+          "opacity": "1",
+          "step": null,
+          "top": 551.9999894878421,
+          "transform": "none"
+        },
+        {
+          "class": "keyboard-dock",
+          "opacity": "1",
+          "step": null,
+          "top": 631.0000126369557,
+          "transform": "none"
+        }
+      ],
+      "sceneTop": "0px",
+      "screenScrollTop": 0,
+      "state": "idle"
+    }
+  }
+]

@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-12",
+  "timezone": "Europe/Moscow",
+  "decision": "D-46",
+  "fileKey": "sVUfk3wL7MabAwk1PIV1fv",
+  "nodes": [
+    {
+      "id": "1294:1990",
+      "purpose": "Initial dish viewport",
+      "screenshot": "figma-initial.png"
+    },
+    {
+      "id": "1294:2579",
+      "purpose": "Below-fold content",
+      "screenshot": "figma-content.png"
+    }
+  ],
+  "inspected": [
+    "get_design_context with Code Connect enabled",
+    "source screenshots",
+    "download_assets"
+  ],
+  "geometry": {
+    "viewport": [
+      430,
+      932
+    ],
+    "panelTop": 115,
+    "hero": [
+      430,
+      817
+    ],
+    "topRadius": 32,
+    "close": [
+      16,
+      16,
+      45,
+      45
+    ],
+    "fadeHeight": 318,
+    "button": [
+      252,
+      64
+    ],
+    "buttonBottom": 48,
+    "aboutPadding": [
+      24,
+      16
+    ],
+    "nutritionHeight": 69
+  },
+  "adaptations": [
+    "Existing runtime status/delivery header retained; no mapped component package installed.",
+    "Dynamic source catalogue photos, full descriptions and prices used for all87 products.",
+    "Nutrition uses catalogue values (Chia535/12/29/61) instead of placeholder48/.7/.2/11.3.",
+    "Only Chia345g comes from supplied Figma; no inferred weights for other dishes.",
+    "Dish title600 follows user's prior semibold decision; source title700.",
+    "Fade grows only for longer real text; Chia retains318px.",
+    "CTA48px follows explicit user request (source initial frame rounds to47px)."
+  ],
+  "assets": [
+    {
+      "path": "public/assets/dish/close.svg",
+      "source": "Figma white Close variant",
+      "native": [
+        12.8333,
+        12.8333
+      ]
+    },
+    {
+      "path": "public/assets/dish/basket.svg",
+      "source": "Figma initial Add to Cart icon",
+      "native": [
+        16,
+        16
+      ]
+    }
+  ],
+  "constraints": [
+    "No Figma edits, backend, cart page, checkout or publication.",
+    "Physical touch and system reduced motion not yet verified."
+  ]
+}

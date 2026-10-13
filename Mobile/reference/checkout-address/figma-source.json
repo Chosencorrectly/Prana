@@ -1,0 +1,75 @@
+{
+  "iteration": "D-57",
+  "date": "2026-10-13",
+  "timezone": "Europe/Moscow",
+  "fileKey": "sVUfk3wL7MabAwk1PIV1fv",
+  "description": "1057:1242",
+  "section": "1309:3490",
+  "notes": [
+    "1094:1368",
+    "1094:1378",
+    "1094:1388",
+    "1094:1398",
+    "1094:1408",
+    "1094:1418",
+    "1094:1428"
+  ],
+  "highFidelity": [
+    "1057:1188",
+    "1068:3461",
+    "1069:3710",
+    "1070:4122",
+    "1071:4418"
+  ],
+  "assets": {
+    "map.png": {
+      "node": "1068:3466",
+      "width": 889,
+      "height": 1147
+    },
+    "pin.svg": {
+      "node": "1068:3576",
+      "size": 40
+    },
+    "home.svg": {
+      "node": "1057:1200",
+      "size": 13
+    },
+    "selected.svg": {
+      "node": "1057:1201",
+      "size": 22
+    },
+    "unselected.svg": {
+      "node": "1057:1213",
+      "size": 22
+    },
+    "edit.svg": {
+      "node": "1057:1204",
+      "size": 18
+    },
+    "edit-location.svg": {
+      "node": "1072:4558",
+      "size": 24
+    },
+    "result-divider.svg": {
+      "node": "1069:3901",
+      "width": 370,
+      "height": 1
+    }
+  },
+  "reusedAssets": [
+    "assets/checkout/phone-back.svg",
+    "assets/checkout/close.svg",
+    "assets/auth/keyboard.png"
+  ],
+  "adaptations": [
+    "Pickup excluded from new flow by user",
+    "safe area62 replaces55 in search",
+    "Back to checkout over list map",
+    "Single source divider with progressive blur replaces pre-faded lower divider copies",
+    "Local six-address geocoder and pixel delivery zone, not real geography",
+    "Details expand to safe area above keyboard",
+    "Committed address shared with Cart/Menu; source initial header spelling unified"
+  ],
+  "publication": false
+}

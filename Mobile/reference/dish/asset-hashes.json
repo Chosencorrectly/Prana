@@ -1,0 +1,10 @@
+[
+  {
+    "sha256": "9fcba2dbe3fd0862ccac32fe3b045f9b83663654e8147d4217d30ec10b67f7fe",
+    "path": "public/assets/dish/basket.svg"
+  },
+  {
+    "sha256": "e1d5d1985cec95a327dc8e29df4fbd21b6689005df965266e13edf6ce4f47f41",
+    "path": "public/assets/dish/close.svg"
+  }
+]

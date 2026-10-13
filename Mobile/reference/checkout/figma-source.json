@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-13",
+  "timezone": "Europe/Moscow",
+  "iteration": "D-53",
+  "fileKey": "sVUfk3wL7MabAwk1PIV1fv",
+  "nodeId": "1028:34599",
+  "sourceUrl": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1028-34599",
+  "sourceFrame": {
+    "width": 430,
+    "height": 1568
+  },
+  "context": "High-fidelity get_design_context for the complete Delivery frame; metadata and screenshot inspected; motion nodes empty.",
+  "sourceNodes": {
+    "header": "1028:34605",
+    "tabs": "1028:34612",
+    "address": "1028:34618",
+    "leave": "1028:34628",
+    "time": "1028:34637,1028:34640,1028:34643",
+    "promo": "1028:34664",
+    "calculation": "1028:34686",
+    "points": "1028:34669",
+    "payment": "1028:34647",
+    "footer": "1028:34706",
+    "closeVector": "I1028:34609;54616:25406"
+  },
+  "geometry": {
+    "sourceTop": 56,
+    "runtimeTop": 62,
+    "toolbarHeight": 60,
+    "tabs": [
+      400,
+      59
+    ],
+    "address": [
+      400,
+      130
+    ],
+    "leave": [
+      400,
+      73
+    ],
+    "promo": [
+      400,
+      65
+    ],
+    "calculation": [
+      400,
+      221
+    ],
+    "points": [
+      400,
+      160
+    ],
+    "paymentCard": [
+      154,
+      106
+    ],
+    "orderButton": [
+      399,
+      54
+    ],
+    "orderBottom": 36,
+    "totalBottom": 105,
+    "footerFadeHeight": 211
+  },
+  "assets": [
+    {
+      "file": "public/assets/checkout/address-divider.svg",
+      "bytes": 238,
+      "width": "372",
+      "height": "1",
+      "sha256": "a32b14287f5c5e7dce1d47fc2c7070a080fbb53843220bbdf89976aa91cc6daf"
+    },
+    {
+      "file": "public/assets/checkout/chevron.svg",
+      "bytes": 348,
+      "width": "18",
+      "height": "18",
+      "sha256": "2a5c35c83b7efcaa36e516eec29b3aded0b1800c23af9567b41db416d7d25f88"
+    },
+    {
+      "file": "public/assets/checkout/close.svg",
+      "bytes": 390,
+      "width": "11.6667",
+      "height": "11.6667",
+      "sha256": "72c492d41de55e76cbf63569ae29bb58eb6dec17ee2385f16e28b21e63ea801d"
+    },
+    {
+      "file": "public/assets/checkout/house.svg",
+      "bytes": 799,
+      "width": "24",
+      "height": "24",
+      "sha256": "119c3880ac54480449cf1365471747869d5dc6000d802635ccec66fba792ab10"
+    },
+    {
+      "file": "public/assets/checkout/mastercard.svg",
+      "bytes": 811,
+      "width": "22",
+      "height": "14",
+      "sha256": "49fd7258ac550e6a23a8848e8ab0c026e8ba9d99a2ff14a6bb38b559c9daf8b1"
+    },
+    {
+      "file": "public/assets/checkout/payment-divider.svg",
+      "bytes": 303,
+      "width": "400",
+      "height": "1.00003",
+      "sha256": "d32bbb84e2f822d4687e6c06c5f66e12d9e802156fde79f503a3b9aee59f2299"
+    },
+    {
+      "file": "public/assets/checkout/points-circle.svg",
+      "bytes": 239,
+      "width": "50",
+      "height": "50",
+      "sha256": "df4dacaf1ded0f823b3de0ade184076081977984380804e42ca17f24f05e25dd"
+    },
+    {
+      "file": "public/assets/checkout/points-divider.svg",
+      "bytes": 238,
+      "width": "360",
+      "height": "1",
+      "sha256": "38ed4ff28951572129bbe2d642de7e63cf0dd45bb8d3a421629939b6ac6b71c6"
+    },
+    {
+      "file": "public/assets/checkout/points-mark.svg",
+      "bytes": 2959,
+      "width": "20",
+      "height": "20",
+      "sha256": "f0afa5f6202ba55a0bdc24b07c6e2d4d41ef8a3f67915beda9ef4251d0a325d7"
+    },
+    {
+      "file": "public/assets/checkout/promo-loader.svg",
+      "bytes": 1876,
+      "width": "24",
+      "height": "24",
+      "sha256": "7fcbbc42b46c4c679274c2eb86094a4776f3b8795016a3233e3bb46ab8270d31"
+    },
+    {
+      "file": "public/assets/checkout/promo.svg",
+      "bytes": 2810,
+      "width": "24",
+      "height": "24",
+      "sha256": "2717c0e1d3783a913e53421679bbde7c322675cb734884ea8b2c83a8b7c624d9"
+    },
+    {
+      "file": "public/assets/checkout/section-divider.svg",
+      "bytes": 238,
+      "width": "400",
+      "height": "1",
+      "sha256": "22315174d7da61c4a328bbe9c3dcf0b38e75230114f335787bb04c80bba412c4"
+    },
+    {
+      "file": "public/assets/checkout/summary-divider.svg",
+      "bytes": 238,
+      "width": "368",
+      "height": "1",
+      "sha256": "ea2539ca41fce1d530b9e462b71a459ced0b8680093865496269bc625236252f"
+    }
+  ],
+  "assetNotes": [
+    "Close Code Connect pointed at Material 3 Close without an importable project component; the exact vector was downloaded and matches the existing cart SVG SHA-256.",
+    "house.svg and promo.svg have native24px roots. Original16px/18px Figma instance slots are reproduced via wrapper scaling; root attributes stay unchanged.",
+    "Divider IMG dimensions explicitly match SVG roots to avoid intrinsic-size rounding drift.",
+    "promo-loader.svg is copied unchanged from desktop.",
+    "Source image67 status-bar raster is superseded by the protected live device chrome per AGENTS.md."
+  ],
+  "reuse": [
+    "Existing phone-scoped BottomSheet and FlowStack/authStep; protected29 runtime files unchanged.",
+    "MobileScroll, Carousel, KeyboardInput, CartValue and common quantities.",
+    "Typed port of desktop promo controller:400ms debounce,650ms validation,1111 => -10%,150ms feedback,700ms continuous loader; stale callbacks and IME handled.",
+    "Shared BottomFade uses the existing catalogue4/12/34px masks."
+  ],
+  "adaptations": [
+    "1568px design becomes scrollable content; header/total/Order stay fixed in430x932.",
+    "Source y56 is calibrated to runtime safe-area62; other document landmarks shift6px.",
+    "Footer receives progressive bottom blur at user request; cart previously had only gradients and now uses the same component.",
+    "Delivery footer is portaled outside FlowStack scene opacity; only the blur mask alpha changes.",
+    "Checkout keeps the cart sheet fixed when keyboard opens; MobileScroll shrinks and input scrolls above the keyboard/dock.",
+    "Source sample prices/count/discount replaced by real shared cart values.",
+    "Leave-at-door/time/saved-card selection are local prototype state.",
+    "Cart quantities remain base-price amounts; checkout summary applies its optional promo discount."
+  ],
+  "fixtures": [
+    "Source address and courier comment",
+    "Repeated 11:20 - 12:30 PM slots",
+    "476 points / apply300 save$20 / June7",
+    "Two cards *4344",
+    "Free delivery / +$2 accrual"
+  ],
+  "deferred": [
+    "Pickup",
+    "Address/phone/note edit flows",
+    "Points redemption",
+    "Add card",
+    "Order placement and tracking"
+  ],
+  "motion": "User-requested reuse of approved Prana principles, not exported Figma keyframes.",
+  "approval": "D-52 closing approved by user in this request; D-53 checkout awaits evaluation.",
+  "publication": "Local only; no Figma write or GitHub/Vercel/Sites publication."
+}

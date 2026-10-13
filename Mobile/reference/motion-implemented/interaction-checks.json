@@ -1,0 +1,28 @@
+{
+  "checks": [
+    "Phone → Code: keyboard visible, transform none, target input focused",
+    "Code → Phone: keyboard visible, transform none, target input focused",
+    "Escape hides; refocus opens",
+    "5330 shows error; 1111 opens success sheet"
+  ],
+  "rapidBack": [
+    {
+      "scenario": "rapid-back",
+      "elapsedBeforeBack": 281
+    },
+    {
+      "activeScenes": 1,
+      "focus": null,
+      "keyboard": "false",
+      "scenario": "after-rapid-back",
+      "state": "transitioning",
+      "step": "sign-in"
+    }
+  ],
+  "limits": [
+    "Tool click returned after ~281ms; earlier cancellation covered by model tests",
+    "OS reduced motion and touch not emulated",
+    "Screenshots are JPEG, sampled rather than video"
+  ],
+  "date": "2026-10-12 Europe/Moscow"
+}

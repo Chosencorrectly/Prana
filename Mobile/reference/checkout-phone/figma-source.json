@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-13",
+  "timezone": "Europe/Moscow",
+  "iteration": "D-56",
+  "fileKey": "sVUfk3wL7MabAwk1PIV1fv",
+  "source": {
+    "overview": "1306:3489",
+    "explanation": "1056:1028",
+    "notes": [
+      "1094:1439",
+      "1094:1449",
+      "1094:1459",
+      "1094:1469",
+      "1094:1479",
+      "1094:1489"
+    ],
+    "screens": [
+      "1055:750",
+      "1056:881",
+      "1065:2814",
+      "1065:2973",
+      "1065:3149",
+      "1065:3317"
+    ],
+    "inspectedPanels": [
+      "1056:891",
+      "1065:2820",
+      "1065:2979",
+      "1065:3155"
+    ],
+    "supportScreen": "1057:1031",
+    "supportPanel": "1057:1162"
+  },
+  "geometry": {
+    "viewport": [
+      430,
+      932
+    ],
+    "phonePanel": {
+      "top": 368,
+      "height": 564,
+      "contentAboveKeyboard": 263,
+      "field": [
+        15,
+        456,
+        400,
+        61
+      ]
+    },
+    "codePanel": {
+      "top": 226,
+      "height": 706,
+      "contentAboveKeyboard": 405,
+      "slots": [
+        72,
+        395,
+        285,
+        70
+      ]
+    },
+    "continue": [
+      16,
+      549,
+      399,
+      54
+    ],
+    "keyboard": {
+      "top": 631,
+      "height": 301
+    },
+    "support": {
+      "width": 400,
+      "height": 211,
+      "gapBefore": 32,
+      "title": {
+        "top": 24,
+        "size": 24
+      },
+      "body": {
+        "top": 69,
+        "width": 277,
+        "size": 16
+      },
+      "button": {
+        "left": 20,
+        "top": 137,
+        "width": 360,
+        "height": 50
+      },
+      "icon": [
+        20,
+        20
+      ]
+    }
+  },
+  "assets": [
+    {
+      "file": "public/assets/checkout/phone-back.svg",
+      "node": "1065:425",
+      "root": [
+        18,
+        18
+      ],
+      "source": "https://www.figma.com/api/mcp/asset/9905b322-3c19-4e68-85de-72747d2a9017/6f490.svg",
+      "render": "original SVG, rotate180 as source"
+    },
+    {
+      "file": "public/assets/checkout/whatsapp.svg",
+      "node": "1066:3453",
+      "root": [
+        20,
+        20
+      ],
+      "source": "https://www.figma.com/api/mcp/asset/c74ffd75-d5dd-4dc6-bac6-fc98ffcb9a52/c54bb.svg",
+      "render": "original SVG"
+    }
+  ],
+  "adaptations": [
+    "Default account phone is unconfirmed even after the independent sign-in demo; user explicitly requests the missing-phone checkout fixture.",
+    "Checkout header preserves D-54 Checkout/Back to cart/Close instead of the older Figma Cart header.",
+    "SMS uses requested 1111; source digits3 are illustrative. Resend interval43 seconds is a local demo choice based on the displayed remaining count, not a production API policy.",
+    "Reuses international phone normalization/7–15 digit plausibility check from auth; input validity does not mean a real number exists.",
+    "Verification is an internal state of the same sheet/FlowStack, not another modal. Single opaque panel morphs top over320ms; authStep contents24px, 140/240ms; shared keyboard.",
+    "All footer fades reuse portaled BottomFade4/12/34 outside opacity-animated content. Phone/Code CTA reserves keyboard height during initial focus transfer.",
+    "Verified number and drafts live in CatalogProvider and survive sheet closing/cart clearing; reload resets local prototype. No backend or real SMS.",
+    "Support action is aria-disabled because no WhatsApp destination exists in inspected Figma or web footer. Only checkout contains the block.",
+    "Order after confirmation remains a visual next-stage action; order submission/tracking are outside this iteration."
+  ]
+}

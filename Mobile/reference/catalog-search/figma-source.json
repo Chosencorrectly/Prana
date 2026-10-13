@@ -1,0 +1,34 @@
+{
+  "inspectedDate": "2026-10-12",
+  "timezone": "Europe/Moscow",
+  "fileKey": "sVUfk3wL7MabAwk1PIV1fv",
+  "section": "1240:667",
+  "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1240-667",
+  "states": { "collapsed": "1240:668", "emptyInput": "1240:1839", "results": "1240:3011", "noResults": "1242:4306" },
+  "contexts": ["1242:4264", "1242:4265", "1242:4291", "1242:5467", "1240:3016", "1242:4311"],
+  "sourceGeometry": {
+    "canvas": [430, 932], "dock": [0, 797, 430.1584, 135.4396],
+    "up": [15, 840, 49, 49], "search": [218, 839, 64, 50], "cart": [298, 840, 117, 49],
+    "input": [15, 839, 400, 50], "searchFill": "#413c37", "cartFill": "#ea5c00",
+    "blur": { "type": "BACKGROUND_BLUR", "blurType": "PROGRESSIVE", "startRadius": 0, "radius": 34 }
+  },
+  "prototypeReactions": "Read the four frames, dock and search surfaces with use_figma: all inspected reactions arrays empty. Behaviour inferred from the four visible states and the user request; motion parameters follow local Prana rules.",
+  "codeConnect": "Search, ShoppingCart and ArrowUp snippets reference Simple Design System without usable imports; these components are absent from mobile dependencies/source. Fetched high-fidelity context for their original child vectors and downloaded those exact SVGs instead.",
+  "assets": [
+    { "path": "public/assets/catalog-tools/search.svg", "node": "I1242:4250;7758:12193", "rootSize": [16.575,16.575], "slot": [20,20], "offset": [1.7125,1.7125], "sha256": "84D477FD98122FEEF36F79CDCD1700DDDB493C59D9B6E863C699BCBF3144FEB1" },
+    { "path": "public/assets/catalog-tools/cart.svg", "node": "I1242:4240;7758:12247", "rootSize": [20.0833,19.25], "slot": [20,20], "offset": [-0.0417,-0.0417], "sha256": "B6AFFD175F5E1430F6535DB70A0A5FED285EC05D0F9964D8279B3781A94852C0" },
+    { "path": "public/assets/catalog-tools/up.svg", "node": "I1242:4244;7758:11081", "rootSize": [15.5,15.5], "slot": [24,24], "offset": [4.25,4.25], "sha256": "09A81F4C375EA1A402272E64D4826BA83EA099B227EA21A9DD4F0AE27A247DEC" },
+    { "path": "public/assets/catalog-tools/close.svg", "node": "1242:4288", "rootSize": [20,20], "sha256": "1A5B850A3FF5F98E2A25D294A0E5E5D9522895D4F04425A777D14C82E233E2DD" }
+  ],
+  "userRefinement": {
+    "date": "2026-10-12", "decision": "D-50", "source": "User feedback; no new Figma inspection or edits",
+    "changes": ["Search is available at scroll0, including an empty cart; dock fade remains visible.", "X clears non-empty raw input and refocuses it; empty X closes. Escape still closes directly.", "Up wrapper stays at opacity1; its own filtered surface and sibling arrow fade independently to avoid a backdrop-root handoff."]
+  },
+  "adaptation": [
+    "Existing delivery header and mixed catalogue remain; the unrelated courier banner and placeholder meal-plan cards are not part of this requested change.",
+    "Real product data drives search counts, suggestions and cart totals. Search matching and eight suggestions follow the desktop snapshot.",
+    "Figma progressive blur approximated with masked 4/12/34px backdrop layers. Following D-50, the dock fade remains visible with Search; group opacity stays at 1.",
+    "Search input follows existing keyboard insets. The original static visual keyboard remains non-interactive.",
+    "User explicitly deferred cart navigation in this turn; cart is a live amount indicator styled as the source button, aria-disabled until that flow is implemented."
+  ]
+}

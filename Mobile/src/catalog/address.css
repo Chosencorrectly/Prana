@@ -1,0 +1,90 @@
+/* Figma 1309:3490. Only app-owned address layers; shared phone runtime unchanged. */
+.checkout-host [data-step="address-list"] { --address-top: var(--address-list-top); --address-header: 74px; }
+.checkout-host [data-step="address-map"] { --address-top: var(--address-map-top); --address-header: 60px; }
+.checkout-host [data-step="address-search"] { --address-top: var(--address-search-top); --address-header: 60px; }
+.checkout-host [data-step="address-details"] { --address-top: var(--address-details-top); --address-header: 60px; }
+.checkout-host [data-step^="address-"] .flow-fixed-header { top: var(--address-top); height: var(--address-header); padding-top: 0; transition: top 320ms cubic-bezier(.2,.8,.2,1); }
+.checkout-host [data-step^="address-"] .flow-step-body { top: calc(var(--address-top) + var(--address-header)); transition: top 320ms cubic-bezier(.2,.8,.2,1); }
+.checkout-host:has([data-current-step^="address-"]) > .flow-stack,
+.checkout-host:has([data-current-step^="address-"]) > .flow-stack > .flow-scenes,
+.checkout-host [data-step^="address-"] { pointer-events: none !important; }
+.checkout-host [data-step^="address-"][data-flow-current="true"] > .flow-fixed-header,
+.checkout-host [data-step^="address-"][data-flow-current="true"] > .flow-step-body { pointer-events: auto; }
+.address-map-layer, .address-map-gesture { position: absolute; inset: 0; overflow: hidden; }
+.address-map-layer { background: #314453; }
+.address-map-gesture { touch-action: none; }
+.address-map-world { position: absolute; top: 0; left: 0; width: 889px; height: 1147px; will-change: transform; pointer-events: none; }
+.address-map-world > img { display: block; }
+.address-zone { position: absolute; top: 0; bottom: 0; right: 0; background: rgb(137 0 0 / .35); }
+.address-pin { position: absolute; pointer-events: none; }
+.address-map-help { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+.address-map-close { position: absolute; left: 15px; width: 44px; height: 44px; display: grid; place-items: center; background: #151515; border-radius: 50%; pointer-events: auto; }
+.address-map-close img, .address-back { transform: rotate(180deg); }
+.address-toolbar { display: flex; position: relative; height: 60px; align-items: center; justify-content: space-between; padding: 0 3px; font-size: 16px; line-height: 19px; font-weight: 500; }
+.address-toolbar > span { position: absolute; left: 50%; transform: translateX(-50%); white-space: nowrap; pointer-events: none; }
+.address-toolbar button { display: grid; place-items: center; width: 44px; height: 44px; padding: 0; background: transparent; }
+.address-toolbar img { display: block; }
+.address-list-title { padding: 15px 15px 0; }
+.address-list-title > span { display: grid; place-items: center; height: 59px; border: 5px solid #242424; border-radius: 14px; color: #000; background: #fff; font-size: 14px; font-weight: 500; }
+.address-list-content { padding: 14px 15px 164px; }
+.address-row { position: relative; height: 79px; border-radius: 10px; background: #181818; margin-bottom: 6px; }
+.address-row::after { content: ''; position: absolute; inset: 0; border: 1px solid #595959; border-radius: inherit; pointer-events: none; opacity: 0; transition: opacity 150ms ease; }
+.address-row[data-selected="true"]::after { opacity: 1; }
+.address-select { width: 100%; height: 79px; padding: 0; background: transparent; display: flex; align-items: flex-start; text-align: left; }
+.address-radio { position: absolute; top: 21px; left: 16px; }
+.address-row-text { min-width: 0; width: 100%; padding: 21px 52px 0 51px; }
+.address-row-text > span { display: block; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-size: 16px; line-height: 19px; }
+.address-row-text small { display: flex; align-items: center; gap: 6px; margin-top: 4px; color: #827e7e; font-size: 12px; line-height: 14px; }
+.address-row-text small img { flex-shrink: 0; }
+.address-edit { position: absolute; right: 3px; top: 8px; width: 44px; height: 44px; display: grid; place-items: center; background: transparent; padding: 0; }
+.address-work-icon { display: block; position: relative; width: 13px; height: 13px; flex: 0 0 13px; }
+.address-work-icon::before { content: ''; position: absolute; left: 2px; top: 4px; width: 9px; height: 7px; border-radius: 1px; background: #827e7e; }
+.address-work-icon::after { content: ''; position: absolute; left: 4px; top: 1px; width: 5px; height: 6px; border: 1px solid #827e7e; border-radius: 1px; }
+.address-add { display: block; width: 100%; height: 50px; border-radius: 10px; background: #202020; font-size: 16px; }
+.address-map-content { padding: 28px 15px 114px; }
+.address-location-field { display: block; width: 100%; height: 61px; padding: 10px 16px 9px; text-align: left; border: 1px solid #333; border-radius: 10px; background: #181818; }
+.address-location-field > small { display: block; font-size: 12px; line-height: 14px; color: #827e7e; }
+.address-location-field > span { display: block; margin-top: 5px; font-size: 16px; line-height: 19px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+.address-warning { height: 128px; border-radius: 10px; background: rgb(234 70 0 / .15); margin-top: 16px; text-align: center; padding: 24px 0; }
+.checkout-host .address-warning h2 { margin: 0; font-size: 20px; line-height: 24px; font-weight: 500; }
+.checkout-host .address-warning p { width: 277px; margin: 12px auto 0; color: rgb(255 255 255 / .5); font-size: 16px; line-height: 1.4; font-weight: 500; }
+.address-search-content { position: absolute; inset: 0; padding: 12px 15px 0; }
+.checkout-host .address-search-input { display: block; width: 100%; height: 20px; padding: 0; border: 0; margin: 5px 0 0; background: transparent; color: #fff; font: inherit; font-size: 16px; line-height: 20px; }
+.address-search-input::-webkit-search-cancel-button { appearance: none; }
+.address-location-field:focus-within, .address-detail-field:focus-within { border-color: #737373; }
+.address-results { position: absolute; top: 81px; left: 15px; right: 15px; bottom: var(--address-results-bottom); border-radius: 10px; background: #212121; overflow: hidden; }
+/* Its container already ends above the keyboard; do not reserve it twice. */
+.address-results .mobile-page { --keyboard-height: 0px !important; --mobile-safe-area-height: 0px !important; }
+.address-results-list { padding: 0 15px 129px; }
+.address-results-list button { position: relative; display: block; width: 100%; height: 73px; padding: 16px 0; text-align: left; background: transparent; }
+.address-results-list button > span { display: block; font-size: 16px; line-height: 19px; }
+.address-results-list button > small { display: block; margin-top: 8px; font-size: 12px; line-height: 14px; color: rgb(255 255 255 / .5); }
+.address-results-list button > img { position: absolute; bottom: 0; left: 0; display: block; }
+.checkout-host .address-no-results { padding: 24px 0; font-size: 16px; line-height: 22px; color: #a8a8a8; }
+.address-details-content { padding: 12px 15px 114px; }
+.address-details-scroll .mobile-scroll { scroll-padding-bottom: 110px; }
+.address-location-summary { width: 100%; height: 73px; display: flex; align-items: center; justify-content: space-between; padding: 16px; gap: 16px; border-radius: 10px; background: #212121; text-align: left; }
+.address-location-summary > span { min-width: 0; }
+.address-location-summary > span > span { display: block; font-size: 16px; line-height: 19px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.address-location-summary small { display: block; margin-top: 8px; font-size: 12px; line-height: 14px; color: rgb(255 255 255 / .5); }
+.address-location-summary img { flex-shrink: 0; }
+.address-detail-fields { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; }
+.address-detail-field { grid-column: span 2; min-width: 0; height: 61px; border: 1px solid #333; border-radius: 10px; background: #181818; }
+.address-detail-field[data-half="true"] { grid-column: span 1; }
+.checkout-host .address-detail-field input { width: 100%; height: 100%; border: 0; padding: 0 16px; border-radius: inherit; background: transparent; font-family: inherit; font-size: 16px; color: #fff; }
+.address-detail-field input::placeholder { color: rgb(255 255 255 / .5); opacity: 1; }
+.address-dock { position: absolute; bottom: 0; left: 0; right: 0; height: 110px; z-index: 20; pointer-events: none; }
+.address-dock[data-search="true"] { height: 129px; left: 15px; right: 15px; border-radius: 0 0 10px 10px; overflow: hidden; }
+.address-dock[data-search="true"] .prana-fade-shade { background: linear-gradient(transparent, rgb(33 33 33 / var(--dock-fade-opacity, 1))); }
+.address-primary { position: absolute; bottom: 28px; left: 16px; right: 15px; height: 54px; background: #ea5c00; border-radius: 10px; font-size: 16px; font-weight: 500; pointer-events: auto; }
+.address-dock[data-active="false"] button { pointer-events: none; }
+.cart-view .address-primary:disabled { background: #757575; color: #454545; opacity: 1; }
+.address-primary:focus-visible::after, .address-toolbar button:focus-visible::after, .address-map-close:focus-visible::after, .address-select:focus-visible::after, .address-edit:focus-visible::after { content: ''; position: absolute; inset: 3px; border: 1px solid #fff; border-radius: inherit; pointer-events: none; }
+.address-toolbar button { position: relative; border-radius: 10px; }
+.address-map-gesture:focus-visible::after { content: ''; position: absolute; top: 62px; left: 4px; right: 4px; height: 340px; border: 1px solid rgb(255 255 255 / .5); border-radius: 10px; pointer-events: none; }
+.address-results { transition: bottom 260ms cubic-bezier(.2,.8,.2,1); }
+.checkout-host:has(.flow-step-stack[data-step-state="transitioning"][data-current-step="address-search"]) .address-results { bottom: calc(var(--checkout-keyboard-height) + 20px); transition: none; }
+.checkout-host:has(.flow-step-stack[data-step-state="transitioning"][data-current-step="address-search"]) .address-dock[data-active="true"] { bottom: calc(var(--checkout-keyboard-height) + 20px) !important; }
+@media (prefers-reduced-motion: reduce) {
+  .checkout-host [data-step^="address-"] .flow-fixed-header, .checkout-host [data-step^="address-"] .flow-step-body, .address-row::after, .address-results { transition: none; }
+}

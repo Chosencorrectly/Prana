@@ -1,0 +1,76 @@
+/* App-owned presentation of the protected phone-scoped BottomSheet primitive. */
+.device-screen:has(.prana-auth) .bottom-sheet:has(.cart-view) { height: 100%; overflow: visible; border: 0; border-radius: 0; background: transparent; box-shadow: none; --cart-collapse: 0px; --cart-address-opacity: 0; }
+.bottom-sheet:has(.cart-view) > .sheet-header { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); }
+.bottom-sheet:has(.cart-view) > .sheet-content { display: contents; }
+.bottom-sheet:has(.cart-view) > .sheet-handle-zone { position: absolute; top: calc(53px - var(--cart-collapse)); left: 125px; right: 125px; height: 60px; z-index: 4; }
+.bottom-sheet:has(.cart-view) .sheet-handle { display: none; }
+.bottom-sheet:has(.cart-confirm-cover, .cart-dish-host) > .sheet-handle-zone { pointer-events: none; }
+/* Let MobileScroll and the checkout dock follow the keyboard, not the whole sheet. */
+.device-screen .bottom-sheet:has(.checkout-host) { bottom: var(--cart-bottom, 0px) !important; max-height: var(--cart-viewport-height, 870px) !important; }
+.bottom-sheet:has(.checkout-host[data-active="true"]) > .sheet-handle-zone { pointer-events: none; }
+.cart-view { position: absolute; inset: 0; color: #fff; font-family: 'Prana Display', sans-serif; font-size: 14px; line-height: 17px; }
+.cart-view h2, .cart-view p { margin: 0; }
+.cart-view button { font-family: inherit; color: inherit; border: 0; cursor: pointer; }
+.cart-view button:disabled, .cart-view button[aria-disabled="true"] { cursor: default; }
+.cart-panel { position: absolute; top: calc(53px - var(--cart-collapse)); bottom: 0; left: 0; right: 0; border-radius: 30px 30px 0 0; background: #121212; overflow: clip; }
+.cart-toolbar { position: absolute; z-index: 3; top: 0; left: 0; right: 0; height: 60px; display: grid; grid-template-columns: 110px minmax(0, 1fr) 110px; align-items: center; padding: 0 15px; background: #121212; pointer-events: none; }
+.cart-toolbar button { pointer-events: auto; position: relative; z-index: 5; background: transparent; padding: 0; height: 44px; }
+.cart-close, .cart-clear { display: flex; align-items: center; gap: 6px; font-size: 16px; font-weight: 500; line-height: 19px; white-space: nowrap; }
+.cart-close { grid-column: 3; grid-row: 1; justify-self: end; }
+.cart-close-icon { width: 20px; height: 20px; display: grid; place-items: center; }
+.cart-close-icon img { display: block; }
+.cart-clear { grid-column: 1; grid-row: 1; justify-self: start; }
+.cart-clear > span { width: 22px; height: 22px; display: grid; place-items: center; }
+.cart-clear img { display: block; filter: brightness(0) invert(1); }
+.cart-view .cart-address { grid-column: 2; grid-row: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-align: center; font-size: 14px; font-weight: 500; color: #fff; opacity: var(--cart-address-opacity); }
+.cart-panel > .cart-scroll { position: absolute; top: 60px; bottom: 0; left: 0; right: 0; }
+.cart-scroll-content { padding: 9px 15px 225px; }
+.mobile-cart-items { padding: 0; margin: 0; list-style: none; }
+/* Fractional tracks reveal natural height without measuring the scaled phone. */
+.mobile-cart-row { display: grid; grid-template-rows: 1fr; padding: 0 0 24px; margin-bottom: 24px; border-bottom: 1px solid #191919; overflow: hidden; }
+.mobile-cart-row-content { display: flex; gap: 13px; align-items: flex-start; min-height: 0; overflow: hidden; }
+.mobile-cart-photo { flex: 0 0 101px; width: 101px; height: 101px; border-radius: 20px; object-fit: cover; }
+.mobile-cart-info { flex: 1; min-width: 0; }
+.mobile-cart-heading { display: flex; gap: 12px; align-items: flex-start; }
+.mobile-cart-heading h2 { flex: 1; min-width: 0; font-size: 14px; font-weight: 600; line-height: 17px; overflow-wrap: anywhere; }
+.cart-view .mobile-cart-description { margin-top: 4px; font-size: 12px; line-height: 14px; color: rgb(255 255 255 / .5); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.mobile-cart-buy { display: flex; align-items: flex-end; justify-content: space-between; gap: 10px; margin-top: 12px; }
+.cart-view .mobile-cart-price { min-width: 0; padding-bottom: 12px; font-size: 14px; line-height: 17px; color: #fff; }
+.mobile-cart-price strong { font-weight: 600; }
+.mobile-cart-price > span { color: rgb(255 255 255 / .6); font-size: 12px; white-space: nowrap; }
+.mobile-cart-quantity { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex: 0 0 144px; width: 144px; height: 44px; font-size: 14px; line-height: 17px; font-variant-numeric: tabular-nums; }
+.mobile-cart-quantity button { display: grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; padding: 0; background: #262626; }
+.mobile-cart-quantity img { display: block; }
+.cart-plus { filter: invert(1); }
+.cart-value { display: inline-grid; position: relative; }
+.cart-value-sizer { visibility: hidden; grid-area: 1 / 1; }
+.cart-value-layer { position: absolute; inset: 0; white-space: nowrap; }
+.cart-view .cart-suggestions > h2 { margin: 0 0 16px; font-size: 16px; font-weight: 600; line-height: 19px; }
+.cart-suggestions .catalog-grid { gap: 24px 20px; }
+.cart-suggestions .catalog-card { gap: 8px; }
+.cart-suggestions .catalog-copy h3 { font-size: 16px; line-height: 19px; }
+.cart-suggestions .catalog-copy p { color: #525252; }
+.cart-suggestions .catalog-nutrition, .cart-suggestions .catalog-kcal { display: none; }
+.cart-suggestions .catalog-card-content { gap: 16px; }
+.cart-footer { position: absolute; z-index: 3; height: 211px; left: 0; right: 0; bottom: 0; pointer-events: none; }
+.cart-order-total { position: absolute; bottom: 127px; left: 24px; right: 24px; display: flex; align-items: center; justify-content: space-between; font-size: 14px; line-height: 19px; }
+.cart-order-total > span { color: rgb(255 255 255 / .6); }
+.cart-order-total strong { font-size: 18px; font-weight: 600; }
+.cart-checkout { position: absolute; bottom: 62px; left: 15px; right: 16px; height: 54px; display: grid; place-items: center; padding: 9px 13px; border-radius: 10px; background: #ea5c00; font-size: 16px; line-height: 19px; font-weight: 500; pointer-events: auto; }
+.cart-view .cart-free-delivery { position: absolute; bottom: 24px; left: 0; right: 0; text-align: center; font-size: 12px; line-height: 14px; color: #fff; opacity: .5; }
+.mobile-cart-empty { display: grid; grid-template-rows: 1fr; padding: 48px 0 52px; overflow: hidden; }
+.mobile-cart-empty-content { display: flex; flex-direction: column; align-items: center; min-height: 0; gap: 20px; overflow: hidden; }
+.mobile-cart-empty-content > * { flex-shrink: 0; }
+.mobile-cart-empty h2 { font-size: 24px; line-height: 29px; font-weight: 600; }
+.cart-browse { padding: 16px 24px; border-radius: 10px; background: #ea5c00; font-size: 16px; }
+.cart-confirm-cover { position: absolute; z-index: 10; inset: 0; display: grid; place-items: center; padding: 24px; background: rgb(0 0 0 / .5); }
+.cart-confirm { width: 100%; padding: 24px; border-radius: 24px; background: #262626; box-shadow: 0 12px 40px rgb(0 0 0 / .25); }
+.cart-confirm h2 { font-size: 22px; line-height: 26px; font-weight: 600; }
+.cart-confirm p { margin: 12px 0 24px; color: rgb(255 255 255 / .65); }
+.cart-confirm button { width: 100%; padding: 14px; margin-top: 10px; border-radius: 12px; background: #373737; }
+.cart-confirm .cart-confirm-remove { background: #ea5c00; }
+.cart-dish-host { position: absolute; top: calc(0px - var(--cart-safe-top)); bottom: 0; left: 0; right: 0; z-index: 12; }
+@media (prefers-reduced-motion: reduce) {
+  .bottom-sheet:has(.cart-view) { transform: none !important; transition: opacity 80ms linear; }
+  .bottom-sheet:has(.cart-view)[data-state="closed"] { opacity: 0; }
+}

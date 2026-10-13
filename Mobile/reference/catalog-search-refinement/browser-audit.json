@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-12",
+  "timezone": "Europe/Moscow",
+  "iteration": "D-50",
+  "initial": {
+    "cart": false,
+    "scroll": 0,
+    "searchHidden": false,
+    "searchOpacity": "1",
+    "upHidden": true
+  },
+  "cleared": {
+    "closeLabel": "Close search",
+    "focus": "Search menu",
+    "keyboard": "true",
+    "mainInert": false,
+    "open": "true",
+    "query": ""
+  },
+  "closed": {
+    "focus": "Search menu",
+    "keyboard": "false",
+    "open": "false",
+    "query": "",
+    "scroll": 0
+  },
+  "submitted": {
+    "keyboard": "false",
+    "query": "Avocado"
+  },
+  "clearAfterEnter": {
+    "focus": "Search menu",
+    "keyboard": "true",
+    "open": "true",
+    "query": ""
+  },
+  "whitespaceCleared": {
+    "open": "true",
+    "query": ""
+  },
+  "restored": {
+    "scroll": 317.82177734375,
+    "upReveal": "1"
+  },
+  "backToTop": {
+    "scroll": 0,
+    "searchHidden": false,
+    "searchOpacity": "1",
+    "upHidden": true,
+    "upOpacity": "0"
+  },
+  "console": [],
+  "upAnimation": {
+    "wrapperOpacity": 1,
+    "blurPx": 35,
+    "ownSurfaceOpacity": "0→1",
+    "trace": "after-trace.json",
+    "frames": 12
+  },
+  "limitations": [
+    "Desktop IAB mouse and keyboard only; physical touch and system reduced motion not checked.",
+    "Trace timestamps include tool latency and are not an FPS measurement."
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "recommendation": {
+    "cartOpen": true,
+    "cartScroll": 258.41583251953125,
+    "dishOpen": false,
+    "focus": "View Aloe refresher",
+    "total": "$55.85"
+  },
+  "empty": {
+    "bagLoaded": true,
+    "checkout": false,
+    "focus": "It's empty for now",
+    "rows": 0,
+    "title": "It's empty for now",
+    "underlyingCart": false
+  },
+  "menuBeforeClose": 529.7030029296875,
+  "closed": {
+    "cartOpen": false,
+    "focus": "Search menu",
+    "menuScroll": 529.7030029296875,
+    "underlayInert": false
+  },
+  "closeReturn": {
+    "cartOpen": false,
+    "focus": "Cart: 3 items, $40.85",
+    "menuScroll": 529.7030029296875,
+    "underlayInert": false
+  },
+  "geometry": {
+    "checkout": {
+      "height": 53.99175545253615,
+      "width": 399.0126607870113,
+      "x": 14.990830413734354,
+      "y": 816.0175094854477
+    },
+    "footer": {
+      "height": 211.0009031714744,
+      "width": 430,
+      "x": 0,
+      "y": 720.9983351731271
+    },
+    "hOverflow": false,
+    "handle": {
+      "bottom": 173.7309112548828,
+      "height": 37.67701721191406,
+      "left": 555.1553344726562,
+      "right": 736.0301818847656,
+      "top": 136.05389404296875,
+      "width": 180.87484741210935,
+      "x": 555.1553344726562,
+      "y": 136.05389404296875
+    },
+    "icons": [
+      {
+        "height": 11.664691473482671,
+        "loaded": true,
+        "src": "/assets/cart/close.svg",
+        "width": 11.664691473482671
+      },
+      {
+        "height": 14.92893676590478,
+        "loaded": true,
+        "src": "/assets/cart/clear.svg",
+        "width": 13.58295417252338
+      },
+      {
+        "height": 15.996419203954698,
+        "loaded": true,
+        "src": "/assets/catalog/trash.svg",
+        "width": 15.996394906924293
+      },
+      {
+        "height": 15.996419203954698,
+        "loaded": true,
+        "src": "/assets/catalog/plus.svg",
+        "width": 15.996394906924293
+      },
+      {
+        "height": 15.996394906924293,
+        "loaded": true,
+        "src": "/assets/catalog/trash.svg",
+        "width": 15.996394906924293
+      },
+      {
+        "height": 15.996394906924293,
+        "loaded": true,
+        "src": "/assets/catalog/plus.svg",
+        "width": 15.996394906924293
+      },
+      {
+        "height": 15.996394906924293,
+        "loaded": true,
+        "src": "/assets/catalog/trash.svg",
+        "width": 15.996394906924293
+      },
+      {
+        "height": 15.996394906924293,
+        "loaded": true,
+        "src": "/assets/catalog/plus.svg",
+        "width": 15.996394906924293
+      }
+    ],
+    "panel": {
+      "height": 817.007668142796,
+      "width": 430,
+      "x": 0,
+      "y": 114.99152160774467
+    },
+    "photo": {
+      "height": 100.99082555432828,
+      "width": 100.99077696026748,
+      "x": 14.990830413734354,
+      "y": 183.97407102846955
+    },
+    "quantity": {
+      "height": 43.9978340892535,
+      "width": 143.99853743177903,
+      "x": 271.01063215448664,
+      "y": 245.94853078117325
+    }
+  },
+  "swipe": {
+    "cartOpen": false,
+    "focus": "Cart: 3 items, $40.85",
+    "inert": false
+  },
+  "console": [],
+  "scrolled": {
+    "addressOpacity": "1",
+    "collapse": "53px",
+    "horizontalOverflow": false,
+    "scrollTop": 282.17822265625
+  },
+  "date": "2026-10-12",
+  "timezone": "Europe/Moscow",
+  "checks": [
+    "Three real products: 3 items / $40.85; Chia +1: 4 items / $53.80; minus restores $40.85.",
+    "Remove at quantity 1 shows empty state and focuses its heading.",
+    "Clear confirmation cancels via Escape without closing cart; confirm clears shared quantities.",
+    "Recommendation opens existing PDP; add Aloe updates total to $55.85; Escape closes PDP only.",
+    "Close restores catalog scroll and focus; vertical mouse drag on header closes sheet.",
+    "Open and close traces sampled with tool latency; not an FPS or exact-duration test."
+  ],
+  "limitations": [
+    "Physical touch/iPhone/Android and system reduced-motion not tested.",
+    "Adding a new row from PDP changes cart content height and can shift cart scroll; exact scroll preservation during composition changes is not claimed.",
+    "Checkout and Edit are disabled pending later scope."
+  ]
+}

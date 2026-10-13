@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-12",
+  "blur": "17px",
+  "dockBottom": 47.989131571018866,
+  "fadeHeight": 317.99423719642556,
+  "phase": "open",
+  "photoCount": 1,
+  "photoOpacity": "1",
+  "photoVisibility": "visible",
+  "consoleAfterFreshLoad": [],
+  "notes": [
+    "One development HMR warning about changed effect dependency-array size during editing; absent after fresh reload.",
+    "Before/after frame timestamps include UI tool latency; not a frame-rate benchmark."
+  ],
+  "checks": [
+    "Large Avocado and small Chia fade inspected",
+    "Scrolled close",
+    "Short right swipe returns; long right swipe closes",
+    "Immediate open-close returns to catalogue",
+    "Build, runtime29 and dish model5 passed"
+  ]
+}

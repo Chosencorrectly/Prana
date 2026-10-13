@@ -1,0 +1,242 @@
+[
+  {
+    "loaded": true,
+    "natural": [
+      889,
+      1147
+    ],
+    "rendered": [
+      888.9914110562563,
+      1147.0070194685889
+    ],
+    "slot": [
+      -163.9862951187379,
+      -89.9758913422109
+    ],
+    "src": "/assets/address/map.png"
+  },
+  {
+    "loaded": true,
+    "natural": [
+      173,
+      227
+    ],
+    "rendered": [
+      172.47956506733442,
+      226.98181327720832
+    ],
+    "slot": [
+      118.48777316925266,
+      122.51014047864923
+    ],
+    "src": "/assets/active-order/route.svg"
+  },
+  {
+    "loaded": true,
+    "natural": [
+      50,
+      141
+    ],
+    "rendered": [
+      49.98481372031835,
+      140.966340928246
+    ],
+    "slot": [
+      240.99806550434192,
+      208.54106573894956
+    ],
+    "src": "/assets/active-order/route-active.svg"
+  },
+  {
+    "loaded": true,
+    "natural": [
+      1448,
+      1086
+    ],
+    "rendered": [
+      86.85086499688433,
+      64.06295959528154
+    ],
+    "slot": [
+      71.00923761795079,
+      92.4047470238398
+    ],
+    "src": "/assets/active-order/markers.png"
+  },
+  {
+    "loaded": true,
+    "natural": [
+      1448,
+      1086
+    ],
+    "rendered": [
+      86.83537564000073,
+      64.06294744676633
+    ],
+    "slot": [
+      221.18043562428335,
+      340.70476263044395
+    ],
+    "src": "/assets/active-order/markers.png"
+  },
+  {
+    "loaded": true,
+    "natural": [
+      1254,
+      1254
+    ],
+    "rendered": [
+      67.99242720892214,
+      67.99242720892214
+    ],
+    "slot": [
+      173.99569976464653,
+      160.01042017702252
+    ],
+    "src": "/assets/active-order/courier.png"
+  },
+  {
+    "loaded": true,
+    "natural": [
+      13,
+      13
+    ],
+    "rendered": [
+      12.840474887436944,
+      12.840439960455736
+    ],
+    "slot": [
+      32.07013637301615,
+      86.07733866263268
+    ],
+    "src": "/assets/dish/close.svg"
+  },
+  {
+    "loaded": true,
+    "natural": [
+      24,
+      24
+    ],
+    "rendered": [
+      23.99459311966864,
+      23.99459311966864
+    ],
+    "slot": [
+      380.510156271719,
+      80.49252044171324
+    ],
+    "src": "/assets/active-order/expand.svg"
+  },
+  {
+    "loaded": true,
+    "natural": [
+      16,
+      16
+    ],
+    "rendered": [
+      15.996394906924293,
+      15.996394906924293
+    ],
+    "slot": [
+      34.97858810069322,
+      536.4839650052696
+    ],
+    "src": "/assets/active-order/house.svg"
+  },
+  {
+    "loaded": true,
+    "natural": [
+      372,
+      1
+    ],
+    "rendered": [
+      372.0014820058453,
+      0.9901160426348752
+    ],
+    "slot": [
+      31.992774628204582,
+      570.9829783198163
+    ],
+    "src": "/assets/active-order/address-divider.svg"
+  },
+  {
+    "loaded": true,
+    "natural": [
+      360,
+      1
+    ],
+    "rendered": [
+      359.9964407675692,
+      0.9901641621443112
+    ],
+    "slot": [
+      34.97858810069322,
+      1173.973023995973
+    ],
+    "src": "/assets/active-order/summary-divider.svg"
+  },
+  {
+    "loaded": true,
+    "natural": [
+      359,
+      1
+    ],
+    "rendered": [
+      359.0681484238912,
+      0.9901641621443112
+    ],
+    "slot": [
+      34.97858810069322,
+      1334.9271469082084
+    ],
+    "src": "/assets/active-order/total-divider.svg"
+  },
+  {
+    "loaded": true,
+    "natural": [
+      50,
+      50
+    ],
+    "rendered": [
+      50.00030611433075,
+      50.000403302452376
+    ],
+    "slot": [
+      32.98292721129534,
+      1449.3772395646515
+    ],
+    "src": "/assets/active-order/points-circle.svg"
+  },
+  {
+    "loaded": true,
+    "natural": [
+      20,
+      20
+    ],
+    "rendered": [
+      20.00314378146324,
+      20.003239451020463
+    ],
+    "slot": [
+      47.973806219090505,
+      1464.368021384325
+    ],
+    "src": "/assets/active-order/points-mark.svg"
+  },
+  {
+    "loaded": true,
+    "natural": [
+      20,
+      20
+    ],
+    "rendered": [
+      20.003239451020463,
+      20.003239451020463
+    ],
+    "slot": [
+      151.9348708494174,
+      1693.8560004567842
+    ],
+    "src": "/assets/active-order/whatsapp.svg"
+  }
+]

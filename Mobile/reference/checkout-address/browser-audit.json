@@ -1,0 +1,92 @@
+{
+  "iteration": "D-57",
+  "date": "2026-10-13",
+  "timezone": "Europe/Moscow",
+  "url": "http://127.0.0.1:5181/",
+  "browser": "Codex IAB",
+  "device": "iPhone430x932",
+  "input": "mouse and physical keyboard",
+  "passed": [
+    "Delivery address opens list",
+    "Add creates isolated draft",
+    "Brickell search six results",
+    "1000 filters to one",
+    "zzzz empty result",
+    "Selection returns to map with keyboard hidden",
+    "Mouse pan outside zone shows persistent warning and disabled Continue",
+    "ArrowLeft moves back inside zone",
+    "Six detail fields retain values across Edit location and Back",
+    "Save selects third row without updating checkout",
+    "Leaving after Save leaves old checkout address",
+    "Deliver here applies 1000 Brickell Plaza and Meet at reception",
+    "Cancel edit Floor25 reopens original24",
+    "Existing saved address renamed Work to Office without adding a row",
+    "Escape hides keyboard then navigates map/list",
+    "Search results expand408 to675 after keyboard hidden",
+    "Catalog header updates to applied street",
+    "Static assets load with original root dimensions",
+    "Cart close/reopen retains three saved addresses and applied Office selection",
+    "Back from directly edited saved address returns to seeded map step",
+    "Browser console error/warn log empty at final inspection",
+    "Search-result mouse drag scrolls its own container to147.52px without selecting a result or moving map"
+  ],
+  "geometryLogicalPx": {
+    "map": [
+      889,
+      1147
+    ],
+    "pin": [
+      40,
+      40
+    ],
+    "rows": [
+      400,
+      79
+    ],
+    "radio": [
+      22,
+      22
+    ],
+    "listTop2": 490,
+    "listTop3": 405,
+    "mapTop": 669,
+    "warningTop": 525,
+    "detailsTop": 288,
+    "searchTop": 62,
+    "searchResults": [
+      400,
+      408
+    ],
+    "cta": [
+      399,
+      54
+    ],
+    "ctaBottom": 28
+  },
+  "build": {
+    "passed": true,
+    "runtimeProtectedFiles": 29,
+    "jsKB": 598.79,
+    "jsGzipKB": 178.92,
+    "cssKB": 62.82,
+    "cssGzipKB": 12.16,
+    "warning": "existing chunk >500kB"
+  },
+  "tests": {
+    "passed": 23,
+    "suites": [
+      "checkout-address5",
+      "checkout-phone4",
+      "checkout-promo5",
+      "motion9"
+    ]
+  },
+  "limitations": [
+    "six deterministic source addresses only",
+    "bitmap pan/zone in pixel coordinates, no real geocoder",
+    "no order/backend/publication",
+    "physical touch/Pixel/native keyboard/screen reader/system reduced motion not tested",
+    "FPS not measured"
+  ],
+  "assetAudit": "asset-audit.json"
+}

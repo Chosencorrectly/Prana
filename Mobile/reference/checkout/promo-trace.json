@@ -1,0 +1,104 @@
+[
+  {
+    "elapsed": 0,
+    "loaderTransform": null,
+    "message": "",
+    "status": "debouncing"
+  },
+  {
+    "elapsed": 247,
+    "loaderTransform": null,
+    "message": "",
+    "status": "debouncing"
+  },
+  {
+    "elapsed": 341,
+    "loaderTransform": null,
+    "message": "",
+    "status": "debouncing"
+  },
+  {
+    "elapsed": 398,
+    "loaderTransform": null,
+    "message": "",
+    "status": "debouncing"
+  },
+  {
+    "elapsed": 456,
+    "loaderTransform": null,
+    "message": "",
+    "status": "debouncing"
+  },
+  {
+    "elapsed": 530,
+    "loaderTransform": "matrix(0.992259, 0.124184, -0.124184, 0.992259, 0, 0)",
+    "message": "Checking promo code",
+    "status": "validating"
+  },
+  {
+    "elapsed": 588,
+    "loaderTransform": "matrix(0.773531, 0.633758, -0.633758, 0.773531, 0, 0)",
+    "message": "Checking promo code",
+    "status": "validating"
+  },
+  {
+    "elapsed": 664,
+    "loaderTransform": "matrix(0.198206, 0.98016, -0.98016, 0.198206, 0, 0)",
+    "message": "Checking promo code",
+    "status": "validating"
+  },
+  {
+    "elapsed": 733,
+    "loaderTransform": "matrix(-0.411686, 0.911326, -0.911326, -0.411686, 0, 0)",
+    "message": "Checking promo code",
+    "status": "validating"
+  },
+  {
+    "elapsed": 785,
+    "loaderTransform": "matrix(-0.758192, 0.652031, -0.652031, -0.758192, 0, 0)",
+    "message": "Checking promo code",
+    "status": "validating"
+  },
+  {
+    "elapsed": 852,
+    "loaderTransform": "matrix(-0.996267, 0.0863221, -0.0863221, -0.996267, 0, 0)",
+    "message": "Checking promo code",
+    "status": "validating"
+  },
+  {
+    "elapsed": 915,
+    "loaderTransform": "matrix(-0.88949, -0.456955, 0.456955, -0.88949, 0, 0)",
+    "message": "Checking promo code",
+    "status": "validating"
+  },
+  {
+    "elapsed": 983,
+    "loaderTransform": "matrix(-0.455821, -0.890071, 0.890071, -0.455821, 0, 0)",
+    "message": "Checking promo code",
+    "status": "validating"
+  },
+  {
+    "elapsed": 1051,
+    "loaderTransform": "matrix(0.0257672, -0.999668, 0.999668, 0.0257672, 0, 0)",
+    "message": "Checking promo code",
+    "status": "validating"
+  },
+  {
+    "elapsed": 1116,
+    "loaderTransform": "matrix(0.698622, -0.715491, 0.715491, 0.698622, 0, 0)",
+    "message": "Checking promo code",
+    "status": "validating"
+  },
+  {
+    "elapsed": 1206,
+    "loaderTransform": "matrix(0.998813, -0.0487113, 0.0487113, 0.998813, 0, 0)",
+    "message": "Applied: -10%",
+    "status": "applied"
+  },
+  {
+    "elapsed": 1267,
+    "loaderTransform": "matrix(0.900692, 0.434458, -0.434458, 0.900692, 0, 0)",
+    "message": "Applied: -10%",
+    "status": "applied"
+  }
+]

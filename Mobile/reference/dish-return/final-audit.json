@@ -1,0 +1,198 @@
+{
+  "large": [
+    {
+      "ms": 292,
+      "opacity": "0",
+      "phase": "closing",
+      "quantity": "0",
+      "returning": "true",
+      "transition": "0s"
+    },
+    {
+      "ms": 360,
+      "opacity": "0",
+      "phase": "closing",
+      "quantity": "0",
+      "returning": "true",
+      "transition": "0s"
+    },
+    {
+      "ms": 422,
+      "opacity": "0.415833",
+      "phase": "catalog",
+      "quantity": "0",
+      "returning": null,
+      "transition": "0.2s"
+    },
+    {
+      "ms": 489,
+      "opacity": "0.928133",
+      "phase": "catalog",
+      "quantity": "0",
+      "returning": null,
+      "transition": "0.2s"
+    },
+    {
+      "ms": 546,
+      "opacity": "0.989261",
+      "phase": "catalog",
+      "quantity": "0",
+      "returning": null,
+      "transition": "0.2s"
+    },
+    {
+      "ms": 599,
+      "opacity": "1",
+      "phase": "catalog",
+      "quantity": "0",
+      "returning": null,
+      "transition": "0.2s"
+    },
+    {
+      "ms": 659,
+      "opacity": "1",
+      "phase": "catalog",
+      "quantity": "0",
+      "returning": null,
+      "transition": "0.2s"
+    },
+    {
+      "ms": 705,
+      "opacity": "1",
+      "phase": "catalog",
+      "quantity": "0",
+      "returning": null,
+      "transition": "0.2s"
+    },
+    {
+      "ms": 760,
+      "opacity": "1",
+      "phase": "catalog",
+      "quantity": "0",
+      "returning": null,
+      "transition": "0.2s"
+    },
+    {
+      "ms": 816,
+      "opacity": "1",
+      "phase": "catalog",
+      "quantity": "0",
+      "returning": null,
+      "transition": "0.2s"
+    },
+    {
+      "ms": 872,
+      "opacity": "1",
+      "phase": "catalog",
+      "quantity": "0",
+      "returning": null,
+      "transition": "0.2s"
+    },
+    {
+      "ms": 935,
+      "opacity": "1",
+      "phase": "catalog",
+      "quantity": "0",
+      "returning": null,
+      "transition": "0.2s"
+    }
+  ],
+  "small": [
+    {
+      "ms": 287,
+      "kcalOpacity": "0",
+      "opacity": "0",
+      "phase": "closing",
+      "quantity": "1",
+      "returning": "true"
+    },
+    {
+      "ms": 375,
+      "kcalOpacity": "0",
+      "opacity": "0",
+      "phase": "closing",
+      "quantity": "1",
+      "returning": "true"
+    },
+    {
+      "ms": 450,
+      "kcalOpacity": "0.62318",
+      "opacity": "0.62318",
+      "phase": "catalog",
+      "quantity": "1",
+      "returning": null
+    },
+    {
+      "ms": 510,
+      "kcalOpacity": "0.941474",
+      "opacity": "0.941474",
+      "phase": "catalog",
+      "quantity": "1",
+      "returning": null
+    },
+    {
+      "ms": 575,
+      "kcalOpacity": "0.994581",
+      "opacity": "0.994581",
+      "phase": "catalog",
+      "quantity": "1",
+      "returning": null
+    },
+    {
+      "ms": 619,
+      "kcalOpacity": "1",
+      "opacity": "1",
+      "phase": "catalog",
+      "quantity": "1",
+      "returning": null
+    },
+    {
+      "ms": 673,
+      "kcalOpacity": "1",
+      "opacity": "1",
+      "phase": "catalog",
+      "quantity": "1",
+      "returning": null
+    },
+    {
+      "ms": 738,
+      "kcalOpacity": "1",
+      "opacity": "1",
+      "phase": "catalog",
+      "quantity": "1",
+      "returning": null
+    },
+    {
+      "ms": 795,
+      "kcalOpacity": "1",
+      "opacity": "1",
+      "phase": "catalog",
+      "quantity": "1",
+      "returning": null
+    },
+    {
+      "ms": 851,
+      "kcalOpacity": "1",
+      "opacity": "1",
+      "phase": "catalog",
+      "quantity": "1",
+      "returning": null
+    }
+  ],
+  "swipeDuring": {
+    "inert": true,
+    "opacity": "1",
+    "phase": "closing",
+    "quantity": "1",
+    "returning": null
+  },
+  "swipeAfter": {
+    "focused": "View Avocado toast (gluten-free sourdough, poached egg) (GF, LF)",
+    "inert": false,
+    "opacity": "1",
+    "phase": "catalog",
+    "quantity": "1",
+    "returning": null
+  },
+  "console": []
+}

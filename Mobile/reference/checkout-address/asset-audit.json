@@ -1,0 +1,98 @@
+[
+  {
+    "loaded": true,
+    "renderHeight": 11.66,
+    "renderWidth": 11.66,
+    "src": "/assets/checkout/close.svg"
+  },
+  {
+    "loaded": true,
+    "renderHeight": 22,
+    "renderWidth": 22,
+    "src": "/assets/address/unselected.svg"
+  },
+  {
+    "loaded": true,
+    "renderHeight": 13,
+    "renderWidth": 13,
+    "src": "/assets/address/home.svg"
+  },
+  {
+    "loaded": true,
+    "renderHeight": 17.99,
+    "renderWidth": 17.99,
+    "src": "/assets/address/edit.svg"
+  },
+  {
+    "loaded": true,
+    "renderHeight": 22,
+    "renderWidth": 22,
+    "src": "/assets/address/unselected.svg"
+  },
+  {
+    "loaded": true,
+    "renderHeight": 17.99,
+    "renderWidth": 17.99,
+    "src": "/assets/address/edit.svg"
+  },
+  {
+    "loaded": true,
+    "renderHeight": 22,
+    "renderWidth": 22,
+    "src": "/assets/address/selected.svg"
+  },
+  {
+    "loaded": true,
+    "renderHeight": 17.99,
+    "renderWidth": 17.99,
+    "src": "/assets/address/edit.svg"
+  },
+  {
+    "loaded": true,
+    "renderHeight": 17.99,
+    "renderWidth": 17.99,
+    "src": "/assets/checkout/phone-back.svg"
+  },
+  {
+    "loaded": true,
+    "renderHeight": 11.66,
+    "renderWidth": 11.66,
+    "src": "/assets/checkout/close.svg"
+  },
+  {
+    "loaded": true,
+    "renderHeight": 17.99,
+    "renderWidth": 17.99,
+    "src": "/assets/checkout/phone-back.svg"
+  },
+  {
+    "loaded": true,
+    "renderHeight": 11.66,
+    "renderWidth": 11.66,
+    "src": "/assets/checkout/close.svg"
+  },
+  {
+    "loaded": true,
+    "renderHeight": 23.99,
+    "renderWidth": 23.99,
+    "src": "/assets/address/edit-location.svg"
+  },
+  {
+    "loaded": true,
+    "renderHeight": 1147.01,
+    "renderWidth": 888.99,
+    "src": "/assets/address/map.png"
+  },
+  {
+    "loaded": true,
+    "renderHeight": 39.99,
+    "renderWidth": 39.99,
+    "src": "/assets/address/pin.svg"
+  },
+  {
+    "loaded": true,
+    "renderHeight": 0.9901160426348752,
+    "renderWidth": 369.9901738288662,
+    "src": "/assets/address/result-divider.svg"
+  }
+]

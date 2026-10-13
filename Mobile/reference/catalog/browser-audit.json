@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-12",
+  "timezone": "Europe/Moscow",
+  "home": {
+    "backButtons": 0,
+    "delivery": {
+      "height": 52.986147173565854,
+      "width": 430,
+      "x": 0,
+      "y": 61.98993104326367
+    },
+    "fades": [
+      "0px",
+      "126.996px"
+    ],
+    "heading": {
+      "height": 29.007015251943223,
+      "width": 398.0071864443637,
+      "x": 15.996391518919722,
+      "y": 194.98902281943424
+    },
+    "hero": {
+      "height": 456.9958600124527,
+      "width": 398.0071864443637,
+      "x": 15.996391518919722,
+      "y": 247.9906539601916
+    },
+    "image": "/assets/menu/ddae0e45-84a2-4dd7-bad2-a631f9c4cdb8.jpg",
+    "imagesLoaded": 87,
+    "nav": {
+      "height": 63.9856080376496,
+      "width": 430,
+      "x": 0,
+      "y": 114.97608966100336
+    },
+    "scale": 0.9999928319176962,
+    "screen": {
+      "bottom": 1079.857650756836,
+      "height": 931.9925537109376,
+      "left": 329.54827880859375,
+      "right": 759.5451965332031,
+      "top": 147.86509704589844,
+      "width": 429.9969177246094,
+      "x": 329.54827880859375,
+      "y": 147.86509704589844
+    },
+    "small": {
+      "height": 189.0019803921026,
+      "width": 189.0019803921026,
+      "x": 15.996391518919722,
+      "y": 724.9742671097852
+    },
+    "state": "idle",
+    "step": "catalog",
+    "active": "Breakfasts all day",
+    "scroll": 0
+  },
+  "middle": {
+    "active": "Main dishes",
+    "fades": [
+      "127px",
+      "127px"
+    ],
+    "headingY": 195,
+    "overflow": 0,
+    "railLeft": 312,
+    "railMax": 1093
+  },
+  "verification": {
+    "wrongCode5330": "error",
+    "correctCode1111": "catalog; keyboard dismissed",
+    "skip": "catalog",
+    "largeQuantity": "1 → 2 → 3 ($47.85) → 2 → 1 → 0",
+    "smallQuantity": "1 → 2 → 1 → 0, independent from large",
+    "keyboardFocus": "Add → plus and remove → Add; focus-visible",
+    "menuStartFades": [
+      0,
+      127
+    ],
+    "menuMiddleFades": [
+      127,
+      127
+    ],
+    "menuEndFades": [
+      127,
+      0
+    ],
+    "manualScroll": "Broths & soups → Healthy bowls",
+    "horizontalDrag": "1093 → 757, both fades visible",
+    "verticalDrag": "23809 → 24310, no product added",
+    "layoutStableAfterPurchase": true
+  },
+  "limitations": [
+    "No physical iPhone/touch test",
+    "No OS reduced-motion toggle or full screen reader test",
+    "Motion observed in sampled states, no FPS/video profile"
+  ],
+  "compact": {
+    "cardWidth": 316.8572692871094,
+    "overflow": false,
+    "scale": 0.796109434615734,
+    "screen": {
+      "bottom": 816.5227737426758,
+      "height": 741.9734497070312,
+      "left": 145.65892028808594,
+      "right": 487.9859771728515,
+      "top": 74.54932403564453,
+      "width": 342.3270568847656,
+      "x": 145.65892028808594,
+      "y": 74.54932403564453
+    },
+    "scrollLeft": 0,
+    "step": "catalog",
+    "viewport": [
+      634,
+      891
+    ]
+  },
+  "console": []
+}

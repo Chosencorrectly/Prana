@@ -1,0 +1,80 @@
+.active-order-screen { position: absolute; inset: 0; z-index: 30; overflow: clip; color: #fff; font-family: 'Prana Checkout', 'Prana Display', sans-serif; }
+.active-order-map { position: absolute; inset: 0; background: #304154; pointer-events: none; }
+.active-map-bitmap { position: absolute; left: -164px; top: -90px; max-width: none; }
+.active-map-route { position: absolute; left: 118.5px; top: 122.5px; }
+.active-map-route-highlight { position: absolute; left: 241px; top: 208.527px; }
+.active-map-restaurant, .active-map-destination { position: absolute; overflow: hidden; height: 45px; }
+.active-map-restaurant { left: 73px; top: 103px; width: 48px; }
+.active-map-destination { left: 269px; top: 349px; width: 39px; }
+.active-map-restaurant img { position: absolute; max-width: none; width: 181%; height: 142.41%; left: -4.13%; top: -23.56%; }
+.active-map-destination img { position: absolute; max-width: none; width: 222.77%; height: 142.41%; left: -122.67%; top: -18.47%; }
+.active-map-courier { position: absolute; left: 174px; top: 160px; object-fit: cover; }
+.active-order-screen .active-order-close { top: calc(var(--order-safe-top) + 8px); }
+.active-order-expand { position: absolute; z-index: 3; right: 15px; top: calc(var(--order-safe-top) + 8px); width: 45px; height: 45px; padding: 0; display: grid; place-items: center; border-radius: 50%; background: #272727; }
+.active-order-panel { position: absolute; top: 0; left: 0; right: 0; overflow: clip; border-radius: 20px 20px 0 0; background: #151515; }
+.active-order-grab { position: absolute; inset: 0 0 auto; height: 145px; z-index: 2; background: #151515; touch-action: none; user-select: none; }
+.active-order-handle { position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 45px; display: grid; justify-items: center; align-items: start; padding: 16px 0 0; background: transparent; }
+.active-order-handle > span { width: 60px; height: 5px; border-radius: 10px; background: #232323; }
+.active-order-status { position: absolute; top: 53px; left: 15px; right: 15px; }
+.checkout-host .active-order-status h1 { margin: 0; font-size: 24px; line-height: 29px; font-weight: 400; letter-spacing: 0; white-space: nowrap; text-align: left; }
+.checkout-host .active-order-status p { margin: 4px 0 0; font-size: 16px; font-weight: 500; line-height: 22px; color: #5c5c5c; }
+.order-progress { display: flex; gap: 6px; margin-top: 16px; }
+.order-progress > span { height: 5px; flex: 1; background: #414141; border-radius: 10px; }
+.order-progress > span[data-complete="true"] { background: #ea5c00; }
+.active-order-scroll-slot { position: absolute; top: 145px; bottom: 0; left: 0; right: 0; }
+.active-order-scroll { height: 100%; }
+.active-order-content { padding: 16px 15px 50px; }
+.checkout-host .active-order-content h2 { margin: 0 0 24px; font-size: 24px; line-height: 29px; font-weight: 400; }
+.active-delivery-card { min-height: 139px; border-radius: 10px; background: #212121; padding: 24px 20px; }
+.active-delivery-address { display: flex; gap: 8px; align-items: flex-start; }
+.active-delivery-address img { flex-shrink: 0; margin-top: 1.5px; }
+.checkout-host .active-delivery-address p { margin: 0; color: rgb(255 255 255 / .5); font-size: 16px; line-height: 19px; overflow-wrap: anywhere; }
+.active-address-divider { display: block; margin: 17px -3px 12px; }
+.active-delivery-note > span { display: block; font-size: 12px; line-height: 14px; opacity: .5; }
+.checkout-host .active-delivery-note p { margin: 8px 0 0; font-size: 16px; line-height: 19px; color: #fff; }
+.active-order-details { margin-top: 32px; }
+.active-order-card { padding: 28px 20px; border-radius: 10px; background: #212121; }
+.active-order-items { list-style: none; padding: 0; margin: 0; }
+.order-item { display: flex; justify-content: space-between; gap: 32px; margin-bottom: 26px; }
+.order-item > div:first-child { min-width: 0; flex: 1; }
+.checkout-host .order-item h3 { max-width: 230px; margin: 0; font-size: 14px; line-height: 17px; font-weight: 600; overflow-wrap: anywhere; }
+.checkout-host .order-item p { margin: 5px 0 0; color: #5c5c5c; font-size: 14px; line-height: 18px; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+.order-item-price { display: flex; flex-direction: column; align-items: flex-end; flex-shrink: 0; gap: 3px; }
+.order-item-price span { color: #696969; font-size: 12px; line-height: 14px; }
+.order-item-price strong { font-size: 14px; line-height: 17px; font-weight: 600; }
+.order-more-reveal { display: grid; overflow: hidden; }
+.order-more-reveal > div { min-height: 0; overflow: hidden; }
+.cart-view .order-show-more { width: 100%; height: 47px; border: 1px solid #ffecec; border-radius: 10px; background: transparent; font-size: 14px; font-weight: 500; }
+.active-order-summary { margin-top: 28px; }
+.active-order-summary img { display: block; }
+.active-order-summary dl { margin: 19px 0 22px; font-size: 14px; line-height: 17px; font-weight: 500; }
+.active-order-summary dl > div { display: flex; justify-content: space-between; gap: 16px; }
+.active-order-summary dl > div + div { margin-top: 17px; }
+.active-order-summary dt, .order-muted { color: #5c5c5c; }
+.active-order-summary dt span { color: #38a64c; }
+.active-order-summary dd { margin: 0; }
+.active-order-total { display: flex; justify-content: space-between; margin-top: 21px; font-size: 18px; line-height: 22px; }
+.active-order-points { margin-top: 24px; height: 87px; display: flex; gap: 8px; align-items: center; padding: 16px 20px 16px 18px; border-radius: 10px; background: #212121; }
+.active-points-icon { position: relative; width: 50px; height: 50px; flex-shrink: 0; }
+.active-points-icon > img { position: absolute; top: 0; left: 0; }
+.active-points-icon > img + img { top: 15px; left: 15px; }
+.active-order-points > div { display: flex; flex-direction: column; }
+.active-order-points strong { font-size: 32px; font-weight: 500; line-height: 38px; color: #38a64c; }
+.active-order-points span:not(.active-points-icon), .active-order-points p { font-size: 14px; font-weight: 500; line-height: 17px; color: #5c5c5c; }
+.active-order-points p { margin-left: auto; text-align: right; }
+.checkout-host .active-order-support { background: #212121; margin-top: 24px; }
+.checkout-host .active-order-support h2 { margin: 0; font-weight: 500; }
+.checkout-host .active-order-support p { width: 215px; }
+.active-order-bottom-fade { position: absolute; z-index: 3; bottom: 0; left: 0; right: 0; height: 45px; pointer-events: none; }
+.active-order-shortcut { position: relative; display: flex; align-items: center; justify-content: space-between; width: calc(100% - 30px); height: 70px; margin: 14px 15px 18px; padding: 9px 19px 9px 24px; border: 0; border-radius: 50px; color: #fff; background: #191919; text-align: left; }
+.active-order-shortcut > span { display: flex; flex-direction: column; gap: 5px; min-width: 0; }
+.active-order-shortcut strong { font-size: 16px; line-height: 19px; font-weight: 500; }
+.active-order-shortcut > span > span { font-size: 12px; font-weight: 500; color: #767676; line-height: 14px; }
+.active-order-arrival { color: #25e047; }
+.active-order-shortcut img { display: block; width: 52px; height: 52px; object-fit: cover; flex-shrink: 0; }
+/* Source 1240:676 sits between the delivery row and the category rail.
+   Reserve its 102px in this app route without changing FlowStack geometry. */
+.catalog-header:has(.active-order-shortcut) { height: 219px; }
+.flow-step-scene[data-step="catalog"]:has(.active-order-shortcut) > .flow-fixed-header,
+.flow-step-scene[data-step="catalog"]:has(.active-order-shortcut) > .flow-step-body { --flow-header-height: calc(var(--flow-header-safe-area) + 219px); }
+@media (prefers-reduced-motion: reduce) { .order-more-reveal { transition: none; } }

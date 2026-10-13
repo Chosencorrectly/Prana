@@ -1,0 +1,91 @@
+{
+  "inspectedDate": "2026-10-12",
+  "timezone": "Europe/Moscow",
+  "fileKey": "sVUfk3wL7MabAwk1PIV1fv",
+  "section": "1294:3487",
+  "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1294-3487",
+  "frames": {
+    "menu": "1028:32553",
+    "fullContent": "1028:33680",
+    "scrolled": "1028:33799",
+    "closedRestaurant": "1028:33899"
+  },
+  "highFidelityContexts": [
+    "1028:33806",
+    "1028:33879",
+    "1028:33889",
+    "1028:33840",
+    "1028:33681",
+    "I1028:33883;68:16044",
+    "I1028:33887;54616:25406"
+  ],
+  "motion": {
+    "inspectedNode": "1028:33799",
+    "recursive": true,
+    "nodes": [],
+    "implementation": "User-requested custom bottom-up presentation; uses existing protected BottomSheet spring, not motion extracted from Figma."
+  },
+  "sourceGeometry": {
+    "canvas": [
+      430,
+      932
+    ],
+    "initialPanelTop": 110,
+    "compactPanelTop": 56,
+    "photo": [
+      101,
+      101
+    ],
+    "photoLeft": 15,
+    "photoTextGap": 13,
+    "photoRadius": 20,
+    "toolbarHeight": 60,
+    "checkout": [
+      15,
+      816,
+      399,
+      54
+    ],
+    "fadeHeight": 211,
+    "freeDeliveryTop": 894
+  },
+  "assets": [
+    {
+      "path": "public/assets/cart/clear.svg",
+      "node": "I1028:33883;68:16044",
+      "rootSize": [
+        13.6,
+        14.9333
+      ],
+      "sha256": "FDCC2736F4D117E538ACE22C98552F7C08D1CC81115803D24704DB8CE3F22A72"
+    },
+    {
+      "path": "public/assets/cart/close.svg",
+      "node": "I1028:33887;54616:25406",
+      "rootSize": [
+        11.6667,
+        11.6667
+      ],
+      "slot": [
+        20,
+        20
+      ],
+      "sha256": "72C492D41DE55E76CBF63569AE29BB58EB6DEC17EE2385F16E28B21E63EA801D"
+    },
+    {
+      "path": "public/assets/cart/empty-bag.png",
+      "source": "../prototype/public/assets/cart-empty-bag.png",
+      "sha256": "E837DABA60FFE3054B671360D67BFF4AD1D687CD7DE7F6F36518394AAF201C75"
+    }
+  ],
+  "codeConnect": "Trash and Close snippets refer to Simple Design System / Material 3 without usable imports; neither library is installed. Exact child-vector assets fetched instead. Existing delivery/header and ProductCard are reused.",
+  "adaptations": [
+    "Native calibrated status/header remains: initial panel y115, compact y62 instead of source y110/56.",
+    "Dynamic real catalogue products/photos/description/unit price/quantities replace placeholder meal plans; no fake options or universal 300g. Only existing Chia 345g fixture is reused.",
+    "User explicitly requests the desktop cart regulator: round 40px buttons, 144px group, trash at one unit, animated number. Rows can grow to fit real names.",
+    "Accepted Semibold600 dish-title rule retained. Existing ProductCard/QuantityControl reused for four stable drink suggestions.",
+    "A compact live item-count/total row is added above the source checkout CTA so the total stays visible in the cart.",
+    "Checkout and Edit remain disabled until their separate flows. Free delivery is a Figma prototype fixture, not validated commercial policy. Closed-restaurant state has no data model and is not fabricated.",
+    "Clear confirmation and empty state adapted from desktop. Figma, desktop and publications unchanged."
+  ]
+}

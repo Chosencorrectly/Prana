@@ -1,0 +1,151 @@
+{
+  "date": "2026-10-12",
+  "timezone": "Europe/Moscow",
+  "scrolled": {
+    "scroll": 600,
+    "tools": [
+      {
+        "label": "Back to top",
+        "rect": {
+          "height": 48.99474617683401,
+          "width": 48.99474617683401,
+          "x": 14.990830413734354,
+          "y": 839.5634700871913
+        }
+      },
+      {
+        "label": "Cart: 1 item, $12.95",
+        "rect": {
+          "height": 48.99474617683401,
+          "width": 116.98726146249138,
+          "x": 298.02183523268303,
+          "y": 839.5634700871913
+        }
+      },
+      {
+        "label": "Search menu",
+        "rect": {
+          "height": 50.00030611433075,
+          "width": 64.01656441572196,
+          "x": 217.99353992815765,
+          "y": 838.5579617808842
+        }
+      },
+      {
+        "label": "Close search",
+        "rect": {
+          "height": 43.9978340892535,
+          "width": 43.99792824024632,
+          "x": 226.02263940788475,
+          "y": 841.5437752533728
+        }
+      }
+    ]
+  },
+  "results": {
+    "count": 19,
+    "heading": "19 results for “Avocado”",
+    "mainScroll": 600,
+    "names": [
+      "View Avocado toast (gluten-free sourdough, poached egg) (GF, LF)",
+      "View Chicken omelet & protein waffle · high protein (GF, LF, nut free)",
+      "View Buddha bowl (tempeh, coconut black rice, avocado) (vegan, GF, LF, high fiber)",
+      "View Citrus shrimp bowl (poke style, coconut black rice, avocado, mango) (GF, LF, nut free, high fiber)",
+      "View Golden chicken bowl (coconut black rice, avocado) (high protein, GF, LF)",
+      "View Miami smoked salmon bowl (poke style, coconut black rice, avocado) (omega-3, high fiber, GF, LF)",
+      "View Tuna poke bowl (coconut black rice, avocado, mango) (GF, LF, high protein, nut free, high omega-3, high fiber)",
+      "View Green salad (broccoli, edamame, avocado, celery) (vegan, GF)",
+      "View House salad (arugula, tomato, radish) choice of dressing",
+      "View Shrimp & mango spring rolls (rice paper, avocado) (GF)",
+      "View Shrimp & salmon salad (strawberry, grapefruit, avocado) (high protein, omega-3)",
+      "View Smashed avocado & tabbouleh (cassava chips) (vegan, GF)",
+      "View Veggie spring rolls (rice paper, veggies, avocado) (vegan, GF)",
+      "View Chicken aji verde wrap (gluten-free tortilla, avocado, ají verde) (GF, high protein)",
+      "View Steak honey mustard wrap (gluten-free tortilla, avocado) (high protein)",
+      "View Ahi verde yogurt",
+      "View Mango lime vinaigrette",
+      "View Miso ginger dressing",
+      "View Green smoothie"
+    ],
+    "query": "Avocado",
+    "resultScroll": 0
+  },
+  "dishReturn": {
+    "focus": "View Avocado toast (gluten-free sourdough, poached egg) (GF, LF)",
+    "heading": "19 results for “Avocado”",
+    "quantity": "1",
+    "query": "Avocado"
+  },
+  "empty": {
+    "count": 8,
+    "heading": "No results for “asdasdasd”,you might like these instead:"
+  },
+  "closed": {
+    "cart": "Cart: 2 items, $24.90",
+    "focus": "Search menu",
+    "open": "false",
+    "query": "",
+    "scroll": 600
+  },
+  "top": {
+    "cart": "Cart: 1 item, $11.95",
+    "scroll": 0,
+    "searchInert": true,
+    "topButtons": 0
+  },
+  "assets": [
+    {
+      "height": 15.501409729242932,
+      "loaded": true,
+      "src": "/assets/catalog-tools/up.svg",
+      "width": 15.501312541121312
+    },
+    {
+      "height": 19.245172102364407,
+      "loaded": true,
+      "src": "/assets/catalog-tools/cart.svg",
+      "width": 20.065113357512836
+    },
+    {
+      "height": 16.56874638511042,
+      "loaded": true,
+      "src": "/assets/catalog-tools/search.svg",
+      "width": 16.56884205466764
+    },
+    {
+      "height": 20.003239451020463,
+      "loaded": true,
+      "src": "/assets/catalog-tools/close.svg",
+      "width": 20.003239451020463
+    }
+  ],
+  "category": {
+    "active": "Healthy bowls",
+    "scroll": 2711.881103515625,
+    "top": true
+  },
+  "whitespace": {
+    "heading": false,
+    "mainInert": false,
+    "query": " "
+  },
+  "escape": {
+    "keyboard": "false",
+    "query": "",
+    "scroll": 2711.881103515625,
+    "search": "false"
+  },
+  "emptyCart": {
+    "cart": false,
+    "mainScroll": 2711.881103515625,
+    "searchLeft": 719.0668334960938
+  },
+  "console": [],
+  "keyboardGeometry": {
+    "blurGroupOpacity": "1",
+    "fieldHeight": 50.00035470839156,
+    "fieldWidth": 400.0183148755009,
+    "focus": "Search menu",
+    "gapAboveKeyboard": 9.436936238263687
+  }
+}

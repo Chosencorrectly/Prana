@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-13",
+  "timezone": "Europe/Moscow",
+  "open": {
+    "opacity": "1",
+    "phase": "open",
+    "transition": "0s"
+  },
+  "largeClose": {
+    "focus": "View Acai bowl (granola, banana, berries) (vegan)",
+    "inert": false,
+    "scroll": 0
+  },
+  "scrolledDish": {
+    "phase": "open",
+    "purchase": "1 item, $12.951 item$12.95",
+    "scroll": 247.52474975585935
+  },
+  "smallClose": {
+    "focus": "View Chia pudding (coconut milk, berries, banana) (vegan, GF)",
+    "inert": false,
+    "quantity": "1 item, $12.951 item$12.95",
+    "scroll": 359.40594482421875
+  },
+  "reopen": {
+    "phase": "opening",
+    "photoOpacity": "1",
+    "photoWidth": "425.449px"
+  },
+  "openSettled": {
+    "height": "816.986px",
+    "opacity": "1",
+    "phase": "open",
+    "width": "429.997px"
+  },
+  "swipe": {
+    "focus": "View Chia pudding (coconut milk, berries, banana) (vegan, GF)",
+    "inert": false,
+    "phase": "removed"
+  },
+  "cartReturn": {
+    "cart": true,
+    "dish": false,
+    "focus": "View Aloe refresher",
+    "opacity": "1",
+    "transition": "0s"
+  },
+  "console": [],
+  "limitations": [
+    "No FPS measurement; sample times include browser-tool latency.",
+    "Physical touch, Pixel, system reduced motion, auth/motion/runtime/sites suites not tested this iteration.",
+    "After Add replaced its button, unscoped Escape did not close with focus outside the dialog; scoped Escape from Close passed. Existing keyboard-focus edge case remains."
+  ]
+}

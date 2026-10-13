@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-12",
+  "timezone": "Europe/Moscow",
+  "node": "1194:5225",
+  "source": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1194-5225",
+  "figma": {
+    "titleWeight": "Semibold",
+    "largeDescriptionOpacity": 0.75,
+    "descriptionToNutrition": 16,
+    "fadeHeight": 229
+  },
+  "userFeedback": {
+    "textToPurchaseSafeGap": "about 32px",
+    "titleWeight": "Semibold, not Bold",
+    "largeDescriptionOpacity": 0.75,
+    "fadeHeight": "requested refinement without an explicit number"
+  },
+  "implementation": {
+    "descriptionToNutrition": 16,
+    "textAndNutritionToPurchase": 32,
+    "titleWeight": 600,
+    "largeDescriptionOpacity": 0.75,
+    "fadeHeight": 300,
+    "fadeHeightBasis": "Implementation choice to cover long real-product text; communicated before edit."
+  },
+  "figmaEdited": false
+}

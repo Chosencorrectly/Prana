@@ -1,0 +1,110 @@
+[
+  {
+    "elapsed": 0,
+    "contentOpacity": "1",
+    "contentTransition": "0s",
+    "inert": true,
+    "phase": "open",
+    "photoOpacity": "1",
+    "photoWidth": "429.997px"
+  },
+  {
+    "elapsed": 116,
+    "contentOpacity": "1",
+    "contentTransition": "0s",
+    "inert": true,
+    "phase": "closing",
+    "photoOpacity": "0.355365",
+    "photoWidth": "407.983px"
+  },
+  {
+    "elapsed": 201,
+    "contentOpacity": "1",
+    "contentTransition": "0s",
+    "inert": true,
+    "phase": "closing",
+    "photoOpacity": "0.0969828",
+    "photoWidth": "401.098px"
+  },
+  {
+    "elapsed": 251,
+    "contentOpacity": "1",
+    "contentTransition": "0s",
+    "inert": true,
+    "phase": "closing",
+    "photoOpacity": "0.0295599",
+    "photoWidth": "398.793px"
+  },
+  {
+    "elapsed": 319,
+    "contentOpacity": "1",
+    "contentTransition": "0s",
+    "inert": true,
+    "phase": "closing",
+    "photoOpacity": "0.0046103",
+    "photoWidth": "398.113px"
+  },
+  {
+    "elapsed": 390,
+    "contentOpacity": "1",
+    "contentTransition": "0s",
+    "inert": false,
+    "phase": "removed",
+    "photoOpacity": null,
+    "photoWidth": null
+  },
+  {
+    "elapsed": 472,
+    "contentOpacity": "1",
+    "contentTransition": "0s",
+    "inert": false,
+    "phase": "removed",
+    "photoOpacity": null,
+    "photoWidth": null
+  },
+  {
+    "elapsed": 534,
+    "contentOpacity": "1",
+    "contentTransition": "0s",
+    "inert": false,
+    "phase": "removed",
+    "photoOpacity": null,
+    "photoWidth": null
+  },
+  {
+    "elapsed": 597,
+    "contentOpacity": "1",
+    "contentTransition": "0s",
+    "inert": false,
+    "phase": "removed",
+    "photoOpacity": null,
+    "photoWidth": null
+  },
+  {
+    "elapsed": 666,
+    "contentOpacity": "1",
+    "contentTransition": "0s",
+    "inert": false,
+    "phase": "removed",
+    "photoOpacity": null,
+    "photoWidth": null
+  },
+  {
+    "elapsed": 729,
+    "contentOpacity": "1",
+    "contentTransition": "0s",
+    "inert": false,
+    "phase": "removed",
+    "photoOpacity": null,
+    "photoWidth": null
+  },
+  {
+    "elapsed": 791,
+    "contentOpacity": "1",
+    "contentTransition": "0s",
+    "inert": false,
+    "phase": "removed",
+    "photoOpacity": null,
+    "photoWidth": null
+  }
+]

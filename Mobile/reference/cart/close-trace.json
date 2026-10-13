@@ -1,0 +1,62 @@
+[
+  {
+    "elapsedMs": 300,
+    "focus": "Close cart",
+    "sheet": "matrix(1, 0, 0, 1, 0, 799.96)",
+    "underlayInert": true
+  },
+  {
+    "elapsedMs": 357,
+    "focus": "Close cart",
+    "sheet": "matrix(1, 0, 0, 1, 0, 870.346)",
+    "underlayInert": true
+  },
+  {
+    "elapsedMs": 425,
+    "focus": "Close cart",
+    "sheet": "matrix(1, 0, 0, 1, 0, 896.502)",
+    "underlayInert": true
+  },
+  {
+    "elapsedMs": 488,
+    "focus": "Close cart",
+    "sheet": "matrix(1, 0, 0, 1, 0, 904.037)",
+    "underlayInert": true
+  },
+  {
+    "elapsedMs": 551,
+    "focus": "Close cart",
+    "sheet": "matrix(1, 0, 0, 1, 0, 906.14)",
+    "underlayInert": true
+  },
+  {
+    "elapsedMs": 618,
+    "focus": "Close cart",
+    "sheet": "matrix(1, 0, 0, 1, 0, 906)",
+    "underlayInert": true
+  },
+  {
+    "elapsedMs": 703,
+    "focus": "Cart: 3 items, $40.85",
+    "sheet": null,
+    "underlayInert": false
+  },
+  {
+    "elapsedMs": 772,
+    "focus": "Cart: 3 items, $40.85",
+    "sheet": null,
+    "underlayInert": false
+  },
+  {
+    "elapsedMs": 835,
+    "focus": "Cart: 3 items, $40.85",
+    "sheet": null,
+    "underlayInert": false
+  },
+  {
+    "elapsedMs": 898,
+    "focus": "Cart: 3 items, $40.85",
+    "sheet": null,
+    "underlayInert": false
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "elapsed": 0,
+    "contentOpacity": "1",
+    "contentTransition": "0s",
+    "kcalOpacity": "1",
+    "kcalTransition": "0s",
+    "phase": "open",
+    "photoOpacity": "1"
+  },
+  {
+    "elapsed": 122,
+    "contentOpacity": "1",
+    "contentTransition": "0s",
+    "kcalOpacity": "1",
+    "kcalTransition": "0s",
+    "phase": "closing",
+    "photoOpacity": "0.157259"
+  },
+  {
+    "elapsed": 205,
+    "contentOpacity": "1",
+    "contentTransition": "0s",
+    "kcalOpacity": "1",
+    "kcalTransition": "0s",
+    "phase": "closing",
+    "photoOpacity": "0.044174"
+  },
+  {
+    "elapsed": 252,
+    "contentOpacity": "1",
+    "contentTransition": "0s",
+    "kcalOpacity": "1",
+    "kcalTransition": "0s",
+    "phase": "closing",
+    "photoOpacity": "0.0130443"
+  },
+  {
+    "elapsed": 322,
+    "contentOpacity": "1",
+    "contentTransition": "0s",
+    "kcalOpacity": "1",
+    "kcalTransition": "0s",
+    "phase": "closing",
+    "photoOpacity": "0.00113133"
+  },
+  {
+    "elapsed": 384,
+    "contentOpacity": "1",
+    "contentTransition": "0s",
+    "kcalOpacity": "1",
+    "kcalTransition": "0s",
+    "phase": "removed",
+    "photoOpacity": null
+  },
+  {
+    "elapsed": 437,
+    "contentOpacity": "1",
+    "contentTransition": "0s",
+    "kcalOpacity": "1",
+    "kcalTransition": "0s",
+    "phase": "removed",
+    "photoOpacity": null
+  },
+  {
+    "elapsed": 502,
+    "contentOpacity": "1",
+    "contentTransition": "0s",
+    "kcalOpacity": "1",
+    "kcalTransition": "0s",
+    "phase": "removed",
+    "photoOpacity": null
+  },
+  {
+    "elapsed": 578,
+    "contentOpacity": "1",
+    "contentTransition": "0s",
+    "kcalOpacity": "1",
+    "kcalTransition": "0s",
+    "phase": "removed",
+    "photoOpacity": null
+  },
+  {
+    "elapsed": 645,
+    "contentOpacity": "1",
+    "contentTransition": "0s",
+    "kcalOpacity": "1",
+    "kcalTransition": "0s",
+    "phase": "removed",
+    "photoOpacity": null
+  }
+]

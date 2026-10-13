@@ -1,0 +1,100 @@
+[
+  {
+    "ms": 299,
+    "bodyOpacity": "0.405286",
+    "flightVisibility": "visible",
+    "heroVisibility": "hidden",
+    "phase": "opening"
+  },
+  {
+    "ms": 355,
+    "bodyOpacity": "0.734136",
+    "flightVisibility": "visible",
+    "heroVisibility": "hidden",
+    "phase": "opening"
+  },
+  {
+    "ms": 452,
+    "bodyOpacity": "1",
+    "flightVisibility": "visible",
+    "heroVisibility": "hidden",
+    "phase": "opening"
+  },
+  {
+    "ms": 533,
+    "bodyOpacity": "1",
+    "flightVisibility": "hidden",
+    "heroVisibility": "visible",
+    "phase": "open"
+  },
+  {
+    "ms": 598,
+    "bodyOpacity": "1",
+    "flightVisibility": "hidden",
+    "heroVisibility": "visible",
+    "phase": "open"
+  },
+  {
+    "ms": 665,
+    "bodyOpacity": "1",
+    "flightVisibility": "hidden",
+    "heroVisibility": "visible",
+    "phase": "open"
+  },
+  {
+    "ms": 729,
+    "bodyOpacity": "1",
+    "flightVisibility": "hidden",
+    "heroVisibility": "visible",
+    "phase": "open"
+  },
+  {
+    "ms": 799,
+    "bodyOpacity": "1",
+    "flightVisibility": "hidden",
+    "heroVisibility": "visible",
+    "phase": "open"
+  },
+  {
+    "ms": 854,
+    "bodyOpacity": "1",
+    "flightVisibility": "hidden",
+    "heroVisibility": "visible",
+    "phase": "open"
+  },
+  {
+    "ms": 917,
+    "bodyOpacity": "1",
+    "flightVisibility": "hidden",
+    "heroVisibility": "visible",
+    "phase": "open"
+  },
+  {
+    "ms": 979,
+    "bodyOpacity": "1",
+    "flightVisibility": "hidden",
+    "heroVisibility": "visible",
+    "phase": "open"
+  },
+  {
+    "ms": 1041,
+    "bodyOpacity": "1",
+    "flightVisibility": "hidden",
+    "heroVisibility": "visible",
+    "phase": "open"
+  },
+  {
+    "ms": 1104,
+    "bodyOpacity": "1",
+    "flightVisibility": "hidden",
+    "heroVisibility": "visible",
+    "phase": "open"
+  },
+  {
+    "ms": 1168,
+    "bodyOpacity": "1",
+    "flightVisibility": "hidden",
+    "heroVisibility": "visible",
+    "phase": "open"
+  }
+]

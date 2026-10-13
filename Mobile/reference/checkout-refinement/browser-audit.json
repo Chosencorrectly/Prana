@@ -1,0 +1,1535 @@
+{
+  "date": "2026-10-13",
+  "timezone": "Europe/Moscow",
+  "paymentFocused": [
+    {
+      "focus": false,
+      "pressed": "false",
+      "ring": "0"
+    },
+    {
+      "focus": true,
+      "pressed": "true",
+      "ring": "1"
+    }
+  ],
+  "hold": [
+    {
+      "active": false,
+      "focus": true,
+      "opacity": "1",
+      "ring": "1",
+      "selected": "true"
+    },
+    {
+      "active": true,
+      "focus": true,
+      "opacity": "0.979836",
+      "ring": "1",
+      "selected": "true"
+    },
+    {
+      "active": true,
+      "focus": true,
+      "opacity": "0.851395",
+      "ring": "1",
+      "selected": "true"
+    },
+    {
+      "active": true,
+      "focus": true,
+      "opacity": "0.806208",
+      "ring": "1",
+      "selected": "true"
+    },
+    {
+      "active": true,
+      "focus": true,
+      "opacity": "0.78582",
+      "ring": "1",
+      "selected": "true"
+    },
+    {
+      "active": true,
+      "focus": true,
+      "opacity": "0.78001",
+      "ring": "1",
+      "selected": "true"
+    },
+    {
+      "active": true,
+      "focus": true,
+      "opacity": "0.78",
+      "ring": "1",
+      "selected": "true"
+    },
+    {
+      "active": true,
+      "focus": true,
+      "opacity": "0.78",
+      "ring": "1",
+      "selected": "true"
+    },
+    {
+      "active": true,
+      "focus": true,
+      "opacity": "0.78",
+      "ring": "1",
+      "selected": "true"
+    },
+    {
+      "active": true,
+      "focus": true,
+      "opacity": "0.78",
+      "ring": "1",
+      "selected": "true"
+    },
+    {
+      "active": true,
+      "focus": true,
+      "opacity": "0.78",
+      "ring": "1",
+      "selected": "true"
+    },
+    {
+      "active": true,
+      "focus": true,
+      "opacity": "0.78",
+      "ring": "1",
+      "selected": "true"
+    }
+  ],
+  "paymentBlurred": {
+    "focus": false,
+    "ring": "1",
+    "selected": "true"
+  },
+  "back": {
+    "checkout": "false",
+    "focus": "Proceed to Checkout",
+    "title": "Prana — Cart"
+  },
+  "addition": [
+    {
+      "rows": [
+        {
+          "height": "130.956px",
+          "margin": "24px",
+          "name": "Chia pudding",
+          "opacity": "1",
+          "padding": "24px",
+          "transform": "none"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 174.39157104492188
+    },
+    {
+      "rows": [
+        {
+          "height": "130.956px",
+          "margin": "24px",
+          "name": "Chia pudding",
+          "opacity": "1",
+          "padding": "24px",
+          "transform": "none"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 174.39157104492188
+    },
+    {
+      "rows": [
+        {
+          "height": "130.956px",
+          "margin": "24px",
+          "name": "Chia pudding",
+          "opacity": "1",
+          "padding": "24px",
+          "transform": "none"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 174.39157104492188
+    },
+    {
+      "rows": [
+        {
+          "height": "130.956px",
+          "margin": "24px",
+          "name": "Chia pudding",
+          "opacity": "1",
+          "padding": "24px",
+          "transform": "none"
+        },
+        {
+          "height": "19.7401px",
+          "margin": "7.23867px",
+          "name": "Aloe refresher",
+          "opacity": "0.220723",
+          "padding": "7.23867px",
+          "transform": "none"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 191.32582092285156
+    },
+    {
+      "rows": [
+        {
+          "height": "130.956px",
+          "margin": "24px",
+          "name": "Chia pudding",
+          "opacity": "1",
+          "padding": "24px",
+          "transform": "none"
+        },
+        {
+          "height": "40.3311px",
+          "margin": "15.0317px",
+          "name": "Aloe refresher",
+          "opacity": "0.61597",
+          "padding": "15.0317px",
+          "transform": "none"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 209.1539001464844
+    },
+    {
+      "rows": [
+        {
+          "height": "130.956px",
+          "margin": "24px",
+          "name": "Chia pudding",
+          "opacity": "1",
+          "padding": "24px",
+          "transform": "none"
+        },
+        {
+          "height": "40.3311px",
+          "margin": "15.0317px",
+          "name": "Aloe refresher",
+          "opacity": "0.61597",
+          "padding": "15.0317px",
+          "transform": "none"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 209.1539001464844
+    },
+    {
+      "rows": [
+        {
+          "height": "130.956px",
+          "margin": "24px",
+          "name": "Chia pudding",
+          "opacity": "1",
+          "padding": "24px",
+          "transform": "none"
+        },
+        {
+          "height": "53.0941px",
+          "margin": "19.8617px",
+          "name": "Aloe refresher",
+          "opacity": "0.813465",
+          "padding": "19.8617px",
+          "transform": "none"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 220.2005157470703
+    },
+    {
+      "rows": [
+        {
+          "height": "130.956px",
+          "margin": "24px",
+          "name": "Chia pudding",
+          "opacity": "1",
+          "padding": "24px",
+          "transform": "none"
+        },
+        {
+          "height": "55.8787px",
+          "margin": "20.911px",
+          "name": "Aloe refresher",
+          "opacity": "0.866773",
+          "padding": "20.911px",
+          "transform": "none"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 222.60997009277344
+    },
+    {
+      "rows": [
+        {
+          "height": "130.956px",
+          "margin": "24px",
+          "name": "Chia pudding",
+          "opacity": "1",
+          "padding": "24px",
+          "transform": "none"
+        },
+        {
+          "height": "56.9616px",
+          "margin": "21.3251px",
+          "name": "Aloe refresher",
+          "opacity": "0.887375",
+          "padding": "21.3251px",
+          "transform": "none"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 223.55239868164065
+    },
+    {
+      "rows": [
+        {
+          "height": "130.956px",
+          "margin": "24px",
+          "name": "Chia pudding",
+          "opacity": "1",
+          "padding": "24px",
+          "transform": "none"
+        },
+        {
+          "height": "58.9728px",
+          "margin": "22.0828px",
+          "name": "Aloe refresher",
+          "opacity": "0.919083",
+          "padding": "22.0828px",
+          "transform": "none"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 225.29147338867188
+    },
+    {
+      "rows": [
+        {
+          "height": "130.956px",
+          "margin": "24px",
+          "name": "Chia pudding",
+          "opacity": "1",
+          "padding": "24px",
+          "transform": "none"
+        },
+        {
+          "height": "60.7828px",
+          "margin": "22.7683px",
+          "name": "Aloe refresher",
+          "opacity": "0.942478",
+          "padding": "22.7683px",
+          "transform": "none"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 226.85568237304688
+    },
+    {
+      "rows": [
+        {
+          "height": "130.956px",
+          "margin": "24px",
+          "name": "Chia pudding",
+          "opacity": "1",
+          "padding": "24px",
+          "transform": "none"
+        },
+        {
+          "height": "61.5099px",
+          "margin": "23.0463px",
+          "name": "Aloe refresher",
+          "opacity": "0.959469",
+          "padding": "23.0463px",
+          "transform": "none"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 227.48719787597656
+    },
+    {
+      "rows": [
+        {
+          "height": "130.956px",
+          "margin": "24px",
+          "name": "Chia pudding",
+          "opacity": "1",
+          "padding": "24px",
+          "transform": "none"
+        },
+        {
+          "height": "62.3608px",
+          "margin": "23.3676px",
+          "name": "Aloe refresher",
+          "opacity": "0.972164",
+          "padding": "23.3676px",
+          "transform": "none"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 228.2255859375
+    },
+    {
+      "rows": [
+        {
+          "height": "130.956px",
+          "margin": "24px",
+          "name": "Chia pudding",
+          "opacity": "1",
+          "padding": "24px",
+          "transform": "none"
+        },
+        {
+          "height": "63.0105px",
+          "margin": "23.6105px",
+          "name": "Aloe refresher",
+          "opacity": "0.981546",
+          "padding": "23.6105px",
+          "transform": "none"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 228.78909301757812
+    },
+    {
+      "rows": [
+        {
+          "height": "130.956px",
+          "margin": "24px",
+          "name": "Chia pudding",
+          "opacity": "1",
+          "padding": "24px",
+          "transform": "none"
+        },
+        {
+          "height": "63.3354px",
+          "margin": "23.7329px",
+          "name": "Aloe refresher",
+          "opacity": "0.988397",
+          "padding": "23.7329px",
+          "transform": "none"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 229.07083129882812
+    },
+    {
+      "rows": [
+        {
+          "height": "130.956px",
+          "margin": "24px",
+          "name": "Chia pudding",
+          "opacity": "1",
+          "padding": "24px",
+          "transform": "none"
+        },
+        {
+          "height": "63.4901px",
+          "margin": "23.795px",
+          "name": "Aloe refresher",
+          "opacity": "0.991073",
+          "padding": "23.795px",
+          "transform": "none"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 229.2068634033203
+    },
+    {
+      "rows": [
+        {
+          "height": "130.956px",
+          "margin": "24px",
+          "name": "Chia pudding",
+          "opacity": "1",
+          "padding": "24px",
+          "transform": "none"
+        },
+        {
+          "height": "63.7531px",
+          "margin": "23.8895px",
+          "name": "Aloe refresher",
+          "opacity": "0.995127",
+          "padding": "23.8895px",
+          "transform": "none"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 229.43032836914065
+    },
+    {
+      "rows": [
+        {
+          "height": "130.956px",
+          "margin": "24px",
+          "name": "Chia pudding",
+          "opacity": "1",
+          "padding": "24px",
+          "transform": "none"
+        },
+        {
+          "height": "63.8304px",
+          "margin": "23.9239px",
+          "name": "Aloe refresher",
+          "opacity": "0.996604",
+          "padding": "23.9239px",
+          "transform": "none"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 229.49832153320312
+    }
+  ],
+  "additionFinal": [
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 174.39157104492188
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 174.39157104492188
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "8.2302px",
+          "height": 37,
+          "name": "Aloe refresher",
+          "opacity": "0.255784"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 201.731201171875
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "24.9536px",
+          "height": 63,
+          "name": "Aloe refresher",
+          "opacity": "0.471149"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 221.52182006835935
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "42.1101px",
+          "height": 82,
+          "name": "Aloe refresher",
+          "opacity": "0.635178"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 235.41510009765625
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "57.534px",
+          "height": 95,
+          "name": "Aloe refresher",
+          "opacity": "0.74802"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 245.63589477539065
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "69.1522px",
+          "height": 104,
+          "name": "Aloe refresher",
+          "opacity": "0.822464"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 252.4270782470703
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "81.0953px",
+          "height": 113,
+          "name": "Aloe refresher",
+          "opacity": "0.892638"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 258.8587951660156
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "86.5718px",
+          "height": 117,
+          "name": "Aloe refresher",
+          "opacity": "0.922891"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 261.6374816894531
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "91.3676px",
+          "height": 120,
+          "name": "Aloe refresher",
+          "opacity": "0.945266"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 263.9983215332031
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "93.5025px",
+          "height": 121,
+          "name": "Aloe refresher",
+          "opacity": "0.961639"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 265.0281982421875
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "95.854px",
+          "height": 123,
+          "name": "Aloe refresher",
+          "opacity": "0.973771"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 266.1649169921875
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "98.0353px",
+          "height": 124,
+          "name": "Aloe refresher",
+          "opacity": "0.982672"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 267.19476318359375
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "98.9016px",
+          "height": 125,
+          "name": "Aloe refresher",
+          "opacity": "0.98925"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 267.6028137207031
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "99.8144px",
+          "height": 125,
+          "name": "Aloe refresher",
+          "opacity": "0.993873"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 268.0303039550781
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "100.155px",
+          "height": 125,
+          "name": "Aloe refresher",
+          "opacity": "0.995588"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 268.176025390625
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "100.588px",
+          "height": 126,
+          "name": "Aloe refresher",
+          "opacity": "0.998075"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 268.3897705078125
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "100.866px",
+          "height": 126,
+          "name": "Aloe refresher",
+          "opacity": "0.999467"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 268.5160827636719
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "100.959px",
+          "height": 126,
+          "name": "Aloe refresher",
+          "opacity": "0.999989"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 268.5646667480469
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "100.99px",
+          "height": 126,
+          "name": "Aloe refresher",
+          "opacity": "1"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 268.57440185546875
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "100.99px",
+          "height": 126,
+          "name": "Aloe refresher",
+          "opacity": "1"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 268.57440185546875
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "100.99px",
+          "height": 126,
+          "name": "Aloe refresher",
+          "opacity": "1"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 268.57440185546875
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "100.99px",
+          "height": 126,
+          "name": "Aloe refresher",
+          "opacity": "1"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 268.57440185546875
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "100.99px",
+          "height": 126,
+          "name": "Aloe refresher",
+          "opacity": "1"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 268.57440185546875
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "100.99px",
+          "height": 126,
+          "name": "Aloe refresher",
+          "opacity": "1"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 268.57440185546875
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "100.99px",
+          "height": 126,
+          "name": "Aloe refresher",
+          "opacity": "1"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 268.57440185546875
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "100.99px",
+          "height": 126,
+          "name": "Aloe refresher",
+          "opacity": "1"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 268.57440185546875
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "100.99px",
+          "height": 126,
+          "name": "Aloe refresher",
+          "opacity": "1"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 268.57440185546875
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "100.99px",
+          "height": 126,
+          "name": "Aloe refresher",
+          "opacity": "1"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 268.57440185546875
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "100.99px",
+          "height": 126,
+          "name": "Aloe refresher",
+          "opacity": "1"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 268.57440185546875
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "100.99px",
+          "height": 126,
+          "name": "Aloe refresher",
+          "opacity": "1"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 268.57440185546875
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "100.99px",
+          "height": 126,
+          "name": "Aloe refresher",
+          "opacity": "1"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 268.57440185546875
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "100.99px",
+          "height": 126,
+          "name": "Aloe refresher",
+          "opacity": "1"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 268.57440185546875
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "100.99px",
+          "height": 126,
+          "name": "Aloe refresher",
+          "opacity": "1"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 268.57440185546875
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "100.99px",
+          "height": 126,
+          "name": "Aloe refresher",
+          "opacity": "1"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 268.57440185546875
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "100.99px",
+          "height": 126,
+          "name": "Aloe refresher",
+          "opacity": "1"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 268.57440185546875
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "100.99px",
+          "height": 126,
+          "name": "Aloe refresher",
+          "opacity": "1"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 268.57440185546875
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "100.99px",
+          "height": 126,
+          "name": "Aloe refresher",
+          "opacity": "1"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 268.57440185546875
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "100.99px",
+          "height": 126,
+          "name": "Aloe refresher",
+          "opacity": "1"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 268.57440185546875
+    },
+    {
+      "rows": [
+        {
+          "grid": "105.972px",
+          "height": 131,
+          "name": "Chia pudding",
+          "opacity": "1"
+        },
+        {
+          "grid": "100.99px",
+          "height": 126,
+          "name": "Aloe refresher",
+          "opacity": "1"
+        }
+      ],
+      "scroll": 109.90099334716795,
+      "suggestions": 268.57440185546875
+    }
+  ],
+  "keyboardFocus": {
+    "label": "Close checkout and cart",
+    "outline": "rgb(237, 237, 237) solid 1.9802px"
+  },
+  "close": {
+    "cartPresent": false,
+    "checkoutPresent": false,
+    "focus": "Cart: 2 items, $27.95",
+    "title": "Prana — Menu"
+  },
+  "initialRows": [
+    {
+      "height": 131,
+      "opacity": "1"
+    },
+    {
+      "height": 126,
+      "opacity": "1"
+    }
+  ],
+  "emptyAddition": [
+    {
+      "empty": {
+        "height": 298
+      },
+      "row": null
+    },
+    {
+      "empty": {
+        "height": 298
+      },
+      "row": null
+    },
+    {
+      "empty": {
+        "height": 298
+      },
+      "row": null
+    },
+    {
+      "empty": {
+        "height": 259
+      },
+      "row": {
+        "height": 34,
+        "opacity": "0.109291"
+      }
+    },
+    {
+      "empty": {
+        "height": 228
+      },
+      "row": {
+        "height": 62,
+        "opacity": "0.445631"
+      }
+    },
+    {
+      "empty": {
+        "height": 199
+      },
+      "row": {
+        "height": 84,
+        "opacity": "0.617007"
+      }
+    },
+    {
+      "empty": {
+        "height": 174
+      },
+      "row": {
+        "height": 97,
+        "opacity": "0.736"
+      }
+    },
+    {
+      "empty": {
+        "height": 136
+      },
+      "row": {
+        "height": 112,
+        "opacity": "0.843315"
+      }
+    },
+    {
+      "empty": {
+        "height": 118
+      },
+      "row": {
+        "height": 117,
+        "opacity": "0.887913"
+      }
+    },
+    {
+      "empty": {
+        "height": 110
+      },
+      "row": {
+        "height": 119,
+        "opacity": "0.90497"
+      }
+    },
+    {
+      "empty": {
+        "height": 99
+      },
+      "row": {
+        "height": 121,
+        "opacity": "0.919472"
+      }
+    },
+    {
+      "empty": {
+        "height": 79
+      },
+      "row": {
+        "height": 124,
+        "opacity": "0.94262"
+      }
+    },
+    {
+      "empty": {
+        "height": 67
+      },
+      "row": {
+        "height": 126,
+        "opacity": "0.959785"
+      }
+    },
+    {
+      "empty": {
+        "height": 60
+      },
+      "row": {
+        "height": 127,
+        "opacity": "0.966518"
+      }
+    },
+    {
+      "empty": {
+        "height": 53
+      },
+      "row": {
+        "height": 127,
+        "opacity": "0.97232"
+      }
+    },
+    {
+      "empty": {
+        "height": 41
+      },
+      "row": {
+        "height": 129,
+        "opacity": "0.981718"
+      }
+    },
+    {
+      "empty": {
+        "height": 35
+      },
+      "row": {
+        "height": 129,
+        "opacity": "0.985371"
+      }
+    },
+    {
+      "empty": {
+        "height": 30
+      },
+      "row": {
+        "height": 130,
+        "opacity": "0.98848"
+      }
+    },
+    {
+      "empty": {
+        "height": 21
+      },
+      "row": {
+        "height": 130,
+        "opacity": "0.993366"
+      }
+    },
+    {
+      "empty": {
+        "height": 17
+      },
+      "row": {
+        "height": 130,
+        "opacity": "0.995174"
+      }
+    },
+    {
+      "empty": {
+        "height": 13
+      },
+      "row": {
+        "height": 131,
+        "opacity": "0.996661"
+      }
+    },
+    {
+      "empty": {
+        "height": 7
+      },
+      "row": {
+        "height": 131,
+        "opacity": "0.998713"
+      }
+    },
+    {
+      "empty": {
+        "height": 5
+      },
+      "row": {
+        "height": 131,
+        "opacity": "0.999346"
+      }
+    },
+    {
+      "empty": {
+        "height": 1
+      },
+      "row": {
+        "height": 131,
+        "opacity": "0.999964"
+      }
+    },
+    {
+      "empty": null,
+      "row": {
+        "height": 131,
+        "opacity": "1"
+      }
+    },
+    {
+      "empty": null,
+      "row": {
+        "height": 131,
+        "opacity": "1"
+      }
+    },
+    {
+      "empty": null,
+      "row": {
+        "height": 131,
+        "opacity": "1"
+      }
+    },
+    {
+      "empty": null,
+      "row": {
+        "height": 131,
+        "opacity": "1"
+      }
+    },
+    {
+      "empty": null,
+      "row": {
+        "height": 131,
+        "opacity": "1"
+      }
+    },
+    {
+      "empty": null,
+      "row": {
+        "height": 131,
+        "opacity": "1"
+      }
+    },
+    {
+      "empty": null,
+      "row": {
+        "height": 131,
+        "opacity": "1"
+      }
+    },
+    {
+      "empty": null,
+      "row": {
+        "height": 131,
+        "opacity": "1"
+      }
+    }
+  ],
+  "timeFocused": {
+    "focus": true,
+    "ring": "1",
+    "selected": "true"
+  },
+  "timeBlurred": {
+    "focus": false,
+    "ring": "1",
+    "selected": "true"
+  },
+  "promo": "Applied: -10%\nApplied: -10%",
+  "closeWithKeyboard": {
+    "cartPresent": false,
+    "checkoutPresent": false,
+    "focus": "Search menu",
+    "title": "Prana — Menu"
+  },
+  "console": [],
+  "final": {
+    "backLoaded": true,
+    "choice": [
+      {
+        "label": "As soon as possible",
+        "ring": "0",
+        "selected": "false"
+      },
+      {
+        "label": "11:20 - 12:30 PM",
+        "ring": "1",
+        "selected": "true"
+      },
+      {
+        "label": "11:20 - 12:30 PM",
+        "ring": "0",
+        "selected": "false"
+      },
+      {
+        "label": "Mastercard ending in 4344, card 1",
+        "ring": "0",
+        "selected": "false"
+      },
+      {
+        "label": "Mastercard ending in 4344, card 2",
+        "ring": "1",
+        "selected": "true"
+      }
+    ],
+    "header": "Back to cartCheckoutClose",
+    "title": "Prana — Checkout"
+  },
+  "limitations": [
+    "Mouse/keyboard in IAB; no physical touch, Pixel, system reduced-motion or screen-reader run.",
+    "Sampling includes tool latency, not an FPS profile."
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-13",
+  "timezone": "Europe/Moscow",
+  "iteration": "D-56",
+  "browser": "Codex IAB / Chromium, calibrated iPhone 430x932",
+  "phoneGeometry": {
+    ".checkout-surface": {
+      "height": 563.9891813799312,
+      "width": 430,
+      "x": 0,
+      "y": 368.0100569646703
+    },
+    ".keyboard-dock": {
+      "height": 300.99229298195536,
+      "width": 430,
+      "x": 0,
+      "y": 631.0069453626462
+    },
+    ".verification-dock[data-active=\"true\"] button": {
+      "height": 53.99170685847533,
+      "width": 399.01275797513296,
+      "x": 15.996387314102291,
+      "y": 549.0292993086761
+    },
+    ".verification-phone-field": {
+      "height": 60.99983904629974,
+      "width": 400.0183148755009,
+      "x": 14.990830413734354,
+      "y": 455.99023578629374
+    }
+  },
+  "codeGeometry": {
+    ".checkout-surface": {
+      "height": 705.9920093282516,
+      "width": 430,
+      "x": 0,
+      "y": 226.00718042228917
+    },
+    ".keyboard-dock": {
+      "height": 300.99229298195536,
+      "width": 430,
+      "x": 0,
+      "y": 631.0069453626462
+    },
+    ".verification-code-field": {
+      "height": 69.98810024683523,
+      "width": 284.99588137082264,
+      "x": 72.4943693044653,
+      "y": 394.9904514083124
+    },
+    ".verification-dock[data-active=\"true\"] button": {
+      "height": 53.99170685847533,
+      "width": 399.01275797513296,
+      "x": 15.996387314102291,
+      "y": 549.0292993086761
+    }
+  },
+  "supportGeometry": {
+    ".checkout-surface": {
+      "asset": null,
+      "height": 869.993854546449,
+      "width": 430,
+      "x": 0,
+      "y": 62.00539594666768
+    },
+    ".delivery-order-button": {
+      "asset": null,
+      "height": 53.99175545253615,
+      "width": 399.01275797513296,
+      "x": 15.996387314102291,
+      "y": 842.0078485341206
+    },
+    ".delivery-support": {
+      "asset": null,
+      "height": 211.0009031714744,
+      "width": 400.0183148755009,
+      "x": 14.990830413734354,
+      "y": 486.3741096550974
+    },
+    ".delivery-support button": {
+      "asset": null,
+      "height": 50.00035470839156,
+      "width": 360.04282379861354,
+      "x": 34.97858810069322,
+      "y": 623.364606012916
+    },
+    ".delivery-support button img": {
+      "asset": {
+        "loaded": true,
+        "src": "/assets/checkout/whatsapp.svg"
+      },
+      "height": 19.98779565106888,
+      "width": 19.987747057008065,
+      "x": 151.9348708494174,
+      "y": 638.3708893379884
+    }
+  },
+  "checkoutBefore": {
+    "card": [
+      "false",
+      "true"
+    ],
+    "leave": "false",
+    "promo": "1111",
+    "scroll": 797.0297241210938,
+    "time": [
+      "false",
+      "true",
+      "false"
+    ],
+    "total": "Total$10.75$10.75$10.75"
+  },
+  "checkoutAfter": {
+    "card": [
+      "false",
+      "true"
+    ],
+    "leave": "false",
+    "promo": "1111",
+    "scroll": 797.0297241210938,
+    "time": [
+      "false",
+      "true",
+      "false"
+    ],
+    "total": "Total$10.75$10.75$10.75"
+  },
+  "checkoutRestored": true,
+  "afterClearAndNewItem": {
+    "cta": "Order",
+    "promo": "",
+    "total": "Total$15.00$15.00$15.00"
+  },
+  "checks": {
+    "defaultMissingPhoneAfterReload": true,
+    "disabledEmptyPhone": true,
+    "disabledPartialCode": true,
+    "wrongCodeInlineError": true,
+    "resendClearsErrorAndCode": true,
+    "resendRestarts43Seconds": true,
+    "backPreservesInputAndCooldown": true,
+    "code1111ReturnsDelivery": true,
+    "reopenUsesOrder": true,
+    "clearCartPreservesVerifiedPhone": true,
+    "escapeHidesKeyboardAndFocusesBack": true,
+    "secondEscapeReturnsCheckoutAndFocusesCTA": true
+  },
+  "logs": [],
+  "limits": [
+    "No real SMS/API/order submission",
+    "Support target unavailable; action aria-disabled",
+    "Physical touch, native keyboard, system reduced motion and screen reader not tested",
+    "No publication; visual approval pending"
+  ]
+}

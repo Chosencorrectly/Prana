@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-13",
+  "timezone": "Europe/Moscow",
+  "initial": {
+    "buttons": [
+      {
+        "label": "Clear cart",
+        "right": 567.5718460083008,
+        "x": 508.0542297363281
+      },
+      {
+        "label": "Close",
+        "right": 759.2699165344238,
+        "x": 718.1341552734375
+      }
+    ],
+    "drag": {
+      "bottom": 173.7309112548828,
+      "height": 37.67701721191406,
+      "left": 577.1416625976562,
+      "right": 690.1823959350586,
+      "top": 136.05389404296875,
+      "width": 113.04073333740234,
+      "x": 577.1416625976562,
+      "y": 136.05389404296875
+    },
+    "editCount": 0,
+    "iconFilter": "brightness(0) invert(1)"
+  },
+  "cancel": {
+    "focus": "Clear cart",
+    "rows": 1
+  },
+  "scrolled": {
+    "address": {
+      "bottom": 127.98997116088869,
+      "height": 12.746837615966797,
+      "left": 577.1320190429688,
+      "right": 690.1921539306641,
+      "top": 115.24313354492188,
+      "width": 113.06013488769533,
+      "x": 577.1320190429688,
+      "y": 115.24313354492188
+    },
+    "opacity": "1",
+    "toolbar": {
+      "bottom": 140.4550552368164,
+      "height": 37.677001953125,
+      "left": 498.6398315429687,
+      "right": 768.684326171875,
+      "top": 102.7780532836914,
+      "width": 270.04449462890625,
+      "x": 498.6398315429687,
+      "y": 102.7780532836914
+    }
+  },
+  "dragClose": {
+    "cart": false,
+    "focus": "Cart: 1 item, $15.95"
+  },
+  "empty": {
+    "clear": false,
+    "closeX": 718.1341552734375,
+    "focus": "It's empty for now"
+  },
+  "close": {
+    "cart": false,
+    "focus": "Search menu",
+    "title": "Prana — Menu"
+  },
+  "console": [],
+  "final": {
+    "clearLabel": "Clear cart",
+    "closeLabel": "Close",
+    "editButtons": 0
+  }
+}

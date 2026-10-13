@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-13",
+  "environment": "IAB, iPhone430×932, mouse and physical keyboard; isolated agent tab",
+  "tested": [
+    "Cart 4 items → Checkout → missing phone → SMS1111 → Checkout",
+    "Add address → details1204/2481/Call when you deliver → Save → Deliver here",
+    "Promo1111: 48.85 - 4.89 = 43.96 → Order",
+    "Cart consumed; independent receipt",
+    "Show more reveals fourth real dish",
+    "Pointer drag from297 to533; map expand768; restore297",
+    "Snap changes preserve scroll351.485 and expanded rows",
+    "Close/reopen preserve870.297 scroll and total43.96",
+    "Escape returns to Menu, focus restores to shortcut",
+    "Minimized768 restored on reopen",
+    "Home on handle returns details",
+    "Support visible under scroll, console errors/warnings none"
+  ],
+  "beforeClose": {
+    "expanded": "true",
+    "scroll": 870.2970581054688,
+    "snap": "0",
+    "total": "Total$43.96"
+  },
+  "reopened": {
+    "expanded": "true",
+    "focus": "Close active order",
+    "scroll": 870.2970581054688,
+    "snap": "0",
+    "total": "Total$43.96"
+  },
+  "middle": {
+    "expanded": "true",
+    "scroll": 351.4851379394531,
+    "snap": "1",
+    "status": "Estimated arrival 12:20–12:35 PMLooking for courier",
+    "transform": "matrix(1, 0, 0, 1, 0, 533)"
+  },
+  "final": {
+    "buttons": [
+      {
+        "inert": false,
+        "name": "Close active order"
+      },
+      {
+        "inert": false,
+        "name": "Expand delivery map"
+      },
+      {
+        "inert": false,
+        "name": "Order panel: Order details. Change size"
+      },
+      {
+        "inert": false,
+        "name": "Show less"
+      },
+      {
+        "inert": false,
+        "name": "Contact support"
+      }
+    ],
+    "close": {
+      "background": "rgba(255, 255, 255, 0.13)",
+      "blur": "blur(35px)"
+    },
+    "dialogs": 1,
+    "expanded": "true",
+    "runtimeScreen": [
+      430,
+      932
+    ],
+    "scroll": 0,
+    "snap": "0",
+    "title": "Prana — Active order",
+    "total": "Total$43.96"
+  },
+  "unverified": [
+    "physical touch",
+    "screen reader",
+    "system reduced motion",
+    "FPS",
+    "real backend, courier movement or payment"
+  ],
+  "publication": "none",
+  "userApproval": "D-57 and D-58 await review"
+}
