@@ -1,0 +1,579 @@
+{
+  "result": {
+    "events": [
+      {
+        "created": 1791895802461,
+        "date": 1791895802461,
+        "type": "stdout",
+        "text": "Running build in Washington, D.C., USA (East) – iad1",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895802462,
+        "date": 1791895802462,
+        "type": "stdout",
+        "text": "Build machine configuration: 2 cores, 8 GB",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895802521,
+        "date": 1791895802521,
+        "type": "stdout",
+        "text": "Retrieving list of deployment files...",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895802636,
+        "date": 1791895802636,
+        "type": "stdout",
+        "text": "Previous build caches not available.",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895802850,
+        "date": 1791895802850,
+        "type": "stdout",
+        "text": "Downloading 74 deployment files...",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895804046,
+        "date": 1791895804046,
+        "type": "stdout",
+        "text": "Running \"vercel build\"",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895804061,
+        "date": 1791895804061,
+        "type": "stderr",
+        "text": "Vercel CLI 62.7.0",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895805536,
+        "date": 1791895805536,
+        "type": "stdout",
+        "text": "Running \"install\" command: `npm ci`...",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895808853,
+        "date": 1791895808853,
+        "type": "stdout",
+        "text": "",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895808854,
+        "date": 1791895808854,
+        "type": "stdout",
+        "text": "added 75 packages in 3s",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895809392,
+        "date": 1791895809392,
+        "type": "stdout",
+        "text": "",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895809392,
+        "date": 1791895809392,
+        "type": "stdout",
+        "text": "> mobile@0.1.0 build:vercel",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895809392,
+        "date": 1791895809392,
+        "type": "stdout",
+        "text": "> node scripts/restore-vercel-assets.mjs && npm run build",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895809392,
+        "date": 1791895809392,
+        "type": "stdout",
+        "text": "",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895812443,
+        "date": 1791895812443,
+        "type": "stdout",
+        "text": "Verified 154 original assets; restored 154 from 8354838e0bfc3a7d6092c739ebcbebd3fae2544e.",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895812547,
+        "date": 1791895812547,
+        "type": "stdout",
+        "text": "",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895812547,
+        "date": 1791895812547,
+        "type": "stdout",
+        "text": "> mobile@0.1.0 prebuild",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895812547,
+        "date": 1791895812547,
+        "type": "stdout",
+        "text": "> npm run check:runtime",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895812547,
+        "date": 1791895812547,
+        "type": "stdout",
+        "text": "",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895812645,
+        "date": 1791895812645,
+        "type": "stdout",
+        "text": "",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895812645,
+        "date": 1791895812645,
+        "type": "stdout",
+        "text": "> mobile@0.1.0 check:runtime",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895812645,
+        "date": 1791895812645,
+        "type": "stdout",
+        "text": "> node scripts/check-mobile-runtime.mjs",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895812645,
+        "date": 1791895812645,
+        "type": "stdout",
+        "text": "",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895812695,
+        "date": 1791895812695,
+        "type": "stdout",
+        "text": "Mobile runtime integrity check passed (29 protected files).",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895812705,
+        "date": 1791895812705,
+        "type": "stdout",
+        "text": "",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895812705,
+        "date": 1791895812705,
+        "type": "stdout",
+        "text": "> mobile@0.1.0 build",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895812705,
+        "date": 1791895812705,
+        "type": "stdout",
+        "text": "> tsc && vite build && node scripts/prepare-sites-build.mjs",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895812705,
+        "date": 1791895812705,
+        "type": "stdout",
+        "text": "",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895813865,
+        "date": 1791895813865,
+        "type": "stdout",
+        "text": "\u001b[36mvite v8.1.3 \u001b[32mbuilding client environment for production...\u001b[36m\u001b[39m",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895814208,
+        "date": 1791895814208,
+        "type": "stdout",
+        "text": "\u001b[2K\rtransforming...✓ 548 modules transformed.",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895814491,
+        "date": 1791895814491,
+        "type": "stdout",
+        "text": "rendering chunks...",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895814618,
+        "date": 1791895814618,
+        "type": "stdout",
+        "text": "computing gzip size...",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895814635,
+        "date": 1791895814635,
+        "type": "stdout",
+        "text": "dist/client/index.html                                       0.48 kB │ gzip:   0.30 kB",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895814635,
+        "date": 1791895814635,
+        "type": "stdout",
+        "text": "dist/client/assets/roboto-latin-500-normal-DQZyH_nt.woff    21.92 kB",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895814636,
+        "date": 1791895814636,
+        "type": "stdout",
+        "text": "dist/client/assets/roboto-latin-500-normal-7RbcRiD8.woff2   22.20 kB",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895814636,
+        "date": 1791895814636,
+        "type": "stdout",
+        "text": "dist/client/assets/index-BBEu8fPy.css                       69.75 kB │ gzip:  13.41 kB",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895814636,
+        "date": 1791895814636,
+        "type": "stdout",
+        "text": "dist/client/assets/index-CHO3OZbW.js                       610.66 kB │ gzip: 181.64 kB",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895814636,
+        "date": 1791895814636,
+        "type": "stdout",
+        "text": "",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895814637,
+        "date": 1791895814637,
+        "type": "stderr",
+        "text": "\u001b[33m[plugin builtin:vite-reporter] ",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895814637,
+        "date": 1791895814637,
+        "type": "stderr",
+        "text": "(!) Some chunks are larger than 500 kB after minification. Consider:",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895814637,
+        "date": 1791895814637,
+        "type": "stderr",
+        "text": "- Using dynamic import() to code-split the application",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895814637,
+        "date": 1791895814637,
+        "type": "stderr",
+        "text": "- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895814637,
+        "date": 1791895814637,
+        "type": "stderr",
+        "text": "- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.\u001b[39m",
+        "level": "warning",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895814638,
+        "date": 1791895814638,
+        "type": "stdout",
+        "text": "\u001b[32m✓ built in 770ms\u001b[39m",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895814700,
+        "date": 1791895814700,
+        "type": "stdout",
+        "text": "Prepared Sites build: dist/server/index.js and dist/.openai/hosting.json",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895815414,
+        "date": 1791895815414,
+        "type": "stderr",
+        "text": "Build Completed in /vercel/output [10s]",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895815447,
+        "date": 1791895815447,
+        "type": "stdout",
+        "text": "Deploying outputs...",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895817030,
+        "date": 1791895817030,
+        "type": "stdout",
+        "text": "Deployment completed",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895817033,
+        "date": 1791895817033,
+        "type": "stdout",
+        "text": "Creating build cache...",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895820242,
+        "date": 1791895820242,
+        "type": "stdout",
+        "text": "Created build cache: 3s",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895820242,
+        "date": 1791895820242,
+        "type": "stdout",
+        "text": "Uploading build cache [33.56 MB]",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      },
+      {
+        "created": 1791895821383,
+        "date": 1791895821383,
+        "type": "stdout",
+        "text": "Build cache uploaded: 1.141s",
+        "info": {
+          "type": "build",
+          "name": "bld_o3ibwrb70",
+          "entrypoint": "."
+        }
+      }
+    ]
+  }
+}

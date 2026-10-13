@@ -17,4 +17,6 @@ Use the more specific instructions in `Web/prototype/AGENTS.md` and `Mobile/AGEN
 
 ## GitHub handoff
 
+D-60 (2026-10-13) extends the export layout: `Mobile/` contains the mobile app beside `Web/`, whose app remains `Web/prototype/`. Root `PROJECT_LOG.md` is canonical for both; the old `Web/PROJECT_LOG.md` is historical. Public previews: https://prana-mobile-01.vercel.app and https://prana-web-01.vercel.app. Mobile deploys manually from source with154 assets pinned to a GitHub commit and verified by SHA-256 at build time; no Git auto-deploy is configured. The original local layout stays `mobile/` and `prototype/`.
+
 The public repository is `Chosencorrectly/Prana`, explicitly requested by the user on 2026-10-07; do not use ProductHow. The exported project lives under `Web/`, and the app under `Web/prototype/`. The original local workspace retains its current layout. Preserve all required source images (including cart-empty-bag.png), docs and tests. Exclude dependencies, build output, `.vercel`, local credentials and env files. GitHub and Vercel are separate publications; no automatic deployment or synchronization is configured.

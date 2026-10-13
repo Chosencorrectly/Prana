@@ -1,0 +1,13 @@
+# D-60 — опубликованные Web и Mobile
+
+13.10.2026, Europe/Moscow. Публикация явно запрошена пользователем; отдельная визуальная приёмка всех состояний не подразумевается.
+
+- [Mobile](https://prana-mobile-01.vercel.app), дополнительный адрес [MSGD](https://prana-mobile-01-msgd.vercel.app). Production dpl_Ahk7w5sEwruWsdVu3o2ix1oAL8mA, READY, project prj_MYasXPSz8bKd3tdQqdBilL79W6Hv, team MSGD. Публичный адрес проверен без Vercel login.
+- [Web](https://prana-web-01.vercel.app): существующий проект переименован из prana-01 в prana-web-01; код/deployment dpl_E1GYUZjrJrKkwfjrn3EsPUWvgUvb сохранён. Новая ссылка проверена браузером. Старый домен не удаляли.
+- [GitHub](https://github.com/Chosencorrectly/Prana): public/main, Mobile/ рядом с Web/prototype/. Commit8354838e0bfc3a7d6092c739ebcbebd3fae2544e содержит приложение, runtime,154 public assets, docs и tests. Commitc9566c1bb7e103016731a3af5aefa296d1eb337d добавляет воспроизводимую Vercel-сборку; последующие документационные коммиты не меняют UI.
+- Native push не был авторизован, поэтому опубликовано через подключённый GitHub API с ожидаемым HEAD и без force. Web source не изменялся. Dependencies/builds/.vercel/env/keys исключены; полный Git tree fetched и сравнен с экспортом,87 фото присутствуют.
+- Git-source deployment dpl_24Xcf86gZACu5aoaCjvpLTZsQEtU остановился с git_info_fail. Успешная публикация выполнена из74 исходных файлов через Vercel API. Build восстановил154 assets (141219550bytes) из exact commit8354838 по raw.githubusercontent.com; каждый размер и SHA-256 проверен, браузер получает обычные статичные файлы Vercel. Git auto-deploy не подключён.
+- Короткий домен при раннем добавлении вернул409, но после успешной публикации был автоматически назначен этому deployment; основная ссылка выше реально открывается. Защита preview-деплоев не отключалась, публичные project domains настроены отдельно.
+- Clean export npm ci/build/integrity29/54tests passed; после финального уточнения tap повторён build. Cloud build также passed,154/154 assets restored,integrity29. Прежний JS>500kB warning остаётся.
+- [Публичный сценарий/замеры](browser-audit.json): авторизация пропущена через Skip, покупка Chia$12.95, Cart/Checkout, номер, SMS1111, Order, snap297→768→297,Close/повторный вход; console0. [Раскрыто](tracking-expanded.jpg), [свёрнуто](tracking-collapsed.jpg). Drag около прежнего среднего уровня и End/Expand дополнительно проверены локально. Нажатие ручки учитывается на pointerup, чтобы capture не терял click.
+- Физическийtouch/FPS/system reduced motion не измерялись. Заказ/оплата/SMS/геокодинг/ETA остаются демо, данные сбрасываются при reload. Сообщения команде не отправлялись: ссылки передаются пользователю.

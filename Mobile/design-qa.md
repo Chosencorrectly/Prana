@@ -1,5 +1,11 @@
 # Prana mobile — визуальная и функциональная проверка
 
+## D-60 — два snap и публикация, 13.10.2026
+
+297/768 заменяют297/533/768. Проверены drag около прежнего среднего положения, Expand, End, tap ручки, Close и повторный вход; tap переключает на pointerup, клавиатурный click обрабатывается отдельно. Публичный [mobile](https://prana-mobile-01.vercel.app) прошёл Skip→блюдо→Cart→Checkout→номер→SMS1111→Order→297→768→297→Close→баннер→tracking. Все15 изображений tracking загружены, console error/warn0. [Аудит](reference/publication/browser-audit.json), [раскрыто](reference/publication/tracking-expanded.jpg), [свёрнуто](reference/publication/tracking-collapsed.jpg).
+
+Отдельная экспортная копия: npm ci, build/TypeScript/integrity29 и54 теста passed. После уточнения pointerup повторная сборка passed. Vercel production READY; cloud build восстановил154/154 оригинальных assets из pin8354838 с SHA-256 и проверил runtime29. Прежний JS chunk>500kB warning. Системный reduced motion/физический touch/FPS отдельно не проверялись. GitHub Mobile/ и Web/prototype/ разделены; никакие реальные SMS/оплата не выполнялись. [Deployment и границы проверки](reference/publication/README.md).
+
 ## D-59 — баннер заказа и доступность кнопок, 13.10.2026
 
 Прочитан полный контекст1240:676 и screenshot1240:668. Самодельный нижний shortcut заменён исходным баннером. В браузере: x14.99/y128.96,400×70,иллюстрация52×52,x343.98/y137.95,#191919,radius50; asset загружен. Старого progress внутри баннера нет. Source copy адаптирован к текущему order.status/eta без изменения стадии заказа. Категории/каталог учитывают дополнительные102px.

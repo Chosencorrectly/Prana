@@ -1,6 +1,10 @@
 # Prana — мобильный браузерный прототип
 
-Авторизация, каталог, поиск, открытое блюдо, корзина, Delivery checkout и активный заказ из Prana-App. Текущий статус проекта и история решений: [PROJECT_LOG.md](../PROJECT_LOG.md), D-59. Это отдельное приложение; desktop находится в `../Web/prototype/`.
+**Опубликовано13.10.2026, D-60:** [открыть mobile](https://prana-mobile-01.vercel.app) · [исходники Mobile/](https://github.com/Chosencorrectly/Prana/tree/main/Mobile) · [Web](https://prana-web-01.vercel.app). В GitHub приложения разделены: Mobile/ и Web/prototype/. Node24.x, npm ci; npm run dev для запуска, npm run build для локальной сборки. Публичный flow заказа и два snap297/768 проверены. [Аудит передачи](reference/publication/README.md).
+
+Vercel source deployment использует npm run build:vercel:154 оригинальных ресурса восстанавливаются по vercel-assets.json из фиксированного GitHub-коммита с проверкой размера/SHA-256. Исходные изображения также полностью находятся в репозитории. Git auto-deploy не настроен, публикация ручная. Не исключать manifest или cart-empty-bag.png при следующей передаче.
+
+Авторизация, каталог, поиск, открытое блюдо, корзина, Delivery checkout и активный заказ из Prana-App. Текущий статус проекта и история решений: [PROJECT_LOG.md](../PROJECT_LOG.md), D-60. Это отдельное приложение; desktop находится в `../Web/prototype/`.
 
 ## Баннер заказа и состояния кнопок — D-59
 

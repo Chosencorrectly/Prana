@@ -1,0 +1,91 @@
+{
+  "url": "https://prana-mobile-01.vercel.app/",
+  "steps": [
+    "Skip",
+    "Add dish",
+    "Cart",
+    "Checkout",
+    "Phone",
+    "SMS 1111",
+    "Order"
+  ],
+  "states": [
+    {
+      "images": [
+        {
+          "loaded": true,
+          "src": "/assets/address/map.png"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/active-order/route.svg"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/active-order/route-active.svg"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/active-order/markers.png"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/active-order/markers.png"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/active-order/courier.png"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/dish/close.svg"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/active-order/expand.svg"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/active-order/house.svg"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/active-order/address-divider.svg"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/active-order/summary-divider.svg"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/active-order/total-divider.svg"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/active-order/points-circle.svg"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/active-order/points-mark.svg"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/active-order/whatsapp.svg"
+        }
+      ],
+      "snap": "0",
+      "transform": "matrix(1, 0, 0, 1, 0, 297)"
+    },
+    {
+      "snap": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 768)"
+    },
+    {
+      "snap": "0",
+      "transform": "matrix(1, 0, 0, 1, 0, 297)"
+    }
+  ],
+  "reopen": true,
+  "console": [],
+  "localDragNearFormerMiddle": "settled at 297; no middle snap"
+}
