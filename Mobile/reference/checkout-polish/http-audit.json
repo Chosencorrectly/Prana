@@ -1,0 +1,55 @@
+{
+  "mobileStatus": 200,
+  "files": [
+    {
+      "path": "/assets/index-DeN0mLzx.js",
+      "status": 200,
+      "bytes": 856144,
+      "sha256": "ae251d4c99c7f1e02bcd15f3cc680a7d9a03dd4a2d53184b54bc9e13ded2925a",
+      "matches": true
+    },
+    {
+      "path": "/assets/index-MG7Gq1zY.css",
+      "status": 200,
+      "bytes": 98411,
+      "sha256": "063a49233a77909e2422c3e296923d1838cf0275aaaa6b05264e9b76710fe2c3",
+      "matches": true
+    },
+    {
+      "path": "/assets/checkout/allergens/milk.svg",
+      "status": 200,
+      "bytes": 1692,
+      "sha256": "39bca59cdb8ca4c74cbc452218240ea3909dab58aa4c9df312f38ff2c3657a46",
+      "matches": true
+    },
+    {
+      "path": "/assets/cart/refresh/empty-bag.png",
+      "status": 200,
+      "bytes": 1082959,
+      "sha256": "e837daba60ffe3054b671360d67bff4ad1d687cd7de7f6f36518394aaf201c75",
+      "matches": true
+    },
+    {
+      "path": "/assets/phone/AE.png",
+      "status": 200,
+      "bytes": 287,
+      "sha256": "bfec018283ed8d9dfe7d79f706d91c6bdc74fee67fb4560a5df36e9f45a0d390",
+      "matches": true
+    },
+    {
+      "path": "/assets/phone/AU.png",
+      "status": 200,
+      "bytes": 901,
+      "sha256": "cecbc8c30638c629712de449f8ad50494871476ce2627fd483631a6af0b2885f",
+      "matches": true
+    },
+    {
+      "path": "/assets/phone/CA.png",
+      "status": 200,
+      "bytes": 691,
+      "sha256": "c7c6b382cdc9cfe24e54bedce0db8980e28f05395953ecb865f21aeaf0d6b903",
+      "matches": true
+    }
+  ],
+  "webStatus": 200
+}

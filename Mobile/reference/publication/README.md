@@ -1,5 +1,9 @@
 # D-60 — опубликованные Web и Mobile
 
+## Актуальный выпуск — D-76,22.10.2026
+
+**D-76 опубликован 22.10.2026.** Накопленные изменения Mobile D-61…D-76 доступны на [Vercel](https://prana-mobile-01.vercel.app) и в [GitHub](https://github.com/Chosencorrectly/Prana/tree/main/Mobile). Commit сборки: `cc6cb734e7328b8aecf9df1974102d2bd823bfa8`; commit assets: `baa168f2a4a8dabec6f06c92fda7f46c1ddcadc0`; deployment: `dpl_BwKs7bpUQ47ggGm4R1jETFDBvMep`, READY. Облачная сборка за 9 секунд проверила и восстановила 212 из 212 assets (142397354 байта); проверка 29 файлов runtime прошла. Локально прошли сборка и 82 из 82 тестов. Публичные JS/CSS побайтно совпали с локальной сборкой. В браузере проверены вход с 1111111111 и демокодом 1111, профиль, корзина, интервалы доставки, Milk → Apply, Apple Pay и зазор до Total 48px. Ошибок в консоли и незагруженных изображений нет. Код Web/prototype не изменён, публичный Web отвечает HTTP 200. Реальные платежи/SMS/API и полная визуальная приёмка не заявляются. [Новые свидетельства](../checkout-polish/README.md). Ниже сохранён протокол D-60.
+
 13.10.2026, Europe/Moscow. Публикация явно запрошена пользователем; отдельная визуальная приёмка всех состояний не подразумевается.
 
 - [Mobile](https://prana-mobile-01.vercel.app), дополнительный адрес [MSGD](https://prana-mobile-01-msgd.vercel.app). Production dpl_Ahk7w5sEwruWsdVu3o2ix1oAL8mA, READY, project prj_MYasXPSz8bKd3tdQqdBilL79W6Hv, team MSGD. Публичный адрес проверен без Vercel login.

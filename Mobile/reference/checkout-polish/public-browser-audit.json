@@ -1,0 +1,17 @@
+{
+  "brokenImages": [],
+  "gap": 48.00001163047259,
+  "radio": {
+    "left": "10px",
+    "top": "10px",
+    "transform": "matrix(1, 0, 0, 1, -6, -6)"
+  },
+  "total": {
+    "fontFamily": "\"Prana Cart\", \"Prana Display\", sans-serif",
+    "lineHeight": "28px",
+    "size": "28px",
+    "weight": "600"
+  },
+  "url": "https://prana-mobile-01.vercel.app/",
+  "errors": []
+}

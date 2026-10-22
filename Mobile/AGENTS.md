@@ -1,5 +1,9 @@
 # Mobile Prototype Agent Guide
 
+**D-76 опубликован 22.10.2026.** Накопленные изменения Mobile D-61…D-76 доступны на [Vercel](https://prana-mobile-01.vercel.app) и в [GitHub](https://github.com/Chosencorrectly/Prana/tree/main/Mobile). Commit сборки: `cc6cb734e7328b8aecf9df1974102d2bd823bfa8`; commit assets: `baa168f2a4a8dabec6f06c92fda7f46c1ddcadc0`; deployment: `dpl_BwKs7bpUQ47ggGm4R1jETFDBvMep`, READY. Облачная сборка за 9 секунд проверила и восстановила 212 из 212 assets (142397354 байта); проверка 29 файлов runtime прошла. Локально прошли сборка и 82 из 82 тестов. Публичные JS/CSS побайтно совпали с локальной сборкой. В браузере проверены вход с 1111111111 и демокодом 1111, профиль, корзина, интервалы доставки, Milk → Apply, Apple Pay и зазор до Total 48px. Ошибок в консоли и незагруженных изображений нет. Код Web/prototype не изменён, публичный Web отвечает HTTP 200. Реальные платежи/SMS/API и полная визуальная приёмка не заявляются.
+
+Исторические пометки «локально/не опубликовано» ниже отражают дату соответствующего этапа; текущая публикация — D-76.
+
 - D-76: keep48px from Support bottom to the top of Total at the end of scroll on both devices. Footer amount exactly matches Cart font family/28px/line-height1/600. Time rail gets2px vertical breathing room and border-box outline; radio dot is absolutely centered at50% with translate(-50%,-50%). No runtime/motion/hover changes. User explicitly requests publishing all accumulated Mobile changes on22.10.2026; this supersedes earlier local-only restrictions for this release.
 
 ## Prana decisions — 22.10.2026

@@ -1,0 +1,26 @@
+{
+  "milestone": "D-76",
+  "date": "2026-10-22",
+  "timezone": "Europe/Moscow",
+  "sourceCommit": "baa168f2a4a8dabec6f06c92fda7f46c1ddcadc0",
+  "buildCommit": "cc6cb734e7328b8aecf9df1974102d2bd823bfa8",
+  "project": "prj_MYasXPSz8bKd3tdQqdBilL79W6Hv",
+  "deployment": "dpl_BwKs7bpUQ47ggGm4R1jETFDBvMep",
+  "status": "READY",
+  "url": "https://prana-mobile-01.vercel.app",
+  "github": "https://github.com/Chosencorrectly/Prana",
+  "assetCount": 212,
+  "assetsBytes": 142397354,
+  "buildSeconds": 9,
+  "webAppChanged": false,
+  "failedAttempt": {
+    "id": "dpl_JaX3Yj6ELtqgWfXU2HwCuwdsWXaM",
+    "reason": "Expected Mobile root directory; retried with Mobile/ source paths, no source change."
+  },
+  "runtimeErrorLogs": "No error/fatal function logs for this deployment in the inspected 30-minute window; app is static, this is not client error monitoring.",
+  "automatedTests": {
+    "passed": 82,
+    "failed": 0
+  },
+  "protectedRuntime": 29
+}
