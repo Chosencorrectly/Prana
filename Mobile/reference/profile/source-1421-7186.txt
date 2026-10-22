@@ -1,0 +1,140 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/937135bb-d73f-43e8-bb83-616172d27f81";
+const imgPeopleUserPersonAvatar = `${assetPathPrefix}/a53a3.svg`;
+const imgIconChevron = `${assetPathPrefix}/c79a3.svg`;
+const imgIconChevron1 = `${assetPathPrefix}/cda86.svg`;
+const imgCrossLargeCrossedLargeClose = `${assetPathPrefix}/d005a.svg`;
+
+export default function Component() {
+  return (
+    <div className="bg-[var(--account-canvas,#080808)] relative size-full" data-node-id="1421:7186" data-name="Профиль • главная • без имени и адреса">
+      <CodeConnectSnippet data-node-id="1421:7187" data-name="Status bar - iPhone 17 Pro">
+        {/* iOS and iPadOS 27 component */}
+        <StatusBarIPhone17Pro textTime="9:41" time="9:41" />
+      </CodeConnectSnippet>
+      <div className="absolute bg-[var(--account-surface,#121212)] h-[870px] left-0 rounded-tl-[32px] rounded-tr-[32px] top-[62px] w-[430px]" data-node-id="1421:7188" data-name="Account sheet">
+        <div className="absolute h-[48px] left-[322px] top-[8px] w-[88px]" data-node-id="1421:7189" data-name="Balance navigation" />
+        <a className="absolute content-stretch cursor-pointer flex gap-[12px] items-center left-[16px] pt-[4px] top-[77px] w-[398px]" data-node-id="1421:7190" data-name="Go / B01 / Edit profile">
+          <div className="bg-[var(--account-warm,#b99372)] content-stretch flex flex-col items-center justify-center relative rounded-[24px] shrink-0 size-[48px]" data-node-id="1421:7191" data-name="Initials">
+            <div className="relative shrink-0 size-[20px]" data-node-id="1421:7258" data-name="people, user, person, avatar">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPeopleUserPersonAvatar} />
+            </div>
+          </div>
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-[4px] items-start relative shrink-0 text-left w-[304px]" data-node-id="1421:7193" data-name="Identity labels">
+            <p className="font-['SF_Pro:Semibold'] font-[590] leading-[26px] relative shrink-0 text-[20px] text-[color:var(--account-text,#ededed)] w-[304px]" data-node-id="1421:7194" style={{ fontVariationSettings: '"wdth" 100' }}>
+              +62 821 0000 1122
+            </p>
+            <p className="font-['SF_Pro:Regular'] font-normal leading-[18px] relative shrink-0 text-[14px] text-[color:var(--account-secondary,#a1a1a1)] w-[304px]" data-node-id="1421:7195" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Add your name
+            </p>
+          </div>
+          <div className="relative shrink-0 size-[20px]" data-node-id="1421:7196" data-name="Icon / chevron">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconChevron} />
+          </div>
+        </a>
+        <div className="absolute bg-[var(--account-card,#1c1c1c)] content-stretch flex items-center left-[16px] px-[20px] py-[14px] rounded-[16px] top-[157px] w-[398px]" data-node-id="1421:7198" data-name="Go / F01 / Points">
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-[4px] items-start relative shrink-0 whitespace-nowrap" data-node-id="1421:7202">
+            <p className="font-['SF_Pro:Semibold'] font-[590] leading-[20px] relative shrink-0 text-[16px] text-[color:var(--account-text,#ededed)]" data-node-id="1421:7203" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Make your next order easier
+            </p>
+            <p className="font-['SF_Pro:Regular'] font-normal leading-[16px] relative shrink-0 text-[13px] text-[color:var(--account-secondary,#a1a1a1)]" data-node-id="1421:7204" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Add a delivery address once and use it at checkout.
+            </p>
+          </div>
+        </div>
+        <div className="absolute content-stretch flex gap-[12px] items-center left-[16px] py-[12px] top-[253px] w-[398px]" data-node-id="1421:7205" data-name="Go / A05 / Promo code available">
+          <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px relative" data-node-id="1421:7206" data-name="Labels">
+            <p className="font-['SF_Pro:Medium'] font-[510] leading-[20px] relative shrink-0 text-[16px] text-[color:var(--account-text,#ededed)] w-[356px]" data-node-id="1421:7207" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Promo code available
+            </p>
+            <p className="font-['SF_Pro:Regular'] font-normal leading-[16px] relative shrink-0 text-[13px] text-[color:var(--account-secondary,#a1a1a1)] w-[356px]" data-node-id="1421:7208" style={{ fontVariationSettings: '"wdth" 100' }}>{`WELCOME1010 · View & copy`}</p>
+          </div>
+          <div className="relative shrink-0 size-[18px]" data-node-id="1421:7209" data-name="Icon / chevron">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconChevron1} />
+          </div>
+        </div>
+        <div className="absolute bg-[#282828] h-px left-[16px] top-[321px] w-[398px]" data-node-id="1421:7211" data-name="Divider" />
+        <div className="absolute content-stretch flex flex-col items-start left-[16px] top-[326px] w-[398px]" data-node-id="1421:7212" data-name="Your account">
+          <div className="content-stretch flex gap-[12px] items-center py-[16px] relative shrink-0 w-full" data-node-id="1421:7213" data-name="Go / C01 / My orders">
+            <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px relative" data-node-id="1421:7214" data-name="Labels">
+              <p className="font-['SF_Pro:Medium'] font-[510] leading-[20px] relative shrink-0 text-[16px] text-[color:var(--account-text,#ededed)] w-[356px]" data-node-id="1421:7215" style={{ fontVariationSettings: '"wdth" 100' }}>
+                My orders
+              </p>
+              <p className="font-['SF_Pro:Regular'] font-normal leading-[16px] relative shrink-0 text-[13px] text-[color:var(--account-secondary,#a1a1a1)] w-[356px]" data-node-id="1421:7216" style={{ fontVariationSettings: '"wdth" 100' }}>{`Current delivery & order history`}</p>
+            </div>
+            <div className="relative shrink-0 size-[18px]" data-node-id="1421:7217" data-name="Icon / chevron">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconChevron1} />
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[12px] items-center py-[12px] relative shrink-0 w-full" data-node-id="1421:7219" data-name="Go / D01 / Delivery addresses">
+            <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px relative" data-node-id="1421:7220" data-name="Labels">
+              <p className="font-['SF_Pro:Medium'] font-[510] leading-[20px] relative shrink-0 text-[16px] text-[color:var(--account-text,#ededed)] w-[356px]" data-node-id="1421:7221" style={{ fontVariationSettings: '"wdth" 100' }}>
+                Delivery addresses
+              </p>
+              <p className="font-['SF_Pro:Regular'] font-normal leading-[16px] relative shrink-0 text-[13px] text-[color:var(--account-secondary,#a1a1a1)] w-[356px]" data-node-id="1421:7222" style={{ fontVariationSettings: '"wdth" 100' }}>
+                Home · Jl. Raya Padonan No.41a
+              </p>
+            </div>
+            <div className="relative shrink-0 size-[18px]" data-node-id="1421:7223" data-name="Icon / chevron">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconChevron1} />
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[12px] items-center py-[12px] relative shrink-0 w-full" data-node-id="1421:7225" data-name="Go / E01 / Payment methods">
+            <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px relative" data-node-id="1421:7226" data-name="Labels">
+              <p className="font-['SF_Pro:Medium'] font-[510] leading-[20px] relative shrink-0 text-[16px] text-[color:var(--account-text,#ededed)] w-[356px]" data-node-id="1421:7227" style={{ fontVariationSettings: '"wdth" 100' }}>
+                Payment methods
+              </p>
+              <p className="font-['SF_Pro:Regular'] font-normal leading-[16px] relative shrink-0 text-[13px] text-[color:var(--account-secondary,#a1a1a1)] w-[356px]" data-node-id="1421:7228" style={{ fontVariationSettings: '"wdth" 100' }}>
+                Mastercard •••• 7032
+              </p>
+            </div>
+            <div className="relative shrink-0 size-[18px]" data-node-id="1421:7229" data-name="Icon / chevron">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconChevron1} />
+            </div>
+          </div>
+        </div>
+        <div className="absolute bg-[#282828] h-px left-[16px] top-[531px] w-[398px]" data-node-id="1421:7231" data-name="Divider" />
+        <div className="absolute content-stretch flex gap-[12px] items-center left-[16px] py-[12px] top-[536px] w-[398px]" data-node-id="1421:7232" data-name="Go / G01 / Settings & information">
+          <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px relative" data-node-id="1421:7233" data-name="Labels">
+            <p className="font-['SF_Pro:Medium'] font-[510] leading-[20px] relative shrink-0 text-[16px] text-[color:var(--account-text,#ededed)] w-[356px]" data-node-id="1421:7234" style={{ fontVariationSettings: '"wdth" 100' }}>{`Settings & information`}</p>
+            <p className="font-['SF_Pro:Regular'] font-normal leading-[16px] relative shrink-0 text-[13px] text-[color:var(--account-secondary,#a1a1a1)] w-[356px]" data-node-id="1421:7235" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Notifications, loyalty terms, Credits
+            </p>
+          </div>
+          <div className="relative shrink-0 size-[18px]" data-node-id="1421:7236" data-name="Icon / chevron">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconChevron1} />
+          </div>
+        </div>
+        <div className="absolute bg-[var(--account-control,#262626)] content-stretch flex h-[52px] items-center justify-center left-[20px] rounded-[12px] top-[770px] w-[390px]" data-node-id="1421:7238" data-name="Go / H01 / Log out">
+          <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[21px] relative shrink-0 text-[16px] text-[color:var(--account-text,#ededed)] text-center w-[342px]" data-node-id="I1421:7238;1378:1797" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Log out
+          </p>
+        </div>
+        <div className="absolute h-[61px] left-0 overflow-clip top-0 w-[430px]" data-node-id="1421:7239" data-name="Header">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-1/2 not-italic text-[16px] text-center text-white top-[22px] whitespace-nowrap" data-node-id="1421:7240">
+            Profile
+          </p>
+          <div className="absolute left-[16px] size-[20px] top-[20px]" data-node-id="1421:7241" data-name="cross-large, crossed large, close">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCrossLargeCrossedLargeClose} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Grays/White: #FFFFFF, Account69/20-Semibold: Font(family: "SF Pro", style: Semibold, size: 20, weight: 590, lineHeight: 26, letterSpacing: 0), Account69/14-Regular: Font(family: "SF Pro", style: Regular, size: 14, weight: 400, lineHeight: 18, letterSpacing: 0), Account69/16-Medium: Font(family: "SF Pro", style: Medium, size: 16, weight: 510, lineHeight: 20, letterSpacing: 0), Account69/13-Regular: Font(family: "SF Pro", style: Regular, size: 13, weight: 400, lineHeight: 16, letterSpacing: 0), Account69/16-Semibold: Font(family: "SF Pro", style: Semibold, size: 16, weight: 590, lineHeight: 21, letterSpacing: 0).
+If the node is connected to a code component in the users codebase via Code Connect, the connected component will be included in the final markup wrapped in a CodeConnectSnippet element, with relevant imports at the top of the file. There are two formats: 1. Single snippet: <CodeConnectSnippet data-snippet-language="React"><TitleComponent>Hello World</TitleComponent></CodeConnectSnippet> 2. Multiple options: <CodeConnectSnippet data-snippet-language="React" options={[<Button variant="primary" />, <Button variant="secondary" />]} /> IMPORTANT: the CodeConnectSnippet wrapper element should not be part of the final code. For the options format, choose the single most appropriate option to use in your implementation. The source of the code component will be in the import path, e.g. import {ComponentName } from 'path/to/component'; IMPORTANT: the import path may not be relative/may point to a URL, so you should search for the component in the codebase and MUST use it if possible.
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Account69/Button
+**Node ID:** 1378:1806
+
+Кнопка Prana 52px. Default/pressed/disabled/loading/danger. Для orange выбран тёмный текст ради контраста. Никакого hover на touch. Дублирование submit блокируется.
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

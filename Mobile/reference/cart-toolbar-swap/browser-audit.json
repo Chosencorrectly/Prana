@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-16",
+  "buttons": [
+    {
+      "label": "Close cart",
+      "rect": {
+        "bottom": 339.6039695739746,
+        "height": 43.99752426147461,
+        "left": 398.9944458007813,
+        "right": 465.3774871826172,
+        "top": 295.6064453125,
+        "width": 66.38304138183594,
+        "x": 398.9944458007813,
+        "y": 295.6064453125
+      },
+      "weight": "600"
+    },
+    {
+      "label": "Clear cart",
+      "rect": {
+        "bottom": 339.6039695739746,
+        "height": 43.99752426147461,
+        "left": 702.4752197265625,
+        "right": 799.0098724365234,
+        "top": 295.6064453125,
+        "width": 96.53465270996094,
+        "x": 702.4752197265625,
+        "y": 295.6064453125
+      },
+      "weight": "600"
+    }
+  ],
+  "clearConfirmation": "opened, cancelled with Keep dishes; 2 items/$28.90 preserved",
+  "close": "returned to Menu, restored Cart focus, reopened successfully",
+  "build": "passed, runtime29",
+  "console": []
+}

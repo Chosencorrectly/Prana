@@ -1,0 +1,162 @@
+{
+  "recordedAt": "2026-10-19T12:43:10.728Z",
+  "cartAudit": [
+    {
+      "label": "normal-one-item",
+      "focus": "Close cart",
+      "rows": 1,
+      "scroll": 0,
+      "text": "Cart\n\nYour dishes\nAcai bowl (granola, banana, berries) (vegan)\n\nBanana, acai, coconut milk, strawberry, dragon fruit, blueberry, honey, chia pudding, house crunch mix, coconut flakes, mint\n\n480\nkcal\n8\npr\n18\nfa\n75\nca\n\n$15.95\n\n1\n1\nComplete your meal\n50\nkcal\nAloe refresher\n\nAloe OKF, mint, lemon juice, sparkling water, ice · 420 ml\n\n12\nca\nFrom\n$15.00\n60\nkcal\nCoco island refresher\n\nCoconut water, pineapple juice, lemon juice, ice, coco flakes, lime zest, mint · 520 ml\n\n2\npr\n1\nfa\n11\nca\nFrom\n$8.95\n250\nkcal\nGreen smoothie\n\nAvocado, spinach, banana, coconut water, lime juice, ginger, mango cubes · 420 ml · LF · GF · VG · vegan · nut free · high fiber\n\n5\npr\n9\nfa\n42\nca\nFrom\n$11.95\n320\nkcal\nTropical smoothie\n\nMango cubes, banana, pineapple, coconut water, dragon fruit, lime juice, mint, ice · 500 ml · LF · GF · VG · vegan · nut free\n\n4\npr\n2\nfa\n72\nca\nFrom\n$11.95\n1 item\n\n480 kcal\n8 pr\n18 fa\n75 ca\n\n$15.95\n$15.95\nProceed to checkout\n\nDelivery and discounts at checkout\n\nDrag the map to adjust the pin, or use the arrow keys.\nSave address"
+    }
+  ],
+  "assetAudit": [
+    {
+      "scenario": "no-recommendations",
+      "images": [
+        {
+          "height": 20,
+          "loaded": true,
+          "src": "/assets/cart/refresh/close.svg",
+          "width": 20
+        },
+        {
+          "height": 20,
+          "loaded": true,
+          "src": "/assets/cart/refresh/clear.svg",
+          "width": 20
+        },
+        {
+          "height": 12,
+          "loaded": true,
+          "src": "/assets/cart/refresh/minus.svg",
+          "width": 12
+        },
+        {
+          "height": 12,
+          "loaded": true,
+          "src": "/assets/cart/refresh/plus.svg",
+          "width": 12
+        },
+        {
+          "height": 14,
+          "loaded": true,
+          "src": "/assets/cart/refresh/remove.svg",
+          "width": 14
+        },
+        {
+          "height": 12,
+          "loaded": true,
+          "src": "/assets/cart/refresh/plus.svg",
+          "width": 12
+        },
+        {
+          "height": 14,
+          "loaded": true,
+          "src": "/assets/cart/refresh/remove.svg",
+          "width": 14
+        },
+        {
+          "height": 12,
+          "loaded": true,
+          "src": "/assets/cart/refresh/plus.svg",
+          "width": 12
+        }
+      ]
+    },
+    {
+      "scenario": "photo-error",
+      "images": [
+        {
+          "height": 20,
+          "loaded": true,
+          "src": "/assets/cart/refresh/close.svg",
+          "width": 20
+        },
+        {
+          "height": 20,
+          "loaded": true,
+          "src": "/assets/cart/refresh/clear.svg",
+          "width": 20
+        },
+        {
+          "height": 24,
+          "loaded": true,
+          "src": "/assets/cart/refresh/photo-fallback.svg",
+          "width": 24
+        },
+        {
+          "height": 12,
+          "loaded": true,
+          "src": "/assets/cart/refresh/minus.svg",
+          "width": 12
+        },
+        {
+          "height": 12,
+          "loaded": true,
+          "src": "/assets/cart/refresh/plus.svg",
+          "width": 12
+        },
+        {
+          "height": 14,
+          "loaded": true,
+          "src": "/assets/cart/refresh/remove.svg",
+          "width": 14
+        },
+        {
+          "height": 12,
+          "loaded": true,
+          "src": "/assets/cart/refresh/plus.svg",
+          "width": 12
+        },
+        {
+          "height": 14,
+          "loaded": true,
+          "src": "/assets/cart/refresh/remove.svg",
+          "width": 14
+        },
+        {
+          "height": 12,
+          "loaded": true,
+          "src": "/assets/cart/refresh/plus.svg",
+          "width": 12
+        }
+      ]
+    },
+    {
+      "scenario": "empty",
+      "images": [
+        {
+          "height": 20,
+          "loaded": true,
+          "src": "/assets/cart/refresh/close.svg",
+          "width": 20
+        },
+        {
+          "height": 148,
+          "loaded": true,
+          "src": "/assets/cart/refresh/empty-bag.png",
+          "width": 148
+        }
+      ]
+    }
+  ],
+  "photoReturn": {
+    "openedPhotoY": 527.320556640625,
+    "closedPhotoY": 527.150390625,
+    "difference": -0.170166015625
+  },
+  "console": [
+    {
+      "level": "error",
+      "message": "[vite] failed to connect to websocket.\nyour current setup:\n  (browser) 127.0.0.1:5181/ <--[HTTP]--> 127.0.0.1:5181/ (server)\n  (browser) 127.0.0.1:5181/ <--[WebSocket (failing)]--> 127.0.0.1:5181/ (server)\nCheck out your Vite / network configuration and https://vite.dev/config/server-options.html#server-hmr .",
+      "timestamp": "2026-10-19T12:26:52.802Z",
+      "url": "http://127.0.0.1:5181/@vite/client"
+    },
+    {
+      "level": "error",
+      "message": "Failed to send error to Vite server: TypeError: Cannot read properties of undefined (reading 'send')\n    at Object.send (http://127.0.0.1:5181/@vite/client:444:7)\n    at Object.send (http://127.0.0.1:5181/@vite/client:900:16)\n    at Object.send (http://127.0.0.1:5181/@vite/client:307:21)\n    at Object.send (http://127.0.0.1:5181/@vite/client:385:30)\n    at sendError (http://127.0.0.1:5181/@vite/client:486:19)\n    at sendLog (http://127.0.0.1:5181/@vite/client:514:11)",
+      "timestamp": "2026-10-19T12:26:52.802Z",
+      "url": "http://127.0.0.1:5181/@vite/client"
+    }
+  ]
+}

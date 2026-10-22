@@ -3,7 +3,7 @@ import { animate, motion, useAnimationControls, useMotionValue, useReducedMotion
 import { MobileScroll, useKeyboardInsets, useMobileDevice, useScreenPortal } from '../mobile';
 import { QuantityControl } from './QuantityControl';
 import type { Product } from './catalog-model';
-import { dishMotion, dishNutrition, dishTitle, dishWeight, photoRect, shouldDismissDish, swipeAxis, type PhotoRect } from './dish-model';
+import { dishMotion, dishNutrition, dishTitle, photoRect, shouldDismissDish, swipeAxis, type PhotoRect } from './dish-model';
 import './dish.css';
 
 export type DishSelection = { product: Product; origin: PhotoRect; photo: HTMLElement; trigger: HTMLButtonElement };
@@ -23,21 +23,24 @@ export function DishDetail({ selection, quantity, onChange, onClosed }: {
   const height = device.geometry.screen.height - panelTop - (device.platform === 'android' ? device.geometry.safeArea.bottom : 0);
   const dockBottom = Math.max(48, bottomInset + 14);
   const title = dishTitle(selection.product);
-  const weight = dishWeight(selection.product);
   const nutrition = dishNutrition(selection.product);
   const panel = useRef<HTMLElement>(null), hero = useRef<HTMLDivElement>(null), info = useRef<HTMLDivElement>(null);
-  const sourceHasFade = selection.photo.closest<HTMLElement>('.catalog-card')?.dataset.cardSize === 'large';
-  const sourceFade = {
-    '--dish-fade-height': `${sourceHasFade ? 300 : 318}px`,
-    '--dish-fade-color': sourceHasFade ? 'rgba(18, 18, 18, 0.8)' : 'rgba(0, 0, 0, 0)',
-    '--dish-blur': '0px',
-  };
+  const [sourceFade] = useState(() => {
+    const card = selection.photo.closest<HTMLElement>('.catalog-card');
+    const fade = card?.dataset.cardSize === 'large' ? getComputedStyle(card, '::after') : null;
+    return {
+      '--dish-fade-height': fade?.height ?? '318px',
+      '--dish-fade-stop': fade?.getPropertyValue('--catalog-fade-stop').trim() || '100%',
+      '--dish-fade-color': fade ? 'rgba(18, 18, 18, 0.8)' : 'rgba(0, 0, 0, 0)',
+      '--dish-blur': '0px',
+    };
+  });
   const closeButton = useRef<HTMLButtonElement>(null);
   const [phase, setPhase] = useState<Phase>('opening');
   const phaseRef = useRef<Phase>('opening');
   const [closeKind, setCloseKind] = useState<'collapse' | 'swipe'>('collapse');
   const [closingOrigin, setClosingOrigin] = useState<PhotoRect | null>(null);
-  const [fadeHeight, setFadeHeight] = useState(318);
+  const [fadeHeight, setFadeHeight] = useState(307);
   const flight = useAnimationControls();
   const dragX = useMotionValue(0);
   const releaseAnimation = useRef<ReturnType<typeof animate> | null>(null);
@@ -52,7 +55,7 @@ export function DishDetail({ selection, quantity, onChange, onClosed }: {
 
   useLayoutEffect(() => {
     if (!info.current) return;
-    const update = () => setFadeHeight(Math.max(318, info.current!.offsetHeight + dockBottom + 64 + 28 + 48));
+    const update = () => setFadeHeight(Math.max(307, info.current!.offsetHeight + dockBottom + 64 + 24 + 48));
     const observer = new ResizeObserver(update);
     observer.observe(info.current); update();
     return () => observer.disconnect();
@@ -71,13 +74,20 @@ export function DishDetail({ selection, quantity, onChange, onClosed }: {
     phaseRef.current = 'closing'; setCloseKind(kind); setPhase('closing');
   }, [width]);
 
+  const addToCart = (id: string) => {
+    // The same close owner locks immediately, including a second tap before React paints.
+    if (phaseRef.current === 'closing') return;
+    close();
+    onChange(id, 1);
+  };
+
   // A single cancellable owner for photo expansion/collapse and swipe completion.
   // No delayed autofocus or independent close timers can outlive this layer.
   useLayoutEffect(() => {
     if (phase === 'open') return;
     let cancelled = false;
     const destination = { x: 0, y: 0, width, height, borderRadius: '32px 32px 0px 0px',
-      '--dish-fade-height': `${fadeHeight}px`, '--dish-fade-color': 'rgba(0, 0, 0, 1)', '--dish-blur': '17px' };
+      '--dish-fade-height': `${fadeHeight}px`, '--dish-fade-stop': '100%', '--dish-fade-color': 'rgba(0, 0, 0, 1)', '--dish-blur': '17px' };
     const complete = () => {
       if (cancelled) return;
       if (phase === 'closing') closedRef.current();
@@ -90,8 +100,7 @@ export function DishDetail({ selection, quantity, onChange, onClosed }: {
       const screen = screenRef.current?.getBoundingClientRect();
       const target = phase === 'opening' ? destination : { ...(selection.photo.isConnected && screen
         ? photoRect(selection.photo.getBoundingClientRect(), screen, width, panelTop) : selection.origin),
-        '--dish-fade-height': `${sourceHasFade ? 300 : 318}px`,
-        '--dish-fade-color': sourceHasFade ? 'rgba(18, 18, 18, 0.8)' : 'rgba(0, 0, 0, 0)', '--dish-blur': '0px' };
+        ...sourceFade };
       if (phase === 'closing' && closingOrigin) flight.set(closingOrigin);
       if (reduced) {
         flight.set({ ...destination, ...(phase === 'closing' ? closingOrigin : {}), opacity: phase === 'opening' ? 0 : 1 });
@@ -103,7 +112,7 @@ export function DishDetail({ selection, quantity, onChange, onClosed }: {
       }
     }
     return () => { cancelled = true; flight.stop(); releaseAnimation.current?.stop(); };
-  }, [phase, closeKind, width, height, panelTop, reduced, flight, dragX, selection, closingOrigin, screenRef, fadeHeight, sourceHasFade]);
+  }, [phase, closeKind, width, height, panelTop, reduced, flight, dragX, selection, closingOrigin, screenRef, fadeHeight, sourceFade]);
 
   // Keep one photo + gradient + blur surface for the entire lifetime of the dish.
   // Follow MobileScroll (including rubber-band transforms) without a compositor handoff.
@@ -113,7 +122,7 @@ export function DishDetail({ selection, quantity, onChange, onClosed }: {
     const content = viewport?.querySelector<HTMLElement>('.mobile-scroll-content');
     if (!viewport || !content) return;
     flight.set({ x: 0, width, height, borderRadius: '32px 32px 0px 0px',
-      '--dish-fade-height': `${fadeHeight}px`, '--dish-fade-color': 'rgba(0, 0, 0, 1)', '--dish-blur': '17px' });
+      '--dish-fade-height': `${fadeHeight}px`, '--dish-fade-stop': '100%', '--dish-fade-color': 'rgba(0, 0, 0, 1)', '--dish-blur': '17px' });
     const syncPhoto = () => {
       if (!hero.current || !panel.current) return;
       const bounds = panel.current.getBoundingClientRect(), scale = bounds.width / width;
@@ -174,7 +183,7 @@ export function DishDetail({ selection, quantity, onChange, onClosed }: {
     else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }
   };
 
-  return <div className="prana-auth dish-layer" style={{ '--dish-panel-top': `${panelTop}px`, '--dish-hero-height': `${height}px`, '--dish-dock-bottom': `${dockBottom}px`, '--dish-fade-height': `${fadeHeight}px` } as CSSProperties}>
+  return <div className="prana-auth dish-layer" style={{ '--dish-panel-top': `${panelTop}px`, '--dish-panel-width': `${width}px`, '--dish-hero-height': `${height}px`, '--dish-dock-bottom': `${dockBottom}px`, '--dish-fade-height': `${fadeHeight}px` } as CSSProperties}>
     <motion.section ref={panel} className="dish-panel" role="dialog" aria-modal="true" aria-labelledby="dish-title"
       data-dish-state={phase} data-dismiss-kind={closeKind} style={{ x: dragX }}
       onPointerDownCapture={onPointerDown} onPointerMoveCapture={onPointerMove}
@@ -190,16 +199,14 @@ export function DishDetail({ selection, quantity, onChange, onClosed }: {
           <div ref={hero} className="dish-hero">
             <div ref={info} className="dish-hero-info">
               <h1 id="dish-title">{title}</h1><p className="dish-description">{selection.product.description}</p>
-              {weight && <p className="dish-weight">{weight}</p>}
+              {nutrition.length > 0 && <dl className="dish-nutrition-tags" aria-label="Nutrition per portion">
+                {nutrition.map(item => <div key={item.label}><dt>{item.label}</dt><dd>{item.value}</dd></div>)}
+              </dl>}
             </div>
           </div>
-          {nutrition.length > 0 && <section className="dish-about" aria-labelledby="dish-about-title">
-            <h2 id="dish-about-title">About the Product</h2>
-            <dl className="dish-nutrition" aria-label="Nutrition per portion">{nutrition.map(item => <div key={item.label}><dt>{item.label}</dt><dd>{item.value}</dd></div>)}</dl>
-          </section>}
         </div></MobileScroll>
         <button ref={closeButton} className="dish-close" type="button" data-dish-control aria-label="Close dish" onClick={() => close()}><img src="/assets/dish/close.svg" alt="" /></button>
-        <div className="dish-purchase-dock" data-dish-control><QuantityControl product={selection.product} quantity={quantity} large={false} detail onChange={onChange} /></div>
+        <div className="dish-purchase-dock" data-dish-control><QuantityControl product={selection.product} quantity={quantity} large={false} detail onChange={addToCart} /></div>
       </motion.div>
       <motion.div className="dish-photo-flight" initial={{ ...selection.origin, ...sourceFade }} animate={flight}>
         <img className="dish-hero-image" src={`/assets/${selection.product.image}`} alt={selection.product.imageAlt} />

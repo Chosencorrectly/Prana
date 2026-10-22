@@ -1,0 +1,80 @@
+[
+  {
+    "id": "af61daf6-a49d-4eeb-bea1-5a7da211641e",
+    "name": "Acai bowl (granola, banana, berries) (vegan)",
+    "priceCents": 1595,
+    "kcal": 480,
+    "nutrition": {
+      "carbs": 75,
+      "fat": 18,
+      "protein": 8
+    },
+    "image": "menu/af61daf6-a49d-4eeb-bea1-5a7da211641e.jpg",
+    "description": "Banana, acai, coconut milk, strawberry, dragon fruit, blueberry, honey, chia pudding, house crunch mix, coconut flakes, mint"
+  },
+  {
+    "id": "884bb3d4-573a-44dd-b370-25277a9b8580",
+    "name": "Chia pudding (coconut milk, berries, banana) (vegan, GF)",
+    "priceCents": 1295,
+    "kcal": 535,
+    "nutrition": {
+      "carbs": 61,
+      "fat": 29,
+      "protein": 12
+    },
+    "image": "menu/884bb3d4-573a-44dd-b370-25277a9b8580.jpg",
+    "description": "Chia pudding, mixed berries, banana, mango, coconut flakes, mint, cinnamon, vanilla."
+  },
+  {
+    "id": "a665b9c8-5261-43c3-90d7-f791b7417fc3",
+    "name": "Prana oats (oat milk, granola, berries) (GF, LF, VG, high omega-3, high fiber)",
+    "priceCents": 995,
+    "kcal": 445,
+    "nutrition": {
+      "carbs": 76,
+      "fat": 16,
+      "protein": 12
+    },
+    "image": "menu/a665b9c8-5261-43c3-90d7-f791b7417fc3.jpg",
+    "description": "Oatmeal, creamy oat milk, vanilla extract, honey, goji, flaxseeds, crunch mix, granola (side), berries (side)"
+  },
+  {
+    "id": "c94532b5-f59b-4bec-bff7-e7ab3a1f5e7e",
+    "name": "Build your own bowl",
+    "priceCents": 1100,
+    "kcal": null,
+    "nutrition": {
+      "carbs": null,
+      "fat": null,
+      "protein": null
+    },
+    "image": "menu/c94532b5-f59b-4bec-bff7-e7ab3a1f5e7e.png",
+    "description": "A bowl built around your appetite. Bring together the flavours you enjoy for an everyday lunch that feels just right for you."
+  },
+  {
+    "id": "7d9a08a8-3606-4553-a3b3-807fac723d6d",
+    "name": "Basmati rice — side",
+    "priceCents": 195,
+    "kcal": 195,
+    "nutrition": {
+      "carbs": 42,
+      "fat": 0,
+      "protein": 4
+    },
+    "image": "menu/7d9a08a8-3606-4553-a3b3-807fac723d6d.png",
+    "description": "Basmati rice with a delicate aroma and light texture. A simple side to pair with a curry, vegetables or your favourite main · 200 g"
+  },
+  {
+    "id": "f32c3709-0254-4c1b-8e9f-1567056fbfb2",
+    "name": "Aloe refresher",
+    "priceCents": 1500,
+    "kcal": 50,
+    "nutrition": {
+      "carbs": 12,
+      "fat": null,
+      "protein": null
+    },
+    "image": "menu/f32c3709-0254-4c1b-8e9f-1567056fbfb2.png",
+    "description": "Aloe OKF, mint, lemon juice, sparkling water, ice · 420 ml"
+  }
+]

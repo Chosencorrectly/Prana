@@ -1,0 +1,218 @@
+{
+  "iteration": "D-65",
+  "date": "2026-10-16",
+  "timezone": "Europe/Moscow",
+  "url": "http://127.0.0.1:5181/",
+  "geometry": {
+    "close": {
+      "background": "rgba(0, 0, 0, 0.25)",
+      "blur": "blur(35px)",
+      "font": "14px",
+      "height": 44.987947599381386,
+      "lineHeight": "17px",
+      "width": 44.987947599381386,
+      "x": 15.996391518919722,
+      "y": 15.996391518919722
+    },
+    "cta": {
+      "background": "rgb(255, 107, 11)",
+      "blur": "none",
+      "font": "16px",
+      "height": 63.9856080376496,
+      "lineHeight": "20px",
+      "width": 213.33693265907456,
+      "x": 108.32377452060622,
+      "y": 705.032916282799
+    },
+    "description": {
+      "background": "rgba(0, 0, 0, 0)",
+      "blur": "none",
+      "font": "16px",
+      "height": 37.995320876536425,
+      "lineHeight": "19px",
+      "width": 320.99549550220905,
+      "x": 54.494500728488205,
+      "y": 595.0073473370277
+    },
+    "fade": {
+      "background": "rgba(0, 0, 0, 0)",
+      "blur": "none",
+      "font": "14px",
+      "height": 306.99478479239986,
+      "lineHeight": "17px",
+      "width": 430,
+      "x": 0,
+      "y": 509.9974606354132
+    },
+    "icon": {
+      "background": "rgba(0, 0, 0, 0)",
+      "blur": "none",
+      "font": "16px",
+      "height": 19.98776648867694,
+      "lineHeight": "20px",
+      "width": 19.98776648867694,
+      "x": 132.31839231678268,
+      "y": 727.0317922342712
+    },
+    "image": [
+      {
+        "loaded": true,
+        "src": "/assets/dish/close.svg"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/dish/basket-add.svg"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/menu/884bb3d4-573a-44dd-b370-25277a9b8580.jpg"
+      }
+    ],
+    "info": {
+      "background": "rgba(0, 0, 0, 0)",
+      "blur": "none",
+      "font": "14px",
+      "height": 122.98974268458248,
+      "lineHeight": "17px",
+      "width": 320.99549550220905,
+      "x": 54.494500728488205,
+      "y": 558.0021382329869
+    },
+    "panel": {
+      "height": 817,
+      "width": 430,
+      "x": 384.0037231445313,
+      "y": 287.6083068847656
+    },
+    "phase": "open",
+    "sourceScroll": 359.40594482421875,
+    "tag": {
+      "background": "rgba(38, 38, 38, 0.85)",
+      "blur": "blur(6px)",
+      "font": "14px",
+      "height": 31.9928040188248,
+      "lineHeight": "16px",
+      "width": 77.02716346517235,
+      "x": 60.66718291423527,
+      "y": 648.999067361933
+    },
+    "tags": {
+      "background": "rgba(0, 0, 0, 0)",
+      "blur": "none",
+      "font": "14px",
+      "height": 31.9928040188248,
+      "lineHeight": "17px",
+      "width": 308.65010061291804,
+      "x": 60.66718291423527,
+      "y": 648.999067361933
+    }
+  },
+  "firstAdd": {
+    "closing": {
+      "kind": "collapse",
+      "phase": "closing",
+      "photoOpacity": "0.757532",
+      "photoWidth": 366.2593078613281,
+      "sourceOpacity": "1",
+      "sourceQuantity": "1",
+      "sourceScroll": 359.40594482421875
+    },
+    "complete": {
+      "cart": "$12.95",
+      "dialogPresent": false,
+      "focused": "View Chia pudding (coconut milk, berries, banana) (vegan, GF)",
+      "quantity": "1",
+      "scroll": 359.40594482421875
+    }
+  },
+  "reopenDoubleClick": {
+    "cart": "$25.90",
+    "dialogPresent": false,
+    "focused": "View Chia pudding (coconut milk, berries, banana) (vegan, GF)",
+    "quantity": "2"
+  },
+  "searchKeyboardAdd": {
+    "dialogPresent": false,
+    "focused": "View Chia pudding (coconut milk, berries, banana) (vegan, GF)",
+    "searchHeading": "2 results for “Chia pudding”",
+    "sourceQuantity": "3"
+  },
+  "partialNutrition": {
+    "cartScroll": 0,
+    "sourceY": 545.5445556640625,
+    "tags": 2,
+    "title": "Aloe refresher"
+  },
+  "cartBeforeAnchorFix": {
+    "beforeY": 545.5445556640625,
+    "during": {
+      "cartScroll": 0,
+      "flightY": 399.0440368652344,
+      "opacity": "0.582968",
+      "phase": "closing",
+      "sourceY": 628.2023315429688
+    },
+    "after": {
+      "cartScroll": 0,
+      "dialogPresent": false,
+      "focused": "View Aloe refresher",
+      "rows": 2,
+      "sourceY": 695.5136108398438,
+      "total": "4 items$53.85$53.85$53.85"
+    }
+  },
+  "cartAfterAnchorFix": {
+    "before": {
+      "scroll": 123.76237487792967,
+      "sourceY": 518.7654418945312
+    },
+    "during": {
+      "phase": "closing",
+      "scroll": 183.16831970214844,
+      "sourceY": 518.6417236328125
+    },
+    "after": {
+      "dialogPresent": false,
+      "focused": "View Coco island refresher",
+      "quantity": "1",
+      "scroll": 277.22772216796875,
+      "sourceY": 519.260498046875
+    }
+  },
+  "longCopy": {
+    "fadeHeight": 373.9944458007813,
+    "infoHeight": 189.99072265625,
+    "quantity": "0",
+    "tagsToButton": 24.04087257385254,
+    "title": "Chicken omelet & protein waffle · high protein"
+  },
+  "closeWithoutAdding": {
+    "focused": "View Chicken omelet & protein waffle · high protein (GF, LF, nut free)",
+    "quantity": "0"
+  },
+  "largeCard": {
+    "before": {
+      "sourceQuantity": "0",
+      "sourceSize": "large"
+    },
+    "closing": {
+      "phase": "closing",
+      "sourceOpacity": "1",
+      "sourceQuantity": "1"
+    }
+  },
+  "console": [],
+  "checks": {
+    "tests": 21,
+    "suites": "dish5/catalog5/cart2/motion9",
+    "build": "passed; repeated after cart anchor fix",
+    "runtimeProtectedFiles": 29,
+    "warning": "Existing JS chunk >500kB"
+  },
+  "limits": [
+    "Local only; no publication or user visual acceptance",
+    "Native touch, system reduced motion, screen reader and full Pixel audit not run",
+    "Reference 1294:1990 supersedes the older weight/table layout in 1294:2579 for this iteration",
+    "Real catalogue data retained: Chia535/12/29/61,$12.95; Figma sample860/13/18/73,$4 not treated as product data"
+  ]
+}

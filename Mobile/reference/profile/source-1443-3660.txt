@@ -1,0 +1,107 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/04506690-2953-4a34-bb1f-10a6408273d0";
+const imgFrame276 = `${assetPathPrefix}/44b92.svg`;
+const imgIconChevron = `${assetPathPrefix}/cda86.svg`;
+
+export default function Component() {
+  return (
+    <div className="bg-[var(--account-canvas,#080808)] relative size-full" data-node-id="1443:3660" data-name="Корзина • есть позиции в корзине">
+      <CodeConnectSnippet data-node-id="1443:3661" data-name="Status bar - iPhone 17 Pro">
+        {/* iOS and iPadOS 27 component */}
+        <StatusBarIPhone17Pro textTime="9:41" time="9:41" />
+      </CodeConnectSnippet>
+      <div className="absolute bg-[var(--account-surface,#121212)] h-[870px] left-0 rounded-tl-[32px] rounded-tr-[32px] top-[62px] w-[430px]" data-node-id="1443:3662" data-name="Cart sheet">
+        <div className="absolute h-[61px] left-0 overflow-clip top-0 w-[430px]" data-node-id="1443:3663" data-name="Header">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(50%-1px)] not-italic text-[16px] text-center text-white top-[22px] whitespace-nowrap" data-node-id="1443:3664">{`Settings & information`}</p>
+          <div className="absolute content-stretch flex gap-[4px] items-center left-[16px] top-[20px]" data-node-id="1443:3666">
+            <div className="flex items-center justify-center relative shrink-0" data-node-id="1443:3667">
+              <div className="flex-none rotate-180">
+                <div className="relative size-[20px]">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame276} />
+                </div>
+              </div>
+            </div>
+            <p className="[word-break:break-word] font-['SF_Pro_Display:Medium'] leading-[normal] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap" data-node-id="1443:3669">
+              Back
+            </p>
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['SF_Pro:Semibold'] font-[590] leading-[28px] left-[16px] text-[22px] text-white top-[73px] whitespace-nowrap" data-node-id="1443:3670" style={{ fontVariationSettings: '"wdth" 100' }}>
+          Make Prana yours
+        </p>
+        <div className="absolute content-stretch flex h-[64px] items-center justify-between left-[16px] top-[129px] w-[398px]" data-node-id="1443:3704" data-name="Go / G02 / Notifications & offers">
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-[3px] items-start relative shrink-0 w-[356px]" data-node-id="I1443:3704;1378:1808" data-name="Labels">
+            <p className="font-['SF_Pro:Medium'] font-[510] leading-[20px] relative shrink-0 text-[16px] text-[color:var(--account-text,#ededed)] w-[356px]" data-node-id="I1443:3704;1378:1809" style={{ fontVariationSettings: '"wdth" 100' }}>{`Notifications & offers`}</p>
+            <p className="font-['SF_Pro:Regular'] font-normal leading-[16px] relative shrink-0 text-[13px] text-[color:var(--account-secondary,#a1a1a1)] w-[356px]" data-node-id="I1443:3704;1378:1810" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Choose what you receive
+            </p>
+          </div>
+          <div className="relative shrink-0 size-[18px]" data-node-id="I1443:3704;1378:1811" data-name="Icon / chevron">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconChevron} />
+          </div>
+        </div>
+        <div className="absolute bg-[var(--account-line,#353535)] h-px left-[16px] top-[213px] w-[398px]" data-node-id="1443:3705" data-name="Divider" />
+        <div className="absolute content-stretch flex h-[64px] items-center justify-between left-[16px] top-[234px] w-[398px]" data-node-id="1443:3706" data-name="Go / F03 / Loyalty program terms">
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-[3px] items-start relative shrink-0 w-[356px]" data-node-id="I1443:3706;1378:1808" data-name="Labels">
+            <p className="font-['SF_Pro:Medium'] font-[510] leading-[20px] relative shrink-0 text-[16px] text-[color:var(--account-text,#ededed)] w-[356px]" data-node-id="I1443:3706;1378:1809" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Loyalty program terms
+            </p>
+            <p className="font-['SF_Pro:Regular'] font-normal leading-[16px] relative shrink-0 text-[13px] text-[color:var(--account-secondary,#a1a1a1)] w-[356px]" data-node-id="I1443:3706;1378:1810" style={{ fontVariationSettings: '"wdth" 100' }}>
+              How Prana points work
+            </p>
+          </div>
+          <div className="relative shrink-0 size-[18px]" data-node-id="I1443:3706;1378:1811" data-name="Icon / chevron">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconChevron} />
+          </div>
+        </div>
+        <div className="absolute content-stretch flex h-[64px] items-center justify-between left-[16px] top-[298px] w-[398px]" data-node-id="1443:3707" data-name="Go / G04 / Credits">
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-[3px] items-start relative shrink-0 w-[356px]" data-node-id="I1443:3707;1378:1808" data-name="Labels">
+            <p className="font-['SF_Pro:Medium'] font-[510] leading-[20px] relative shrink-0 text-[16px] text-[color:var(--account-text,#ededed)] w-[356px]" data-node-id="I1443:3707;1378:1809" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Credits
+            </p>
+            <p className="font-['SF_Pro:Regular'] font-normal leading-[16px] relative shrink-0 text-[13px] text-[color:var(--account-secondary,#a1a1a1)] w-[356px]" data-node-id="I1443:3707;1378:1810" style={{ fontVariationSettings: '"wdth" 100' }}>{`App information & acknowledgements`}</p>
+          </div>
+          <div className="relative shrink-0 size-[18px]" data-node-id="I1443:3707;1378:1811" data-name="Icon / chevron">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconChevron} />
+          </div>
+        </div>
+        <div className="absolute content-stretch flex h-[64px] items-center justify-between left-[16px] top-[362px] w-[398px]" data-node-id="1443:3708" data-name="Go / G06 / Privacy policy">
+          <div className="content-stretch flex flex-col gap-[3px] items-start relative shrink-0 w-[356px]" data-node-id="I1443:3708;1378:1808" data-name="Labels">
+            <p className="[word-break:break-word] font-['SF_Pro:Medium'] font-[510] leading-[20px] relative shrink-0 text-[16px] text-[color:var(--account-text,#ededed)] w-[356px]" data-node-id="I1443:3708;1378:1809" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Privacy policy
+            </p>
+          </div>
+          <div className="relative shrink-0 size-[18px]" data-node-id="I1443:3708;1378:1811" data-name="Icon / chevron">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconChevron} />
+          </div>
+        </div>
+        <div className="absolute content-stretch flex h-[64px] items-center justify-between left-[16px] top-[426px] w-[398px]" data-node-id="1443:3709" data-name="Go / G09 / Terms of use">
+          <div className="content-stretch flex flex-col gap-[3px] items-start relative shrink-0 w-[356px]" data-node-id="I1443:3709;1378:1808" data-name="Labels">
+            <p className="[word-break:break-word] font-['SF_Pro:Medium'] font-[510] leading-[20px] relative shrink-0 text-[16px] text-[color:var(--account-text,#ededed)] w-[356px]" data-node-id="I1443:3709;1378:1809" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Terms of use
+            </p>
+          </div>
+          <div className="relative shrink-0 size-[18px]" data-node-id="I1443:3709;1378:1811" data-name="Icon / chevron">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconChevron} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Grays/White: #FFFFFF, Account69/16-Medium: Font(family: "SF Pro", style: Medium, size: 16, weight: 510, lineHeight: 20, letterSpacing: 0), Account69/13-Regular: Font(family: "SF Pro", style: Regular, size: 13, weight: 400, lineHeight: 16, letterSpacing: 0).
+If the node is connected to a code component in the users codebase via Code Connect, the connected component will be included in the final markup wrapped in a CodeConnectSnippet element, with relevant imports at the top of the file. There are two formats: 1. Single snippet: <CodeConnectSnippet data-snippet-language="React"><TitleComponent>Hello World</TitleComponent></CodeConnectSnippet> 2. Multiple options: <CodeConnectSnippet data-snippet-language="React" options={[<Button variant="primary" />, <Button variant="secondary" />]} /> IMPORTANT: the CodeConnectSnippet wrapper element should not be part of the final code. For the options format, choose the single most appropriate option to use in your implementation. The source of the code component will be in the import path, e.g. import {ComponentName } from 'path/to/component'; IMPORTANT: the import path may not be relative/may point to a URL, so you should search for the component in the codebase and MUST use it if possible.
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Account69/Row
+**Node ID:** 1378:1807
+
+Вся строка — цель касания 390×64. Название + полезное состояние + видимый chevron. Возврат сохраняет прокрутку.
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

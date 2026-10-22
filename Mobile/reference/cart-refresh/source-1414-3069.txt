@@ -1,0 +1,626 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/95533050-9262-4cd6-8680-8424aab93935";
+const imgBasket1CartShopping = `${assetPathPrefix}/be4f9.svg`;
+const imgPhotoAcai = `${assetPathPrefix}/75f46.png`;
+const imgPhotoChia = `${assetPathPrefix}/dd8bd.png`;
+const imgImage74 = `${assetPathPrefix}/c2de1.png`;
+const imgFrame189 = `${assetPathPrefix}/485bf.png`;
+const imgFrame190 = `${assetPathPrefix}/0a607.png`;
+const imgFrame191 = `${assetPathPrefix}/36193.png`;
+const imgFrame192 = `${assetPathPrefix}/3345e.png`;
+const imgFrame = `${assetPathPrefix}/0d540.svg`;
+const imgCrossLargeCrossedLargeClose = `${assetPathPrefix}/d005a.svg`;
+const imgTrashCanDeleteRemoveGarbageWaste = `${assetPathPrefix}/4306b.svg`;
+const imgMinusLargeRemoveDelete = `${assetPathPrefix}/49398.svg`;
+const imgPlusLargeAddLarge = `${assetPathPrefix}/65aa4.svg`;
+const imgTrashCanDeleteRemoveGarbageWaste1 = `${assetPathPrefix}/b7b4a.svg`;
+const imgTriangleExclamationErrorWarningAlert = `${assetPathPrefix}/84a3e.svg`;
+
+type PranaPurchaseControlProps = {
+  className?: string;
+  context?: "Preview";
+  state?: "Empty";
+};
+
+function PranaPurchaseControl({ className, context = "Preview", state = "Empty" }: PranaPurchaseControlProps) {
+  return (
+    <div className={className || "content-stretch flex items-start relative rounded-[var(--prana-radius-10,10px)]"} data-node-id="1292:1284">
+      <button className="bg-[var(--prana-control,#262626)] content-stretch cursor-pointer flex gap-[8px] items-center overflow-clip px-[16px] py-[12px] relative rounded-[var(--prana-radius-10,10px)] shrink-0 w-[114px]" data-node-id="1292:1285" data-name="Add to cart / $4">
+        <div className="relative shrink-0 size-[16px]" data-node-id="1292:1286" data-name="basket-1, cart, shopping">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBasket1CartShopping} />
+        </div>
+        <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium'] font-[510] gap-[4px] items-center leading-[16px] relative shrink-0 text-[14px] text-left whitespace-nowrap" data-node-id="1292:1287">
+          <p className="relative shrink-0 text-[color:var(--prana-muted,#747474)]" data-node-id="1292:1288" style={{ fontVariationSettings: '"wdth" 100' }}>
+            From
+          </p>
+          <p className="relative shrink-0 text-[color:var(--prana-primary,white)]" data-node-id="1292:1289" style={{ fontVariationSettings: '"wdth" 100' }}>
+            $4
+          </p>
+        </div>
+      </button>
+    </div>
+  );
+}
+
+export default function Component() {
+  return (
+    <div className="bg-[var(--account-canvas,#080808)] relative size-full" data-node-id="1414:3069" data-name="Корзина • есть позиции в корзине">
+      <div className="absolute h-[62px] left-0 top-0 w-[430px]" data-node-id="1414:3070" data-name="Status / safe area 62">
+        <p className="[word-break:break-word] absolute font-['SF_Pro:Semibold'] font-[590] leading-[22px] left-[40px] text-[17px] text-[color:var(--account-text,#ededed)] top-[22px] w-[60px]" data-node-id="1414:3071" style={{ fontVariationSettings: '"wdth" 100' }}>
+          9:41
+        </p>
+        <div className="absolute h-[16px] left-[310px] top-[24px] w-[80px]" data-node-id="1414:3072" data-name="Frame">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame} />
+        </div>
+      </div>
+      <div className="absolute bg-[var(--account-surface,#121212)] h-[1547px] left-0 rounded-tl-[32px] rounded-tr-[32px] top-[62px] w-[430px]" data-node-id="1414:3081" data-name="Cart sheet">
+        <div className="absolute h-[61px] left-0 overflow-clip top-0 w-[430px]" data-node-id="1414:3082" data-name="Header">
+          <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(50%-15px)] not-italic text-[16px] text-white top-[22px] whitespace-nowrap" data-node-id="1414:3083">
+            Cart
+          </p>
+          <div className="absolute left-[16px] size-[20px] top-[20px]" data-node-id="1414:3084" data-name="cross-large, crossed large, close">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCrossLargeCrossedLargeClose} />
+          </div>
+          <div className="absolute left-[394px] size-[20px] top-[20px]" data-node-id="1414:3085" data-name="trash-can, delete, remove, garbage, waste">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTrashCanDeleteRemoveGarbageWaste} />
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['SF_Pro:Semibold'] font-[590] leading-[28px] left-[16px] text-[22px] text-white top-[73px] whitespace-nowrap" data-node-id="1414:3086" style={{ fontVariationSettings: '"wdth" 100' }}>
+          Your dishes
+        </p>
+        <div className="absolute content-stretch flex flex-col gap-[20px] items-start left-[16px] top-[129px] w-[398px]" data-node-id="1414:3087">
+          <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-full" data-node-id="1414:3088" data-name="Item / acai / 1">
+            <div className="content-stretch flex gap-[14px] items-center relative shrink-0 w-full" data-node-id="1414:3089" data-name="Item main">
+              <div className="bg-[var(--account-control,#262626)] relative rounded-[14px] shrink-0 size-[96px]" data-node-id="1414:3090" data-name="Image slot">
+                <div className="absolute left-0 rounded-[14px] size-[96px] top-0" data-node-id="1414:3091" data-name="Photo / acai">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[14px] size-full" src={imgPhotoAcai} />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px relative" data-node-id="1414:3093" data-name="Item copy">
+                <div className="[word-break:break-word] content-stretch flex flex-col gap-[4px] items-start relative shrink-0" data-node-id="1414:3094">
+                  <p className="font-['SF_Pro:Semibold'] font-[590] leading-[20px] relative shrink-0 text-[16px] text-[color:var(--account-text,#ededed)] whitespace-nowrap" data-node-id="1414:3095" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    Acai bowl
+                  </p>
+                  <p className="font-['SF_Pro:Regular'] font-normal leading-[17px] relative shrink-0 text-[13px] text-[color:var(--account-secondary,#a1a1a1)] w-[296px]" data-node-id="1414:3096" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    Chia pudding, mixed berries, banana, mango, coconut flakes, mint, cinnamon, vanilla...
+                  </p>
+                </div>
+                <div className="content-stretch flex gap-[4px] items-start relative shrink-0" data-node-id="1414:3097">
+                  <div className="bg-[#262626] content-stretch flex flex-col items-start overflow-clip px-[8px] py-[4px] relative rounded-[999px] shrink-0" data-node-id="1414:3098" data-name="Tag">
+                    <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium'] font-[510] gap-[2px] items-center leading-[16px] relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="1414:3099" data-name="Content">
+                      <p className="relative shrink-0 text-[color:var(--prana-primary,white)]" data-node-id="1414:3100" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        880
+                      </p>
+                      <p className="relative shrink-0 text-[color:var(--prana-muted,#747474)]" data-node-id="1414:3101" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        kcal
+                      </p>
+                    </div>
+                  </div>
+                  <div className="bg-[#262626] content-stretch flex flex-col items-start overflow-clip px-[8px] py-[4px] relative rounded-[999px] shrink-0" data-node-id="1414:3102" data-name="Tag">
+                    <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium'] font-[510] gap-[2px] items-center leading-[16px] relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="1414:3103" data-name="Content">
+                      <p className="relative shrink-0 text-[color:var(--prana-primary,white)]" data-node-id="1414:3104" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        13
+                      </p>
+                      <p className="relative shrink-0 text-[color:var(--prana-muted,#747474)]" data-node-id="1414:3105" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        pr
+                      </p>
+                    </div>
+                  </div>
+                  <div className="bg-[#262626] content-stretch flex flex-col items-start overflow-clip px-[8px] py-[4px] relative rounded-[999px] shrink-0" data-node-id="1414:3106" data-name="Tag">
+                    <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium'] font-[510] gap-[2px] items-center leading-[16px] relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="1414:3107" data-name="Content">
+                      <p className="relative shrink-0 text-[color:var(--prana-primary,white)]" data-node-id="1414:3108" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        18
+                      </p>
+                      <p className="relative shrink-0 text-[color:var(--prana-muted,#747474)]" data-node-id="1414:3109" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        fa
+                      </p>
+                    </div>
+                  </div>
+                  <div className="bg-[#262626] content-stretch flex flex-col items-start overflow-clip px-[8px] py-[4px] relative rounded-[999px] shrink-0" data-node-id="1414:3110" data-name="Tag">
+                    <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium'] font-[510] gap-[2px] items-center leading-[16px] relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="1414:3111" data-name="Content">
+                      <p className="relative shrink-0 text-[color:var(--prana-primary,white)]" data-node-id="1414:3112" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        73
+                      </p>
+                      <p className="relative shrink-0 text-[color:var(--prana-muted,#747474)]" data-node-id="1414:3113" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        ca
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex items-center justify-between relative shrink-0 w-full" data-node-id="1414:3114" data-name="Price and quantity">
+              <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[22px] relative shrink-0 text-[17px] text-[color:var(--account-text,#ededed)] whitespace-nowrap" data-node-id="1414:3115" style={{ fontVariationSettings: '"wdth" 100' }}>
+                $15.95
+              </p>
+              <div className="content-stretch flex items-center justify-between overflow-clip relative shrink-0 w-[120px]" data-node-id="1414:3116" data-name="Quantity">
+                <div className="bg-[var(--prana-control,#262626)] content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--prana-radius-100,100px)] shrink-0 size-[40px]" data-node-id="1414:3117" data-name="Decrease or remove">
+                  <div className="relative shrink-0 size-[12px]" data-node-id="1414:3118" data-name="minus-large, remove, delete">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMinusLargeRemoveDelete} />
+                  </div>
+                </div>
+                <p className="[word-break:break-word] font-['SF_Pro:Medium'] font-[510] leading-[16px] relative shrink-0 text-[14px] text-[color:var(--prana-primary,white)] whitespace-nowrap" data-node-id="1414:3120" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  2
+                </p>
+                <div className="bg-[var(--prana-primary,white)] content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--prana-radius-100,100px)] shrink-0 size-[40px]" data-node-id="1414:3121" data-name="Increase quantity">
+                  <div className="relative shrink-0 size-[12px]" data-node-id="1414:3122" data-name="plus-large, add large">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPlusLargeAddLarge} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-[#282828] h-px relative shrink-0 w-full" data-node-id="1414:3123" data-name="Divider / strengthened" />
+          <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-full" data-node-id="1414:3124" data-name="Item / chia / 1">
+            <div className="content-stretch flex gap-[14px] items-center relative shrink-0 w-full" data-node-id="1414:3125" data-name="Item main">
+              <div className="bg-[var(--account-control,#262626)] relative rounded-[14px] shrink-0 size-[96px]" data-node-id="1414:3126" data-name="Image slot">
+                <div className="absolute left-0 rounded-[14px] size-[96px] top-0" data-node-id="1414:3127" data-name="Photo / chia">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[14px] size-full" src={imgPhotoChia} />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px relative" data-node-id="1414:3129" data-name="Item copy">
+                <div className="[word-break:break-word] content-stretch flex flex-col gap-[4px] items-start relative shrink-0" data-node-id="1414:3130">
+                  <p className="font-['SF_Pro:Semibold'] font-[590] leading-[20px] relative shrink-0 text-[16px] text-[color:var(--account-text,#ededed)] whitespace-nowrap" data-node-id="1414:3131" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    Chia pudding
+                  </p>
+                  <p className="font-['SF_Pro:Regular'] font-normal leading-[17px] relative shrink-0 text-[13px] text-[color:var(--account-secondary,#a1a1a1)] w-[296px]" data-node-id="1414:3132" style={{ fontVariationSettings: '"wdth" 100' }}>{`Coconut milk, berries & banana`}</p>
+                </div>
+                <div className="content-stretch flex gap-[4px] items-start relative shrink-0" data-node-id="1414:3133">
+                  <div className="bg-[#262626] content-stretch flex flex-col items-start overflow-clip px-[8px] py-[4px] relative rounded-[999px] shrink-0" data-node-id="1414:3134" data-name="Tag">
+                    <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium'] font-[510] gap-[2px] items-center leading-[16px] relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="1414:3135" data-name="Content">
+                      <p className="relative shrink-0 text-[color:var(--prana-primary,white)]" data-node-id="1414:3136" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        880
+                      </p>
+                      <p className="relative shrink-0 text-[color:var(--prana-muted,#747474)]" data-node-id="1414:3137" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        kcal
+                      </p>
+                    </div>
+                  </div>
+                  <div className="bg-[#262626] content-stretch flex flex-col items-start overflow-clip px-[8px] py-[4px] relative rounded-[999px] shrink-0" data-node-id="1414:3138" data-name="Tag">
+                    <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium'] font-[510] gap-[2px] items-center leading-[16px] relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="1414:3139" data-name="Content">
+                      <p className="relative shrink-0 text-[color:var(--prana-primary,white)]" data-node-id="1414:3140" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        13
+                      </p>
+                      <p className="relative shrink-0 text-[color:var(--prana-muted,#747474)]" data-node-id="1414:3141" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        pr
+                      </p>
+                    </div>
+                  </div>
+                  <div className="bg-[#262626] content-stretch flex flex-col items-start overflow-clip px-[8px] py-[4px] relative rounded-[999px] shrink-0" data-node-id="1414:3142" data-name="Tag">
+                    <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium'] font-[510] gap-[2px] items-center leading-[16px] relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="1414:3143" data-name="Content">
+                      <p className="relative shrink-0 text-[color:var(--prana-primary,white)]" data-node-id="1414:3144" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        18
+                      </p>
+                      <p className="relative shrink-0 text-[color:var(--prana-muted,#747474)]" data-node-id="1414:3145" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        fa
+                      </p>
+                    </div>
+                  </div>
+                  <div className="bg-[#262626] content-stretch flex flex-col items-start overflow-clip px-[8px] py-[4px] relative rounded-[999px] shrink-0" data-node-id="1414:3146" data-name="Tag">
+                    <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium'] font-[510] gap-[2px] items-center leading-[16px] relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="1414:3147" data-name="Content">
+                      <p className="relative shrink-0 text-[color:var(--prana-primary,white)]" data-node-id="1414:3148" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        73
+                      </p>
+                      <p className="relative shrink-0 text-[color:var(--prana-muted,#747474)]" data-node-id="1414:3149" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        ca
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex items-center justify-between relative shrink-0 w-full" data-node-id="1414:3150" data-name="Price and quantity">
+              <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[22px] relative shrink-0 text-[17px] text-[color:var(--account-text,#ededed)] whitespace-nowrap" data-node-id="1414:3151" style={{ fontVariationSettings: '"wdth" 100' }}>
+                $12.95
+              </p>
+              <div className="content-stretch flex items-center justify-between overflow-clip relative shrink-0 w-[120px]" data-node-id="1414:3152" data-name="Quantity">
+                <div className="bg-[var(--prana-control,#262626)] content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--prana-radius-100,100px)] shrink-0 size-[40px]" data-node-id="1414:3153" data-name="Decrease or remove">
+                  <div className="relative shrink-0 size-[14px]" data-node-id="1414:3154" data-name="trash-can, delete, remove, garbage, waste">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTrashCanDeleteRemoveGarbageWaste1} />
+                  </div>
+                </div>
+                <p className="[word-break:break-word] font-['SF_Pro:Medium'] font-[510] leading-[16px] relative shrink-0 text-[14px] text-[color:var(--prana-primary,white)] whitespace-nowrap" data-node-id="1414:3156" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  1
+                </p>
+                <div className="bg-[var(--prana-primary,white)] content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--prana-radius-100,100px)] shrink-0 size-[40px]" data-node-id="1414:3157" data-name="Increase quantity">
+                  <div className="relative shrink-0 size-[12px]" data-node-id="1414:3158" data-name="plus-large, add large">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPlusLargeAddLarge} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-[#282828] h-px relative shrink-0 w-full" data-node-id="1414:3159" data-name="Divider / strengthened" />
+          <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-full" data-node-id="1414:3160" data-name="Item / chia / 2">
+            <div className="content-stretch flex gap-[14px] items-center relative shrink-0 w-full" data-node-id="1414:3161" data-name="Item main">
+              <div className="bg-[var(--account-control,#262626)] relative rounded-[14px] shrink-0 size-[96px]" data-node-id="1414:3162" data-name="Image slot">
+                <div className="absolute left-0 rounded-[14px] size-[96px] top-0" data-node-id="1414:3163" data-name="image 74">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[14px] size-full" src={imgImage74} />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px relative" data-node-id="1414:3165" data-name="Item copy">
+                <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full" data-node-id="1414:3166">
+                  <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[20px] relative shrink-0 text-[16px] text-[color:var(--account-text,#ededed)] w-[296px]" data-node-id="1414:3167" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    Buddha Bowl (Tempeh, Coconut Black Rice, Avocado) (Vegan, GF, LF, High Fiber)
+                  </p>
+                </div>
+                <div className="content-stretch flex gap-[4px] items-start relative shrink-0" data-node-id="1414:3169">
+                  <div className="bg-[#262626] content-stretch flex flex-col items-start overflow-clip px-[8px] py-[4px] relative rounded-[999px] shrink-0" data-node-id="1414:3170" data-name="Tag">
+                    <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium'] font-[510] gap-[2px] items-center leading-[16px] relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="1414:3171" data-name="Content">
+                      <p className="relative shrink-0 text-[color:var(--prana-primary,white)]" data-node-id="1414:3172" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        880
+                      </p>
+                      <p className="relative shrink-0 text-[color:var(--prana-muted,#747474)]" data-node-id="1414:3173" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        kcal
+                      </p>
+                    </div>
+                  </div>
+                  <div className="bg-[#262626] content-stretch flex flex-col items-start overflow-clip px-[8px] py-[4px] relative rounded-[999px] shrink-0" data-node-id="1414:3174" data-name="Tag">
+                    <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium'] font-[510] gap-[2px] items-center leading-[16px] relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="1414:3175" data-name="Content">
+                      <p className="relative shrink-0 text-[color:var(--prana-primary,white)]" data-node-id="1414:3176" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        13
+                      </p>
+                      <p className="relative shrink-0 text-[color:var(--prana-muted,#747474)]" data-node-id="1414:3177" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        pr
+                      </p>
+                    </div>
+                  </div>
+                  <div className="bg-[#262626] content-stretch flex flex-col items-start overflow-clip px-[8px] py-[4px] relative rounded-[999px] shrink-0" data-node-id="1414:3178" data-name="Tag">
+                    <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium'] font-[510] gap-[2px] items-center leading-[16px] relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="1414:3179" data-name="Content">
+                      <p className="relative shrink-0 text-[color:var(--prana-primary,white)]" data-node-id="1414:3180" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        18
+                      </p>
+                      <p className="relative shrink-0 text-[color:var(--prana-muted,#747474)]" data-node-id="1414:3181" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        fa
+                      </p>
+                    </div>
+                  </div>
+                  <div className="bg-[#262626] content-stretch flex flex-col items-start overflow-clip px-[8px] py-[4px] relative rounded-[999px] shrink-0" data-node-id="1414:3182" data-name="Tag">
+                    <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium'] font-[510] gap-[2px] items-center leading-[16px] relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="1414:3183" data-name="Content">
+                      <p className="relative shrink-0 text-[color:var(--prana-primary,white)]" data-node-id="1414:3184" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        73
+                      </p>
+                      <p className="relative shrink-0 text-[color:var(--prana-muted,#747474)]" data-node-id="1414:3185" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        ca
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex items-center justify-between relative shrink-0 w-full" data-node-id="1414:3186" data-name="Price and quantity">
+              <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[22px] relative shrink-0 text-[17px] text-[color:var(--account-text,#ededed)] whitespace-nowrap" data-node-id="1414:3187" style={{ fontVariationSettings: '"wdth" 100' }}>
+                $12.95
+              </p>
+              <div className="content-stretch flex items-center justify-between overflow-clip relative shrink-0 w-[120px]" data-node-id="1414:3188" data-name="Quantity">
+                <div className="bg-[var(--prana-control,#262626)] content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--prana-radius-100,100px)] shrink-0 size-[40px]" data-node-id="1414:3189" data-name="Decrease or remove">
+                  <div className="relative shrink-0 size-[14px]" data-node-id="1414:3190" data-name="trash-can, delete, remove, garbage, waste">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTrashCanDeleteRemoveGarbageWaste1} />
+                  </div>
+                </div>
+                <p className="[word-break:break-word] font-['SF_Pro:Medium'] font-[510] leading-[16px] relative shrink-0 text-[14px] text-[color:var(--prana-primary,white)] whitespace-nowrap" data-node-id="1414:3192" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  1
+                </p>
+                <div className="bg-[var(--prana-primary,white)] content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--prana-radius-100,100px)] shrink-0 size-[40px]" data-node-id="1414:3193" data-name="Increase quantity">
+                  <div className="relative shrink-0 size-[12px]" data-node-id="1414:3194" data-name="plus-large, add large">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPlusLargeAddLarge} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute bg-[#171717] h-[864px] left-0 top-[683px] w-[430px]" data-node-id="1414:3195" data-name="Recommendations / separated surface">
+          <p className="[word-break:break-word] absolute font-['SF_Pro:Semibold'] font-[590] leading-[28px] left-[20px] text-[22px] text-white top-[32px] whitespace-nowrap" data-node-id="1414:3196" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Complete your meal
+          </p>
+          <div className="absolute content-stretch flex flex-col gap-[12px] items-start left-[16px] top-[88px] w-[189px]" data-node-id="1414:3197">
+            <div className="h-[189px] overflow-clip relative rounded-[20px] shrink-0 w-full" data-node-id="1414:3198">
+              <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[20px]">
+                <div className="absolute bg-[#f8f8f8] inset-0 rounded-[20px]" />
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgFrame189} />
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgFrame190} />
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgFrame191} />
+              </div>
+              <div className="absolute backdrop-blur-[6px] bg-[rgba(38,38,38,0.85)] content-stretch flex flex-col items-start left-[12px] overflow-clip px-[8px] py-[4px] rounded-[999px] top-[153px]" data-node-id="1414:3199" data-name="Tag">
+                <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium'] font-[510] gap-[2px] items-center leading-[16px] relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="I1414:3199;104:14007" data-name="Content">
+                  <p className="relative shrink-0 text-[color:var(--prana-primary,white)]" data-node-id="I1414:3199;104:14008" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    443
+                  </p>
+                  <p className="relative shrink-0 text-[color:var(--prana-muted,#747474)]" data-node-id="I1414:3199;104:14009" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    kcal
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="1414:3200">
+              <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-full" data-node-id="1414:3201">
+                <div className="[word-break:break-word] content-stretch flex flex-col gap-[8px] items-start leading-[normal] not-italic relative shrink-0 w-full" data-node-id="1414:3202">
+                  <p className="font-['SF_Pro_Display:Semibold'] relative shrink-0 text-[14px] text-white w-[158px]" data-node-id="1414:3203">
+                    Healthy meal plan 1200 kcal (5-7 days)
+                  </p>
+                  <p className="font-['SF_Pro_Display:Medium'] min-w-full relative shrink-0 text-[#525252] text-[12px] w-[min-content]" data-node-id="1414:3204">
+                    Soy protein, mango, cassava flour, fresh fruits
+                  </p>
+                </div>
+                <div className="content-stretch flex gap-[4px] items-start relative shrink-0" data-node-id="1414:3205">
+                  <div className="bg-[#262626] content-stretch flex flex-col items-start overflow-clip px-[8px] py-[4px] relative rounded-[999px] shrink-0" data-node-id="1414:3206" data-name="Tag">
+                    <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium'] font-[510] gap-[2px] items-center leading-[16px] relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="1414:3207" data-name="Content">
+                      <p className="relative shrink-0 text-[color:var(--prana-primary,white)]" data-node-id="1414:3208" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        13
+                      </p>
+                      <p className="relative shrink-0 text-[color:var(--prana-muted,#747474)]" data-node-id="1414:3209" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        pr
+                      </p>
+                    </div>
+                  </div>
+                  <div className="bg-[#262626] content-stretch flex flex-col items-start overflow-clip px-[8px] py-[4px] relative rounded-[999px] shrink-0" data-node-id="1414:3210" data-name="Tag">
+                    <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium'] font-[510] gap-[2px] items-center leading-[16px] relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="1414:3211" data-name="Content">
+                      <p className="relative shrink-0 text-[color:var(--prana-primary,white)]" data-node-id="1414:3212" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        18
+                      </p>
+                      <p className="relative shrink-0 text-[color:var(--prana-muted,#747474)]" data-node-id="1414:3213" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        fa
+                      </p>
+                    </div>
+                  </div>
+                  <div className="bg-[#262626] content-stretch flex flex-col items-start overflow-clip px-[8px] py-[4px] relative rounded-[999px] shrink-0" data-node-id="1414:3214" data-name="Tag">
+                    <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium'] font-[510] gap-[2px] items-center leading-[16px] relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="1414:3215" data-name="Content">
+                      <p className="relative shrink-0 text-[color:var(--prana-primary,white)]" data-node-id="1414:3216" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        73
+                      </p>
+                      <p className="relative shrink-0 text-[color:var(--prana-muted,#747474)]" data-node-id="1414:3217" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        ca
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex items-start overflow-clip relative shrink-0" data-node-id="1414:3218" data-name="Purchase row">
+                <PranaPurchaseControl className="content-stretch flex items-start relative rounded-[var(--prana-radius-10,10px)] shrink-0" />
+              </div>
+            </div>
+          </div>
+          <div className="absolute content-stretch flex flex-col gap-[12px] items-start left-[16px] top-[469px] w-[189px]" data-node-id="1414:3220">
+            <div className="h-[189px] overflow-clip relative rounded-[20px] shrink-0 w-full" data-node-id="1414:3221">
+              <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[20px]">
+                <div className="absolute bg-[#f8f8f8] inset-0 rounded-[20px]" />
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgFrame189} />
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgFrame190} />
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgFrame191} />
+              </div>
+              <div className="absolute backdrop-blur-[6px] bg-[rgba(38,38,38,0.85)] content-stretch flex flex-col items-start left-[12px] overflow-clip px-[8px] py-[4px] rounded-[999px] top-[153px]" data-node-id="1414:3222" data-name="Tag">
+                <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium'] font-[510] gap-[2px] items-center leading-[16px] relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="I1414:3222;104:14007" data-name="Content">
+                  <p className="relative shrink-0 text-[color:var(--prana-primary,white)]" data-node-id="I1414:3222;104:14008" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    443
+                  </p>
+                  <p className="relative shrink-0 text-[color:var(--prana-muted,#747474)]" data-node-id="I1414:3222;104:14009" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    kcal
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="1414:3223">
+              <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-full" data-node-id="1414:3224">
+                <div className="[word-break:break-word] content-stretch flex flex-col gap-[8px] items-start leading-[normal] not-italic relative shrink-0 w-full" data-node-id="1414:3225">
+                  <p className="font-['SF_Pro_Display:Semibold'] relative shrink-0 text-[14px] text-white w-[158px]" data-node-id="1414:3226">
+                    Healthy meal plan 1200 kcal (5-7 days)
+                  </p>
+                  <p className="font-['SF_Pro_Display:Medium'] min-w-full relative shrink-0 text-[#525252] text-[12px] w-[min-content]" data-node-id="1414:3227">
+                    Soy protein, mango, cassava flour, fresh fruits
+                  </p>
+                </div>
+                <div className="content-stretch flex gap-[4px] items-start relative shrink-0" data-node-id="1414:3228">
+                  <div className="bg-[#262626] content-stretch flex flex-col items-start overflow-clip px-[8px] py-[4px] relative rounded-[999px] shrink-0" data-node-id="1414:3229" data-name="Tag">
+                    <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium'] font-[510] gap-[2px] items-center leading-[16px] relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="1414:3230" data-name="Content">
+                      <p className="relative shrink-0 text-[color:var(--prana-primary,white)]" data-node-id="1414:3231" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        13
+                      </p>
+                      <p className="relative shrink-0 text-[color:var(--prana-muted,#747474)]" data-node-id="1414:3232" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        pr
+                      </p>
+                    </div>
+                  </div>
+                  <div className="bg-[#262626] content-stretch flex flex-col items-start overflow-clip px-[8px] py-[4px] relative rounded-[999px] shrink-0" data-node-id="1414:3233" data-name="Tag">
+                    <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium'] font-[510] gap-[2px] items-center leading-[16px] relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="1414:3234" data-name="Content">
+                      <p className="relative shrink-0 text-[color:var(--prana-primary,white)]" data-node-id="1414:3235" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        18
+                      </p>
+                      <p className="relative shrink-0 text-[color:var(--prana-muted,#747474)]" data-node-id="1414:3236" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        fa
+                      </p>
+                    </div>
+                  </div>
+                  <div className="bg-[#262626] content-stretch flex flex-col items-start overflow-clip px-[8px] py-[4px] relative rounded-[999px] shrink-0" data-node-id="1414:3237" data-name="Tag">
+                    <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium'] font-[510] gap-[2px] items-center leading-[16px] relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="1414:3238" data-name="Content">
+                      <p className="relative shrink-0 text-[color:var(--prana-primary,white)]" data-node-id="1414:3239" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        73
+                      </p>
+                      <p className="relative shrink-0 text-[color:var(--prana-muted,#747474)]" data-node-id="1414:3240" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        ca
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex items-start overflow-clip relative shrink-0" data-node-id="1414:3241" data-name="Purchase row">
+                <PranaPurchaseControl className="content-stretch flex items-start relative rounded-[var(--prana-radius-10,10px)] shrink-0" />
+              </div>
+            </div>
+          </div>
+          <div className="absolute content-stretch flex flex-col gap-[10px] items-start left-[225px] top-[88px] w-[189px]" data-node-id="1414:3243">
+            <div className="h-[189px] overflow-clip relative rounded-[20px] shrink-0 w-full" data-node-id="1414:3244">
+              <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[20px]">
+                <div className="absolute bg-[#f8f8f8] inset-0 rounded-[20px]" />
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgFrame189} />
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgFrame190} />
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgFrame191} />
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgFrame192} />
+              </div>
+              <div className="absolute backdrop-blur-[6px] bg-[rgba(38,38,38,0.85)] content-stretch flex flex-col items-start left-[12px] overflow-clip px-[8px] py-[4px] rounded-[999px] top-[153px]" data-node-id="1414:3245" data-name="Tag">
+                <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium'] font-[510] gap-[2px] items-center leading-[16px] relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="I1414:3245;104:14007" data-name="Content">
+                  <p className="relative shrink-0 text-[color:var(--prana-primary,white)]" data-node-id="I1414:3245;104:14008" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    443
+                  </p>
+                  <p className="relative shrink-0 text-[color:var(--prana-muted,#747474)]" data-node-id="I1414:3245;104:14009" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    kcal
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="1414:3246">
+              <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-full" data-node-id="1414:3247">
+                <div className="[word-break:break-word] content-stretch flex flex-col gap-[8px] items-start leading-[normal] not-italic relative shrink-0 w-full" data-node-id="1414:3248">
+                  <p className="font-['SF_Pro_Display:Semibold'] relative shrink-0 text-[14px] text-white w-[158px]" data-node-id="1414:3249">
+                    Healthy meal plan 1500 kcal (5 days)
+                  </p>
+                  <p className="font-['SF_Pro_Display:Medium'] min-w-full relative shrink-0 text-[#525252] text-[12px] w-[min-content]" data-node-id="1414:3250">
+                    Soy protein, mango, cassava flour, fresh fruits
+                  </p>
+                </div>
+                <div className="content-stretch flex gap-[4px] items-start relative shrink-0" data-node-id="1414:3251">
+                  <div className="bg-[#262626] content-stretch flex flex-col items-start overflow-clip px-[8px] py-[4px] relative rounded-[999px] shrink-0" data-node-id="1414:3252" data-name="Tag">
+                    <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium'] font-[510] gap-[2px] items-center leading-[16px] relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="1414:3253" data-name="Content">
+                      <p className="relative shrink-0 text-[color:var(--prana-primary,white)]" data-node-id="1414:3254" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        13
+                      </p>
+                      <p className="relative shrink-0 text-[color:var(--prana-muted,#747474)]" data-node-id="1414:3255" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        pr
+                      </p>
+                    </div>
+                  </div>
+                  <div className="bg-[#262626] content-stretch flex flex-col items-start overflow-clip px-[8px] py-[4px] relative rounded-[999px] shrink-0" data-node-id="1414:3256" data-name="Tag">
+                    <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium'] font-[510] gap-[2px] items-center leading-[16px] relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="1414:3257" data-name="Content">
+                      <p className="relative shrink-0 text-[color:var(--prana-primary,white)]" data-node-id="1414:3258" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        18
+                      </p>
+                      <p className="relative shrink-0 text-[color:var(--prana-muted,#747474)]" data-node-id="1414:3259" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        fa
+                      </p>
+                    </div>
+                  </div>
+                  <div className="bg-[#262626] content-stretch flex flex-col items-start overflow-clip px-[8px] py-[4px] relative rounded-[999px] shrink-0" data-node-id="1414:3260" data-name="Tag">
+                    <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium'] font-[510] gap-[2px] items-center leading-[16px] relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="1414:3261" data-name="Content">
+                      <p className="relative shrink-0 text-[color:var(--prana-primary,white)]" data-node-id="1414:3262" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        73
+                      </p>
+                      <p className="relative shrink-0 text-[color:var(--prana-muted,#747474)]" data-node-id="1414:3263" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        ca
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex items-start overflow-clip relative shrink-0" data-node-id="1414:3264" data-name="Purchase row">
+                <PranaPurchaseControl className="content-stretch flex items-start relative rounded-[var(--prana-radius-10,10px)] shrink-0" />
+              </div>
+            </div>
+          </div>
+          <div className="absolute content-stretch flex flex-col gap-[10px] items-start left-[225px] top-[469px] w-[189px]" data-node-id="1414:3266">
+            <div className="h-[189px] overflow-clip relative rounded-[20px] shrink-0 w-full" data-node-id="1414:3267">
+              <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[20px]">
+                <div className="absolute bg-[#f8f8f8] inset-0 rounded-[20px]" />
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgFrame189} />
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgFrame190} />
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgFrame191} />
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgFrame192} />
+              </div>
+              <div className="absolute backdrop-blur-[6px] bg-[rgba(38,38,38,0.85)] content-stretch flex flex-col items-start left-[12px] overflow-clip px-[8px] py-[4px] rounded-[999px] top-[153px]" data-node-id="1414:3268" data-name="Tag">
+                <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium'] font-[510] gap-[2px] items-center leading-[16px] relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="I1414:3268;104:14007" data-name="Content">
+                  <p className="relative shrink-0 text-[color:var(--prana-primary,white)]" data-node-id="I1414:3268;104:14008" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    443
+                  </p>
+                  <p className="relative shrink-0 text-[color:var(--prana-muted,#747474)]" data-node-id="I1414:3268;104:14009" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    kcal
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="1414:3269">
+              <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-full" data-node-id="1414:3270">
+                <div className="[word-break:break-word] content-stretch flex flex-col gap-[8px] items-start leading-[normal] not-italic relative shrink-0 w-full" data-node-id="1414:3271">
+                  <p className="font-['SF_Pro_Display:Semibold'] relative shrink-0 text-[14px] text-white w-[158px]" data-node-id="1414:3272">
+                    Healthy meal plan 1500 kcal (5 days)
+                  </p>
+                  <p className="font-['SF_Pro_Display:Medium'] min-w-full relative shrink-0 text-[#525252] text-[12px] w-[min-content]" data-node-id="1414:3273">
+                    Soy protein, mango, cassava flour, fresh fruits
+                  </p>
+                </div>
+                <div className="content-stretch flex gap-[4px] items-start relative shrink-0" data-node-id="1414:3274">
+                  <div className="bg-[#262626] content-stretch flex flex-col items-start overflow-clip px-[8px] py-[4px] relative rounded-[999px] shrink-0" data-node-id="1414:3275" data-name="Tag">
+                    <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium'] font-[510] gap-[2px] items-center leading-[16px] relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="1414:3276" data-name="Content">
+                      <p className="relative shrink-0 text-[color:var(--prana-primary,white)]" data-node-id="1414:3277" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        13
+                      </p>
+                      <p className="relative shrink-0 text-[color:var(--prana-muted,#747474)]" data-node-id="1414:3278" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        pr
+                      </p>
+                    </div>
+                  </div>
+                  <div className="bg-[#262626] content-stretch flex flex-col items-start overflow-clip px-[8px] py-[4px] relative rounded-[999px] shrink-0" data-node-id="1414:3279" data-name="Tag">
+                    <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium'] font-[510] gap-[2px] items-center leading-[16px] relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="1414:3280" data-name="Content">
+                      <p className="relative shrink-0 text-[color:var(--prana-primary,white)]" data-node-id="1414:3281" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        18
+                      </p>
+                      <p className="relative shrink-0 text-[color:var(--prana-muted,#747474)]" data-node-id="1414:3282" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        fa
+                      </p>
+                    </div>
+                  </div>
+                  <div className="bg-[#262626] content-stretch flex flex-col items-start overflow-clip px-[8px] py-[4px] relative rounded-[999px] shrink-0" data-node-id="1414:3283" data-name="Tag">
+                    <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium'] font-[510] gap-[2px] items-center leading-[16px] relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="1414:3284" data-name="Content">
+                      <p className="relative shrink-0 text-[color:var(--prana-primary,white)]" data-node-id="1414:3285" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        73
+                      </p>
+                      <p className="relative shrink-0 text-[color:var(--prana-muted,#747474)]" data-node-id="1414:3286" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        ca
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex items-start overflow-clip relative shrink-0" data-node-id="1414:3287" data-name="Purchase row">
+                <PranaPurchaseControl className="content-stretch flex items-start relative rounded-[var(--prana-radius-10,10px)] shrink-0" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute bg-[#252525] content-stretch drop-shadow-[0px_16px_16px_rgba(0,0,0,0.2)] flex gap-[12px] items-center left-[4px] px-[24px] py-[16px] rounded-[28px] top-[4px] w-[422px]" data-node-id="1414:3289" data-name="Notice / Only 2 Acai bowls available">
+          <div className="relative shrink-0 size-[24px]" data-node-id="1414:3290" data-name="triangle-exclamation, error, warning, alert">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTriangleExclamationErrorWarningAlert} />
+          </div>
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-[6px] items-start relative shrink-0 whitespace-nowrap" data-node-id="1414:3291">
+            <p className="font-['SF_Pro:Semibold'] font-[590] leading-[20px] relative shrink-0 text-[16px] text-[color:var(--account-text,#ededed)]" data-node-id="1414:3292" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Couldn’t update quantity
+            </p>
+            <p className="font-['SF_Pro:Regular'] font-normal leading-[17px] relative shrink-0 text-[13px] text-[color:var(--account-secondary,#a1a1a1)]" data-node-id="1414:3293" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Your previous selection is still here.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="absolute backdrop-blur-[17px] bg-gradient-to-b bottom-0 content-stretch flex flex-col from-[rgba(18,18,18,0)] gap-[16px] items-start left-0 px-[20px] py-[40px] to-black w-[430px]" data-node-id="1414:3294" data-name="Fixed cart summary">
+        <div className="[word-break:break-word] content-stretch flex items-center justify-between relative shrink-0 w-[390px]" data-node-id="1414:3295" data-name="Items total">
+          <div className="content-stretch flex flex-[1_0_0] flex-col font-['SF_Pro:Medium'] font-[510] items-start justify-center leading-[20px] min-w-px relative text-[color:var(--account-secondary,#a1a1a1)]" data-node-id="1414:3296">
+            <p className="relative shrink-0 text-[14px] w-full" data-node-id="1414:3297" style={{ fontVariationSettings: '"wdth" 100' }}>
+              2 items
+            </p>
+            <p className="relative shrink-0 text-[12px] w-full" data-node-id="1414:3298" style={{ fontVariationSettings: '"wdth" 100' }}>
+              2480 kcal • 130 pr • 120 fa • 730 ca
+            </p>
+          </div>
+          <p className="font-['SF_Pro:Semibold'] font-[590] leading-none relative shrink-0 text-[28px] text-[color:var(--account-text,#ededed)] text-right whitespace-nowrap" data-node-id="1414:3299" style={{ fontVariationSettings: '"wdth" 100' }}>
+            $28.90
+          </p>
+        </div>
+        <a className="bg-[var(--account-accent,#ea5c00)] content-stretch cursor-pointer flex h-[52px] items-center justify-center relative rounded-[12px] shrink-0 w-[390px]" href="https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1028-34599" data-node-id="1414:3300" target="_blank" data-name="Go / CHECKOUT / Proceed to checkout">
+          <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[21px] relative shrink-0 text-[16px] text-[color:var(--account-text,#ededed)] text-center w-[342px]" data-node-id="I1414:3300;1399:1568" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Proceed to checkout
+          </p>
+        </a>
+        <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[16px] relative shrink-0 text-[12px] text-[color:var(--account-secondary,#a1a1a1)] text-center w-[390px]" data-node-id="1414:3301" style={{ fontVariationSettings: '"wdth" 100' }}>
+          Delivery and discounts at checkout
+        </p>
+      </div>
+    </div>
+  );
+}

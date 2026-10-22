@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-22",
+  "timezone": "Europe/Moscow",
+  "status": "local implementation; user visual review pending; unpublished",
+  "sourceFrames": 59,
+  "uniqueScenarios": 55,
+  "initialScenarioAudit": "browser-states.json",
+  "nodeTests": {
+    "command": "node --test tests/*.test.mjs",
+    "passed": 72,
+    "failed": 0,
+    "newProfileTests": 7
+  },
+  "build": {
+    "command": "npm run build",
+    "typescript": "passed",
+    "vite": "passed",
+    "protectedRuntimeFiles": 29,
+    "integrity": "passed",
+    "warning": "single JS chunk 846.28kB, gzip242.73kB"
+  },
+  "finalCleanLaunch": "2026-10-22T16:12:50.367Z",
+  "finalUiAudit": {
+    "brokenImages": [],
+    "buttons": [
+      {
+        "color": "rgb(237, 237, 237)",
+        "fontWeight": "600",
+        "text": "Log out"
+      }
+    ],
+    "route": "home",
+    "sheetTransform": "none",
+    "surface": "rgb(18, 18, 18)"
+  },
+  "consoleErrorsSinceFinalLaunch": [],
+  "retries": [
+    {
+      "name": "Ошибка истории",
+      "heading": "My orders",
+      "success": true
+    },
+    {
+      "name": "Ошибка баланса",
+      "heading": "Your Prana points",
+      "success": true
+    },
+    {
+      "name": "Лицензии недоступны",
+      "heading": "Open-source licenses",
+      "success": true
+    },
+    {
+      "name": "Политика недоступна",
+      "heading": "Privacy policy",
+      "success": true
+    },
+    {
+      "name": "Условия сервиса недоступны",
+      "heading": "Terms and conditions",
+      "success": true
+    },
+    {
+      "name": "Условия программы недоступны",
+      "heading": "Loyalty program terms",
+      "success": true
+    }
+  ],
+  "normalReorder": {
+    "before": "Acai1/$15.95",
+    "added": "Acai1+Buddha1/$34.90",
+    "after": "Acai2+Buddha1/3items/$50.85",
+    "checkout": "Profile SMS1111 -> Order enabled -> active order3items/$50.85"
+  },
+  "regressions": [
+    "Guest -> existing auth1111 -> account",
+    "Profile phone -> checkout verification",
+    "Isolated reorder did not overwrite main cart",
+    "Address save/remove/cancel/outside zone",
+    "Discard address returns to places without extra pop",
+    "Card create/bank/save/edit/delete/default fallback; saved PAN/CVC absent",
+    "Country Escape then keyboard Escape then route Back",
+    "Logout cancel and guest result",
+    "Active order status matches tracking",
+    "iPhone and Pixel main/form/keyboard inspected"
+  ],
+  "notRun": [
+    "physical touch/device",
+    "system Reduce Motion",
+    "Dynamic Type/screen reader",
+    "mobile-runtime.spec.ts browser suite",
+    "real API/SMS/payment/push",
+    "publication"
+  ],
+  "notes": [
+    "Initial state screenshots include transition frames; final-profile.png is stable.",
+    "Historical HMR errors predate finalCleanLaunch; contexts and discard/keyboard issues repaired."
+  ]
+}

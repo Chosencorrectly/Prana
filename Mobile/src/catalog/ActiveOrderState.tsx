@@ -4,8 +4,8 @@ import { initialOrderPresentation, type ActiveOrder, type OrderPresentation } fr
 type OrderState = { order: ActiveOrder | null; place: (order: ActiveOrder) => void; presentation: RefObject<OrderPresentation> };
 const Context = createContext<OrderState | null>(null);
 export const useActiveOrder = () => useContext(Context)!;
-export function ActiveOrderProvider({ children }: PropsWithChildren) {
-  const [order, setOrder] = useState<ActiveOrder | null>(null);
+export function ActiveOrderProvider({ children, initial = null }: PropsWithChildren<{ initial?: ActiveOrder | null }>) {
+  const [order, setOrder] = useState<ActiveOrder | null>(initial);
   const presentation = useRef(initialOrderPresentation());
   return <Context.Provider value={{ order, presentation, place: next => { presentation.current = initialOrderPresentation(); setOrder(next); } }}>{children}</Context.Provider>;
 }

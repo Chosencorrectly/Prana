@@ -1,0 +1,95 @@
+{
+  "iteration": "D-74",
+  "date": "2026-10-22",
+  "timezone": "Europe/Moscow",
+  "url": "http://127.0.0.1:5181/",
+  "checks": [
+    {
+      "case": "3 digits",
+      "caret": 4,
+      "enabled": false
+    },
+    {
+      "case": "6 digits",
+      "caret": 8,
+      "enabled": false
+    },
+    {
+      "case": "10 ones",
+      "caret": 12,
+      "enabled": true
+    },
+    {
+      "case": "13 digits after appending234",
+      "caret": 15,
+      "enabled": false
+    },
+    {
+      "case": "backspace3 restores10",
+      "caret": 12,
+      "enabled": true
+    },
+    {
+      "case": "replace first3 digits with987",
+      "caret": 4,
+      "enabled": true
+    },
+    {
+      "case": "insert middle digit",
+      "caret": 4,
+      "enabled": false
+    },
+    {
+      "case": "remove middle inserted digit",
+      "caret": 2,
+      "enabled": true
+    },
+    {
+      "case": "Backspace after first separator",
+      "caret": 2,
+      "enabled": false
+    },
+    {
+      "case": "Delete before first separator",
+      "caret": 4,
+      "enabled": false
+    },
+    {
+      "case": "clear whole selection",
+      "caret": 0,
+      "enabled": false
+    },
+    {
+      "case": "paste international +1 and ten ones",
+      "caret": 12,
+      "enabled": true
+    },
+    {
+      "case": "Canada with ten ones",
+      "enabled": true
+    },
+    {
+      "case": "ten ones -> SMS1111 -> catalogue",
+      "passed": true
+    }
+  ],
+  "final": {
+    "smsEnabled": true,
+    "caret": 12,
+    "buttonBackground": "rgb(255, 255, 255)"
+  },
+  "console": [],
+  "tests": {
+    "passed": 27,
+    "failed": 0,
+    "scope": [
+      "phone",
+      "auth",
+      "checkout-phone",
+      "profile"
+    ]
+  },
+  "build": "passed",
+  "runtimeProtectedFiles": 29,
+  "publication": false
+}

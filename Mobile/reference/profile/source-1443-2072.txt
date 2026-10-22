@@ -1,0 +1,90 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/037d4a97-75aa-47ba-922a-2866084fc3fa";
+const imgFrame276 = `${assetPathPrefix}/44b92.svg`;
+const imgCreditCard2CardPayment = `${assetPathPrefix}/69443.svg`;
+
+export default function Component() {
+  return (
+    <div className="bg-[var(--account-canvas,#080808)] relative size-full" data-node-id="1443:2072" data-name="Корзина • есть позиции в корзине">
+      <CodeConnectSnippet data-node-id="1443:2073" data-name="Status bar - iPhone 17 Pro">
+        {/* iOS and iPadOS 27 component */}
+        <StatusBarIPhone17Pro textTime="9:41" time="9:41" />
+      </CodeConnectSnippet>
+      <div className="absolute bg-[var(--account-surface,#121212)] h-[870px] left-0 rounded-tl-[32px] rounded-tr-[32px] top-[62px] w-[430px]" data-node-id="1443:2074" data-name="Cart sheet">
+        <div className="absolute h-[61px] left-0 overflow-clip top-0 w-[430px]" data-node-id="1443:2075" data-name="Header">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(50%-0.5px)] not-italic text-[16px] text-center text-white top-[22px] whitespace-nowrap" data-node-id="1443:2076">
+            Card details
+          </p>
+          <div className="absolute content-stretch flex gap-[4px] items-center left-[16px] top-[20px]" data-node-id="1443:2078">
+            <div className="flex items-center justify-center relative shrink-0" data-node-id="1443:2079">
+              <div className="flex-none rotate-180">
+                <div className="relative size-[20px]">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame276} />
+                </div>
+              </div>
+            </div>
+            <p className="[word-break:break-word] font-['SF_Pro_Display:Medium'] leading-[normal] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap" data-node-id="1443:2081">
+              Back
+            </p>
+          </div>
+        </div>
+        <div className="absolute bg-[var(--account-card,#1c1c1c)] content-stretch flex flex-col gap-[16px] items-start left-[16px] p-[20px] rounded-[20px] top-[89px] w-[398px]" data-node-id="1443:2084" data-name="Go / E09 / Mastercard">
+          <div className="relative shrink-0 size-[32px]" data-node-id="1443:2085" data-name="credit-card-2, card, payment">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCreditCard2CardPayment} />
+          </div>
+          <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[26px] relative shrink-0 text-[20px] text-[color:var(--account-text,#ededed)] w-[350px]" data-node-id="1443:2086" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Mastercard
+          </p>
+          <p className="[word-break:break-word] font-['SF_Pro:Medium'] font-[510] leading-[36px] relative shrink-0 text-[28px] text-[color:var(--account-text,#ededed)] w-[350px] whitespace-pre-wrap" data-node-id="1443:2087" style={{ fontVariationSettings: '"wdth" 100' }}>{`••••  7032`}</p>
+          <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[18px] relative shrink-0 text-[14px] text-[color:var(--account-secondary,#a1a1a1)] w-[350px]" data-node-id="1443:2088" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Default payment method
+          </p>
+        </div>
+        <div className="absolute bg-[var(--account-surface,#121212)] content-stretch flex flex-col items-start left-[16px] top-[770px] w-[398px]" data-node-id="1443:2128" data-name="Bottom actions / safe inset 34">
+          <div className="bg-[var(--account-control,#262626)] content-stretch flex h-[52px] items-center justify-center relative rounded-[12px] shrink-0 w-full" data-node-id="1443:2129" data-name="Go / E10 / Remove card">
+            <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[21px] relative shrink-0 text-[16px] text-[color:var(--account-error,#ff9b94)] text-center w-[342px]" data-node-id="I1443:2129;1378:1805" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Remove card
+            </p>
+          </div>
+        </div>
+        <div className="absolute bg-[var(--account-accent,#ea5c00)] content-stretch flex h-[52px] items-center justify-center left-[16px] rounded-[12px] top-[706px] w-[398px]" data-node-id="1443:2130" data-name="Go / E08 / Continue verification">
+          <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[21px] relative shrink-0 text-[16px] text-[color:var(--account-text,#ededed)] text-center w-[342px]" data-node-id="I1443:2130;1378:1795" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Edit details
+          </p>
+        </div>
+        <div className="absolute content-stretch flex items-center justify-between left-[16px] min-h-[48px] top-[317px] w-[398px]" data-node-id="1443:2136" data-name="Switch / Default payment method">
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-[322px]" data-node-id="1443:2137" data-name="Labels">
+            <p className="font-['SF_Pro:Medium'] font-[510] leading-[20px] relative shrink-0 text-[16px] text-[color:var(--account-text,#ededed)] w-[322px]" data-node-id="1443:2138" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Default payment method
+            </p>
+            <p className="font-['SF_Pro:Regular'] font-normal leading-[16px] relative shrink-0 text-[13px] text-[color:var(--account-secondary,#a1a1a1)] w-[322px]" data-node-id="1443:2139" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Use as the first choice in future checkouts.
+            </p>
+          </div>
+          <div className="bg-[var(--account-accent,#ea5c00)] h-[32px] relative rounded-[16px] shrink-0 w-[52px]" data-node-id="1443:2140" data-name="Switch / On">
+            <div className="absolute bg-white left-[23px] rounded-[13px] size-[26px] top-[3px]" data-node-id="1443:2141" data-name="Thumb" />
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[20px] left-[16px] text-[15px] text-[color:var(--account-secondary,#a1a1a1)] top-[389px] w-[398px]" data-node-id="1443:2143" style={{ fontVariationSettings: '"wdth" 100' }}>
+          You can choose a different card before placing any order.
+        </p>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Grays/White: #FFFFFF, Account69/20-Semibold: Font(family: "SF Pro", style: Semibold, size: 20, weight: 590, lineHeight: 26, letterSpacing: 0), Account69/14-Regular: Font(family: "SF Pro", style: Regular, size: 14, weight: 400, lineHeight: 18, letterSpacing: 0), Account69/16-Semibold: Font(family: "SF Pro", style: Semibold, size: 16, weight: 590, lineHeight: 21, letterSpacing: 0), Account69/16-Medium: Font(family: "SF Pro", style: Medium, size: 16, weight: 510, lineHeight: 20, letterSpacing: 0), Account69/13-Regular: Font(family: "SF Pro", style: Regular, size: 13, weight: 400, lineHeight: 16, letterSpacing: 0), Account69/15-Regular: Font(family: "SF Pro", style: Regular, size: 15, weight: 400, lineHeight: 20, letterSpacing: 0).
+If the node is connected to a code component in the users codebase via Code Connect, the connected component will be included in the final markup wrapped in a CodeConnectSnippet element, with relevant imports at the top of the file. There are two formats: 1. Single snippet: <CodeConnectSnippet data-snippet-language="React"><TitleComponent>Hello World</TitleComponent></CodeConnectSnippet> 2. Multiple options: <CodeConnectSnippet data-snippet-language="React" options={[<Button variant="primary" />, <Button variant="secondary" />]} /> IMPORTANT: the CodeConnectSnippet wrapper element should not be part of the final code. For the options format, choose the single most appropriate option to use in your implementation. The source of the code component will be in the import path, e.g. import {ComponentName } from 'path/to/component'; IMPORTANT: the import path may not be relative/may point to a URL, so you should search for the component in the codebase and MUST use it if possible.
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Account69/Button
+**Node ID:** 1378:1806
+
+Кнопка Prana 52px. Default/pressed/disabled/loading/danger. Для orange выбран тёмный текст ради контраста. Никакого hover на touch. Дублирование submit блокируется.
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

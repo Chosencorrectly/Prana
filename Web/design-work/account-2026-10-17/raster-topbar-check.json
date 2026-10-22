@@ -1,0 +1,377 @@
+[
+  {
+    "backBrightPixels": 189,
+    "statusBrightPixels": 148,
+    "code": "A01"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "A02"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "A03"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "A04"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "A05"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "A06"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "A07"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "B01"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "B02"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "B03"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "B04"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "B05"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "B06"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "B07"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "B08"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "B09"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "B10"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "C01"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "C02"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "C03"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "C04"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "C05"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "C06"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "C07"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "C08"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "C09"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "C10"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "D01"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "D02"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "D03"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "D04"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "D05"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "D06"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "D07"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "D08"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "D09"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "D10"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "D11"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "D12"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "E01"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "E02"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "E03"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "E04"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "E05"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "E06"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "E07"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "E08"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "E09"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "E10"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "F01"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "F02"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "F03"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "F04"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "F05"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "G01"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "G02"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "G03"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "G04"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "G05"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "G06"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "G07"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "H01"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "H02"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "H03"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "H04"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "H05"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "H06"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "H07"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "H08"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "C11"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "G08"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "B11"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "C12"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "G09"
+  },
+  {
+    "backBrightPixels": 166,
+    "statusBrightPixels": 148,
+    "code": "H09"
+  }
+]

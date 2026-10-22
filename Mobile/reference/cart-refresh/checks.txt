@@ -1,0 +1,73 @@
+19.10.2026 Europe/Moscow — final local checks, exit codes 0 / 0
+
+npm run build
+
+> mobile@0.1.0 prebuild
+> npm run check:runtime
+
+
+> mobile@0.1.0 check:runtime
+> node scripts/check-mobile-runtime.mjs
+
+Mobile runtime integrity check passed (29 protected files).
+
+> mobile@0.1.0 build
+> tsc && vite build && node scripts/prepare-sites-build.mjs
+
+vite v8.1.3 building client environment for production...
+transforming...✓ 648 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/client/index.html                                       0.48 kB │ gzip:   0.30 kB
+dist/client/assets/roboto-latin-500-normal-DQZyH_nt.woff    21.92 kB
+dist/client/assets/roboto-latin-500-normal-7RbcRiD8.woff2   22.20 kB
+dist/client/assets/index-Bd0U3u4Y.css                       75.96 kB │ gzip:  14.79 kB
+dist/client/assets/index-CMAKMvsL.js                       780.32 kB │ gzip: 224.01 kB
+
+✓ built in 422ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+Prepared Sites build: dist/server/index.js and dist/.openai/hosting.json
+
+node --test tests/cart.test.mjs tests/catalog.test.mjs tests/checkout.test.mjs tests/dish.test.mjs tests/motion.test.mjs
+✔ cart preserves add order and all quantity changes reconcile with the catalogue total (2.6785ms)
+✔ suggestions use distinct real dishes outside the cart, including a nearly full catalogue (0.679ms)
+✔ cart nutrition multiplies every portion and keeps unknown values distinct from measured zero (0.3331ms)
+✔ stock caps additions without blocking reductions; offline and failed requests preserve selection (0.1874ms)
+✔ preview has real independent fixtures: three distinct dishes, four portions and correct totals (0.5177ms)
+✔ every arrangement contains the complete catalogue once, within its original categories (6.3884ms)
+✔ large-card eligibility uses no product whitelist, and groups can have two or four small cards (0.3573ms)
+✔ quantities are independent, never negative, and removal restores the empty state without changing layout (11.8324ms)
+✔ fades show overflow on the correct side, including overscroll and short menus (0.2299ms)
+✔ all 87 original images match the desktop import manifest; draft copy keeps its provenance (149.0974ms)
+✔ typing uses the desktop 400ms pause and 650ms loader before applying the demo code (1.6467ms)
+✔ edited or cleared input cannot receive a stale success response (0.2482ms)
+✔ IME waits for committed text and optional whitespace does not validate (0.1882ms)
+✔ disposing the checkout controller rejects pending and already queued responses (0.1648ms)
+✔ discount rounds once in cents, disappears immediately on editing, and follows changed quantities (0.2056ms)
+✔ photo origins stay in phone coordinates at every preview scale (1.2789ms)
+✔ only a rightward horizontal gesture owns dismiss; vertical and left drags remain distinct (0.1968ms)
+✔ dismiss requires distance or an intentional rightward flick, not small taps (0.1442ms)
+✔ dish presentation preserves factual catalogue data and scopes the only supplied weight (1.1431ms)
+✔ missing nutrition is omitted, while measured zero remains visible (0.3004ms)
+✔ double tap cannot duplicate a step or restart its pending focus (1.0721ms)
+✔ quick forward/back/forward reuses the same scene and one form instance (0.1152ms)
+✔ return to an existing step unwinds the stack; root Back is a no-op (0.0906ms)
+✔ splash replacement does not leave a navigable loading screen (0.0901ms)
+✔ completing authorization keeps the outgoing scene for motion but clears navigable auth history (0.1857ms)
+✔ focus cancellation rejects even an already-queued callback after Back (0.1963ms)
+✔ unmount cancellation clears every remaining timer and prevents focus (0.1306ms)
+✔ field-to-field transfer focuses immediately, with no second keyboard entrance (0.1724ms)
+✔ reduced motion has no travel, delayed focus or long entrance (0.6249ms)
+ℹ tests 29
+ℹ suites 0
+ℹ pass 29
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 290.706
+

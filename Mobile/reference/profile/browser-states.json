@@ -1,0 +1,387 @@
+[
+  {
+    "name": "Профиль с данными",
+    "file": "home",
+    "brokenImages": [],
+    "route": "home",
+    "text": "ProfileMJMichael JerlisPersonal details476 Prana pointsBalance & activityPromo codesWELCOME1010 · View & copyMy ordersTrack, view details & reorderDelivery addressesHome · Jl. Raya Padonan No.41aPayment methods2 saved cardsSettings & informationNotifications, terms & about Prana"
+  },
+  {
+    "name": "Без имени и адресов",
+    "file": "no-name",
+    "brokenImages": [],
+    "route": "home",
+    "text": "Profile+6282100001122Add your nameMake your next order easierAdd a delivery address to get started.Promo codesWELCOME1010 · View & copyMy ordersTrack, view details & reorderDelivery addressesAdd your first addressPayment methods2 saved cardsSettings & informationNotifications, terms & about Prana"
+  },
+  {
+    "name": "Загрузка профиля",
+    "file": "loading",
+    "brokenImages": [],
+    "route": "home",
+    "text": "Profile"
+  },
+  {
+    "name": "Профиль офлайн",
+    "file": "offline",
+    "brokenImages": [],
+    "route": "home",
+    "text": "ProfileMJMichael JerlisPersonal detailsYou’re offlineShowing your last saved details. Connect to update your account.476 Prana pointsBalance & activityPromo codesWELCOME1010 · View & copyMy ordersTrack, view details & reorderDelivery addressesHome · Jl. Raya Padonan No.41aPayment methods2 saved cardsSettings & informationNotifications, terms & about Prana"
+  },
+  {
+    "name": "Промокоды",
+    "file": "promos",
+    "brokenImages": [],
+    "route": "promos",
+    "text": "BackPromo codesYour promo codesCopy this code and enter it at checkout.WELCOME1010CONTINUE2020"
+  },
+  {
+    "name": "Личные данные",
+    "file": "personal",
+    "brokenImages": [],
+    "route": "personal",
+    "text": "BackPersonal detailsPersonal detailsFirst nameLast nameEmailPhone number+6282100001122 · VerifiedDate of birth12 June 1985"
+  },
+  {
+    "name": "Несохранённые изменения",
+    "file": "personal-dirty",
+    "brokenImages": [],
+    "route": "personal",
+    "text": "BackPersonal detailsPersonal detailsFirst nameLast nameEmailPhone number+6282100001122 · VerifiedDate of birth12 June 1985"
+  },
+  {
+    "name": "Ошибка email",
+    "file": "personal-invalid",
+    "brokenImages": [],
+    "route": "personal",
+    "text": "BackPersonal detailsPersonal detailsFirst nameLast nameEmailEnter a complete email, like name@example.com.Phone number+6282100001122 · VerifiedDate of birth12 June 1985"
+  },
+  {
+    "name": "Дата рождения",
+    "file": "birthday",
+    "brokenImages": [],
+    "route": "birthday",
+    "text": "BackDate of birthYour birthdayOptional. You can leave this empty.111213MayJuneJuly198419851986Remove birthday"
+  },
+  {
+    "name": "Смена телефона",
+    "file": "phone",
+    "brokenImages": [],
+    "route": "phone",
+    "text": "BackPhone numberChange your phone numberWe’ll send a code to verify your new number.Phone number+1+1Canada+1United States+61Australia+91India+62Indonesia (Bali)+44United Kingdom+49Germany+33France+971UAE+65Singapore"
+  },
+  {
+    "name": "Подтверждение SMS",
+    "file": "code",
+    "brokenImages": [],
+    "route": "code",
+    "text": "BackPhone numberEnter codeEnter the code sent to +14155550123.0000Resend code in 43s"
+  },
+  {
+    "name": "Ошибка сохранения",
+    "file": "personal-error",
+    "brokenImages": [],
+    "route": "personal",
+    "text": "BackPersonal detailsPersonal detailsFirst nameLast nameEmailPhone number+6282100001122 · VerifiedDate of birth12 June 1985Couldn’t save your detailsYour changes are still here. Please try again."
+  },
+  {
+    "name": "Подтверждение отмены",
+    "file": "discard",
+    "brokenImages": [],
+    "route": "discard",
+    "text": "BackPersonal detailsDiscard your changes?Your unsaved changes will be lost. Keep editing to save them."
+  },
+  {
+    "name": "Данные сохранены",
+    "file": "personal-saved",
+    "brokenImages": [],
+    "route": "personal",
+    "text": "BackPersonal detailsPersonal detailsFirst nameLast nameEmailPhone number+6282100001122 · VerifiedDate of birth12 June 1985Your details are savedYour profile is up to date."
+  },
+  {
+    "name": "История заказов",
+    "file": "orders",
+    "brokenImages": [],
+    "route": "orders",
+    "text": "BackMy ordersMy ordersOn the wayOrder #139Today · 2 items$34.90Track delivery →Previous ordersDeliveredOrder #13816 Oct 2026 · 2 items$34.90View order →Order #137 · Cancelled14 Oct 2026 · View details"
+  },
+  {
+    "name": "Нет заказов",
+    "file": "orders-empty",
+    "brokenImages": [],
+    "route": "orders",
+    "text": "BackMy ordersYour first order starts hereOnce you place an order, you’ll find it here."
+  },
+  {
+    "name": "Ошибка истории",
+    "file": "orders-error",
+    "brokenImages": [],
+    "route": "orders",
+    "text": "BackMy ordersCouldn’t load your ordersYour orders haven’t been removed. Check your connection and try again."
+  },
+  {
+    "name": "Доставленный заказ",
+    "file": "order",
+    "brokenImages": [],
+    "route": "order",
+    "text": "BackOrder #138Order #13816 Oct 2026 · 12:35 PMDeliveredJl. Raya Padonan No.41a, Tibubeneng, BaliPayment methodMastercard •••• 7032Your dishesAcai bowl (granola, banana, berries) (vegan)Banana, acai, coconut milk, strawberry, dragon fruit, blueberry, honey, chia pudding, house crunch mix, coconut flakes, mint1 item$15.95Buddha bowl (tempeh, coconut black rice, avocado) (vegan, GF, LF, high fiber)Coconut black rice, tempeh, roasted beets, avocado, tomato, cucumber, miso ginger sauce, golden tahini sauce, house crunch mix1 item$18.952 items$34.90Delivery$0.00Total paid$34.90Need help with this order?"
+  },
+  {
+    "name": "Отслеживание заказа",
+    "file": "tracking",
+    "brokenImages": [],
+    "route": "tracking",
+    "text": ""
+  },
+  {
+    "name": "Повтор: часть недоступна",
+    "file": "reorder",
+    "brokenImages": [],
+    "route": "reorder",
+    "text": "BackReorderReview before reorderingAvailability and prices can change.1 item is unavailablePrana oats won’t be added.Acai bowl (granola, banana, berries) (vegan)Banana, acai, coconut milk, strawberry, dragon fruit, blueberry, honey, chia pudding, house crunch mix, coconut flakes, mint1 item$15.95Buddha bowl (tempeh, coconut black rice, avocado) (vegan, GF, LF, high fiber)Coconut black rice, tempeh, roasted beets, avocado, tomato, cucumber, miso ginger sauce, golden tahini sauce, house crunch mix1 item$18.95Available items2Items subtotal$34.90"
+  },
+  {
+    "name": "Повтор: всё недоступно",
+    "file": "reorder-empty",
+    "brokenImages": [],
+    "route": "reorder",
+    "text": "BackReorderThese items aren’t availableThe menu has changed since this order. Explore today’s dishes to find something you’ll love."
+  },
+  {
+    "name": "Отменённый заказ",
+    "file": "cancelled",
+    "brokenImages": [],
+    "route": "order",
+    "text": "BackOrder #137Order cancelled14 Oct 2026Order #137Jl. Raya Padonan No.41a, Tibubeneng, BaliPayment statusUnavailableYour dishesAcai bowl (granola, banana, berries) (vegan)Banana, acai, coconut milk, strawberry, dragon fruit, blueberry, honey, chia pudding, house crunch mix, coconut flakes, mint1 item$15.95Buddha bowl (tempeh, coconut black rice, avocado) (vegan, GF, LF, high fiber)Coconut black rice, tempeh, roasted beets, avocado, tomato, cucumber, miso ginger sauce, golden tahini sauce, house crunch mix1 item$18.952 items$34.90Order total$34.90Need help with this order?"
+  },
+  {
+    "name": "Нет адресов",
+    "file": "places-empty",
+    "brokenImages": [],
+    "route": "places",
+    "text": "BackDelivery addressesWhere should we deliver?Save your home, work, or another address for a quicker checkout."
+  },
+  {
+    "name": "Адреса",
+    "file": "places",
+    "brokenImages": [],
+    "route": "places",
+    "text": "BackDelivery addressesYour placesSave time on your next delivery.Home · DefaultJl. Raya Padonan No.41a, Tibubeneng, BaliWorkJl. Melati Indah No.27, Denpasar, Bali"
+  },
+  {
+    "name": "Новый адрес на карте",
+    "file": "address-map",
+    "brokenImages": [],
+    "route": "address-map",
+    "text": "Add addressAddress1100 Brickell Bay Dr, Miami, FL 33131"
+  },
+  {
+    "name": "Поиск адреса",
+    "file": "address-search",
+    "brokenImages": [],
+    "route": "address-search",
+    "text": "Add addressAddress701 Brickell AveMiami, FL 331311100 Brickell Bay DrMiami, FL 331311000 Brickell PlazaMiami, FL 331311111 Brickell AveMiami, FL 331311395 Brickell AveMiami, FL 331311451 Brickell AveMiami, FL 33131"
+  },
+  {
+    "name": "Выбранный адрес",
+    "file": "address-selected",
+    "brokenImages": [],
+    "route": "address-map",
+    "text": "Add addressAddress1000 Brickell Plaza, Miami, FL 33131"
+  },
+  {
+    "name": "Детали адреса",
+    "file": "address-details",
+    "brokenImages": [],
+    "route": "address-details",
+    "text": "Address details1000 Brickell PlazaMiami, FL 33131"
+  },
+  {
+    "name": "Удаление адреса",
+    "file": "address-remove",
+    "brokenImages": [],
+    "route": "address-remove",
+    "text": "BackDelivery addressesRemove Home?This address will be removed from your saved places. Existing orders won’t change."
+  },
+  {
+    "name": "Нет карт",
+    "file": "cards-empty",
+    "brokenImages": [],
+    "route": "cards",
+    "text": "BackPayment methodsNo saved cards yetAdd a card to make checkout quicker."
+  },
+  {
+    "name": "Сохранённые карты",
+    "file": "cards",
+    "brokenImages": [],
+    "route": "cards",
+    "text": "BackPayment methodsYour cardsChoose a payment method at checkout.Mastercard•••• 7032Default payment methodMastercard•••• 8034"
+  },
+  {
+    "name": "Добавление карты",
+    "file": "card-form",
+    "brokenImages": [],
+    "route": "card-form",
+    "text": "BackPayment methodsAdd a cardCard numberExpiry dateSecurity codeName on cardUse as defaultSelected first at checkout."
+  },
+  {
+    "name": "Ошибки реквизитов",
+    "file": "card-invalid",
+    "brokenImages": [],
+    "route": "card-form",
+    "text": "BackPayment methodsAdd a cardCard numberEnter a complete, valid card number.Expiry dateEnter a valid expiry date in the future.Security codeName on cardUse as defaultSelected first at checkout."
+  },
+  {
+    "name": "Проверка карты",
+    "file": "card-verifying",
+    "brokenImages": [],
+    "route": "card-form",
+    "text": "BackPayment methodsAdd a cardCard numberExpiry dateSecurity codeName on cardUse as defaultSelected first at checkout.Verifying card"
+  },
+  {
+    "name": "Подтверждение банка",
+    "file": "card-bank",
+    "brokenImages": [],
+    "route": "card-bank",
+    "text": "BackPayment methodsConfirm with your bankYour bank may ask you to verify this card before it can be saved."
+  },
+  {
+    "name": "Карта не сохранена",
+    "file": "card-error",
+    "brokenImages": [],
+    "route": "card-error",
+    "text": "BackPayment methodsCard wasn’t savedYour card details are still here. Try again or use a different card."
+  },
+  {
+    "name": "Детали карты",
+    "file": "card",
+    "brokenImages": [],
+    "route": "card",
+    "text": "BackPayment methodsCard detailsMastercard•••• 7032Default payment methodDefault payment methodSelected first at checkout.You can choose a different card when you place an order."
+  },
+  {
+    "name": "Удаление карты",
+    "file": "card-remove",
+    "brokenImages": [],
+    "route": "card-remove",
+    "text": "BackPayment methodsRemove this card?Mastercard ending in 7032 will be removed from your saved payment methods. Existing orders won’t change."
+  },
+  {
+    "name": "Баланс баллов",
+    "file": "points",
+    "brokenImages": [],
+    "route": "points",
+    "text": "BackPrana pointsYour Prana points476Available Prana pointsPoints activityView earned, used & pending pointsUsing your pointsAvailable rewards are shown before you place an order.Loyalty program terms"
+  },
+  {
+    "name": "Нулевой баланс",
+    "file": "points-empty",
+    "brokenImages": [],
+    "route": "points",
+    "text": "BackPrana pointsYour Prana points0Available Prana pointsYour activity will appear hereSee the loyalty terms to learn about earning and using points.Using your pointsAvailable rewards are shown before you place an order.Loyalty program terms"
+  },
+  {
+    "name": "История баллов",
+    "file": "activity",
+    "brokenImages": [],
+    "route": "activity",
+    "text": "BackPoints activityPoints activity476Available Prana pointsPendingOrder #139Points will be available after the order is completed+200Recent activityOrder #13816 Oct 2026+200Order #13714 Oct 2026−24Pending points are not included in your available balance."
+  },
+  {
+    "name": "Условия недоступны",
+    "file": "loyalty-error",
+    "brokenImages": [],
+    "route": "loyalty",
+    "text": "BackLoyalty program termsLoyalty terms unavailableWe couldn’t load this page. Please try again."
+  },
+  {
+    "name": "Ошибка баланса",
+    "file": "points-error",
+    "brokenImages": [],
+    "route": "points",
+    "text": "BackPrana pointsCouldn’t load your pointsYour points haven’t been removed. Please try again."
+  },
+  {
+    "name": "Условия программы",
+    "file": "loyalty",
+    "brokenImages": [],
+    "route": "loyalty",
+    "text": "BackLoyalty program termsLoyalty program termsAbout your Prana points and activity.Your pointsYour profile brings your available balance and points activity together. An available balance is separate from points that are still pending. Check the activity list to see which order each entry relates to.Earning pointsWhen an order is eligible for points, the applicable offer and its conditions should be shown before you place it. A pending entry does not increase your available balance until the qualifying conditions have been met.Using pointsAvailable rewards are shown before you place an order. Review the amount of points required, the resulting order total, and any conditions before applying a reward. The balance displayed in your profile is not a cash value.Changes to an orderAn adjustment or cancellation may affect points associated with that order. Check the activity entry for an explanation. If an entry appears incorrect, keep the order number so the support team can review it with you.Program informationEligible orders, reward values, expiry rules, and how promotions work together will be set out in the final program terms. This preview does not establish those rules or promise a particular reward."
+  },
+  {
+    "name": "Настройки",
+    "file": "settings",
+    "brokenImages": [],
+    "route": "settings",
+    "text": "BackSettings & informationMake Prana yoursNotifications & offersChoose how we keep in touchLoyalty program termsCreditsPrivacy policyTerms and conditions"
+  },
+  {
+    "name": "Уведомления",
+    "file": "notifications",
+    "brokenImages": [],
+    "route": "notifications",
+    "text": "BackNotificationsStay in the loopChoose your promotional messages.Promotions & offersPush notificationsOffers on this device.Email offersOccasional promotions by email.SMS offersPromotions to your verified number.Order updatesMessages needed to complete your order are managed separately.You can change these choices at any time."
+  },
+  {
+    "name": "Ошибка предпочтений",
+    "file": "notifications-error",
+    "brokenImages": [],
+    "route": "notifications",
+    "text": "BackNotificationsStay in the loopChoose your promotional messages.Promotions & offersPush notificationsOffers on this device.Email offersOccasional promotions by email.SMS offersPromotions to your verified number.Order updatesMessages needed to complete your order are managed separately.You can change these choices at any time.Preference wasn’t savedYour previous setting is still active. Try again."
+  },
+  {
+    "name": "Нет разрешения устройства",
+    "file": "permission",
+    "brokenImages": [],
+    "route": "permission",
+    "text": "BackNotificationsAllow notifications in SettingsPush notifications are enabled in Prana, but this device is blocking them. You can allow them in your device settings."
+  },
+  {
+    "name": "О приложении",
+    "file": "credits",
+    "brokenImages": [],
+    "route": "credits",
+    "text": "BackCreditsPranaFood deliveryApp information and acknowledgements.Open-source licensesPrivacy policyTerms and conditionsAccount settings and order history are available from your profile."
+  },
+  {
+    "name": "Лицензии недоступны",
+    "file": "licenses-error",
+    "brokenImages": [],
+    "route": "licenses",
+    "text": "BackOpen-source licensesLicenses unavailableWe couldn’t load this page. Please try again."
+  },
+  {
+    "name": "Политика недоступна",
+    "file": "privacy-error",
+    "brokenImages": [],
+    "route": "privacy",
+    "text": "BackPrivacy policyPrivacy policy unavailableWe couldn’t load this page. Please try again."
+  },
+  {
+    "name": "Условия недоступны",
+    "file": "terms-error",
+    "brokenImages": [],
+    "route": "terms",
+    "text": "BackTerms and conditionsTerms and conditions unavailableWe couldn’t load this page. Please try again."
+  },
+  {
+    "name": "Выход из аккаунта",
+    "file": "logout",
+    "brokenImages": [],
+    "route": "logout",
+    "text": "BackProfileLog out of Prana?You can sign in again anytime to access your orders and saved details."
+  },
+  {
+    "name": "Гость",
+    "file": "guest",
+    "brokenImages": [],
+    "route": "guest",
+    "text": "BackProfileYour Prana accountSign in to save your details, manage addresses and cards, and see your orders."
+  },
+  {
+    "name": "Ошибка выхода",
+    "file": "logout-error",
+    "brokenImages": [],
+    "route": "logout-error",
+    "text": "BackProfileYou’re still signed inWe couldn’t finish logging you out. Please try again."
+  }
+]

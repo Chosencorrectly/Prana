@@ -1,0 +1,183 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/365470f1-0d08-4a0f-b9ba-5a1cce56e053";
+const imgPhotoAcai = `${assetPathPrefix}/75f46.png`;
+const imgImage74 = `${assetPathPrefix}/dd8bd.png`;
+const imgFrame = `${assetPathPrefix}/0d540.svg`;
+const imgFrame276 = `${assetPathPrefix}/44b92.svg`;
+const imgIconChevron = `${assetPathPrefix}/cda86.svg`;
+
+export default function ScreenB01() {
+  return (
+    <div className="bg-[var(--account-canvas,#080808)] relative size-full" data-node-id="1422:12236" data-name="Screen / B01 / Личные данные / исходное">
+      <div className="absolute h-[62px] left-0 top-0 w-[430px]" data-node-id="1422:12237" data-name="Status / safe area 62">
+        <p className="[word-break:break-word] absolute font-['SF_Pro:Semibold'] font-[590] leading-[22px] left-[40px] text-[17px] text-[color:var(--account-text,#ededed)] top-[22px] w-[60px]" data-node-id="1422:12238" style={{ fontVariationSettings: '"wdth" 100' }}>
+          9:41
+        </p>
+        <div className="absolute h-[16px] left-[310px] top-[24px] w-[80px]" data-node-id="1422:12239" data-name="Frame">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame} />
+        </div>
+      </div>
+      <div className="absolute bg-[var(--account-surface,#121212)] h-[1030px] left-0 rounded-tl-[32px] rounded-tr-[32px] top-[62px] w-[430px]" data-node-id="1422:12248" data-name="Account sheet">
+        <div className="absolute h-[61px] left-0 overflow-clip top-0 w-[430px]" data-node-id="1422:12249" data-name="Header">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(50%-1px)] not-italic text-[16px] text-center text-white top-[22px] whitespace-nowrap" data-node-id="1422:12250">
+            Order #138
+          </p>
+          <div className="absolute content-stretch flex gap-[4px] items-center left-[16px] top-[20px]" data-node-id="1422:12252">
+            <div className="flex items-center justify-center relative shrink-0" data-node-id="1422:12253">
+              <div className="flex-none rotate-180">
+                <div className="relative size-[20px]">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame276} />
+                </div>
+              </div>
+            </div>
+            <p className="[word-break:break-word] font-['SF_Pro_Display:Medium'] leading-[normal] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap" data-node-id="1422:12255">
+              Back
+            </p>
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['SF_Pro:Semibold'] font-[590] leading-[28px] left-[16px] text-[22px] text-white top-[73px] whitespace-nowrap" data-node-id="1422:12256" style={{ fontVariationSettings: '"wdth" 100' }}>
+          Order #138
+        </p>
+        <p className="[word-break:break-word] absolute font-['SF_Pro:Semibold'] font-[590] leading-[28px] left-[16px] text-[22px] text-white top-[378px] whitespace-nowrap" data-node-id="1422:12442" style={{ fontVariationSettings: '"wdth" 100' }}>
+          Items
+        </p>
+        <div className="[word-break:break-word] absolute bg-[var(--account-card,#1c1c1c)] content-stretch flex flex-col gap-[6px] items-start left-[16px] p-[16px] rounded-[16px] top-[121px] w-[398px]" data-node-id="1422:12285" data-name="Notice / Delivered">
+          <p className="font-['SF_Pro:Semibold'] font-[590] leading-[21px] relative shrink-0 text-[16px] text-[color:var(--account-success,#8dd6aa)] w-[358px]" data-node-id="1422:12286" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Delivered
+          </p>
+          <p className="font-['SF_Pro:Regular'] font-normal leading-[18px] relative shrink-0 text-[14px] text-[color:var(--account-secondary,#a1a1a1)] w-[358px]" data-node-id="1422:12287" style={{ fontVariationSettings: '"wdth" 100' }}>
+            16 Oct 2026 · 12:35
+          </p>
+        </div>
+        <div className="absolute bg-[var(--account-card,#1c1c1c)] content-stretch flex flex-col gap-[12px] items-start left-[16px] p-[16px] rounded-[16px] top-[218px] w-[398px]" data-node-id="1422:12288" data-name="Details">
+          <div className="[word-break:break-word] content-stretch flex items-start justify-between leading-[18px] relative shrink-0 text-[14px] w-full" data-node-id="1422:12289" data-name="Detail / Delivery to">
+            <p className="font-['SF_Pro:Regular'] font-normal relative shrink-0 text-[color:var(--account-secondary,#a1a1a1)] w-[156px]" data-node-id="1422:12290" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Delivery to
+            </p>
+            <p className="font-['SF_Pro:Medium'] font-[510] relative shrink-0 text-[color:var(--account-text,#ededed)] text-right w-[190px]" data-node-id="1422:12291" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Home
+            </p>
+          </div>
+          <div className="bg-[var(--account-line,#353535)] h-px relative shrink-0 w-full" data-node-id="1422:12292" data-name="Divider" />
+          <div className="[word-break:break-word] content-stretch flex items-start justify-between leading-[18px] relative shrink-0 text-[14px] w-full" data-node-id="1422:12293" data-name="Detail / Address">
+            <p className="font-['SF_Pro:Regular'] font-normal relative shrink-0 text-[color:var(--account-secondary,#a1a1a1)] w-[156px]" data-node-id="1422:12294" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Address
+            </p>
+            <p className="font-['SF_Pro:Medium'] font-[510] relative shrink-0 text-[color:var(--account-text,#ededed)] text-right w-[190px]" data-node-id="1422:12295" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Jl. Raya Padonan No.41a
+            </p>
+          </div>
+          <div className="bg-[var(--account-line,#353535)] h-px relative shrink-0 w-full" data-node-id="1422:12296" data-name="Divider" />
+          <div className="[word-break:break-word] content-stretch flex items-start justify-between leading-[18px] relative shrink-0 text-[14px] w-full" data-node-id="1422:12297" data-name="Detail / Payment">
+            <p className="font-['SF_Pro:Regular'] font-normal relative shrink-0 text-[color:var(--account-secondary,#a1a1a1)] w-[156px]" data-node-id="1422:12298" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Payment
+            </p>
+            <p className="font-['SF_Pro:Medium'] font-[510] relative shrink-0 text-[color:var(--account-text,#ededed)] text-right w-[190px]" data-node-id="1422:12299" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Mastercard •••• 7032
+            </p>
+          </div>
+        </div>
+        <div className="absolute content-stretch flex gap-[14px] items-center left-[16px] top-[426px] w-[398px]" data-node-id="1422:12413" data-name="Item main">
+          <div className="bg-[var(--account-control,#262626)] relative rounded-[14px] shrink-0 size-[96px]" data-node-id="1422:12414" data-name="Image slot">
+            <div className="absolute left-0 rounded-[14px] size-[96px] top-0" data-node-id="1422:12415" data-name="Photo / acai">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[14px] size-full" src={imgPhotoAcai} />
+            </div>
+          </div>
+          <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px relative" data-node-id="1422:12417" data-name="Item copy">
+            <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0" data-node-id="1422:12418">
+              <p className="font-['SF_Pro:Semibold'] font-[590] leading-[20px] relative shrink-0 text-[16px] text-[color:var(--account-text,#ededed)] whitespace-nowrap" data-node-id="1422:12419" style={{ fontVariationSettings: '"wdth" 100' }}>
+                Acai bowl
+              </p>
+              <p className="font-['SF_Pro:Regular'] font-normal leading-[16px] relative shrink-0 text-[13px] text-[color:var(--account-secondary,#a1a1a1)] w-[296px]" data-node-id="1422:12420" style={{ fontVariationSettings: '"wdth" 100' }}>
+                Chia pudding, mixed berries, banana, mango, coconut flakes, mint, cinnamon, vanilla...
+              </p>
+            </div>
+            <p className="font-['SF_Pro:Regular'] font-normal leading-[18px] relative shrink-0 text-[14px] text-[color:var(--account-text,#ededed)] whitespace-nowrap" data-node-id="1422:12440" style={{ fontVariationSettings: '"wdth" 100' }}>
+              2 items · $15
+            </p>
+          </div>
+        </div>
+        <div className="absolute content-stretch flex gap-[14px] items-center left-[16px] top-[546px] w-[398px]" data-node-id="1422:12452" data-name="Item main">
+          <div className="bg-[var(--account-control,#262626)] relative rounded-[14px] shrink-0 size-[96px]" data-node-id="1422:12453" data-name="Image slot">
+            <div className="absolute left-0 rounded-[14px] size-[96px] top-0" data-node-id="1422:12454" data-name="image 74">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[14px] size-full" src={imgImage74} />
+            </div>
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px relative" data-node-id="1422:12456" data-name="Item copy">
+            <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full" data-node-id="1422:12457">
+              <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[20px] relative shrink-0 text-[16px] text-[color:var(--account-text,#ededed)] w-[296px]" data-node-id="1422:12458" style={{ fontVariationSettings: '"wdth" 100' }}>
+                Buddha Bowl (Tempeh, Coconut Black Rice, Avocado) (Vegan, GF, LF, High Fiber)
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[18px] relative shrink-0 text-[14px] text-[color:var(--account-text,#ededed)] whitespace-nowrap" data-node-id="1422:12478" style={{ fontVariationSettings: '"wdth" 100' }}>
+              3 items · $45
+            </p>
+          </div>
+        </div>
+        <div className="absolute bg-[var(--account-card,#1c1c1c)] content-stretch flex flex-col gap-[12px] items-start left-[16px] p-[16px] rounded-[16px] top-[666px] w-[398px]" data-node-id="1422:12307" data-name="Details">
+          <div className="[word-break:break-word] content-stretch flex items-start justify-between leading-[18px] relative shrink-0 text-[14px] w-full" data-node-id="1422:12308" data-name="Detail / Items">
+            <p className="font-['SF_Pro:Regular'] font-normal relative shrink-0 text-[color:var(--account-secondary,#a1a1a1)] w-[156px]" data-node-id="1422:12309" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Items
+            </p>
+            <p className="font-['SF_Pro:Medium'] font-[510] relative shrink-0 text-[color:var(--account-text,#ededed)] text-right w-[190px]" data-node-id="1422:12310" style={{ fontVariationSettings: '"wdth" 100' }}>
+              $25.90
+            </p>
+          </div>
+          <div className="bg-[var(--account-line,#353535)] h-px relative shrink-0 w-full" data-node-id="1422:12311" data-name="Divider" />
+          <div className="[word-break:break-word] content-stretch flex items-start justify-between leading-[18px] relative shrink-0 text-[14px] w-full" data-node-id="1422:12312" data-name="Detail / Delivery">
+            <p className="font-['SF_Pro:Regular'] font-normal relative shrink-0 text-[color:var(--account-secondary,#a1a1a1)] w-[156px]" data-node-id="1422:12313" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Delivery
+            </p>
+            <p className="font-['SF_Pro:Medium'] font-[510] relative shrink-0 text-[color:var(--account-text,#ededed)] text-right w-[190px]" data-node-id="1422:12314" style={{ fontVariationSettings: '"wdth" 100' }}>
+              $0.00
+            </p>
+          </div>
+          <div className="bg-[var(--account-line,#353535)] h-px relative shrink-0 w-full" data-node-id="1422:12315" data-name="Divider" />
+          <div className="[word-break:break-word] content-stretch flex items-start justify-between leading-[18px] relative shrink-0 text-[14px] w-full" data-node-id="1422:12316" data-name="Detail / Total paid">
+            <p className="font-['SF_Pro:Regular'] font-normal relative shrink-0 text-[color:var(--account-secondary,#a1a1a1)] w-[156px]" data-node-id="1422:12317" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Total paid
+            </p>
+            <p className="font-['SF_Pro:Medium'] font-[510] relative shrink-0 text-[color:var(--account-text,#ededed)] text-right w-[190px]" data-node-id="1422:12318" style={{ fontVariationSettings: '"wdth" 100' }}>
+              $25.90
+            </p>
+          </div>
+        </div>
+        <div className="absolute content-stretch flex gap-[12px] h-[64px] items-center left-[16px] top-[826px] w-[398px]" data-node-id="1422:12319" data-name="Go / C09 / Need help with this order?">
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[3px] items-start min-w-px relative" data-node-id="I1422:12319;1378:1808" data-name="Labels">
+            <p className="[word-break:break-word] font-['SF_Pro:Medium'] font-[510] leading-[20px] relative shrink-0 text-[16px] text-[color:var(--account-text,#ededed)] w-[356px]" data-node-id="I1422:12319;1378:1809" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Need help with this order?
+            </p>
+          </div>
+          <div className="relative shrink-0 size-[18px]" data-node-id="I1422:12319;1378:1811" data-name="Icon / chevron">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconChevron} />
+          </div>
+        </div>
+      </div>
+      <div className="absolute bg-[var(--account-accent,#ea5c00)] content-stretch flex h-[52px] items-center justify-center left-[16px] rounded-[12px] top-[992px] w-[398px]" data-node-id="1422:12282" data-name="Go / B10 / Save changes">
+        <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[21px] relative shrink-0 text-[16px] text-[color:var(--account-text,#ededed)] text-center whitespace-nowrap" data-node-id="I1422:12282;1378:1795" style={{ fontVariationSettings: '"wdth" 100' }}>
+          Reorder
+        </p>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Account69/17-Semibold: Font(family: "SF Pro", style: Semibold, size: 17, weight: 590, lineHeight: 22, letterSpacing: 0), Account69/16-Semibold: Font(family: "SF Pro", style: Semibold, size: 16, weight: 590, lineHeight: 21, letterSpacing: 0), Account69/14-Regular: Font(family: "SF Pro", style: Regular, size: 14, weight: 400, lineHeight: 18, letterSpacing: 0), Account69/14-Medium: Font(family: "SF Pro", style: Medium, size: 14, weight: 510, lineHeight: 18, letterSpacing: 0), Account69/13-Regular: Font(family: "SF Pro", style: Regular, size: 13, weight: 400, lineHeight: 16, letterSpacing: 0), Account69/16-Medium: Font(family: "SF Pro", style: Medium, size: 16, weight: 510, lineHeight: 20, letterSpacing: 0).
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Account69/Row
+**Node ID:** 1378:1807
+
+Вся строка — цель касания 390×64. Название + полезное состояние + видимый chevron. Возврат сохраняет прокрутку.
+
+## Account69/Button
+**Node ID:** 1378:1806
+
+Кнопка Prana 52px. Default/pressed/disabled/loading/danger. Для orange выбран тёмный текст ради контраста. Никакого hover на touch. Дублирование submit блокируется.
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

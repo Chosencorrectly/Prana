@@ -2,7 +2,7 @@ import { memo } from 'react';
 import type { Product } from './catalog-model';
 import { QuantityControl } from './QuantityControl';
 
-function Nutrition({ product, calories = false }: { product: Product; calories?: boolean }) {
+export function Nutrition({ product, calories = false }: { product: Product; calories?: boolean }) {
   const nutrients = [
     ...(calories && product.kcal != null ? [{ value: product.kcal, label: 'kcal', full: 'kilocalories' }] : []),
     ...([{ key: 'protein', label: 'pr', full: 'grams protein' }, { key: 'fat', label: 'fa', full: 'grams fat' }, { key: 'carbs', label: 'ca', full: 'grams carbohydrates' }] as const)

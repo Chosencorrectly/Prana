@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-15",
+  "timezone": "Europe/Moscow",
+  "url": "http://127.0.0.1:5181/",
+  "iteration": "D-61",
+  "allPhoneImagesLoaded": true,
+  "country": "Country: United States, +1",
+  "emptyButtonDisabled": true,
+  "focus": "phone-input",
+  "geometry": {
+    "control": {
+      "background": "rgb(49, 48, 48)",
+      "height": 71.99928013485176,
+      "width": 306.99478479239986,
+      "x": 61.49485608339279,
+      "y": 292.9785863006746
+    },
+    "cta": {
+      "background": "rgb(61, 61, 61)",
+      "height": 53.99172383962998,
+      "width": 306.99478479239986,
+      "x": 61.49485608339279,
+      "y": 552.0151110645537
+    },
+    "keyboard": {
+      "background": "rgb(38, 38, 38)",
+      "height": 300.9922698420505,
+      "width": 430,
+      "x": 0,
+      "y": 631.0070102928013
+    },
+    "list": {
+      "background": "rgb(49, 48, 48)",
+      "height": 170.9944202821562,
+      "width": 306.99478479239986,
+      "x": 61.49485608339279,
+      "y": 368.96924331264586
+    }
+  },
+  "list": {
+    "clientHeight": 171,
+    "count": 10,
+    "scrollHeight": 560
+  },
+  "console": [],
+  "verified": [
+    "US default after reload",
+    "empty and partial disabled; full enabled; deletion disables",
+    "country drag preserves selection and outer scroll0",
+    "Canada shares +1 and retains digits",
+    "Indonesia/Bali +62 selection",
+    "international clipboard paste +62",
+    "unsupported +81 retains old number and disables SMS",
+    "Backspace near formatting space and reinsert visually restore number",
+    "Escape closes list while keyboard stays open",
+    "ArrowDown/End/Enter selects Singapore",
+    "Phone -> SMS -> Back retains country/number",
+    "1111 -> Menu"
+  ],
+  "limitations": [
+    "read-only browser DOM redacts tel values; exact dummy digits verified visually",
+    "native touch/keyboard, screen reader, system reduced motion and full Pixel audit not run",
+    "no publication or real SMS"
+  ],
+  "checks": {
+    "build": "passed",
+    "runtimeProtectedFiles": 29,
+    "tests": {
+      "passed": 20,
+      "phone": 6,
+      "auth": 5,
+      "motion": 9
+    },
+    "buildWarning": "JS chunk above500kB"
+  }
+}

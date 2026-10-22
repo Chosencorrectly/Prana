@@ -1,0 +1,668 @@
+{
+  "source": "mobile/src/catalog/catalog.json; product-evidence.json",
+  "assumption": "One quantity unit corresponds to catalogue nutrition; portion basis needs product confirmation.",
+  "scope": "Native Figma totals checked against independent recomputation; not app runtime tests",
+  "results": [
+    {
+      "code": "A01",
+      "items": [
+        [
+          "acai",
+          1
+        ],
+        [
+          "chia",
+          1
+        ]
+      ],
+      "expected": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "A02",
+      "items": [
+        [
+          "acai",
+          1
+        ],
+        [
+          "chia",
+          1
+        ]
+      ],
+      "expected": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "A03",
+      "items": [
+        [
+          "acai",
+          1
+        ]
+      ],
+      "expected": [
+        "1 item",
+        "$15.95",
+        "480 kcal  ·  P 8 g  ·  F 18 g  ·  C 75 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "A04",
+      "items": [
+        [
+          "acai",
+          1
+        ],
+        [
+          "chia",
+          1
+        ],
+        [
+          "oats",
+          1
+        ]
+      ],
+      "expected": [
+        "3 items",
+        "$38.85",
+        "1460 kcal  ·  P 32 g  ·  F 63 g  ·  C 212 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "A07",
+      "items": [
+        [
+          "acai",
+          1
+        ],
+        [
+          "chia",
+          1
+        ],
+        [
+          "oats",
+          1
+        ]
+      ],
+      "expected": [
+        "3 items",
+        "$38.85",
+        "1460 kcal  ·  P 32 g  ·  F 63 g  ·  C 212 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "B01",
+      "items": [
+        [
+          "acai",
+          2
+        ],
+        [
+          "chia",
+          1
+        ]
+      ],
+      "expected": [
+        "3 items",
+        "$44.85",
+        "1495 kcal  ·  P 28 g  ·  F 65 g  ·  C 211 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "B02",
+      "items": [
+        [
+          "chia",
+          1
+        ]
+      ],
+      "expected": [
+        "1 item",
+        "$12.95",
+        "535 kcal  ·  P 12 g  ·  F 29 g  ·  C 61 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "B04",
+      "items": [
+        [
+          "acai",
+          1
+        ],
+        [
+          "chia",
+          1
+        ]
+      ],
+      "expected": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "B05",
+      "items": [
+        [
+          "acai",
+          2
+        ],
+        [
+          "chia",
+          1
+        ]
+      ],
+      "expected": [
+        "3 items",
+        "$44.85",
+        "1495 kcal  ·  P 28 g  ·  F 65 g  ·  C 211 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "B06",
+      "items": [
+        [
+          "acai",
+          1
+        ],
+        [
+          "chia",
+          1
+        ]
+      ],
+      "expected": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "B07",
+      "items": [
+        [
+          "acai",
+          1
+        ],
+        [
+          "chia",
+          1
+        ]
+      ],
+      "expected": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "B08",
+      "items": [
+        [
+          "acai",
+          1
+        ],
+        [
+          "chia",
+          1
+        ]
+      ],
+      "expected": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "B09",
+      "items": [
+        [
+          "acai",
+          1
+        ],
+        [
+          "chia",
+          2
+        ]
+      ],
+      "expected": [
+        "3 items",
+        "$41.85",
+        "1550 kcal  ·  P 32 g  ·  F 76 g  ·  C 197 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "C01",
+      "items": [
+        [
+          "acai",
+          1
+        ],
+        [
+          "chia",
+          1
+        ]
+      ],
+      "expected": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "C02",
+      "items": [
+        [
+          "acai",
+          1
+        ],
+        [
+          "aloe",
+          1
+        ]
+      ],
+      "expected": [
+        "2 items",
+        "$30.95",
+        "530 kcal  ·  P —  ·  F —  ·  C 87 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "C03",
+      "items": [
+        [
+          "bowl",
+          1
+        ]
+      ],
+      "expected": [
+        "1 item",
+        "$11.00",
+        "—  ·  P —  ·  F —  ·  C —"
+      ],
+      "passed": true
+    },
+    {
+      "code": "C04",
+      "items": [
+        [
+          "acai",
+          1
+        ],
+        [
+          "aloe",
+          1
+        ]
+      ],
+      "expected": [
+        "2 items",
+        "$30.95",
+        "530 kcal  ·  P —  ·  F —  ·  C 87 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "C05",
+      "items": [
+        [
+          "rice",
+          1
+        ]
+      ],
+      "expected": [
+        "1 item",
+        "$1.95",
+        "195 kcal  ·  P 4 g  ·  F 0 g  ·  C 42 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "D01",
+      "items": [
+        [
+          "acai",
+          1
+        ],
+        [
+          "chia",
+          1
+        ]
+      ],
+      "expected": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "D02",
+      "items": [
+        [
+          "acai",
+          1
+        ],
+        [
+          "chia",
+          1
+        ]
+      ],
+      "expected": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "E01",
+      "items": [
+        [
+          "acai",
+          1
+        ],
+        [
+          "chia",
+          1
+        ]
+      ],
+      "expected": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "E01O",
+      "items": [
+        [
+          "acai",
+          1
+        ],
+        [
+          "chia",
+          1
+        ]
+      ],
+      "expected": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "E02",
+      "items": [
+        [
+          "acai",
+          1
+        ],
+        [
+          "chia",
+          1
+        ],
+        [
+          "aloe",
+          1
+        ]
+      ],
+      "expected": [
+        "3 items",
+        "$43.90",
+        "1065 kcal  ·  P —  ·  F —  ·  C 148 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "E03",
+      "items": [
+        [
+          "acai",
+          1
+        ],
+        [
+          "chia",
+          1
+        ]
+      ],
+      "expected": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "E04",
+      "items": [
+        [
+          "acai",
+          1
+        ],
+        [
+          "chia",
+          1
+        ]
+      ],
+      "expected": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "E05",
+      "items": [
+        [
+          "acai",
+          1
+        ],
+        [
+          "chia",
+          1
+        ]
+      ],
+      "expected": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "E06",
+      "items": [
+        [
+          "acai",
+          1
+        ],
+        [
+          "chia",
+          1
+        ]
+      ],
+      "expected": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "E07",
+      "items": [
+        [
+          "acai",
+          1
+        ],
+        [
+          "chia",
+          1
+        ]
+      ],
+      "expected": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "F01",
+      "items": [
+        [
+          "acai",
+          1
+        ],
+        [
+          "chia",
+          1
+        ]
+      ],
+      "expected": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "F02",
+      "items": [
+        [
+          "acai",
+          1
+        ],
+        [
+          "chia",
+          1
+        ]
+      ],
+      "expected": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "F03",
+      "items": [
+        [
+          "acai",
+          1
+        ],
+        [
+          "chia",
+          1
+        ]
+      ],
+      "expected": [
+        "2 items",
+        "$29.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "F04",
+      "items": [
+        [
+          "acai",
+          1
+        ],
+        [
+          "chia",
+          1
+        ]
+      ],
+      "expected": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "F05",
+      "items": [
+        [
+          "acai",
+          1
+        ],
+        [
+          "chia",
+          1
+        ]
+      ],
+      "expected": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "F07",
+      "items": [
+        [
+          "acai",
+          1
+        ],
+        [
+          "chia",
+          1
+        ]
+      ],
+      "expected": [
+        "2 items",
+        "$29.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g"
+      ],
+      "passed": true
+    },
+    {
+      "code": "F06",
+      "items": [
+        [
+          "acai",
+          1
+        ],
+        [
+          "chia",
+          1
+        ]
+      ],
+      "expected": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g"
+      ],
+      "passed": true
+    }
+  ]
+}

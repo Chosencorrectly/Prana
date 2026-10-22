@@ -1,6 +1,7 @@
 /* Figma Delivery 430×1568; document flow inside the calibrated phone viewport. */
 @font-face { font-family: 'Prana Checkout'; src: local('SF Pro Display Regular'), local('SFProDisplay-Regular'); font-style: normal; font-weight: 400; font-display: swap; }
 @font-face { font-family: 'Prana Checkout'; src: local('SF Pro Display Medium'), local('SFProDisplay-Medium'); font-style: normal; font-weight: 500; font-display: swap; }
+@font-face { font-family: 'Prana Checkout'; src: local('SF Pro Display Semibold'), local('SFProDisplay-Semibold'); font-style: normal; font-weight: 600; font-display: swap; }
 @font-face { font-family: 'Prana Checkout'; src: local('SF Pro Display Bold'), local('SFProDisplay-Bold'); font-style: normal; font-weight: 700; font-display: swap; }
 .checkout-host.prana-auth { position: absolute; inset: calc(0px - var(--cart-safe-top)) 0 0; z-index: 15; background: transparent; --auth-surface: #121212; }
 .cart-view .checkout-host { font-family: 'Prana Checkout', 'Prana Display', sans-serif; font-weight: 400; }
@@ -94,6 +95,8 @@
 .delivery-payment-track button > img { position: absolute; top: 16px; left: 15px; display: block; }
 .delivery-payment-track button > span { position: absolute; right: 10px; bottom: 11px; }
 .delivery-payment-track .delivery-add-card { background: transparent; box-shadow: inset 0 0 0 1px #242424; }
+.delivery-card-brand { position: absolute; top: 16px; left: 15px; font-size: 14px; }
+.checkout-host .delivery-empty-cards { color: #a1a1a1; font-size: 14px; line-height: 20px; }
 .delivery-payment-divider { display: block; margin-top: 31px; }
 .delivery-support { position: relative; height: 211px; margin-top: 32px; border-radius: 10px; background: #181818; text-align: center; }
 .checkout-host .delivery-support h2 { position: absolute; top: 24px; width: 100%; margin: 0; font-size: 24px; line-height: 29px; font-weight: 500; }

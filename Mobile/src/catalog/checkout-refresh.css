@@ -1,0 +1,81 @@
+/* D-75: production checkout content, using the established local components. */
+.checkout-host.profile-host .delivery-content { padding-top: 10px; padding-bottom: calc(105px + 28px + 48px); }
+/* Reserve the fixed total's bottom offset, its line height, and a 48px final gap. */
+.checkout-host .delivery-total { align-items: center; }
+.checkout-host .delivery-total strong { font-family: 'Prana Cart', 'Prana Display', sans-serif; font-size: 28px; line-height: 1; font-weight: 600; color: #fff; }
+.checkout-host .delivery-address { margin-top: 22px; height: auto; min-height: 130px; }
+.checkout-host .delivery-content > h1 { position: absolute; width: 1px; height: 1px; padding: 0; margin: 0; overflow: hidden; clip-path: inset(50%); }
+.checkout-host .delivery-note { display: block; width: 100%; min-height: 70px; padding: 14px 15px 16px; background: transparent; text-align: left; }
+.checkout-host .delivery-note p { overflow-wrap: anywhere; font-weight: 400; }
+.checkout-host .delivery-leave { margin-top: 12px; }
+.checkout-host .delivery-label { font-size: 16px; line-height: 22px; font-weight: 500; color: #bdbdbd; margin-bottom: 12px; }
+.checkout-host .delivery-time { margin-top: 26px; }
+.checkout-host .delivery-time-track { padding-top: 2px; padding-bottom: 2px; }
+.checkout-host .delivery-time-options .delivery-choice::after { box-sizing: border-box; }
+.checkout-host .checkout-items { margin-top: 30px; }
+.checkout-host .checkout-items h2 { margin: 0 0 16px; font-size: 26px; line-height: 32px; font-weight: 500; }
+.checkout-items ul { list-style: none; margin: 0; padding: 0 12px; border-radius: 14px; background: #1c1c1c; }
+.checkout-items li { display: grid; overflow: hidden; }
+.checkout-item-clip { min-height: 0; overflow: hidden; }
+.checkout-item { min-height: 0; overflow: hidden; display: flex; gap: 12px; align-items: flex-start; padding: 16px 0; }
+.checkout-items li + li .checkout-item { border-top: 1px solid #2b2b2b; }
+.checkout-item .mobile-cart-photo { width: 64px; height: 64px; flex: 0 0 64px; border-radius: 12px; }
+.checkout-item .mobile-cart-photo > img { width: 64px; height: 64px; object-fit: cover; }
+.checkout-item-copy { min-width: 0; flex: 1; }
+.checkout-host .checkout-item h3 { font-size: 15px; line-height: 20px; font-weight: 500; margin: 0 0 10px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.checkout-item-bottom { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.checkout-item-bottom > strong { white-space: nowrap; font-size: 16px; line-height: 20px; font-weight: 600; }
+.checkout-item .mobile-cart-quantity { flex: 0 0 120px; }
+.checkout-empty { padding: 20px; background: #1c1c1c; border-radius: 14px; }
+.checkout-host .checkout-empty p { margin-bottom: 16px; color: #bdbdbd; font-size: 16px; }
+.checkout-allergy-row { display: flex; width: 100%; align-items: center; gap: 12px; padding: 16px; margin: 20px 0 14px; border-radius: 12px; background: #1c1c1c; text-align: left; }
+.checkout-allergy-row > span:nth-child(2) { display: flex; flex: 1; flex-direction: column; gap: 6px; min-width: 0; }
+.checkout-allergy-row strong { font-size: 16px; line-height: 20px; font-weight: 500; }
+.checkout-allergy-row small { font-size: 13px; line-height: 18px; color: #bdbdbd; font-weight: 400; }
+.checkout-row-action { max-width: 105px; font-size: 14px; line-height: 19px; font-weight: 500; color: #ea5c00; text-align: right; }
+.checkout-host .delivery-promo { background: #1c1c1c; border-radius: 12px; }
+.checkout-tips { padding: 18px 14px; margin-top: 14px; background: #1c1c1c; border-radius: 12px; }
+.checkout-host .checkout-tips h2 { margin: 0 0 14px; font-size: 16px; line-height: 22px; font-weight: 500; }
+.checkout-tip-options { display: grid; grid-template-columns: 1.1fr 1fr 1fr 1fr 1.25fr; gap: 7px; }
+.checkout-tip-options button { min-width: 0; min-height: 46px; padding: 8px 3px; border-radius: 10px; background: #303030; font-size: 14px; line-height: 18px; overflow-wrap: anywhere; }
+.checkout-tip-options button[aria-pressed="true"] { background: #ea5c00; color: #fff; }
+.checkout-host .checkout-calculation { height: auto; margin-top: 18px; background: #1c1c1c; padding: 4px 16px; border-radius: 12px; }
+.checkout-calculation > div { min-height: 52px; height: auto; padding: 12px 0; font-weight: 400; }
+.checkout-calculation > div + div { border-top: 1px solid #2b2b2b; }
+.checkout-calculation dt { color: #bdbdbd; }
+.checkout-calculation dd { font-size: 15px; }
+.checkout-payment-options { display: flex; flex-direction: column; gap: 8px; }
+.checkout-payment-options label { position: relative; display: flex; align-items: center; gap: 12px; min-height: 58px; padding: 14px 16px; border: 1px solid #393939; border-radius: 12px; background: #242424; font-size: 16px; line-height: 22px; transition: border-color 180ms, background-color 180ms, opacity 150ms; cursor: pointer; }
+.checkout-payment-options label:has(input:checked) { border-color: #ea5c00; background: #2a2018; }
+.checkout-payment-options label:active { opacity: .7; transition-duration: 180ms, 180ms, 70ms; }
+.checkout-payment-options input { position: absolute; inset: 0; opacity: 0; width: 100%; height: 100%; margin: 0; cursor: pointer; }
+.checkout-payment-radio { position: relative; width: 24px; height: 24px; flex: 0 0 24px; border: 2px solid #8d8d8d; border-radius: 50%; transition: border-color 180ms; }
+.checkout-payment-radio::after { content: ''; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 12px; height: 12px; border-radius: 50%; background: #ea5c00; opacity: 0; transition: opacity 180ms; }
+.checkout-payment-options input:checked + .checkout-payment-radio { border-color: #ea5c00; }
+.checkout-payment-options input:checked + .checkout-payment-radio::after { opacity: 1; }
+.checkout-payment-options label:has(input:focus-visible) { outline: 2px solid #fff; outline-offset: 2px; }
+.checkout-card-selection { margin-top: 14px; }
+.checkout-host .delivery-payment-track .delivery-add-card { font-size: 15px; background: #1c1c1c; border: 1px solid #393939; }
+.checkout-host .delivery-payment-track button[aria-pressed="true"]::after { border-color: #ea5c00; }
+.checkout-host .delivery-support p { color: #a1a1a1; }
+.checkout-host .delivery-order-button:disabled { background: #2b2b2b; color: #686868; opacity: 1; }
+.checkout-host .checkout-allergens { padding: 0 15px 150px; }
+.checkout-host .checkout-allergy-disclaimer { margin: 2px auto 24px; max-width: 350px; color: #a1a1a1; font-size: 14px; line-height: 21px; text-align: center; }
+.checkout-allergen-list { display: flex; flex-direction: column; gap: 8px; }
+.checkout-allergen-list > button { display: flex; align-items: center; gap: 8px; width: 100%; height: 56px; padding: 0 16px; border-radius: 10px; background: #1e1e1e; text-align: left; font-size: 16px; line-height: 20px; }
+.checkout-allergen-icon { width: 24px; height: 24px; flex: 0 0 24px; display: grid; place-items: center; }
+.checkout-allergen-icon img, .checkout-checkbox img { display: block; max-width: none; flex: 0 0 auto; }
+.checkout-checkbox { width: 24px; height: 24px; margin-left: auto; border-radius: 5px; background: #313131; display: grid; place-items: center; transition: background-color 180ms; }
+.checkout-allergen-list [aria-checked="true"] .checkout-checkbox { background: #ea5c00; }
+.checkout-host .checkout-extra-toolbar { padding: 0 8px; }
+.checkout-host .checkout-extra-toolbar .profile-back-icon { display: block; }
+.checkout-host .profile-dock { z-index: 22; }
+.checkout-host .profile-content:not(.checkout-allergens) { padding-top: 20px; }
+.checkout-host .profile-heading h1 { margin-bottom: 0; }
+.checkout-host .profile-state { padding-top: 100px; }
+.checkout-host .active-order-summary dd { max-width: 62%; text-align: right; overflow-wrap: anywhere; }
+.checkout-host .active-delivery-note p { overflow-wrap: anywhere; }
+.cart-view:has(.checkout-host[data-active="true"]) > .cart-notice { z-index: 30; }
+@media (prefers-reduced-motion: reduce) {
+  .checkout-payment-options label, .checkout-payment-radio, .checkout-payment-radio::after, .checkout-checkbox { transition: none; }
+}

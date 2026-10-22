@@ -1,0 +1,506 @@
+{
+  "page": {
+    "id": "1028:32536",
+    "name": "Cart"
+  },
+  "section": {
+    "id": "1294:3487",
+    "name": "Cart",
+    "b": {
+      "x": -100,
+      "y": 486,
+      "width": 2190,
+      "height": 1541
+    }
+  },
+  "children": [
+    {
+      "id": "1028:32553",
+      "name": "Scroll",
+      "type": "FRAME",
+      "b": {
+        "x": 0,
+        "y": 586,
+        "width": 430,
+        "height": 932
+      }
+    },
+    {
+      "id": "1028:33680",
+      "name": "Shop",
+      "type": "FRAME",
+      "b": {
+        "x": 532,
+        "y": 586,
+        "width": 430,
+        "height": 1341
+      }
+    },
+    {
+      "id": "1028:33799",
+      "name": "Scroll",
+      "type": "FRAME",
+      "b": {
+        "x": 1107,
+        "y": 586,
+        "width": 430,
+        "height": 932
+      }
+    },
+    {
+      "id": "1028:33899",
+      "name": "Scroll",
+      "type": "FRAME",
+      "b": {
+        "x": 1560,
+        "y": 586,
+        "width": 430,
+        "height": 932
+      }
+    },
+    {
+      "id": "1028:34019",
+      "name": "Vector 7533",
+      "type": "VECTOR",
+      "b": {
+        "x": 410,
+        "y": 1198,
+        "width": 121.5,
+        "height": 264.5
+      }
+    }
+  ],
+  "texts": [
+    "Healthy meal plan 1200 kcal (5-7 days)",
+    "Soy protein, mango, cassava flour, fresh fruits Macros: kcal 495, pr 46, fa 7, ca 625",
+    "From $4",
+    "Healthy meal plan 1500 kcal (5 days)",
+    "Healthy meal plan 1500 kcal (5-7 days)",
+    "Healthy meal plan 2000 kcal (5-7 days)",
+    "High protein meal plan 1800 kcal (5-7 days)",
+    "New",
+    "GLUTEN FREE ",
+    "Snacks",
+    "Try new",
+    "Almond Power Syrniki ",
+    "Gluten-free Syrniki with almond flour, yogurt, fresh berries, and",
+    "Baked Sweet Potato",
+    "Healthy Chicken Burger",
+    "-",
+    "2",
+    "+",
+    "From 423000 IDR",
+    "Savory Chicken Liver Salad",
+    "Gluten-free Syrniki with almond ",
+    "Waffles",
+    "Protein Chocolate Banana Waffles with Caramel",
+    "(Soy protein, banana, cocoa",
+    "Bumble Coffee",
+    "Top",
+    "(Ice, espresso, orange juice) Kcal 48 Pr 0.7 Fa 0.2 Ca 11.3",
+    "From $23.99",
+    "Matcha",
+    " 350 g / Kсal 150; Pr 7,5; Fa 7,3; Car 13,4",
+    "Coconut",
+    "Fresh",
+    "Fresh Coconut Water",
+    "Kcal 66.5 | Protein 2.4 Fat 0.7 Car 12.9",
+    " Isotonics",
+    "Healthy",
+    "423000 IDR",
+    "Healthy Isotonics TenPlus ",
+    "Two flavors to choose from",
+    "Chicken Soba",
+    "Noodles",
+    "Buckwheat noodles, chicken, carrots, spring onions, cabbag",
+    "Salmon Wrap",
+    "Chicken Wrap",
+    "Roasted Beef Panini",
+    "GLUTEN FREE",
+    "Fish Wrap",
+    "Salmon Poke",
+    "Protein-Packed Chicken Poke ",
+    "Fresh salad mix combined with nutty quinoa, fried chicken,",
+    "Tuna Poke ",
+    "Constructor / Extra",
+    "Create your plate",
+    "Slavic Soul Set",
+    "Protein Boost Set",
+    "After Party Set ",
+    "Custom Breakfast",
+    "Custom Breakfast Eggs ",
+    "Try new item",
+    "Meal plans",
+    "Season Menu",
+    "Breakfast",
+    "All",
+    "Jl.Paya Padonan No21a",
+    "Deliver to",
+    "$23",
+    "AG",
+    "Close",
+    "Healthy meal plan 2000 kcal (7 days)",
+    "$4",
+    "300 g",
+    "Papaya Fresh Juice",
+    "More 3+",
+    "Edit",
+    "You may like",
+    "Proceed to Checkout",
+    "Free delivery",
+    "Closed"
+  ],
+  "fonts": [
+    "{\"family\":\"SF Pro Display\",\"style\":\"Bold\"}",
+    "{\"family\":\"SF Pro Display\",\"style\":\"Medium\"}",
+    "{\"family\":\"Coolvetica\",\"style\":\"Condensed Regular\"}",
+    "{\"family\":\"Halimun\",\"style\":\"Regular\"}",
+    "{\"family\":\"Graphik XXXXCond Trial\",\"style\":\"Semibold\"}",
+    "{\"family\":\"Estrella\",\"style\":\"Early\"}",
+    "{\"family\":\"SF Pro Display\",\"style\":\"Regular\"}"
+  ],
+  "images": [
+    {
+      "id": "1028:32558",
+      "name": "Frame 189",
+      "w": 190,
+      "h": 187,
+      "hash": "95df68f8ff95bae7e9e7e11c0d0ef1e9777a8dbd"
+    },
+    {
+      "id": "1028:32566",
+      "name": "Frame 189",
+      "w": 190,
+      "h": 187,
+      "hash": "95df68f8ff95bae7e9e7e11c0d0ef1e9777a8dbd"
+    },
+    {
+      "id": "1028:32567",
+      "name": "magnific__-reference-image__14683 1",
+      "w": 190,
+      "h": 190,
+      "hash": "24bcf6a0302588d3adbf1a43b666c92748f9d501"
+    },
+    {
+      "id": "1028:32576",
+      "name": "Frame 189",
+      "w": 190,
+      "h": 187,
+      "hash": "95df68f8ff95bae7e9e7e11c0d0ef1e9777a8dbd"
+    },
+    {
+      "id": "1028:32577",
+      "name": "magnific__-reference-image__14686 1",
+      "w": 190,
+      "h": 190,
+      "hash": "94d5d8b099706908734d7a750a7419509d1394d8"
+    },
+    {
+      "id": "1028:32585",
+      "name": "Frame 189",
+      "w": 190,
+      "h": 187,
+      "hash": "95df68f8ff95bae7e9e7e11c0d0ef1e9777a8dbd"
+    },
+    {
+      "id": "1028:32586",
+      "name": "magnific__-reference-image-image-__14687 1",
+      "w": 190,
+      "h": 190,
+      "hash": "beaeb0ae1291186cba3d23d6194f6263e58aa842"
+    },
+    {
+      "id": "1028:32595",
+      "name": "Frame 189",
+      "w": 190,
+      "h": 187,
+      "hash": "95df68f8ff95bae7e9e7e11c0d0ef1e9777a8dbd"
+    },
+    {
+      "id": "1028:32596",
+      "name": "magnific__-reference-image__14686 1",
+      "w": 190,
+      "h": 190,
+      "hash": "94d5d8b099706908734d7a750a7419509d1394d8"
+    },
+    {
+      "id": "1028:32597",
+      "name": "magnific__-reference-image__14682 1",
+      "w": 190,
+      "h": 190,
+      "hash": "dfc93d341164280852456fc27cc24667837433c3"
+    },
+    {
+      "id": "1028:32598",
+      "name": "magnific__-reference-image__14685 1",
+      "w": 190,
+      "h": 190,
+      "hash": "e6600c3fd27b29aea2d4799248cd285b6e5a123f"
+    },
+    {
+      "id": "1028:32607",
+      "name": "Frame 189",
+      "w": 190,
+      "h": 187,
+      "hash": "95df68f8ff95bae7e9e7e11c0d0ef1e9777a8dbd"
+    },
+    {
+      "id": "1028:32608",
+      "name": "magnific__-reference-image__14686 1",
+      "w": 190,
+      "h": 190,
+      "hash": "94d5d8b099706908734d7a750a7419509d1394d8"
+    },
+    {
+      "id": "1028:32609",
+      "name": "magnific__-reference-image__14682 1",
+      "w": 190,
+      "h": 190,
+      "hash": "dfc93d341164280852456fc27cc24667837433c3"
+    },
+    {
+      "id": "1028:32625",
+      "name": "a7968eac-6c98-4e47-84e1-9c245b6f62f5 1",
+      "w": 518,
+      "h": 591,
+      "hash": "eaa696b6869ad5c90af673451d2523376b8cc293"
+    },
+    {
+      "id": "1028:32627",
+      "name": "a7968eac-6c98-4e47-84e1-9c245b6f62f5 2",
+      "w": 344,
+      "h": 320,
+      "hash": "dddc59f9ec82e8ce606de298b326ef836ffc31ea"
+    }
+  ],
+  "siblings": [
+    {
+      "id": "1294:3487",
+      "name": "Cart",
+      "b": {
+        "x": -100,
+        "y": 486,
+        "width": 2190,
+        "height": 1541
+      }
+    }
+  ],
+  "availableFonts": [
+    {
+      "family": "SF Pro",
+      "style": "Black"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Black Italic"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Bold"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Bold Italic"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Compressed Black"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Compressed Bold"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Compressed Heavy"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Compressed Light"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Compressed Medium"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Compressed Regular"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Compressed Semibold"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Compressed Thin"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Compressed Ultralight"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Condensed Black"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Condensed Bold"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Condensed Heavy"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Condensed Light"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Condensed Medium"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Condensed Regular"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Condensed Semibold"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Condensed Thin"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Condensed Ultralight"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Expanded Black"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Expanded Bold"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Expanded Heavy"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Expanded Light"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Expanded Medium"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Expanded Regular"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Expanded Semibold"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Expanded Thin"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Expanded Ultralight"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Heavy"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Heavy Italic"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Light"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Light Italic"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Medium"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Medium Italic"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Regular"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Regular Italic"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Semibold"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Semibold Italic"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Thin"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Thin Italic"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Ultralight"
+    },
+    {
+      "family": "SF Pro",
+      "style": "Ultralight Italic"
+    },
+    {
+      "family": "SF Pro Rounded",
+      "style": "Black"
+    },
+    {
+      "family": "SF Pro Rounded",
+      "style": "Bold"
+    },
+    {
+      "family": "SF Pro Rounded",
+      "style": "Heavy"
+    },
+    {
+      "family": "SF Pro Rounded",
+      "style": "Light"
+    },
+    {
+      "family": "SF Pro Rounded",
+      "style": "Medium"
+    },
+    {
+      "family": "SF Pro Rounded",
+      "style": "Regular"
+    },
+    {
+      "family": "SF Pro Rounded",
+      "style": "Semibold"
+    },
+    {
+      "family": "SF Pro Rounded",
+      "style": "Thin"
+    },
+    {
+      "family": "SF Pro Rounded",
+      "style": "Ultralight"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+// Temporary editorial copy authorized for the prototype. No legal/business rules inferred.
+export const profileDocuments: Record<string, { title: string; intro: string; sections: { title: string; text: string }[] }> = {
+  loyalty: { title: 'Loyalty program terms', intro: 'About your Prana points and activity.', sections: [
+    { title: 'Your points', text: 'Your profile brings your available balance and points activity together. An available balance is separate from points that are still pending. Check the activity list to see which order each entry relates to.' },
+    { title: 'Earning points', text: 'When an order is eligible for points, the applicable offer and its conditions should be shown before you place it. A pending entry does not increase your available balance until the qualifying conditions have been met.' },
+    { title: 'Using points', text: 'Available rewards are shown before you place an order. Review the amount of points required, the resulting order total, and any conditions before applying a reward. The balance displayed in your profile is not a cash value.' },
+    { title: 'Changes to an order', text: 'An adjustment or cancellation may affect points associated with that order. Check the activity entry for an explanation. If an entry appears incorrect, keep the order number so the support team can review it with you.' },
+    { title: 'Program information', text: 'Eligible orders, reward values, expiry rules, and how promotions work together will be set out in the final program terms. This preview does not establish those rules or promise a particular reward.' },
+  ] },
+  privacy: { title: 'Privacy policy', intro: 'How information supports your Prana experience.', sections: [
+    { title: 'Information you provide', text: 'Account details, contact preferences, delivery addresses, and order information help us provide the features you choose to use. Optional details, such as your birthday, should be clearly identified so you can decide whether to provide them.' },
+    { title: 'Orders and delivery', text: 'Information needed to complete an order may include a contact number, delivery location, and instructions for the courier. Review these details before submitting an order. Avoid adding sensitive personal information to delivery notes.' },
+    { title: 'Payments', text: 'Saved payment methods are represented by a card type and masked number in your profile. The final payment provider and its processing terms will be identified when the payment service is connected. A security code should not be displayed in your saved card details.' },
+    { title: 'Messages and preferences', text: 'Promotional messages can be managed separately from updates needed to complete an order. Push notifications also depend on your device settings. Changing one promotional preference should not silently change another.' },
+    { title: 'Keeping information accurate', text: 'You can review and update the profile details shown in this section. A saved change should be confirmed clearly. If an update fails, the previously saved information remains in use until a later update succeeds.' },
+    { title: 'Final policy and contact', text: 'The final policy will identify the service operator, relevant providers, retention practices, contact channels, and applicable privacy rights. This text is a draft for prototype review and is not the published privacy policy.' },
+  ] },
+  terms: { title: 'Terms and conditions', intro: 'Using your account and placing an order.', sections: [
+    { title: 'Your account', text: 'Use accurate contact details and keep access to your account secure. Review saved delivery addresses and payment methods before ordering. Signing out ends access to the account section on this device until you sign in again.' },
+    { title: 'Menu information', text: 'Read the dish information and the current price before adding it to your cart. A previous order is a record of that purchase; it does not guarantee that a dish, its price, or its availability will be the same today.' },
+    { title: 'Before you order', text: 'Review the items, quantities, delivery details, and final total at checkout. Any applicable delivery charges, offers, or rewards should be shown before confirmation. Correct an incomplete contact number or delivery address before continuing.' },
+    { title: 'Payment and confirmation', text: 'A payment method may require additional verification. If saving or verifying a card fails, return to the form and review the details. The final service will explain when an order is accepted and when payment is taken.' },
+    { title: 'Changes and help', text: 'Keep your order number when requesting help. The final terms will describe available support channels and the rules for cancellations, adjustments, refunds, and delivery issues. No refund timing or eligibility is established by this preview.' },
+    { title: 'About this text', text: 'This is temporary copy for reviewing the profile experience. The service operator, applicable terms, commercial rules, and required legal information will be supplied and reviewed before publication as an operating service.' },
+  ] },
+  licenses: { title: 'Open-source licenses', intro: 'Acknowledgements for libraries used by this prototype.', sections: [
+    { title: 'React and React DOM', text: 'The interface uses React and React DOM. These packages are distributed under the MIT License. Their package distributions contain the copyright notices and complete license text.' },
+    { title: 'Motion, Radix UI and use-gesture', text: 'Motion supports interface animation; Radix UI supports dialog behaviour; use-gesture supports touch interactions. These packages are distributed under the MIT License. The original package notices remain included with the project dependencies.' },
+    { title: 'Phone number formatting', text: 'libphonenumber-js provides phone number parsing and formatting under the MIT License. Formatting a number does not confirm ownership of the number or availability of a messaging service.' },
+    { title: 'Build tools and fonts', text: 'Vite is distributed under the MIT License and TypeScript under the Apache License 2.0. Roboto is included through Fontsource under the SIL Open Font License 1.1. SF Pro is resolved from local system fonts; its font files are not included in this project.' },
+    { title: 'Full notices', text: 'Complete license files are provided in the corresponding package distributions. This acknowledgement page is a prototype summary; a release should include the complete notices for its final dependency and asset inventory.' },
+  ] },
+};

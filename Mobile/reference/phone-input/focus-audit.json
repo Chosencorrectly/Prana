@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-15",
+  "timezone": "Europe/Moscow",
+  "iteration": "D-62",
+  "url": "http://127.0.0.1:5181/",
+  "entry": "Reload -> Continue with Phone; no extra tap on input",
+  "onEntry": {
+    "background": "rgb(59, 58, 58)",
+    "caret": "rgb(255, 255, 255)",
+    "inputFocused": true,
+    "keyboardVisible": "true",
+    "transition": "background-color 0.18s"
+  },
+  "afterEscape": {
+    "background": "rgb(49, 48, 48)",
+    "inputFocused": false,
+    "keyboardVisible": "false"
+  },
+  "countryPicker": {
+    "background": "rgb(49, 48, 48)",
+    "caret": "rgba(0, 0, 0, 0)",
+    "expanded": "true",
+    "keyboardVisible": "true"
+  },
+  "afterPickerEscape": {
+    "background": "rgb(59, 58, 58)",
+    "inputFocused": true,
+    "keyboardVisible": "true"
+  },
+  "console": [],
+  "checks": {
+    "build": "passed",
+    "typescript": "passed",
+    "protectedRuntimeFiles": 29,
+    "modelTests": "not rerun for CSS-only change"
+  },
+  "limitations": [
+    "native mobile keyboard and system reduced motion not separately tested",
+    "local only; no GitHub/Vercel publication"
+  ]
+}

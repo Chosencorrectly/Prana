@@ -1,0 +1,43 @@
+[
+  {
+    "productId": "af61daf6-a49d-4eeb-bea1-5a7da211641e",
+    "source": "mobile\\public\\assets\\menu\\af61daf6-a49d-4eeb-bea1-5a7da211641e.jpg",
+    "sha256": "7A5D8C362D0972BBD6DBEE05C31C268E279BBBE1E8A428B41767AA162D30DDEE",
+    "role": "Original project catalogue photograph"
+  },
+  {
+    "productId": "884bb3d4-573a-44dd-b370-25277a9b8580",
+    "source": "mobile\\public\\assets\\menu\\884bb3d4-573a-44dd-b370-25277a9b8580.jpg",
+    "sha256": "7DA1C85EF234FCB704F25A9E4CF99577FB5291203112A544D73C60587C383E8B",
+    "role": "Original project catalogue photograph"
+  },
+  {
+    "productId": "a665b9c8-5261-43c3-90d7-f791b7417fc3",
+    "source": "mobile\\public\\assets\\menu\\a665b9c8-5261-43c3-90d7-f791b7417fc3.jpg",
+    "sha256": "E18CF2FEF816624F29FB8ACD237B93C0EE59D3767C13BDD5E27B8D73BD8806AE",
+    "role": "Original project catalogue photograph"
+  },
+  {
+    "productId": "c94532b5-f59b-4bec-bff7-e7ab3a1f5e7e",
+    "source": "mobile\\public\\assets\\menu\\c94532b5-f59b-4bec-bff7-e7ab3a1f5e7e.png",
+    "sha256": "FD2ADC4CC36E3F1CF23749EDCE8108535FE69310A87BD65E6DCC6F0171670FDA",
+    "role": "Original project catalogue photograph"
+  },
+  {
+    "productId": "7d9a08a8-3606-4553-a3b3-807fac723d6d",
+    "source": "mobile\\public\\assets\\menu\\7d9a08a8-3606-4553-a3b3-807fac723d6d.png",
+    "sha256": "7020CDCD49A84D676A1914643BC34A6AB1167D0733FDDDD2C67DCD932CD92924",
+    "role": "Original project catalogue photograph"
+  },
+  {
+    "productId": "f32c3709-0254-4c1b-8e9f-1567056fbfb2",
+    "source": "mobile\\public\\assets\\menu\\f32c3709-0254-4c1b-8e9f-1567056fbfb2.png",
+    "sha256": "B193104D7C199A8F622C58C9EFCD259211BFAB61DD8C94A5D9D4E1A709693642",
+    "role": "Original project catalogue photograph"
+  },
+  {
+    "source": "mobile/public/assets/cart/empty-bag.png",
+    "sha256": "E837DABA60FFE3054B671360D67BFF4AD1D687CD7DE7F6F36518394AAF201C75",
+    "role": "Existing project transparent bag illustration; no new image generation"
+  }
+]

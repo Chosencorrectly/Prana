@@ -1,0 +1,73 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/dffe4343-ed6f-4a72-acb0-263469dd90b7";
+const imgFrame = `${assetPathPrefix}/0d540.svg`;
+const imgFrame276 = `${assetPathPrefix}/44b92.svg`;
+const imgTriangleExclamationErrorWarningAlert = `${assetPathPrefix}/b24ce.svg`;
+
+export default function ScreenB01() {
+  return (
+    <div className="bg-[var(--account-canvas,#080808)] relative size-full" data-node-id="1421:11868" data-name="Screen / B01 / Личные данные / исходное">
+      <div className="absolute h-[62px] left-0 top-0 w-[430px]" data-node-id="1421:11869" data-name="Status / safe area 62">
+        <p className="[word-break:break-word] absolute font-['SF_Pro:Semibold'] font-[590] leading-[22px] left-[40px] text-[17px] text-[color:var(--account-text,#ededed)] top-[22px] w-[60px]" data-node-id="1421:11870" style={{ fontVariationSettings: '"wdth" 100' }}>
+          9:41
+        </p>
+        <div className="absolute h-[16px] left-[310px] top-[24px] w-[80px]" data-node-id="1421:11871" data-name="Frame">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame} />
+        </div>
+      </div>
+      <div className="absolute bg-[var(--account-surface,#121212)] h-[870px] left-0 rounded-tl-[32px] rounded-tr-[32px] top-[62px] w-[430px]" data-node-id="1421:11880" data-name="Account sheet">
+        <div className="absolute h-[61px] left-0 overflow-clip top-0 w-[430px]" data-node-id="1421:11912" data-name="Header">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(50%-0.5px)] not-italic text-[16px] text-center text-white top-[22px] whitespace-nowrap" data-node-id="1421:11913">
+            Personal details
+          </p>
+          <div className="absolute content-stretch flex gap-[4px] items-center left-[16px] top-[20px]" data-node-id="1421:11915">
+            <div className="flex items-center justify-center relative shrink-0" data-node-id="1421:11916">
+              <div className="flex-none rotate-180">
+                <div className="relative size-[20px]">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame276} />
+                </div>
+              </div>
+            </div>
+            <p className="[word-break:break-word] font-['SF_Pro_Display:Medium'] leading-[normal] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap" data-node-id="1421:11918">
+              Back
+            </p>
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['SF_Pro:Semibold'] font-[590] leading-[28px] left-[16px] text-[22px] text-white top-[233px] whitespace-nowrap" data-node-id="1421:11919" style={{ fontVariationSettings: '"wdth" 100' }}>
+          Discard your changes?
+        </p>
+        <div className="absolute left-[16px] size-[32px] top-[189px]" data-node-id="1421:11926" data-name="triangle-exclamation, error, warning, alert">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTriangleExclamationErrorWarningAlert} />
+        </div>
+        <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[21px] left-[16px] text-[16px] text-[color:var(--account-secondary,#a1a1a1)] top-[273px] w-[296px]" data-node-id="1421:11929" style={{ fontVariationSettings: '"wdth" 100' }}>
+          Your saved profile will stay as it was. The changes you made on this screen will be lost.
+        </p>
+        <div className="absolute bg-[var(--account-accent,#ea5c00)] content-stretch flex h-[52px] items-center justify-center left-[16px] rounded-[12px] top-[702px] w-[398px]" data-node-id="1421:11935" data-name="Go / B10 / Save changes">
+          <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[21px] relative shrink-0 text-[16px] text-[color:var(--account-text,#ededed)] text-center w-[342px]" data-node-id="I1421:11935;1378:1795" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Keep editing
+          </p>
+        </div>
+        <div className="absolute border border-solid border-white content-stretch flex h-[52px] items-center justify-center left-[16px] rounded-[12px] top-[770px] w-[398px]" data-node-id="1421:11936" data-name="Go / D03 / Clear cart">
+          <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[21px] relative shrink-0 text-[16px] text-[color:var(--account-error,#ff9b94)] text-center w-[342px]" data-node-id="1421:11937" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Discard changes
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Account69/17-Semibold: Font(family: "SF Pro", style: Semibold, size: 17, weight: 590, lineHeight: 22, letterSpacing: 0), Account69/16-Regular: Font(family: "SF Pro", style: Regular, size: 16, weight: 400, lineHeight: 21, letterSpacing: 0), Account69/16-Semibold: Font(family: "SF Pro", style: Semibold, size: 16, weight: 590, lineHeight: 21, letterSpacing: 0).
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Account69/Button
+**Node ID:** 1378:1806
+
+Кнопка Prana 52px. Default/pressed/disabled/loading/danger. Для orange выбран тёмный текст ради контраста. Никакого hover на touch. Дублирование submit блокируется.
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

@@ -1,0 +1,2305 @@
+<section id="1443:4821" name="Профиль" x="-80" y="-17381" width="8442" height="8212">
+  <frame id="1443:1382" name="Корзина • есть позиции в корзине" x="658" y="3656" width="430" height="932">
+    <instance id="1443:1383" name="Status bar - iPhone 17 Pro" x="0" y="0" width="430" height="62" />
+    <frame id="1443:1384" name="Cart sheet" x="0" y="62" width="430" height="870">
+      <frame id="1443:1385" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1443:1386" name="Payment methods" x="151" y="22" width="126" height="19" />
+        <instance id="1443:1387" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1443:1388" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1443:1389" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1443:1391" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1443:1392" name="Text / Your dishes" x="16" y="73" width="109" height="28" />
+      <text id="1443:1393" name="Text / Personal details" x="16" y="109" width="263" height="18" />
+      <frame id="1443:1416" name="Go / E09 / Mastercard" x="16" y="155" width="398" height="200">
+        <instance id="1443:1425" name="credit-card-2, card, payment" x="20" y="20" width="32" height="32" />
+        <text id="1443:1420" name="Text / Mastercard" x="20" y="68" width="350" height="26" />
+        <text id="1443:1421" name="Text / ••••  7032" x="20" y="110" width="350" height="36" />
+        <text id="1443:1422" name="Text / Default payment method" x="20" y="162" width="350" height="18" />
+      </frame>
+      <frame id="1443:1428" name="Go / E09 / Mastercard" x="16" y="371" width="398" height="166">
+        <instance id="1443:1429" name="credit-card-2, card, payment" x="20" y="20" width="32" height="32" />
+        <text id="1443:1430" name="Text / Mastercard" x="20" y="68" width="350" height="26" />
+        <text id="1443:1431" name="Text / ••••  7032" x="20" y="110" width="350" height="36" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1443:2072" name="Корзина • есть позиции в корзине" x="4006" y="3656" width="430" height="932">
+    <instance id="1443:2073" name="Status bar - iPhone 17 Pro" x="0" y="0" width="430" height="62" />
+    <frame id="1443:2074" name="Cart sheet" x="0" y="62" width="430" height="870">
+      <frame id="1443:2075" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1443:2076" name="Card details" x="173" y="22" width="83" height="19" />
+        <instance id="1443:2077" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1443:2078" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1443:2079" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1443:2081" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <frame id="1443:2084" name="Go / E09 / Mastercard" x="16" y="89" width="398" height="200">
+        <instance id="1443:2085" name="credit-card-2, card, payment" x="20" y="20" width="32" height="32" />
+        <text id="1443:2086" name="Text / Mastercard" x="20" y="68" width="350" height="26" />
+        <text id="1443:2087" name="Text / ••••  7032" x="20" y="110" width="350" height="36" />
+        <text id="1443:2088" name="Text / Default payment method" x="20" y="162" width="350" height="18" />
+      </frame>
+      <frame id="1443:2128" name="Bottom actions / safe inset 34" x="16" y="770" width="398" height="52">
+        <instance id="1443:2129" name="Go / E10 / Remove card" x="0" y="0" width="398" height="52" />
+      </frame>
+      <instance id="1443:2130" name="Go / E08 / Continue verification" x="16" y="706" width="398" height="52" />
+      <frame id="1443:2136" name="Switch / Default payment method" x="16" y="317" width="398" height="48">
+        <frame id="1443:2137" name="Labels" x="0" y="4" width="322" height="40">
+          <text id="1443:2138" name="Text / Default payment method" x="0" y="0" width="322" height="20" />
+          <text id="1443:2139" name="Text / Use as the first choice in future checkouts." x="0" y="24" width="322" height="16" />
+        </frame>
+        <frame id="1443:2140" name="Switch / On" x="346" y="8" width="52" height="32" />
+      </frame>
+      <text id="1443:2143" name="Text / You can choose a different card before placing any order." x="16" y="389" width="398" height="40" />
+    </frame>
+  </frame>
+  <frame id="1443:2145" name="Корзина • есть позиции в корзине" x="4564" y="3656" width="430" height="932">
+    <instance id="1443:2146" name="Status bar - iPhone 17 Pro" x="0" y="0" width="430" height="62" />
+    <frame id="1443:2147" name="Cart sheet" x="0" y="62" width="430" height="870">
+      <frame id="1443:2148" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1443:2149" name="Card details" x="173" y="22" width="83" height="19" />
+        <instance id="1443:2150" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1443:2151" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1443:2152" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1443:2154" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <frame id="1443:2160" name="Bottom actions / safe inset 34" x="16" y="770" width="398" height="52">
+        <instance id="1443:2161" name="Go / E10 / Remove card" x="0" y="0" width="398" height="52" />
+      </frame>
+      <instance id="1443:2162" name="Go / E08 / Continue verification" x="16" y="706" width="398" height="52" />
+      <text id="1443:2186" name="Text / Your dishes" x="16" y="233" width="320" height="28" />
+      <instance id="1443:2252" name="trash-can-2, delete, remove, garbage, waste" x="16" y="189" width="32" height="32" />
+      <text id="1443:2188" name="Text / Your saved profile will stay as it was. The changes you made on " x="16" y="273" width="296" height="63" />
+    </frame>
+  </frame>
+  <frame id="1443:1152" name="Screen / B01 / Личные данные / исходное" x="100" y="3656" width="430" height="932">
+    <frame id="1443:1153" name="Status / safe area 62" x="0" y="0" width="430" height="62">
+      <text id="1443:1154" name="Text / 9:41" x="40" y="22" width="60" height="22" />
+      <frame id="1443:1155" name="Frame" x="310" y="24" width="80" height="16" />
+    </frame>
+    <frame id="1443:1164" name="Account sheet" x="0" y="62" width="430" height="870">
+      <frame id="1443:1165" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1443:1166" name="Payment methods" x="151" y="22" width="126" height="19" />
+        <instance id="1443:1167" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1443:1168" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1443:1169" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655804" height="19.999999841107638" />
+          <text id="1443:1171" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1443:1172" name="Text / Your dishes" x="16" y="233" width="194" height="28" />
+      <instance id="1443:1311" name="credit-card-2, card, payment" x="16" y="189" width="32" height="32" />
+      <text id="1443:1174" name="Text / Your saved profile will stay as it was. The changes you made on " x="16" y="273" width="296" height="42" />
+      <instance id="1443:1175" name="Go / B10 / Save changes" x="16" y="770" width="398" height="52" />
+    </frame>
+  </frame>
+  <frame id="1443:1534" name="Screen / B01 / Личные данные / исходное" x="1216" y="3656" width="430" height="932">
+    <frame id="1443:1535" name="Status / safe area 62" x="0" y="0" width="430" height="62">
+      <text id="1443:1536" name="Text / 9:41" x="40" y="22" width="60" height="22" />
+      <frame id="1443:1537" name="Frame" x="310" y="24" width="80" height="16" />
+    </frame>
+    <frame id="1443:1546" name="Account sheet" x="0" y="62" width="430" height="870">
+      <frame id="1443:1547" name="Content" x="16" y="155" width="398" height="356">
+        <frame id="1443:1548" name="Go / B02 / First name" x="0" y="0" width="398" height="77">
+          <text id="1443:1549" name="Text / First name" x="0" y="0" width="390" height="17" />
+          <frame id="1443:1550" name="Input" x="0" y="23" width="398" height="54">
+            <text id="1443:1551" name="Text / Michael" x="16" y="16.5" width="358" height="21" />
+          </frame>
+        </frame>
+        <frame id="1443:1552" name="Go / B02 / Last name" x="0" y="93" width="398" height="77">
+          <text id="1443:1553" name="Text / Last name" x="0" y="0" width="390" height="17" />
+          <frame id="1443:1554" name="Input" x="0" y="23" width="398" height="54">
+            <text id="1443:1555" name="Text / Jerlis" x="16" y="16.5" width="358" height="21" />
+          </frame>
+        </frame>
+        <frame id="1443:1556" name="Go / B02 / Email" x="0" y="186" width="398" height="77">
+          <text id="1443:1557" name="Text / Email" x="0" y="0" width="390" height="17" />
+          <frame id="1443:1558" name="Input" x="0" y="23" width="398" height="54">
+            <text id="1443:1559" name="Text / brooks.06@prana.kitchen" x="16" y="16.5" width="358" height="21" />
+          </frame>
+        </frame>
+        <frame id="1443:1592" name="Go / B02 / Email" x="0" y="279" width="398" height="77">
+          <text id="1443:1593" name="Text / Email" x="0" y="0" width="390" height="17" />
+          <frame id="1443:1594" name="Input" x="0" y="23" width="398" height="54">
+            <text id="1443:1595" name="Text / brooks.06@prana.kitchen" x="16" y="16.5" width="358" height="21" />
+          </frame>
+        </frame>
+        <frame id="1443:1572" name="Go / H03 / Delete account" x="0" y="429" width="398" height="64" hidden="true">
+          <frame id="1443:1573" name="Labels" x="0" y="22" width="368" height="20">
+            <text id="1443:1574" name="Title" x="0" y="0" width="356" height="20" />
+            <text id="1443:1575" name="Subtitle" x="0" y="23" width="356" height="16" hidden="true" />
+          </frame>
+          <frame id="1443:1576" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+        </frame>
+      </frame>
+      <frame id="1443:1578" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1443:1579" name="Add card" x="183" y="22" width="63" height="19" />
+        <instance id="1443:1580" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1443:1581" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1443:1582" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1443:1584" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1443:1585" name="Text / Your dishes" x="16" y="73" width="110" height="28" />
+      <frame id="1443:1586" name="Frame 274" x="16" y="770" width="398" height="54">
+        <text id="1443:1587" name="Save card" x="160.5" y="16.5" width="77" height="21" />
+      </frame>
+      <text id="1443:1590" name="Text / Personal details" x="16" y="109" width="276" height="18" />
+      <frame id="1443:1829" name="Switch / Default payment method" x="16" y="539" width="398" height="48">
+        <frame id="1443:1830" name="Labels" x="0" y="4" width="322" height="40">
+          <text id="1443:1831" name="Text / Default payment method" x="0" y="0" width="322" height="20" />
+          <text id="1443:1832" name="Text / Use as the first choice in future checkouts." x="0" y="24" width="322" height="16" />
+        </frame>
+        <frame id="1443:1833" name="Switch / On" x="346" y="8" width="52" height="32" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1443:1642" name="Screen / B01 / Личные данные / исходное" x="1774" y="3656" width="430" height="932">
+    <frame id="1443:1643" name="Status / safe area 62" x="0" y="0" width="430" height="62">
+      <text id="1443:1644" name="Text / 9:41" x="40" y="22" width="60" height="22" />
+      <frame id="1443:1645" name="Frame" x="310" y="24" width="80" height="16" />
+    </frame>
+    <frame id="1443:1654" name="Account sheet" x="0" y="62" width="430" height="870">
+      <frame id="1443:1655" name="Content" x="16" y="155" width="398" height="400">
+        <frame id="1443:1691" name="Go / E04 / Card number" x="0" y="0" width="398" height="99">
+          <text id="1443:1692" name="Text / Card number" x="0" y="0" width="390" height="17" />
+          <frame id="1443:1693" name="Input" x="0" y="23" width="398" height="54">
+            <text id="1443:1694" name="Text / 5484  ••••  ••••  70" x="17.5" y="16.5" width="358" height="21" />
+          </frame>
+          <text id="1443:1695" name="Text / Check the card number and try again." x="0" y="83" width="390" height="16" />
+        </frame>
+        <frame id="1443:1697" name="Field / Expiry date" x="0" y="115" width="398" height="99">
+          <text id="1443:1698" name="Text / Expiry date" x="0" y="0" width="390" height="17" />
+          <frame id="1443:1699" name="Input" x="0" y="23" width="398" height="54">
+            <text id="1443:1700" name="Text / 01 / 24" x="17.5" y="16.5" width="358" height="21" />
+          </frame>
+          <text id="1443:1701" name="Text / Use a card that hasn’t expired." x="0" y="83" width="390" height="16" />
+        </frame>
+        <frame id="1443:1664" name="Go / B02 / Email" x="0" y="230" width="398" height="77">
+          <text id="1443:1665" name="Text / Email" x="0" y="0" width="390" height="17" />
+          <frame id="1443:1666" name="Input" x="0" y="23" width="398" height="54">
+            <text id="1443:1667" name="Text / brooks.06@prana.kitchen" x="16" y="16.5" width="358" height="21" />
+          </frame>
+        </frame>
+        <frame id="1443:1668" name="Go / B02 / Email" x="0" y="323" width="398" height="77">
+          <text id="1443:1669" name="Text / Email" x="0" y="0" width="390" height="17" />
+          <frame id="1443:1670" name="Input" x="0" y="23" width="398" height="54">
+            <text id="1443:1671" name="Text / brooks.06@prana.kitchen" x="16" y="16.5" width="358" height="21" />
+          </frame>
+        </frame>
+        <frame id="1443:1672" name="Go / H03 / Delete account" x="0" y="429" width="398" height="64" hidden="true">
+          <frame id="1443:1673" name="Labels" x="0" y="22" width="368" height="20">
+            <text id="1443:1674" name="Title" x="0" y="0" width="356" height="20" />
+            <text id="1443:1675" name="Subtitle" x="0" y="23" width="356" height="16" hidden="true" />
+          </frame>
+          <frame id="1443:1676" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+        </frame>
+      </frame>
+      <frame id="1443:1678" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1443:1679" name="Add card" x="183" y="22" width="63" height="19" />
+        <instance id="1443:1680" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1443:1681" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1443:1682" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1443:1684" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1443:1685" name="Text / Your dishes" x="16" y="73" width="110" height="28" />
+      <instance id="1443:1806" name="Go / E08 / Continue verification" x="16" y="770" width="390" height="52" />
+      <text id="1443:1688" name="Text / Personal details" x="16" y="109" width="276" height="18" />
+      <frame id="1443:1822" name="Switch / Default payment method" x="16" y="583" width="398" height="48">
+        <frame id="1443:1823" name="Labels" x="0" y="4" width="322" height="40">
+          <text id="1443:1824" name="Text / Default payment method" x="0" y="0" width="322" height="20" />
+          <text id="1443:1825" name="Text / Use as the first choice in future checkouts." x="0" y="24" width="322" height="16" />
+        </frame>
+        <frame id="1443:1826" name="Switch / On" x="346" y="8" width="52" height="32" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1443:1753" name="Screen / B01 / Личные данные / исходное" x="2332" y="3656" width="430" height="932">
+    <frame id="1443:1754" name="Status / safe area 62" x="0" y="0" width="430" height="62">
+      <text id="1443:1755" name="Text / 9:41" x="40" y="22" width="60" height="22" />
+      <frame id="1443:1756" name="Frame" x="310" y="24" width="80" height="16" />
+    </frame>
+    <frame id="1443:1765" name="Account sheet" x="0" y="62" width="430" height="870">
+      <frame id="1443:1766" name="Content" x="16" y="155" width="398" height="356">
+        <frame id="1443:1767" name="Go / B02 / First name" x="0" y="0" width="398" height="77">
+          <text id="1443:1768" name="Text / First name" x="0" y="0" width="390" height="17" />
+          <frame id="1443:1769" name="Input" x="0" y="23" width="398" height="54">
+            <text id="1443:1770" name="Text / Michael" x="16" y="16.5" width="358" height="21" />
+          </frame>
+        </frame>
+        <frame id="1443:1771" name="Go / B02 / Last name" x="0" y="93" width="398" height="77">
+          <text id="1443:1772" name="Text / Last name" x="0" y="0" width="390" height="17" />
+          <frame id="1443:1773" name="Input" x="0" y="23" width="398" height="54">
+            <text id="1443:1774" name="Text / Jerlis" x="16" y="16.5" width="358" height="21" />
+          </frame>
+        </frame>
+        <frame id="1443:1775" name="Go / B02 / Email" x="0" y="186" width="398" height="77">
+          <text id="1443:1776" name="Text / Email" x="0" y="0" width="390" height="17" />
+          <frame id="1443:1777" name="Input" x="0" y="23" width="398" height="54">
+            <text id="1443:1778" name="Text / brooks.06@prana.kitchen" x="16" y="16.5" width="358" height="21" />
+          </frame>
+        </frame>
+        <frame id="1443:1779" name="Go / B02 / Email" x="0" y="279" width="398" height="77">
+          <text id="1443:1780" name="Text / Email" x="0" y="0" width="390" height="17" />
+          <frame id="1443:1781" name="Input" x="0" y="23" width="398" height="54">
+            <text id="1443:1782" name="Text / brooks.06@prana.kitchen" x="16" y="16.5" width="358" height="21" />
+          </frame>
+        </frame>
+        <frame id="1443:1783" name="Go / H03 / Delete account" x="0" y="429" width="398" height="64" hidden="true">
+          <frame id="1443:1784" name="Labels" x="0" y="22" width="368" height="20">
+            <text id="1443:1785" name="Title" x="0" y="0" width="356" height="20" />
+            <text id="1443:1786" name="Subtitle" x="0" y="23" width="356" height="16" hidden="true" />
+          </frame>
+          <frame id="1443:1787" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+        </frame>
+      </frame>
+      <frame id="1443:1789" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1443:1790" name="Add card" x="183" y="22" width="63" height="19" />
+        <instance id="1443:1791" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1443:1792" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1443:1793" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1443:1795" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1443:1796" name="Text / Your dishes" x="16" y="73" width="110" height="28" />
+      <frame id="1443:1802" name="Bottom actions / safe inset 34" x="16" y="770" width="390" height="52">
+        <instance id="1443:1803" name="Account69/Button" x="0" y="0" width="390" height="52" />
+      </frame>
+      <text id="1443:1799" name="Text / Personal details" x="16" y="109" width="276" height="18" />
+      <frame id="1443:1812" name="Switch / Default payment method" x="16" y="539" width="398" height="48">
+        <frame id="1443:1813" name="Labels" x="0" y="4" width="322" height="40">
+          <text id="1443:1814" name="Text / Default payment method" x="0" y="0" width="322" height="20" />
+          <text id="1443:1815" name="Text / Use as the first choice in future checkouts." x="0" y="24" width="322" height="16" />
+        </frame>
+        <frame id="1443:1816" name="Switch / On" x="346" y="8" width="52" height="32" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1443:1895" name="Screen / B01 / Личные данные / исходное" x="2890" y="3656" width="430" height="932">
+    <frame id="1443:1896" name="Status / safe area 62" x="0" y="0" width="430" height="62">
+      <text id="1443:1897" name="Text / 9:41" x="40" y="22" width="60" height="22" />
+      <frame id="1443:1898" name="Frame" x="310" y="24" width="80" height="16" />
+    </frame>
+    <frame id="1443:1907" name="Account sheet" x="0" y="62" width="430" height="870">
+      <frame id="1443:1908" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1443:1909" name="Payment methods" x="151" y="22" width="126" height="19" />
+        <instance id="1443:1910" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1443:1911" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1443:1912" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1443:1914" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1443:1915" name="Text / Your dishes" x="16" y="233" width="238" height="28" />
+      <instance id="1443:1992" name="shield-check, security, protection" x="16" y="189" width="32" height="32" />
+      <text id="1443:1917" name="Text / Your saved profile will stay as it was. The changes you made on " x="16" y="273" width="296" height="63" />
+      <frame id="1443:1923" name="Bottom actions / safe inset 34" x="16" y="706" width="398" height="116">
+        <instance id="1443:1924" name="Go / E08 / Continue verification" x="0" y="0" width="398" height="52" />
+        <instance id="1443:1925" name="Go / E03 / Cancel" x="0" y="64" width="398" height="52" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1443:2030" name="Screen / B01 / Личные данные / исходное" x="3448" y="3656" width="430" height="932">
+    <frame id="1443:2031" name="Status / safe area 62" x="0" y="0" width="430" height="62">
+      <text id="1443:2032" name="Text / 9:41" x="40" y="22" width="60" height="22" />
+      <frame id="1443:2033" name="Frame" x="310" y="24" width="80" height="16" />
+    </frame>
+    <frame id="1443:2042" name="Account sheet" x="0" y="62" width="430" height="870">
+      <frame id="1443:2043" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1443:2044" name="Payment methods" x="151" y="22" width="126" height="19" />
+        <instance id="1443:2045" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1443:2046" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1443:2047" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1443:2049" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1443:2050" name="Text / Your dishes" x="16" y="233" width="188" height="28" />
+      <instance id="1443:2062" name="triangle-exclamation, error, warning, alert" x="16" y="189" width="32" height="32" />
+      <text id="1443:2052" name="Text / Your saved profile will stay as it was. The changes you made on " x="16" y="273" width="296" height="42" />
+      <frame id="1443:2053" name="Bottom actions / safe inset 34" x="16" y="706" width="398" height="116">
+        <instance id="1443:2054" name="Go / E08 / Continue verification" x="0" y="0" width="398" height="52" />
+        <instance id="1443:2055" name="Go / E03 / Cancel" x="0" y="64" width="398" height="52" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1422:12017" name="Screen / B01 / Личные данные / исходное" x="100" y="1232" width="430" height="932">
+    <frame id="1422:12018" name="Status / safe area 62" x="0" y="0" width="430" height="62">
+      <text id="1422:12019" name="Text / 9:41" x="40" y="22" width="60" height="22" />
+      <frame id="1422:12020" name="Frame" x="310" y="24" width="80" height="16" />
+    </frame>
+    <frame id="1422:12029" name="Account sheet" x="0" y="62" width="430" height="870">
+      <frame id="1422:12061" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1422:12062" name="My orders" x="180" y="22" width="69" height="19" />
+        <instance id="1422:12063" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1422:12064" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1422:12065" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655804" height="19.999999841107638" />
+          <text id="1422:12067" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1422:12068" name="Text / Your dishes" x="16" y="73" width="103" height="28" />
+      <frame id="1422:12079" name="Go / C05 / Order" x="16" y="125" width="398" height="160">
+        <text id="1422:12080" name="Text / On the way" x="16" y="16" width="358" height="18" />
+        <frame id="1422:12081" name="Order summary" x="16" y="46" width="358" height="68">
+          <rounded-rectangle id="1422:12082" name="Food / Acai bowl / original catalogue" x="0" y="0" width="58" height="58" />
+          <frame id="1422:12083" name="Labels" x="70" y="0" width="288" height="68">
+            <text id="1422:12084" name="Text / Order #138" x="0" y="0" width="288" height="23" />
+            <text id="1422:12085" name="Text / Today · 12:02 · 2 items" x="0" y="27" width="288" height="16" />
+            <text id="1422:12086" name="Text / $28.90" x="0" y="47" width="288" height="21" />
+          </frame>
+        </frame>
+        <text id="1422:12087" name="Text / Track delivery →" x="16" y="126" width="358" height="18" />
+      </frame>
+      <text id="1422:12090" name="Text / Previous orders" x="16" y="313" width="139" height="23" />
+      <frame id="1422:12091" name="Go / C04 / Order" x="16" y="360" width="398" height="160">
+        <text id="1422:12092" name="Text / Delivered" x="16" y="16" width="358" height="18" />
+        <frame id="1422:12093" name="Order summary" x="16" y="46" width="358" height="68">
+          <rounded-rectangle id="1422:12094" name="Food / Acai bowl / original catalogue" x="0" y="0" width="58" height="58" />
+          <frame id="1422:12095" name="Labels" x="70" y="0" width="288" height="68">
+            <text id="1422:12096" name="Text / Order #138" x="0" y="0" width="288" height="23" />
+            <text id="1422:12097" name="Text / 16 Oct 2026 · 2 items" x="0" y="27" width="288" height="16" />
+            <text id="1422:12098" name="Text / $28.90" x="0" y="47" width="288" height="21" />
+          </frame>
+        </frame>
+        <text id="1422:12099" name="Text / View order →" x="16" y="126" width="358" height="18" />
+      </frame>
+      <frame id="1422:12109" name="Go / C08 / Order #137 · Cancelled" x="16" y="540" width="398" height="64">
+        <frame id="1422:12110" name="Labels" x="0" y="12.5" width="368" height="39">
+          <text id="1422:12111" name="Title" x="0" y="0" width="356" height="20" />
+          <text id="1422:12112" name="Subtitle" x="0" y="23" width="356" height="16" />
+        </frame>
+        <frame id="1422:12113" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+      </frame>
+    </frame>
+    <instance id="1422:12073" name="Go / B10 / Save changes" x="20" y="832" width="390" height="52" />
+  </frame>
+  <frame id="1423:14280" name="Screen / B01 / Личные данные / исходное" x="658" y="2524" width="430" height="932">
+    <frame id="1423:14281" name="Status / safe area 62" x="0" y="0" width="430" height="62">
+      <text id="1423:14282" name="Text / 9:41" x="40" y="22" width="60" height="22" />
+      <frame id="1423:14283" name="Frame" x="310" y="24" width="80" height="16" />
+    </frame>
+    <frame id="1423:14292" name="Account sheet" x="0" y="62" width="430" height="870">
+      <frame id="1423:14293" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1423:14294" name="Your places" x="174" y="22" width="80" height="19" />
+        <instance id="1423:14295" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1423:14296" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1423:14297" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1423:14299" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1423:14300" name="Text / Your dishes" x="16" y="73" width="119" height="28" />
+      <frame id="1423:14301" name="Go / C05 / Order" x="16" y="159" width="398" height="79">
+        <frame id="1423:14305" name="Labels" x="16" y="16" width="288" height="47">
+          <frame id="1423:14331" name="Frame 2087328814" x="0" y="0" width="159" height="23">
+            <instance id="1423:14393" name="home-round-door" x="0" y="1.5" width="20" height="20" />
+            <text id="1423:14330" name="Text / Order #138" x="28" y="0" width="131" height="23" />
+          </frame>
+          <text id="1423:14307" name="Text / Today · 12:02 · 2 items" x="0" y="31" width="288" height="16" />
+        </frame>
+        <instance id="1423:14907" name="pencil, edit, write" x="319" y="27.5" width="24" height="24" />
+        <instance id="1423:14911" name="trash-can, delete, remove, garbage, waste" x="358" y="27.5" width="24" height="24" />
+      </frame>
+      <frame id="1423:14406" name="Go / C05 / Order" x="16" y="258" width="398" height="79">
+        <frame id="1423:14407" name="Labels" x="16" y="16" width="288" height="47">
+          <frame id="1423:14408" name="Frame 2087328814" x="0" y="0" width="74" height="23">
+            <instance id="1423:14483" name="buildings, company, workspace" x="0" y="1.5" width="20" height="20" />
+            <text id="1423:14410" name="Text / Order #138" x="28" y="0" width="46" height="23" />
+          </frame>
+          <text id="1423:14411" name="Text / Today · 12:02 · 2 items" x="0" y="31" width="288" height="16" />
+        </frame>
+        <instance id="1423:14412" name="pencil, edit, write" x="319" y="27.5" width="24" height="24" />
+        <instance id="1423:14914" name="trash-can, delete, remove, garbage, waste" x="358" y="27.5" width="24" height="24" />
+      </frame>
+      <text id="1423:14328" name="Text / Personal details" x="16" y="113" width="209" height="18" />
+    </frame>
+    <instance id="1423:14326" name="Go / B10 / Save changes" x="20" y="832" width="390" height="52" />
+  </frame>
+  <frame id="1422:12534" name="::" x="2332" y="1232" width="430" height="932">
+    <rounded-rectangle id="1422:12535" name="image 75" x="-164" y="-90" width="889" height="1147" />
+    <vector id="1422:12536" name="Vector 7545" x="120.5" y="124.5" width="168.5" height="223" />
+    <rounded-rectangle id="1422:12537" name="image 80" x="269" y="349" width="39" height="45" />
+    <frame id="1422:12538" name="Frame 269" x="0" y="297" width="430" height="1447">
+      <frame id="1422:12539" name="Frame 288" x="15" y="1196" width="400" height="211">
+        <boolean-operation id="1422:12540" name="Solid" x="0" y="0" width="0" height="0" />
+        <frame id="1422:12541" name="Frame 263" x="20" y="137" width="360" height="50">
+          <frame id="1422:12542" name="Frame 293" x="116.5" y="15" width="127" height="20">
+            <instance id="1422:12543" name="whatsapp" x="0" y="0" width="20" height="20" />
+            <text id="1422:12544" name="Contact support" x="28" y="1.5" width="99" height="17" />
+          </frame>
+        </frame>
+        <text id="1422:12545" name="Need help with your order?" x="62" y="24" width="277" height="29" />
+        <text id="1422:12546" name="Message us if something isn’t clear before you place it." x="62" y="69" width="277" height="44" />
+      </frame>
+      <boolean-operation id="1422:12547" name="Solid" x="0" y="0" width="0" height="0" />
+      <frame id="1422:12548" name="Frame 286" x="15" y="214" width="400" height="139">
+        <boolean-operation id="1422:12549" name="Solid" x="0" y="0" width="0" height="0" />
+        <frame id="1422:12550" name="Frame 2087328668" x="20" y="24" width="339" height="19">
+          <instance id="1422:12551" name="ic-house-filled" x="0" y="1.5" width="16" height="16" />
+          <text id="1422:12552" name="1100 Brickell · Plaza Apt 1204 · Gate code 2481" x="24" y="0" width="315" height="19" />
+        </frame>
+        <frame id="1422:12553" name="Frame 2087328669" x="20" y="74" width="142" height="41">
+          <text id="1422:12554" name="Comments for the courier" x="0" y="0" width="142" height="14" />
+          <text id="1422:12555" name="Call when you deliver" x="0" y="22" width="142" height="19" />
+        </frame>
+        <line id="1422:12556" name="Line 13" x="17" y="60" width="372" height="0.00003252127498853952" />
+      </frame>
+      <text id="1422:12557" name="Delivery" x="15" y="161" width="81" height="29" />
+      <text id="1422:12558" name="Order details" x="15" y="385" width="128" height="29" />
+      <frame id="1422:12559" name="Frame 287" x="15" y="1085" width="400" height="87">
+        <text id="1422:12560" name="200" x="76" y="16" width="59" height="38" />
+        <boolean-operation id="1422:12561" name="Solid" x="0" y="0" width="0" height="0" />
+        <text id="1422:12562" name="Prana points" x="76" y="54" width="76" height="17" />
+        <text id="1422:12563" name="Will be credited today" x="249" y="35" width="131" height="17" />
+        <ellipse id="1422:12564" name="Ellipse 4946" x="18" y="18" width="50" height="50" />
+        <frame id="1422:12565" name="Mask group" x="33" y="33" width="20" height="20" />
+      </frame>
+      <frame id="1422:12568" name="Frame 2087328779" x="15" y="438" width="400" height="623">
+        <frame id="1422:12569" name="Frame 2087328771" x="20" y="391" width="360" height="204">
+          <frame id="1422:12570" name="Group 2087328698" x="0" y="0" width="360" height="204">
+            <text id="1422:12571" name="Total" x="0.4599609375" y="183" width="53.15318298339844" height="21" />
+            <text id="1422:12572" name="$236.50" x="273.31341552734375" y="183" width="86.22628784179688" height="21" />
+            <line id="1422:12573" name="Line 13" x="0" y="0" width="360" height="0" />
+            <line id="1422:12574" name="Line 16" x="0.4599609375" y="161" width="359.07928466796875" height="0" />
+            <frame id="1422:12575" name="Group 2087328689" x="0.4599609375" y="20" width="358.5013427734375" height="17">
+              <text id="1422:12576" name="Subtotal · 4 items" x="0.4599609375" y="20" width="249.9473419189453" height="17" />
+              <text id="1422:12577" name="$158.50" x="266.8291015625" y="20" width="92.13218688964844" height="17" />
+            </frame>
+            <frame id="1422:12578" name="Group 2087328690" x="0.4599609375" y="54" width="358.6090393066406" height="17">
+              <text id="1422:12579" name="Delivery · free" x="0.4599609375" y="54" width="249.9473419189453" height="17" />
+              <text id="1422:12580" name="$0" x="255.1248779296875" y="54" width="103.94400024414062" height="17" />
+            </frame>
+            <frame id="1422:12581" name="Group 2087328691" x="0.4599609375" y="88" width="358.4761962890625" height="17">
+              <text id="1422:12582" name="Discount" x="0.4599609375" y="88" width="249.9473419189453" height="17" />
+              <text id="1422:12583" name="-$28.50" x="275.072265625" y="88" width="83.86390686035156" height="17" />
+            </frame>
+            <frame id="1422:12584" name="Group 2087328692" x="0.4599609375" y="122" width="358.2767639160156" height="17">
+              <text id="1422:12585" name="Accrual bonuses" x="0.4599609375" y="122" width="249.9473419189453" height="17" />
+              <text id="1422:12586" name="+$2" x="304.40234375" y="122" width="54.33436965942383" height="17" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1422:12587" name="Frame 2087328772" x="20" y="28" width="360" height="100">
+          <frame id="1422:12588" name="Group 2087328712" x="0" y="0" width="360" height="34">
+            <frame id="1422:12589" name="Group 2087328586" x="1.8189894035458565e-12" y="0" width="360" height="34">
+              <text id="1422:12590" name="Healthy meal plan 2000 kcal (7 days)" x="3.637978807091713e-12" y="0" width="170.25640869140625" height="34" />
+              <text id="1422:12591" name="2 x" x="343.5896911621112" y="0" width="16.410255432128906" height="14" />
+              <text id="1422:12592" name="$12.43" x="312.8203125000018" y="17" width="47.17948532104492" height="17" />
+            </frame>
+          </frame>
+          <text id="1422:12593" name="Papaya Fresh Juice" x="0" y="39" width="120" height="17" />
+          <text id="1422:12594" name="Watermelon Fresh Juice" x="0" y="83" width="149.74359130859375" height="17" />
+          <text id="1422:12595" name="Papaya Fresh Juice" x="0" y="61" width="120" height="17" />
+        </frame>
+        <frame id="1422:12596" name="Frame 2087328773" x="20" y="154" width="360" height="56">
+          <frame id="1422:12597" name="Group 2087328712" x="0" y="9.094947017729282e-13" width="360" height="34">
+            <frame id="1422:12598" name="Group 2087328586" x="1.8189894035458565e-12" y="1.8189894035458565e-12" width="360" height="34">
+              <text id="1422:12599" name="Healthy meal plan 2000 kcal (7 days)" x="3.637978807091713e-12" y="2.7284841053187847e-12" width="170.25640869140625" height="34" />
+              <text id="1422:12600" name="1 x" x="343.5896911621112" y="2.7284841053187847e-12" width="14.35897445678711" height="14" />
+              <text id="1422:12601" name="$12.43" x="312.8203125000018" y="17.00000000000182" width="47.17948532104492" height="17" />
+            </frame>
+          </frame>
+          <text id="1422:12602" name="Papaya Fresh Juice" x="0" y="39" width="120" height="17" />
+        </frame>
+        <frame id="1422:12603" name="Frame 2087328774" x="20" y="236" width="360" height="56">
+          <frame id="1422:12604" name="Group 2087328712" x="0" y="1.8189894035458565e-12" width="360" height="34">
+            <frame id="1422:12605" name="Group 2087328586" x="1.8189894035458565e-12" y="3.637978807091713e-12" width="360" height="34">
+              <text id="1422:12606" name="Healthy meal plan 2000 kcal (7 days)" x="3.637978807091713e-12" y="5.4569682106375694e-12" width="170.25640869140625" height="34" />
+              <text id="1422:12607" name="1 x" x="343.5896911621112" y="5.4569682106375694e-12" width="14.35897445678711" height="14" />
+              <text id="1422:12608" name="$12.43" x="312.8203125000018" y="17.000000000003638" width="47.17948532104492" height="17" />
+            </frame>
+          </frame>
+          <text id="1422:12609" name="Papaya Fresh Juice" x="0" y="39" width="120" height="17" />
+        </frame>
+        <frame id="1422:12610" name="Frame 263" x="20" y="316" width="360" height="47">
+          <frame id="1422:12611" name="Frame 293" x="145.5" y="15" width="69" height="17">
+            <instance id="1422:12612" name="whatsapp" x="0" y="0" width="20" height="20" hidden="true" />
+            <text id="1422:12613" name="Show more" x="0" y="0" width="69" height="17" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1422:12614" name="Frame 2087328782" x="15" y="53" width="400" height="76">
+        <frame id="1422:12615" name="Frame 2087328781" x="0" y="0" width="337" height="55">
+          <text id="1422:12616" name="Estimated arrival 12:20–12:35 PM" x="0" y="0" width="337" height="29" />
+          <text id="1422:12617" name="Looking for courier" x="0" y="33" width="337" height="22" />
+        </frame>
+        <frame id="1422:12618" name="Frame 2087328780" x="0" y="71" width="400" height="5">
+          <rounded-rectangle id="1422:12619" name="Rectangle 120" x="0" y="0" width="130" height="5" />
+          <rounded-rectangle id="1422:12620" name="Rectangle 121" x="136" y="0" width="128" height="5" />
+          <rounded-rectangle id="1422:12621" name="Rectangle 122" x="270" y="0" width="130" height="5" />
+        </frame>
+      </frame>
+      <rounded-rectangle id="1422:12622" name="Rectangle 122" x="185" y="16" width="60" height="5" />
+    </frame>
+    <rounded-rectangle id="1422:12623" name="image 67" x="0" y="0" width="430" height="55" />
+    <frame id="1422:12624" name="Frame 302" x="379" y="55" width="36" height="36">
+      <instance id="1422:12625" name="expand-simple" x="8" y="8" width="20" height="20" />
+    </frame>
+    <frame id="1422:12752" name="Frame 304" x="16" y="55" width="36" height="36">
+      <instance id="1422:12753" name="close" x="8" y="8" width="20" height="20" />
+    </frame>
+    <rounded-rectangle id="1422:12626" name="image 79" x="79" y="99" width="48" height="45" />
+  </frame>
+  <frame id="1422:12236" name="Screen / B01 / Личные данные / исходное" x="1774" y="1232" width="430" height="1092">
+    <frame id="1422:12237" name="Status / safe area 62" x="0" y="0" width="430" height="62">
+      <text id="1422:12238" name="Text / 9:41" x="40" y="22" width="60" height="22" />
+      <frame id="1422:12239" name="Frame" x="310" y="24" width="80" height="16" />
+    </frame>
+    <frame id="1422:12248" name="Account sheet" x="0" y="62" width="430" height="1030">
+      <frame id="1422:12249" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1422:12250" name="Order #138" x="174" y="22" width="80" height="19" />
+        <instance id="1422:12251" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1422:12252" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1422:12253" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1422:12255" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1422:12256" name="Text / Your dishes" x="16" y="73" width="117" height="28" />
+      <text id="1422:12442" name="Text / Your dishes" x="16" y="378" width="57" height="28" />
+      <frame id="1422:12285" name="Notice / Delivered" x="16" y="121" width="398" height="77">
+        <text id="1422:12286" name="Text / Delivered" x="16" y="16" width="358" height="21" />
+        <text id="1422:12287" name="Text / 16 Oct 2026 · 12:35" x="16" y="43" width="358" height="18" />
+      </frame>
+      <frame id="1422:12288" name="Details" x="16" y="218" width="398" height="136">
+        <frame id="1422:12289" name="Detail / Delivery to" x="16" y="16" width="366" height="18">
+          <text id="1422:12290" name="Text / Delivery to" x="0" y="0" width="156" height="18" />
+          <text id="1422:12291" name="Text / Home" x="176" y="0" width="190" height="18" />
+        </frame>
+        <rounded-rectangle id="1422:12292" name="Divider" x="16" y="46" width="366" height="1" />
+        <frame id="1422:12293" name="Detail / Address" x="16" y="59" width="366" height="18">
+          <text id="1422:12294" name="Text / Address" x="0" y="0" width="156" height="18" />
+          <text id="1422:12295" name="Text / Jl. Raya Padonan No.41a" x="176" y="0" width="190" height="18" />
+        </frame>
+        <rounded-rectangle id="1422:12296" name="Divider" x="16" y="89" width="366" height="1" />
+        <frame id="1422:12297" name="Detail / Payment" x="16" y="102" width="366" height="18">
+          <text id="1422:12298" name="Text / Payment" x="0" y="0" width="156" height="18" />
+          <text id="1422:12299" name="Text / Mastercard •••• 7032" x="176" y="0" width="190" height="18" />
+        </frame>
+      </frame>
+      <frame id="1422:12413" name="Item main" x="16" y="426" width="398" height="96">
+        <frame id="1422:12414" name="Image slot" x="0" y="0" width="96" height="96">
+          <rounded-rectangle id="1422:12415" name="Photo / acai" x="0" y="0" width="96" height="96" />
+          <text id="1422:12416" name="Image fallback" x="8" y="23" width="64" height="28" hidden="true" />
+        </frame>
+        <frame id="1422:12417" name="Item copy" x="110" y="7" width="288" height="82">
+          <frame id="1422:12418" name="Frame 275" x="0" y="0" width="296" height="56">
+            <text id="1422:12419" name="Title" x="0" y="0" width="76" height="20" />
+            <text id="1422:12420" name="Subtitle" x="0" y="24" width="296" height="32" />
+          </frame>
+          <text id="1422:12440" name="Subtitle" x="0" y="64" width="85" height="18" />
+        </frame>
+      </frame>
+      <frame id="1422:12452" name="Item main" x="16" y="546" width="398" height="96">
+        <frame id="1422:12453" name="Image slot" x="0" y="0" width="96" height="96">
+          <rounded-rectangle id="1422:12454" name="image 74" x="0" y="0" width="96" height="96" />
+          <text id="1422:12455" name="Image fallback" x="8" y="23" width="64" height="28" hidden="true" />
+        </frame>
+        <frame id="1422:12456" name="Item copy" x="110" y="5" width="288" height="86">
+          <frame id="1422:12457" name="Frame 275" x="0" y="0" width="288" height="60">
+            <text id="1422:12458" name="Title" x="0" y="0" width="296" height="60" />
+            <text id="1422:12459" name="Subtitle" x="0" y="64" width="296" height="16" hidden="true" />
+          </frame>
+          <text id="1422:12478" name="Subtitle" x="0" y="68" width="88" height="18" />
+        </frame>
+      </frame>
+      <frame id="1422:12307" name="Details" x="16" y="666" width="398" height="136">
+        <frame id="1422:12308" name="Detail / Items" x="16" y="16" width="366" height="18">
+          <text id="1422:12309" name="Text / Items" x="0" y="0" width="156" height="18" />
+          <text id="1422:12310" name="Text / $28.90" x="176" y="0" width="190" height="18" />
+        </frame>
+        <rounded-rectangle id="1422:12311" name="Divider" x="16" y="46" width="366" height="1" />
+        <frame id="1422:12312" name="Detail / Delivery" x="16" y="59" width="366" height="18">
+          <text id="1422:12313" name="Text / Delivery" x="0" y="0" width="156" height="18" />
+          <text id="1422:12314" name="Text / $0.00" x="176" y="0" width="190" height="18" />
+        </frame>
+        <rounded-rectangle id="1422:12315" name="Divider" x="16" y="89" width="366" height="1" />
+        <frame id="1422:12316" name="Detail / Total paid" x="16" y="102" width="366" height="18">
+          <text id="1422:12317" name="Text / Total paid" x="0" y="0" width="156" height="18" />
+          <text id="1422:12318" name="Text / $28.90" x="176" y="0" width="190" height="18" />
+        </frame>
+      </frame>
+      <instance id="1422:12319" name="Go / C09 / Need help with this order?" x="16" y="826" width="398" height="64" />
+    </frame>
+    <instance id="1422:12282" name="Go / B10 / Save changes" x="16" y="992" width="398" height="52" />
+  </frame>
+  <frame id="1422:12810" name="Screen / B01 / Личные данные / исходное" x="4006" y="1232" width="430" height="918">
+    <frame id="1422:12811" name="Status / safe area 62" x="0" y="0" width="430" height="62">
+      <text id="1422:12812" name="Text / 9:41" x="40" y="22" width="60" height="22" />
+      <frame id="1422:12813" name="Frame" x="310" y="24" width="80" height="16" />
+    </frame>
+    <frame id="1422:12822" name="Account sheet" x="0" y="62" width="430" height="856">
+      <frame id="1422:12823" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1422:12824" name="Order #139" x="174" y="22" width="80" height="19" />
+        <instance id="1422:12825" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1422:12826" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1422:12827" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1422:12829" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1422:12830" name="Text / Your dishes" x="16" y="73" width="117" height="28" />
+      <text id="1422:12831" name="Text / Your dishes" x="16" y="378" width="57" height="28" />
+      <frame id="1422:12832" name="Notice / Delivered" x="16" y="121" width="398" height="77">
+        <text id="1422:12833" name="Text / Delivered" x="16" y="16" width="358" height="21" />
+        <text id="1422:12834" name="Text / 16 Oct 2026 · 12:35" x="16" y="43" width="358" height="18" />
+      </frame>
+      <frame id="1422:12835" name="Details" x="16" y="218" width="398" height="136">
+        <frame id="1422:12836" name="Detail / Delivery to" x="16" y="16" width="366" height="18">
+          <text id="1422:12837" name="Text / Delivery to" x="0" y="0" width="156" height="18" />
+          <text id="1422:12838" name="Text / Home" x="176" y="0" width="190" height="18" />
+        </frame>
+        <rounded-rectangle id="1422:12839" name="Divider" x="16" y="46" width="366" height="1" />
+        <frame id="1422:12840" name="Detail / Address" x="16" y="59" width="366" height="18">
+          <text id="1422:12841" name="Text / Address" x="0" y="0" width="156" height="18" />
+          <text id="1422:12842" name="Text / Jl. Raya Padonan No.41a" x="176" y="0" width="190" height="18" />
+        </frame>
+        <rounded-rectangle id="1422:12843" name="Divider" x="16" y="89" width="366" height="1" />
+        <frame id="1422:12844" name="Detail / Payment" x="16" y="102" width="366" height="18">
+          <text id="1422:12845" name="Text / Payment" x="0" y="0" width="156" height="18" />
+          <text id="1422:12846" name="Text / Mastercard •••• 7032" x="176" y="0" width="190" height="18" />
+        </frame>
+      </frame>
+      <frame id="1422:12847" name="Item main" x="16" y="426" width="398" height="96">
+        <frame id="1422:12848" name="Image slot" x="0" y="0" width="96" height="96">
+          <rounded-rectangle id="1422:12849" name="Photo / acai" x="0" y="0" width="96" height="96" />
+          <text id="1422:12850" name="Image fallback" x="8" y="23" width="64" height="28" hidden="true" />
+        </frame>
+        <frame id="1422:12851" name="Item copy" x="110" y="7" width="288" height="82">
+          <frame id="1422:12852" name="Frame 275" x="0" y="0" width="296" height="56">
+            <text id="1422:12853" name="Title" x="0" y="0" width="76" height="20" />
+            <text id="1422:12854" name="Subtitle" x="0" y="24" width="296" height="32" />
+          </frame>
+          <text id="1422:12855" name="Subtitle" x="0" y="64" width="85" height="18" />
+        </frame>
+      </frame>
+      <frame id="1422:12856" name="Item main" x="16" y="546" width="398" height="96">
+        <frame id="1422:12857" name="Image slot" x="0" y="0" width="96" height="96">
+          <rounded-rectangle id="1422:12858" name="image 74" x="0" y="0" width="96" height="96" />
+          <text id="1422:12859" name="Image fallback" x="8" y="23" width="64" height="28" hidden="true" />
+        </frame>
+        <frame id="1422:12860" name="Item copy" x="110" y="5" width="288" height="86">
+          <frame id="1422:12861" name="Frame 275" x="0" y="0" width="288" height="60">
+            <text id="1422:12862" name="Title" x="0" y="0" width="296" height="60" />
+            <text id="1422:12863" name="Subtitle" x="0" y="64" width="296" height="16" hidden="true" />
+          </frame>
+          <text id="1422:12864" name="Subtitle" x="0" y="68" width="88" height="18" />
+        </frame>
+      </frame>
+      <frame id="1422:12865" name="Details" x="16" y="666" width="398" height="50">
+        <frame id="1422:12866" name="Detail / Items" x="16" y="16" width="366" height="18">
+          <text id="1422:12867" name="Text / Items" x="0" y="0" width="156" height="18" />
+          <text id="1422:12868" name="Text / $28.90" x="176" y="0" width="190" height="18" />
+        </frame>
+      </frame>
+    </frame>
+    <instance id="1422:12878" name="Go / B10 / Save changes" x="16" y="818" width="398" height="52" />
+  </frame>
+  <frame id="1422:12631" name="Screen / B01 / Личные данные / исходное" x="2890" y="1232" width="430" height="932">
+    <frame id="1422:12632" name="Status / safe area 62" x="0" y="0" width="430" height="62">
+      <text id="1422:12633" name="Text / 9:41" x="40" y="22" width="60" height="22" />
+      <frame id="1422:12634" name="Frame" x="310" y="24" width="80" height="16" />
+    </frame>
+    <frame id="1422:12643" name="Account sheet" x="0" y="62" width="430" height="870">
+      <frame id="1422:12644" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1422:12645" name="Reorder" x="187" y="22" width="55" height="19" />
+        <instance id="1422:12646" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1422:12647" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1422:12648" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1422:12650" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1422:12651" name="Text / Your dishes" x="16" y="73" width="257" height="28" />
+      <text id="1422:12652" name="Text / Your dishes" x="16" y="264" width="57" height="28" />
+      <text id="1422:12711" name="Text / Personal details" x="16" y="113" width="228" height="18" />
+      <frame id="1422:12708" name="Notice / Delivered" x="16" y="159" width="398" height="77">
+        <text id="1422:12709" name="Text / Delivered" x="16" y="16" width="358" height="21" />
+        <text id="1422:12710" name="Text / 16 Oct 2026 · 12:35" x="16" y="43" width="358" height="18" />
+      </frame>
+      <frame id="1422:12668" name="Item main" x="16" y="312" width="398" height="96">
+        <frame id="1422:12669" name="Image slot" x="0" y="0" width="96" height="96">
+          <rounded-rectangle id="1422:12670" name="Photo / acai" x="0" y="0" width="96" height="96" />
+          <text id="1422:12671" name="Image fallback" x="8" y="23" width="64" height="28" hidden="true" />
+        </frame>
+        <frame id="1422:12672" name="Item copy" x="110" y="7" width="288" height="82">
+          <frame id="1422:12673" name="Frame 275" x="0" y="0" width="296" height="56">
+            <text id="1422:12674" name="Title" x="0" y="0" width="76" height="20" />
+            <text id="1422:12675" name="Subtitle" x="0" y="24" width="296" height="32" />
+          </frame>
+          <text id="1422:12676" name="Subtitle" x="0" y="64" width="85" height="18" />
+        </frame>
+      </frame>
+      <frame id="1422:12677" name="Item main" x="16" y="432" width="398" height="96">
+        <frame id="1422:12678" name="Image slot" x="0" y="0" width="96" height="96">
+          <rounded-rectangle id="1422:12679" name="image 74" x="0" y="0" width="96" height="96" />
+          <text id="1422:12680" name="Image fallback" x="8" y="23" width="64" height="28" hidden="true" />
+        </frame>
+        <frame id="1422:12681" name="Item copy" x="110" y="5" width="288" height="86">
+          <frame id="1422:12682" name="Frame 275" x="0" y="0" width="288" height="60">
+            <text id="1422:12683" name="Title" x="0" y="0" width="296" height="60" />
+            <text id="1422:12684" name="Subtitle" x="0" y="64" width="296" height="16" hidden="true" />
+          </frame>
+          <text id="1422:12685" name="Subtitle" x="0" y="68" width="88" height="18" />
+        </frame>
+      </frame>
+      <frame id="1422:12722" name="Details" x="16" y="552" width="398" height="93">
+        <frame id="1422:12723" name="Detail / Delivery to" x="16" y="16" width="366" height="18">
+          <text id="1422:12724" name="Text / Delivery to" x="0" y="0" width="156" height="18" />
+          <text id="1422:12725" name="Text / Home" x="176" y="0" width="190" height="18" />
+        </frame>
+        <rounded-rectangle id="1422:12726" name="Divider" x="16" y="46" width="366" height="1" />
+        <frame id="1422:12727" name="Detail / Address" x="16" y="59" width="366" height="18">
+          <text id="1422:12728" name="Text / Address" x="0" y="0" width="156" height="18" />
+          <text id="1422:12729" name="Text / Jl. Raya Padonan No.41a" x="176" y="0" width="190" height="18" />
+        </frame>
+      </frame>
+    </frame>
+    <instance id="1422:12699" name="Go / B10 / Save changes" x="16" y="832" width="398" height="52" />
+  </frame>
+  <frame id="1422:12115" name="Screen / B01 / Личные данные / исходное" x="658" y="1232" width="430" height="932">
+    <frame id="1422:12116" name="Status / safe area 62" x="0" y="0" width="430" height="62">
+      <text id="1422:12117" name="Text / 9:41" x="40" y="22" width="60" height="22" />
+      <frame id="1422:12118" name="Frame" x="310" y="24" width="80" height="16" />
+    </frame>
+    <frame id="1422:12127" name="Account sheet" x="0" y="62" width="430" height="870">
+      <frame id="1422:12128" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1422:12129" name="Personal details" x="160" y="22" width="109" height="19" />
+        <instance id="1422:12130" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1422:12131" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1422:12132" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1422:12134" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1422:12135" name="Text / Your dishes" x="16" y="233" width="268" height="28" />
+      <instance id="1422:12204" name="shopping-bag-1" x="16" y="189" width="32" height="32" />
+      <text id="1422:12137" name="Text / Your saved profile will stay as it was. The changes you made on " x="16" y="273" width="296" height="42" />
+      <instance id="1422:12138" name="Go / B10 / Save changes" x="16" y="770" width="398" height="52" />
+    </frame>
+  </frame>
+  <frame id="1422:12207" name="Screen / B01 / Личные данные / исходное" x="1216" y="1232" width="430" height="932">
+    <frame id="1422:12208" name="Status / safe area 62" x="0" y="0" width="430" height="62">
+      <text id="1422:12209" name="Text / 9:41" x="40" y="22" width="60" height="22" />
+      <frame id="1422:12210" name="Frame" x="310" y="24" width="80" height="16" />
+    </frame>
+    <frame id="1422:12219" name="Account sheet" x="0" y="62" width="430" height="870">
+      <frame id="1422:12220" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1422:12221" name="Personal details" x="160" y="22" width="109" height="19" />
+        <instance id="1422:12222" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1422:12223" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1422:12224" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1422:12226" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1422:12227" name="Text / Your dishes" x="16" y="233" width="259" height="28" />
+      <instance id="1422:12233" name="triangle-exclamation, error, warning, alert" x="16" y="189" width="32" height="32" />
+      <text id="1422:12229" name="Text / Your saved profile will stay as it was. The changes you made on " x="16" y="273" width="296" height="42" />
+      <instance id="1422:12230" name="Go / B10 / Save changes" x="16" y="770" width="398" height="52" />
+    </frame>
+  </frame>
+  <frame id="1422:12782" name="Screen / B01 / Личные данные / исходное" x="3448" y="1232" width="430" height="932">
+    <frame id="1422:12783" name="Status / safe area 62" x="0" y="0" width="430" height="62">
+      <text id="1422:12784" name="Text / 9:41" x="40" y="22" width="60" height="22" />
+      <frame id="1422:12785" name="Frame" x="310" y="24" width="80" height="16" />
+    </frame>
+    <frame id="1422:12794" name="Account sheet" x="0" y="62" width="430" height="870">
+      <frame id="1422:12795" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1422:12796" name="Reorder" x="187" y="22" width="55" height="19" />
+        <instance id="1422:12797" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1422:12798" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1422:12799" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1422:12801" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1422:12802" name="Text / Your dishes" x="16" y="233" width="285" height="28" />
+      <instance id="1422:12803" name="shopping-bag-1" x="16" y="189" width="32" height="32" />
+      <text id="1422:12804" name="Text / Your saved profile will stay as it was. The changes you made on " x="16" y="273" width="296" height="63" />
+      <instance id="1422:12805" name="Go / B10 / Save changes" x="16" y="770" width="398" height="52" />
+    </frame>
+  </frame>
+  <frame id="1380:1832" name="Screen / B01 / Личные данные / исходное" x="2890" y="100" width="430" height="932">
+    <frame id="1380:1833" name="Status / safe area 62" x="0" y="0" width="430" height="62">
+      <text id="1380:1834" name="Text / 9:41" x="40" y="22" width="60" height="22" />
+      <frame id="1380:1835" name="Frame" x="310" y="24" width="80" height="16" />
+    </frame>
+    <frame id="1380:1844" name="Account sheet" x="0" y="62" width="430" height="870">
+      <frame id="1380:1852" name="Content" x="16" y="121" width="398" height="423">
+        <frame id="1380:1858" name="Go / B02 / First name" x="0" y="0" width="398" height="77">
+          <text id="1380:1859" name="Text / First name" x="0" y="0" width="390" height="17" />
+          <frame id="1380:1860" name="Input" x="0" y="23" width="398" height="54">
+            <text id="1380:1861" name="Text / Michael" x="16" y="16.5" width="358" height="21" />
+          </frame>
+        </frame>
+        <frame id="1380:1862" name="Go / B02 / Last name" x="0" y="93" width="398" height="77">
+          <text id="1380:1863" name="Text / Last name" x="0" y="0" width="390" height="17" />
+          <frame id="1380:1864" name="Input" x="0" y="23" width="398" height="54">
+            <text id="1380:1865" name="Text / Jerlis" x="16" y="16.5" width="358" height="21" />
+          </frame>
+        </frame>
+        <frame id="1380:1866" name="Go / B02 / Email" x="0" y="186" width="398" height="77">
+          <text id="1380:1867" name="Text / Email" x="0" y="0" width="390" height="17" />
+          <frame id="1380:1868" name="Input" x="0" y="23" width="398" height="54">
+            <text id="1380:1869" name="Text / brooks.06@prana.kitchen" x="16" y="16.5" width="358" height="21" />
+          </frame>
+        </frame>
+        <frame id="1421:9522" name="Go / B05 / Phone number" x="0" y="279" width="398" height="64">
+          <frame id="1421:9523" name="Labels" x="0" y="12" width="368" height="40">
+            <text id="1421:9524" name="Title" x="0" y="0" width="356" height="20" />
+            <text id="1421:9525" name="Subtitle" x="0" y="24" width="356" height="16" />
+          </frame>
+          <frame id="1421:9526" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+        </frame>
+        <frame id="1421:9528" name="Go / B04 / Date of birth" x="0" y="359" width="398" height="64">
+          <frame id="1421:9529" name="Labels" x="0" y="12" width="368" height="40">
+            <text id="1421:9530" name="Title" x="0" y="0" width="356" height="20" />
+            <text id="1421:9531" name="Subtitle" x="0" y="24" width="356" height="16" />
+          </frame>
+          <frame id="1421:9532" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+        </frame>
+        <frame id="1421:9516" name="Go / H03 / Delete account" x="0" y="429" width="398" height="64" hidden="true">
+          <frame id="1421:9517" name="Labels" x="0" y="22" width="368" height="20">
+            <text id="1421:9518" name="Title" x="0" y="0" width="356" height="20" />
+            <text id="1421:9519" name="Subtitle" x="0" y="23" width="356" height="16" hidden="true" />
+          </frame>
+          <frame id="1421:9520" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+        </frame>
+      </frame>
+      <frame id="1421:9542" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1421:9543" name="Personal details" x="160" y="22" width="109" height="19" />
+        <instance id="1421:9544" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1421:9545" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1421:9546" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1421:9548" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1421:9550" name="Text / Your dishes" x="16" y="73" width="163" height="28" />
+      <frame id="1421:12014" name="Frame 274" x="16" y="770" width="398" height="54">
+        <text id="1421:12015" name="Save changes" x="150.5" y="17.5" width="97" height="19" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1421:10951" name="Screen / B01 / Личные данные / исходное" x="6238" y="100" width="430" height="932">
+    <frame id="1421:10952" name="Status / safe area 62" x="0" y="0" width="430" height="62">
+      <text id="1421:10953" name="Text / 9:41" x="40" y="22" width="60" height="22" />
+      <frame id="1421:10954" name="Frame" x="310" y="24" width="80" height="16" />
+    </frame>
+    <frame id="1421:10963" name="Account sheet" x="0" y="62" width="430" height="870">
+      <frame id="1421:10964" name="Content" x="16" y="217" width="398" height="423">
+        <frame id="1421:10965" name="Go / B02 / First name" x="0" y="0" width="398" height="77">
+          <text id="1421:10966" name="Text / First name" x="0" y="0" width="390" height="17" />
+          <frame id="1421:10967" name="Input" x="0" y="23" width="398" height="54">
+            <text id="1421:10968" name="Text / Michael" x="16" y="16.5" width="358" height="21" />
+          </frame>
+        </frame>
+        <frame id="1421:10969" name="Go / B02 / Last name" x="0" y="93" width="398" height="77">
+          <text id="1421:10970" name="Text / Last name" x="0" y="0" width="390" height="17" />
+          <frame id="1421:10971" name="Input" x="0" y="23" width="398" height="54">
+            <text id="1421:10972" name="Text / Jerlis" x="16" y="16.5" width="358" height="21" />
+          </frame>
+        </frame>
+        <frame id="1421:10973" name="Go / B02 / Email" x="0" y="186" width="398" height="77">
+          <text id="1421:10974" name="Text / Email" x="0" y="0" width="390" height="17" />
+          <frame id="1421:10975" name="Input" x="0" y="23" width="398" height="54">
+            <text id="1421:10976" name="Text / brooks.06@prana.kitchen" x="16" y="16.5" width="358" height="21" />
+          </frame>
+        </frame>
+        <frame id="1421:10977" name="Go / B05 / Phone number" x="0" y="279" width="398" height="64">
+          <frame id="1421:10978" name="Labels" x="0" y="12" width="368" height="40">
+            <text id="1421:10979" name="Title" x="0" y="0" width="356" height="20" />
+            <text id="1421:10980" name="Subtitle" x="0" y="24" width="356" height="16" />
+          </frame>
+          <frame id="1421:10981" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+        </frame>
+        <frame id="1421:10983" name="Go / B04 / Date of birth" x="0" y="359" width="398" height="64">
+          <frame id="1421:10984" name="Labels" x="0" y="12" width="368" height="40">
+            <text id="1421:10985" name="Title" x="0" y="0" width="356" height="20" />
+            <text id="1421:10986" name="Subtitle" x="0" y="24" width="356" height="16" />
+          </frame>
+          <frame id="1421:10987" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+        </frame>
+        <frame id="1421:10989" name="Go / H03 / Delete account" x="0" y="429" width="398" height="64" hidden="true">
+          <frame id="1421:10990" name="Labels" x="0" y="22" width="368" height="20">
+            <text id="1421:10991" name="Title" x="0" y="0" width="356" height="20" />
+            <text id="1421:10992" name="Subtitle" x="0" y="23" width="356" height="16" hidden="true" />
+          </frame>
+          <frame id="1421:10993" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+        </frame>
+      </frame>
+      <frame id="1421:10995" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1421:10996" name="Personal details" x="160" y="22" width="109" height="19" />
+        <instance id="1421:10997" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1421:10998" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1421:10999" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1421:11001" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1421:11002" name="Text / Your dishes" x="16" y="73" width="163" height="28" />
+      <frame id="1421:11015" name="Go / F01 / Points" x="16" y="121" width="398" height="68">
+        <frame id="1421:11016" name="Frame 2087328812" x="20" y="14" width="358" height="40">
+          <text id="1421:11017" name="Text / 476 Prana points" x="0" y="0" width="204" height="20" />
+          <text id="1421:11018" name="Text / Balance &amp; activity →" x="0" y="24" width="358" height="16" />
+        </frame>
+      </frame>
+    </frame>
+    <instance id="1421:11022" name="Go / B10 / Save changes" x="20" y="832" width="390" height="52" />
+  </frame>
+  <frame id="1421:11026" name="Screen / B01 / Личные данные / исходное" x="6796" y="100" width="430" height="932">
+    <frame id="1421:11027" name="Status / safe area 62" x="0" y="0" width="430" height="62">
+      <text id="1421:11028" name="Text / 9:41" x="40" y="22" width="60" height="22" />
+      <frame id="1421:11029" name="Frame" x="310" y="24" width="80" height="16" />
+    </frame>
+    <frame id="1421:11038" name="Account sheet" x="0" y="62" width="430" height="870">
+      <frame id="1421:11039" name="Content" x="16" y="217" width="398" height="423">
+        <frame id="1421:11040" name="Go / B02 / First name" x="0" y="0" width="398" height="77">
+          <text id="1421:11041" name="Text / First name" x="0" y="0" width="390" height="17" />
+          <frame id="1421:11042" name="Input" x="0" y="23" width="398" height="54">
+            <text id="1421:11043" name="Text / Michael" x="16" y="16.5" width="358" height="21" />
+          </frame>
+        </frame>
+        <frame id="1421:11044" name="Go / B02 / Last name" x="0" y="93" width="398" height="77">
+          <text id="1421:11045" name="Text / Last name" x="0" y="0" width="390" height="17" />
+          <frame id="1421:11046" name="Input" x="0" y="23" width="398" height="54">
+            <text id="1421:11047" name="Text / Jerlis" x="16" y="16.5" width="358" height="21" />
+          </frame>
+        </frame>
+        <frame id="1421:11048" name="Go / B02 / Email" x="0" y="186" width="398" height="77">
+          <text id="1421:11049" name="Text / Email" x="0" y="0" width="390" height="17" />
+          <frame id="1421:11050" name="Input" x="0" y="23" width="398" height="54">
+            <text id="1421:11051" name="Text / brooks.06@prana.kitchen" x="16" y="16.5" width="358" height="21" />
+          </frame>
+        </frame>
+        <frame id="1421:11052" name="Go / B05 / Phone number" x="0" y="279" width="398" height="64">
+          <frame id="1421:11053" name="Labels" x="0" y="12" width="368" height="40">
+            <text id="1421:11054" name="Title" x="0" y="0" width="356" height="20" />
+            <text id="1421:11055" name="Subtitle" x="0" y="24" width="356" height="16" />
+          </frame>
+          <frame id="1421:11056" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+        </frame>
+        <frame id="1421:11058" name="Go / B04 / Date of birth" x="0" y="359" width="398" height="64">
+          <frame id="1421:11059" name="Labels" x="0" y="12" width="368" height="40">
+            <text id="1421:11060" name="Title" x="0" y="0" width="356" height="20" />
+            <text id="1421:11061" name="Subtitle" x="0" y="24" width="356" height="16" />
+          </frame>
+          <frame id="1421:11062" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+        </frame>
+        <frame id="1421:11064" name="Go / H03 / Delete account" x="0" y="429" width="398" height="64" hidden="true">
+          <frame id="1421:11065" name="Labels" x="0" y="22" width="368" height="20">
+            <text id="1421:11066" name="Title" x="0" y="0" width="356" height="20" />
+            <text id="1421:11067" name="Subtitle" x="0" y="23" width="356" height="16" hidden="true" />
+          </frame>
+          <frame id="1421:11068" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+        </frame>
+      </frame>
+      <frame id="1421:11070" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1421:11071" name="Personal details" x="160" y="22" width="109" height="19" />
+        <instance id="1421:11072" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1421:11073" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1421:11074" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1421:11076" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1421:11077" name="Text / Your dishes" x="16" y="73" width="163" height="28" />
+      <frame id="1421:11078" name="Go / F01 / Points" x="16" y="121" width="398" height="68">
+        <frame id="1421:11079" name="Frame 2087328812" x="20" y="14" width="358" height="40">
+          <text id="1421:11080" name="Text / 476 Prana points" x="0" y="0" width="204" height="20" />
+          <text id="1421:11081" name="Text / Balance &amp; activity →" x="0" y="24" width="358" height="16" />
+        </frame>
+      </frame>
+    </frame>
+    <instance id="1421:11082" name="Go / B10 / Save changes" x="20" y="832" width="390" height="52" />
+  </frame>
+  <frame id="1421:11941" name="Screen / B01 / Личные данные / исходное" x="7912" y="100" width="430" height="932">
+    <frame id="1421:11942" name="Status / safe area 62" x="0" y="0" width="430" height="62">
+      <text id="1421:11943" name="Text / 9:41" x="40" y="22" width="60" height="22" />
+      <frame id="1421:11944" name="Frame" x="310" y="24" width="80" height="16" />
+    </frame>
+    <frame id="1421:11953" name="Account sheet" x="0" y="62" width="430" height="870">
+      <frame id="1421:11954" name="Content" x="16" y="217" width="398" height="423">
+        <frame id="1421:11955" name="Go / B02 / First name" x="0" y="0" width="398" height="77">
+          <text id="1421:11956" name="Text / First name" x="0" y="0" width="390" height="17" />
+          <frame id="1421:11957" name="Input" x="0" y="23" width="398" height="54">
+            <text id="1421:11958" name="Text / Michael" x="16" y="16.5" width="358" height="21" />
+          </frame>
+        </frame>
+        <frame id="1421:11959" name="Go / B02 / Last name" x="0" y="93" width="398" height="77">
+          <text id="1421:11960" name="Text / Last name" x="0" y="0" width="390" height="17" />
+          <frame id="1421:11961" name="Input" x="0" y="23" width="398" height="54">
+            <text id="1421:11962" name="Text / Jerlis" x="16" y="16.5" width="358" height="21" />
+          </frame>
+        </frame>
+        <frame id="1421:11963" name="Go / B02 / Email" x="0" y="186" width="398" height="77">
+          <text id="1421:11964" name="Text / Email" x="0" y="0" width="390" height="17" />
+          <frame id="1421:11965" name="Input" x="0" y="23" width="398" height="54">
+            <text id="1421:11966" name="Text / brooks.06@prana.kitchen" x="16" y="16.5" width="358" height="21" />
+          </frame>
+        </frame>
+        <frame id="1421:11967" name="Go / B05 / Phone number" x="0" y="279" width="398" height="64">
+          <frame id="1421:11968" name="Labels" x="0" y="12" width="368" height="40">
+            <text id="1421:11969" name="Title" x="0" y="0" width="356" height="20" />
+            <text id="1421:11970" name="Subtitle" x="0" y="24" width="356" height="16" />
+          </frame>
+          <frame id="1421:11971" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+        </frame>
+        <frame id="1421:11973" name="Go / B04 / Date of birth" x="0" y="359" width="398" height="64">
+          <frame id="1421:11974" name="Labels" x="0" y="12" width="368" height="40">
+            <text id="1421:11975" name="Title" x="0" y="0" width="356" height="20" />
+            <text id="1421:11976" name="Subtitle" x="0" y="24" width="356" height="16" />
+          </frame>
+          <frame id="1421:11977" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+        </frame>
+        <frame id="1421:11979" name="Go / H03 / Delete account" x="0" y="429" width="398" height="64" hidden="true">
+          <frame id="1421:11980" name="Labels" x="0" y="22" width="368" height="20">
+            <text id="1421:11981" name="Title" x="0" y="0" width="356" height="20" />
+            <text id="1421:11982" name="Subtitle" x="0" y="23" width="356" height="16" hidden="true" />
+          </frame>
+          <frame id="1421:11983" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+        </frame>
+      </frame>
+      <frame id="1421:11985" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1421:11986" name="Personal details" x="160" y="22" width="109" height="19" />
+        <instance id="1421:11987" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1421:11988" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1421:11989" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1421:11991" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1421:11992" name="Text / Your dishes" x="16" y="73" width="163" height="28" />
+      <frame id="1421:11993" name="Go / F01 / Points" x="16" y="121" width="398" height="69">
+        <frame id="1421:11994" name="Frame 2087328812" x="20" y="14" width="358" height="41">
+          <text id="1421:11995" name="Text / 476 Prana points" x="0" y="0" width="173" height="21" />
+          <text id="1421:11996" name="Text / Balance &amp; activity →" x="0" y="25" width="358" height="16" />
+        </frame>
+      </frame>
+      <frame id="1421:12011" name="Frame 274" x="16" y="770" width="398" height="54">
+        <text id="1421:12012" name="Save changes" x="150.5" y="17.5" width="97" height="19" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1421:11868" name="Screen / B01 / Личные данные / исходное" x="7354" y="100" width="430" height="932">
+    <frame id="1421:11869" name="Status / safe area 62" x="0" y="0" width="430" height="62">
+      <text id="1421:11870" name="Text / 9:41" x="40" y="22" width="60" height="22" />
+      <frame id="1421:11871" name="Frame" x="310" y="24" width="80" height="16" />
+    </frame>
+    <frame id="1421:11880" name="Account sheet" x="0" y="62" width="430" height="870">
+      <frame id="1421:11912" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1421:11913" name="Personal details" x="160" y="22" width="109" height="19" />
+        <instance id="1421:11914" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1421:11915" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1421:11916" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1421:11918" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1421:11919" name="Text / Your dishes" x="16" y="233" width="233" height="28" />
+      <instance id="1421:11926" name="triangle-exclamation, error, warning, alert" x="16" y="189" width="32" height="32" />
+      <text id="1421:11929" name="Text / Your saved profile will stay as it was. The changes you made on " x="16" y="273" width="296" height="63" />
+      <instance id="1421:11935" name="Go / B10 / Save changes" x="16" y="702" width="398" height="52" />
+      <frame id="1421:11936" name="Go / D03 / Clear cart" x="16" y="770" width="398" height="52">
+        <text id="1421:11937" name="Label" x="28" y="15.5" width="342" height="21" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1421:9624" name="Screen / B01 / Личные данные / исходное" x="3448" y="100" width="430" height="932">
+    <frame id="1421:9625" name="Status / safe area 62" x="0" y="0" width="430" height="62">
+      <text id="1421:9626" name="Text / 9:41" x="40" y="22" width="60" height="22" />
+      <frame id="1421:9627" name="Frame" x="310" y="24" width="80" height="16" />
+    </frame>
+    <frame id="1421:9636" name="Account sheet" x="0" y="62" width="430" height="870">
+      <frame id="1421:9637" name="Content" x="16" y="121" width="398" height="423">
+        <frame id="1421:9638" name="Go / B02 / First name" x="0" y="0" width="398" height="77">
+          <text id="1421:9639" name="Text / First name" x="0" y="0" width="390" height="17" />
+          <frame id="1421:9640" name="Input" x="0" y="23" width="398" height="54">
+            <text id="1421:9641" name="Text / Michael" x="16" y="16.5" width="358" height="21" />
+          </frame>
+        </frame>
+        <frame id="1421:9642" name="Go / B02 / Last name" x="0" y="93" width="398" height="77">
+          <text id="1421:9643" name="Text / Last name" x="0" y="0" width="390" height="17" />
+          <frame id="1421:9644" name="Input" x="0" y="23" width="398" height="54">
+            <text id="1421:9645" name="Text / Jerlis" x="16" y="16.5" width="358" height="21" />
+          </frame>
+        </frame>
+        <frame id="1421:9646" name="Go / B02 / Email" x="0" y="186" width="398" height="77">
+          <text id="1421:9647" name="Text / Email" x="0" y="0" width="390" height="17" />
+          <frame id="1421:9648" name="Input" x="0" y="23" width="398" height="54">
+            <text id="1421:9649" name="Text / brooks.06@prana.kitchen" x="16" y="16.5" width="358" height="21" />
+          </frame>
+        </frame>
+        <frame id="1421:9650" name="Go / B05 / Phone number" x="0" y="279" width="398" height="64">
+          <frame id="1421:9651" name="Labels" x="0" y="12" width="368" height="40">
+            <text id="1421:9652" name="Title" x="0" y="0" width="356" height="20" />
+            <text id="1421:9653" name="Subtitle" x="0" y="24" width="356" height="16" />
+          </frame>
+          <frame id="1421:9654" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+        </frame>
+        <frame id="1421:9656" name="Go / B04 / Date of birth" x="0" y="359" width="398" height="64">
+          <frame id="1421:9657" name="Labels" x="0" y="12" width="368" height="40">
+            <text id="1421:9658" name="Title" x="0" y="0" width="356" height="20" />
+            <text id="1421:9659" name="Subtitle" x="0" y="24" width="356" height="16" />
+          </frame>
+          <frame id="1421:9660" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+        </frame>
+        <frame id="1421:9662" name="Go / H03 / Delete account" x="0" y="429" width="398" height="64" hidden="true">
+          <frame id="1421:9663" name="Labels" x="0" y="22" width="368" height="20">
+            <text id="1421:9664" name="Title" x="0" y="0" width="356" height="20" />
+            <text id="1421:9665" name="Subtitle" x="0" y="23" width="356" height="16" hidden="true" />
+          </frame>
+          <frame id="1421:9666" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+        </frame>
+      </frame>
+      <frame id="1421:9668" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1421:9669" name="Personal details" x="160" y="22" width="109" height="19" />
+        <instance id="1421:9670" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1421:9671" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1421:9672" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1421:9674" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1421:9675" name="Text / Your dishes" x="16" y="73" width="163" height="28" />
+      <frame id="1421:9683" name="Bottom actions / safe inset 34" x="20" y="770" width="390" height="52">
+        <instance id="1421:9684" name="Go / B10 / Save changes" x="0" y="0" width="390" height="52" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1421:9804" name="Screen / B01 / Личные данные / исходное" x="4006" y="100" width="430" height="932">
+    <frame id="1421:9805" name="Status / safe area 62" x="0" y="0" width="430" height="62">
+      <text id="1421:9806" name="Text / 9:41" x="40" y="22" width="60" height="22" />
+      <frame id="1421:9807" name="Frame" x="310" y="24" width="80" height="16" />
+    </frame>
+    <frame id="1421:9816" name="Account sheet" x="0" y="62" width="430" height="870">
+      <frame id="1421:9817" name="Content" x="16" y="121" width="398" height="445">
+        <frame id="1421:9818" name="Go / B02 / First name" x="0" y="0" width="398" height="77">
+          <text id="1421:9819" name="Text / First name" x="0" y="0" width="390" height="17" />
+          <frame id="1421:9820" name="Input" x="0" y="23" width="398" height="54">
+            <text id="1421:9821" name="Text / Michael" x="16" y="16.5" width="358" height="21" />
+          </frame>
+        </frame>
+        <frame id="1421:9822" name="Go / B02 / Last name" x="0" y="93" width="398" height="77">
+          <text id="1421:9823" name="Text / Last name" x="0" y="0" width="390" height="17" />
+          <frame id="1421:9824" name="Input" x="0" y="23" width="398" height="54">
+            <text id="1421:9825" name="Text / Jerlis" x="16" y="16.5" width="358" height="21" />
+          </frame>
+        </frame>
+        <frame id="1421:9864" name="Go / B02 / Email" x="0" y="186" width="390" height="99">
+          <text id="1421:9865" name="Text / Email" x="0" y="0" width="390" height="17" />
+          <frame id="1421:9866" name="Input" x="0" y="23" width="390" height="54">
+            <text id="1421:9867" name="Text / mike@" x="17.5" y="16.5" width="358" height="21" />
+          </frame>
+          <text id="1421:9868" name="Text / Enter a complete email, like name@example.com." x="0" y="83" width="390" height="16" />
+        </frame>
+        <frame id="1421:9830" name="Go / B05 / Phone number" x="0" y="301" width="398" height="64">
+          <frame id="1421:9831" name="Labels" x="0" y="12" width="368" height="40">
+            <text id="1421:9832" name="Title" x="0" y="0" width="356" height="20" />
+            <text id="1421:9833" name="Subtitle" x="0" y="24" width="356" height="16" />
+          </frame>
+          <frame id="1421:9834" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+        </frame>
+        <frame id="1421:9836" name="Go / B04 / Date of birth" x="0" y="381" width="398" height="64">
+          <frame id="1421:9837" name="Labels" x="0" y="12" width="368" height="40">
+            <text id="1421:9838" name="Title" x="0" y="0" width="356" height="20" />
+            <text id="1421:9839" name="Subtitle" x="0" y="24" width="356" height="16" />
+          </frame>
+          <frame id="1421:9840" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+        </frame>
+        <frame id="1421:9842" name="Go / H03 / Delete account" x="0" y="429" width="398" height="64" hidden="true">
+          <frame id="1421:9843" name="Labels" x="0" y="22" width="368" height="20">
+            <text id="1421:9844" name="Title" x="0" y="0" width="356" height="20" />
+            <text id="1421:9845" name="Subtitle" x="0" y="23" width="356" height="16" hidden="true" />
+          </frame>
+          <frame id="1421:9846" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+        </frame>
+      </frame>
+      <frame id="1421:9848" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1421:9849" name="Personal details" x="160" y="22" width="109" height="19" />
+        <instance id="1421:9850" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1421:9851" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1421:9852" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1421:9854" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1421:9855" name="Text / Your dishes" x="16" y="73" width="163" height="28" />
+      <frame id="1421:9856" name="Bottom actions / safe inset 34" x="20" y="770" width="390" height="52">
+        <instance id="1421:9857" name="Go / B10 / Save changes" x="0" y="0" width="390" height="52" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1421:9894" name="Screen / B01 / Личные данные / исходное" x="4564" y="100" width="430" height="932">
+    <frame id="1421:9895" name="Status / safe area 62" x="0" y="0" width="430" height="62">
+      <text id="1421:9896" name="Text / 9:41" x="40" y="22" width="60" height="22" />
+      <frame id="1421:9897" name="Frame" x="310" y="24" width="80" height="16" />
+    </frame>
+    <frame id="1421:9906" name="Account sheet" x="0" y="62" width="430" height="870">
+      <frame id="1421:9939" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1421:9940" name="Date of birth" x="172" y="22" width="85" height="19" />
+        <instance id="1421:9941" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1421:9942" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1421:9943" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1421:9945" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1421:9946" name="Text / Your dishes" x="16" y="73" width="138" height="28" />
+      <frame id="1421:9947" name="Bottom actions / safe inset 34" x="20" y="770" width="390" height="52">
+        <instance id="1421:9948" name="Go / B10 / Save changes" x="0" y="0" width="390" height="52" />
+      </frame>
+      <text id="1421:9950" name="Text / Personal details" x="16" y="109" width="231" height="18" />
+      <frame id="1421:9952" name="Native date picker / conceptual" x="16" y="147" width="398" height="174">
+        <text id="1421:9953" name="Text / 11     May       1984" x="20" y="20" width="358" height="34" />
+        <text id="1421:9954" name="Text / 12     June      1985" x="20" y="70" width="358" height="34" />
+        <text id="1421:9955" name="Text / 13     July        1986" x="20" y="120" width="358" height="34" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1421:10642" name="Screen / B01 / Личные данные / исходное" x="5122" y="100" width="430" height="932">
+    <frame id="1421:10643" name="Status / safe area 62" x="0" y="0" width="430" height="62">
+      <text id="1421:10644" name="Text / 9:41" x="40" y="22" width="60" height="22" />
+      <frame id="1421:10645" name="Frame" x="310" y="24" width="80" height="16" />
+    </frame>
+    <frame id="1421:10654" name="Account sheet" x="0" y="62" width="430" height="870">
+      <frame id="1421:10655" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1421:10656" name="Phone number" x="164" y="22" width="101" height="19" />
+        <instance id="1421:10657" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1421:10658" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1421:10659" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1421:10661" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1421:10662" name="Text / Your dishes" x="16" y="73" width="284" height="28" />
+      <instance id="1421:10664" name="Go / B10 / Save changes" x="16" y="252" width="398" height="52" />
+      <text id="1421:10665" name="Text / Personal details" x="16" y="109" width="302" height="18" />
+      <frame id="1421:10671" name="Go / B02 / First name" x="16" y="147" width="398" height="77">
+        <text id="1421:10672" name="Text / First name" x="0" y="0" width="390" height="17" />
+        <frame id="1421:10673" name="Input" x="0" y="23" width="398" height="54">
+          <text id="1421:10674" name="Text / Michael" x="16" y="16.5" width="358" height="21" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1421:11803" name="Screen / B01 / Личные данные / исходное" x="5680" y="100" width="430" height="932">
+    <frame id="1421:11804" name="Status / safe area 62" x="0" y="0" width="430" height="62">
+      <text id="1421:11805" name="Text / 9:41" x="40" y="22" width="60" height="22" />
+      <frame id="1421:11806" name="Frame" x="310" y="24" width="80" height="16" />
+    </frame>
+    <frame id="1421:11815" name="Account sheet" x="0" y="62" width="430" height="870">
+      <frame id="1421:11816" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1421:11817" name="Phone number" x="164" y="22" width="101" height="19" />
+        <instance id="1421:11818" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1421:11819" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1421:11820" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1421:11822" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1421:11823" name="Text / Your dishes" x="16" y="73" width="284" height="28" />
+      <instance id="1421:11824" name="Go / B10 / Save changes" x="16" y="252" width="398" height="52" />
+      <text id="1421:11825" name="Text / Personal details" x="16" y="109" width="302" height="18" />
+      <frame id="1421:11826" name="Go / B02 / First name" x="16" y="147" width="398" height="77">
+        <text id="1421:11827" name="Text / First name" x="0" y="0" width="390" height="17" />
+        <frame id="1421:11828" name="Input" x="0" y="23" width="398" height="54">
+          <text id="1421:11829" name="Text / Michael" x="16" y="16.5" width="358" height="21" />
+        </frame>
+      </frame>
+    </frame>
+    <rounded-rectangle id="1421:11844" name="Rectangle 123" x="0" y="62" width="430" height="870" />
+    <frame id="1421:11833" name="Overlay / Clear your cart?" x="0" y="605" width="430" height="327">
+      <text id="1421:11834" name="Text / Clear your cart?" x="156" y="28" width="117" height="31" />
+      <instance id="1421:11835" name="cross-large, crossed large, close" x="386" y="20" width="20" height="20" />
+      <text id="1421:11836" name="Text / All dishes will be removed. You can keep y" x="117" y="71" width="195" height="18" />
+      <instance id="1421:11837" name="Go / BACK / Keep dishes" x="24" y="227" width="382" height="52" />
+      <frame id="1421:11867" name="Frame 2087328713" x="72" y="117" width="285" height="70">
+        <frame id="1421:11857" name="Group 2087328598" x="0" y="0" width="285" height="70">
+          <rounded-rectangle id="1421:11858" name="Rectangle 102" x="0" y="0" width="62" height="70" />
+          <text id="1421:11859" name="0" x="24" y="23" width="13" height="24" />
+          <rounded-rectangle id="1421:11860" name="Rectangle 106" x="74" y="0" width="62" height="70" />
+          <text id="1421:11861" name="0" x="98" y="24.197534561157227" width="13" height="20.740739822387695" />
+          <rounded-rectangle id="1421:11862" name="Rectangle 108" x="149" y="0" width="62" height="70" />
+          <text id="1421:11863" name="0" x="173" y="24.197534561157227" width="13" height="20.740739822387695" />
+          <rounded-rectangle id="1421:11864" name="Rectangle 107" x="223" y="0" width="62" height="70" />
+          <text id="1421:11865" name="0" x="247" y="24.197534561157227" width="13" height="20.740739822387695" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1379:1762" name="Профиль • главная • с именем и адресом" x="100" y="100" width="430" height="932">
+    <instance id="1420:5717" name="Status bar - iPhone 17 Pro" x="0" y="0" width="430" height="62" />
+    <frame id="1379:1774" name="Account sheet" x="0" y="62" width="430" height="870">
+      <frame id="1379:1781" name="Balance navigation" x="322" y="8" width="88" height="48" />
+      <frame id="1379:1788" name="Go / B01 / Edit profile" x="16" y="77" width="398" height="52">
+        <frame id="1379:1789" name="Initials" x="0" y="4" width="48" height="48">
+          <text id="1379:1790" name="Text / MJ" x="4" y="13" width="40" height="22" />
+        </frame>
+        <frame id="1379:1791" name="Identity labels" x="60" y="4" width="304" height="48">
+          <text id="1379:1792" name="Text / Michael Jerlis" x="0" y="0" width="304" height="26" />
+          <text id="1379:1793" name="Text / Personal details" x="0" y="30" width="304" height="18" />
+        </frame>
+        <frame id="1379:1794" name="Icon / chevron" x="376" y="18" width="20" height="20" />
+      </frame>
+      <frame id="1379:1799" name="Go / F01 / Points" x="16" y="157" width="398" height="68">
+        <frame id="1421:7141" name="Mask group" x="20" y="16" width="36" height="36" />
+        <frame id="1420:5566" name="Frame 2087328812" x="72" y="14" width="134" height="40">
+          <text id="1379:1800" name="Text / 476 Prana points" x="0" y="0" width="134" height="20" />
+          <text id="1379:1801" name="Text / Balance &amp; activity →" x="0" y="24" width="126" height="16" />
+        </frame>
+      </frame>
+      <frame id="1421:7169" name="Go / A05 / Promo code available" x="16" y="253" width="398" height="64">
+        <frame id="1421:7170" name="Labels" x="0" y="12" width="368" height="40">
+          <text id="1421:7171" name="Title" x="0" y="0" width="356" height="20" />
+          <text id="1421:7172" name="Subtitle" x="0" y="24" width="356" height="16" />
+        </frame>
+        <frame id="1421:7173" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+      </frame>
+      <rounded-rectangle id="1379:1808" name="Divider" x="16" y="321" width="398" height="1" />
+      <frame id="1379:1809" name="Your account" x="16" y="326" width="398" height="200">
+        <frame id="1421:7157" name="Go / C01 / My orders" x="0" y="0" width="398" height="72">
+          <frame id="1421:7158" name="Labels" x="0" y="16" width="368" height="40">
+            <text id="1421:7159" name="Title" x="0" y="0" width="356" height="20" />
+            <text id="1421:7160" name="Subtitle" x="0" y="24" width="356" height="16" />
+          </frame>
+          <frame id="1421:7161" name="Icon / chevron" x="380" y="27" width="18" height="18" />
+        </frame>
+        <frame id="1421:7163" name="Go / D01 / Delivery addresses" x="0" y="72" width="398" height="64">
+          <frame id="1421:7164" name="Labels" x="0" y="12" width="368" height="40">
+            <text id="1421:7165" name="Title" x="0" y="0" width="356" height="20" />
+            <text id="1421:7166" name="Subtitle" x="0" y="24" width="356" height="16" />
+          </frame>
+          <frame id="1421:7167" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+        </frame>
+        <frame id="1421:7151" name="Go / E01 / Payment methods" x="0" y="136" width="398" height="64">
+          <frame id="1421:7152" name="Labels" x="0" y="12" width="368" height="40">
+            <text id="1421:7153" name="Title" x="0" y="0" width="356" height="20" />
+            <text id="1421:7154" name="Subtitle" x="0" y="24" width="356" height="16" />
+          </frame>
+          <frame id="1421:7155" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+        </frame>
+      </frame>
+      <rounded-rectangle id="1379:1828" name="Divider" x="16" y="531" width="398" height="1" />
+      <frame id="1421:7145" name="Go / G01 / Settings &amp; information" x="16" y="536" width="398" height="64">
+        <frame id="1421:7146" name="Labels" x="0" y="12" width="368" height="40">
+          <text id="1421:7147" name="Title" x="0" y="0" width="356" height="20" />
+          <text id="1421:7148" name="Subtitle" x="0" y="24" width="356" height="16" />
+        </frame>
+        <frame id="1421:7149" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+      </frame>
+      <instance id="1379:1836" name="Go / H01 / Log out" x="20" y="770" width="390" height="52" />
+      <frame id="1420:7127" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1420:7128" name="Profile" x="193" y="22" width="44" height="19" />
+        <instance id="1420:7129" name="cross-large, crossed large, close" x="16" y="20" width="20" height="20" />
+        <instance id="1420:7130" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1421:7663" name="Корзина • есть позиции в корзине" x="2332" y="100" width="430" height="932">
+    <instance id="1421:7664" name="Status bar - iPhone 17 Pro" x="0" y="0" width="430" height="62" />
+    <frame id="1421:7665" name="Cart sheet" x="0" y="62" width="430" height="870">
+      <frame id="1421:7666" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1421:7667" name="Promo codes" x="169" y="22" width="91" height="19" />
+        <instance id="1421:7669" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1421:9440" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1421:9435" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1421:9438" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1421:7670" name="Text / Your dishes" x="16" y="73" width="185" height="28" />
+      <text id="1421:9441" name="Text / Personal details" x="16" y="109" width="264" height="18" />
+      <frame id="1421:9443" name="Promo code" x="16" y="148" width="398" height="72">
+        <text id="1421:9444" name="Text / WELCOME1010" x="20" y="24" width="149" height="24" />
+        <instance id="1421:9509" name="square-behind-square-1, copy 1, layers, pages" x="354" y="24" width="24" height="24" />
+      </frame>
+      <frame id="1421:9512" name="Promo code" x="16" y="232" width="398" height="72">
+        <text id="1421:9513" name="Text / WELCOME1010" x="20" y="24" width="157" height="24" />
+        <instance id="1421:9514" name="square-behind-square-1, copy 1, layers, pages" x="354" y="24" width="24" height="24" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1421:7186" name="Профиль • главная • без имени и адреса" x="658" y="100" width="430" height="932">
+    <instance id="1421:7187" name="Status bar - iPhone 17 Pro" x="0" y="0" width="430" height="62" />
+    <frame id="1421:7188" name="Account sheet" x="0" y="62" width="430" height="870">
+      <frame id="1421:7189" name="Balance navigation" x="322" y="8" width="88" height="48" />
+      <frame id="1421:7190" name="Go / B01 / Edit profile" x="16" y="77" width="398" height="52">
+        <frame id="1421:7191" name="Initials" x="0" y="4" width="48" height="48">
+          <instance id="1421:7258" name="people, user, person, avatar" x="14" y="14" width="20" height="20" />
+        </frame>
+        <frame id="1421:7193" name="Identity labels" x="60" y="4" width="304" height="48">
+          <text id="1421:7194" name="Text / Michael Jerlis" x="0" y="0" width="304" height="26" />
+          <text id="1421:7195" name="Text / Personal details" x="0" y="30" width="304" height="18" />
+        </frame>
+        <frame id="1421:7196" name="Icon / chevron" x="376" y="18" width="20" height="20" />
+      </frame>
+      <frame id="1421:7198" name="Go / F01 / Points" x="16" y="157" width="398" height="68">
+        <frame id="1421:7202" name="Frame 2087328812" x="20" y="14" width="316" height="40">
+          <text id="1421:7203" name="Text / 476 Prana points" x="0" y="0" width="219" height="20" />
+          <text id="1421:7204" name="Text / Balance &amp; activity →" x="0" y="24" width="316" height="16" />
+        </frame>
+      </frame>
+      <frame id="1421:7205" name="Go / A05 / Promo code available" x="16" y="253" width="398" height="64">
+        <frame id="1421:7206" name="Labels" x="0" y="12" width="368" height="40">
+          <text id="1421:7207" name="Title" x="0" y="0" width="356" height="20" />
+          <text id="1421:7208" name="Subtitle" x="0" y="24" width="356" height="16" />
+        </frame>
+        <frame id="1421:7209" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+      </frame>
+      <rounded-rectangle id="1421:7211" name="Divider" x="16" y="321" width="398" height="1" />
+      <frame id="1421:7212" name="Your account" x="16" y="326" width="398" height="200">
+        <frame id="1421:7213" name="Go / C01 / My orders" x="0" y="0" width="398" height="72">
+          <frame id="1421:7214" name="Labels" x="0" y="16" width="368" height="40">
+            <text id="1421:7215" name="Title" x="0" y="0" width="356" height="20" />
+            <text id="1421:7216" name="Subtitle" x="0" y="24" width="356" height="16" />
+          </frame>
+          <frame id="1421:7217" name="Icon / chevron" x="380" y="27" width="18" height="18" />
+        </frame>
+        <frame id="1421:7219" name="Go / D01 / Delivery addresses" x="0" y="72" width="398" height="64">
+          <frame id="1421:7220" name="Labels" x="0" y="12" width="368" height="40">
+            <text id="1421:7221" name="Title" x="0" y="0" width="356" height="20" />
+            <text id="1421:7222" name="Subtitle" x="0" y="24" width="356" height="16" />
+          </frame>
+          <frame id="1421:7223" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+        </frame>
+        <frame id="1421:7225" name="Go / E01 / Payment methods" x="0" y="136" width="398" height="64">
+          <frame id="1421:7226" name="Labels" x="0" y="12" width="368" height="40">
+            <text id="1421:7227" name="Title" x="0" y="0" width="356" height="20" />
+            <text id="1421:7228" name="Subtitle" x="0" y="24" width="356" height="16" />
+          </frame>
+          <frame id="1421:7229" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+        </frame>
+      </frame>
+      <rounded-rectangle id="1421:7231" name="Divider" x="16" y="531" width="398" height="1" />
+      <frame id="1421:7232" name="Go / G01 / Settings &amp; information" x="16" y="536" width="398" height="64">
+        <frame id="1421:7233" name="Labels" x="0" y="12" width="368" height="40">
+          <text id="1421:7234" name="Title" x="0" y="0" width="356" height="20" />
+          <text id="1421:7235" name="Subtitle" x="0" y="24" width="356" height="16" />
+        </frame>
+        <frame id="1421:7236" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+      </frame>
+      <instance id="1421:7238" name="Go / H01 / Log out" x="20" y="770" width="390" height="52" />
+      <frame id="1421:7239" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1421:7240" name="Profile" x="193" y="22" width="44" height="19" />
+        <instance id="1421:7241" name="cross-large, crossed large, close" x="16" y="20" width="20" height="20" />
+        <instance id="1421:7242" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1421:7517" name="Профиль • главная • оффлайн" x="1774" y="100" width="430" height="932">
+    <instance id="1421:7518" name="Status bar - iPhone 17 Pro" x="0" y="0" width="430" height="62" />
+    <frame id="1421:7519" name="Account sheet" x="0" y="62" width="430" height="870">
+      <frame id="1421:7520" name="Balance navigation" x="322" y="8" width="88" height="48" />
+      <frame id="1421:7521" name="Go / B01 / Edit profile" x="16" y="185" width="398" height="52">
+        <frame id="1421:7522" name="Initials" x="0" y="4" width="48" height="48">
+          <instance id="1421:7523" name="people, user, person, avatar" x="14" y="14" width="20" height="20" />
+        </frame>
+        <frame id="1421:7524" name="Identity labels" x="60" y="4" width="304" height="48">
+          <text id="1421:7525" name="Text / Michael Jerlis" x="0" y="0" width="304" height="26" />
+          <text id="1421:7526" name="Text / Personal details" x="0" y="30" width="304" height="18" />
+        </frame>
+        <frame id="1421:7527" name="Icon / chevron" x="376" y="18" width="20" height="20" />
+      </frame>
+      <frame id="1421:7529" name="Go / F01 / Points" x="16" y="77" width="398" height="84">
+        <frame id="1421:7530" name="Frame 2087328812" x="20" y="14" width="358" height="56">
+          <text id="1421:7531" name="Text / 476 Prana points" x="0" y="0" width="105" height="20" />
+          <text id="1421:7532" name="Text / Balance &amp; activity →" x="0" y="24" width="358" height="32" />
+        </frame>
+      </frame>
+      <frame id="1421:7533" name="Go / A05 / Promo code available" x="16" y="265" width="398" height="64">
+        <frame id="1421:7534" name="Labels" x="0" y="12" width="368" height="40">
+          <text id="1421:7535" name="Title" x="0" y="0" width="356" height="20" />
+          <text id="1421:7536" name="Subtitle" x="0" y="24" width="356" height="16" />
+        </frame>
+        <frame id="1421:7537" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+      </frame>
+      <rounded-rectangle id="1421:7539" name="Divider" x="16" y="336" width="398" height="1" />
+      <frame id="1421:7540" name="Your account" x="16" y="338" width="398" height="200">
+        <frame id="1421:7541" name="Go / C01 / My orders" x="0" y="0" width="398" height="72">
+          <frame id="1421:7542" name="Labels" x="0" y="16" width="368" height="40">
+            <text id="1421:7543" name="Title" x="0" y="0" width="356" height="20" />
+            <text id="1421:7544" name="Subtitle" x="0" y="24" width="356" height="16" />
+          </frame>
+          <frame id="1421:7545" name="Icon / chevron" x="380" y="27" width="18" height="18" />
+        </frame>
+        <frame id="1421:7547" name="Go / D01 / Delivery addresses" x="0" y="72" width="398" height="64">
+          <frame id="1421:7548" name="Labels" x="0" y="12" width="368" height="40">
+            <text id="1421:7549" name="Title" x="0" y="0" width="356" height="20" />
+            <text id="1421:7550" name="Subtitle" x="0" y="24" width="356" height="16" />
+          </frame>
+          <frame id="1421:7551" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+        </frame>
+        <frame id="1421:7553" name="Go / E01 / Payment methods" x="0" y="136" width="398" height="64">
+          <frame id="1421:7554" name="Labels" x="0" y="12" width="368" height="40">
+            <text id="1421:7555" name="Title" x="0" y="0" width="356" height="20" />
+            <text id="1421:7556" name="Subtitle" x="0" y="24" width="356" height="16" />
+          </frame>
+          <frame id="1421:7557" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+        </frame>
+      </frame>
+      <rounded-rectangle id="1421:7559" name="Divider" x="16" y="546" width="398" height="1" />
+      <frame id="1421:7560" name="Go / G01 / Settings &amp; information" x="16" y="548" width="398" height="64">
+        <frame id="1421:7561" name="Labels" x="0" y="12" width="368" height="40">
+          <text id="1421:7562" name="Title" x="0" y="0" width="356" height="20" />
+          <text id="1421:7563" name="Subtitle" x="0" y="24" width="356" height="16" />
+        </frame>
+        <frame id="1421:7564" name="Icon / chevron" x="380" y="23" width="18" height="18" />
+      </frame>
+      <instance id="1421:7587" name="Go / A01 / Try again" x="20" y="770" width="390" height="52" />
+      <frame id="1421:7567" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1421:7568" name="Profile" x="193" y="22" width="44" height="19" />
+        <instance id="1421:7569" name="cross-large, crossed large, close" x="16" y="20" width="20" height="20" />
+        <instance id="1421:7570" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1421:7261" name="Профиль • скелетон" x="1216" y="100" width="430" height="932">
+    <instance id="1421:7262" name="Status bar - iPhone 17 Pro" x="0" y="0" width="430" height="62" />
+    <frame id="1421:7263" name="Account sheet" x="0" y="62" width="430" height="870">
+      <frame id="1421:7264" name="Balance navigation" x="322" y="8" width="88" height="48" />
+      <frame id="1421:7352" name="Content" x="16" y="77" width="398" height="522">
+        <frame id="1421:7353" name="Skeleton / row 0" x="0" y="0" width="398" height="72">
+          <rounded-rectangle id="1421:7354" name="Loading line" x="16" y="16" width="210" height="16" />
+          <rounded-rectangle id="1421:7355" name="Loading line" x="16" y="44" width="170" height="12" />
+        </frame>
+        <frame id="1421:7356" name="Skeleton / row 1" x="0" y="90" width="398" height="72">
+          <rounded-rectangle id="1421:7357" name="Loading line" x="16" y="16" width="280" height="16" />
+          <rounded-rectangle id="1421:7358" name="Loading line" x="16" y="44" width="170" height="12" />
+        </frame>
+        <frame id="1421:7359" name="Skeleton / row 2" x="0" y="180" width="398" height="72">
+          <rounded-rectangle id="1421:7360" name="Loading line" x="16" y="16" width="280" height="16" />
+          <rounded-rectangle id="1421:7361" name="Loading line" x="16" y="44" width="170" height="12" />
+        </frame>
+        <frame id="1421:7362" name="Skeleton / row 3" x="0" y="270" width="398" height="72">
+          <rounded-rectangle id="1421:7363" name="Loading line" x="16" y="16" width="280" height="16" />
+          <rounded-rectangle id="1421:7364" name="Loading line" x="16" y="44" width="170" height="12" />
+        </frame>
+        <frame id="1421:7365" name="Skeleton / row 4" x="0" y="360" width="398" height="72">
+          <rounded-rectangle id="1421:7366" name="Loading line" x="16" y="16" width="280" height="16" />
+          <rounded-rectangle id="1421:7367" name="Loading line" x="16" y="44" width="170" height="12" />
+        </frame>
+        <frame id="1421:7368" name="Skeleton / row 5" x="0" y="450" width="398" height="72">
+          <rounded-rectangle id="1421:7369" name="Loading line" x="16" y="16" width="280" height="16" />
+          <rounded-rectangle id="1421:7370" name="Loading line" x="16" y="44" width="170" height="12" />
+        </frame>
+      </frame>
+      <instance id="1421:7310" name="Go / H01 / Log out" x="20" y="770" width="390" height="52" />
+      <frame id="1421:7311" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1421:7312" name="Profile" x="193" y="22" width="44" height="19" />
+        <instance id="1421:7313" name="cross-large, crossed large, close" x="16" y="20" width="20" height="20" />
+        <instance id="1421:7314" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1423:14491" name="Screen / B01 / Личные данные / исходное" x="100" y="2524" width="430" height="932">
+    <frame id="1423:14492" name="Status / safe area 62" x="0" y="0" width="430" height="62">
+      <text id="1423:14493" name="Text / 9:41" x="40" y="22" width="60" height="22" />
+      <frame id="1423:14494" name="Frame" x="310" y="24" width="80" height="16" />
+    </frame>
+    <frame id="1423:14503" name="Account sheet" x="0" y="62" width="430" height="870">
+      <frame id="1423:14504" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1423:14505" name="Your places" x="174" y="22" width="80" height="19" />
+        <instance id="1423:14506" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1423:14507" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1423:14508" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655804" height="19.999999841107638" />
+          <text id="1423:14510" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1423:14511" name="Text / Your dishes" x="16" y="233" width="262" height="28" />
+      <instance id="1423:14519" name="map-pin, location" x="16" y="189" width="32" height="32" />
+      <text id="1423:14513" name="Text / Your saved profile will stay as it was. The changes you made on " x="16" y="273" width="296" height="42" />
+      <instance id="1423:14514" name="Go / B10 / Save changes" x="16" y="770" width="398" height="52" />
+    </frame>
+  </frame>
+  <frame id="1423:14921" name="Screen / B01 / Личные данные / исходное" x="4006" y="2524" width="430" height="932">
+    <frame id="1423:14922" name="Status / safe area 62" x="0" y="0" width="430" height="62">
+      <text id="1423:14923" name="Text / 9:41" x="40" y="22" width="60" height="22" />
+      <frame id="1423:14924" name="Frame" x="310" y="24" width="80" height="16" />
+    </frame>
+    <frame id="1423:14933" name="Account sheet" x="0" y="62" width="430" height="870">
+      <frame id="1423:14934" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1423:14935" name="Your places" x="174" y="22" width="80" height="19" />
+        <instance id="1423:14936" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1423:14937" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1423:14938" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1423:14940" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1423:14941" name="Text / Your dishes" x="16" y="233" width="160" height="28" />
+      <instance id="1423:14942" name="map-pin, location" x="16" y="189" width="32" height="32" />
+      <text id="1423:14943" name="Text / Your saved profile will stay as it was. The changes you made on " x="16" y="273" width="362" height="63" />
+      <instance id="1423:14979" name="Go / B10 / Save changes" x="16" y="702" width="398" height="52" />
+      <frame id="1423:14980" name="Go / D03 / Clear cart" x="16" y="770" width="398" height="52">
+        <text id="1423:14981" name="Label" x="28" y="15.5" width="342" height="21" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1423:14582" name="::" x="1216" y="2524" width="430" height="932">
+    <rounded-rectangle id="1423:14583" name="image 75" x="-164" y="-90" width="889" height="1147" />
+    <frame id="1423:14584" name="Frame 269" x="0" y="669" width="430" height="263">
+      <frame id="1423:14585" name="Frame 187" x="16" y="181" width="400" height="54">
+        <text id="1423:14586" name="Continue to details" x="135.5" y="17.5" width="129" height="19" />
+      </frame>
+      <frame id="1423:14587" name="Frame 286" x="15" y="88" width="400" height="61">
+        <boolean-operation id="1423:14588" name="Solid" x="0" y="0" width="0" height="0" />
+        <frame id="1423:14589" name="Group 2087328610" x="17" y="31" width="248" height="19">
+          <text id="1423:14590" name="1100 Brickell Bay Dr, Miami, FL 33131" x="17" y="31" width="248" height="19" />
+        </frame>
+        <text id="1423:14591" name="Address" x="17" y="11" width="42" height="14" />
+      </frame>
+      <frame id="1423:14592" name="Header" x="0" y="0" width="430" height="60">
+        <text id="1423:14593" name="Add address" x="171" y="22" width="88" height="19" />
+        <frame id="1423:14594" name="Frame 292" x="15" y="22" width="18.000001907348633" height="18.000001907348633">
+          <frame id="1423:14595" name="Frame 276" x="18" y="18" width="18.000001573610007" height="18.000001573609552" />
+          <text id="1423:14597" name="Back" x="23" y="0.0001220703125" width="35" height="19" hidden="true" />
+        </frame>
+        <frame id="1423:14598" name="Group 2087328522" x="395" y="20" width="20" height="20">
+          <instance id="1423:14599" name="close" x="395" y="20" width="20" height="20" />
+        </frame>
+      </frame>
+    </frame>
+    <rounded-rectangle id="1423:14600" name="image 67" x="0" y="0" width="430" height="55" />
+    <instance id="1423:14601" name="pin-circle, location" x="196" y="356" width="40" height="40" />
+  </frame>
+  <frame id="1423:14609" name="::" x="1774" y="2524" width="430" height="932">
+    <rounded-rectangle id="1423:14610" name="image 75" x="-164" y="-90" width="889" height="1147" />
+    <frame id="1423:14611" name="Frame 269" x="0" y="55" width="430" height="576">
+      <frame id="1423:14612" name="Frame 286" x="15" y="72" width="400" height="61">
+        <boolean-operation id="1423:14613" name="Solid" x="0" y="0" width="0" height="0" />
+        <frame id="1423:14614" name="Group 2087328610" x="17" y="31" width="49" height="19">
+          <text id="1423:14615" name="Brickell" x="17" y="31" width="49" height="19" />
+        </frame>
+        <text id="1423:14616" name="Address" x="17" y="11" width="42" height="14" />
+      </frame>
+      <frame id="1423:14617" name="Frame 287" x="15" y="141" width="400" height="415">
+        <boolean-operation id="1423:14618" name="Solid" x="0" y="0" width="0" height="0" />
+        <frame id="1423:14619" name="Frame 295" x="15" y="10" width="158" height="41" />
+        <frame id="1423:14620" name="Frame 298" x="15" y="16" width="370" height="422">
+          <frame id="1423:14621" name="Frame 296" x="0" y="0" width="158" height="41">
+            <text id="1423:14622" name="701 Brickell Ave" x="0" y="0" width="158" height="19" />
+            <text id="1423:14623" name="Miami, FL 33131" x="0" y="27" width="158" height="14" />
+          </frame>
+          <line id="1423:14624" name="Line 18" x="0" y="57" width="370" height="0" />
+          <frame id="1423:14625" name="Frame 297" x="0" y="73" width="158" height="41">
+            <text id="1423:14626" name="1100 Brickell Bay Dr" x="0" y="0" width="158" height="19" />
+            <text id="1423:14627" name="Miami, FL 33131" x="0" y="27" width="158" height="14" />
+          </frame>
+          <line id="1423:14628" name="Line 19" x="0" y="130" width="370" height="0" />
+          <frame id="1423:14629" name="Frame 298" x="0" y="146" width="158" height="41">
+            <text id="1423:14630" name="1000 Brickell Plaza" x="0" y="0" width="158" height="19" />
+            <text id="1423:14631" name="Miami, FL 33131" x="0" y="27" width="158" height="14" />
+          </frame>
+          <line id="1423:14632" name="Line 20" x="0" y="203" width="370" height="0" />
+          <frame id="1423:14633" name="Frame 299" x="0" y="219" width="158" height="41">
+            <text id="1423:14634" name="1111 Brickell Ave" x="0" y="0" width="158" height="19" />
+            <text id="1423:14635" name="Miami, FL 33131" x="0" y="27" width="158" height="14" />
+          </frame>
+          <line id="1423:14636" name="Line 22" x="0" y="276" width="370" height="0" />
+          <frame id="1423:14637" name="Frame 300" x="0" y="292" width="158" height="41">
+            <text id="1423:14638" name="1395 Brickell Ave" x="0" y="0" width="158" height="19" />
+            <text id="1423:14639" name="Miami, FL 33131" x="0" y="27" width="158" height="14" />
+          </frame>
+          <line id="1423:14640" name="Line 23" x="0" y="349" width="370" height="0" />
+          <frame id="1423:14641" name="Frame 301" x="0" y="365" width="158" height="41">
+            <text id="1423:14642" name="1451 Brickell Ave" x="0" y="0" width="158" height="19" />
+            <text id="1423:14643" name="Miami, FL 33131" x="0" y="27" width="158" height="14" />
+          </frame>
+          <line id="1423:14644" name="Line 21" x="0" y="422" width="370" height="0" />
+        </frame>
+        <rounded-rectangle id="1423:14645" name="Rectangle 118" x="0" y="286" width="400" height="129" />
+      </frame>
+      <frame id="1423:14646" name="Header" x="0" y="0" width="430" height="60">
+        <text id="1423:14647" name="Add address" x="171" y="22" width="88" height="19" />
+        <frame id="1423:14648" name="Frame 292" x="15" y="22" width="18.000001907348633" height="18.000001907348633">
+          <frame id="1423:14649" name="Frame 276" x="18" y="18" width="18.000001573610007" height="18.000001573609552" />
+          <text id="1423:14651" name="Back" x="23" y="0.0001220703125" width="35" height="19" hidden="true" />
+        </frame>
+        <frame id="1423:14652" name="Group 2087328522" x="395" y="20" width="20" height="20">
+          <instance id="1423:14653" name="close" x="395" y="20" width="20" height="20" />
+        </frame>
+      </frame>
+    </frame>
+    <rounded-rectangle id="1423:14654" name="image 67" x="0" y="0" width="430" height="55" />
+    <instance id="1423:14655" name="🧰 Keyboards" x="0" y="631" width="430" height="301" />
+  </frame>
+  <frame id="1423:14772" name="::" x="2332" y="2524" width="430" height="932">
+    <rounded-rectangle id="1423:14773" name="image 75" x="-164" y="-90" width="889" height="1147" />
+    <frame id="1423:14774" name="Frame 269" x="0" y="669" width="430" height="263">
+      <frame id="1423:14775" name="Frame 187" x="16" y="181" width="400" height="54">
+        <text id="1423:14776" name="Continue to details" x="135.5" y="17.5" width="129" height="19" />
+      </frame>
+      <frame id="1423:14777" name="Frame 286" x="15" y="88" width="400" height="61">
+        <boolean-operation id="1423:14778" name="Solid" x="0" y="0" width="0" height="0" />
+        <frame id="1423:14779" name="Group 2087328610" x="17" y="31" width="243" height="19">
+          <text id="1423:14780" name="1000 Brickell Plaza, Miami, FL 33131" x="17" y="31" width="243" height="19" />
+        </frame>
+        <text id="1423:14781" name="Address" x="17" y="11" width="42" height="14" />
+      </frame>
+      <frame id="1423:14782" name="Header" x="0" y="0" width="430" height="60">
+        <text id="1423:14783" name="Add address" x="171" y="22" width="88" height="19" />
+        <frame id="1423:14784" name="Frame 292" x="15" y="22" width="18.000001907348633" height="18.000001907348633">
+          <frame id="1423:14785" name="Frame 276" x="18" y="18" width="18.000001573610007" height="18.000001573609552" />
+          <text id="1423:14787" name="Back" x="23" y="0.0001220703125" width="35" height="19" hidden="true" />
+        </frame>
+        <frame id="1423:14788" name="Group 2087328522" x="395" y="20" width="20" height="20">
+          <instance id="1423:14789" name="close" x="395" y="20" width="20" height="20" />
+        </frame>
+      </frame>
+    </frame>
+    <rounded-rectangle id="1423:14790" name="image 67" x="0" y="0" width="430" height="55" />
+    <instance id="1423:14791" name="pin-circle, location" x="196" y="356" width="40" height="40" />
+  </frame>
+  <frame id="1423:14799" name="::" x="2890" y="2524" width="430" height="932">
+    <rounded-rectangle id="1423:14800" name="image 75" x="-164" y="-90" width="889" height="1147" />
+    <frame id="1423:14801" name="Frame 269" x="0" y="288" width="430" height="644">
+      <frame id="1423:14802" name="Frame 286" x="15" y="72" width="400" height="73">
+        <boolean-operation id="1423:14803" name="Solid" x="0" y="0" width="0" height="0" />
+        <frame id="1423:14804" name="Frame 298" x="16" y="16" width="158" height="41">
+          <text id="1423:14805" name="1000 Brickell Plaza" x="0" y="0" width="158" height="19" />
+          <text id="1423:14806" name="Miami, FL 33131" x="0" y="27" width="158" height="14" />
+        </frame>
+        <instance id="1423:14807" name="ic-pen-edit" x="360" y="25" width="24" height="24" />
+      </frame>
+      <frame id="1423:14808" name="Frame 287" x="15" y="161" width="400" height="61">
+        <boolean-operation id="1423:14809" name="Solid" x="0" y="0" width="0" height="0" />
+        <frame id="1423:14810" name="Group 2087328610" x="17" y="21" width="155" height="19">
+          <text id="1423:14811" name="Apartment / Suite / Unit" x="17" y="21" width="155" height="19" />
+        </frame>
+      </frame>
+      <frame id="1423:14812" name="Frame 288" x="15" y="238" width="400" height="61">
+        <boolean-operation id="1423:14813" name="Solid" x="0" y="0" width="0" height="0" />
+        <frame id="1423:14814" name="Group 2087328610" x="17" y="21" width="177" height="19">
+          <text id="1423:14815" name="Building / Residence name" x="17" y="21" width="177" height="19" />
+        </frame>
+      </frame>
+      <frame id="1423:14816" name="Frame 291" x="15" y="392" width="400" height="61">
+        <boolean-operation id="1423:14817" name="Solid" x="0" y="0" width="0" height="0" />
+        <frame id="1423:14818" name="Group 2087328610" x="17" y="21" width="136" height="19">
+          <text id="1423:14819" name="Delivery instructions" x="17" y="21" width="136" height="19" />
+        </frame>
+      </frame>
+      <frame id="1423:14820" name="Frame 292" x="15" y="469" width="400" height="61">
+        <boolean-operation id="1423:14821" name="Solid" x="0" y="0" width="0" height="0" />
+        <frame id="1423:14822" name="Group 2087328610" x="17" y="21" width="91" height="19">
+          <text id="1423:14823" name="Address label" x="17" y="21" width="91" height="19" />
+        </frame>
+      </frame>
+      <frame id="1423:14824" name="Frame 289" x="15" y="315" width="192" height="61">
+        <boolean-operation id="1423:14825" name="Solid" x="0" y="0" width="0" height="0" />
+        <frame id="1423:14826" name="Group 2087328610" x="16" y="21" width="34" height="19">
+          <text id="1423:14827" name="Floor" x="16" y="21" width="34" height="19" />
+        </frame>
+      </frame>
+      <frame id="1423:14828" name="Frame 290" x="223" y="315" width="192" height="61">
+        <boolean-operation id="1423:14829" name="Solid" x="0" y="0" width="0" height="0" />
+        <frame id="1423:14830" name="Group 2087328610" x="16" y="21" width="87" height="19">
+          <text id="1423:14831" name="Access code" x="16" y="21" width="87" height="19" />
+        </frame>
+      </frame>
+      <frame id="1423:14832" name="Header" x="0" y="0" width="430" height="60">
+        <text id="1423:14833" name="Address details" x="162" y="22" width="107" height="19" />
+        <frame id="1423:14834" name="Frame 292" x="15" y="22" width="18.000001907348633" height="18.000001907348633">
+          <frame id="1423:14835" name="Frame 276" x="18" y="18" width="18.000001573610007" height="18.000001573609552" />
+          <text id="1423:14837" name="Back" x="23" y="0.0001220703125" width="35" height="19" hidden="true" />
+        </frame>
+        <frame id="1423:14838" name="Group 2087328522" x="395" y="20" width="20" height="20">
+          <instance id="1423:14839" name="close" x="395" y="20" width="20" height="20" />
+        </frame>
+      </frame>
+      <frame id="1423:14840" name="Frame 187" x="16" y="562" width="400" height="54">
+        <text id="1423:14841" name="Save address" x="153.5" y="17.5" width="93" height="19" />
+      </frame>
+    </frame>
+    <rounded-rectangle id="1423:14842" name="image 67" x="0" y="0" width="430" height="55" />
+  </frame>
+  <frame id="1423:14853" name="::" x="3448" y="2524" width="430" height="932">
+    <rounded-rectangle id="1423:14854" name="image 75" x="-164" y="-90" width="889" height="1147" />
+    <frame id="1423:14855" name="Frame 269" x="0" y="288" width="430" height="644">
+      <frame id="1423:14856" name="Frame 286" x="15" y="72" width="400" height="73">
+        <boolean-operation id="1423:14857" name="Solid" x="0" y="0" width="0" height="0" />
+        <frame id="1423:14858" name="Frame 298" x="16" y="16" width="158" height="41">
+          <text id="1423:14859" name="1000 Brickell Plaza" x="0" y="0" width="158" height="19" />
+          <text id="1423:14860" name="Miami, FL 33131" x="0" y="27" width="158" height="14" />
+        </frame>
+        <instance id="1423:14861" name="ic-pen-edit" x="360" y="25" width="24" height="24" />
+      </frame>
+      <frame id="1423:14862" name="Frame 287" x="15" y="161" width="400" height="61">
+        <boolean-operation id="1423:14863" name="Solid" x="0" y="0" width="0" height="0" />
+        <frame id="1423:14864" name="Group 2087328610" x="17" y="21" width="155" height="19">
+          <text id="1423:14865" name="Apartment / Suite / Unit" x="17" y="21" width="155" height="19" />
+        </frame>
+      </frame>
+      <frame id="1423:14866" name="Frame 288" x="15" y="238" width="400" height="61">
+        <boolean-operation id="1423:14867" name="Solid" x="0" y="0" width="0" height="0" />
+        <frame id="1423:14868" name="Group 2087328610" x="17" y="21" width="177" height="19">
+          <text id="1423:14869" name="Building / Residence name" x="17" y="21" width="177" height="19" />
+        </frame>
+      </frame>
+      <frame id="1423:14870" name="Frame 291" x="15" y="392" width="400" height="61">
+        <boolean-operation id="1423:14871" name="Solid" x="0" y="0" width="0" height="0" />
+        <frame id="1423:14872" name="Group 2087328610" x="17" y="21" width="136" height="19">
+          <text id="1423:14873" name="Delivery instructions" x="17" y="21" width="136" height="19" />
+        </frame>
+      </frame>
+      <frame id="1423:14874" name="Frame 292" x="15" y="469" width="400" height="61">
+        <boolean-operation id="1423:14875" name="Solid" x="0" y="0" width="0" height="0" />
+        <frame id="1423:14876" name="Group 2087328610" x="17" y="21" width="91" height="19">
+          <text id="1423:14877" name="Address label" x="17" y="21" width="91" height="19" />
+        </frame>
+      </frame>
+      <frame id="1423:14878" name="Frame 289" x="15" y="315" width="192" height="61">
+        <boolean-operation id="1423:14879" name="Solid" x="0" y="0" width="0" height="0" />
+        <frame id="1423:14880" name="Group 2087328610" x="16" y="21" width="34" height="19">
+          <text id="1423:14881" name="Floor" x="16" y="21" width="34" height="19" />
+        </frame>
+      </frame>
+      <frame id="1423:14882" name="Frame 290" x="223" y="315" width="192" height="61">
+        <boolean-operation id="1423:14883" name="Solid" x="0" y="0" width="0" height="0" />
+        <frame id="1423:14884" name="Group 2087328610" x="16" y="21" width="87" height="19">
+          <text id="1423:14885" name="Access code" x="16" y="21" width="87" height="19" />
+        </frame>
+      </frame>
+      <frame id="1423:14886" name="Header" x="0" y="0" width="430" height="60">
+        <text id="1423:14887" name="Address details" x="162" y="22" width="107" height="19" />
+        <frame id="1423:14888" name="Frame 292" x="15" y="22" width="18.000001907348633" height="18.000001907348633">
+          <frame id="1423:14889" name="Frame 276" x="18" y="18" width="18.000001573610007" height="18.000001573609552" />
+          <text id="1423:14891" name="Back" x="23" y="0.0001220703125" width="35" height="19" hidden="true" />
+        </frame>
+        <frame id="1423:14892" name="Group 2087328522" x="395" y="20" width="20" height="20">
+          <instance id="1423:14893" name="close" x="395" y="20" width="20" height="20" />
+        </frame>
+      </frame>
+      <frame id="1423:14894" name="Frame 187" x="16" y="562" width="400" height="54">
+        <text id="1423:14895" name="Save address" x="153.5" y="17.5" width="93" height="19" />
+      </frame>
+    </frame>
+    <rounded-rectangle id="1423:14896" name="image 67" x="0" y="0" width="430" height="55" />
+  </frame>
+  <frame id="1443:2612" name="Корзина • есть позиции в корзине" x="100" y="4788" width="430" height="932">
+    <instance id="1443:2613" name="Status bar - iPhone 17 Pro" x="0" y="0" width="430" height="62" />
+    <frame id="1443:2614" name="Cart sheet" x="0" y="62" width="430" height="870">
+      <frame id="1443:2615" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1443:2616" name="Prana points" x="171" y="22" width="86" height="19" />
+        <instance id="1443:2617" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1443:2618" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1443:2619" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655804" height="19.999999841107638" />
+          <text id="1443:2621" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1443:2622" name="Text / Your dishes" x="16" y="73" width="180" height="28" />
+      <frame id="1443:2623" name="Go / E09 / Mastercard" x="16" y="129" width="398" height="138">
+        <text id="1443:2624" name="Text / ••••  7032" x="20" y="20" width="350" height="64" />
+        <text id="1443:2625" name="Text / Default payment method" x="20" y="100" width="350" height="18" />
+      </frame>
+      <instance id="1443:2626" name="Go / F05 / Points activity" x="16" y="287" width="398" height="64" />
+      <rounded-rectangle id="1443:2627" name="Divider" x="16" y="363" width="398" height="1" />
+      <frame id="1443:2628" name="Notice / Using your points" x="16" y="388" width="398" height="95">
+        <text id="1443:2629" name="Text / Using your points" x="16" y="16" width="358" height="21" />
+        <text id="1443:2630" name="Text / Available rewards are shown before you place an order." x="16" y="43" width="358" height="36" />
+      </frame>
+      <instance id="1443:2631" name="Go / F03 / Loyalty program terms" x="16" y="503" width="398" height="64" />
+    </frame>
+  </frame>
+  <frame id="1443:2716" name="Корзина • есть позиции в корзине" x="658" y="4788" width="430" height="932">
+    <instance id="1443:2717" name="Status bar - iPhone 17 Pro" x="0" y="0" width="430" height="62" />
+    <frame id="1443:2718" name="Cart sheet" x="0" y="62" width="430" height="870">
+      <frame id="1443:2719" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1443:2720" name="Prana points" x="171" y="22" width="86" height="19" />
+        <instance id="1443:2721" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1443:2722" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1443:2723" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1443:2725" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1443:2726" name="Text / Your dishes" x="16" y="73" width="84" height="28" />
+      <text id="1443:2762" name="Text / Personal details" x="16" y="109" width="144" height="18" />
+      <text id="1443:2764" name="Text / Your dishes" x="16" y="233" width="294" height="28" />
+      <instance id="1443:2769" name="shopping-bag-1" x="16" y="189" width="32" height="32" />
+      <text id="1443:2766" name="Text / Your saved profile will stay as it was. The changes you made on " x="16" y="273" width="296" height="42" />
+    </frame>
+  </frame>
+  <frame id="1443:2975" name="Корзина • есть позиции в корзине" x="1774" y="4788" width="430" height="932">
+    <instance id="1443:2976" name="Status bar - iPhone 17 Pro" x="0" y="0" width="430" height="62" />
+    <frame id="1443:2977" name="Cart sheet" x="0" y="62" width="430" height="870">
+      <frame id="1443:2978" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1443:2979" name="Prana points" x="171" y="22" width="86" height="19" />
+        <instance id="1443:2980" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1443:2981" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1443:2982" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1443:2984" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1443:2987" name="Text / Your dishes" x="16" y="233" width="222" height="28" />
+      <instance id="1443:3055" name="circle-info, info circle, tooltip, information" x="16" y="189" width="32" height="32" />
+      <text id="1443:2989" name="Text / Your saved profile will stay as it was. The changes you made on " x="16" y="273" width="296" height="42" />
+      <frame id="1443:3035" name="Bottom actions / safe inset 34" x="16" y="706" width="398" height="116">
+        <instance id="1443:3036" name="Go / E08 / Continue verification" x="0" y="0" width="398" height="52" />
+        <instance id="1443:3037" name="Go / E03 / Cancel" x="0" y="64" width="398" height="52" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1443:4172" name="Корзина • есть позиции в корзине" x="3502" y="5920" width="430" height="932">
+    <instance id="1443:4173" name="Status bar - iPhone 17 Pro" x="0" y="0" width="430" height="62" />
+    <frame id="1443:4174" name="Cart sheet" x="0" y="62" width="430" height="870">
+      <frame id="1443:4175" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1443:4176" name="Licenses" x="183" y="22" width="62" height="19" />
+        <instance id="1443:4177" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1443:4178" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1443:4179" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1443:4181" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1443:4182" name="Text / Your dishes" x="16" y="233" width="249" height="28" />
+      <instance id="1443:4183" name="circle-info, info circle, tooltip, information" x="16" y="189" width="32" height="32" />
+      <text id="1443:4184" name="Text / Your saved profile will stay as it was. The changes you made on " x="16" y="273" width="296" height="63" />
+      <frame id="1443:4185" name="Bottom actions / safe inset 34" x="16" y="706" width="398" height="116">
+        <instance id="1443:4186" name="Go / E08 / Continue verification" x="0" y="0" width="398" height="52" />
+        <instance id="1443:4187" name="Go / E03 / Cancel" x="0" y="64" width="398" height="52" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1443:4205" name="Корзина • есть позиции в корзине" x="4054" y="5920" width="430" height="932">
+    <instance id="1443:4206" name="Status bar - iPhone 17 Pro" x="0" y="0" width="430" height="62" />
+    <frame id="1443:4207" name="Cart sheet" x="0" y="62" width="430" height="870">
+      <frame id="1443:4208" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1443:4209" name="Privacy policy" x="166" y="22" width="96" height="19" />
+        <instance id="1443:4210" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1443:4211" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1443:4212" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1443:4214" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1443:4215" name="Text / Your dishes" x="16" y="233" width="263" height="28" />
+      <instance id="1443:4216" name="circle-info, info circle, tooltip, information" x="16" y="189" width="32" height="32" />
+      <text id="1443:4217" name="Text / Your saved profile will stay as it was. The changes you made on " x="16" y="273" width="296" height="63" />
+      <frame id="1443:4218" name="Bottom actions / safe inset 34" x="16" y="706" width="398" height="116">
+        <instance id="1443:4219" name="Go / E08 / Continue verification" x="0" y="0" width="398" height="52" />
+        <instance id="1443:4220" name="Go / E03 / Cancel" x="0" y="64" width="398" height="52" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1443:4238" name="Корзина • есть позиции в корзине" x="4606" y="5920" width="430" height="932">
+    <instance id="1443:4239" name="Status bar - iPhone 17 Pro" x="0" y="0" width="430" height="62" />
+    <frame id="1443:4240" name="Cart sheet" x="0" y="62" width="430" height="870">
+      <frame id="1443:4241" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1443:4242" name="Terms of use" x="170" y="22" width="88" height="19" />
+        <instance id="1443:4243" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1443:4244" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1443:4245" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1443:4247" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1443:4248" name="Text / Your dishes" x="16" y="233" width="252" height="28" />
+      <instance id="1443:4249" name="circle-info, info circle, tooltip, information" x="16" y="189" width="32" height="32" />
+      <text id="1443:4250" name="Text / Your saved profile will stay as it was. The changes you made on " x="16" y="273" width="296" height="63" />
+      <frame id="1443:4251" name="Bottom actions / safe inset 34" x="16" y="706" width="398" height="116">
+        <instance id="1443:4252" name="Go / E08 / Continue verification" x="0" y="0" width="398" height="52" />
+        <instance id="1443:4253" name="Go / E03 / Cancel" x="0" y="64" width="398" height="52" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1443:3892" name="Корзина • есть позиции в корзине" x="1774" y="5920" width="430" height="932">
+    <instance id="1443:3893" name="Status bar - iPhone 17 Pro" x="0" y="0" width="430" height="62" />
+    <frame id="1443:3894" name="Cart sheet" x="0" y="62" width="430" height="870">
+      <frame id="1443:3895" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1443:3896" name="Prana points" x="171" y="22" width="86" height="19" />
+        <instance id="1443:3897" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1443:3898" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1443:3899" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1443:3901" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1443:3902" name="Text / Your dishes" x="16" y="233" width="303" height="28" />
+      <instance id="1443:3925" name="bell, notification, activity, alert" x="16" y="189" width="32" height="32" />
+      <text id="1443:3904" name="Text / Your saved profile will stay as it was. The changes you made on " x="16" y="273" width="296" height="63" />
+      <frame id="1443:3905" name="Bottom actions / safe inset 34" x="16" y="706" width="398" height="116">
+        <instance id="1443:3906" name="Go / E08 / Continue verification" x="0" y="0" width="398" height="52" />
+        <instance id="1443:3907" name="Go / E03 / Cancel" x="0" y="64" width="398" height="52" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1443:3005" name="Корзина • есть позиции в корзине" x="2332" y="4788" width="430" height="932">
+    <instance id="1443:3006" name="Status bar - iPhone 17 Pro" x="0" y="0" width="430" height="62" />
+    <frame id="1443:3007" name="Cart sheet" x="0" y="62" width="430" height="870">
+      <frame id="1443:3008" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1443:3009" name="Prana points" x="171" y="22" width="86" height="19" />
+        <instance id="1443:3010" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1443:3011" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1443:3012" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1443:3014" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1443:3017" name="Text / Your dishes" x="16" y="233" width="273" height="28" />
+      <instance id="1443:3052" name="triangle-exclamation, error, warning, alert" x="16" y="189" width="32" height="32" />
+      <text id="1443:3019" name="Text / Your saved profile will stay as it was. The changes you made on " x="16" y="273" width="296" height="63" />
+      <frame id="1443:3043" name="Bottom actions / safe inset 34" x="16" y="706" width="398" height="116">
+        <instance id="1443:3044" name="Go / E08 / Continue verification" x="0" y="0" width="398" height="52" />
+        <instance id="1443:3045" name="Go / E03 / Cancel" x="0" y="64" width="398" height="52" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1443:2814" name="Корзина • есть позиции в корзине" x="1216" y="4788" width="430" height="932">
+    <instance id="1443:2815" name="Status bar - iPhone 17 Pro" x="0" y="0" width="430" height="62" />
+    <frame id="1443:2816" name="Cart sheet" x="0" y="62" width="430" height="870">
+      <frame id="1443:2817" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1443:2818" name="Prana points" x="171" y="22" width="86" height="19" />
+        <instance id="1443:2819" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1443:2820" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1443:2821" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1443:2823" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1443:2824" name="Text / Your dishes" x="16" y="73" width="145" height="28" />
+      <text id="1443:2860" name="Text / Personal details" x="16" y="109" width="132" height="18" />
+      <frame id="1443:2862" name="Notice / Pending · +200 points" x="16" y="155" width="398" height="77">
+        <text id="1443:2863" name="Text / Pending · +200 points" x="16" y="16" width="358" height="21" />
+        <text id="1443:2864" name="Text / Order #139 · Awaiting confirmation" x="16" y="43" width="358" height="18" />
+      </frame>
+      <text id="1443:2865" name="Text / Recent activity" x="16" y="264" width="390" height="23" />
+      <instance id="1443:2866" name="Go / C04 / +200 points · Order #138" x="16" y="305" width="398" height="64" />
+      <rounded-rectangle id="1443:2867" name="Divider" x="16" y="387" width="398" height="1" />
+      <instance id="1443:2868" name="Go / C08 / −24 points · Order #137" x="16" y="406" width="398" height="64" />
+      <text id="1443:2869" name="Text / Pending points aren’t included in your available balance." x="16" y="488" width="390" height="18" />
+    </frame>
+  </frame>
+  <frame id="1443:3059" name="Корзина • есть позиции в корзине" x="2890" y="4788" width="430" height="932">
+    <instance id="1443:3060" name="Status bar - iPhone 17 Pro" x="0" y="0" width="430" height="62" />
+    <frame id="1443:3061" name="Cart sheet" x="0" y="62" width="430" height="870">
+      <frame id="1443:3062" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1443:3063" name="Loyalty program terms" x="137" y="22" width="155" height="19" />
+        <instance id="1443:3064" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1443:3065" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1443:3066" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1443:3068" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1443:3069" name="Text / Your dishes" x="16" y="73" width="63" height="28" />
+      <text id="1443:3078" name="Text / Pending points aren’t included in your available balance." x="16" y="113" width="390" height="126" />
+    </frame>
+  </frame>
+  <frame id="1443:3928" name="Корзина • есть позиции в корзине" x="2332" y="5920" width="430" height="932">
+    <instance id="1443:3929" name="Status bar - iPhone 17 Pro" x="0" y="0" width="430" height="62" />
+    <frame id="1443:3930" name="Cart sheet" x="0" y="62" width="430" height="870">
+      <frame id="1443:3931" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1443:3932" name="Loyalty program terms" x="137" y="22" width="155" height="19" />
+        <instance id="1443:3933" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1443:3934" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1443:3935" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1443:3937" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1443:3938" name="Text / Your dishes" x="16" y="73" width="63" height="28" />
+      <text id="1443:3939" name="Text / Pending points aren’t included in your available balance." x="16" y="113" width="390" height="126" />
+    </frame>
+  </frame>
+  <frame id="1443:3660" name="Корзина • есть позиции в корзине" x="100" y="5920" width="430" height="932">
+    <instance id="1443:3661" name="Status bar - iPhone 17 Pro" x="0" y="0" width="430" height="62" />
+    <frame id="1443:3662" name="Cart sheet" x="0" y="62" width="430" height="870">
+      <frame id="1443:3663" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1443:3664" name="Settings &amp; information" x="137" y="22" width="154" height="19" />
+        <instance id="1443:3665" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1443:3666" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1443:3667" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655804" height="19.999999841107638" />
+          <text id="1443:3669" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1443:3670" name="Text / Your dishes" x="16" y="73" width="182" height="28" />
+      <instance id="1443:3704" name="Go / G02 / Notifications &amp; offers" x="16" y="129" width="398" height="64" />
+      <rounded-rectangle id="1443:3705" name="Divider" x="16" y="213" width="398" height="1" />
+      <instance id="1443:3706" name="Go / F03 / Loyalty program terms" x="16" y="234" width="398" height="64" />
+      <instance id="1443:3707" name="Go / G04 / Credits" x="16" y="298" width="398" height="64" />
+      <instance id="1443:3708" name="Go / G06 / Privacy policy" x="16" y="362" width="398" height="64" />
+      <instance id="1443:3709" name="Go / G09 / Terms of use" x="16" y="426" width="398" height="64" />
+    </frame>
+  </frame>
+  <frame id="1443:3742" name="Корзина • есть позиции в корзине" x="658" y="5920" width="430" height="932">
+    <instance id="1443:3743" name="Status bar - iPhone 17 Pro" x="0" y="0" width="430" height="62" />
+    <frame id="1443:3744" name="Cart sheet" x="0" y="62" width="430" height="870">
+      <frame id="1443:3745" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1443:3746" name="Notifications" x="170" y="22" width="88" height="19" />
+        <instance id="1443:3747" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1443:3748" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1443:3749" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1443:3751" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1443:3752" name="Text / Your dishes" x="16" y="73" width="158" height="28" />
+      <text id="1443:3797" name="Text / Personal details" x="16" y="109" width="241" height="18" />
+      <text id="1443:3799" name="Text / Promotions &amp; offers" x="16" y="155" width="390" height="23" />
+      <frame id="1443:3800" name="Go / G03 / Push notifications" x="16" y="198" width="398" height="48">
+        <frame id="1443:3801" name="Labels" x="0" y="4" width="322" height="40">
+          <text id="1443:3802" name="Text / Push notifications" x="0" y="0" width="322" height="20" />
+          <text id="1443:3803" name="Text / Offers on this device." x="0" y="24" width="322" height="16" />
+        </frame>
+        <frame id="1443:3804" name="Switch / On" x="346" y="8" width="52" height="32" />
+      </frame>
+      <rounded-rectangle id="1443:3806" name="Divider" x="16" y="264" width="398" height="1" />
+      <frame id="1443:3807" name="Go / G07 / Email offers" x="16" y="283" width="398" height="48">
+        <frame id="1443:3808" name="Labels" x="0" y="4" width="322" height="40">
+          <text id="1443:3809" name="Text / Email offers" x="0" y="0" width="322" height="20" />
+          <text id="1443:3810" name="Text / Occasional promotions by email." x="0" y="24" width="322" height="16" />
+        </frame>
+        <frame id="1443:3811" name="Switch / Off" x="346" y="8" width="52" height="32" />
+      </frame>
+      <rounded-rectangle id="1443:3813" name="Divider" x="16" y="349" width="398" height="1" />
+      <frame id="1443:3814" name="Go / G07 / SMS offers" x="16" y="368" width="398" height="48">
+        <frame id="1443:3815" name="Labels" x="0" y="4" width="322" height="40">
+          <text id="1443:3816" name="Text / SMS offers" x="0" y="0" width="322" height="20" />
+          <text id="1443:3817" name="Text / Promotions to your verified number." x="0" y="24" width="322" height="16" />
+        </frame>
+        <frame id="1443:3818" name="Switch / Off" x="346" y="8" width="52" height="32" />
+      </frame>
+      <frame id="1443:3820" name="Notice / Order updates" x="16" y="434" width="398" height="95">
+        <text id="1443:3821" name="Text / Order updates" x="16" y="16" width="358" height="21" />
+        <text id="1443:3822" name="Text / Messages needed to complete your order are managed separately." x="16" y="43" width="358" height="36" />
+      </frame>
+      <text id="1443:3823" name="Text / You can change these choices at any time." x="16" y="547" width="398" height="18" />
+      <instance id="1443:4154" name="Go / E08 / Continue verification" x="16" y="770" width="398" height="52" />
+    </frame>
+  </frame>
+  <frame id="1443:3953" name="Корзина • есть позиции в корзине" x="2890" y="5920" width="430" height="932">
+    <instance id="1443:3954" name="Status bar - iPhone 17 Pro" x="0" y="0" width="430" height="62" />
+    <frame id="1443:3955" name="Cart sheet" x="0" y="62" width="430" height="870">
+      <frame id="1443:3956" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1443:3957" name="Credits" x="189" y="22" width="50" height="19" />
+        <instance id="1443:3958" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1443:3959" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1443:3960" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1443:3962" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1443:3963" name="Text / Your dishes" x="16" y="73" width="60" height="28" />
+      <text id="1443:3964" name="Text / Personal details" x="16" y="109" width="89" height="18" />
+      <text id="1443:4003" name="Text / App information &amp; acknowledgements" x="16" y="155" width="398" height="23" />
+      <rounded-rectangle id="1443:4004" name="Divider" x="16" y="196" width="398" height="1" />
+      <instance id="1443:4005" name="Go / G05 / Licenses &amp; acknowledgements" x="16" y="215" width="398" height="64" />
+      <instance id="1443:4006" name="Go / G06 / Privacy policy" x="16" y="279" width="398" height="64" />
+      <instance id="1443:4007" name="Go / G09 / Terms of use" x="16" y="343" width="398" height="64" />
+      <text id="1443:4008" name="Text / Your account settings and order history are available in Profile" x="16" y="435" width="398" height="40" />
+    </frame>
+  </frame>
+  <frame id="1443:4097" name="Корзина • есть позиции в корзине" x="1216" y="5920" width="430" height="932">
+    <instance id="1443:4098" name="Status bar - iPhone 17 Pro" x="0" y="0" width="430" height="62" />
+    <frame id="1443:4099" name="Cart sheet" x="0" y="62" width="430" height="870">
+      <frame id="1443:4100" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1443:4101" name="Notifications" x="170" y="22" width="88" height="19" />
+        <instance id="1443:4102" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1443:4103" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1443:4104" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1443:4106" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1443:4107" name="Text / Your dishes" x="16" y="73" width="158" height="28" />
+      <text id="1443:4108" name="Text / Personal details" x="16" y="109" width="241" height="18" />
+      <text id="1443:4109" name="Text / Promotions &amp; offers" x="16" y="260" width="390" height="23" />
+      <frame id="1443:4110" name="Go / G03 / Push notifications" x="16" y="303" width="398" height="48">
+        <frame id="1443:4111" name="Labels" x="0" y="4" width="322" height="40">
+          <text id="1443:4112" name="Text / Push notifications" x="0" y="0" width="322" height="20" />
+          <text id="1443:4113" name="Text / Offers on this device." x="0" y="24" width="322" height="16" />
+        </frame>
+        <frame id="1443:4114" name="Switch / On" x="346" y="8" width="52" height="32" />
+      </frame>
+      <rounded-rectangle id="1443:4116" name="Divider" x="16" y="369" width="398" height="1" />
+      <frame id="1443:4117" name="Go / G07 / Email offers" x="16" y="388" width="398" height="48">
+        <frame id="1443:4118" name="Labels" x="0" y="4" width="322" height="40">
+          <text id="1443:4119" name="Text / Email offers" x="0" y="0" width="322" height="20" />
+          <text id="1443:4120" name="Text / Occasional promotions by email." x="0" y="24" width="322" height="16" />
+        </frame>
+        <frame id="1443:4121" name="Switch / Off" x="346" y="8" width="52" height="32" />
+      </frame>
+      <rounded-rectangle id="1443:4123" name="Divider" x="16" y="454" width="398" height="1" />
+      <frame id="1443:4124" name="Go / G07 / SMS offers" x="16" y="473" width="398" height="48">
+        <frame id="1443:4125" name="Labels" x="0" y="4" width="322" height="40">
+          <text id="1443:4126" name="Text / SMS offers" x="0" y="0" width="322" height="20" />
+          <text id="1443:4127" name="Text / Promotions to your verified number." x="0" y="24" width="322" height="16" />
+        </frame>
+        <frame id="1443:4128" name="Switch / Off" x="346" y="8" width="52" height="32" />
+      </frame>
+      <frame id="1443:4130" name="Notice / Order updates" x="16" y="539" width="398" height="95">
+        <text id="1443:4131" name="Text / Order updates" x="16" y="16" width="358" height="21" />
+        <text id="1443:4132" name="Text / Messages needed to complete your order are managed separately." x="16" y="43" width="358" height="36" />
+      </frame>
+      <text id="1443:4133" name="Text / You can change these choices at any time." x="16" y="652" width="398" height="18" />
+      <instance id="1443:4158" name="Go / E08 / Continue verification" x="16" y="770" width="398" height="52" />
+      <frame id="1443:4162" name="Notice / Preference wasn’t saved" x="16" y="155" width="398" height="77">
+        <text id="1443:4163" name="Text / Preference wasn’t saved" x="16" y="16" width="358" height="21" />
+        <text id="1443:4164" name="Text / Your previous setting is still active. Try again." x="16" y="43" width="358" height="18" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1443:4722" name="Корзина • есть позиции в корзине" x="612" y="7180" width="430" height="932">
+    <instance id="1443:4723" name="Status bar - iPhone 17 Pro" x="0" y="0" width="430" height="62" />
+    <frame id="1443:4724" name="Cart sheet" x="0" y="62" width="430" height="870">
+      <frame id="1443:4725" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1443:4726" name="Profile" x="192" y="22" width="44" height="19" />
+        <instance id="1443:4727" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1443:4728" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1443:4729" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1443:4731" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1443:4732" name="Text / Your dishes" x="16" y="233" width="179" height="28" />
+      <instance id="1443:4733" name="people-circle, user-circle,avatar,profile" x="16" y="189" width="32" height="32" />
+      <text id="1443:4734" name="Text / Your saved profile will stay as it was. The changes you made on " x="16" y="273" width="296" height="63" />
+      <frame id="1443:4735" name="Bottom actions / safe inset 34" x="16" y="706" width="398" height="116">
+        <instance id="1443:4736" name="Go / E08 / Continue verification" x="0" y="0" width="398" height="52" />
+        <instance id="1443:4737" name="Go / E03 / Cancel" x="0" y="64" width="398" height="52" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1443:4690" name="Screen / H01 / Подтверждение выхода" x="100" y="7180" width="430" height="932">
+    <frame id="1443:4691" name="Status / safe area 62" x="0" y="0" width="430" height="62">
+      <text id="1443:4692" name="Text / 9:41" x="40" y="22" width="60" height="22" />
+      <frame id="1443:4693" name="Frame" x="310" y="24" width="80" height="16" />
+    </frame>
+    <frame id="1443:4702" name="Account sheet" x="0" y="62" width="430" height="870">
+      <frame id="1443:4703" name="Navigation" x="20" y="6" width="390" height="52">
+        <frame id="1443:4704" name="Go / A01 / Back" x="0" y="2" width="88" height="48">
+          <frame id="1443:4705" name="Icon / back" x="0" y="15" width="18" height="18" />
+          <text id="1443:4707" name="Text / Back" x="23" y="14" width="62" height="20" />
+        </frame>
+        <text id="1443:4708" name="Text / Log out" x="88" y="15" width="214" height="22" />
+        <frame id="1443:4709" name="Balance navigation" x="302" y="2" width="88" height="48" />
+      </frame>
+      <frame id="1443:4710" name="Content" x="20" y="76" width="390" height="230">
+        <frame id="1443:4711" name="Empty state" x="0" y="0" width="390" height="230">
+          <instance id="1443:4818" name="arrow-box-right, login, enter, door" x="0" y="90" width="32" height="32" />
+          <text id="1443:4714" name="Text / Log out of Prana?" x="0" y="138" width="390" height="34" />
+          <text id="1443:4715" name="Text / Your saved addresses, cards and order history will be here when " x="0" y="188" width="390" height="42" />
+        </frame>
+      </frame>
+    </frame>
+    <rounded-rectangle id="1443:4716" name="Home indicator" x="148" y="917" width="134" height="5" />
+    <frame id="1443:4717" name="Bottom actions / safe inset 34" x="20" y="764" width="390" height="114">
+      <instance id="1443:4718" name="Go / A01 / Stay signed in" x="0" y="0" width="390" height="52" />
+      <instance id="1443:4719" name="Go / H02 / Log out" x="0" y="62" width="390" height="52" />
+    </frame>
+  </frame>
+  <frame id="1443:4655" name="Корзина • есть позиции в корзине" x="1170" y="7180" width="430" height="932">
+    <instance id="1443:4656" name="Status bar - iPhone 17 Pro" x="0" y="0" width="430" height="62" />
+    <frame id="1443:4657" name="Cart sheet" x="0" y="62" width="430" height="870">
+      <frame id="1443:4658" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1443:4659" name="Profile" x="192" y="22" width="44" height="19" />
+        <instance id="1443:4660" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1443:4661" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1443:4662" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1443:4664" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1443:4665" name="Text / Your dishes" x="16" y="233" width="199" height="28" />
+      <instance id="1443:4666" name="people-circle, user-circle,avatar,profile" x="16" y="189" width="32" height="32" />
+      <text id="1443:4667" name="Text / Your saved profile will stay as it was. The changes you made on " x="16" y="273" width="296" height="42" />
+      <frame id="1443:4668" name="Bottom actions / safe inset 34" x="16" y="706" width="398" height="116">
+        <instance id="1443:4669" name="Go / E08 / Continue verification" x="0" y="0" width="398" height="52" />
+        <instance id="1443:4670" name="Go / E03 / Cancel" x="0" y="64" width="398" height="52" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1443:4487" name="Корзина • есть позиции в корзине" x="1728" y="7180" width="430" height="932">
+    <instance id="1443:4488" name="Status bar - iPhone 17 Pro" x="0" y="0" width="430" height="62" />
+    <frame id="1443:4489" name="Cart sheet" x="0" y="62" width="430" height="870">
+      <frame id="1443:4490" name="Header" x="0" y="0" width="430" height="61">
+        <text id="1443:4491" name="Prana points" x="171" y="22" width="86" height="19" />
+        <instance id="1443:4492" name="trash-can, delete, remove, garbage, waste" x="394" y="20" width="20" height="20" hidden="true" />
+        <frame id="1443:4493" name="Frame 2087328813" x="15.999998092651367" y="20" width="59" height="20">
+          <frame id="1443:4494" name="Frame 276" x="20.000001907348633" y="20" width="20.000003655803994" height="19.999999841107638" />
+          <text id="1443:4496" name="Back" x="24.000003814697266" y="0.49999991059303284" width="35" height="19" />
+        </frame>
+      </frame>
+      <text id="1443:4497" name="Text / Your dishes" x="16" y="233" width="203" height="28" />
+      <instance id="1443:4498" name="triangle-exclamation, error, warning, alert" x="16" y="189" width="32" height="32" />
+      <text id="1443:4499" name="Text / Your saved profile will stay as it was. The changes you made on " x="16" y="273" width="296" height="42" />
+      <frame id="1443:4500" name="Bottom actions / safe inset 34" x="16" y="706" width="398" height="116">
+        <instance id="1443:4501" name="Go / E08 / Continue verification" x="0" y="0" width="398" height="52" />
+        <instance id="1443:4502" name="Go / E03 / Cancel" x="0" y="64" width="398" height="52" />
+      </frame>
+    </frame>
+  </frame>
+</section>
+IMPORTANT: The user has selected a section node, so you have received a sparse metadata response. You MUST call get_design_context on the nodes or their sublayers individually based on their IDs to implement the design.

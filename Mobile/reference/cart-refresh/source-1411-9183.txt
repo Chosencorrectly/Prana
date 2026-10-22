@@ -1,0 +1,38 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/8025e45e-69be-49a9-bdc6-21080396d4f1";
+const imgCrossLargeCrossedLargeClose = `${assetPathPrefix}/d005a.svg`;
+
+export default function Component() {
+  return (
+    <div className="bg-[var(--account-canvas,#080808)] relative size-full" data-node-id="1411:9183" data-name="Корзина • не загружается">
+      <CodeConnectSnippet data-node-id="1420:5597" data-name="Status bar - iPhone 17 Pro">
+        {/* iOS and iPadOS 27 component */}
+        <StatusBarIPhone17Pro textTime="9:41" time="9:41" />
+      </CodeConnectSnippet>
+      <div className="absolute bg-[var(--account-surface,#121212)] h-[799px] left-0 rounded-tl-[32px] rounded-tr-[32px] top-[62px] w-[430px]" data-node-id="1411:9195" data-name="Cart sheet">
+        <div className="absolute h-[61px] left-0 overflow-clip top-0 w-[430px]" data-node-id="1411:9196" data-name="Header">
+          <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(50%-15px)] not-italic text-[16px] text-white top-[22px] whitespace-nowrap" data-node-id="1411:9197">
+            Cart
+          </p>
+          <div className="absolute left-[16px] size-[20px] top-[20px]" data-node-id="1411:9198" data-name="cross-large, crossed large, close">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCrossLargeCrossedLargeClose} />
+          </div>
+        </div>
+        <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[12px] items-start left-[16px] top-[73px] w-[316px]" data-node-id="1411:9249">
+          <p className="font-['SF_Pro:Semibold'] font-[590] leading-[28px] relative shrink-0 text-[22px] text-white w-full" data-node-id="1411:9200" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Your cart couldn’t load
+          </p>
+          <p className="font-['SF_Pro:Regular'] font-normal leading-[20px] relative shrink-0 text-[16px] text-[color:var(--account-secondary,#a1a1a1)] w-full" data-node-id="1411:9247" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Check your connection and try again. Your last selection may still be available.
+          </p>
+        </div>
+      </div>
+      <div className="absolute backdrop-blur-[17px] bg-gradient-to-b content-stretch flex flex-col from-[rgba(18,18,18,0)] gap-[16px] items-start left-0 px-[20px] py-[40px] to-black top-[729px] w-[430px]" data-node-id="1411:9234" data-name="Fixed cart summary">
+        <a className="bg-[var(--account-accent,#ea5c00)] content-stretch cursor-pointer flex h-[52px] items-center justify-center relative rounded-[12px] shrink-0 w-[390px]" href="https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1028-34599" data-node-id="1411:9240" target="_blank" data-name="Go / CHECKOUT / Proceed to checkout">
+          <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[21px] relative shrink-0 text-[16px] text-[color:var(--account-text,#ededed)] text-center w-[342px]" data-node-id="I1411:9240;1399:1568" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Try again
+          </p>
+        </a>
+      </div>
+    </div>
+  );
+}

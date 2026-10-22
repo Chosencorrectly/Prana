@@ -1,21 +1,25 @@
-import { createContext, useContext, useEffect, useRef, useState, type FormEvent } from 'react';
+import { createContext, useContext, useEffect, useRef, useState, type Context, type FormEvent } from 'react';
 import { MotionConfig } from 'motion/react';
 import { BottomSheet, FlowStack, KeyboardInput, MobileScroll, useFlow, type FlowScreen } from './mobile';
-import { normalizeCode, normalizePhone, RESEND_SECONDS, resendRemaining, validPhone, verifyCode } from './auth-model';
+import { normalizeCode, RESEND_SECONDS, resendRemaining, verifyCode } from './auth-model';
+import { DEFAULT_PHONE, phoneDetails, type PhoneDraft } from './phone-model';
+import { PhoneNumberField } from './PhoneNumberField';
 import { authStep } from './auth-motion';
 import { Catalog, CatalogHeader, CatalogProvider } from './catalog/Catalog';
+import { ProfileProvider, useProfile } from './profile/ProfileState';
 
 const asset = (name: string) => `/assets/auth/${name}`;
 type Notice = { title: string; description: string; phoneAction?: boolean } | null;
 type AuthState = {
-  phone: string; setPhone: (value: string) => void;
+  phone: PhoneDraft; setPhone: (value: PhoneDraft) => void;
   code: string; setCode: (value: string) => void;
   phoneError: boolean; setPhoneError: (value: boolean) => void;
   codeError: boolean; setCodeError: (value: boolean) => void;
   deadline: number; setDeadline: (value: number) => void;
   notice: Notice; setNotice: (notice: Notice) => void;
 };
-const AuthContext = createContext<AuthState | null>(null);
+const AuthContext: Context<AuthState | null> = import.meta.hot?.data.authContext ?? createContext<AuthState | null>(null);
+if (import.meta.hot) import.meta.hot.data.authContext = AuthContext;
 const useAuth = () => useContext(AuthContext)!;
 
 function Toolbar() {
@@ -23,7 +27,8 @@ function Toolbar() {
   return <button className="auth-back" type="button" aria-label="Back" onPointerDown={event => event.preventDefault()} onClick={flow.pop}><img src={asset('back.svg')} alt="" /></button>;
 }
 function FormFooter({ kind }: { kind: 'phone' | 'code' }) {
-  return <div className="auth-footer"><button className="auth-primary" type="submit" form={`${kind}-form`} onPointerDown={(event) => event.preventDefault()}>{kind === 'phone' ? 'Get the code via SMS' : 'Confirm'}</button></div>;
+  const auth = useAuth();
+  return <div className="auth-footer"><button className="auth-primary" type="submit" form={`${kind}-form`} disabled={kind === 'phone' && (!phoneDetails(auth.phone).possible || auth.phoneError)} onPointerDown={(event) => event.preventDefault()}>{kind === 'phone' ? 'Get the code via SMS' : 'Confirm'}</button></div>;
 }
 function Splash() {
   const flow = useFlow();
@@ -52,6 +57,7 @@ function NoticeSheet() {
 function SignIn() {
   const flow = useFlow();
   const auth = useAuth();
+  const profile = useProfile();
   const active = flow.current.id === 'sign-in';
   const social = (provider: string) => auth.setNotice({ title: `Sign in with ${provider}`, description: `${provider} sign-in is not connected yet. You can continue with your phone.`, phoneAction: true });
   return <section className="auth-welcome" inert={!active} aria-hidden={!active || undefined} aria-label="Sign in">
@@ -69,7 +75,7 @@ function SignIn() {
         <p className="auth-legal">By clicking this button, I accept<br />the <button type="button" onClick={() => auth.setNotice({ title: 'Public Offer', description: 'The Public Offer has not been added to this prototype yet.' })}>Public Offer</button> and <button type="button" onClick={() => auth.setNotice({ title: 'Privacy Policy', description: 'The Privacy Policy has not been added to this prototype yet.' })}>Privacy Policy</button>.</p>
       </div>
     </div></MobileScroll>
-    <button type="button" className="auth-skip" onClick={() => flow.reset(catalogScreen)}>Skip</button>
+    <button type="button" className="auth-skip" onClick={() => { profile.setData(current => ({ ...current, signedIn: false })); flow.reset(catalogScreen); }}>Skip</button>
     {active && <NoticeSheet />}
   </section>;
 }
@@ -80,23 +86,22 @@ function Phone() {
   const active = flow.current.id === 'phone';
   function submit(event: FormEvent) {
     event.preventDefault();
-    if (!validPhone(auth.phone)) { auth.setPhoneError(true); input.current?.focus({ preventScroll: true }); return; }
+    if (!phoneDetails(auth.phone).possible || auth.phoneError) { auth.setPhoneError(true); input.current?.focus({ preventScroll: true }); return; }
     auth.setCode(''); auth.setCodeError(false); auth.setDeadline(Date.now() + RESEND_SECONDS * 1000);
     flow.push(codeScreen);
   }
   return <section className="auth-form-screen" inert={!active} aria-hidden={!active || undefined}>
     <MobileScroll className="auth-scroll"><form id="phone-form" className="auth-form phone-form" onSubmit={submit} noValidate>
       <h1>Enter Phone</h1><p className="auth-description">Enter your phone number to<br />get the authorization code</p>
-      <KeyboardInput ref={input} className="phone-input" aria-label="Phone number" type="tel" inputMode="tel" autoComplete="tel" placeholder="+100000000000" value={auth.phone}
-        aria-invalid={auth.phoneError || undefined} aria-describedby={auth.phoneError ? 'phone-error' : undefined}
-        onChange={(event) => { auth.setPhone(normalizePhone(event.target.value)); auth.setPhoneError(false); }} />
-      {auth.phoneError && <p className="auth-error phone-error" id="phone-error" role="alert">Enter a valid phone number<br />with country code</p>}
+      <PhoneNumberField inputRef={input} value={auth.phone} active={active} invalid={auth.phoneError} onInputError={auth.setPhoneError}
+        onChange={value => { auth.setPhone(value); auth.setPhoneError(false); }} />
     </form></MobileScroll>
   </section>;
 }
 function Code() {
   const auth = useAuth();
   const flow = useFlow();
+  const profile = useProfile();
   const input = useRef<HTMLInputElement>(null);
   const active = flow.current.id === 'code';
   const [now, setNow] = useState(Date.now);
@@ -117,6 +122,7 @@ function Code() {
       auth.setCodeError(true); input.current?.focus({ preventScroll: true }); input.current?.select(); return;
     }
     auth.setNotice(null);
+    profile.signIn(phoneDetails(auth.phone).international);
     flow.reset(catalogScreen);
   }
   return <section className="auth-form-screen" inert={!active} aria-hidden={!active || undefined}>
@@ -147,13 +153,13 @@ const splashScreen: FlowScreen = { id: 'splash', render: () => <Splash /> };
 const signInScreen: FlowScreen = { id: 'sign-in', render: () => <SignIn /> };
 const phoneScreen: FlowScreen = { id: 'phone', focusSelector: '.phone-input', headerHeight: 60, header: () => <Toolbar />, footerHeight: 79, footer: () => <FormFooter kind="phone" />, render: () => <Phone /> };
 const codeScreen: FlowScreen = { id: 'code', focusSelector: '.code-input', headerHeight: 60, header: () => <Toolbar />, footerHeight: 79, footer: () => <FormFooter kind="code" />, render: () => <Code /> };
-const catalogScreen: FlowScreen = { id: 'catalog', headerHeight: 117, header: () => <CatalogHeader />, render: () => <Catalog /> };
+const catalogScreen: FlowScreen = { id: 'catalog', headerHeight: 117, header: flow => <CatalogHeader onSignIn={() => flow.reset(signInScreen)} />, render: () => <Catalog /> };
 export default function Prototype() {
-  const [phone, setPhone] = useState(''); const [code, setCode] = useState('');
+  const [phone, setPhone] = useState<PhoneDraft>(DEFAULT_PHONE); const [code, setCode] = useState('');
   const [phoneError, setPhoneError] = useState(false); const [codeError, setCodeError] = useState(false);
   const [deadline, setDeadline] = useState(0); const [notice, setNotice] = useState<Notice>(null);
   useEffect(() => { document.title = 'Prana — Mobile sign in'; }, []);
   return <MotionConfig reducedMotion="user"><AuthContext.Provider value={{ phone, setPhone, code, setCode, phoneError, setPhoneError, codeError, setCodeError, deadline, setDeadline, notice, setNotice }}>
-    <CatalogProvider><div className="prana-auth"><FlowStack initial={splashScreen} motionPreset={authStep} /></div></CatalogProvider>
+    <ProfileProvider><CatalogProvider><div className="prana-auth"><FlowStack initial={splashScreen} motionPreset={authStep} /></div></CatalogProvider></ProfileProvider>
   </AuthContext.Provider></MotionConfig>;
 }

@@ -4,9 +4,10 @@ import { normalizeCode, normalizePhone, validPhone, verifyCode } from '../auth-m
 export const CHECKOUT_RESEND_SECONDS = 43;
 export type PhoneVerification = { phone: string; code: string; sentPhone: string | null; deadline: number; error: boolean; confirmedPhone: string | null };
 export const initialPhoneVerification: PhoneVerification = { phone: '+1', code: '', sentPhone: null, deadline: 0, error: false, confirmedPhone: null };
-export type PhoneAction = { type: 'phone' | 'code'; value: string } | { type: 'send' | 'resend'; now: number } | { type: 'confirm' };
+export type PhoneAction = { type: 'phone' | 'code'; value: string } | { type: 'send' | 'resend'; now: number } | { type: 'confirm' } | { type: 'profile-confirmed'; phone: string };
 export const canConfirmPhone = (state: PhoneVerification) => validPhone(state.phone) && state.phone === state.sentPhone && verifyCode(state.code);
 export function phoneVerificationReducer(state: PhoneVerification, action: PhoneAction): PhoneVerification {
+  if (action.type === 'profile-confirmed') return action.phone ? { ...initialPhoneVerification, phone: action.phone, confirmedPhone: action.phone } : initialPhoneVerification;
   if (action.type === 'phone') {
     const phone = normalizePhone(action.value);
     return phone === state.phone ? state : { ...state, phone, code: '', sentPhone: null, deadline: 0, error: false };

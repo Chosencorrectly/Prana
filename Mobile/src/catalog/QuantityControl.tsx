@@ -25,7 +25,7 @@ export function QuantityControl({ product, quantity, large, detail = false, onCh
   }, [quantity]);
   const change = (delta: number, event: MouseEvent<HTMLButtonElement>) => {
     setDirection(delta);
-    if (event.currentTarget.matches(':focus-visible')) {
+    if (!detail && event.currentTarget.matches(':focus-visible')) {
       if (quantity === 0) focusAfterChange.current = 'plus';
       else if (quantity === 1 && delta < 0) focusAfterChange.current = 'add';
     }
@@ -38,9 +38,9 @@ export function QuantityControl({ product, quantity, large, detail = false, onCh
   const total = money(product.priceCents * quantity);
   return <div className={`catalog-purchase${detail ? ' dish-purchase' : ''}`} data-quantity={quantity}>
     <AnimatePresence initial={false}>
-      {quantity === 0 ? <PurchaseState key="empty" reduced={reduced}>
+      {quantity === 0 || detail ? <PurchaseState key="empty" reduced={reduced}>
         <button ref={addRef} className="catalog-add" type="button" onClick={event => change(1, event)} aria-label={`Add ${product.name} to cart for ${money(product.priceCents)}`}>
-          {detail ? <img className="purchase-icon" src="/assets/dish/basket.svg" alt="" aria-hidden="true" /> : icon(large ? 'basket-dark' : 'basket')}<span className="catalog-price"><span>{detail ? 'Add to Cart' : 'From'}</span> {money(product.priceCents)}</span>
+          {detail ? <img className="purchase-icon" src="/assets/dish/basket-add-2px.svg" alt="" aria-hidden="true" /> : icon(large ? 'basket-dark' : 'basket')}<span className="catalog-price"><span>{detail ? 'Add to cart' : 'From'}</span> {money(product.priceCents)}</span>
         </button>
       </PurchaseState> : <PurchaseState key="filled" reduced={reduced}>
         <div className="catalog-quantity" role="group" aria-label={`Quantity for ${product.name}`}>

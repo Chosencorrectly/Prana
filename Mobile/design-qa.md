@@ -1,5 +1,85 @@
 # Prana mobile — визуальная и функциональная проверка
 
+## D-76 — полировка checkout,22.10.2026
+
+Build/TypeScript/runtime29 и82/82 node-теста passed. iPhone/Pixel: финальный зазор48px (DOM48.17/48.05 с округлением масштабированной оболочки), совпадение суммы сCart28/28/600 иfont-family, целая рамка интервала и radio50%/translate. Возврат/закрытие и переключение Card→Google проверены. [Кадры/протокол](reference/checkout-polish/README.md). Реальные устройства и системный Reduce Motion повторно не проверялись.
+
+## D-75 — состав checkout и новые состояния, 22.10.2026
+
+82/82 node-теста, build/TypeScript/integrity29 passed. В IAB: multiple allergies/Apply/Back, Custom validation, процент после скидки/изменение количества, Card/discard/bank/save, radio стрелками, SMS1111, полный заказ с одинаковым итогом$33.02, сохранение при reopen, empty/disabledPay. Pixel: Gluten/scroll, клавиатура/CTA, Escape keyboard→Back. Final console errors0/broken images0, button600/dock ancestors opacity1. [Полный протокол и явно непроверенные сценарии](reference/checkout-refresh/README.md), [JSON](reference/checkout-refresh/browser-audit.json). Physical devices/provider sheets/system Reduce Motion не проверены; offline/card-error/no-card новый визуальный прогон не выполнен. Только локально, без публикаций.
+
+## D-74 — ввод телефона с ведущей1,22.10.2026
+
+До исправления воспроизведено:10единиц не включают SMS; при дальнейшем наборе каждая11-я цифра вызывает удаление первой1. Причина — эвристика национального префикса в readPhoneInput и повторная интерпретация1 в AsYouType. Обычный набор теперь не изменяет цифры; дляUS/CA полнота равна10цифрам, явный+1 при вставке отделяется один раз. Браузер: каретка после3/6/10цифр —4/8/12;10единиц включают кнопку,13цифр сохраняются с выключенной кнопкой,3Backspace восстанавливают доступность. Проверены замена выделения, вставка/удаление в середине, Delete/Backspace рядом с пробелом, очистка, международная вставка, Канада, SMS1111→каталог.27тестов/build/TypeScript/integrity29passed, consoleerrors0. [Аудит](reference/phone-input/d74-audit.json), [кадр](reference/phone-input/d74-fixed.png). Physical touch не проверялся; публикаций нет.
+
+## D-73 — профиль и настройки,22.10.2026
+
+Локальный перенос актуальной1443:4821:59фреймов/55уникальных демосценариев. Открыты все55состояний, broken images0; это маршрутная/контентная проверка, не визуальная приёмка каждого перехода. Пройдены guest→existing auth, личные данные/валидация/save/retry/discard, birthday, phone/SMS1111 и ошибка, card verify/bank/save/edit/default/remove, адрес search/details/save/remove/outside zone, notifications/permission/retry, documents retry, logout/cancel/guest. Повтор в основной корзине корректно объединилAcai1 сAcai1+Buddha1:3items/$50.85; после профильного SMS checkout показалOrder, локальный заказ появился вMy orders. Изолированный preview сохранил исходную корзину. Главная/форма/клавиатура проверены также наPixel10.
+
+72/72node-теста passed (7новых), npm run build/TypeScript/runtime29passed. Bundle warning846kB остаётся. Исправлены Escape/Radix, лишний возврат при Discard адреса, HMR-контексты и сохранение исходящих подписей удаления. Финальный запуск отдельно от исторических HMR-ошибок. Физический touch, системный Reduce Motion, Dynamic Type/screen reader и browser runtime suite не проверены. [Полный протокол](reference/profile/README.md), [итоговый экран](reference/profile/final-profile.png), [coverage](reference/profile/coverage.json), [verification](reference/profile/verification.json). Нет реальных API/SMS/банка/push, юридические тексты временные. Ожидает оценки, публикаций нет.
+
+## D-72 — контраст итогов, 19.10.2026
+
+IAB/iPhone: computed Items/сумма rgb(255,255,255), итоговые нутриенты rgb(189,189,189), opacity1. Ранее нутриенты получали#555555 от общего p; теперь app-owned селектор задаёт цвет явно. Количество9/$152.55 сохранено, геометрия/motion не менялись. [Кадр](reference/cart-refresh/footer-contrast-detail.png), [замер](reference/cart-refresh/footer-contrast-audit.json). Build/TypeScript/runtime29 passed, прежний warning>500kB; модельные тесты/Pixel/остальные сценарии повторно не запускались для изменения цвета. Пользователь положительно оценил остальную корзину; публикаций нет.
+
+## D-71 — новая корзина и состояния, 19.10.2026
+
+Актуальная секция1294:3487,10 экранов прочитаны с design context/screenshots; главный1409:7495. IAB/iPhone430×932: panel y62,toolbar61,photo96,CTA390×52/600,header icons20 внутри44,quantity40; BottomFade4/12/34,footer opacity1. Проверены ready/loading2,4с/retry900ms/empty, stock2/минус/быстрые плюсы, offline без изменения/checkout, quantity error с сохранением и успешным повтором, no-recs/photo fallback. Real fixture3 строки/4 порции/$63.80/2350kcal/62pr/104fa/310ca, неизвестное в итоге — прочерк.
+
+Clear Keep/Tab/Escape/фокус и подтверждение→empty→Browse прошли. Preview не изменяет основную корзину:6/$83.75 сохранены после очистки демо; Checkout получает тот же subtotal, Back возвращает CTA focus. Добавления из поиска/рекомендаций общие, PDP закрывается прежним motion, source content opacity1; возврат фото Coco в пределах0,2px от положения после открытия. Pixel427×952: overflow0,footer над safe bottom48. ОригинальныеSVG20/14/12/24 и bag148 загружены; все87фото сохранены.
+
+Финальные29/29 cart/catalog/checkout/dish/motion tests и build/TypeScript/runtime29 passed. JS780.32kB/gzip224.01kB, прежний warning>500kB. После старта Vite12:27UTC новых console errors/warnings не было; две ошибки websocket до старта сервера12:26:52UTC отделены в журнале. React review: cleanup timers/listeners/observer, lazy preview state, stable keys, focus/inert и общий state. [Источники, кадры, выводы команд, точные ограничения и выжимка](reference/cart-refresh/README.md).
+
+Native touch/screen reader/Dynamic Type/OS reduced motion/FPS/другие ОС не проверялись; весь checkout phone/address/order заново не проходился. API/сохранение/stock отсутствуют, offline-правило временное. Это разрешённая реализация на визуальную оценку, без публикации. D-70 полностью не переносился.
+
+## D-68 — Close слева, Clear cart справа, 16.10.2026
+
+IAB/iPhone: DOM и визуальный порядок Close→Clear, кнопки44px/600, x399 и702. Clear открывает подтверждение, Keep dishes сохраняет2/$28.90; Close возвращает Menu и фокус Cart, повторный вход работает. Build/TypeScript/runtime29 passed; прежний warning>500kB. Модельные тесты не повторялись для перестановки; native touch/Pixel/empty/компактная шапка не перепроверялись. [Кадр/аудит](reference/cart-toolbar-swap/README.md). Локально, оценка впереди; D-55 заменён только в расположении действий.
+
+## D-67 — фейд большой карточки, 16.10.2026
+
+Updated Figma1194:5225/1291:970/1292:1017:303px градиент с80% затемнения на48.472%; адаптация stop50%. IAB/iPhone: Acai до/после наscroll0, длинный Prana oats на светлом фото, малая Chia. Computed302.986px/50%; вход до100%, возврат до50%, source content opacity1/transition0s. Overlay удаляется, фокус View Acai иscroll0 восстановлены. [Кадры и замеры](reference/large-card-fade/README.md). TypeScript/build/runtime29 passed,10/10 catalog/dish tests, console0; прежний warning>500kB. Новые тесты не добавлялись; покупка/checkout/native touch/Pixel/system reduced motion/FPS не перепроверялись. Runtime/Web/публикации не менялись; визуальная оценка впереди.
+
+## D-66 — Semibold и корзина2px, 16.10.2026
+
+Computed weight всех проверенных кнопок Sign in/каталога/Cart/Checkout —600; у PDP надпись и цена600/16px, высота64, ширина216px. Описание/теги500 сохранены. Новый SVG из1359:5944 загружен по отдельному URL, native/render20×20; оригинальный экспорт с авторской2px обводкой не редактировался. Add→close даёт Cart1/$12.95, повторный вход сохраняет Add. [Кадр/исходник/аудит](reference/dish-button-refinement/README.md). Build/TypeScript/runtime29 passed, console0, прежний JS>500kB warning. Тесты модели не повторялись для CSS/font-face/asset. Native touch/Pixel/system reduced motion/отрисовка шрифта на других ОС не проверены. Локально, оценка впереди; публикаций нет.
+
+## D-65 — подробная карточка и Add→close, 16.10.2026
+
+Сверены обновлённый1294:1990 и старый длинный1294:2579; первый взят актуальным. В браузере430×932: panel817, info321×123/y558, description321×38, теги32px/y649/#26262685%/blur6, CTA213.34×64/y705 с реальной ценой$12.95, иконка20×20. Gap24px, снизу48px. Fade307px; длинный текст расширяет его до374px. Все3 изображения загружены. Реальные КБЖУ Chia535/12/29/61 сохранены. [Экран/источники](reference/dish-refresh/README.md), [аудит](reference/dish-refresh/browser-audit.json).
+
+Пройдены Add из small/large, source opacity1 во время collapse; первое добавление1, повторный вход+doubleclick только ещё1; Enter из поиска ещё1, запрос/фокус/scroll сохраняются. В Cart видны3 порции Chia. Рекомендации Aloe/Coco добавляются в ту же корзину; неполные КБЖУ показывают только известные значения. Первоначальный сдвиг фото рекомендации на150px исправлен: before/during/after518.77/518.64/519.26, итоговое отклонение<0.5px. Длинный текст помещается, Close не добавляет. Старый случай потери фокуса при замене Add на счётчик снят новой механикой; возврат фокуса после Enter подтверждён.
+
+21/21 тест (dish5/catalog5/cart2/motion9); build/TypeScript/runtime29 passed, build повторён после scroll anchoring. Console error/warn0. React review: переиспользование QuantityControl, guard повторного клика, ключи, focus/inert, cleanup ResizeObserver. Прежний warning JS>500kB остаётся. Native touch, screen reader, системный reduced motion и полный Pixel не проверялись. Локально на оценку; публикаций нет. Basket-add.svg включить в будущий asset manifest.
+
+## D-64 — маска номера и отступы, 15.10.2026
+
+Для US/CA проверен последовательный набор305→555→0123: каретка4/8/12, SMS disabled/disabled/enabled. Backspace после второго пробела удаляет цифру (каретка6), повторный ввод восстанавливает группу. Delete у первого разделителя удаляет следующую цифру и выключает CTA; вставка возвращает каретку5 и активную CTA. Вставка `+1 (305) 555-0123` отображается как отдельный+1 и `305 555 0123`. Значения tel скрыты в DOM-инспекции; точный текст проверен на screenshot и модельными тестами.
+
+Поле307×72 сохранено; левый inset флага19.99px с учётом масштаба, правый padding20px, scrollLeft0. [Полный экран](reference/phone-input/browser-mask-full.png), [деталь](reference/phone-input/browser-mask-detail.png), [неполный номер](reference/phone-input/browser-mask-partial.png), [аудит](reference/phone-input/mask-audit.json). Console error/warn0;13/13 тестов phone8/auth5, build/TypeScript/integrity29 passed. Сохраняется прежний warning JS>500kB. Другие страны используют прежнее национальное форматирование; сверхдлинная вставка не обрезается и не включает SMS. Нативная клавиатура/touch и системный reduced motion отдельно не проверялись. Локально, визуальная оценка впереди, публикаций нет.
+
+## D-63 — зависание курсора над странами, 15.10.2026
+
+Баг воспроизведён: перевод указателя с trigger внутрь списка и wheel меняли scroll до252.48, но transform круглого курсора оставался translate3d(111.997px,329.385px,0). Причина — stopPropagation на pointermove/up/cancel в app-owned wrapper. Удалена блокировка этих трёх событий; pointerdown оставлен для изоляции родительского scroll.
+
+После исправления центр курсора совпал с двумя целевыми точками страницы:650.002/595.003 и700.002/660.004. Wheel и drag работают, outerScroll0, выбранные US не меняются после свайпа, cursorPressed=false после отпускания, keyboard=true. Затем явный выбор Singapore закрыл список и вернул фокус в номер с открытой клавиатурой. [Аудит](reference/phone-input/cursor-audit.json), [позиция1](reference/phone-input/browser-cursor-first.png), [позиция2](reference/phone-input/browser-cursor-second.png).
+
+Build/TypeScript/integrity29 прошли; прежнее предупреждение JS>500kB. Модельные тесты не повторялись: исправление событий проверено непосредственно в браузере. Physical touch/system reduced motion отдельно не запускались. Runtime не изменён, GitHub/Vercel не публиковались.
+
+## D-62 — автофокус и активный фон телефона, 15.10.2026
+
+Локальный IAB, reload→Continue with Phone без дополнительного тапа по полю: document.activeElement=phone-input, keyboardVisible=true, белая каретка; существующий автофокус подтверждён, код навигации не менялся. Добавленная подсветка даёт rgb(59,58,58), переход background-color0.18s. После Escape: фокус снят, keyboardVisible=false, фонrgb(49,48,48). При открытом выборе страны каретка скрыта и фон обычный; после закрытия фокус/светлый фон возвращаются. [Активное поле](reference/phone-input/browser-focus-active.png), [без фокуса](reference/phone-input/browser-focus-inactive.png), [аудит](reference/phone-input/focus-audit.json).
+
+Build/TypeScript/integrity29 прошли; JS>500kB — прежнее предупреждение. Для CSS-правки новые модельные тесты не добавлялись, предыдущие20 не перезапускались. Проверка касается браузерной оболочки с визуальной клавиатурой; реальная мобильная клавиатура и системный reduced motion отдельно не проверялись. Внешних публикаций нет, оценка оттенка пользователем впереди.
+
+## D-61 — телефон и выбор страны, 15.10.2026
+
+Повторно просмотрены обновлённая секция1354:4362 и состояния empty/list/scrolled/partial/filled, включая1355:4375. В локальном IAB: поле307×72 при x61.49/y292.98, список307×171/y368.97 (scrollHeight560), CTA307×54/y552.02, клавиатура301/y631.01. Сверены фон#313030, disabled#3d3d3d и полный номер с белой CTA. [Источники и кадры](reference/phone-input/README.md).
+
+Пройдены: US/+1 после reload; пустой/частичный/полный ввод и обратное выключение CTA при удалении; вставка +1 и +62 из буфера; неподдержанный+81 оставляет прежний номер и блокирует CTA с подсказкой; редактирование возле пробела; Canada/+1 без потери цифр; drag списка без случайного выбора и с outerScroll0; Indonesia/Bali, End→Singapore; Escape закрывает список при открытой клавиатуре; Phone→SMS→Back сохраняет страну/номер; SMS1111→Menu. Console error/warn0. Сборка/TypeScript/integrity29 и20 тестов phone6/auth5/motion9 прошли. Тест первоначально предполагал, что Singapore не принимает10 цифр; метаданные библиотеки допускают такую длину, сценарий исправлен на France9 вместо изменения реальных metadata.
+
+React Best Practices: проверены cleanup scroll/ResizeObserver/outside listener, стабильные ключи, семантические disabled/combobox/listbox, keyboard handlers и граница runtime. Системный reduced motion, screen reader, native touch/keyboard и полный Pixel-аудит отдельно не запускались. Прежнее предупреждение JS>500kB сохраняется. Это локальная реализация на оценку пользователя; GitHub/Vercel не менялись. Новые assets должны войти в manifest при публикации в конце сессии.
+
 ## D-60 — два snap и публикация, 13.10.2026
 
 297/768 заменяют297/533/768. Проверены drag около прежнего среднего положения, Expand, End, tap ручки, Close и повторный вход; tap переключает на pointerup, клавиатурный click обрабатывается отдельно. Публичный [mobile](https://prana-mobile-01.vercel.app) прошёл Skip→блюдо→Cart→Checkout→номер→SMS1111→Order→297→768→297→Close→баннер→tracking. Все15 изображений tracking загружены, console error/warn0. [Аудит](reference/publication/browser-audit.json), [раскрыто](reference/publication/tracking-expanded.jpg), [свёрнуто](reference/publication/tracking-collapsed.jpg).

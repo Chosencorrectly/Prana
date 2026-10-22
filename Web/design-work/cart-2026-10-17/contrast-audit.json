@@ -1,0 +1,50 @@
+{
+  "scope": "Calculated WCAG sRGB ratios for opaque palette pairs; not a runtime accessibility audit. Disabled controls and dimmed inactive underlays excluded. Decorative item separators are not controls.",
+  "pairs": [
+    {
+      "foreground": "#EDEDED",
+      "background": "#121212",
+      "ratio": 16
+    },
+    {
+      "foreground": "#EDEDED",
+      "background": "#1C1C1C",
+      "ratio": 14.56
+    },
+    {
+      "foreground": "#EDEDED",
+      "background": "#262626",
+      "ratio": 12.93
+    },
+    {
+      "foreground": "#A1A1A1",
+      "background": "#121212",
+      "ratio": 7.25
+    },
+    {
+      "foreground": "#A1A1A1",
+      "background": "#1C1C1C",
+      "ratio": 6.6
+    },
+    {
+      "foreground": "#A1A1A1",
+      "background": "#262626",
+      "ratio": 5.86
+    },
+    {
+      "foreground": "#101010",
+      "background": "#EA5C00",
+      "ratio": 5.46
+    },
+    {
+      "foreground": "#FF9B94",
+      "background": "#262626",
+      "ratio": 7.47
+    },
+    {
+      "foreground": "#8DD6AA",
+      "background": "#262626",
+      "ratio": 8.89
+    }
+  ]
+}

@@ -1,0 +1,571 @@
+{
+  "board": "1399:1565",
+  "screenCount": 41,
+  "contextCount": 1,
+  "notes": 42,
+  "states": [
+    {
+      "code": "A01",
+      "id": "1401:3952",
+      "footer": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g",
+        "Nutrition for all items  ›",
+        "Proceed to checkout",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "A02",
+      "id": "1401:4058",
+      "footer": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g",
+        "Nutrition for all items  ›",
+        "Proceed to checkout",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "A03",
+      "id": "1401:4164",
+      "footer": [
+        "1 item",
+        "$15.95",
+        "480 kcal  ·  P 8 g  ·  F 18 g  ·  C 75 g",
+        "Nutrition for all items  ›",
+        "Proceed to checkout",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "A04",
+      "id": "1401:4245",
+      "footer": [
+        "3 items",
+        "$38.85",
+        "1460 kcal  ·  P 32 g  ·  F 63 g  ·  C 212 g",
+        "Nutrition for all items  ›",
+        "Proceed to checkout",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "A05",
+      "id": "1401:4376",
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "A06",
+      "id": "1401:4429",
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "A07",
+      "id": "1401:4466",
+      "footer": [
+        "3 items",
+        "$38.85",
+        "1460 kcal  ·  P 32 g  ·  F 63 g  ·  C 212 g",
+        "Nutrition for all items  ›",
+        "Proceed to checkout",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "B01",
+      "id": "1402:1858",
+      "footer": [
+        "3 items",
+        "$44.85",
+        "1495 kcal  ·  P 28 g  ·  F 65 g  ·  C 211 g",
+        "Nutrition for all items  ›",
+        "Proceed to checkout",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "B02",
+      "id": "1402:1964",
+      "footer": [
+        "1 item",
+        "$12.95",
+        "535 kcal  ·  P 12 g  ·  F 29 g  ·  C 61 g",
+        "Nutrition for all items  ›",
+        "Proceed to checkout",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "B03",
+      "id": "1402:2049",
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "B04",
+      "id": "1402:2090",
+      "footer": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g",
+        "Nutrition for all items  ›",
+        "Proceed to checkout",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "B05",
+      "id": "1402:2198",
+      "footer": [
+        "3 items",
+        "$44.85",
+        "1495 kcal  ·  P 28 g  ·  F 65 g  ·  C 211 g",
+        "Nutrition for all items  ›",
+        "Proceed to checkout",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "B06",
+      "id": "1402:2307",
+      "footer": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g",
+        "Nutrition for all items  ›",
+        "Updating cart…",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "B07",
+      "id": "1402:2416",
+      "footer": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g",
+        "Nutrition for all items  ›",
+        "Proceed to checkout",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "B08",
+      "id": "1402:2527",
+      "footer": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g",
+        "Nutrition for all items  ›",
+        "Reconnect to continue",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "B09",
+      "id": "1402:2638",
+      "footer": [
+        "3 items",
+        "$41.85",
+        "1550 kcal  ·  P 32 g  ·  F 76 g  ·  C 197 g",
+        "Nutrition for all items  ›",
+        "Proceed to checkout",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "C01",
+      "id": "1402:2744",
+      "footer": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g",
+        "Nutrition for all items  ›",
+        "Proceed to checkout",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": {
+        "height": 484,
+        "bottom": 932
+      },
+      "homeOnTop": true
+    },
+    {
+      "code": "C02",
+      "id": "1402:2873",
+      "footer": [
+        "2 items",
+        "$30.95",
+        "530 kcal  ·  P —  ·  F —  ·  C 87 g",
+        "Incomplete nutrition · View details  ›",
+        "Proceed to checkout",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "C03",
+      "id": "1402:2964",
+      "footer": [
+        "1 item",
+        "$11.00",
+        "—  ·  P —  ·  F —  ·  C —",
+        "Incomplete nutrition · View details  ›",
+        "Proceed to checkout",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "C04",
+      "id": "1402:3030",
+      "footer": [
+        "2 items",
+        "$30.95",
+        "530 kcal  ·  P —  ·  F —  ·  C 87 g",
+        "Incomplete nutrition · View details  ›",
+        "Proceed to checkout",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": {
+        "height": 484,
+        "bottom": 932
+      },
+      "homeOnTop": true
+    },
+    {
+      "code": "C05",
+      "id": "1402:3144",
+      "footer": [
+        "1 item",
+        "$1.95",
+        "195 kcal  ·  P 4 g  ·  F 0 g  ·  C 42 g",
+        "Nutrition for all items  ›",
+        "Proceed to checkout",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "D01",
+      "id": "1402:3210",
+      "footer": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g",
+        "Nutrition for all items  ›",
+        "Proceed to checkout",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": {
+        "height": 320,
+        "bottom": 932
+      },
+      "homeOnTop": true
+    },
+    {
+      "code": "D02",
+      "id": "1402:3328",
+      "footer": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g",
+        "Nutrition for all items  ›",
+        "Proceed to checkout",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": {
+        "height": 320,
+        "bottom": 932
+      },
+      "homeOnTop": true
+    },
+    {
+      "code": "D03",
+      "id": "1402:3446",
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "D04",
+      "id": "1402:3483",
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "D05",
+      "id": "1402:3520",
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "E01",
+      "id": "1402:3562",
+      "footer": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g",
+        "Nutrition for all items  ›",
+        "Proceed to checkout",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": {
+        "height": 734,
+        "bottom": 932
+      },
+      "homeOnTop": true
+    },
+    {
+      "code": "E01O",
+      "id": "1402:3681",
+      "footer": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g",
+        "Nutrition for all items  ›",
+        "Proceed to checkout",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": {
+        "height": 734,
+        "bottom": 932
+      },
+      "homeOnTop": true
+    },
+    {
+      "code": "E02",
+      "id": "1402:3800",
+      "footer": [
+        "3 items",
+        "$43.90",
+        "1065 kcal  ·  P —  ·  F —  ·  C 148 g",
+        "Incomplete nutrition · View details  ›",
+        "Proceed to checkout",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "E03",
+      "id": "1402:3933",
+      "footer": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g",
+        "Nutrition for all items  ›",
+        "Proceed to checkout",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "E04",
+      "id": "1402:4033",
+      "footer": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g",
+        "Nutrition for all items  ›",
+        "Proceed to checkout",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "E05",
+      "id": "1402:4129",
+      "footer": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g",
+        "Nutrition for all items  ›",
+        "Proceed to checkout",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "E06",
+      "id": "1402:4220",
+      "footer": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g",
+        "Nutrition for all items  ›",
+        "Proceed to checkout",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "E07",
+      "id": "1402:4326",
+      "footer": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g",
+        "Nutrition for all items  ›",
+        "Proceed to checkout",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "F01",
+      "id": "1402:4433",
+      "footer": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g",
+        "Nutrition for all items  ›",
+        "Remove unavailable dish",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "F02",
+      "id": "1402:4544",
+      "footer": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g",
+        "Nutrition for all items  ›",
+        "Browse menu",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "F03",
+      "id": "1402:4640",
+      "footer": [
+        "2 items",
+        "$29.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g",
+        "Nutrition for all items  ›",
+        "Accept updated price",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "F04",
+      "id": "1402:4734",
+      "footer": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g",
+        "Nutrition for all items  ›",
+        "Restaurant closed",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "F05",
+      "id": "1402:4845",
+      "footer": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g",
+        "Nutrition for all items  ›",
+        "Checking availability…",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "F07",
+      "id": "1402:4954",
+      "footer": [
+        "2 items",
+        "$29.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g",
+        "Nutrition for all items  ›",
+        "Proceed to checkout",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": null,
+      "homeOnTop": true
+    },
+    {
+      "code": "F06",
+      "id": "1402:5048",
+      "footer": [
+        "2 items",
+        "$28.90",
+        "1015 kcal  ·  P 20 g  ·  F 47 g  ·  C 136 g",
+        "Nutrition for all items  ›",
+        "Check needed before checkout",
+        "Delivery and discounts at checkout"
+      ],
+      "sheet": null,
+      "homeOnTop": true
+    }
+  ],
+  "issues": [],
+  "targets": [],
+  "fonts": [
+    "SF Pro"
+  ],
+  "actions": {
+    "NODE": 190,
+    "URL": 27,
+    "BACK": 16,
+    "CLOSE": 13
+  },
+  "overlayCount": 5,
+  "source": {
+    "x": -100,
+    "y": 486,
+    "width": 2190,
+    "height": 1541
+  },
+  "scope": "Figma geometry/text/reactions only; no device runtime verification"
+}

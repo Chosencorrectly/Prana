@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-22",
+  "timezone": "Europe/Moscow",
+  "finalPixel": {
+    "allergies": "AllergiesGlutenEdit",
+    "brokenImages": [],
+    "buttonWeight": "600",
+    "dockOpacity": [
+      {
+        "ancestors": [],
+        "class": "delivery-dock",
+        "opacity": "1"
+      }
+    ],
+    "route": "delivery",
+    "total": "Total$15.95$15.95$15.95"
+  },
+  "consoleErrors": [],
+  "verified": [
+    "allergens: multiple, Apply, Back cancel, summary",
+    "custom tip: invalid 2.345, valid 2.50",
+    "percent + discount: 3190 - 319 + 431 = 3302 cents",
+    "card: discard, verification, new Visa selected",
+    "radio: Apple Pay then ArrowDown to Google Pay",
+    "order snapshot: 2 items, 3302 cents, Milk/Tree nuts, Google Pay, courier note",
+    "fresh SMS: +14155550123 / 1111 -> Pay",
+    "close/reopen: Tree nuts, 10%, Apple Pay retained",
+    "last item removed: 0 total, disabled Pay, empty focus",
+    "Pixel: last allergen, keyboard dock, Escape keyboard then Back"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "iteration": "D-66",
+  "date": "2026-10-16",
+  "timezone": "Europe/Moscow",
+  "scope": "App buttons semibold; updated PDP basket icon. Local only.",
+  "button": {
+    "fontFamily": "\"Prana Display\", -apple-system, BlinkMacSystemFont, Arial, sans-serif",
+    "fontSize": "16px",
+    "fontWeight": "600",
+    "height": 64,
+    "icon": {
+      "height": 20,
+      "loaded": true,
+      "src": "/assets/dish/basket-add-2px.svg",
+      "width": 20
+    },
+    "labelWeight": "600",
+    "text": "Add to cart $12.95",
+    "width": 216
+  },
+  "catalog": {
+    "description": "500",
+    "tags": "500",
+    "weights": [
+      "600"
+    ]
+  },
+  "cart": {
+    "checkoutWeight": "600",
+    "weights": [
+      "600"
+    ]
+  },
+  "checkout": {
+    "cta": {
+      "fontFamily": "\"Prana Checkout\", \"Prana Display\", sans-serif",
+      "weight": "600"
+    },
+    "weights": [
+      "600"
+    ]
+  },
+  "auth": {
+    "primary": "600",
+    "weights": [
+      "600"
+    ]
+  },
+  "behavior": "Add closed the detail and produced Cart: 1 item, $12.95; returning to detail retains Add.",
+  "asset": {
+    "path": "public/assets/dish/basket-add-2px.svg",
+    "figmaNode": "1359:5944",
+    "nativeSize": [
+      20,
+      20
+    ],
+    "stroke": "2px per user-updated Figma; original exported outlined SVG used unchanged",
+    "sha256": "F3B5675ADBCCA9CD1E8DC23655EBEBE4F005CBA7375A9B171C4E254E5D6E5CC3"
+  },
+  "checks": {
+    "build": "passed",
+    "runtimeFiles": 29,
+    "modelTests": "Not rerun: CSS/font-face/asset only; prior D-65 21 tests remain historical evidence",
+    "warning": "Existing JS chunk >500kB"
+  },
+  "console": []
+}

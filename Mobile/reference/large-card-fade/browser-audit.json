@@ -1,0 +1,449 @@
+{
+  "date": "2026-10-16",
+  "figma": "1194:5225 / 1291:970 / 1292:1017",
+  "before": {
+    "fade": "linear-gradient(rgba(0, 0, 0, 0), rgba(18, 18, 18, 0.8))",
+    "photo": "http://127.0.0.1:5181/assets/menu/af61daf6-a49d-4eeb-bea1-5a7da211641e.jpg",
+    "rect": {
+      "bottom": 877.5990295410156,
+      "height": 456.9925842285156,
+      "left": 400,
+      "right": 798.0043334960938,
+      "top": 420.6064453125,
+      "width": 398.00433349609375,
+      "x": 400,
+      "y": 420.6064453125
+    },
+    "scroll": 0,
+    "title": {
+      "bottom": 739.6658248901367,
+      "height": 37.99504852294922,
+      "left": 415.9962768554687,
+      "right": 610.0247497558594,
+      "top": 701.6707763671875,
+      "width": 194.02847290039065,
+      "x": 415.9962768554687,
+      "y": 701.6707763671875
+    }
+  },
+  "largeCards": [
+    {
+      "cardHeight": 457,
+      "fade": "linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.8) 50%)",
+      "fadeHeight": "302.986px",
+      "name": "Acai bowl (granola, banana, berries) (vegan)",
+      "titleHeight": 37.99504852294922,
+      "titleTop": 281.0612708086595
+    },
+    {
+      "cardHeight": 457,
+      "fade": "linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.8) 50%)",
+      "fadeHeight": "302.986px",
+      "name": "Prana oats (oat milk, granola, berries) (GF, LF, VG, high omega-3, high fiber)",
+      "titleHeight": 75.99009704589844,
+      "titleTop": 243.06668938335687
+    },
+    {
+      "cardHeight": 457,
+      "fade": "linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.8) 50%)",
+      "fadeHeight": "302.986px",
+      "name": "Shakshuka (baked eggs, tomato & pepper, GF sourdough) (LF, GF, VG)",
+      "titleHeight": 56.99257278442383,
+      "titleTop": 262.0637969925331
+    },
+    {
+      "cardHeight": 457,
+      "fade": "linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.8) 50%)",
+      "fadeHeight": "302.986px",
+      "name": "Build your own bowl",
+      "titleHeight": 18.99752426147461,
+      "titleTop": 352.0071536104739
+    },
+    {
+      "cardHeight": 457,
+      "fade": "linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.8) 50%)",
+      "fadeHeight": "302.986px",
+      "name": "Roast beef bowl (basmati rice, broccolini) (high protein, LF, GF)",
+      "titleHeight": 56.99257278442383,
+      "titleTop": 262.0640411304999
+    },
+    {
+      "cardHeight": 457,
+      "fade": "linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.8) 50%)",
+      "fadeHeight": "302.986px",
+      "name": "Tuna poke bowl (coconut black rice, avocado, mango) (GF, LF, high protein, nut free, high omega-3, high fiber)",
+      "titleHeight": 94.98762512207033,
+      "titleTop": 224.0693376362139
+    },
+    {
+      "cardHeight": 457,
+      "fade": "linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.8) 50%)",
+      "fadeHeight": "302.986px",
+      "name": "Cauliflower soup (creamy, tahini) (vegan, GF, LF)",
+      "titleHeight": 37.99504852294922,
+      "titleTop": 295.0617287207002
+    },
+    {
+      "cardHeight": 457,
+      "fade": "linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.8) 50%)",
+      "fadeHeight": "302.986px",
+      "name": "Tomato minestrone soup (tomato, roasted vegetables) (vegan, low calorie)",
+      "titleHeight": 75.99009704589844,
+      "titleTop": 271.03659968565705
+    },
+    {
+      "cardHeight": 457,
+      "fade": "linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.8) 50%)",
+      "fadeHeight": "302.986px",
+      "name": "Green salad (broccoli, edamame, avocado, celery) (vegan, GF)",
+      "titleHeight": 56.99257278442383,
+      "titleTop": 290.03395143280005
+    },
+    {
+      "cardHeight": 457,
+      "fade": "linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.8) 50%)",
+      "fadeHeight": "302.986px",
+      "name": "Smashed avocado & tabbouleh (cassava chips) (vegan, GF)",
+      "titleHeight": 56.99257278442383,
+      "titleTop": 262.0640411304999
+    },
+    {
+      "cardHeight": 457,
+      "fade": "linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.8) 50%)",
+      "fadeHeight": "302.986px",
+      "name": "Veggie spring rolls (rice paper, veggies, avocado) (vegan, GF)",
+      "titleHeight": 56.99257278442383,
+      "titleTop": 262.06452940643345
+    },
+    {
+      "cardHeight": 457,
+      "fade": "linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.8) 50%)",
+      "fadeHeight": "302.986px",
+      "name": "Chicken liver plate (cauliflower puree/carrot-sweet potato puree, roasted beets) · high iron, GF",
+      "titleHeight": 94.98762512207033,
+      "titleTop": 224.06982591214745
+    },
+    {
+      "cardHeight": 457,
+      "fade": "linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.8) 50%)",
+      "fadeHeight": "302.986px",
+      "name": "Shrimp soba noodles (ponzu sesame, bean sprouts) (gluten free)",
+      "titleHeight": 56.99257278442383,
+      "titleTop": 262.06452940643345
+    },
+    {
+      "cardHeight": 457,
+      "fade": "linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.8) 50%)",
+      "fadeHeight": "302.986px",
+      "name": "Veggie soba noodles (ponzu sesame, bean sprouts) (vegan, gluten free)",
+      "titleHeight": 75.99009704589844,
+      "titleTop": 271.0361114097235
+    },
+    {
+      "cardHeight": 457,
+      "fade": "linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.8) 50%)",
+      "fadeHeight": "302.986px",
+      "name": "Chicken coconut curry (rice basmati) (GF)",
+      "titleHeight": 37.99504852294922,
+      "titleTop": 281.0613928776429
+    },
+    {
+      "cardHeight": 457,
+      "fade": "linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.8) 50%)",
+      "fadeHeight": "302.986px",
+      "name": "Smoked salmon (23 g protein) (omega-3)",
+      "titleHeight": 37.99504852294922,
+      "titleTop": 309.03081490400945
+    },
+    {
+      "cardHeight": 457,
+      "fade": "linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.8) 50%)",
+      "fadeHeight": "302.986px",
+      "name": "Sous vide chicken (27 g protein)",
+      "titleHeight": 37.99504852294922,
+      "titleTop": 309.03081490400945
+    },
+    {
+      "cardHeight": 457,
+      "fade": "linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.8) 50%)",
+      "fadeHeight": "302.986px",
+      "name": "Black beans — side",
+      "titleHeight": 18.99752426147461,
+      "titleTop": 328.02963147895315
+    },
+    {
+      "cardHeight": 457,
+      "fade": "linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.8) 50%)",
+      "fadeHeight": "302.986px",
+      "name": "Grilled bell peppers — side (vegan, GF)",
+      "titleHeight": 37.99504852294922,
+      "titleTop": 309.0317914558766
+    },
+    {
+      "cardHeight": 457,
+      "fade": "linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.8) 50%)",
+      "fadeHeight": "302.986px",
+      "name": "Potato baby — side",
+      "titleHeight": 18.99752426147461,
+      "titleTop": 328.0276783752189
+    },
+    {
+      "cardHeight": 457,
+      "fade": "linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.8) 50%)",
+      "fadeHeight": "302.986px",
+      "name": "Mango lime vinaigrette",
+      "titleHeight": 18.99752426147461,
+      "titleTop": 328.0276783752189
+    },
+    {
+      "cardHeight": 457,
+      "fade": "linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.8) 50%)",
+      "fadeHeight": "302.986px",
+      "name": "Green smoothie",
+      "titleHeight": 18.99752426147461,
+      "titleTop": 328.0276783752189
+    },
+    {
+      "cardHeight": 457,
+      "fade": "linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.8) 50%)",
+      "fadeHeight": "302.986px",
+      "name": "Tropical smoothie",
+      "titleHeight": 18.99752426147461,
+      "titleTop": 328.0276783752189
+    },
+    {
+      "cardHeight": 457,
+      "fade": "linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.8) 50%)",
+      "fadeHeight": "302.986px",
+      "name": "Cocoa",
+      "titleHeight": 18.99752426147461,
+      "titleTop": 342.0294790460769
+    },
+    {
+      "cardHeight": 457,
+      "fade": "linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.8) 50%)",
+      "fadeHeight": "302.986px",
+      "name": "Espresso",
+      "titleHeight": 18.99752426147461,
+      "titleTop": 328.02963147895315
+    },
+    {
+      "cardHeight": 457,
+      "fade": "linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.8) 50%)",
+      "fadeHeight": "302.986px",
+      "name": "Iced mango latte",
+      "titleHeight": 18.99752426147461,
+      "titleTop": 328.02963147895315
+    },
+    {
+      "cardHeight": 457,
+      "fade": "linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.8) 50%)",
+      "fadeHeight": "302.986px",
+      "name": "Iced matcha latte",
+      "titleHeight": 18.99752426147461,
+      "titleTop": 342.0294790460769
+    },
+    {
+      "cardHeight": 457,
+      "fade": "linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.8) 50%)",
+      "fadeHeight": "302.986px",
+      "name": "Fresh carrot juice",
+      "titleHeight": 18.99752426147461,
+      "titleTop": 356.0293266132007
+    },
+    {
+      "cardHeight": 457,
+      "fade": "linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.8) 50%)",
+      "fadeHeight": "302.986px",
+      "name": "Orange juice",
+      "titleHeight": 18.99752426147461,
+      "titleTop": 356.0293266132007
+    }
+  ],
+  "open": [
+    {
+      "height": "324.75814px",
+      "opacity": "1",
+      "state": "opening",
+      "stop": "97.30194%",
+      "width": 428.26422119140625
+    },
+    {
+      "height": "324.87798px",
+      "opacity": "1",
+      "state": "opening",
+      "stop": "97.56231%",
+      "width": 428.4344482421875
+    },
+    {
+      "height": "324.98681px",
+      "opacity": "1",
+      "state": "opening",
+      "stop": "97.79874%",
+      "width": 428.5891418457031
+    },
+    {
+      "height": "325.07344px",
+      "opacity": "1",
+      "state": "opening",
+      "stop": "97.98697%",
+      "width": 428.6973876953125
+    },
+    {
+      "height": "325.16719px",
+      "opacity": "1",
+      "state": "opening",
+      "stop": "98.19064%",
+      "width": 428.8366394042969
+    },
+    {
+      "height": "325.25184px",
+      "opacity": "1",
+      "state": "opening",
+      "stop": "98.37456%",
+      "width": 428.9449157714844
+    },
+    {
+      "height": "325.32814px",
+      "opacity": "1",
+      "state": "opening",
+      "stop": "98.54032%",
+      "width": 429.0532531738281
+    },
+    {
+      "height": "325.39993px",
+      "opacity": "1",
+      "state": "opening",
+      "stop": "98.6963%",
+      "width": 429.1614990234375
+    },
+    {
+      "height": "325.46729px",
+      "opacity": "1",
+      "state": "opening",
+      "stop": "98.84263%",
+      "width": 429.25433349609375
+    }
+  ],
+  "openFinal": {
+    "phase": "open",
+    "style": "--dish-fade-height: 326px; --dish-fade-stop: 100%; --dish-fade-color: rgba(0, 0, 0, 1); --dish-blur: 17px; width: 430px; height: 817px; border-radius: 32px 32px 0px 0px; transform: none; opacity: 1;"
+  },
+  "close": [
+    {
+      "opacity": "0.0171906",
+      "present": true,
+      "sourceOpacity": "1",
+      "sourceTransition": "0s",
+      "stop": "50.83811%",
+      "width": 398.5303039550781
+    },
+    {
+      "opacity": "0.0144467",
+      "present": true,
+      "sourceOpacity": "1",
+      "sourceTransition": "0s",
+      "stop": "50.70414%",
+      "width": 398.4529724121094
+    },
+    {
+      "opacity": "0.0120884",
+      "present": true,
+      "sourceOpacity": "1",
+      "sourceTransition": "0s",
+      "stop": "50.60506%",
+      "width": 398.39105224609375
+    },
+    {
+      "opacity": "0.0100071",
+      "present": true,
+      "sourceOpacity": "1",
+      "sourceTransition": "0s",
+      "stop": "50.49757%",
+      "width": 398.3137817382813
+    },
+    {
+      "opacity": "0.00815448",
+      "present": true,
+      "sourceOpacity": "1",
+      "sourceTransition": "0s",
+      "stop": "50.40487%",
+      "width": 398.2518310546875
+    },
+    {
+      "opacity": "0.00658356",
+      "present": true,
+      "sourceOpacity": "1",
+      "sourceTransition": "0s",
+      "stop": "50.3255%",
+      "width": 398.2054138183594
+    },
+    {
+      "opacity": "0.00518259",
+      "present": true,
+      "sourceOpacity": "1",
+      "sourceTransition": "0s",
+      "stop": "50.24672%",
+      "width": 398.1590576171875
+    },
+    {
+      "opacity": "0.00398322",
+      "present": true,
+      "sourceOpacity": "1",
+      "sourceTransition": "0s",
+      "stop": "50.18896%",
+      "width": 398.1281127929687
+    },
+    {
+      "opacity": "0.00298261",
+      "present": true,
+      "sourceOpacity": "1",
+      "sourceTransition": "0s",
+      "stop": "50.13919%",
+      "width": 398.0816955566406
+    },
+    {
+      "opacity": "0.00145892",
+      "present": true,
+      "sourceOpacity": "1",
+      "sourceTransition": "0s",
+      "stop": "50.07015%",
+      "width": 398.05072021484375
+    },
+    {
+      "opacity": "0.000507757",
+      "present": true,
+      "sourceOpacity": "1",
+      "sourceTransition": "0s",
+      "stop": "50.02409%",
+      "width": 398.0198059082031
+    },
+    {
+      "opacity": "0.000225137",
+      "present": true,
+      "sourceOpacity": "1",
+      "sourceTransition": "0s",
+      "stop": "50.01073%",
+      "width": 398.00433349609375
+    }
+  ],
+  "return": {
+    "dialog": false,
+    "focus": "View Acai bowl (granola, banana, berries) (vegan)",
+    "scroll": 0
+  },
+  "smallFade": {
+    "phase": "opening",
+    "stop": "100%"
+  },
+  "console": [],
+  "checks": {
+    "build": "passed",
+    "runtimeFiles": 29,
+    "catalogDishTests": "10/10"
+  },
+  "limitations": [
+    "Native touch, Pixel, system reduced motion and FPS were not checked.",
+    "No publication."
+  ]
+}

@@ -1,0 +1,1433 @@
+[
+  {
+    "id": "1379:1762",
+    "name": "Профиль • главная • с именем и адресом",
+    "x": 100,
+    "y": 100,
+    "texts": [
+      "MJ",
+      "Michael Jerlis",
+      "Personal details",
+      "476 Prana points",
+      "{`Balance & activity →`}",
+      "Promo code available",
+      "{`WELCOME1010 · View & copy`}",
+      "My orders",
+      "{`Current delivery & order history`}",
+      "Delivery addresses",
+      "Home · Jl. Raya Padonan No.41a",
+      "Payment methods",
+      "Mastercard •••• 7032",
+      "{`Settings & information`}",
+      "Notifications, loyalty terms, Credits",
+      "Log out",
+      "Profile"
+    ],
+    "assets": [
+      "const imgIconChevron = `${assetPathPrefix}/c79a3.svg`;",
+      "const imgMaskGroup = `${assetPathPrefix}/b0274.svg`;",
+      "const imgIconChevron1 = `${assetPathPrefix}/cda86.svg`;",
+      "const imgCrossLargeCrossedLargeClose = `${assetPathPrefix}/d005a.svg`;"
+    ]
+  },
+  {
+    "id": "1421:7186",
+    "name": "Профиль • главная • без имени и адреса",
+    "x": 658,
+    "y": 100,
+    "texts": [
+      "+62 821 0000 1122",
+      "Add your name",
+      "Make your next order easier",
+      "Add a delivery address once and use it at checkout.",
+      "Promo code available",
+      "{`WELCOME1010 · View & copy`}",
+      "My orders",
+      "{`Current delivery & order history`}",
+      "Delivery addresses",
+      "Home · Jl. Raya Padonan No.41a",
+      "Payment methods",
+      "Mastercard •••• 7032",
+      "{`Settings & information`}",
+      "Notifications, loyalty terms, Credits",
+      "Log out",
+      "Profile"
+    ],
+    "assets": [
+      "const imgPeopleUserPersonAvatar = `${assetPathPrefix}/a53a3.svg`;",
+      "const imgIconChevron = `${assetPathPrefix}/c79a3.svg`;",
+      "const imgIconChevron1 = `${assetPathPrefix}/cda86.svg`;",
+      "const imgCrossLargeCrossedLargeClose = `${assetPathPrefix}/d005a.svg`;"
+    ]
+  },
+  {
+    "id": "1421:7261",
+    "name": "Профиль • скелетон",
+    "x": 1216,
+    "y": 100,
+    "texts": [
+      "Log out",
+      "Profile"
+    ],
+    "assets": [
+      "const imgCrossLargeCrossedLargeClose = `${assetPathPrefix}/d005a.svg`;"
+    ]
+  },
+  {
+    "id": "1421:7517",
+    "name": "Профиль • главная • оффлайн",
+    "x": 1774,
+    "y": 100,
+    "texts": [
+      "+62 821 0000 1122",
+      "Add your name",
+      "You’re offline",
+      "Showing your last saved details. Connect to update your account.",
+      "Promo code available",
+      "{`WELCOME1010 · View & copy`}",
+      "My orders",
+      "{`Current delivery & order history`}",
+      "Delivery addresses",
+      "Home · Jl. Raya Padonan No.41a",
+      "Payment methods",
+      "Mastercard •••• 7032",
+      "{`Settings & information`}",
+      "Notifications, loyalty terms, Credits",
+      "Try again",
+      "Profile"
+    ],
+    "assets": [
+      "const imgPeopleUserPersonAvatar = `${assetPathPrefix}/a53a3.svg`;",
+      "const imgIconChevron = `${assetPathPrefix}/c79a3.svg`;",
+      "const imgIconChevron1 = `${assetPathPrefix}/cda86.svg`;",
+      "const imgCrossLargeCrossedLargeClose = `${assetPathPrefix}/d005a.svg`;"
+    ]
+  },
+  {
+    "id": "1421:7663",
+    "name": "Корзина • есть позиции в корзине",
+    "x": 2332,
+    "y": 100,
+    "texts": [
+      "Promo codes",
+      "Back",
+      "Your promo codes",
+      "Copy this code and enter it at checkout.",
+      "WELCOME1010",
+      "CONTINUE2020"
+    ],
+    "assets": [
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;",
+      "const imgSquareBehindSquare1Copy1LayersPages = `${assetPathPrefix}/bb4ef.svg`;"
+    ]
+  },
+  {
+    "id": "1380:1832",
+    "name": "Screen / B01 / Личные данные / исходное",
+    "x": 2890,
+    "y": 100,
+    "texts": [
+      "9:41",
+      "First name",
+      "Michael",
+      "Last name",
+      "Jerlis",
+      "Email",
+      "brooks.06@prana.kitchen",
+      "Phone number",
+      "+62 821 0000 1122 · Verified",
+      "Date of birth",
+      "12 June 1985 · Optional",
+      "Personal details",
+      "Back",
+      "Personal details",
+      "Save changes"
+    ],
+    "assets": [
+      "const imgFrame = `${assetPathPrefix}/0d540.svg`;",
+      "const imgIconChevron = `${assetPathPrefix}/cda86.svg`;",
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;"
+    ]
+  },
+  {
+    "id": "1421:9624",
+    "name": "Screen / B01 / Личные данные / исходное",
+    "x": 3448,
+    "y": 100,
+    "texts": [
+      "Save changes",
+      "9:41",
+      "First name",
+      "Michael",
+      "Last name",
+      "Jerliss",
+      "Email",
+      "brooks.06@prana.kitchen",
+      "Phone number",
+      "+62 821 0000 1122 · Verified",
+      "Date of birth",
+      "12 June 1985 · Optional",
+      "Personal details",
+      "Back",
+      "Personal details"
+    ],
+    "assets": [
+      "const imgFrame = `${assetPathPrefix}/0d540.svg`;",
+      "const imgIconChevron = `${assetPathPrefix}/cda86.svg`;",
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;"
+    ]
+  },
+  {
+    "id": "1421:9804",
+    "name": "Screen / B01 / Личные данные / исходное",
+    "x": 4006,
+    "y": 100,
+    "texts": [
+      "Save changes",
+      "9:41",
+      "First name",
+      "Michael",
+      "Last name",
+      "Jerliss",
+      "Email",
+      "mike@",
+      "Enter a complete email, like name@example.com.",
+      "Phone number",
+      "+62 821 0000 1122 · Verified",
+      "Date of birth",
+      "12 June 1985 · Optional",
+      "Personal details",
+      "Back",
+      "Personal details"
+    ],
+    "assets": [
+      "const imgFrame = `${assetPathPrefix}/0d540.svg`;",
+      "const imgIconChevron = `${assetPathPrefix}/cda86.svg`;",
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;"
+    ]
+  },
+  {
+    "id": "1421:9894",
+    "name": "Screen / B01 / Личные данные / исходное",
+    "x": 4564,
+    "y": 100,
+    "texts": [
+      "9:41",
+      "Date of birth",
+      "Back",
+      "Your birthday",
+      "Done",
+      "Optional. You can leave this empty.",
+      "{`11     May       1984`}",
+      "{`12     June      1985`}",
+      "{`13     July        1986`}"
+    ],
+    "assets": [
+      "const imgFrame = `${assetPathPrefix}/0d540.svg`;",
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;"
+    ]
+  },
+  {
+    "id": "1421:10642",
+    "name": "Screen / B01 / Личные данные / исходное",
+    "x": 5122,
+    "y": 100,
+    "texts": [
+      "9:41",
+      "Phone number",
+      "Back",
+      "Change your phone number",
+      "Send code",
+      "We’ll send a code to confirm the new number.",
+      "Phone number",
+      "+1 821 0000 1122"
+    ],
+    "assets": [
+      "const imgFrame = `${assetPathPrefix}/0d540.svg`;",
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;"
+    ]
+  },
+  {
+    "id": "1421:11803",
+    "name": "Screen / B01 / Личные данные / исходное",
+    "x": 5680,
+    "y": 100,
+    "texts": [
+      "9:41",
+      "Phone number",
+      "Back",
+      "Change your phone number",
+      "Send code",
+      "We’ll send a code to confirm the new number.",
+      "Phone number",
+      "+1 821 0000 1122",
+      "Enter code",
+      "{`Enter the code from the SMS `}",
+      "Verify number",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "assets": [
+      "const imgFrame = `${assetPathPrefix}/0d540.svg`;",
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;",
+      "const imgCrossLargeCrossedLargeClose = `${assetPathPrefix}/d005a.svg`;"
+    ]
+  },
+  {
+    "id": "1421:10951",
+    "name": "Screen / B01 / Личные данные / исходное",
+    "x": 6238,
+    "y": 100,
+    "texts": [
+      "9:41",
+      "First name",
+      "Michael",
+      "Last name",
+      "Jerlis",
+      "Email",
+      "brooks.06@prana.kitchen",
+      "Phone number",
+      "+62 821 0000 1122 · Verified",
+      "Date of birth",
+      "12 June 1985 · Optional",
+      "Personal details",
+      "Back",
+      "Personal details",
+      "Couldn’t save your details",
+      "Your changes are still here. Please try again.",
+      "Save again"
+    ],
+    "assets": [
+      "const imgFrame = `${assetPathPrefix}/0d540.svg`;",
+      "const imgIconChevron = `${assetPathPrefix}/cda86.svg`;",
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;"
+    ]
+  },
+  {
+    "id": "1421:11026",
+    "name": "Screen / B01 / Личные данные / исходное",
+    "x": 6796,
+    "y": 100,
+    "texts": [
+      "9:41",
+      "First name",
+      "Michael",
+      "Last name",
+      "Jerlis",
+      "Email",
+      "brooks.06@prana.kitchen",
+      "Phone number",
+      "+62 821 0000 1122 · Verified",
+      "Date of birth",
+      "12 June 1985 · Optional",
+      "Personal details",
+      "Back",
+      "Personal details",
+      "Couldn’t save your details",
+      "Your changes are still here. Please try again.",
+      "Save again"
+    ],
+    "assets": [
+      "const imgFrame = `${assetPathPrefix}/0d540.svg`;",
+      "const imgIconChevron = `${assetPathPrefix}/cda86.svg`;",
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;"
+    ]
+  },
+  {
+    "id": "1421:11868",
+    "name": "Screen / B01 / Личные данные / исходное",
+    "x": 7354,
+    "y": 100,
+    "texts": [
+      "9:41",
+      "Personal details",
+      "Back",
+      "Discard your changes?",
+      "Your saved profile will stay as it was. The changes you made on this screen will be lost.",
+      "Keep editing",
+      "Discard changes"
+    ],
+    "assets": [
+      "const imgFrame = `${assetPathPrefix}/0d540.svg`;",
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;",
+      "const imgTriangleExclamationErrorWarningAlert = `${assetPathPrefix}/b24ce.svg`;"
+    ]
+  },
+  {
+    "id": "1421:11941",
+    "name": "Screen / B01 / Личные данные / исходное",
+    "x": 7912,
+    "y": 100,
+    "texts": [
+      "9:41",
+      "First name",
+      "Michael",
+      "Last name",
+      "Jerlis",
+      "Email",
+      "brooks.06@prana.kitchen",
+      "Phone number",
+      "+62 821 0000 1122 · Verified",
+      "Date of birth",
+      "12 June 1985 · Optional",
+      "Personal details",
+      "Back",
+      "Personal details",
+      "Your details are saved",
+      "Your account now uses the updated details.",
+      "Save changes"
+    ],
+    "assets": [
+      "const imgFrame = `${assetPathPrefix}/0d540.svg`;",
+      "const imgIconChevron = `${assetPathPrefix}/cda86.svg`;",
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;"
+    ]
+  },
+  {
+    "id": "1422:12017",
+    "name": "Screen / B01 / Личные данные / исходное",
+    "x": 100,
+    "y": 1232,
+    "texts": [
+      "9:41",
+      "My orders",
+      "Back",
+      "My orders",
+      "On the way",
+      "Order #139",
+      "Today · 12:02 · 2 items",
+      "$25.90",
+      "Track delivery →",
+      "Previous orders",
+      "Delivered",
+      "Order #138",
+      "16 Oct 2026 · 2 items",
+      "$25.90",
+      "View order →",
+      "Order #137 · Cancelled",
+      "14 Oct 2026 · View details",
+      "Save again"
+    ],
+    "assets": [
+      "const imgFoodAcaiBowlOriginalCatalogue = `${assetPathPrefix}/75f46.png`;",
+      "const imgFrame = `${assetPathPrefix}/0d540.svg`;",
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;",
+      "const imgIconChevron = `${assetPathPrefix}/cda86.svg`;"
+    ]
+  },
+  {
+    "id": "1422:12115",
+    "name": "Screen / B01 / Личные данные / исходное",
+    "x": 658,
+    "y": 1232,
+    "texts": [
+      "9:41",
+      "Personal details",
+      "Back",
+      "Your first order starts here",
+      "Once you place an order, you can track it and find it here later.",
+      "Browse menu"
+    ],
+    "assets": [
+      "const imgFrame = `${assetPathPrefix}/0d540.svg`;",
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;",
+      "const imgShoppingBag1 = `${assetPathPrefix}/40398.svg`;"
+    ]
+  },
+  {
+    "id": "1422:12207",
+    "name": "Screen / B01 / Личные данные / исходное",
+    "x": 1216,
+    "y": 1232,
+    "texts": [
+      "9:41",
+      "Personal details",
+      "Back",
+      "Couldn’t load your orders",
+      "Your orders haven’t been removed. Check your connection and try again.",
+      "Try again"
+    ],
+    "assets": [
+      "const imgFrame = `${assetPathPrefix}/0d540.svg`;",
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;",
+      "const imgTriangleExclamationErrorWarningAlert = `${assetPathPrefix}/b24ce.svg`;"
+    ]
+  },
+  {
+    "id": "1422:12236",
+    "name": "Screen / B01 / Личные данные / исходное",
+    "x": 1774,
+    "y": 1232,
+    "texts": [
+      "9:41",
+      "Order #138",
+      "Back",
+      "Order #138",
+      "Items",
+      "Delivered",
+      "16 Oct 2026 · 12:35",
+      "Delivery to",
+      "Home",
+      "Address",
+      "Jl. Raya Padonan No.41a",
+      "Payment",
+      "Mastercard •••• 7032",
+      "Acai bowl",
+      "Chia pudding, mixed berries, banana, mango, coconut flakes, mint, cinnamon, vanilla...",
+      "2 items · $15",
+      "Buddha Bowl (Tempeh, Coconut Black Rice, Avocado) (Vegan, GF, LF, High Fiber)",
+      "3 items · $45",
+      "Items",
+      "$25.90",
+      "Delivery",
+      "$0.00",
+      "Total paid",
+      "$25.90",
+      "Need help with this order?",
+      "Reorder"
+    ],
+    "assets": [
+      "const imgPhotoAcai = `${assetPathPrefix}/75f46.png`;",
+      "const imgImage74 = `${assetPathPrefix}/dd8bd.png`;",
+      "const imgFrame = `${assetPathPrefix}/0d540.svg`;",
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;",
+      "const imgIconChevron = `${assetPathPrefix}/cda86.svg`;"
+    ]
+  },
+  {
+    "id": "1422:12534",
+    "name": "::",
+    "x": 2332,
+    "y": 1232,
+    "texts": [
+      "Contact support",
+      "Need help with your order?",
+      "Message us if something isn’t clear before you place it.",
+      "1100 Brickell · Plaza Apt 1204 · Gate code 2481",
+      "{`Comments for the courier `}",
+      "Call when you deliver",
+      "Delivery",
+      "Order details",
+      "200",
+      "Prana points",
+      "Will be credited today",
+      "{`Total `}",
+      "$236.50",
+      "Subtotal · 4 items",
+      "$158.50",
+      "$0",
+      "Discount",
+      "-$28.50",
+      "Accrual bonuses",
+      "+$2",
+      "Healthy meal plan 2000 kcal (7 days)",
+      "2 x",
+      "$12.43",
+      "Papaya Fresh Juice",
+      "Watermelon Fresh Juice",
+      "Papaya Fresh Juice",
+      "Healthy meal plan 2000 kcal (7 days)",
+      "1 x",
+      "$12.43",
+      "Papaya Fresh Juice",
+      "Healthy meal plan 2000 kcal (7 days)",
+      "1 x",
+      "$12.43",
+      "Papaya Fresh Juice",
+      "Show more",
+      "Estimated arrival 12:20–12:35 PM",
+      "Looking for courier"
+    ],
+    "assets": [
+      "const imgImage75 = `${assetPathPrefix}/10390.png`;",
+      "const imgImage80 = `${assetPathPrefix}/f61e9.png`;",
+      "const imgImage67 = `${assetPathPrefix}/bb28d.png`;",
+      "const imgVector7545 = `${assetPathPrefix}/e674d.svg`;",
+      "const imgWhatsapp = `${assetPathPrefix}/c54bb.svg`;",
+      "const imgIcHouseFilled = `${assetPathPrefix}/9d35c.svg`;",
+      "const imgLine13 = `${assetPathPrefix}/de746.svg`;",
+      "const imgEllipse4946 = `${assetPathPrefix}/b1161.svg`;",
+      "const imgMaskGroup = `${assetPathPrefix}/65e34.svg`;",
+      "const imgLine14 = `${assetPathPrefix}/aa9dc.svg`;",
+      "const imgLine16 = `${assetPathPrefix}/9252a.svg`;",
+      "const imgExpandSimple = `${assetPathPrefix}/68cbc.svg`;"
+    ]
+  },
+  {
+    "id": "1422:12631",
+    "name": "Screen / B01 / Личные данные / исходное",
+    "x": 2890,
+    "y": 1232,
+    "texts": [
+      "9:41",
+      "Reorder",
+      "Back",
+      "Review before reordering",
+      "Items",
+      "Availability and prices can change.",
+      "1 item is unavailable",
+      "Prana oats won’t be added to your cart.",
+      "Acai bowl",
+      "Chia pudding, mixed berries, banana, mango, coconut flakes, mint, cinnamon, vanilla...",
+      "2 items · $15",
+      "Buddha Bowl (Tempeh, Coconut Black Rice, Avocado) (Vegan, GF, LF, High Fiber)",
+      "3 items · $45",
+      "Available items",
+      "1",
+      "Items subtotal",
+      "$15.95",
+      "Review cart · $15.95"
+    ],
+    "assets": [
+      "const imgPhotoAcai = `${assetPathPrefix}/75f46.png`;",
+      "const imgImage74 = `${assetPathPrefix}/dd8bd.png`;",
+      "const imgFrame = `${assetPathPrefix}/0d540.svg`;",
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;"
+    ]
+  },
+  {
+    "id": "1422:12782",
+    "name": "Screen / B01 / Личные данные / исходное",
+    "x": 3448,
+    "y": 1232,
+    "texts": [
+      "9:41",
+      "Reorder",
+      "Back",
+      "These items aren’t available",
+      "The menu has changed since this order. Browse today’s dishes to find something else.",
+      "Browse menu"
+    ],
+    "assets": [
+      "const imgFrame = `${assetPathPrefix}/0d540.svg`;",
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;",
+      "const imgShoppingBag1 = `${assetPathPrefix}/40398.svg`;"
+    ]
+  },
+  {
+    "id": "1422:12810",
+    "name": "Screen / B01 / Личные данные / исходное",
+    "x": 4006,
+    "y": 1232,
+    "texts": [
+      "9:41",
+      "Order #139",
+      "Back",
+      "Order #139",
+      "Items",
+      "Order cancelled",
+      "14 Oct 2026 · Order #137",
+      "Items",
+      "2",
+      "Order total",
+      "$25.90",
+      "Payment status",
+      "Unavailable",
+      "Acai bowl",
+      "Chia pudding, mixed berries, banana, mango, coconut flakes, mint, cinnamon, vanilla...",
+      "2 items · $15",
+      "Buddha Bowl (Tempeh, Coconut Black Rice, Avocado) (Vegan, GF, LF, High Fiber)",
+      "3 items · $45",
+      "Items",
+      "$25.90",
+      "Reorder"
+    ],
+    "assets": [
+      "const imgPhotoAcai = `${assetPathPrefix}/75f46.png`;",
+      "const imgImage74 = `${assetPathPrefix}/dd8bd.png`;",
+      "const imgFrame = `${assetPathPrefix}/0d540.svg`;",
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;"
+    ]
+  },
+  {
+    "id": "1423:14491",
+    "name": "Screen / B01 / Личные данные / исходное",
+    "x": 100,
+    "y": 2524,
+    "texts": [
+      "9:41",
+      "Your places",
+      "Back",
+      "Where should we deliver?",
+      "Save your home or another regular spot for a quicker checkout.",
+      "Add address"
+    ],
+    "assets": [
+      "const imgFrame = `${assetPathPrefix}/0d540.svg`;",
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;",
+      "const imgMapPinLocation = `${assetPathPrefix}/82a92.svg`;"
+    ]
+  },
+  {
+    "id": "1423:14280",
+    "name": "Screen / B01 / Личные данные / исходное",
+    "x": 658,
+    "y": 2524,
+    "texts": [
+      "9:41",
+      "Your places",
+      "Back",
+      "Your places",
+      "Home · Default",
+      "Jl. Raya Padonan No.41a Tibubeneng, Bali",
+      "Work",
+      "Jl. Melati Indah No.27, Denpasar, Bali",
+      "Save time on your next delivery.",
+      "Add address"
+    ],
+    "assets": [
+      "const imgFrame = `${assetPathPrefix}/0d540.svg`;",
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;",
+      "const imgHomeRoundDoor = `${assetPathPrefix}/2af17.svg`;",
+      "const imgPencilEditWrite = `${assetPathPrefix}/2b8ef.svg`;",
+      "const imgTrashCanDeleteRemoveGarbageWaste = `${assetPathPrefix}/c4405.svg`;",
+      "const imgBuildingsCompanyWorkspace = `${assetPathPrefix}/a953b.svg`;"
+    ]
+  },
+  {
+    "id": "1423:14582",
+    "name": "::",
+    "x": 1216,
+    "y": 2524,
+    "texts": [
+      "Continue to details",
+      "1100 Brickell Bay Dr, Miami, FL 33131",
+      "Address",
+      "Add address"
+    ],
+    "assets": [
+      "const imgImage75 = `${assetPathPrefix}/10390.png`;",
+      "const imgImage67 = `${assetPathPrefix}/bb28d.png`;",
+      "const imgFrame276 = `${assetPathPrefix}/6f490.svg`;",
+      "const imgPinCircleLocation = `${assetPathPrefix}/697e9.svg`;"
+    ]
+  },
+  {
+    "id": "1423:14609",
+    "name": "::",
+    "x": 1774,
+    "y": 2524,
+    "texts": [
+      "Brickell",
+      "Address",
+      "701 Brickell Ave",
+      "Miami, FL 33131",
+      "1100 Brickell Bay Dr",
+      "Miami, FL 33131",
+      "1000 Brickell Plaza",
+      "Miami, FL 33131",
+      "1111 Brickell Ave",
+      "Miami, FL 33131",
+      "1395 Brickell Ave",
+      "Miami, FL 33131",
+      "1451 Brickell Ave",
+      "Miami, FL 33131",
+      "Add address",
+      "q",
+      "w",
+      "e",
+      "r",
+      "t",
+      "y",
+      "u",
+      "i",
+      "o",
+      "p",
+      "a",
+      "s",
+      "d",
+      "f",
+      "g",
+      "h",
+      "j",
+      "k",
+      "l",
+      "z",
+      "x",
+      "c",
+      "v",
+      "b",
+      "n",
+      "m",
+      "123",
+      "space",
+      "return"
+    ],
+    "assets": [
+      "const imgImage75 = `${assetPathPrefix}/10390.png`;",
+      "const imgImage67 = `${assetPathPrefix}/bb28d.png`;",
+      "const imgLine18 = `${assetPathPrefix}/86915.svg`;",
+      "const imgLine23 = `${assetPathPrefix}/d2e59.svg`;",
+      "const imgLine21 = `${assetPathPrefix}/b8082.svg`;",
+      "const imgFrame276 = `${assetPathPrefix}/6f490.svg`;"
+    ]
+  },
+  {
+    "id": "1423:14772",
+    "name": "::",
+    "x": 2332,
+    "y": 2524,
+    "texts": [
+      "Continue to details",
+      "1000 Brickell Plaza, Miami, FL 33131",
+      "Address",
+      "Add address"
+    ],
+    "assets": [
+      "const imgImage75 = `${assetPathPrefix}/10390.png`;",
+      "const imgImage67 = `${assetPathPrefix}/bb28d.png`;",
+      "const imgFrame276 = `${assetPathPrefix}/6f490.svg`;",
+      "const imgPinCircleLocation = `${assetPathPrefix}/697e9.svg`;"
+    ]
+  },
+  {
+    "id": "1423:14799",
+    "name": "::",
+    "x": 2890,
+    "y": 2524,
+    "texts": [
+      "1000 Brickell Plaza",
+      "Miami, FL 33131",
+      "Apartment / Suite / Unit",
+      "Building / Residence name",
+      "Delivery instructions",
+      "Address label",
+      "Floor",
+      "Access code",
+      "Address details",
+      "Save address"
+    ],
+    "assets": [
+      "const imgImage75 = `${assetPathPrefix}/10390.png`;",
+      "const imgImage67 = `${assetPathPrefix}/bb28d.png`;",
+      "const imgIcPenEdit = `${assetPathPrefix}/04df5.svg`;",
+      "const imgFrame276 = `${assetPathPrefix}/6f490.svg`;"
+    ]
+  },
+  {
+    "id": "1423:14853",
+    "name": "::",
+    "x": 3448,
+    "y": 2524,
+    "texts": [
+      "1000 Brickell Plaza",
+      "Miami, FL 33131",
+      "Apartment / Suite / Unit",
+      "Building / Residence name",
+      "Delivery instructions",
+      "Address label",
+      "Floor",
+      "Access code",
+      "Address details",
+      "Save address"
+    ],
+    "assets": [
+      "const imgImage75 = `${assetPathPrefix}/10390.png`;",
+      "const imgImage67 = `${assetPathPrefix}/bb28d.png`;",
+      "const imgIcPenEdit = `${assetPathPrefix}/04df5.svg`;",
+      "const imgFrame276 = `${assetPathPrefix}/6f490.svg`;"
+    ]
+  },
+  {
+    "id": "1423:14921",
+    "name": "Screen / B01 / Личные данные / исходное",
+    "x": 4006,
+    "y": 2524,
+    "texts": [
+      "9:41",
+      "Your places",
+      "Back",
+      "Remove Home?",
+      "Jl. Raya Padonan No.41a, Tibubeneng. This removes the saved address. Existing orders keep their delivery details.",
+      "Keep address",
+      "Remove address"
+    ],
+    "assets": [
+      "const imgFrame = `${assetPathPrefix}/0d540.svg`;",
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;",
+      "const imgMapPinLocation = `${assetPathPrefix}/82a92.svg`;"
+    ]
+  },
+  {
+    "id": "1443:1152",
+    "name": "Screen / B01 / Личные данные / исходное",
+    "x": 100,
+    "y": 3656,
+    "texts": [
+      "9:41",
+      "Payment methods",
+      "Back",
+      "No saved cards yet",
+      "Add a card for a quicker checkout, or come back when you’re ready.",
+      "Add card"
+    ],
+    "assets": [
+      "const imgFrame = `${assetPathPrefix}/0d540.svg`;",
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;",
+      "const imgCreditCard2CardPayment = `${assetPathPrefix}/7e641.svg`;"
+    ]
+  },
+  {
+    "id": "1443:1382",
+    "name": "Корзина • есть позиции в корзине",
+    "x": 658,
+    "y": 3656,
+    "texts": [
+      "Payment methods",
+      "Back",
+      "Your cards",
+      "Choose a payment method at checkout.",
+      "Mastercard",
+      "{`••••  7032`}",
+      "Default payment method",
+      "Mastercard",
+      "{`••••  8034`}"
+    ],
+    "assets": [
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;",
+      "const imgCreditCard2CardPayment = `${assetPathPrefix}/69443.svg`;"
+    ]
+  },
+  {
+    "id": "1443:1534",
+    "name": "Screen / B01 / Личные данные / исходное",
+    "x": 1216,
+    "y": 3656,
+    "texts": [
+      "9:41",
+      "Card number",
+      "{`5484  ••••  ••••  7032`}",
+      "Expiry date",
+      "06 / 29",
+      "Security code",
+      "•••",
+      "Name on card",
+      "MICHAEL JERLIS",
+      "Add card",
+      "Back",
+      "Add a card",
+      "Save card",
+      "Save a payment method for future orders.",
+      "Default payment method",
+      "Use as the first choice in future checkouts."
+    ],
+    "assets": [
+      "const imgFrame = `${assetPathPrefix}/0d540.svg`;",
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;"
+    ]
+  },
+  {
+    "id": "1443:1642",
+    "name": "Screen / B01 / Личные данные / исходное",
+    "x": 1774,
+    "y": 3656,
+    "texts": [
+      "9:41",
+      "Card number",
+      "{`5484  ••••  ••••  70`}",
+      "Check the card number and try again.",
+      "Expiry date",
+      "01 / 24",
+      "Use a card that hasn’t expired.",
+      "Security code",
+      "•••",
+      "Name on card",
+      "MICHAEL JERLIS",
+      "Add card",
+      "Back",
+      "Add a card",
+      "Save card",
+      "Save a payment method for future orders.",
+      "Default payment method",
+      "Use as the first choice in future checkouts."
+    ],
+    "assets": [
+      "const imgFrame = `${assetPathPrefix}/0d540.svg`;",
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;"
+    ]
+  },
+  {
+    "id": "1443:1753",
+    "name": "Screen / B01 / Личные данные / исходное",
+    "x": 2332,
+    "y": 3656,
+    "texts": [
+      "9:41",
+      "Card number",
+      "{`5484  ••••  ••••  7032`}",
+      "Expiry date",
+      "06 / 29",
+      "Security code",
+      "•••",
+      "Name on card",
+      "MICHAEL JERLIS",
+      "Add card",
+      "Back",
+      "Add a card",
+      "Verifying…",
+      "Save a payment method for future orders.",
+      "Default payment method",
+      "Use as the first choice in future checkouts."
+    ],
+    "assets": [
+      "const imgFrame = `${assetPathPrefix}/0d540.svg`;",
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;"
+    ]
+  },
+  {
+    "id": "1443:1895",
+    "name": "Screen / B01 / Личные данные / исходное",
+    "x": 2890,
+    "y": 3656,
+    "texts": [
+      "9:41",
+      "Payment methods",
+      "Back",
+      "Confirm with your bank",
+      "Your bank needs to verify this card. Continue to complete the secure verification.",
+      "Continue verification",
+      "Cancel"
+    ],
+    "assets": [
+      "const imgFrame = `${assetPathPrefix}/0d540.svg`;",
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;",
+      "const imgShieldCheckSecurityProtection = `${assetPathPrefix}/8f056.svg`;"
+    ]
+  },
+  {
+    "id": "1443:2030",
+    "name": "Screen / B01 / Личные данные / исходное",
+    "x": 3448,
+    "y": 3656,
+    "texts": [
+      "9:41",
+      "Payment methods",
+      "Back",
+      "Card wasn’t saved",
+      "We couldn’t complete verification. Try again or use a different card.",
+      "Try again",
+      "Back to payment methods"
+    ],
+    "assets": [
+      "const imgFrame = `${assetPathPrefix}/0d540.svg`;",
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;",
+      "const imgTriangleExclamationErrorWarningAlert = `${assetPathPrefix}/b24ce.svg`;"
+    ]
+  },
+  {
+    "id": "1443:2072",
+    "name": "Корзина • есть позиции в корзине",
+    "x": 4006,
+    "y": 3656,
+    "texts": [
+      "Card details",
+      "Back",
+      "Mastercard",
+      "{`••••  7032`}",
+      "Default payment method",
+      "Remove card",
+      "Edit details",
+      "Default payment method",
+      "Use as the first choice in future checkouts.",
+      "You can choose a different card before placing any order."
+    ],
+    "assets": [
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;",
+      "const imgCreditCard2CardPayment = `${assetPathPrefix}/69443.svg`;"
+    ]
+  },
+  {
+    "id": "1443:2145",
+    "name": "Корзина • есть позиции в корзине",
+    "x": 4564,
+    "y": 3656,
+    "texts": [
+      "Card details",
+      "Back",
+      "Remove card",
+      "Keep card",
+      "Remove Mastercard •••• 7032?",
+      "This card will no longer be available for future checkouts. Your existing orders stay unchanged."
+    ],
+    "assets": [
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;",
+      "const imgTrashCan2DeleteRemoveGarbageWaste = `${assetPathPrefix}/13bb3.svg`;"
+    ]
+  },
+  {
+    "id": "1443:2612",
+    "name": "Корзина • есть позиции в корзине",
+    "x": 100,
+    "y": 4788,
+    "texts": [
+      "Prana points",
+      "Back",
+      "Your Prana points",
+      "476",
+      "Available points",
+      "Points activity",
+      "Your recent balance changes",
+      "Using your points",
+      "Available rewards are shown before you place an order.",
+      "Loyalty program terms",
+      "{`Earning, spending & expiry`}"
+    ],
+    "assets": [
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;",
+      "const imgIconChevron = `${assetPathPrefix}/cda86.svg`;"
+    ]
+  },
+  {
+    "id": "1443:2716",
+    "name": "Корзина • есть позиции в корзине",
+    "x": 658,
+    "y": 4788,
+    "texts": [
+      "Prana points",
+      "Back",
+      "0 points",
+      "No points activity yet.",
+      "Your activity will appear here",
+      "See the loyalty terms for details about Prana points."
+    ],
+    "assets": [
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;",
+      "const imgShoppingBag1 = `${assetPathPrefix}/40398.svg`;"
+    ]
+  },
+  {
+    "id": "1443:2814",
+    "name": "Корзина • есть позиции в корзине",
+    "x": 1216,
+    "y": 4788,
+    "texts": [
+      "Prana points",
+      "Back",
+      "Points activity",
+      "476 points available",
+      "Pending · +200 points",
+      "Order #139 · Awaiting confirmation",
+      "Recent activity",
+      "+200 points · Order #138",
+      "16 Oct 2026 · Confirmed",
+      "−24 points · Order #137",
+      "14 Oct 2026 · Used",
+      "Pending points aren’t included in your available balance."
+    ],
+    "assets": [
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;"
+    ]
+  },
+  {
+    "id": "1443:2975",
+    "name": "Корзина • есть позиции в корзине",
+    "x": 1774,
+    "y": 4788,
+    "texts": [
+      "Prana points",
+      "Back",
+      "Terms are unavailable",
+      "We couldn’t load the loyalty program terms. Please try again later.",
+      "Try again",
+      "Back"
+    ],
+    "assets": [
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;",
+      "const imgCircleInfoInfoCircleTooltipInformation = `${assetPathPrefix}/9b055.svg`;"
+    ]
+  },
+  {
+    "id": "1443:3005",
+    "name": "Корзина • есть позиции в корзине",
+    "x": 2332,
+    "y": 4788,
+    "texts": [
+      "Prana points",
+      "Back",
+      "Couldn’t load your balance",
+      "This doesn’t mean your points are gone. Check your connection and try again.",
+      "Try again",
+      "Back"
+    ],
+    "assets": [
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;",
+      "const imgTriangleExclamationErrorWarningAlert = `${assetPathPrefix}/b24ce.svg`;"
+    ]
+  },
+  {
+    "id": "1443:3059",
+    "name": "Корзина • есть позиции в корзине",
+    "x": 2890,
+    "y": 4788,
+    "texts": [
+      "Loyalty program terms",
+      "Back",
+      "Terms",
+      "Prana Points are earned through qualifying purchases and can be redeemed for discounts or special offers. Points expire 12 months after they are awarded. Points are non-transferable and have no cash value. Members must present their loyalty card at the time of purchase to earn points. Prana Points cannot be combined with other promotional offers unless stated otherwise."
+    ],
+    "assets": [
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;"
+    ]
+  },
+  {
+    "id": "1443:3660",
+    "name": "Корзина • есть позиции в корзине",
+    "x": 100,
+    "y": 5920,
+    "texts": [
+      "{`Settings & information`}",
+      "Back",
+      "Make Prana yours",
+      "{`Notifications & offers`}",
+      "Choose what you receive",
+      "Loyalty program terms",
+      "How Prana points work",
+      "Credits",
+      "{`App information & acknowledgements`}",
+      "Privacy policy",
+      "Terms of use"
+    ],
+    "assets": [
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;",
+      "const imgIconChevron = `${assetPathPrefix}/cda86.svg`;"
+    ]
+  },
+  {
+    "id": "1443:3742",
+    "name": "Корзина • есть позиции в корзине",
+    "x": 658,
+    "y": 5920,
+    "texts": [
+      "Notifications",
+      "Back",
+      "Stay in the loop",
+      "Choose your promotional messages.",
+      "{`Promotions & offers`}",
+      "Push notifications",
+      "Offers on this device.",
+      "Email offers",
+      "Occasional promotions by email.",
+      "SMS offers",
+      "Promotions to your verified number.",
+      "Order updates",
+      "Messages needed to complete your order are managed separately.",
+      "You can change these choices at any time.",
+      "Save changes"
+    ],
+    "assets": [
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;"
+    ]
+  },
+  {
+    "id": "1443:4097",
+    "name": "Корзина • есть позиции в корзине",
+    "x": 1216,
+    "y": 5920,
+    "texts": [
+      "Notifications",
+      "Back",
+      "Stay in the loop",
+      "Choose your promotional messages.",
+      "{`Promotions & offers`}",
+      "Push notifications",
+      "Offers on this device.",
+      "Email offers",
+      "Occasional promotions by email.",
+      "SMS offers",
+      "Promotions to your verified number.",
+      "Order updates",
+      "Messages needed to complete your order are managed separately.",
+      "You can change these choices at any time.",
+      "Save changes",
+      "Preference wasn’t saved",
+      "Your previous setting is still active. Try again."
+    ],
+    "assets": [
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;"
+    ]
+  },
+  {
+    "id": "1443:3892",
+    "name": "Корзина • есть позиции в корзине",
+    "x": 1774,
+    "y": 5920,
+    "texts": [
+      "Prana points",
+      "Back",
+      "Allow notifications in Settings",
+      "Push is enabled in Prana, but your device is blocking notifications. You can change this in Settings.",
+      "Open settings",
+      "Not now"
+    ],
+    "assets": [
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;",
+      "const imgBellNotificationActivityAlert = `${assetPathPrefix}/4ec98.svg`;"
+    ]
+  },
+  {
+    "id": "1443:3928",
+    "name": "Корзина • есть позиции в корзине",
+    "x": 2332,
+    "y": 5920,
+    "texts": [
+      "Loyalty program terms",
+      "Back",
+      "Terms",
+      "Prana Points are earned through qualifying purchases and can be redeemed for discounts or special offers. Points expire 12 months after they are awarded. Points are non-transferable and have no cash value. Members must present their loyalty card at the time of purchase to earn points. Prana Points cannot be combined with other promotional offers unless stated otherwise."
+    ],
+    "assets": [
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;"
+    ]
+  },
+  {
+    "id": "1443:3953",
+    "name": "Корзина • есть позиции в корзине",
+    "x": 2890,
+    "y": 5920,
+    "texts": [
+      "Credits",
+      "Back",
+      "Prana",
+      "Food delivery",
+      "{`App information & acknowledgements`}",
+      "{`Licenses & acknowledgements`}",
+      "Privacy policy",
+      "Terms of use",
+      "Your account settings and order history are available in Profile."
+    ],
+    "assets": [
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;",
+      "const imgIconChevron = `${assetPathPrefix}/cda86.svg`;"
+    ]
+  },
+  {
+    "id": "1443:4172",
+    "name": "Корзина • есть позиции в корзине",
+    "x": 3502,
+    "y": 5920,
+    "texts": [
+      "Licenses",
+      "Back",
+      "Licenses are unavailable",
+      "We couldn’t load the acknowledgements and license information. Please try again.",
+      "Try again",
+      "Back"
+    ],
+    "assets": [
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;",
+      "const imgCircleInfoInfoCircleTooltipInformation = `${assetPathPrefix}/9b055.svg`;"
+    ]
+  },
+  {
+    "id": "1443:4205",
+    "name": "Корзина • есть позиции в корзине",
+    "x": 4054,
+    "y": 5920,
+    "texts": [
+      "Privacy policy",
+      "Back",
+      "Privacy policy unavailable",
+      "We couldn’t load the privacy policy. Please try again when you’re connected.",
+      "Try again",
+      "Back"
+    ],
+    "assets": [
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;",
+      "const imgCircleInfoInfoCircleTooltipInformation = `${assetPathPrefix}/9b055.svg`;"
+    ]
+  },
+  {
+    "id": "1443:4238",
+    "name": "Корзина • есть позиции в корзине",
+    "x": 4606,
+    "y": 5920,
+    "texts": [
+      "Terms of use",
+      "Back",
+      "Terms of use unavailable",
+      "We couldn’t load the terms of use. Please try again when you’re connected.",
+      "Try again",
+      "Back"
+    ],
+    "assets": [
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;",
+      "const imgCircleInfoInfoCircleTooltipInformation = `${assetPathPrefix}/9b055.svg`;"
+    ]
+  },
+  {
+    "id": "1443:4690",
+    "name": "Screen / H01 / Подтверждение выхода",
+    "x": 100,
+    "y": 7180,
+    "texts": [
+      "9:41",
+      "Back",
+      "Log out",
+      "Log out of Prana?",
+      "Your saved addresses, cards and order history will be here when you sign in again.",
+      "Stay signed in",
+      "Log out"
+    ],
+    "assets": [
+      "const imgFrame = `${assetPathPrefix}/0d540.svg`;",
+      "const imgIconBack = `${assetPathPrefix}/97997.svg`;",
+      "const imgArrowBoxRightLoginEnterDoor = `${assetPathPrefix}/3ec4f.svg`;"
+    ]
+  },
+  {
+    "id": "1443:4722",
+    "name": "Корзина • есть позиции в корзине",
+    "x": 612,
+    "y": 7180,
+    "texts": [
+      "Profile",
+      "Back",
+      "Log out of Prana?",
+      "Your saved addresses, cards and order history will be here when you sign in again.",
+      "Stay signed in",
+      "Log out"
+    ],
+    "assets": [
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;",
+      "const imgPeopleCircleUserCircleAvatarProfile = `${assetPathPrefix}/2da0a.svg`;"
+    ]
+  },
+  {
+    "id": "1443:4655",
+    "name": "Корзина • есть позиции в корзине",
+    "x": 1170,
+    "y": 7180,
+    "texts": [
+      "Profile",
+      "Back",
+      "Your Prana account",
+      "Sign in to see your orders, saved addresses and Prana points.",
+      "Sign in",
+      "Browse menu"
+    ],
+    "assets": [
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;",
+      "const imgPeopleCircleUserCircleAvatarProfile = `${assetPathPrefix}/2da0a.svg`;"
+    ]
+  },
+  {
+    "id": "1443:4487",
+    "name": "Корзина • есть позиции в корзине",
+    "x": 1728,
+    "y": 7180,
+    "texts": [
+      "Prana points",
+      "Back",
+      "You’re still signed in",
+      "We couldn’t finish logging you out. Please try again.",
+      "Try again",
+      "Back"
+    ],
+    "assets": [
+      "const imgFrame276 = `${assetPathPrefix}/44b92.svg`;",
+      "const imgTriangleExclamationErrorWarningAlert = `${assetPathPrefix}/b24ce.svg`;"
+    ]
+  }
+]

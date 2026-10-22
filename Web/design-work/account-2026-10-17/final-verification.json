@@ -1,0 +1,1066 @@
+{
+  "board": "1385:2482",
+  "screenCount": 75,
+  "states": [
+    {
+      "code": "A01",
+      "id": "1379:1762",
+      "x": 40,
+      "y": 530,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "A02",
+      "id": "1379:1839",
+      "x": 526,
+      "y": 530,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "A03",
+      "id": "1379:1909",
+      "x": 1012,
+      "y": 530,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "A04",
+      "id": "1379:1954",
+      "x": 1498,
+      "y": 530,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "A05",
+      "id": "1379:2010",
+      "x": 1984,
+      "y": 530,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "A06",
+      "id": "1379:2049",
+      "x": 2470,
+      "y": 530,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "A07",
+      "id": "1379:2090",
+      "x": 2956,
+      "y": 530,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "B01",
+      "id": "1380:1832",
+      "x": 40,
+      "y": 1940,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "B02",
+      "id": "1380:1892",
+      "x": 526,
+      "y": 1940,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "B03",
+      "id": "1380:1946",
+      "x": 1012,
+      "y": 1940,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "B04",
+      "id": "1380:2001",
+      "x": 1498,
+      "y": 1940,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "B05",
+      "id": "1380:2041",
+      "x": 1984,
+      "y": 1940,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "B06",
+      "id": "1380:2110",
+      "x": 2470,
+      "y": 1940,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "B07",
+      "id": "1380:2187",
+      "x": 2956,
+      "y": 1940,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "B08",
+      "id": "1380:2265",
+      "x": 3442,
+      "y": 1940,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "B09",
+      "id": "1380:2322",
+      "x": 3928,
+      "y": 1940,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "B10",
+      "id": "1380:2359",
+      "x": 4414,
+      "y": 1940,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "C01",
+      "id": "1381:1907",
+      "x": 40,
+      "y": 3350,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "C02",
+      "id": "1381:1960",
+      "x": 526,
+      "y": 3350,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "C03",
+      "id": "1381:1996",
+      "x": 1012,
+      "y": 3350,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "C04",
+      "id": "1381:2031",
+      "x": 1498,
+      "y": 3350,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "C05",
+      "id": "1381:2106",
+      "x": 1984,
+      "y": 3350,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "C06",
+      "id": "1381:2161",
+      "x": 2470,
+      "y": 3350,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "C07",
+      "id": "1381:2213",
+      "x": 2956,
+      "y": 3350,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "C08",
+      "id": "1381:2251",
+      "x": 3442,
+      "y": 3350,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "C09",
+      "id": "1381:2300",
+      "x": 3928,
+      "y": 3350,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "C10",
+      "id": "1385:2414",
+      "x": 4414,
+      "y": 3350,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "D01",
+      "id": "1382:1939",
+      "x": 40,
+      "y": 4760,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "D02",
+      "id": "1382:1980",
+      "x": 526,
+      "y": 4760,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "D03",
+      "id": "1382:2016",
+      "x": 1012,
+      "y": 4760,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "D04",
+      "id": "1382:2064",
+      "x": 1498,
+      "y": 4760,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "D05",
+      "id": "1382:2112",
+      "x": 1984,
+      "y": 4760,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "D06",
+      "id": "1382:2154",
+      "x": 2470,
+      "y": 4760,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "D07",
+      "id": "1382:2195",
+      "x": 2956,
+      "y": 4760,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "D08",
+      "id": "1382:2253",
+      "x": 3442,
+      "y": 4760,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "D09",
+      "id": "1382:2308",
+      "x": 3928,
+      "y": 4760,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "D10",
+      "id": "1382:2352",
+      "x": 4414,
+      "y": 4760,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "D11",
+      "id": "1382:2389",
+      "x": 4900,
+      "y": 4760,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "D12",
+      "id": "1382:2428",
+      "x": 5386,
+      "y": 4760,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "E01",
+      "id": "1383:1985",
+      "x": 40,
+      "y": 6170,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "E02",
+      "id": "1383:2030",
+      "x": 526,
+      "y": 6170,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "E03",
+      "id": "1383:2066",
+      "x": 1012,
+      "y": 6170,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "E04",
+      "id": "1383:2116",
+      "x": 1498,
+      "y": 6170,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "E05",
+      "id": "1383:2167",
+      "x": 1984,
+      "y": 6170,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "E06",
+      "id": "1383:2219",
+      "x": 2470,
+      "y": 6170,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "E07",
+      "id": "1383:2258",
+      "x": 2956,
+      "y": 6170,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "E08",
+      "id": "1383:2295",
+      "x": 3442,
+      "y": 6170,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "E09",
+      "id": "1383:2343",
+      "x": 3928,
+      "y": 6170,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "E10",
+      "id": "1383:2393",
+      "x": 4414,
+      "y": 6170,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "F01",
+      "id": "1384:2013",
+      "x": 40,
+      "y": 7580,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "F02",
+      "id": "1384:2061",
+      "x": 526,
+      "y": 7580,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "F03",
+      "id": "1384:2101",
+      "x": 1012,
+      "y": 7580,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "F04",
+      "id": "1384:2140",
+      "x": 1498,
+      "y": 7580,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "F05",
+      "id": "1384:2175",
+      "x": 1984,
+      "y": 7580,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "G01",
+      "id": "1384:2226",
+      "x": 40,
+      "y": 8990,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "G02",
+      "id": "1384:2285",
+      "x": 526,
+      "y": 8990,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "G03",
+      "id": "1384:2340",
+      "x": 1012,
+      "y": 8990,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "G04",
+      "id": "1384:2378",
+      "x": 1498,
+      "y": 8990,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "G05",
+      "id": "1384:2429",
+      "x": 1984,
+      "y": 8990,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "G06",
+      "id": "1384:2468",
+      "x": 2470,
+      "y": 8990,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "G07",
+      "id": "1384:2507",
+      "x": 2956,
+      "y": 8990,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "H01",
+      "id": "1384:2570",
+      "x": 40,
+      "y": 10400,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "H02",
+      "id": "1384:2607",
+      "x": 526,
+      "y": 10400,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "H03",
+      "id": "1384:2646",
+      "x": 1012,
+      "y": 10400,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "H04",
+      "id": "1384:2694",
+      "x": 1498,
+      "y": 10400,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "H05",
+      "id": "1384:2761",
+      "x": 1984,
+      "y": 10400,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "H06",
+      "id": "1384:2798",
+      "x": 2470,
+      "y": 10400,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "H07",
+      "id": "1384:2835",
+      "x": 2956,
+      "y": 10400,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "H08",
+      "id": "1384:2873",
+      "x": 3442,
+      "y": 10400,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "C11",
+      "id": "1386:2116",
+      "x": 4900,
+      "y": 3350,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "G08",
+      "id": "1386:2159",
+      "x": 3442,
+      "y": 8990,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "B11",
+      "id": "1390:2110",
+      "x": 4900,
+      "y": 1940,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "C12",
+      "id": "1390:2196",
+      "x": 5386,
+      "y": 3350,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "G09",
+      "id": "1390:2244",
+      "x": 3928,
+      "y": 8990,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    },
+    {
+      "code": "H09",
+      "id": "1390:2290",
+      "x": 3928,
+      "y": 10400,
+      "w": 430,
+      "h": 932,
+      "annotation": true
+    }
+  ],
+  "issues": [],
+  "links": 251,
+  "linktypes": {
+    "URL": 12,
+    "NODE": 233,
+    "BACK": 6
+  },
+  "fonts": [
+    "SF Pro"
+  ],
+  "targeted": {
+    "B06": [
+      {
+        "id": "1380:2138",
+        "name": "One-time code",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1390:2110",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.20000000298023224
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1390:2110",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1380:2149",
+        "name": "Disabled / Verify number",
+        "reactions": []
+      }
+    ],
+    "B07": [
+      {
+        "id": "1380:2215",
+        "name": "One-time code",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1390:2110",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.20000000298023224
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1390:2110",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1380:2227",
+        "name": "Disabled / Verify number",
+        "reactions": []
+      }
+    ],
+    "B11": [
+      {
+        "id": "1390:2133",
+        "name": "One-time code",
+        "reactions": []
+      }
+    ],
+    "C08": [
+      {
+        "id": "1381:2295",
+        "name": "Go / C12 / Need help?",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1390:2196",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.20000000298023224
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1390:2196",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      }
+    ],
+    "C12": [],
+    "F03": [
+      {
+        "id": "1384:2115",
+        "name": "History / Back",
+        "reactions": [
+          {
+            "action": {
+              "type": "BACK"
+            },
+            "actions": [
+              {
+                "type": "BACK"
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1384:2137",
+        "name": "History / Back",
+        "reactions": [
+          {
+            "action": {
+              "type": "BACK"
+            },
+            "actions": [
+              {
+                "type": "BACK"
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      }
+    ],
+    "G06": [
+      {
+        "id": "1384:2482",
+        "name": "History / Back",
+        "reactions": [
+          {
+            "action": {
+              "type": "BACK"
+            },
+            "actions": [
+              {
+                "type": "BACK"
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1384:2504",
+        "name": "History / Back",
+        "reactions": [
+          {
+            "action": {
+              "type": "BACK"
+            },
+            "actions": [
+              {
+                "type": "BACK"
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      }
+    ],
+    "G09": [
+      {
+        "id": "1390:2258",
+        "name": "History / Back",
+        "reactions": [
+          {
+            "action": {
+              "type": "BACK"
+            },
+            "actions": [
+              {
+                "type": "BACK"
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1390:2274",
+        "name": "History / Back",
+        "reactions": [
+          {
+            "action": {
+              "type": "BACK"
+            },
+            "actions": [
+              {
+                "type": "BACK"
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      }
+    ],
+    "H09": [
+      {
+        "id": "1390:2313",
+        "name": "Field / Verification code",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1384:2694",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.20000000298023224
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1384:2694",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1390:2319",
+        "name": "Disabled / Delete account",
+        "reactions": []
+      }
+    ]
+  },
+  "switches": [
+    {
+      "id": "1382:2237",
+      "height": 48
+    },
+    {
+      "id": "1382:2298",
+      "height": 48
+    },
+    {
+      "id": "1382:2471",
+      "height": 48
+    },
+    {
+      "id": "1383:2382",
+      "height": 48
+    },
+    {
+      "id": "1384:2315",
+      "height": 48
+    },
+    {
+      "id": "1384:2322",
+      "height": 48
+    },
+    {
+      "id": "1384:2329",
+      "height": 48
+    },
+    {
+      "id": "1384:2539",
+      "height": 48
+    },
+    {
+      "id": "1384:2546",
+      "height": 48
+    },
+    {
+      "id": "1384:2553",
+      "height": 48
+    },
+    {
+      "id": "1386:2183",
+      "height": 48
+    },
+    {
+      "id": "1386:2190",
+      "height": 48
+    },
+    {
+      "id": "1386:2197",
+      "height": 48
+    }
+  ],
+  "intro": [
+    {
+      "name": "Обзор и карта ветвей",
+      "text": [
+        "Prana. Account, connected.",
+        "Мобильный профиль и все его ветви · дизайн-предложение · 17 октября 2026",
+        "A  Профиль и промокод     B  Личные данные     C  Заказы     D  Адреса\nE  Оплата     F  Баллы и правила     G  Настройки и Credits     H  Выход и удаление",
+        "Читайте каждый ряд слева направо. Под каждым экраном — почему он устроен так и куда ведёт. Основные переходы соединены в Prototype.\nUI на английском, пояснения на русском. Это проектирование: SMS, платежи, поддержка и юридические документы не подключены.",
+        "Сохранено: тёмная палитра Prana, 430×932, мягкие панели, Amber #EA5C00. Улучшено: контраст, контекст строк, восстановление ошибок.\nSF Pro Display недоступен в инструменте: применён SF Pro. Цены, даты, ETA, баланс и персональные данные в макетах — примеры, не обещания сервиса."
+      ]
+    }
+  ]
+}

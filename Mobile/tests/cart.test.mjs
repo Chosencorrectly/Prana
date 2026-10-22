@@ -1,7 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
-import { cartItems, cartSuggestions } from '../src/catalog/cart-model.ts';
+import { cartChangeIssue, cartItems, cartNutrition, cartSuggestions } from '../src/catalog/cart-model.ts';
+import { cartPreviewQuantities } from '../src/catalog/cart-preview-model.ts';
 import { changeQuantity } from '../src/catalog/catalog-model.ts';
 import { cartSummary } from '../src/catalog/search-model.ts';
 
@@ -28,4 +29,33 @@ test('suggestions use distinct real dishes outside the cart, including a nearly 
   const allButLast = Object.fromEntries(products.slice(0, -1).map(product => [product.id, 1]));
   assert.deepEqual(cartSuggestions(products, categories, allButLast), [products.at(-1)]);
   assert.deepEqual(cartSuggestions(products, categories, Object.fromEntries(products.map(product => [product.id, 1]))), []);
+});
+
+test('cart nutrition multiplies every portion and keeps unknown values distinct from measured zero', () => {
+  const a = { ...products[0], id: 'a', kcal: 100, nutrition: { protein: 0, fat: 1.25, carbs: 12 } };
+  const b = { ...products[1], id: 'b', kcal: 50, nutrition: { protein: 2, fat: null, carbs: 5 } };
+  assert.deepEqual(cartNutrition([a, b], { a: 2, b: 3 }).map(item => item.value), [350, 6, null, 39]);
+  assert.deepEqual(cartNutrition([a, b], { a: 2 }).map(item => item.value), [200, 0, 2.5, 24]);
+  assert.deepEqual(cartNutrition([a, b], {}).map(item => item.value), [null, null, null, null]);
+});
+
+test('stock caps additions without blocking reductions; offline and failed requests preserve selection', () => {
+  const available = { offline: false, failed: false, limit: 2 };
+  assert.equal(cartChangeIssue(2, 1, available), 'stock');
+  assert.equal(cartChangeIssue(2, -1, available), null);
+  assert.equal(cartChangeIssue(1, 1, available), null);
+  assert.equal(cartChangeIssue(1, -1, available), null);
+  assert.equal(cartChangeIssue(1, 1, { ...available, offline: true }), 'offline');
+  assert.equal(cartChangeIssue(1, -1, { ...available, failed: true }), 'update-error');
+  assert.equal(cartChangeIssue(50, 1, { offline: false, failed: false }), null);
+});
+
+test('preview has real independent fixtures: three distinct dishes, four portions and correct totals', () => {
+  const quantities = cartPreviewQuantities(products, 'ready');
+  assert.equal(cartItems(products, quantities).length, 3);
+  assert.deepEqual(cartSummary(products, quantities), { count: 4, cents: 6380 });
+  assert.deepEqual(cartNutrition(products, quantities).map(item => item.value), [2350, 62, 104, 310]);
+  assert.deepEqual(cartPreviewQuantities(products, 'empty'), {});
+  const changed = changeQuantity(quantities, Object.keys(quantities)[0], 1);
+  assert.notDeepEqual(changed, cartPreviewQuantities(products, 'ready'));
 });

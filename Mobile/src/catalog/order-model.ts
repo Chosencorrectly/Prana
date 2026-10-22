@@ -1,13 +1,15 @@
 import type { Product } from './catalog-model';
 import type { SavedAddress } from './address-model';
-import { checkoutTotals, type PromoStatus } from './promo-model.ts';
+import { type PromoStatus } from './promo-model.ts';
+import { orderTotals, type Allergen, type PaymentMethod, type Tip } from './checkout-options.ts';
 import { cartItems } from './cart-model.ts';
 
-export type OrderOptions = { leaveAtDoor: boolean; time: number; payment: number };
+export type OrderOptions = { leaveAtDoor: boolean; time: number; payment: number; paymentCardId?: string; paymentMethod?: PaymentMethod; paymentLabel?: string; allergens?: Allergen[]; tip?: Tip; courierNote?: string };
 export type OrderItem = { id: string; name: string; description: string; quantity: number; priceCents: number };
 export type ActiveOrder = {
   items: OrderItem[]; address: SavedAddress; phone: string; options: OrderOptions;
   count: number; subtotalCents: number; discountCents: number; totalCents: number;
+  deliveryCents: number; taxCents: number; tipCents: number;
   // Presentation fixtures from Figma, not a live delivery estimate or rewards rule.
   eta: string; status: string; stage: number; points: number;
 };
@@ -17,9 +19,9 @@ export function createOrder(products: Product[], quantities: Record<string, numb
   if (!items.length) return null;
   const count = items.reduce((sum, item) => sum + item.quantity, 0);
   const subtotal = items.reduce((sum, item) => sum + item.priceCents * item.quantity, 0);
-  return { items, count, ...checkoutTotals(subtotal, promo), phone,
+  return { items, count, ...orderTotals(subtotal, promo, options.tip), phone,
     address: { ...address, location: { ...address.location, point: { ...address.location.point } }, details: { ...address.details } },
-    options: { ...options }, eta: '12:20–12:35 PM', status: 'Looking for courier', stage: 1, points: 200 };
+    options: { ...options, ...(options.allergens ? { allergens: [...options.allergens] } : {}), ...(options.tip ? { tip: { ...options.tip } } : {}) }, eta: '12:20–12:35 PM', status: 'Looking for courier', stage: 1, points: 200 };
 }
 
 export type OrderSnap = 0 | 1;

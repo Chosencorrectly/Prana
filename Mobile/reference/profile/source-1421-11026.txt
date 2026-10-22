@@ -1,0 +1,130 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/42e86d60-708d-4b8f-8906-4fdc552a036b";
+const imgFrame = `${assetPathPrefix}/0d540.svg`;
+const imgIconChevron = `${assetPathPrefix}/cda86.svg`;
+const imgFrame276 = `${assetPathPrefix}/44b92.svg`;
+
+export default function ScreenB01() {
+  return (
+    <div className="bg-[var(--account-canvas,#080808)] relative size-full" data-node-id="1421:11026" data-name="Screen / B01 / Личные данные / исходное">
+      <div className="absolute h-[62px] left-0 top-0 w-[430px]" data-node-id="1421:11027" data-name="Status / safe area 62">
+        <p className="[word-break:break-word] absolute font-['SF_Pro:Semibold'] font-[590] leading-[22px] left-[40px] text-[17px] text-[color:var(--account-text,#ededed)] top-[22px] w-[60px]" data-node-id="1421:11028" style={{ fontVariationSettings: '"wdth" 100' }}>
+          9:41
+        </p>
+        <div className="absolute h-[16px] left-[310px] top-[24px] w-[80px]" data-node-id="1421:11029" data-name="Frame">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame} />
+        </div>
+      </div>
+      <div className="absolute bg-[var(--account-surface,#121212)] h-[870px] left-0 rounded-tl-[32px] rounded-tr-[32px] top-[62px] w-[430px]" data-node-id="1421:11038" data-name="Account sheet">
+        <div className="absolute content-stretch flex flex-col gap-[16px] items-start left-[16px] top-[217px] w-[398px]" data-node-id="1421:11039" data-name="Content">
+          <div className="content-stretch flex flex-col gap-[6px] items-start relative shrink-0 w-full" data-node-id="1421:11040" data-name="Go / B02 / First name">
+            <p className="[word-break:break-word] font-['SF_Pro:Medium'] font-[510] leading-[17px] relative shrink-0 text-[13px] text-[color:var(--account-secondary,#a1a1a1)] w-[390px]" data-node-id="1421:11041" style={{ fontVariationSettings: '"wdth" 100' }}>
+              First name
+            </p>
+            <div className="bg-[var(--account-card,#1c1c1c)] content-stretch flex h-[54px] items-center p-[16px] relative rounded-[12px] shrink-0 w-full" data-node-id="1421:11042" data-name="Input">
+              <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[21px] relative shrink-0 text-[16px] text-[color:var(--account-text,#ededed)] w-[358px]" data-node-id="1421:11043" style={{ fontVariationSettings: '"wdth" 100' }}>
+                Michael
+              </p>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[6px] items-start relative shrink-0 w-full" data-node-id="1421:11044" data-name="Go / B02 / Last name">
+            <p className="[word-break:break-word] font-['SF_Pro:Medium'] font-[510] leading-[17px] relative shrink-0 text-[13px] text-[color:var(--account-secondary,#a1a1a1)] w-[390px]" data-node-id="1421:11045" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Last name
+            </p>
+            <div className="bg-[var(--account-card,#1c1c1c)] content-stretch flex h-[54px] items-center p-[16px] relative rounded-[12px] shrink-0 w-full" data-node-id="1421:11046" data-name="Input">
+              <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[21px] relative shrink-0 text-[16px] text-[color:var(--account-text,#ededed)] w-[358px]" data-node-id="1421:11047" style={{ fontVariationSettings: '"wdth" 100' }}>
+                Jerlis
+              </p>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[6px] items-start relative shrink-0 w-full" data-node-id="1421:11048" data-name="Go / B02 / Email">
+            <p className="[word-break:break-word] font-['SF_Pro:Medium'] font-[510] leading-[17px] relative shrink-0 text-[13px] text-[color:var(--account-secondary,#a1a1a1)] w-[390px]" data-node-id="1421:11049" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Email
+            </p>
+            <div className="bg-[var(--account-card,#1c1c1c)] content-stretch flex h-[54px] items-center p-[16px] relative rounded-[12px] shrink-0 w-full" data-node-id="1421:11050" data-name="Input">
+              <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[21px] relative shrink-0 text-[16px] text-[color:var(--account-text,#ededed)] w-[358px]" data-node-id="1421:11051" style={{ fontVariationSettings: '"wdth" 100' }}>
+                brooks.06@prana.kitchen
+              </p>
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[12px] h-[64px] items-center relative shrink-0 w-full" data-node-id="1421:11052" data-name="Go / B05 / Phone number">
+            <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px relative" data-node-id="1421:11053" data-name="Labels">
+              <p className="font-['SF_Pro:Medium'] font-[510] leading-[20px] relative shrink-0 text-[16px] text-[color:var(--account-text,#ededed)] w-[356px]" data-node-id="1421:11054" style={{ fontVariationSettings: '"wdth" 100' }}>
+                Phone number
+              </p>
+              <p className="font-['SF_Pro:Regular'] font-normal leading-[16px] relative shrink-0 text-[13px] text-[color:var(--account-secondary,#a1a1a1)] w-[356px]" data-node-id="1421:11055" style={{ fontVariationSettings: '"wdth" 100' }}>
+                +62 821 0000 1122 · Verified
+              </p>
+            </div>
+            <div className="relative shrink-0 size-[18px]" data-node-id="1421:11056" data-name="Icon / chevron">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconChevron} />
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[12px] h-[64px] items-center relative shrink-0 w-full" data-node-id="1421:11058" data-name="Go / B04 / Date of birth">
+            <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px relative" data-node-id="1421:11059" data-name="Labels">
+              <p className="font-['SF_Pro:Medium'] font-[510] leading-[20px] relative shrink-0 text-[16px] text-[color:var(--account-text,#ededed)] w-[356px]" data-node-id="1421:11060" style={{ fontVariationSettings: '"wdth" 100' }}>
+                Date of birth
+              </p>
+              <p className="font-['SF_Pro:Regular'] font-normal leading-[16px] relative shrink-0 text-[13px] text-[color:var(--account-secondary,#a1a1a1)] w-[356px]" data-node-id="1421:11061" style={{ fontVariationSettings: '"wdth" 100' }}>
+                12 June 1985 · Optional
+              </p>
+            </div>
+            <div className="relative shrink-0 size-[18px]" data-node-id="1421:11062" data-name="Icon / chevron">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconChevron} />
+            </div>
+          </div>
+        </div>
+        <div className="absolute h-[61px] left-0 overflow-clip top-0 w-[430px]" data-node-id="1421:11070" data-name="Header">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(50%-0.5px)] not-italic text-[16px] text-center text-white top-[22px] whitespace-nowrap" data-node-id="1421:11071">
+            Personal details
+          </p>
+          <div className="absolute content-stretch flex gap-[4px] items-center left-[16px] top-[20px]" data-node-id="1421:11073">
+            <div className="flex items-center justify-center relative shrink-0" data-node-id="1421:11074">
+              <div className="flex-none rotate-180">
+                <div className="relative size-[20px]">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame276} />
+                </div>
+              </div>
+            </div>
+            <p className="[word-break:break-word] font-['SF_Pro_Display:Medium'] leading-[normal] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap" data-node-id="1421:11076">
+              Back
+            </p>
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['SF_Pro:Semibold'] font-[590] leading-[28px] left-[16px] text-[22px] text-white top-[73px] whitespace-nowrap" data-node-id="1421:11077" style={{ fontVariationSettings: '"wdth" 100' }}>
+          Personal details
+        </p>
+        <div className="absolute bg-[var(--account-card,#1c1c1c)] content-stretch flex items-center left-[16px] px-[20px] py-[14px] rounded-[16px] top-[121px] w-[398px]" data-node-id="1421:11078" data-name="Go / F01 / Points">
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-[4px] items-start relative shrink-0" data-node-id="1421:11079">
+            <p className="font-['SF_Pro:Semibold'] font-[590] leading-[20px] relative shrink-0 text-[16px] text-[color:var(--account-error,#ff9b94)] whitespace-nowrap" data-node-id="1421:11080" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Couldn’t save your details
+            </p>
+            <p className="font-['SF_Pro:Regular'] font-normal leading-[16px] relative shrink-0 text-[13px] text-[color:var(--account-secondary,#a1a1a1)] w-[358px]" data-node-id="1421:11081" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Your changes are still here. Please try again.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="absolute bg-[var(--account-accent,#ea5c00)] content-stretch flex h-[52px] items-center justify-center left-[20px] rounded-[12px] top-[832px] w-[390px]" data-node-id="1421:11082" data-name="Go / B10 / Save changes">
+        <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[21px] relative shrink-0 text-[16px] text-[color:var(--account-text,#ededed)] text-center w-[342px]" data-node-id="I1421:11082;1378:1795" style={{ fontVariationSettings: '"wdth" 100' }}>
+          Save again
+        </p>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Account69/17-Semibold: Font(family: "SF Pro", style: Semibold, size: 17, weight: 590, lineHeight: 22, letterSpacing: 0), Account69/13-Medium: Font(family: "SF Pro", style: Medium, size: 13, weight: 510, lineHeight: 17, letterSpacing: 0), Account69/16-Regular: Font(family: "SF Pro", style: Regular, size: 16, weight: 400, lineHeight: 21, letterSpacing: 0), Account69/16-Medium: Font(family: "SF Pro", style: Medium, size: 16, weight: 510, lineHeight: 20, letterSpacing: 0), Account69/13-Regular: Font(family: "SF Pro", style: Regular, size: 13, weight: 400, lineHeight: 16, letterSpacing: 0), Account69/16-Semibold: Font(family: "SF Pro", style: Semibold, size: 16, weight: 590, lineHeight: 21, letterSpacing: 0).
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Account69/Button
+**Node ID:** 1378:1806
+
+Кнопка Prana 52px. Default/pressed/disabled/loading/danger. Для orange выбран тёмный текст ради контраста. Никакого hover на touch. Дублирование submit блокируется.
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

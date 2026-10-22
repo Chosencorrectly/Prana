@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect, useRef, useState, type CSSProperties, type FormEvent } from 'react';
+import { useEffect, useLayoutEffect, useRef, useState, type CSSProperties, type FormEvent, type RefObject } from 'react';
 import { createPortal } from 'react-dom';
 import { motion, useReducedMotion } from 'motion/react';
 import { Carousel, FlowStack, KeyboardInput, MobileScroll, useFlow, useKeyboard, useKeyboardInsets, useMobileDevice, type FlowScreen } from '../mobile';
@@ -7,7 +7,9 @@ import { resendRemaining, validPhone } from '../auth-model';
 import { BottomFade } from './BottomFade';
 import { CartValue } from './CartQuantity';
 import { money } from './catalog-model';
-import { checkoutTotals } from './promo-model';
+import { orderTotals, paymentCardIndex, paymentMethods } from './checkout-options';
+import { CheckoutItems, CheckoutAllergyRow, CheckoutTips, CheckoutSummary, CheckoutPayment, checkoutExtraSteps, checkoutBack } from './CheckoutExtras';
+import { ProfileSessionContext, useProfileSession, useProfileSessionState } from '../profile/profile-session';
 import { PromoCodeField } from './PromoCodeField';
 import { CheckoutContext, useCheckout, type CheckoutState } from './checkout-context';
 import { useAddressBook } from './AddressBook';
@@ -18,6 +20,9 @@ import { useActiveOrder } from './ActiveOrderState';
 import { createOrder, type OrderOptions } from './order-model';
 import data from './catalog.json';
 import './checkout.css';
+import './checkout-refresh.css';
+import { useProfile } from '../profile/ProfileState';
+import { ProfileNotice } from '../profile/ProfileUI';
 
 const asset = (name: string) => `/assets/checkout/${name}.svg`;
 
@@ -27,7 +32,15 @@ function CartStepBridge() {
   const flow = useFlow(), { onActive, controls, host, initialTracking, onClose } = useCheckout();
   const { device } = useMobileDevice(), keyboard = useKeyboard(), reduced = !!useReducedMotion();
   const step = flow.current.id, tracking = step === 'active-order' || (initialTracking && step === 'cart'), active = step !== 'cart' || tracking;
-  const addressGeometry = useAddressGeometry();
+  const addressGeometry = useAddressGeometry(), session = useProfileSession();
+  const previousRoute = useRef(step);
+  useLayoutEffect(() => {
+    if (previousRoute.current !== step) {
+      if (previousRoute.current.startsWith('card-')) session.cancelOperation();
+      if (previousRoute.current === 'discard' && session.afterDiscard.current) { const action = session.afterDiscard.current; session.afterDiscard.current = null; action(); }
+      previousRoute.current = step;
+    }
+  }, [step]);
   const top = step === 'checkout-phone' ? device.geometry.screen.height - keyboard.fullHeight - 263
     : step === 'checkout-code' ? device.geometry.screen.height - keyboard.fullHeight - 405 : addressGeometry[step as keyof typeof addressGeometry] ?? device.geometry.safeArea.top;
   useLayoutEffect(() => { controls.current = flow; onActive(active, tracking ? 'active-order' : step); }, [flow, active, tracking, step, onActive, controls]);
@@ -52,15 +65,14 @@ function DeliveryHeader() {
   </div>;
 }
 function DeliveryBody() {
-  const { promo, count, cents, active, host, options, setOptions } = useCheckout(), flow = useFlow();
+  const { promo, active, host, options, setOptions } = useCheckout(), flow = useFlow();
+  const { offline } = useProfileSession();
   const { state: addresses, dispatch: addressDispatch } = useAddressBook();
   const title = useRef<HTMLHeadingElement>(null), initialVisit = useRef(true);
   const previousStep = useRef(flow.current.id);
-  const { leaveAtDoor, time, payment } = options;
+  const { leaveAtDoor, time } = options;
   const setLeaveAtDoor = () => setOptions({ ...options, leaveAtDoor: !leaveAtDoor });
   const setTime = (time: number) => setOptions({ ...options, time });
-  const setPayment = (payment: number) => setOptions({ ...options, payment });
-  const totals = checkoutTotals(cents, promo.status);
   useEffect(() => {
     if (!active) return;
     // The first entry is positioned at the start; subsequent visits retain scroll.
@@ -68,6 +80,10 @@ function DeliveryBody() {
   }, [active]);
   useLayoutEffect(() => {
     if (flow.current.id === 'delivery' && previousStep.current.startsWith('checkout-')) host?.querySelector<HTMLButtonElement>('.delivery-order-button')?.focus({ preventScroll: true });
+    if (flow.current.id === 'delivery' && checkoutExtraSteps[previousStep.current]) {
+      const selector = previousStep.current === 'allergens' ? '.checkout-allergy-row' : previousStep.current === 'custom-tip' ? '.checkout-custom-tip' : previousStep.current === 'courier-note' ? '.delivery-note' : '.delivery-add-card';
+      host?.querySelector<HTMLButtonElement>(selector)?.focus({ preventScroll: true });
+    }
     if (flow.current.id === 'delivery' && previousStep.current.startsWith('address-')) host?.querySelector<HTMLButtonElement>('.delivery-address-row')?.focus({ preventScroll: true });
     previousStep.current = flow.current.id;
   }, [flow.current.id, host]);
@@ -78,35 +94,21 @@ function DeliveryBody() {
     <section className="delivery-address" aria-label="Delivery address">
       <button type="button" className="delivery-address-row" aria-label="Change delivery address" onClick={() => { addressDispatch({ type: 'begin' }); flow.push(addressListStep); }}><span className="delivery-house"><img src={asset('house')} alt="" width={24} height={24} /></span><span>{fullAddress(addresses.current.location)}</span><img src={asset('chevron')} alt="" width={18} height={18} /></button>
       <img className="delivery-address-divider" src={asset('address-divider')} alt="" width={372} height={1} />
-      <div className="delivery-note"><span>Comments for the courier</span><p>{addresses.current.details.instructions || 'No delivery instructions'}</p></div>
+      <button type="button" className="delivery-note" onClick={() => flow.push(checkoutExtraSteps['courier-note'])}><span>Comments for the courier</span><p>{(options.courierNote ?? addresses.current.details.instructions) || 'Add a note for the courier'}</p></button>
     </section>
     <button className="delivery-leave" type="button" role="switch" aria-checked={leaveAtDoor} onClick={setLeaveAtDoor}><span>Leave at the door</span><span className="delivery-switch" data-checked={leaveAtDoor}><span /></span></button>
     <section className="delivery-time" aria-labelledby="delivery-time-label"><h2 id="delivery-time-label" className="delivery-label">Delivery time</h2>
       <Carousel className="delivery-time-rail" contentClassName="delivery-time-track" ariaLabel="Delivery time"><div role="group" className="delivery-time-options">
-        {['As soon as possible', '11:20 - 12:30 PM', '11:20 - 12:30 PM'].map((label, index) => <button className="delivery-choice" type="button" key={index} aria-pressed={time === index} onClick={() => setTime(index)}>{label}</button>)}
+        {['As soon as possible', '1:00 – 2:00 PM', '1:30 – 2:30 PM'].map((label, index) => <button className="delivery-choice" type="button" key={index} aria-pressed={time === index} onClick={() => setTime(index)}>{label}</button>)}
       </div></Carousel>
     </section>
-    <img className="delivery-section-divider" src={asset('section-divider')} alt="" width={400} height={1} />
+    {offline && <ProfileNotice title="You’re offline">Reconnect to update your dishes or place an order. Your selections are still here.</ProfileNotice>}
+    <CheckoutItems />
+    <CheckoutAllergyRow />
     <PromoCodeField promo={promo} />
-    <section className="delivery-order" aria-labelledby="delivery-order-title"><h2 id="delivery-order-title">Order details</h2>
-      <dl className="delivery-calculation">
-        <div><dt>Subtotal · {count} {count === 1 ? 'item' : 'items'}</dt><dd>{money(cents)}<img src={asset('summary-divider')} alt="" width={368} height={1} /></dd></div>
-        <div><dt>Delivery · <span className="delivery-free">free</span></dt><dd className="delivery-muted">$0<img src={asset('summary-divider')} alt="" width={368} height={1} /></dd></div>
-        <div><dt>Discount</dt><dd><CartValue value={totals.discountCents}>−{money(totals.discountCents)}</CartValue><img src={asset('summary-divider')} alt="" width={368} height={1} /></dd></div>
-        <div><dt>Accrual bonuses</dt><dd>+$2</dd></div>
-      </dl>
-    </section>
-    <section className="delivery-bonuses" aria-labelledby="delivery-bonuses-label"><h2 id="delivery-bonuses-label" className="delivery-label">Bonuses</h2>
-      <div className="delivery-points-card"><div className="delivery-points-top"><span className="delivery-points-icon"><img src={asset('points-circle')} alt="" width={50} height={50} /><img src={asset('points-mark')} alt="" width={20} height={20} /></span><div className="delivery-points-balance"><strong>476</strong><span>Prana points</span></div><button type="button" aria-disabled="true">Apply</button></div>
-        <img className="delivery-points-divider" src={asset('points-divider')} alt="" width={360} height={1} /><div className="delivery-points-bottom"><p>Apply 300 Prana Points and save $20 on this order.</p><span>Valid until June 7</span></div>
-      </div>
-    </section>
-    <section className="delivery-payment" aria-labelledby="delivery-payment-label"><h2 id="delivery-payment-label" className="delivery-label">Payment method</h2>
-      <Carousel className="delivery-payment-rail" contentClassName="delivery-payment-track" ariaLabel="Payment method">
-        {[0, 1].map(index => <button className="delivery-choice" key={index} type="button" aria-label={`Mastercard ending in 4344, card ${index + 1}`} aria-pressed={payment === index} onClick={() => setPayment(index)}><img src={asset('mastercard')} alt="" width={22} height={14} /><span>*4344</span></button>)}
-        <button className="delivery-add-card" type="button" aria-disabled="true">+ Add card</button>
-      </Carousel>
-    </section>
+    <CheckoutTips />
+    <CheckoutSummary />
+    <CheckoutPayment />
     <img className="delivery-payment-divider" src={asset('payment-divider')} alt="" width={400} height={1.00003} />
     <section className="delivery-support" aria-labelledby="delivery-support-title">
       <h2 id="delivery-support-title">Need help with your order?</h2>
@@ -117,10 +119,12 @@ function DeliveryBody() {
 }
 
 function DeliveryFooter() {
-  const { host, cents, promo, accountPhone, quantities, onOrdered, options } = useCheckout(), flow = useFlow(), { device } = useMobileDevice();
+  const { host, count, cents, promo, accountPhone, quantities, onOrdered, options } = useCheckout(), flow = useFlow(), { device } = useMobileDevice();
   const { state: addresses } = useAddressBook(), orders = useActiveOrder(), submitted = useRef(false);
+  const { data: profile } = useProfile();
+  const { offline } = useProfileSession();
   const { bottomInset, keyboardDragging } = useKeyboardInsets(), reduced = !!useReducedMotion();
-  const active = flow.current.id === 'delivery', total = checkoutTotals(cents, promo.status).totalCents;
+  const active = flow.current.id === 'delivery', total = orderTotals(cents, promo.status, options.tip).totalCents;
   if (!host) return null;
   // Escape the opacity-animated scene: blur always samples the real content.
   return createPortal(<motion.div className="delivery-dock" inert={!active} aria-hidden={!active || undefined} initial={{ '--dock-fade-opacity': 0 }}
@@ -129,13 +133,13 @@ function DeliveryFooter() {
     <BottomFade />
     <motion.div className="delivery-dock-controls" initial={{ opacity: 0 }} animate={{ opacity: active ? 1 : 0 }} transition={{ duration: reduced ? .08 : .24 }}>
       <div className="delivery-total" aria-live="polite" aria-atomic="true"><span>Total</span><strong><CartValue value={total}>{money(total)}</CartValue></strong></div>
-      <button className="delivery-order-button" type="button" onClick={() => {
+      <button className="delivery-order-button" type="button" disabled={offline || !count || (!!accountPhone.confirmedPhone && (options.paymentMethod ?? 'card') === 'card' && !profile.cards[paymentCardIndex(profile.cards, options)])} onClick={() => {
         if (!accountPhone.confirmedPhone) { flow.push(checkoutPhoneStep); return; }
         if (submitted.current) return;
-        const order = createOrder(data.products, quantities, addresses.current, accountPhone.confirmedPhone, promo.status, options);
+        const order = createOrder(data.products, quantities, addresses.current, accountPhone.confirmedPhone, promo.status, { ...options, paymentLabel: (options.paymentMethod ?? 'card') === 'card' ? `${profile.cards[paymentCardIndex(profile.cards, options)]?.brand} •••• ${profile.cards[paymentCardIndex(profile.cards, options)]?.last4}` : paymentMethods[options.paymentMethod!], courierNote: options.courierNote ?? addresses.current.details.instructions });
         if (!order) return;
         submitted.current = true; orders.place(order); onOrdered(); flow.reset(activeOrderStep);
-      }}>{accountPhone.confirmedPhone ? 'Order' : 'Add phone number'}</button>
+      }}>{accountPhone.confirmedPhone ? `Pay ${money(total)}` : 'Add phone number'}</button>
     </motion.div>
   </motion.div>, host);
 }
@@ -204,22 +208,48 @@ export const deliveryStep: FlowScreen = { id: 'delivery', title: 'Delivery', hea
 const checkoutPhoneStep: FlowScreen = { id: 'checkout-phone', focusSelector: '.verification-phone-input', headerHeight: 60, header: () => <VerificationHeader />, footerHeight: 82, footer: () => <VerificationFooter kind="phone" />, render: () => <CheckoutPhoneBody /> };
 const checkoutCodeStep: FlowScreen = { id: 'checkout-code', focusSelector: '.verification-code-input', headerHeight: 60, header: () => <VerificationHeader />, footerHeight: 82, footer: () => <VerificationFooter kind="code" />, render: () => <CheckoutCodeBody /> };
 
-export function CheckoutFlow({ active, count, cents, quantities, promo, accountPhone, initialTracking, onOrdered, onActive, onClose, controls }: Omit<CheckoutState, 'host' | 'options' | 'setOptions'>) {
+export function CheckoutFlow({ active, count, cents, quantities, onQuantityChange, promo, accountPhone, initialTracking, onOrdered, onActive, onClose, controls, checkoutDraft }: Omit<CheckoutState, 'host' | 'options' | 'setOptions'> & { checkoutDraft: RefObject<OrderOptions | null> }) {
   const [host, setHost] = useState<HTMLDivElement | null>(null);
-  const [options, setOptions] = useState<OrderOptions>({ leaveAtDoor: true, time: 0, payment: 0 });
+  const { data: profile } = useProfile();
+  const [options, setOptions] = useState<OrderOptions>(() => checkoutDraft.current ?? ({ leaveAtDoor: true, time: 0, paymentMethod: 'card', paymentCardId: profile.defaultCardId || profile.cards[0]?.id, allergens: [], tip: { kind: 'percent', value: 0 }, payment: Math.max(0, profile.cards.findIndex(card => card.id === profile.defaultCardId)) }));
+  useEffect(() => { checkoutDraft.current = options; }, [checkoutDraft, options]);
   // Retain outgoing checkout pixels while the placed order consumes the basket.
-  const [receipt, setReceipt] = useState<{ count: number; cents: number; promo: CheckoutState['promo'] } | null>(null);
+  const [receipt, setReceipt] = useState<{ count: number; cents: number; quantities: CheckoutState['quantities']; promo: CheckoutState['promo'] } | null>(null);
   const keyboard = useKeyboard(), { device } = useMobileDevice(), addressGeometry = useAddressGeometry();
-  return <CheckoutContext.Provider value={{ active, host, count, cents, quantities, promo, ...receipt, accountPhone, initialTracking, options, setOptions, onOrdered: () => { setReceipt({ count, cents, promo: { ...promo } }); onOrdered(); }, onActive, onClose, controls }}>
-    <div ref={setHost} className="checkout-host prana-auth" data-active={active} inert={!active} style={{ ...Object.fromEntries(Object.entries(addressGeometry).map(([key, value]) => [`--${key}-top`, `${value}px`])), '--checkout-keyboard-height': `${keyboard.fullHeight}px`, '--checkout-phone-top': `${device.geometry.screen.height - keyboard.fullHeight - 263}px`, '--checkout-code-top': `${device.geometry.screen.height - keyboard.fullHeight - 405}px` } as CSSProperties} onKeyDown={event => {
-      if (event.key !== 'Escape' || !active) return;
-      event.preventDefault(); event.stopPropagation();
-      if (keyboard.visible) {
-        keyboard.hide();
-        host?.querySelector<HTMLButtonElement>('.flow-step-scene[data-flow-current="true"] .flow-fixed-header button')?.focus({ preventScroll: true });
-      } else if (controls.current?.current.id === 'active-order') onClose();
-      else if (controls.current?.current.id.startsWith('address-')) addressBack(controls.current);
-      else controls.current?.pop();
-    }}><FlowStack initial={cartStep} motionPreset={authStep} /></div>
-  </CheckoutContext.Provider>;
+  const cardSession = useProfileSessionState(null, { onClose, onExited: () => {}, onSignIn: () => {}, onCart: () => {}, onPhone: () => {} });
+  const previousCards = useRef(profile.cards.length);
+  useEffect(() => {
+    if (profile.cards.length > previousCards.current) setOptions(current => ({ ...current, payment: profile.cards.length - 1, paymentCardId: profile.cards.at(-1)?.id, paymentMethod: 'card' }));
+    previousCards.current = profile.cards.length;
+  }, [profile.cards.length]);
+  const backTo = (route: string) => {
+    const flow = controls.current; if (!flow) return;
+    const target = route === 'cards' ? 'delivery' : route;
+    const index = flow.stack.findIndex(entry => entry.id === target);
+    if (index >= 0) for (let i = flow.stack.length - 1; i > index; i--) flow.pop();
+    else if (checkoutExtraSteps[target]) flow.replace(checkoutExtraSteps[target]);
+  };
+  const session = { ...cardSession, host, flowRef: controls, backTo, push: (route: string, replace = false) => {
+    if (route === 'cards') { backTo('delivery'); return; }
+    if (checkoutExtraSteps[route]) controls.current?.[replace ? 'replace' : 'push'](checkoutExtraSteps[route]);
+  } };
+  cardSession.flowRef.current = controls.current;
+  cardSession.navigate.current = session.push;
+  // Capture before Radix's document listener, respecting keyboard and nested routes.
+  const escape = useRef<() => void>(() => {});
+  escape.current = () => {
+    const flow = controls.current; if (!flow) return;
+    if (keyboard.visible) { keyboard.hide(); host?.querySelector<HTMLButtonElement>('.flow-step-scene[data-flow-current="true"] .flow-fixed-header button')?.focus({ preventScroll: true }); }
+    else if (flow.current.id === 'active-order') onClose();
+    else if (flow.current.id.startsWith('address-')) addressBack(flow);
+    else checkoutBack(flow, session);
+  };
+  useEffect(() => {
+    if (!active) return;
+    const handle = (event: KeyboardEvent) => { if (event.key !== 'Escape') return; event.preventDefault(); event.stopImmediatePropagation(); escape.current(); };
+    window.addEventListener('keydown', handle, true); return () => window.removeEventListener('keydown', handle, true);
+  }, [active]);
+  return <CheckoutContext.Provider value={{ active, host, count, cents, quantities, onQuantityChange, promo, ...receipt, accountPhone, initialTracking, options, setOptions, onOrdered: () => { setReceipt({ count, cents, quantities: { ...quantities }, promo: { ...promo } }); onOrdered(); }, onActive, onClose, controls }}><ProfileSessionContext.Provider value={session}>
+    <div ref={setHost} className="checkout-host profile-host prana-auth" data-active={active} inert={!active} style={{ ...Object.fromEntries(Object.entries(addressGeometry).map(([key, value]) => [`--${key}-top`, `${value}px`])), '--profile-safe-top': `${device.geometry.safeArea.top}px`, '--checkout-keyboard-height': `${keyboard.fullHeight}px`, '--checkout-phone-top': `${device.geometry.screen.height - keyboard.fullHeight - 263}px`, '--checkout-code-top': `${device.geometry.screen.height - keyboard.fullHeight - 405}px` } as CSSProperties}><FlowStack initial={cartStep} motionPreset={authStep} /></div>
+  </ProfileSessionContext.Provider></CheckoutContext.Provider>;
 }

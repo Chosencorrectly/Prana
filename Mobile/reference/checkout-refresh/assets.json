@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-22",
+  "sourceFrame": "1076:1438",
+  "fileKey": "sVUfk3wL7MabAwk1PIV1fv",
+  "status": "Original MCP exports, unchanged bytes. Local only; add to future pinned manifest.",
+  "assets": [
+    {
+      "file": "public/assets/checkout/allergens/milk.svg",
+      "source": "https://www.figma.com/api/mcp/asset/b37a23b1-9ee2-4b65-922f-8eeb6fedea32/cfa86.svg",
+      "width": "24",
+      "height": "24",
+      "sha256": "39bca59cdb8ca4c74cbc452218240ea3909dab58aa4c9df312f38ff2c3657a46"
+    },
+    {
+      "file": "public/assets/checkout/allergens/eggs.svg",
+      "source": "https://www.figma.com/api/mcp/asset/b37a23b1-9ee2-4b65-922f-8eeb6fedea32/30810.svg",
+      "width": "24",
+      "height": "24",
+      "sha256": "92973c7939e3eab64567b108d167eb7b68b7ba8496e838b0b4279ae241e5f2d6"
+    },
+    {
+      "file": "public/assets/checkout/allergens/fish.svg",
+      "source": "https://www.figma.com/api/mcp/asset/b37a23b1-9ee2-4b65-922f-8eeb6fedea32/ddd0d.svg",
+      "width": "20",
+      "height": "10.414",
+      "sha256": "ab9c6628b03db90df56f5955cc4296745d7c0b62e00233c286172700a0e3dcf6"
+    },
+    {
+      "file": "public/assets/checkout/allergens/shellfish.svg",
+      "source": "https://www.figma.com/api/mcp/asset/b37a23b1-9ee2-4b65-922f-8eeb6fedea32/86bcc.svg",
+      "width": "20",
+      "height": "19.3046",
+      "sha256": "b03b41c914a1120d491d1f2c27b23ff731d5d53da080fe441cd0f09cbe0360cb"
+    },
+    {
+      "file": "public/assets/checkout/allergens/tree-nuts.svg",
+      "source": "https://www.figma.com/api/mcp/asset/b37a23b1-9ee2-4b65-922f-8eeb6fedea32/a8d60.svg",
+      "width": "24",
+      "height": "24",
+      "sha256": "2813c041cd121296d2844eb7810532d8d36f511e5077f4f7a226320047c0d6c3"
+    },
+    {
+      "file": "public/assets/checkout/allergens/peanuts.svg",
+      "source": "https://www.figma.com/api/mcp/asset/b37a23b1-9ee2-4b65-922f-8eeb6fedea32/ecfd1.svg",
+      "width": "20.6498",
+      "height": "22",
+      "sha256": "ed7165839915a0eded18d758aa1310c42aba8dd16db21a92fb4edfe7b9e4c72a"
+    },
+    {
+      "file": "public/assets/checkout/allergens/wheat.svg",
+      "source": "https://www.figma.com/api/mcp/asset/b37a23b1-9ee2-4b65-922f-8eeb6fedea32/49202.svg",
+      "width": "24",
+      "height": "24",
+      "sha256": "258cfe66e16adc977357fc2e5fd80f5068e514fc654c2b5767145beb9740707d"
+    },
+    {
+      "file": "public/assets/checkout/allergens/soy.svg",
+      "source": "https://www.figma.com/api/mcp/asset/b37a23b1-9ee2-4b65-922f-8eeb6fedea32/c9c32.svg",
+      "width": "18.6191",
+      "height": "20",
+      "sha256": "08fb2f15f57827ce9e8b95ed658612fa60d7a6dc4c1b5f1e8fcc37c0c7f30587"
+    },
+    {
+      "file": "public/assets/checkout/allergens/sesame.svg",
+      "source": "https://www.figma.com/api/mcp/asset/b37a23b1-9ee2-4b65-922f-8eeb6fedea32/01228.svg",
+      "width": "19.4404",
+      "height": "20",
+      "sha256": "8c8989478706e43430a4f7894658f8a7fb10a8bf1dcea5f08146d18ac2813f92"
+    },
+    {
+      "file": "public/assets/checkout/allergens/gluten.svg",
+      "source": "https://www.figma.com/api/mcp/asset/b37a23b1-9ee2-4b65-922f-8eeb6fedea32/ad5e5.svg",
+      "width": "19.4066",
+      "height": "20",
+      "sha256": "ac5cb39cf35c4480986909df3afbf6cfcece851398cfcc1d36ce882b033dd164"
+    },
+    {
+      "file": "public/assets/checkout/allergens/check.svg",
+      "source": "https://www.figma.com/api/mcp/asset/b37a23b1-9ee2-4b65-922f-8eeb6fedea32/84bba.svg",
+      "width": "24",
+      "height": "24",
+      "sha256": "0209335da73863cb7ec4695e234a6b13821b5a63f02c7d7748abac3a040bcae7"
+    }
+  ]
+}

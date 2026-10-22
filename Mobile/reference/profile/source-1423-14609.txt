@@ -1,0 +1,404 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/9ee1df13-022e-406f-916f-64fffadc19dc";
+const imgImage75 = `${assetPathPrefix}/10390.png`;
+const imgImage67 = `${assetPathPrefix}/bb28d.png`;
+const imgLine18 = `${assetPathPrefix}/86915.svg`;
+const imgLine23 = `${assetPathPrefix}/d2e59.svg`;
+const imgLine21 = `${assetPathPrefix}/b8082.svg`;
+const imgFrame276 = `${assetPathPrefix}/6f490.svg`;
+
+type KeyboardsTopProps = {
+  className?: string;
+  variant?: "Empty";
+};
+
+function KeyboardsTop({ className, variant = "Empty" }: KeyboardsTopProps) {
+  return (
+    <div className={className || "content-stretch flex flex-col items-start relative w-[300px]"} data-node-id="1:41">
+      <div className="h-[8px] relative shrink-0 w-full" data-node-id="1:42" data-name="Fixed Height" />
+    </div>
+  );
+}
+
+export default function Component() {
+  return (
+    <div className="bg-[#121212] relative size-full" data-node-id="1423:14609" data-name="::">
+      <div className="absolute h-[1147px] left-[-164px] top-[-90px] w-[889px]" data-node-id="1423:14610" data-name="image 75">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage75} />
+      </div>
+      <div className="-translate-x-1/2 absolute bg-[#151515] h-[576px] left-1/2 overflow-clip rounded-tl-[20px] rounded-tr-[20px] top-[55px] w-[430px]" data-node-id="1423:14611">
+        <div className="absolute bg-[#181818] border border-[#333] border-solid h-[61px] left-[15px] overflow-clip rounded-[10px] top-[72px] w-[400px]" data-node-id="1423:14612">
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-[calc(50%-158.5px)] top-[calc(50%+10px)]" data-node-id="1423:14614">
+            <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Regular'] leading-[normal] left-[calc(50%-183px)] not-italic text-[16px] text-white top-[calc(50%+0.5px)] whitespace-nowrap" data-node-id="1423:14615">
+              Brickell
+            </p>
+          </div>
+          <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Regular'] leading-[normal] left-[calc(50%-183px)] not-italic text-[#827e7e] text-[12px] top-[calc(50%-19.5px)] whitespace-nowrap" data-node-id="1423:14616">
+            Address
+          </p>
+        </div>
+        <div className="absolute bg-[#212121] h-[415px] left-[15px] overflow-clip rounded-[10px] top-[141px] w-[400px]" data-node-id="1423:14617">
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[41px] left-[calc(50%-106px)] top-[calc(50%-177px)] w-[158px]" data-node-id="1423:14619" />
+          <div className="absolute content-stretch flex flex-col gap-[16px] items-start left-[15px] top-[16px] w-[370px]" data-node-id="1423:14620">
+            <div className="[word-break:break-word] content-stretch flex flex-col font-['SF_Pro_Display:Regular'] gap-[8px] items-start leading-[normal] not-italic relative shrink-0 text-white w-[158px]" data-node-id="1423:14621">
+              <p className="relative shrink-0 text-[16px] w-full" data-node-id="1423:14622">
+                701 Brickell Ave
+              </p>
+              <p className="opacity-50 relative shrink-0 text-[12px] w-full" data-node-id="1423:14623">
+                Miami, FL 33131
+              </p>
+            </div>
+            <div className="h-0 relative shrink-0 w-full" data-node-id="1423:14624">
+              <div className="absolute inset-[-1px_0_0_0]">
+                <img alt="" className="block max-w-none size-full" src={imgLine18} />
+              </div>
+            </div>
+            <div className="[word-break:break-word] content-stretch flex flex-col font-['SF_Pro_Display:Regular'] gap-[8px] items-start leading-[normal] not-italic relative shrink-0 text-white w-[158px]" data-node-id="1423:14625">
+              <p className="relative shrink-0 text-[16px] w-full" data-node-id="1423:14626">
+                1100 Brickell Bay Dr
+              </p>
+              <p className="opacity-50 relative shrink-0 text-[12px] w-full" data-node-id="1423:14627">
+                Miami, FL 33131
+              </p>
+            </div>
+            <div className="h-0 relative shrink-0 w-full" data-node-id="1423:14628">
+              <div className="absolute inset-[-1px_0_0_0]">
+                <img alt="" className="block max-w-none size-full" src={imgLine18} />
+              </div>
+            </div>
+            <div className="[word-break:break-word] content-stretch flex flex-col font-['SF_Pro_Display:Regular'] gap-[8px] items-start leading-[normal] not-italic relative shrink-0 text-white w-[158px]" data-node-id="1423:14629">
+              <p className="relative shrink-0 text-[16px] w-full" data-node-id="1423:14630">
+                1000 Brickell Plaza
+              </p>
+              <p className="opacity-50 relative shrink-0 text-[12px] w-full" data-node-id="1423:14631">
+                Miami, FL 33131
+              </p>
+            </div>
+            <div className="h-0 relative shrink-0 w-full" data-node-id="1423:14632">
+              <div className="absolute inset-[-1px_0_0_0]">
+                <img alt="" className="block max-w-none size-full" src={imgLine18} />
+              </div>
+            </div>
+            <div className="[word-break:break-word] content-stretch flex flex-col font-['SF_Pro_Display:Regular'] gap-[8px] items-start leading-[normal] not-italic relative shrink-0 text-white w-[158px]" data-node-id="1423:14633">
+              <p className="relative shrink-0 text-[16px] w-full" data-node-id="1423:14634">
+                1111 Brickell Ave
+              </p>
+              <p className="opacity-50 relative shrink-0 text-[12px] w-full" data-node-id="1423:14635">
+                Miami, FL 33131
+              </p>
+            </div>
+            <div className="h-0 relative shrink-0 w-full" data-node-id="1423:14636">
+              <div className="absolute inset-[-1px_0_0_0]">
+                <img alt="" className="block max-w-none size-full" src={imgLine18} />
+              </div>
+            </div>
+            <div className="[word-break:break-word] content-stretch flex flex-col font-['SF_Pro_Display:Regular'] gap-[8px] items-start leading-[normal] not-italic relative shrink-0 text-white w-[158px]" data-node-id="1423:14637">
+              <p className="relative shrink-0 text-[16px] w-full" data-node-id="1423:14638">
+                1395 Brickell Ave
+              </p>
+              <p className="opacity-50 relative shrink-0 text-[12px] w-full" data-node-id="1423:14639">
+                Miami, FL 33131
+              </p>
+            </div>
+            <div className="h-0 relative shrink-0 w-full" data-node-id="1423:14640">
+              <div className="absolute inset-[-1px_0_0_0]">
+                <img alt="" className="block max-w-none size-full" src={imgLine23} />
+              </div>
+            </div>
+            <div className="[word-break:break-word] content-stretch flex flex-col font-['SF_Pro_Display:Regular'] gap-[8px] items-start leading-[normal] not-italic relative shrink-0 text-white w-[158px]" data-node-id="1423:14641">
+              <p className="relative shrink-0 text-[16px] w-full" data-node-id="1423:14642">
+                1451 Brickell Ave
+              </p>
+              <p className="opacity-25 relative shrink-0 text-[12px] w-full" data-node-id="1423:14643">
+                Miami, FL 33131
+              </p>
+            </div>
+            <div className="h-0 relative shrink-0 w-full" data-node-id="1423:14644">
+              <div className="absolute inset-[-1px_0_0_0]">
+                <img alt="" className="block max-w-none size-full" src={imgLine21} />
+              </div>
+            </div>
+          </div>
+          <div className="absolute bg-gradient-to-b bottom-0 from-[rgba(33,33,33,0)] h-[129px] left-0 to-[#212121] w-[400px]" data-node-id="1423:14645" />
+        </div>
+        <div className="absolute bg-[#151515] h-[60px] left-0 overflow-clip rounded-tl-[30px] rounded-tr-[30px] top-0 w-[430px]" data-node-id="1423:14646" data-name="Header">
+          <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(50%-44px)] not-italic text-[16px] text-white top-[22px] whitespace-nowrap" data-node-id="1423:14647">
+            Add address
+          </p>
+          <div className="absolute content-stretch flex gap-[5px] items-start left-[15px] top-[22px]" data-node-id="1423:14648">
+            <div className="flex items-center justify-center relative shrink-0" data-node-id="1423:14649">
+              <div className="flex-none rotate-180">
+                <div className="relative size-[18px]">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame276} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="absolute contents left-[395px] top-[20px]" data-node-id="1423:14652">
+            <CodeConnectSnippet data-node-id="1423:14653" data-name="close" data-snippet-language="Compose">
+              Icon( Icons.Filled.Close, contentDescription = "" // Add a valid content description )
+            </CodeConnectSnippet>
+          </div>
+        </div>
+      </div>
+      <div className="absolute h-[55px] left-0 mix-blend-plus-lighter top-0 w-[430px]" data-node-id="1423:14654" data-name="image 67">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <img alt="" className="absolute h-[1696.15%] left-0 max-w-none top-[-0.8%] w-full" src={imgImage67} />
+        </div>
+      </div>
+      <div className="absolute bottom-0 content-stretch flex flex-col items-start left-0" data-node-id="1423:14655" data-name="🧰 Keyboards">
+        <div className="bg-[var(--keyboard\/bg,rgba(40,40,42,0.94))] content-stretch flex flex-col isolate items-start relative shrink-0" data-node-id="I1423:14655;128:47815" data-name="Keyboard">
+          <KeyboardsTop className="content-stretch flex flex-col items-start relative shrink-0 w-full z-[4]" />
+          <div className="content-stretch flex flex-col gap-[11px] items-start relative shrink-0 w-full z-[3]" data-node-id="I1423:14655;128:47816" data-name="Rows">
+            <div className="content-stretch flex gap-[6px] items-start px-[4px] relative shrink-0 w-full" data-node-id="I1423:14655;128:47817" data-name="Row">
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I1423:14655;128:47818" data-name="🧩 Keyboards › Key">
+                <div className="bg-[var(--keyboard\/key-bg,rgba(255,255,255,0.3))] border-[var(--keyboard\/key-border,black)] border-b border-solid content-stretch flex flex-col h-[45px] items-center justify-center overflow-clip relative rounded-[5px] shrink-0 w-full" data-node-id="I1423:14655;128:47818;128:48110" data-name="Key">
+                  <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[31px] left-0 right-0 text-[25px] text-[color:var(--keyboard\/key-text,white)] text-center top-[5px] tracking-[0.15px]" data-node-id="I1423:14655;128:47818;128:48111" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    q
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I1423:14655;128:47819" data-name="🧩 Keyboards › Key">
+                <div className="bg-[var(--keyboard\/key-bg,rgba(255,255,255,0.3))] border-[var(--keyboard\/key-border,black)] border-b border-solid content-stretch flex flex-col h-[45px] items-center justify-center overflow-clip relative rounded-[5px] shrink-0 w-full" data-node-id="I1423:14655;128:47819;128:48110" data-name="Key">
+                  <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[31px] left-0 right-0 text-[25px] text-[color:var(--keyboard\/key-text,white)] text-center top-[5px] tracking-[0.15px]" data-node-id="I1423:14655;128:47819;128:48111" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    w
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I1423:14655;128:47820" data-name="🧩 Keyboards › Key">
+                <div className="bg-[var(--keyboard\/key-bg,rgba(255,255,255,0.3))] border-[var(--keyboard\/key-border,black)] border-b border-solid content-stretch flex flex-col h-[45px] items-center justify-center overflow-clip relative rounded-[5px] shrink-0 w-full" data-node-id="I1423:14655;128:47820;128:48110" data-name="Key">
+                  <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[31px] left-0 right-0 text-[25px] text-[color:var(--keyboard\/key-text,white)] text-center top-[5px] tracking-[0.15px]" data-node-id="I1423:14655;128:47820;128:48111" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    e
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I1423:14655;128:47821" data-name="🧩 Keyboards › Key">
+                <div className="bg-[var(--keyboard\/key-bg,rgba(255,255,255,0.3))] border-[var(--keyboard\/key-border,black)] border-b border-solid content-stretch flex flex-col h-[45px] items-center justify-center overflow-clip relative rounded-[5px] shrink-0 w-full" data-node-id="I1423:14655;128:47821;128:48110" data-name="Key">
+                  <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[31px] left-0 right-0 text-[25px] text-[color:var(--keyboard\/key-text,white)] text-center top-[5px] tracking-[0.15px]" data-node-id="I1423:14655;128:47821;128:48111" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    r
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I1423:14655;128:47822" data-name="🧩 Keyboards › Key">
+                <div className="bg-[var(--keyboard\/key-bg,rgba(255,255,255,0.3))] border-[var(--keyboard\/key-border,black)] border-b border-solid content-stretch flex flex-col h-[45px] items-center justify-center overflow-clip relative rounded-[5px] shrink-0 w-full" data-node-id="I1423:14655;128:47822;128:48110" data-name="Key">
+                  <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[31px] left-0 right-0 text-[25px] text-[color:var(--keyboard\/key-text,white)] text-center top-[5px] tracking-[0.15px]" data-node-id="I1423:14655;128:47822;128:48111" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    t
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I1423:14655;128:47823" data-name="🧩 Keyboards › Key">
+                <div className="bg-[var(--keyboard\/key-bg,rgba(255,255,255,0.3))] border-[var(--keyboard\/key-border,black)] border-b border-solid content-stretch flex flex-col h-[45px] items-center justify-center overflow-clip relative rounded-[5px] shrink-0 w-full" data-node-id="I1423:14655;128:47823;128:48110" data-name="Key">
+                  <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[31px] left-0 right-0 text-[25px] text-[color:var(--keyboard\/key-text,white)] text-center top-[5px] tracking-[0.15px]" data-node-id="I1423:14655;128:47823;128:48111" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    y
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I1423:14655;128:47824" data-name="🧩 Keyboards › Key">
+                <div className="bg-[var(--keyboard\/key-bg,rgba(255,255,255,0.3))] border-[var(--keyboard\/key-border,black)] border-b border-solid content-stretch flex flex-col h-[45px] items-center justify-center overflow-clip relative rounded-[5px] shrink-0 w-full" data-node-id="I1423:14655;128:47824;128:48110" data-name="Key">
+                  <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[31px] left-0 right-0 text-[25px] text-[color:var(--keyboard\/key-text,white)] text-center top-[5px] tracking-[0.15px]" data-node-id="I1423:14655;128:47824;128:48111" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    u
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I1423:14655;128:47825" data-name="🧩 Keyboards › Key">
+                <div className="bg-[var(--keyboard\/key-bg,rgba(255,255,255,0.3))] border-[var(--keyboard\/key-border,black)] border-b border-solid content-stretch flex flex-col h-[45px] items-center justify-center overflow-clip relative rounded-[5px] shrink-0 w-full" data-node-id="I1423:14655;128:47825;128:48110" data-name="Key">
+                  <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[31px] left-0 right-0 text-[25px] text-[color:var(--keyboard\/key-text,white)] text-center top-[5px] tracking-[0.15px]" data-node-id="I1423:14655;128:47825;128:48111" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    i
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I1423:14655;128:47826" data-name="🧩 Keyboards › Key">
+                <div className="bg-[var(--keyboard\/key-bg,rgba(255,255,255,0.3))] border-[var(--keyboard\/key-border,black)] border-b border-solid content-stretch flex flex-col h-[45px] items-center justify-center overflow-clip relative rounded-[5px] shrink-0 w-full" data-node-id="I1423:14655;128:47826;128:48110" data-name="Key">
+                  <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[31px] left-0 right-0 text-[25px] text-[color:var(--keyboard\/key-text,white)] text-center top-[5px] tracking-[0.15px]" data-node-id="I1423:14655;128:47826;128:48111" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    o
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I1423:14655;128:47827" data-name="🧩 Keyboards › Key">
+                <div className="bg-[var(--keyboard\/key-bg,rgba(255,255,255,0.3))] border-[var(--keyboard\/key-border,black)] border-b border-solid content-stretch flex flex-col h-[45px] items-center justify-center overflow-clip relative rounded-[5px] shrink-0 w-full" data-node-id="I1423:14655;128:47827;128:48110" data-name="Key">
+                  <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[31px] left-0 right-0 text-[25px] text-[color:var(--keyboard\/key-text,white)] text-center top-[5px] tracking-[0.15px]" data-node-id="I1423:14655;128:47827;128:48111" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    p
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[6px] items-start px-[26px] relative shrink-0 w-full" data-node-id="I1423:14655;128:47828" data-name="Row">
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I1423:14655;128:47829" data-name="🧩 Keyboards › Key">
+                <div className="bg-[var(--keyboard\/key-bg,rgba(255,255,255,0.3))] border-[var(--keyboard\/key-border,black)] border-b border-solid content-stretch flex flex-col h-[45px] items-center justify-center overflow-clip relative rounded-[5px] shrink-0 w-full" data-node-id="I1423:14655;128:47829;128:48110" data-name="Key">
+                  <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[31px] left-0 right-0 text-[25px] text-[color:var(--keyboard\/key-text,white)] text-center top-[5px] tracking-[0.15px]" data-node-id="I1423:14655;128:47829;128:48111" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    a
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I1423:14655;128:47830" data-name="🧩 Keyboards › Key">
+                <div className="bg-[var(--keyboard\/key-bg,rgba(255,255,255,0.3))] border-[var(--keyboard\/key-border,black)] border-b border-solid content-stretch flex flex-col h-[45px] items-center justify-center overflow-clip relative rounded-[5px] shrink-0 w-full" data-node-id="I1423:14655;128:47830;128:48110" data-name="Key">
+                  <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[31px] left-0 right-0 text-[25px] text-[color:var(--keyboard\/key-text,white)] text-center top-[5px] tracking-[0.15px]" data-node-id="I1423:14655;128:47830;128:48111" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    s
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I1423:14655;128:47831" data-name="🧩 Keyboards › Key">
+                <div className="bg-[var(--keyboard\/key-bg,rgba(255,255,255,0.3))] border-[var(--keyboard\/key-border,black)] border-b border-solid content-stretch flex flex-col h-[45px] items-center justify-center overflow-clip relative rounded-[5px] shrink-0 w-full" data-node-id="I1423:14655;128:47831;128:48110" data-name="Key">
+                  <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[31px] left-0 right-0 text-[25px] text-[color:var(--keyboard\/key-text,white)] text-center top-[5px] tracking-[0.15px]" data-node-id="I1423:14655;128:47831;128:48111" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    d
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I1423:14655;128:47832" data-name="🧩 Keyboards › Key">
+                <div className="bg-[var(--keyboard\/key-bg,rgba(255,255,255,0.3))] border-[var(--keyboard\/key-border,black)] border-b border-solid content-stretch flex flex-col h-[45px] items-center justify-center overflow-clip relative rounded-[5px] shrink-0 w-full" data-node-id="I1423:14655;128:47832;128:48110" data-name="Key">
+                  <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[31px] left-0 right-0 text-[25px] text-[color:var(--keyboard\/key-text,white)] text-center top-[5px] tracking-[0.15px]" data-node-id="I1423:14655;128:47832;128:48111" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    f
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I1423:14655;128:47833" data-name="🧩 Keyboards › Key">
+                <div className="bg-[var(--keyboard\/key-bg,rgba(255,255,255,0.3))] border-[var(--keyboard\/key-border,black)] border-b border-solid content-stretch flex flex-col h-[45px] items-center justify-center overflow-clip relative rounded-[5px] shrink-0 w-full" data-node-id="I1423:14655;128:47833;128:48110" data-name="Key">
+                  <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[31px] left-0 right-0 text-[25px] text-[color:var(--keyboard\/key-text,white)] text-center top-[5px] tracking-[0.15px]" data-node-id="I1423:14655;128:47833;128:48111" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    g
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I1423:14655;128:47834" data-name="🧩 Keyboards › Key">
+                <div className="bg-[var(--keyboard\/key-bg,rgba(255,255,255,0.3))] border-[var(--keyboard\/key-border,black)] border-b border-solid content-stretch flex flex-col h-[45px] items-center justify-center overflow-clip relative rounded-[5px] shrink-0 w-full" data-node-id="I1423:14655;128:47834;128:48110" data-name="Key">
+                  <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[31px] left-0 right-0 text-[25px] text-[color:var(--keyboard\/key-text,white)] text-center top-[5px] tracking-[0.15px]" data-node-id="I1423:14655;128:47834;128:48111" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    h
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I1423:14655;128:47835" data-name="🧩 Keyboards › Key">
+                <div className="bg-[var(--keyboard\/key-bg,rgba(255,255,255,0.3))] border-[var(--keyboard\/key-border,black)] border-b border-solid content-stretch flex flex-col h-[45px] items-center justify-center overflow-clip relative rounded-[5px] shrink-0 w-full" data-node-id="I1423:14655;128:47835;128:48110" data-name="Key">
+                  <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[31px] left-0 right-0 text-[25px] text-[color:var(--keyboard\/key-text,white)] text-center top-[5px] tracking-[0.15px]" data-node-id="I1423:14655;128:47835;128:48111" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    j
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I1423:14655;128:47836" data-name="🧩 Keyboards › Key">
+                <div className="bg-[var(--keyboard\/key-bg,rgba(255,255,255,0.3))] border-[var(--keyboard\/key-border,black)] border-b border-solid content-stretch flex flex-col h-[45px] items-center justify-center overflow-clip relative rounded-[5px] shrink-0 w-full" data-node-id="I1423:14655;128:47836;128:48110" data-name="Key">
+                  <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[31px] left-0 right-0 text-[25px] text-[color:var(--keyboard\/key-text,white)] text-center top-[5px] tracking-[0.15px]" data-node-id="I1423:14655;128:47836;128:48111" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    k
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I1423:14655;128:47837" data-name="🧩 Keyboards › Key">
+                <div className="bg-[var(--keyboard\/key-bg,rgba(255,255,255,0.3))] border-[var(--keyboard\/key-border,black)] border-b border-solid content-stretch flex flex-col h-[45px] items-center justify-center overflow-clip relative rounded-[5px] shrink-0 w-full" data-node-id="I1423:14655;128:47837;128:48110" data-name="Key">
+                  <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[31px] left-0 right-0 text-[25px] text-[color:var(--keyboard\/key-text,white)] text-center top-[5px] tracking-[0.15px]" data-node-id="I1423:14655;128:47837;128:48111" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    l
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[19px] items-start px-[4px] relative shrink-0 w-full" data-node-id="I1423:14655;128:47838" data-name="Row">
+              <div className="content-stretch flex flex-col items-start relative shrink-0" data-node-id="I1423:14655;128:47839" data-name="🧩 Keyboards › Key">
+                <div className="bg-[var(--keyboard\/return-bg,rgba(255,255,255,0.1))] border-[var(--keyboard\/key-border,black)] border-b border-solid content-stretch flex flex-col h-[45px] items-center justify-center overflow-clip relative rounded-[5px] shrink-0 w-[47px]" data-node-id="I1423:14655;128:47839;128:48098" data-name="Key">
+                  <SFSymbol>{`Image(systemName: "shift")`}</SFSymbol>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] gap-[6px] items-start min-w-px relative" data-node-id="I1423:14655;128:47840" data-name="Center Keys">
+                <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I1423:14655;128:47841" data-name="🧩 Keyboards › Key">
+                  <div className="bg-[var(--keyboard\/key-bg,rgba(255,255,255,0.3))] border-[var(--keyboard\/key-border,black)] border-b border-solid content-stretch flex flex-col h-[45px] items-center justify-center overflow-clip relative rounded-[5px] shrink-0 w-full" data-node-id="I1423:14655;128:47841;128:48110" data-name="Key">
+                    <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[31px] left-0 right-0 text-[25px] text-[color:var(--keyboard\/key-text,white)] text-center top-[5px] tracking-[0.15px]" data-node-id="I1423:14655;128:47841;128:48111" style={{ fontVariationSettings: '"wdth" 100' }}>
+                      z
+                    </p>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I1423:14655;128:47842" data-name="🧩 Keyboards › Key">
+                  <div className="bg-[var(--keyboard\/key-bg,rgba(255,255,255,0.3))] border-[var(--keyboard\/key-border,black)] border-b border-solid content-stretch flex flex-col h-[45px] items-center justify-center overflow-clip relative rounded-[5px] shrink-0 w-full" data-node-id="I1423:14655;128:47842;128:48110" data-name="Key">
+                    <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[31px] left-0 right-0 text-[25px] text-[color:var(--keyboard\/key-text,white)] text-center top-[5px] tracking-[0.15px]" data-node-id="I1423:14655;128:47842;128:48111" style={{ fontVariationSettings: '"wdth" 100' }}>
+                      x
+                    </p>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I1423:14655;128:47843" data-name="🧩 Keyboards › Key">
+                  <div className="bg-[var(--keyboard\/key-bg,rgba(255,255,255,0.3))] border-[var(--keyboard\/key-border,black)] border-b border-solid content-stretch flex flex-col h-[45px] items-center justify-center overflow-clip relative rounded-[5px] shrink-0 w-full" data-node-id="I1423:14655;128:47843;128:48110" data-name="Key">
+                    <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[31px] left-0 right-0 text-[25px] text-[color:var(--keyboard\/key-text,white)] text-center top-[5px] tracking-[0.15px]" data-node-id="I1423:14655;128:47843;128:48111" style={{ fontVariationSettings: '"wdth" 100' }}>
+                      c
+                    </p>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I1423:14655;128:47844" data-name="🧩 Keyboards › Key">
+                  <div className="bg-[var(--keyboard\/key-bg,rgba(255,255,255,0.3))] border-[var(--keyboard\/key-border,black)] border-b border-solid content-stretch flex flex-col h-[45px] items-center justify-center overflow-clip relative rounded-[5px] shrink-0 w-full" data-node-id="I1423:14655;128:47844;128:48110" data-name="Key">
+                    <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[31px] left-0 right-0 text-[25px] text-[color:var(--keyboard\/key-text,white)] text-center top-[5px] tracking-[0.15px]" data-node-id="I1423:14655;128:47844;128:48111" style={{ fontVariationSettings: '"wdth" 100' }}>
+                      v
+                    </p>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I1423:14655;128:47845" data-name="🧩 Keyboards › Key">
+                  <div className="bg-[var(--keyboard\/key-bg,rgba(255,255,255,0.3))] border-[var(--keyboard\/key-border,black)] border-b border-solid content-stretch flex flex-col h-[45px] items-center justify-center overflow-clip relative rounded-[5px] shrink-0 w-full" data-node-id="I1423:14655;128:47845;128:48110" data-name="Key">
+                    <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[31px] left-0 right-0 text-[25px] text-[color:var(--keyboard\/key-text,white)] text-center top-[5px] tracking-[0.15px]" data-node-id="I1423:14655;128:47845;128:48111" style={{ fontVariationSettings: '"wdth" 100' }}>
+                      b
+                    </p>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I1423:14655;128:47846" data-name="🧩 Keyboards › Key">
+                  <div className="bg-[var(--keyboard\/key-bg,rgba(255,255,255,0.3))] border-[var(--keyboard\/key-border,black)] border-b border-solid content-stretch flex flex-col h-[45px] items-center justify-center overflow-clip relative rounded-[5px] shrink-0 w-full" data-node-id="I1423:14655;128:47846;128:48110" data-name="Key">
+                    <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[31px] left-0 right-0 text-[25px] text-[color:var(--keyboard\/key-text,white)] text-center top-[5px] tracking-[0.15px]" data-node-id="I1423:14655;128:47846;128:48111" style={{ fontVariationSettings: '"wdth" 100' }}>
+                      n
+                    </p>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I1423:14655;128:47847" data-name="🧩 Keyboards › Key">
+                  <div className="bg-[var(--keyboard\/key-bg,rgba(255,255,255,0.3))] border-[var(--keyboard\/key-border,black)] border-b border-solid content-stretch flex flex-col h-[45px] items-center justify-center overflow-clip relative rounded-[5px] shrink-0 w-full" data-node-id="I1423:14655;128:47847;128:48110" data-name="Key">
+                    <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[31px] left-0 right-0 text-[25px] text-[color:var(--keyboard\/key-text,white)] text-center top-[5px] tracking-[0.15px]" data-node-id="I1423:14655;128:47847;128:48111" style={{ fontVariationSettings: '"wdth" 100' }}>
+                      m
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-start relative shrink-0" data-node-id="I1423:14655;128:47848" data-name="🧩 Keyboards › Key">
+                <div className="bg-[var(--keyboard\/return-bg,rgba(255,255,255,0.1))] border-[var(--keyboard\/key-border,black)] border-b border-solid content-stretch flex flex-col h-[45px] items-center justify-center overflow-clip relative rounded-[5px] shrink-0 w-[47px]" data-node-id="I1423:14655;128:47848;128:48095" data-name="Key">
+                  <SFSymbol>{`Image(systemName: "delete.backward")`}</SFSymbol>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[6px] items-start px-[4px] relative shrink-0 w-full" data-node-id="I1423:14655;128:47849" data-name="Row">
+              <div className="content-stretch flex flex-col items-start relative shrink-0" data-node-id="I1423:14655;128:47850" data-name="🧩 Keyboards › Key">
+                <div className="bg-[var(--keyboard\/return-bg,rgba(255,255,255,0.1))] border-[var(--keyboard\/key-border,black)] border-b border-solid content-stretch flex flex-col h-[45px] items-center justify-center overflow-clip relative rounded-[5px] shrink-0 w-[102.5px]" data-node-id="I1423:14655;128:47850;128:48092" data-name="Key">
+                  <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[21px] left-0 right-[-0.5px] text-[16px] text-[color:var(--keyboard\/return-text,white)] text-center top-[calc(50%-10.5px)] tracking-[-0.31px]" data-node-id="I1423:14655;128:47850;128:48093" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    123
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I1423:14655;128:47851" data-name="🧩 Keyboards › Key">
+                <div className="bg-[var(--keyboard\/key-bg,rgba(255,255,255,0.3))] border-[var(--keyboard\/key-border,black)] border-b border-solid content-stretch flex flex-col h-[45px] items-center justify-center overflow-clip relative rounded-[5px] shrink-0 w-full" data-node-id="I1423:14655;128:47851;128:48107" data-name="Key">
+                  <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[21px] left-0 right-0 text-[16px] text-[color:var(--keyboard\/key-text,white)] text-center top-[10.5px] tracking-[-0.31px]" data-node-id="I1423:14655;128:47851;128:48108" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    space
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-start relative shrink-0" data-node-id="I1423:14655;128:47852" data-name="🧩 Keyboards › Key">
+                <div className="bg-[var(--keyboard\/return-bg,rgba(255,255,255,0.1))] border-[var(--keyboard\/key-border,black)] border-b border-solid content-stretch flex flex-col h-[45px] items-center justify-center overflow-clip relative rounded-[5px] shrink-0 w-[101px]" data-node-id="I1423:14655;128:47852;128:48089" data-name="Key">
+                  <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[21px] left-0 right-0 text-[16px] text-[color:var(--keyboard\/return-text,white)] text-center top-[calc(50%-10.5px)] tracking-[-0.31px]" data-node-id="I1423:14655;128:47852;128:48090" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    return
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex h-[46px] items-start relative shrink-0 w-full z-[2]" data-node-id="I1423:14655;128:47853" data-name="Actions">
+            <div className="absolute content-stretch flex flex-col items-start left-[26px] overflow-clip top-[24px]" data-node-id="I1423:14655;128:47854" data-name="Left Icon">
+              <SFSymbol>{`Image(systemName: "face.smiling")`}</SFSymbol>
+            </div>
+            <div className="absolute content-stretch flex flex-col items-start overflow-clip right-[26px] top-[24px]" data-node-id="I1423:14655;128:47856" data-name="Right Icon">
+              <SFSymbol>{`Image(systemName: "microphone")`}</SFSymbol>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-start relative shrink-0 z-[1]" data-node-id="I1423:14655;128:47858" data-name="🧰 Home Bar">
+            <div className="content-stretch flex flex-col h-[34px] items-center justify-end overflow-clip pb-[8px] relative shrink-0 w-[430px]" data-node-id="I1423:14655;128:47858;128:44608" data-name="Home">
+              <div className="backdrop-blur-[40px] bg-[var(--label\/primary,white)] h-[5px] relative rounded-[100px] shrink-0 w-[154px]" data-node-id="I1423:14655;128:47858;128:44609" data-name="Home Bar - Change Opacity" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Regular/25pt: Font(family: "SF Pro", style: Regular, size: 25, weight: 400, lineHeight: 31, letterSpacing: 0.15000000596046448), Regular/20pt: Font(family: "SF Pro", style: Regular, size: 20, weight: 400, lineHeight: 25, letterSpacing: -0.44999998807907104), Regular/16pt: Font(family: "SF Pro", style: Regular, size: 16, weight: 400, lineHeight: 21, letterSpacing: -0.3100000023841858), Regular/27pt: Font(family: "SF Pro", style: Regular, size: 27, weight: 400, lineHeight: 33, letterSpacing: 0.28999999165534973).
+If the node is connected to a code component in the users codebase via Code Connect, the connected component will be included in the final markup wrapped in a CodeConnectSnippet element, with relevant imports at the top of the file. There are two formats: 1. Single snippet: <CodeConnectSnippet data-snippet-language="React"><TitleComponent>Hello World</TitleComponent></CodeConnectSnippet> 2. Multiple options: <CodeConnectSnippet data-snippet-language="React" options={[<Button variant="primary" />, <Button variant="secondary" />]} /> IMPORTANT: the CodeConnectSnippet wrapper element should not be part of the final code. For the options format, choose the single most appropriate option to use in your implementation. The source of the code component will be in the import path, e.g. import {ComponentName } from 'path/to/component'; IMPORTANT: the import path may not be relative/may point to a URL, so you should search for the component in the codebase and MUST use it if possible.
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

@@ -27,22 +27,27 @@ export function reverseDemoPoint(point: MapPoint): AddressLocation {
   const nearest = addressSuggestions.reduce((best, location) => Math.hypot(location.point.x - point.x, location.point.y - point.y) < Math.hypot(best.point.x - point.x, best.point.y - point.y) ? location : best);
   return { ...nearest, point };
 }
-export type AddressBookState = { addresses: SavedAddress[]; selectedId: string; current: SavedAddress; draft: AddressDraft | null; query: string; nextId: number };
-const initialLocation: AddressLocation = { street: 'Jl. Raya Padonan No.41a, Tibubeneng...', locality: '', point: defaultLocation.point };
+export type AddressBookState = { addresses: SavedAddress[]; selectedId: string; defaultId?: string; current: SavedAddress; draft: AddressDraft | null; query: string; nextId: number };
+const initialLocation: AddressLocation = { street: 'Jl. Raya Padonan No.41a', locality: 'Tibubeneng, Bali', point: defaultLocation.point };
 const home: SavedAddress = { id: 'home', location: initialLocation, details: { ...emptyDetails, label: 'Home', instructions: 'Call when you deliver' } };
 export const initialAddressBook: AddressBookState = {
-  addresses: [home, { ...home, id: 'work', details: { ...home.details, label: 'Work' } }],
+  addresses: [home, { ...home, id: 'work', location: { ...initialLocation, street: 'Jl. Melati Indah No.27', locality: 'Denpasar, Bali' }, details: { ...home.details, label: 'Work' } }],
   current: home, selectedId: home.id, draft: null, query: '', nextId: 1,
 };
 export type AddressAction =
   | { type: 'begin' | 'add' | 'save' | 'deliver' | 'cancel-draft' }
-  | { type: 'select' | 'edit'; id: string }
+  | { type: 'select' | 'edit' | 'remove' | 'set-default'; id: string }
   | { type: 'location'; location: AddressLocation }
   | { type: 'detail'; field: keyof AddressDetails; value: string }
   | { type: 'query'; value: string };
 export function addressReducer(state: AddressBookState, action: AddressAction): AddressBookState {
   switch (action.type) {
-    case 'begin': return { ...state, selectedId: state.current.id, draft: null, query: '' };
+    case 'begin': return { ...state, selectedId: state.addresses.some(a => a.id === state.current.id) ? state.current.id : state.defaultId ?? state.addresses[0]?.id ?? '', draft: null, query: '' };
+    case 'set-default': return state.addresses.some(a => a.id === action.id) ? { ...state, defaultId: action.id } : state;
+    case 'remove': {
+      const addresses = state.addresses.filter(a => a.id !== action.id);
+      return { ...state, addresses, selectedId: state.selectedId === action.id ? addresses[0]?.id ?? '' : state.selectedId, defaultId: (state.defaultId ?? state.addresses[0]?.id) === action.id ? addresses[0]?.id ?? '' : state.defaultId };
+    }
     case 'add': return { ...state, draft: { location: defaultLocation, details: { ...emptyDetails } }, query: '' };
     case 'cancel-draft': return { ...state, draft: null, query: '' };
     case 'select': return state.addresses.some(address => address.id === action.id) ? { ...state, selectedId: action.id } : state;

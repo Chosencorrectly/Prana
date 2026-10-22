@@ -22,11 +22,11 @@ export function CartQuantity({ title, quantity, onChange }: {
     <button className="cart-decrease" type="button" aria-label={quantity === 1 ? `Remove ${title} from cart` : `Decrease quantity of ${title}`} onClick={event => onChange(-1, event)}>
       <span className="catalog-icon-window" aria-hidden="true"><AnimatePresence initial={false}>
         <motion.span key={quantity === 1 ? 'trash' : 'minus'} initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={reduced ? { duration: 0 } : purchaseMotion.value}>
-          <img src={`/assets/catalog/${quantity === 1 ? 'trash' : 'minus'}.svg`} alt="" />
+          <img src={`/assets/cart/refresh/${quantity === 1 ? 'remove' : 'minus'}.svg`} alt="" />
         </motion.span>
       </AnimatePresence></span>
     </button>
     <output aria-live="polite" aria-label={`Quantity of ${title}`}><CartValue value={quantity} /></output>
-    <button type="button" aria-label={`Increase quantity of ${title}`} onClick={event => onChange(1, event)}><img className="cart-plus" src="/assets/catalog/plus.svg" alt="" /></button>
+    <button className="cart-increase" type="button" aria-label={`Increase quantity of ${title}`} onClick={event => onChange(1, event)}><img src="/assets/cart/refresh/plus.svg" alt="" /></button>
   </div>;
 }

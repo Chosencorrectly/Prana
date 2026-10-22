@@ -1,4 +1,4 @@
-import { createContext, useCallback, useContext, useEffect, useLayoutEffect, useMemo, useRef, useState, type PropsWithChildren } from 'react';
+import { createContext, useCallback, useContext, useEffect, useLayoutEffect, useMemo, useRef, useState, type Context, type PropsWithChildren } from 'react';
 import { animate, AnimatePresence, motion, useReducedMotion } from 'motion/react';
 import { Carousel, MobileScroll, useFlow, useKeyboard, useMobileDevice, useScreenPortal } from '../mobile';
 import data from './catalog.json';
@@ -8,6 +8,8 @@ import { DishDetail, type DishSelection } from './DishDetail';
 import { photoRect } from './dish-model';
 import { CatalogTools } from './CatalogTools';
 import { CartSheet } from './CartSheet';
+import { CartPreview } from './CartPreview';
+import type { CartScenario } from './cart-preview-model';
 import { usePromoCode } from './usePromoCode';
 import { useCheckoutPhone } from './useCheckoutPhone';
 import { cartSummary, createMenuSearch, normalizeSearch, searchSuggestions } from './search-model';
@@ -15,6 +17,10 @@ import { AddressBookProvider, useAddressBook } from './AddressBook';
 import { ActiveOrderProvider } from './ActiveOrderState';
 import { ActiveOrderShortcut } from './ActiveOrder';
 import './catalog.css';
+import { ProfileSheet } from '../profile/ProfileSheet';
+import { ProfilePreview } from '../profile/ProfilePreview';
+import { useProfile } from '../profile/ProfileState';
+import { initials, mergeReorder, type ProfileScenario } from '../profile/profile-model';
 
 const searchMenu = createMenuSearch(data.products, data.categories);
 const suggestions = searchSuggestions(data.products, data.categories);
@@ -25,10 +31,14 @@ type CatalogState = {
   navigate: { current: ((id: string) => void) | null };
   openProduct: (product: Product, trigger: HTMLButtonElement) => void;
   openCart: (trigger: HTMLButtonElement) => void;
+  openCartPreview: (scenario: CartScenario, trigger: HTMLButtonElement) => void;
   openTracking: (trigger: HTMLButtonElement) => void;
+  openProfile: (trigger: HTMLButtonElement, scenario?: ProfileScenario) => void;
+  signIn: { current: () => void };
   query: string; setQuery: (query: string) => void; results: Product[];
 };
-const CatalogContext = createContext<CatalogState | null>(null);
+const CatalogContext: Context<CatalogState | null> = import.meta.hot?.data.catalogContext ?? createContext<CatalogState | null>(null);
+if (import.meta.hot) import.meta.hot.data.catalogContext = CatalogContext;
 const useCatalog = () => useContext(CatalogContext)!;
 
 export function CatalogProvider({ children }: PropsWithChildren) {
@@ -51,15 +61,24 @@ function CatalogStateProvider({ children }: PropsWithChildren) {
   const cartOpener = useRef<HTMLButtonElement | null>(null);
   const [cartOpen, setCartOpen] = useState(false), [cartActive, setCartActive] = useState(false);
   const [initialTracking, setInitialTracking] = useState(false);
+  const [cartPreview, setCartPreview] = useState<CartScenario | null>(null);
+  const [previewSeed, setPreviewSeed] = useState<Record<string, number> | undefined>();
+  const [profileOpen, setProfileOpen] = useState(false), [profileActive, setProfileActive] = useState(false);
+  const profileOpenRef = useRef(profileOpen); profileOpenRef.current = profileOpen;
+  const [profileScenario, setProfileScenario] = useState<ProfileScenario | null>(null);
+  const profileOpener = useRef<HTMLButtonElement | null>(null), afterProfile = useRef<(() => void) | null>(null), signIn = useRef<() => void>(() => {});
   const cartOpenRef = useRef(cartOpen); cartOpenRef.current = cartOpen;
   const keyboard = useKeyboard();
   const { device } = useMobileDevice();
   const { screenRef } = useScreenPortal();
   const openCart = useCallback((trigger: HTMLButtonElement) => {
-    keyboard.hide(); cartOpener.current = trigger; setInitialTracking(false); setCartActive(true); setCartOpen(true);
+    keyboard.hide(); cartOpener.current = trigger; setCartPreview(null); setInitialTracking(false); setCartActive(true); setCartOpen(true);
+  }, [keyboard]);
+  const openCartPreview = useCallback((scenario: CartScenario, trigger: HTMLButtonElement) => {
+    keyboard.hide(); cartOpener.current = trigger; setPreviewSeed(undefined); setCartPreview(scenario); setInitialTracking(false); setCartActive(true); setCartOpen(true);
   }, [keyboard]);
   const openTracking = useCallback((trigger: HTMLButtonElement) => {
-    keyboard.hide(); cartOpener.current = trigger; setInitialTracking(true); setCartActive(true); setCartOpen(true);
+    keyboard.hide(); cartOpener.current = trigger; setCartPreview(null); setInitialTracking(true); setCartActive(true); setCartOpen(true);
   }, [keyboard]);
   const closeCart = useCallback(() => setCartOpen(false), []);
   const clearCart = useCallback(() => setQuantities({}), []);
@@ -67,6 +86,10 @@ function CatalogStateProvider({ children }: PropsWithChildren) {
     if (cartOpenRef.current) return;
     setCartActive(false);
   }, []);
+  const openProfile = useCallback((trigger: HTMLButtonElement, scenario?: ProfileScenario) => { keyboard.hide(); profileOpener.current = trigger; setProfileScenario(scenario ?? null); setProfileActive(true); setProfileOpen(true); }, [keyboard]);
+  const closeProfile = () => { keyboard.hide(); setProfileOpen(false); };
+  const profileExited = useCallback(() => { if (profileOpenRef.current) return; setProfileActive(false); const next = afterProfile.current; afterProfile.current = null; if (next) { profileOpener.current = null; next(); } }, []);
+  useLayoutEffect(() => { if (!profileActive && profileOpener.current) { profileOpener.current.focus({ preventScroll: true }); profileOpener.current = null; } }, [profileActive]);
   useLayoutEffect(() => {
     if (cartActive || !cartOpener.current) return;
     const target = cartOpener.current.isConnected ? cartOpener.current : screenRef.current?.querySelector<HTMLButtonElement>('.catalog-search-trigger');
@@ -84,17 +107,23 @@ function CatalogStateProvider({ children }: PropsWithChildren) {
   useLayoutEffect(() => {
     if (!selection && opener.current) { opener.current.focus({ preventScroll: true }); opener.current = null; }
   }, [selection]);
-  return <CatalogContext.Provider value={{ sections, activeCategory, selectCategory, quantities, change, navigate, openProduct, query, setQuery, results, openCart, openTracking }}>
+  return <CatalogContext.Provider value={{ sections, activeCategory, selectCategory, quantities, change, navigate, openProduct, query, setQuery, results, openCart, openCartPreview, openTracking, openProfile, signIn }}>
     <link rel="preload" as="image" href={`/assets/${sections[0].items[0].product.image}`} />
-    <div className="catalog-underlay" inert={!!selection || cartActive} aria-hidden={!!selection || cartActive || undefined}>{children}</div>
+    <div className="catalog-underlay" inert={!!selection || cartActive || profileActive} aria-hidden={!!selection || cartActive || profileActive || undefined}>{children}</div>
     {selection && <DishDetail selection={selection} quantity={quantities[selection.product.id] ?? 0} onChange={change} onClosed={closeProduct} />}
-    <CartSheet open={cartOpen} onOpenChange={setCartOpen} quantities={quantities} initialTracking={initialTracking} promo={promo} accountPhone={accountPhone} onChange={change} onClear={clearCart} onClose={closeCart} onExited={cartExited} />
+    <CartSheet open={cartOpen} onOpenChange={setCartOpen} preview={cartPreview} previewSeed={previewSeed} quantities={quantities} initialTracking={initialTracking} promo={promo} accountPhone={accountPhone} onChange={change} onClear={clearCart} onClose={closeCart} onExited={cartExited} />
+    <ProfileSheet open={profileOpen} scenario={profileScenario} onClose={closeProfile} onExited={profileExited}
+      onPhone={phone => { if (!profileScenario) accountPhone.dispatch({ type: 'profile-confirmed', phone }); }}
+      onSignIn={() => { afterProfile.current = () => signIn.current(); closeProfile(); }}
+      onCart={(order, isolated) => { afterProfile.current = () => { if (isolated) { setPreviewSeed(mergeReorder({}, order, data.products)); setCartPreview('ready'); } else { setQuantities(current => mergeReorder(current, order, data.products)); setCartPreview(null); } cartOpener.current = screenRef.current?.querySelector<HTMLButtonElement>('.catalog-avatar') ?? null; setInitialTracking(false); setCartActive(true); setCartOpen(true); }; closeProfile(); }} />
   </CatalogContext.Provider>;
 }
 
-export function CatalogHeader() {
+export function CatalogHeader({ onSignIn }: { onSignIn: () => void }) {
   const { state: addresses } = useAddressBook();
-  const { sections, activeCategory, navigate, query, results, openTracking } = useCatalog();
+  const { sections, activeCategory, navigate, query, results, openTracking, openProfile, signIn } = useCatalog();
+  const profile = useProfile();
+  useLayoutEffect(() => { signIn.current = onSignIn; }, [onSignIn, signIn]);
   const searching = !!normalizeSearch(query);
   const railRoot = useRef<HTMLDivElement>(null);
   const reduced = !!useReducedMotion();
@@ -134,7 +163,7 @@ export function CatalogHeader() {
       <div className="catalog-delivery"><span className="catalog-pin"><img src="/assets/catalog/map-pin.svg" alt="" /></span>
         <div><span>Deliver to</span><strong>{addresses.current.location.street}</strong></div>
       </div>
-      <span className="catalog-avatar" aria-label="Profile AG">AG</span>
+      <button type="button" className="catalog-avatar" aria-label="Open profile" onClick={event => openProfile(event.currentTarget)}>{profile.data.signedIn ? initials(profile.data.details) || <img src="/assets/profile/person.svg" alt="" /> : <img src="/assets/profile/person.svg" alt="" />}</button>
     </div>
     <ActiveOrderShortcut onOpen={openTracking} />
     <div className="catalog-nav-slot">
@@ -156,7 +185,7 @@ export function CatalogHeader() {
 }
 
 export function Catalog() {
-  const { sections, quantities, change, selectCategory, navigate, openProduct, query, setQuery, results, openCart } = useCatalog();
+  const { sections, quantities, change, selectCategory, navigate, openProduct, query, setQuery, results, openCart, openCartPreview, openProfile } = useCatalog();
   const flow = useFlow();
   const active = flow.current.id === 'catalog';
   const root = useRef<HTMLDivElement>(null);
@@ -238,6 +267,8 @@ export function Catalog() {
   }, [active, reduced, navigate, selectCategory]);
 
   return <div className="catalog-screen" ref={root}>
+    {active && <CartPreview onOpen={openCartPreview} />}
+    {active && <ProfilePreview onOpen={(scenario, trigger) => openProfile(trigger, scenario)} />}
     <motion.div className="catalog-list-layer" data-search-hidden={searching} inert={searching} aria-hidden={searching || undefined}
       initial={false} animate={{ opacity: searching ? 0 : 1 }} transition={{ duration: reduced ? .08 : .14 }}>
     <MobileScroll className="catalog-scroll"><div className="catalog-sections">

@@ -1,0 +1,10 @@
+.cart-preview { position: fixed; z-index: 120; bottom: 16px; left: 16px; width: 246px; max-width: calc(100vw - 32px); font: 13px/1.45 system-ui, sans-serif; color: #dedede; border: 1px solid #3a3a3a; border-radius: 14px; background: #202020; box-shadow: 0 8px 28px #0002; }
+.cart-preview button { font: inherit; color: inherit; cursor: pointer; background: transparent; border: 0; text-align: left; }
+.cart-preview-toggle { display: flex; justify-content: space-between; gap: 16px; width: 100%; padding: 12px 14px; }
+.cart-preview-toggle span { color: #aaa; }
+.cart-preview-options { padding: 0 6px 6px; max-height: 70vh; overflow-y: auto; }
+.cart-preview-options p { margin: 0; padding: 0 8px 10px; color: #a9a9a9; font-size: 11px; }
+.cart-preview-options button { display: block; width: 100%; padding: 8px; border-radius: 8px; }
+.cart-preview-options button:focus-visible, .cart-preview-toggle:focus-visible { outline: 2px solid #bbb; outline-offset: -3px; }
+.cart-preview button:active { background: #333; }
+body:has(.bottom-sheet .cart-view) .cart-preview { visibility: hidden; }

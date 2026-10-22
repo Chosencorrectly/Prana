@@ -13,7 +13,7 @@ The user requested an ongoing record suitable for lead updates and developer han
 - Do not promise background synchronization with external Figma/site edits. Reconcile them when inspected during authorized work.
 - `prototype/design-qa.md`, `prototype/README.md` and the Figma ledgers provide supporting detail; update them when their subject changes, without making them competing project status reports.
 
-Use the more specific instructions in `Web/prototype/AGENTS.md` and `Mobile/AGENTS.md` for implementation work.
+Use the more specific instructions in `prototype/AGENTS.md` for implementation work.
 
 ## GitHub handoff
 

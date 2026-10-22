@@ -1,0 +1,22 @@
+{
+  "source": "OpenStreetMap standard basemap",
+  "coordinates": {
+    "zoom": 15,
+    "longitude": 115.164892,
+    "latitude": -8.6262258
+  },
+  "geocoder": "https://nominatim.openstreetmap.org/search?q=Jalan%20Raya%20Padonan%2C%20Bali%2C%20Indonesia&format=jsonv2&limit=1",
+  "attribution": "© OpenStreetMap contributors",
+  "tiles": [
+    "https://tile.openstreetmap.org/15/26865/17171.png",
+    "https://tile.openstreetmap.org/15/26866/17171.png",
+    "https://tile.openstreetmap.org/15/26867/17171.png",
+    "https://tile.openstreetmap.org/15/26865/17172.png",
+    "https://tile.openstreetmap.org/15/26866/17172.png",
+    "https://tile.openstreetmap.org/15/26867/17172.png",
+    "https://tile.openstreetmap.org/15/26865/17173.png",
+    "https://tile.openstreetmap.org/15/26866/17173.png",
+    "https://tile.openstreetmap.org/15/26867/17173.png"
+  ],
+  "scope": "Road location only; exact building, courier and service boundary unverified"
+}

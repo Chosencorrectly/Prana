@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-15",
+  "timezone": "Europe/Moscow",
+  "iteration": "D-63",
+  "url": "http://127.0.0.1:5181/",
+  "reproduction": {
+    "before": "translate3d(111.997px, 329.385px, 0px) translate(-50%, -50%)",
+    "afterPointerMoveAndWheel": {
+      "cursor": "translate3d(111.997px, 329.385px, 0px) translate(-50%, -50%)",
+      "outer": 0,
+      "scroll": 252.47525024414065
+    }
+  },
+  "fix": "Removed popup stopPropagation for pointermove/up/cancel; kept pointerdown isolation only.",
+  "after": {
+    "first": {
+      "cursor": {
+        "x": 650.0019378662109,
+        "y": 595.0033416748047
+      },
+      "outer": 0,
+      "scroll": 0,
+      "visible": "true"
+    },
+    "second": {
+      "country": "Country: United States, +1",
+      "cursor": {
+        "x": 700.0023040771484,
+        "y": 660.0038909912109
+      },
+      "outer": 0,
+      "scroll": 126.73267364501952
+    },
+    "drag": {
+      "country": "Country: United States, +1",
+      "cursor": "translate3d(305.998px, 392.386px, 0px) translate(-50%, -50%)",
+      "cursorPressed": "false",
+      "expanded": "true",
+      "inner": 375.2475280761719,
+      "keyboard": "true",
+      "outer": 0
+    },
+    "selection": {
+      "country": "Country: Singapore, +65",
+      "expanded": "false",
+      "inputFocused": true,
+      "keyboard": "true"
+    }
+  },
+  "checks": {
+    "build": "passed",
+    "typescript": "passed",
+    "protectedRuntimeFiles": 29,
+    "console": [],
+    "modelTests": "not rerun; pointer interaction verified in browser"
+  },
+  "limitations": [
+    "physical touch and pointercancel gesture not separately exercised",
+    "local only; no GitHub/Vercel publication"
+  ]
+}

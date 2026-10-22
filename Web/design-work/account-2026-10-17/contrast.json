@@ -1,0 +1,35 @@
+{
+  "scope": "Text color pairs only; not a full accessibility audit",
+  "pairs": [
+    {
+      "foreground": "#EDEDED",
+      "background": "#121212",
+      "ratio": 16
+    },
+    {
+      "foreground": "#A1A1A1",
+      "background": "#121212",
+      "ratio": 7.25
+    },
+    {
+      "foreground": "#A1A1A1",
+      "background": "#1C1C1C",
+      "ratio": 6.6
+    },
+    {
+      "foreground": "#A1A1A1",
+      "background": "#262626",
+      "ratio": 5.86
+    },
+    {
+      "foreground": "#878787",
+      "background": "#1C1C1C",
+      "ratio": 4.74
+    },
+    {
+      "foreground": "#101010",
+      "background": "#EA5C00",
+      "ratio": 5.46
+    }
+  ]
+}

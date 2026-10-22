@@ -4,6 +4,7 @@ import { MobileScroll, useMobileDevice, useScreenPortal } from '../mobile';
 import { BottomFade } from './BottomFade';
 import { useActiveOrder } from './ActiveOrderState';
 import { money } from './catalog-model';
+import { allergySummary } from './checkout-options';
 import { dishTitle } from './dish-model';
 import { orderSnapNames, orderSnapPoints, settleOrderSnap, type ActiveOrder as Order, type OrderSnap } from './order-model';
 import './active-order.css';
@@ -34,7 +35,7 @@ function OrderDetails({ order }: { order: Order }) {
     <section aria-labelledby="active-delivery-title"><h2 id="active-delivery-title">Delivery</h2>
       <div className="active-delivery-card"><div className="active-delivery-address"><img src={asset('house')} alt="" /><p>{address}</p></div>
         <img className="active-address-divider" src={asset('address-divider')} alt="" width={372} height={1} />
-        <div className="active-delivery-note"><span>Comments for the courier</span><p>{details.instructions || 'No delivery instructions'}</p></div>
+        <div className="active-delivery-note"><span>Comments for the courier</span><p>{(order.options.courierNote ?? details.instructions) || 'No delivery instructions'}</p></div>
       </div>
     </section>
     <section className="active-order-details" aria-labelledby="active-details-title"><h2 id="active-details-title">Order details</h2>
@@ -45,7 +46,10 @@ function OrderDetails({ order }: { order: Order }) {
           <div><dt>Subtotal · {order.count} {order.count === 1 ? 'item' : 'items'}</dt><dd>{money(order.subtotalCents)}</dd></div>
           <div><dt>Delivery · <span>free</span></dt><dd className="order-muted">$0</dd></div>
           <div><dt>Discount</dt><dd>−{money(order.discountCents)}</dd></div>
-          <div><dt>Accrual bonuses</dt><dd>+$2</dd></div>
+          <div><dt>Tax</dt><dd>{money(order.taxCents)}</dd></div>
+          {!!order.tipCents && <div><dt>Tip</dt><dd>{money(order.tipCents)}</dd></div>}
+          {!!order.options.allergens?.length && <div><dt>Allergies</dt><dd>{allergySummary(order.options.allergens)}</dd></div>}
+          {order.options.paymentLabel && <div><dt>Payment method</dt><dd>{order.options.paymentLabel}</dd></div>}
         </dl><img src={asset('total-divider')} alt="" width={359.079} height={1} /><div className="active-order-total"><strong>Total</strong><strong>{money(order.totalCents)}</strong></div></div>
       </div>
     </section>

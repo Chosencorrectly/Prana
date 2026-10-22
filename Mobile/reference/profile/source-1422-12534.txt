@@ -1,0 +1,269 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/59a32451-23f2-4ab5-ba34-e546140bbde3";
+const imgImage75 = `${assetPathPrefix}/10390.png`;
+const imgImage80 = `${assetPathPrefix}/f61e9.png`;
+const imgImage67 = `${assetPathPrefix}/bb28d.png`;
+const imgVector7545 = `${assetPathPrefix}/e674d.svg`;
+const imgWhatsapp = `${assetPathPrefix}/c54bb.svg`;
+const imgIcHouseFilled = `${assetPathPrefix}/9d35c.svg`;
+const imgLine13 = `${assetPathPrefix}/de746.svg`;
+const imgEllipse4946 = `${assetPathPrefix}/b1161.svg`;
+const imgMaskGroup = `${assetPathPrefix}/65e34.svg`;
+const imgLine14 = `${assetPathPrefix}/aa9dc.svg`;
+const imgLine16 = `${assetPathPrefix}/9252a.svg`;
+const imgExpandSimple = `${assetPathPrefix}/68cbc.svg`;
+
+export default function Component() {
+  return (
+    <div className="bg-[#121212] relative size-full" data-node-id="1422:12534" data-name="::">
+      <div className="absolute h-[1147px] left-[-164px] top-[-90px] w-[889px]" data-node-id="1422:12535" data-name="image 75">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage75} />
+      </div>
+      <div className="absolute h-[223px] left-[120.5px] top-[124.5px] w-[168.5px]" data-node-id="1422:12536">
+        <div className="absolute inset-[-0.9%_-1.19%]">
+          <img alt="" className="block max-w-none size-full" src={imgVector7545} />
+        </div>
+      </div>
+      <div className="absolute h-[45px] left-[calc(50%+54px)] top-[349px] w-[39px]" data-node-id="1422:12537" data-name="image 80">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <img alt="" className="absolute h-[142.41%] left-[-122.67%] max-w-none top-[-18.47%] w-[222.77%]" src={imgImage80} />
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute bg-[#151515] h-[1447px] left-1/2 overflow-clip rounded-tl-[20px] rounded-tr-[20px] top-[297px] w-[430px]" data-node-id="1422:12538">
+        <div className="absolute bg-[#212121] h-[211px] left-[15px] overflow-clip rounded-[10px] top-[1196px] w-[400px]" data-node-id="1422:12539">
+          <div className="absolute border border-[#ffecec] border-solid content-stretch flex items-center justify-center left-[20px] overflow-clip px-[47px] py-[14px] rounded-[10px] top-[137px] w-[360px]" data-node-id="1422:12541">
+            <div className="content-stretch flex gap-[8px] items-center relative shrink-0" data-node-id="1422:12542">
+              <div className="relative shrink-0 size-[20px]" data-node-id="1422:12543" data-name="whatsapp">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgWhatsapp} />
+              </div>
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Medium'] leading-[normal] not-italic relative shrink-0 text-[14px] text-center text-white whitespace-nowrap" data-node-id="1422:12544">
+                Contact support
+              </p>
+            </div>
+          </div>
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(50%+0.5px)] not-italic text-[24px] text-center text-white top-[24px] whitespace-nowrap" data-node-id="1422:12545">
+            Need help with your order?
+          </p>
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[1.4] left-[calc(50%+0.5px)] not-italic text-[#5c5c5c] text-[16px] text-center top-[69px] w-[277px]" data-node-id="1422:12546">
+            Message us if something isn’t clear before you place it.
+          </p>
+        </div>
+        <div className="absolute bg-[#212121] h-[139px] left-[15px] overflow-clip rounded-[10px] top-[214px] w-[400px]" data-node-id="1422:12548">
+          <div className="absolute content-stretch flex gap-[8px] items-center left-[20px] top-[24px]" data-node-id="1422:12550">
+            <div className="relative shrink-0 size-[16px]" data-node-id="1422:12551" data-name="ic-house-filled">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIcHouseFilled} />
+            </div>
+            <p className="[word-break:break-word] font-['SF_Pro_Display:Regular'] leading-[normal] not-italic opacity-50 relative shrink-0 text-[16px] text-white whitespace-nowrap" data-node-id="1422:12552">
+              1100 Brickell · Plaza Apt 1204 · Gate code 2481
+            </p>
+          </div>
+          <div className="[word-break:break-word] absolute content-stretch flex flex-col font-['SF_Pro_Display:Regular'] gap-[8px] items-start leading-[normal] left-[20px] not-italic text-white top-[74px] w-[142px]" data-node-id="1422:12553">
+            <p className="opacity-50 relative shrink-0 text-[12px] w-full" data-node-id="1422:12554">{`Comments for the courier `}</p>
+            <p className="relative shrink-0 text-[16px] w-full" data-node-id="1422:12555">
+              Call when you deliver
+            </p>
+          </div>
+          <div className="absolute h-0 left-[17px] top-[60px] w-[372px]" data-node-id="1422:12556">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine13} />
+            </div>
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Regular'] leading-[normal] left-[15px] not-italic text-[24px] text-white top-[161px] whitespace-nowrap" data-node-id="1422:12557">
+          Delivery
+        </p>
+        <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Regular'] leading-[normal] left-[15px] not-italic text-[24px] text-white top-[385px] whitespace-nowrap" data-node-id="1422:12558">
+          Order details
+        </p>
+        <div className="absolute bg-[#212121] h-[87px] left-[15px] overflow-clip rounded-[10px] top-[1085px] w-[400px]" data-node-id="1422:12559">
+          <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[76px] not-italic text-[#38a64c] text-[32px] top-[16px] whitespace-nowrap" data-node-id="1422:12560">
+            200
+          </p>
+          <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[76px] not-italic text-[#5c5c5c] text-[14px] top-[54px] whitespace-nowrap" data-node-id="1422:12562">
+            Prana points
+          </p>
+          <p className="-translate-x-full [word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[380px] not-italic text-[#5c5c5c] text-[14px] text-right top-[calc(50%-8.5px)] whitespace-nowrap" data-node-id="1422:12563">
+            Will be credited today
+          </p>
+          <div className="absolute left-[18px] size-[50px] top-[18px]" data-node-id="1422:12564">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse4946} />
+          </div>
+          <div className="absolute left-[33px] size-[20px] top-[33px]" data-node-id="1422:12565" data-name="Mask group">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMaskGroup} />
+          </div>
+        </div>
+        <div className="absolute bg-[#212121] h-[623px] left-[15px] overflow-clip rounded-[10px] top-[438px] w-[400px]" data-node-id="1422:12568">
+          <div className="absolute h-[204px] left-[20px] overflow-clip top-[391px] w-[360px]" data-node-id="1422:12569">
+            <div className="absolute contents left-0 top-0" data-node-id="1422:12570">
+              <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Bold'] leading-[normal] left-[calc(50%-179.54px)] not-italic text-[18px] text-white top-[calc(50%+81px)] w-[53.153px]" data-node-id="1422:12571">{`Total `}</p>
+              <p className="-translate-x-full [word-break:break-word] absolute font-['SF_Pro_Display:Bold'] leading-[normal] left-[calc(50%+179.54px)] not-italic text-[18px] text-right text-white top-[calc(50%+81px)] w-[86.226px]" data-node-id="1422:12572">
+                $236.50
+              </p>
+              <div className="absolute h-0 left-0 top-0 w-[360px]" data-node-id="1422:12573">
+                <div className="absolute inset-[-1px_0_0_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgLine14} />
+                </div>
+              </div>
+              <div className="absolute h-0 left-[0.46px] top-[161px] w-[359.079px]" data-node-id="1422:12574">
+                <div className="absolute inset-[-1px_0_0_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgLine16} />
+                </div>
+              </div>
+              <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute contents font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(50%-0.29px)] not-italic text-[14px] top-[calc(50%-73.5px)]" data-node-id="1422:12575">
+                <p className="absolute h-[17px] left-[calc(50%-179.54px)] text-[#5c5c5c] top-[calc(50%-82px)] w-[249.947px]" data-node-id="1422:12576">
+                  Subtotal · 4 items
+                </p>
+                <p className="-translate-x-full absolute left-[calc(50%+178.96px)] text-right text-white top-[calc(50%-82px)] w-[92.132px]" data-node-id="1422:12577">
+                  $158.50
+                </p>
+              </div>
+              <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute contents left-[calc(50%-0.24px)] not-italic text-[14px] top-[calc(50%-39.5px)]" data-node-id="1422:12578">
+                <p className="absolute font-['SF_Pro_Display:Regular'] h-[17px] leading-[0] left-[calc(50%-179.54px)] text-white top-[calc(50%-48px)] w-[249.947px]" data-node-id="1422:12579">
+                  <span className="font-['SF_Pro_Display:Medium'] leading-[normal] text-[#5c5c5c]">Delivery ·</span>
+                  <span className="font-['SF_Pro_Display:Medium'] leading-[normal] text-[#38a64c]">{` free `}</span>
+                </p>
+                <p className="-translate-x-full absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(50%+179.07px)] text-[#5c5c5c] text-right top-[calc(50%-48px)] w-[103.944px]" data-node-id="1422:12580">
+                  $0
+                </p>
+              </div>
+              <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute contents font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(50%-0.3px)] not-italic text-[14px] top-[calc(50%-5.5px)]" data-node-id="1422:12581">
+                <p className="absolute h-[17px] left-[calc(50%-179.54px)] text-[#5c5c5c] top-[calc(50%-14px)] w-[249.947px]" data-node-id="1422:12582">
+                  Discount
+                </p>
+                <p className="-translate-x-full absolute left-[calc(50%+178.94px)] text-right text-white top-[calc(50%-14px)] w-[83.864px]" data-node-id="1422:12583">
+                  -$28.50
+                </p>
+              </div>
+              <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute contents font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(50%-0.4px)] not-italic text-[14px] top-[calc(50%+28.5px)]" data-node-id="1422:12584">
+                <p className="absolute h-[17px] left-[calc(50%-179.54px)] text-[#5c5c5c] top-[calc(50%+20px)] w-[249.947px]" data-node-id="1422:12585">
+                  Accrual bonuses
+                </p>
+                <p className="-translate-x-full absolute left-[calc(50%+178.74px)] text-right text-white top-[calc(50%+20px)] w-[54.334px]" data-node-id="1422:12586">
+                  +$2
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="absolute h-[100px] left-[20px] overflow-clip top-[28px] w-[360px]" data-node-id="1422:12587">
+            <div className="absolute contents left-0 top-0" data-node-id="1422:12588">
+              <div className="[word-break:break-word] absolute contents leading-[normal] left-0 not-italic top-0" data-node-id="1422:12589">
+                <p className="absolute font-['SF_Pro_Display:Bold'] left-0 text-[14px] text-white top-0 w-[170.256px]" data-node-id="1422:12590">
+                  Healthy meal plan 2000 kcal (7 days)
+                </p>
+                <p className="absolute font-['SF_Pro_Display:Medium'] left-[343.59px] text-[#696969] text-[12px] top-0 w-[16.41px]" data-node-id="1422:12591">
+                  2 x
+                </p>
+                <p className="-translate-x-full absolute font-['SF_Pro_Display:Bold'] left-[360px] text-[14px] text-right text-white top-[17px] w-[47.179px]" data-node-id="1422:12592">
+                  $12.43
+                </p>
+              </div>
+            </div>
+            <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(50%-180px)] not-italic text-[#5c5c5c] text-[14px] top-[calc(50%-11px)] w-[120px]" data-node-id="1422:12593">
+              Papaya Fresh Juice
+            </p>
+            <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(50%-180px)] not-italic text-[#5c5c5c] text-[14px] top-[calc(50%+33px)] w-[149.744px]" data-node-id="1422:12594">
+              Watermelon Fresh Juice
+            </p>
+            <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(50%-180px)] not-italic text-[#5c5c5c] text-[14px] top-[calc(50%+11px)] w-[120px]" data-node-id="1422:12595">
+              Papaya Fresh Juice
+            </p>
+          </div>
+          <div className="absolute h-[56px] left-[20px] overflow-clip top-[154px] w-[360px]" data-node-id="1422:12596">
+            <div className="absolute contents left-0 top-0" data-node-id="1422:12597">
+              <div className="[word-break:break-word] absolute contents leading-[normal] left-0 not-italic top-0" data-node-id="1422:12598">
+                <p className="absolute font-['SF_Pro_Display:Bold'] left-0 text-[14px] text-white top-0 w-[170.256px]" data-node-id="1422:12599">
+                  Healthy meal plan 2000 kcal (7 days)
+                </p>
+                <p className="absolute font-['SF_Pro_Display:Medium'] left-[343.59px] text-[#696969] text-[12px] top-0 w-[14.359px]" data-node-id="1422:12600">
+                  1 x
+                </p>
+                <p className="-translate-x-full absolute font-['SF_Pro_Display:Bold'] left-[360px] text-[14px] text-right text-white top-[17px] w-[47.179px]" data-node-id="1422:12601">
+                  $12.43
+                </p>
+              </div>
+            </div>
+            <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(50%-180px)] not-italic text-[#5c5c5c] text-[14px] top-[calc(50%+11px)] w-[120px]" data-node-id="1422:12602">
+              Papaya Fresh Juice
+            </p>
+          </div>
+          <div className="absolute h-[56px] left-[20px] overflow-clip top-[236px] w-[360px]" data-node-id="1422:12603">
+            <div className="absolute contents left-0 top-0" data-node-id="1422:12604">
+              <div className="[word-break:break-word] absolute contents leading-[normal] left-0 not-italic top-0" data-node-id="1422:12605">
+                <p className="absolute font-['SF_Pro_Display:Bold'] left-0 text-[14px] text-white top-0 w-[170.256px]" data-node-id="1422:12606">
+                  Healthy meal plan 2000 kcal (7 days)
+                </p>
+                <p className="absolute font-['SF_Pro_Display:Medium'] left-[343.59px] text-[#696969] text-[12px] top-0 w-[14.359px]" data-node-id="1422:12607">
+                  1 x
+                </p>
+                <p className="-translate-x-full absolute font-['SF_Pro_Display:Bold'] left-[360px] text-[14px] text-right text-white top-[17px] w-[47.179px]" data-node-id="1422:12608">
+                  $12.43
+                </p>
+              </div>
+            </div>
+            <p className="[word-break:break-word] absolute font-['SF_Pro_Display:Medium'] leading-[normal] left-[calc(50%-180px)] not-italic text-[#5c5c5c] text-[14px] top-[calc(50%+11px)] w-[120px]" data-node-id="1422:12609">
+              Papaya Fresh Juice
+            </p>
+          </div>
+          <div className="absolute border border-[#ffecec] border-solid content-stretch flex items-center justify-center left-[20px] overflow-clip px-[47px] py-[14px] rounded-[10px] top-[316px] w-[360px]" data-node-id="1422:12610">
+            <div className="content-stretch flex gap-[8px] items-center relative shrink-0" data-node-id="1422:12611">
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Medium'] leading-[normal] not-italic relative shrink-0 text-[14px] text-center text-white whitespace-nowrap" data-node-id="1422:12613">
+                Show more
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="absolute content-stretch flex flex-col gap-[16px] items-start left-[15px] top-[53px] w-[400px]" data-node-id="1422:12614">
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-[4px] items-start not-italic relative shrink-0 w-[337px]" data-node-id="1422:12615">
+            <p className="font-['SF_Pro_Display:Regular'] leading-[normal] relative shrink-0 text-[24px] text-white w-full" data-node-id="1422:12616">
+              Estimated arrival 12:20–12:35 PM
+            </p>
+            <p className="font-['SF_Pro_Display:Medium'] leading-[1.4] relative shrink-0 text-[#5c5c5c] text-[16px] w-full" data-node-id="1422:12617">
+              Looking for courier
+            </p>
+          </div>
+          <div className="content-stretch flex gap-[6px] items-center relative shrink-0 w-full" data-node-id="1422:12618">
+            <div className="bg-[#ea5c00] h-[5px] relative rounded-[10px] shrink-0 w-[130px]" data-node-id="1422:12619" />
+            <div className="bg-[#414141] h-[5px] relative rounded-[10px] shrink-0 w-[128px]" data-node-id="1422:12620" />
+            <div className="bg-[#414141] h-[5px] relative rounded-[10px] shrink-0 w-[130px]" data-node-id="1422:12621" />
+          </div>
+        </div>
+        <div className="-translate-x-1/2 absolute bg-[#232323] h-[5px] left-1/2 rounded-[10px] top-[16px] w-[60px]" data-node-id="1422:12622" />
+      </div>
+      <div className="absolute h-[55px] left-0 mix-blend-plus-lighter top-0 w-[430px]" data-node-id="1422:12623" data-name="image 67">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <img alt="" className="absolute h-[1696.15%] left-0 max-w-none top-[-0.8%] w-full" src={imgImage67} />
+        </div>
+      </div>
+      <div className="absolute bg-[#272727] left-[calc(50%+164px)] overflow-clip rounded-[999px] size-[36px] top-[55px]" data-node-id="1422:12624">
+        <div className="-translate-x-1/2 -translate-y-1/2 absolute left-1/2 size-[20px] top-1/2" data-node-id="1422:12625" data-name="expand-simple">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgExpandSimple} />
+        </div>
+      </div>
+      <div className="absolute bg-[#272727] left-[16px] overflow-clip rounded-[999px] size-[36px] top-[55px]" data-node-id="1422:12752">
+        <CodeConnectSnippet data-node-id="1422:12753" data-name="close" data-snippet-language="Compose">
+          Icon( Icons.Filled.Close, contentDescription = "" // Add a valid content description )
+        </CodeConnectSnippet>
+      </div>
+      <div className="absolute h-[45px] left-[79px] top-[99px] w-[48px]" data-node-id="1422:12626" data-name="image 79">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <img alt="" className="absolute h-[142.41%] left-[-4.13%] max-w-none top-[-23.56%] w-[181%]" src={imgImage80} />
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+If the node is connected to a code component in the users codebase via Code Connect, the connected component will be included in the final markup wrapped in a CodeConnectSnippet element, with relevant imports at the top of the file. There are two formats: 1. Single snippet: <CodeConnectSnippet data-snippet-language="React"><TitleComponent>Hello World</TitleComponent></CodeConnectSnippet> 2. Multiple options: <CodeConnectSnippet data-snippet-language="React" options={[<Button variant="primary" />, <Button variant="secondary" />]} /> IMPORTANT: the CodeConnectSnippet wrapper element should not be part of the final code. For the options format, choose the single most appropriate option to use in your implementation. The source of the code component will be in the import path, e.g. import {ComponentName } from 'path/to/component'; IMPORTANT: the import path may not be relative/may point to a URL, so you should search for the component in the codebase and MUST use it if possible.
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## ic-house-filled
+**Node ID:** 1:638
+
+house, home, дом, рщгыу, вщь
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

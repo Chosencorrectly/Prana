@@ -1,0 +1,59 @@
+{
+  "iteration": "D-64",
+  "date": "2026-10-15",
+  "timezone": "Europe/Moscow",
+  "url": "http://127.0.0.1:5181/",
+  "scope": "Local auth phone input; no publication",
+  "typing": {
+    "firstThree": {
+      "caret": 4,
+      "ctaDisabled": true,
+      "focused": true
+    },
+    "secondThree": {
+      "caret": 8,
+      "ctaDisabled": true
+    },
+    "backspaceAtSecondBoundary": {
+      "caret": 6
+    },
+    "completed": {
+      "boxHeight": 72,
+      "boxWidth": 307,
+      "caret": 12,
+      "flagLeftInset": 19.988123206117024,
+      "focused": true,
+      "inputOuterRightInset": -0.000015259157656722235,
+      "inputPaddingRight": "20px",
+      "textScrollLeft": 0,
+      "ctaEnabled": true
+    }
+  },
+  "middleDelete": {
+    "caret": 4,
+    "ctaDisabled": true
+  },
+  "middleRestore": {
+    "caret": 5,
+    "ctaEnabled": true
+  },
+  "internationalPaste": {
+    "caret": 12,
+    "ctaEnabled": true
+  },
+  "visual": "Screenshot confirms +1 and 305 555 0123. DOM values are redacted; exact display checked visually and with model tests.",
+  "console": [],
+  "checks": {
+    "phoneTests": 8,
+    "authTests": 5,
+    "passed": 13,
+    "build": "passed",
+    "runtimeProtectedFiles": 29,
+    "warning": "Existing JS chunk >500kB"
+  },
+  "limits": [
+    "Native mobile keyboard/touch and system reduced motion not retested",
+    "US/CA use explicit 3-3-4 display; other countries retain existing national formatting",
+    "Oversized paste is preserved and remains disabled; no silent truncation"
+  ]
+}

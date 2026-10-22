@@ -1,4 +1,4 @@
-import { useRef, useState, type CSSProperties, type PointerEvent } from 'react';
+import { createContext, useContext, useRef, useState, type CSSProperties, type PointerEvent, type Context } from 'react';
 import { createPortal } from 'react-dom';
 import { motion, useReducedMotion } from 'motion/react';
 import { KeyboardInput, MobileScroll, useFlow, useKeyboard, useKeyboardInsets, useMobileDevice, useScreenPortal, type FlowControls, type FlowScreen } from '../mobile';
@@ -10,6 +10,9 @@ import './address.css';
 
 const asset = (name: string) => `/assets/address/${name}.svg`;
 const ease = [.2, .8, .2, 1] as const;
+type AddressNavigation = { back: (flow: FlowControls) => void; close: (flow: FlowControls) => void; saved: (flow: FlowControls) => void };
+export const AddressNavigationContext: Context<AddressNavigation | null> = import.meta.hot?.data.addressNavigationContext ?? createContext<AddressNavigation | null>(null);
+if (import.meta.hot) import.meta.hot.data.addressNavigationContext = AddressNavigationContext;
 export function returnToCheckout(flow: FlowControls) {
   const checkout = flow.stack.find(entry => entry.id === 'delivery');
   if (checkout) flow.push(checkout);
@@ -37,7 +40,7 @@ export function AddressMapLayer() {
   const { device } = useMobileDevice(), { screenRef } = useScreenPortal();
   const reduced = !!useReducedMotion(), [dragging, setDragging] = useState(false);
   const drag = useRef<{ id: number; x: number; y: number; point: MapPoint } | null>(null);
-  const active = flow.current.id.startsWith('address-'), editable = flow.current.id === 'address-map';
+  const active = ['address-list', 'address-map', 'address-search', 'address-details'].includes(flow.current.id), editable = flow.current.id === 'address-map';
   const selectedLocation = state.addresses.find(item => item.id === state.selectedId)?.location ?? state.current.location;
   const point = (flow.current.id === 'address-list' ? selectedLocation : state.draft?.location ?? selectedLocation).point;
   const width = device.geometry.screen.width, height = device.geometry.screen.height;
@@ -68,11 +71,12 @@ export function AddressMapLayer() {
 }
 
 // Blur is portaled outside the opacity-animated route, like the other docks.
-export function AddressDock() {
-  const { host } = useCheckout(), flow = useFlow(), { state, dispatch } = useAddressBook();
+export function AddressDock({ host: suppliedHost }: { host?: HTMLDivElement | null } = {}) {
+  const checkout = useCheckout(), navigation = useContext(AddressNavigationContext), flow = useFlow(), { state, dispatch } = useAddressBook();
+  const host = suppliedHost ?? checkout?.host;
   const { device } = useMobileDevice(), keyboard = useKeyboard(), { bottomInset, keyboardDragging } = useKeyboardInsets();
   const reduced = !!useReducedMotion(), step = flow.current.id;
-  const searching = step === 'address-search', active = step.startsWith('address-');
+  const searching = step === 'address-search', active = ['address-list', 'address-map', 'address-search', 'address-details'].includes(step);
   const available = deliveryAvailable(state.draft?.location ?? defaultLocation);
   const selected = state.addresses.find(item => item.id === state.selectedId);
   const disabled = step === 'address-list' ? !selected || !deliveryAvailable(selected.location) : !state.draft || !available;
@@ -81,7 +85,7 @@ export function AddressDock() {
     if (disabled) return;
     if (step === 'address-list') { dispatch({ type: 'deliver' }); returnToCheckout(flow); }
     else if (step === 'address-map') flow.push(addressDetailsStep);
-    else if (step === 'address-details') { dispatch({ type: 'save' }); flow.push(addressListStep); }
+    else if (step === 'address-details') { dispatch({ type: 'save' }); if (navigation) navigation.saved(flow); else flow.push(addressListStep); }
   }
   return host && createPortal(<motion.div className="address-dock" data-search={searching} data-active={active} inert={!active || searching} aria-hidden={!active || searching || undefined}
     initial={{ '--dock-fade-opacity': 0 }} animate={{ bottom, '--dock-fade-opacity': active ? 1 : 0 }}
@@ -95,12 +99,12 @@ export function AddressDock() {
 }
 
 function AddressHeader({ list = false, details = false }: { list?: boolean; details?: boolean }) {
-  const flow = useFlow(), { state } = useAddressBook();
+  const flow = useFlow(), { state } = useAddressBook(), navigation = useContext(AddressNavigationContext);
   if (list) return <div className="address-list-title"><span>Delivery</span></div>;
   return <div className="address-toolbar">
-    <button type="button" aria-label={details ? 'Back to map' : flow.current.id === 'address-search' ? 'Back to map' : 'Back to addresses'} onPointerDown={event => event.preventDefault()} onClick={() => addressBack(flow)}><img className="address-back" src="/assets/checkout/phone-back.svg" alt="" width={18} height={18} /></button>
+    <button type="button" aria-label={details ? 'Back to map' : flow.current.id === 'address-search' ? 'Back to map' : 'Back to addresses'} onPointerDown={event => event.preventDefault()} onClick={() => navigation ? navigation.back(flow) : addressBack(flow)}><img className="address-back" src="/assets/checkout/phone-back.svg" alt="" width={18} height={18} /></button>
     <span>{details ? 'Address details' : state.draft?.id ? 'Edit address' : 'Add address'}</span>
-    <button type="button" aria-label="Close address flow" onPointerDown={event => event.preventDefault()} onClick={() => returnToCheckout(flow)}><img src="/assets/checkout/close.svg" alt="" width={11.6667} height={11.6667} /></button>
+    <button type="button" aria-label="Close address flow" onPointerDown={event => event.preventDefault()} onClick={() => navigation ? navigation.close(flow) : returnToCheckout(flow)}><img src="/assets/checkout/close.svg" alt="" width={11.6667} height={11.6667} /></button>
   </div>;
 }
 function AddressList() {
@@ -162,5 +166,5 @@ function AddressDetailsBody() {
 }
 export const addressListStep: FlowScreen = { id: 'address-list', headerHeight: 74, header: () => <AddressHeader list />, footerHeight: 110, render: () => <AddressList /> };
 export const addressMapStep: FlowScreen = { id: 'address-map', headerHeight: 60, header: () => <AddressHeader />, footerHeight: 110, render: () => <AddressMapBody /> };
-const addressSearchStep: FlowScreen = { id: 'address-search', headerHeight: 60, header: () => <AddressHeader />, focusSelector: '.address-search-input', render: () => <AddressSearch /> };
-const addressDetailsStep: FlowScreen = { id: 'address-details', headerHeight: 60, header: () => <AddressHeader details />, footerHeight: 110, render: () => <AddressDetailsBody /> };
+export const addressSearchStep: FlowScreen = { id: 'address-search', headerHeight: 60, header: () => <AddressHeader />, focusSelector: '.address-search-input', render: () => <AddressSearch /> };
+export const addressDetailsStep: FlowScreen = { id: 'address-details', headerHeight: 60, header: () => <AddressHeader details />, footerHeight: 110, render: () => <AddressDetailsBody /> };

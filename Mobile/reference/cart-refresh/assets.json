@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-19",
+  "timezone": "Europe/Moscow",
+  "publication": "local only; update future export pin and manifest",
+  "assets": [
+    {
+      "file": "close.svg",
+      "figmaNode": "1409:7495",
+      "source": "https://www.figma.com/api/mcp/asset/fd592967-fd65-473c-b05f-bb17dd1fe158/d005a.svg",
+      "bytes": 394,
+      "sha256": "06f40d91a26fa714752febdf2cce6c660f8168dbc485a5169609df2aa58c65fd",
+      "geometry": {
+        "height": "20",
+        "width": "20"
+      }
+    },
+    {
+      "file": "clear.svg",
+      "figmaNode": "1409:7495",
+      "source": "https://www.figma.com/api/mcp/asset/fd592967-fd65-473c-b05f-bb17dd1fe158/4306b.svg",
+      "bytes": 1618,
+      "sha256": "4adb67f3b7fae0b91c21c97b61ae5cd06e95dec66a4c367424a92a7f7ba60522",
+      "geometry": {
+        "height": "20",
+        "width": "20"
+      }
+    },
+    {
+      "file": "minus.svg",
+      "figmaNode": "1409:7495",
+      "source": "https://www.figma.com/api/mcp/asset/fd592967-fd65-473c-b05f-bb17dd1fe158/49398.svg",
+      "bytes": 313,
+      "sha256": "71e41e9e102a6ce6d8b3f4d07c88a46a54ed8441b6a14da0cd8e884f246eb07f",
+      "geometry": {
+        "height": "12",
+        "width": "12"
+      }
+    },
+    {
+      "file": "plus.svg",
+      "figmaNode": "1409:7495",
+      "source": "https://www.figma.com/api/mcp/asset/fd592967-fd65-473c-b05f-bb17dd1fe158/65aa4.svg",
+      "bytes": 334,
+      "sha256": "ef0cb607c170911e9bacfe057d0aecc63b30125678f9cde2bcc5458d1ceb0833",
+      "geometry": {
+        "height": "12",
+        "width": "12"
+      }
+    },
+    {
+      "file": "remove.svg",
+      "figmaNode": "1409:7495",
+      "source": "https://www.figma.com/api/mcp/asset/fd592967-fd65-473c-b05f-bb17dd1fe158/b7b4a.svg",
+      "bytes": 1778,
+      "sha256": "2c0e9fa2c71a59c1d64d55210a59dcb48c13b817da7611aa9cf0a98e7df0e15e",
+      "geometry": {
+        "height": "14",
+        "width": "14"
+      }
+    },
+    {
+      "file": "info.svg",
+      "figmaNode": "1411:9334",
+      "source": "https://www.figma.com/api/mcp/asset/5bc533d6-f730-45f8-95b0-63e33ab1445f/ae129.svg",
+      "bytes": 548,
+      "sha256": "a4e4ae62eeb2bbc6a483c774bbcd27684e956fcd6ce209b82620eec3317bc225",
+      "geometry": {
+        "height": "24",
+        "width": "24"
+      }
+    },
+    {
+      "file": "warning.svg",
+      "figmaNode": "1414:2790",
+      "source": "https://www.figma.com/api/mcp/asset/ebde86ed-00e7-4b98-bca2-d1e8138a2192/84a3e.svg",
+      "bytes": 356,
+      "sha256": "f227f6f6fd451e1800cab7d682c8552a68cd700391a090c8e74df8927a3aa1aa",
+      "geometry": {
+        "height": "24",
+        "width": "24"
+      }
+    },
+    {
+      "file": "photo-fallback.svg",
+      "figmaNode": "1419:4621",
+      "source": "https://www.figma.com/api/mcp/asset/a005a11d-f1af-432d-b71a-8d5845fc235a/f7dac.svg",
+      "bytes": 1060,
+      "sha256": "7cd33eb297e63df5f0db3e1d4f5a0e626443afe9162d42b45c7de947ebfcdd81",
+      "geometry": {
+        "height": "24",
+        "width": "24"
+      }
+    },
+    {
+      "file": "empty-bag.png",
+      "figmaNode": "1411:9291",
+      "source": "https://www.figma.com/api/mcp/asset/3e88fc63-27b0-4746-9861-b06286291ffa/6456c.png",
+      "bytes": 1082959,
+      "sha256": "e837daba60ffe3054b671360d67bff4ad1d687cd7de7f6f36518394aaf201c75",
+      "geometry": {
+        "renderHeight": 148,
+        "renderWidth": 148
+      }
+    }
+  ]
+}

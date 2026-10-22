@@ -1,0 +1,362 @@
+{
+  "section": "1443:4821",
+  "date": "2026-10-22",
+  "frames": 59,
+  "uniqueScenarios": 55,
+  "coverage": [
+    {
+      "node": "1379:1762",
+      "scenario": "ready",
+      "source": "source-1379-1762.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1379-1762"
+    },
+    {
+      "node": "1421:7186",
+      "scenario": "no-name",
+      "source": "source-1421-7186.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1421-7186"
+    },
+    {
+      "node": "1421:7261",
+      "scenario": "loading",
+      "source": "source-1421-7261.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1421-7261"
+    },
+    {
+      "node": "1421:7517",
+      "scenario": "offline",
+      "source": "source-1421-7517.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1421-7517"
+    },
+    {
+      "node": "1421:7663",
+      "scenario": "promos",
+      "source": "source-1421-7663.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1421-7663"
+    },
+    {
+      "node": "1380:1832",
+      "scenario": "personal",
+      "source": "source-1380-1832.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1380-1832"
+    },
+    {
+      "node": "1421:9624",
+      "scenario": "personal-dirty",
+      "source": "source-1421-9624.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1421-9624"
+    },
+    {
+      "node": "1421:9804",
+      "scenario": "personal-invalid",
+      "source": "source-1421-9804.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1421-9804"
+    },
+    {
+      "node": "1421:9894",
+      "scenario": "birthday",
+      "source": "source-1421-9894.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1421-9894"
+    },
+    {
+      "node": "1421:10642",
+      "scenario": "phone",
+      "source": "source-1421-10642.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1421-10642"
+    },
+    {
+      "node": "1421:11803",
+      "scenario": "code",
+      "source": "source-1421-11803.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1421-11803"
+    },
+    {
+      "node": "1421:10951",
+      "scenario": "personal-error",
+      "source": "source-1421-10951.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1421-10951"
+    },
+    {
+      "node": "1421:11026",
+      "scenario": "personal-error",
+      "source": "source-1421-11026.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1421-11026"
+    },
+    {
+      "node": "1421:11868",
+      "scenario": "discard",
+      "source": "source-1421-11868.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1421-11868"
+    },
+    {
+      "node": "1421:11941",
+      "scenario": "personal-saved",
+      "source": "source-1421-11941.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1421-11941"
+    },
+    {
+      "node": "1422:12017",
+      "scenario": "orders",
+      "source": "source-1422-12017.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1422-12017"
+    },
+    {
+      "node": "1422:12115",
+      "scenario": "orders-empty",
+      "source": "source-1422-12115.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1422-12115"
+    },
+    {
+      "node": "1422:12207",
+      "scenario": "orders-error",
+      "source": "source-1422-12207.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1422-12207"
+    },
+    {
+      "node": "1422:12236",
+      "scenario": "order",
+      "source": "source-1422-12236.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1422-12236"
+    },
+    {
+      "node": "1422:12534",
+      "scenario": "tracking",
+      "source": "source-1422-12534.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1422-12534"
+    },
+    {
+      "node": "1422:12631",
+      "scenario": "reorder",
+      "source": "source-1422-12631.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1422-12631"
+    },
+    {
+      "node": "1422:12782",
+      "scenario": "reorder-empty",
+      "source": "source-1422-12782.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1422-12782"
+    },
+    {
+      "node": "1422:12810",
+      "scenario": "cancelled",
+      "source": "source-1422-12810.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1422-12810"
+    },
+    {
+      "node": "1423:14491",
+      "scenario": "places-empty",
+      "source": "source-1423-14491.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1423-14491"
+    },
+    {
+      "node": "1423:14280",
+      "scenario": "places",
+      "source": "source-1423-14280.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1423-14280"
+    },
+    {
+      "node": "1423:14582",
+      "scenario": "address-map",
+      "source": "source-1423-14582.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1423-14582"
+    },
+    {
+      "node": "1423:14609",
+      "scenario": "address-search",
+      "source": "source-1423-14609.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1423-14609"
+    },
+    {
+      "node": "1423:14772",
+      "scenario": "address-selected",
+      "source": "source-1423-14772.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1423-14772"
+    },
+    {
+      "node": "1423:14799",
+      "scenario": "address-details",
+      "source": "source-1423-14799.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1423-14799"
+    },
+    {
+      "node": "1423:14853",
+      "scenario": "address-details",
+      "source": "source-1423-14853.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1423-14853"
+    },
+    {
+      "node": "1423:14921",
+      "scenario": "address-remove",
+      "source": "source-1423-14921.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1423-14921"
+    },
+    {
+      "node": "1443:1152",
+      "scenario": "cards-empty",
+      "source": "source-1443-1152.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1443-1152"
+    },
+    {
+      "node": "1443:1382",
+      "scenario": "cards",
+      "source": "source-1443-1382.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1443-1382"
+    },
+    {
+      "node": "1443:1534",
+      "scenario": "card-form",
+      "source": "source-1443-1534.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1443-1534"
+    },
+    {
+      "node": "1443:1642",
+      "scenario": "card-invalid",
+      "source": "source-1443-1642.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1443-1642"
+    },
+    {
+      "node": "1443:1753",
+      "scenario": "card-verifying",
+      "source": "source-1443-1753.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1443-1753"
+    },
+    {
+      "node": "1443:1895",
+      "scenario": "card-bank",
+      "source": "source-1443-1895.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1443-1895"
+    },
+    {
+      "node": "1443:2030",
+      "scenario": "card-error",
+      "source": "source-1443-2030.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1443-2030"
+    },
+    {
+      "node": "1443:2072",
+      "scenario": "card",
+      "source": "source-1443-2072.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1443-2072"
+    },
+    {
+      "node": "1443:2145",
+      "scenario": "card-remove",
+      "source": "source-1443-2145.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1443-2145"
+    },
+    {
+      "node": "1443:2612",
+      "scenario": "points",
+      "source": "source-1443-2612.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1443-2612"
+    },
+    {
+      "node": "1443:2716",
+      "scenario": "points-empty",
+      "source": "source-1443-2716.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1443-2716"
+    },
+    {
+      "node": "1443:2814",
+      "scenario": "activity",
+      "source": "source-1443-2814.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1443-2814"
+    },
+    {
+      "node": "1443:2975",
+      "scenario": "loyalty-error",
+      "source": "source-1443-2975.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1443-2975"
+    },
+    {
+      "node": "1443:3005",
+      "scenario": "points-error",
+      "source": "source-1443-3005.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1443-3005"
+    },
+    {
+      "node": "1443:3059",
+      "scenario": "loyalty",
+      "source": "source-1443-3059.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1443-3059"
+    },
+    {
+      "node": "1443:3660",
+      "scenario": "settings",
+      "source": "source-1443-3660.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1443-3660"
+    },
+    {
+      "node": "1443:3742",
+      "scenario": "notifications",
+      "source": "source-1443-3742.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1443-3742"
+    },
+    {
+      "node": "1443:4097",
+      "scenario": "notifications-error",
+      "source": "source-1443-4097.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1443-4097"
+    },
+    {
+      "node": "1443:3892",
+      "scenario": "permission",
+      "source": "source-1443-3892.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1443-3892"
+    },
+    {
+      "node": "1443:3928",
+      "scenario": "loyalty",
+      "source": "source-1443-3928.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1443-3928"
+    },
+    {
+      "node": "1443:3953",
+      "scenario": "credits",
+      "source": "source-1443-3953.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1443-3953"
+    },
+    {
+      "node": "1443:4172",
+      "scenario": "licenses-error",
+      "source": "source-1443-4172.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1443-4172"
+    },
+    {
+      "node": "1443:4205",
+      "scenario": "privacy-error",
+      "source": "source-1443-4205.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1443-4205"
+    },
+    {
+      "node": "1443:4238",
+      "scenario": "terms-error",
+      "source": "source-1443-4238.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1443-4238"
+    },
+    {
+      "node": "1443:4690",
+      "scenario": "logout",
+      "source": "source-1443-4690.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1443-4690"
+    },
+    {
+      "node": "1443:4722",
+      "scenario": "logout",
+      "source": "source-1443-4722.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1443-4722"
+    },
+    {
+      "node": "1443:4655",
+      "scenario": "guest",
+      "source": "source-1443-4655.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1443-4655"
+    },
+    {
+      "node": "1443:4487",
+      "scenario": "logout-error",
+      "source": "source-1443-4487.txt",
+      "url": "https://www.figma.com/design/sVUfk3wL7MabAwk1PIV1fv/Prana-App?node-id=1443-4487"
+    }
+  ]
+}
