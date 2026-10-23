@@ -2,7 +2,7 @@ import { createContext, useContext, useEffect, useRef, useState, type Context, t
 import { MotionConfig } from 'motion/react';
 import { BottomSheet, FlowStack, KeyboardInput, MobileScroll, useFlow, type FlowScreen } from './mobile';
 import { normalizeCode, RESEND_SECONDS, resendRemaining, verifyCode } from './auth-model';
-import { DEFAULT_PHONE, phoneDetails, type PhoneDraft } from './phone-model';
+import { DEFAULT_LOGIN_PHONE, phoneDetails, type PhoneDraft } from './phone-model';
 import { PhoneNumberField } from './PhoneNumberField';
 import { authStep } from './auth-motion';
 import { Catalog, CatalogHeader, CatalogProvider } from './catalog/Catalog';
@@ -93,7 +93,7 @@ function Phone() {
   return <section className="auth-form-screen" inert={!active} aria-hidden={!active || undefined}>
     <MobileScroll className="auth-scroll"><form id="phone-form" className="auth-form phone-form" onSubmit={submit} noValidate>
       <h1>Enter Phone</h1><p className="auth-description">Enter your phone number to<br />get the authorization code</p>
-      <PhoneNumberField inputRef={input} value={auth.phone} active={active} invalid={auth.phoneError} onInputError={auth.setPhoneError}
+      <PhoneNumberField editableCallingCode inputRef={input} value={auth.phone} active={active} invalid={auth.phoneError} onInputError={auth.setPhoneError}
         onChange={value => { auth.setPhone(value); auth.setPhoneError(false); }} />
     </form></MobileScroll>
   </section>;
@@ -155,7 +155,7 @@ const phoneScreen: FlowScreen = { id: 'phone', focusSelector: '.phone-input', he
 const codeScreen: FlowScreen = { id: 'code', focusSelector: '.code-input', headerHeight: 60, header: () => <Toolbar />, footerHeight: 79, footer: () => <FormFooter kind="code" />, render: () => <Code /> };
 const catalogScreen: FlowScreen = { id: 'catalog', headerHeight: 117, header: flow => <CatalogHeader onSignIn={() => flow.reset(signInScreen)} />, render: () => <Catalog /> };
 export default function Prototype() {
-  const [phone, setPhone] = useState<PhoneDraft>(DEFAULT_PHONE); const [code, setCode] = useState('');
+  const [phone, setPhone] = useState<PhoneDraft>(DEFAULT_LOGIN_PHONE); const [code, setCode] = useState('');
   const [phoneError, setPhoneError] = useState(false); const [codeError, setCodeError] = useState(false);
   const [deadline, setDeadline] = useState(0); const [notice, setNotice] = useState<Notice>(null);
   useEffect(() => { document.title = 'Prana — Mobile sign in'; }, []);

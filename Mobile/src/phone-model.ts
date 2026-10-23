@@ -15,14 +15,16 @@ export const PHONE_COUNTRIES = [
   { id: 'SG', name: 'Singapore', placeholder: '8123 4567' },
 ] as const satisfies readonly { id: CountryCode; name: string; placeholder: string }[];
 export type PhoneCountry = typeof PHONE_COUNTRIES[number]['id'];
-export type PhoneDraft = { country: PhoneCountry; digits: string };
+// Login edits the prefix independently; profile keeps its original national field.
+export type PhoneDraft = { country: PhoneCountry; digits: string; prefix?: string };
 export const DEFAULT_PHONE: PhoneDraft = { country: 'US', digits: '' };
+export const DEFAULT_LOGIN_PHONE: PhoneDraft = { ...DEFAULT_PHONE, prefix: '+1' };
 export const phoneDigits = (value: string) => value.replace(/\D/g, '');
 export const callingCode = (country: PhoneCountry) => `+${getCountryCallingCode(country)}`;
 
 export function phoneDetails(draft: PhoneDraft) {
-  // The +1 prefix is already a separate control. Treat every typed digit as
-  // national input; a leading 1 must not become a trunk/country prefix.
+  if (!phoneCountry(draft)) return { formatted: draft.digits, possible: false, international: '' };
+  // National digits never include the prefix, even when both are editable.
   if (draft.country === 'US' || draft.country === 'CA') {
     return {
       formatted: draft.digits.replace(/^(\d{3})(\d{3})?/, (_, first: string, second?: string) => `${first} ${second ? `${second} ` : ''}`),
@@ -33,6 +35,47 @@ export function phoneDetails(draft: PhoneDraft) {
   const formatter = new AsYouType(draft.country);
   const formatted = formatter.input(draft.digits).replace(/[()-]/g, ' ').replace(/\s+/g, ' ').trim();
   return { formatted, possible: formatter.isPossible(), international: formatter.getNumber()?.number ?? '' };
+}
+
+export function phoneCountry(draft: PhoneDraft) {
+  return PHONE_COUNTRIES.find(item => item.id === draft.country
+    && (draft.prefix === undefined || phoneDigits(draft.prefix) === getCountryCallingCode(item.id)));
+}
+
+/** Editing the code never consumes or replaces digits in the national subfield. */
+export function readPhoneCode(value: string, draft: PhoneDraft) {
+  const digits = phoneDigits(value);
+  const prefix = (/^\s*\+/.test(value) ? '+' : '') + digits;
+  const candidates = PHONE_COUNTRIES.filter(item => getCountryCallingCode(item.id) === digits);
+  const country = candidates.find(item => item.id === draft.country)
+    ?? candidates.find(item => item.id === 'US') ?? candidates[0];
+  const parser = new AsYouType();
+  parser.input(`+${digits}`);
+  return {
+    draft: { ...draft, country: country?.id ?? draft.country, prefix } satisfies PhoneDraft,
+    unsupported: !country && (!!parser.getCallingCode() || digits.length >= 3),
+  };
+}
+
+/** Read every edit as international text; never discard digits or reject a draft. */
+export function readEditablePhone(value: string, preferred: PhoneCountry) {
+  const digits = phoneDigits(value);
+  const plus = /^\s*\+/.test(value) ? '+' : '';
+  const parser = new AsYouType();
+  parser.input(`+${digits}`);
+  const code = parser.getCallingCode();
+  const candidates = PHONE_COUNTRIES.filter(item => getCountryCallingCode(item.id) === code);
+  // +1 alone cannot distinguish US/CA. Keep an explicit choice, otherwise use US.
+  const country = candidates.find(item => item.id === preferred)
+    ?? candidates.find(item => item.id === 'US') ?? candidates[0];
+  return {
+    draft: { country: country?.id ?? preferred, prefix: plus + (code ?? digits), digits: code ? digits.slice(code.length) : '' } satisfies PhoneDraft,
+    unsupported: !country && (!!code || digits.length >= 3),
+  };
+}
+
+export function choosePhoneCountry(draft: PhoneDraft, country: PhoneCountry): PhoneDraft {
+  return { ...draft, country, ...(draft.prefix === undefined ? {} : { prefix: callingCode(country) }) };
 }
 
 /** Keep national typing intact; split a country prefix only when '+' is explicit. */

@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { DEFAULT_PHONE, PHONE_COUNTRIES, callingCode, phoneDetails, readPhoneInput, caretAfterDigits } from '../src/phone-model.ts';
+import { DEFAULT_PHONE, DEFAULT_LOGIN_PHONE, PHONE_COUNTRIES, callingCode, phoneDetails, readPhoneInput, caretAfterDigits, readEditablePhone, readPhoneCode, phoneCountry, choosePhoneCountry } from '../src/phone-model.ts';
 
 test('US default and demonstration country codes, including Indonesia for Bali', () => {
   assert.deepEqual(DEFAULT_PHONE, { country: 'US', digits: '' });
@@ -102,4 +102,82 @@ test('caret follows digits rather than inserted formatting spaces', () => {
   assert.equal(caretAfterDigits('305 555 0123', 10), 12);
   assert.equal(caretAfterDigits('305 ', 3), 4);
   assert.equal(caretAfterDigits('305 555 ', 6), 8);
+});
+
+test('editing the separate code changes country without changing any national digits', () => {
+  const initial = { ...DEFAULT_LOGIN_PHONE, digits: '1111111111' };
+  assert.equal(initial.prefix, '+1');
+  assert.equal(phoneDetails(initial).formatted, '111 111 1111');
+  for (const [prefix, country] of [['+62', 'ID'], ['+44', 'GB'], ['+971', 'AE'], ['33', 'FR']]) {
+    const result = readPhoneCode(prefix, initial);
+    assert.equal(result.draft.prefix, prefix);
+    assert.equal(result.draft.digits, initial.digits);
+    assert.equal(phoneCountry(result.draft)?.id, country);
+    assert.equal(result.unsupported, false);
+  }
+});
+
+test('erasing or partially typing the code preserves the independent number and disables SMS', () => {
+  const initial = { ...DEFAULT_LOGIN_PHONE, digits: '1111111111' };
+  for (const prefix of ['', '+', '+6', '+9', '+97']) {
+    const result = readPhoneCode(prefix, initial);
+    assert.equal(result.draft.prefix, prefix);
+    assert.equal(result.draft.digits, initial.digits);
+    assert.equal(phoneCountry(result.draft), undefined);
+    assert.equal(phoneDetails(result.draft).possible, false);
+    assert.equal(result.unsupported, false);
+    assert.equal(phoneDetails(readPhoneCode('+1', result.draft).draft).possible, true);
+  }
+});
+
+test('unsupported and oversized codes stay in the code field and never leak into the number', () => {
+  const initial = { ...DEFAULT_LOGIN_PHONE, digits: '0123456789' };
+  for (const prefix of ['+81', '+999', '+6112345', '+9711']) {
+    const result = readPhoneCode(prefix, initial);
+    assert.equal(result.draft.prefix, prefix);
+    assert.equal(result.draft.digits, initial.digits);
+    assert.equal(result.unsupported, true);
+    assert.equal(phoneCountry(result.draft), undefined);
+    assert.equal(phoneDetails(result.draft).possible, false);
+  }
+  assert.equal(readPhoneCode('+a44 ', initial).draft.prefix, '+44');
+});
+
+test('shared +1 defaults to US and respects explicitly selected Canada in the split fields', () => {
+  const foreign = { country: 'GB', prefix: '+44', digits: '1111111111' };
+  assert.equal(readPhoneCode('+1', foreign).draft.country, 'US');
+  const canada = choosePhoneCountry(foreign, 'CA');
+  const result = readPhoneCode('+1', readPhoneCode('', canada).draft).draft;
+  assert.equal(result.country, 'CA');
+  assert.equal(phoneDetails(result).international, '+11111111111');
+  assert.equal(phoneDetails(result).possible, true);
+  assert.deepEqual(choosePhoneCountry(DEFAULT_PHONE, 'CA'), { country: 'CA', digits: '' });
+});
+
+test('full international paste separates code and national digits including repeated ones', () => {
+  for (const [text, prefix, country, digits] of [
+    ['+1 (111) 111-1111', '+1', 'US', '1111111111'],
+    ['+44 7700 900123', '+44', 'GB', '7700900123'],
+    ['+62 812 3456 7890', '+62', 'ID', '81234567890'],
+  ]) {
+    const result = readEditablePhone(text, 'US');
+    assert.deepEqual(result.draft, { prefix, country, digits });
+    assert.equal(result.unsupported, false);
+    assert.equal(phoneDetails(result.draft).possible, true);
+  }
+  const unsupported = readEditablePhone('+81 9012345678', 'US');
+  assert.equal(unsupported.draft.prefix, '+81');
+  assert.equal(unsupported.draft.digits, '9012345678');
+  assert.equal(unsupported.unsupported, true);
+});
+
+test('country picker replaces a blank/unsupported code and preserves number overflow', () => {
+  for (const prefix of ['', '+81', '+999123']) {
+    const selected = choosePhoneCountry({ country: 'GB', prefix, digits: '1111111111123' }, 'US');
+    assert.equal(selected.prefix, '+1');
+    assert.equal(selected.digits, '1111111111123');
+    assert.equal(phoneDetails(selected).formatted, '111 111 1111123');
+    assert.equal(phoneDetails(selected).possible, false);
+    assert.equal(phoneCountry(selected)?.id, 'US');
+  }
 });
