@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-23",
+  "url": "https://prana-mobile-01.vercel.app",
+  "device": "iPhone",
+  "twoFields": true,
+  "nationalTenOnesEnablesSms": true,
+  "clearCodeDisablesSms": true,
+  "typed62SelectsIndonesia": true,
+  "nationalDigitsPreservedVisually": true,
+  "restored1AndSms1111OpensMenu": true,
+  "console": [],
+  "limitations": [
+    "Physical device and screen reader not tested.",
+    "Initial native AX text injection produced +162; repeated with browser keyboard events produced +62 correctly."
+  ]
+}

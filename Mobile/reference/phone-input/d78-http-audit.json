@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-23",
+  "url": "https://prana-mobile-01.vercel.app",
+  "checks": [
+    {
+      "path": "/assets/index-W_YkeRgM.js",
+      "status": 200,
+      "bytes": 858914,
+      "sha256": "efe5c62fedbc9fa32176c2d7c2dae9b0380f1b108dd6b138143fa4550c62839f",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/index-BC4_69US.css",
+      "status": 200,
+      "bytes": 99257,
+      "sha256": "67633af7ff484f2c31f7119dbbbfea3bcee5edf40ea537f38f7497a50e37a12f",
+      "matchesLocal": true
+    }
+  ],
+  "status": 200
+}

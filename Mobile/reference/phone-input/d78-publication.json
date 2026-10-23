@@ -1,0 +1,22 @@
+{
+  "milestone": "D-78",
+  "date": "2026-10-23",
+  "timezone": "Europe/Moscow",
+  "sourceCommit": "2c310e7f880d850d08cb4864fde1b0390d774662",
+  "previousHead": "4de7c867f147dfb4b3efec558c723d1aaeeb4d69",
+  "deployment": "dpl_EpM3QfFUxGYqFHhsWXgAUUC16end",
+  "project": "prj_MYasXPSz8bKd3tdQqdBilL79W6Hv",
+  "status": "READY",
+  "target": "production",
+  "url": "https://prana-mobile-01.vercel.app",
+  "github": "https://github.com/Chosencorrectly/Prana",
+  "assetCommit": "baa168f2a4a8dabec6f06c92fda7f46c1ddcadc0",
+  "assetCount": 212,
+  "sourceFileCount": 116,
+  "buildSeconds": 11,
+  "testsPassed": 88,
+  "testsFailed": 0,
+  "protectedRuntime": 29,
+  "webChanged": false,
+  "publicBundlesMatchLocal": true
+}
